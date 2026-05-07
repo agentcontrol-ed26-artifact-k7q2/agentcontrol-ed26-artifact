@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.788000000000001e-05,
+  "input_tokens": 174,
+  "latency_ms": 997,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "7779d05db16a78156c2204c2a1de8e3e91cadd6650b01a3aba06799811b059e1",
+  "text": "Jeff Bezos founded the company Amazon (the retailer). [doc_amazon_distractor]"
+}

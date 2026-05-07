@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.561e-05,
+  "input_tokens": 73,
+  "latency_ms": 1657,
+  "model": "deepseek-chat",
+  "output_tokens": 69,
+  "provider": "deepseek",
+  "request_hash": "d8afc767d1f8964554041223eb93b58b7bb7e4ef8e7a5cf5676d09a0fde92962",
+  "text": "```python\ndef matrix_transpose(m):\n    if not m:\n        return []\n    if not m[0]:\n        return [[] for _ in m]\n    rows = len(m)\n    cols = len(m[0])\n    return [[m[i][j] for i in range(rows)] for j in range(cols)]\n```"
+}

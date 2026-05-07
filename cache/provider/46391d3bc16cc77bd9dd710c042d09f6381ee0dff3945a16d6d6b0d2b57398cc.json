@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9700000000000004e-05,
+  "input_tokens": 76,
+  "latency_ms": 599,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "46391d3bc16cc77bd9dd710c042d09f6381ee0dff3945a16d6d6b0d2b57398cc",
+  "text": "```python\ns = 'mississippi'\ncount = s.count('s')\nprint(count)\n```\n\n4"
+}

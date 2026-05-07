@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045241000000000004,
+  "input_tokens": 70,
+  "latency_ms": 3244,
+  "model": "deepseek-reasoner",
+  "output_tokens": 189,
+  "provider": "deepseek",
+  "request_hash": "fe6a9fdd986ca2dc574f13b63f5a12c86e098bca8b627ef139909dc25837e921",
+  "text": "The most common mistake is assuming the pattern is additive (adding 3) rather than multiplicative (multiplying by 2)."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010823,
+  "input_tokens": 79,
+  "latency_ms": 1691,
+  "model": "deepseek-chat",
+  "output_tokens": 79,
+  "provider": "deepseek",
+  "request_hash": "dac162bacc44fad57d4cacac79a41b34a599d8e463ce3a15ffddcd5cc8402c0f",
+  "text": "```python\nimport math\n\nxs = [4, 8, 15, 16, 23, 42]\nn = len(xs)\nmean = sum(xs) / n\nvariance = sum((x - mean) ** 2 for x in xs) / n\nstd_dev = math.sqrt(variance)\nprint(f\"{std_dev:.2f}\")\n```"
+}

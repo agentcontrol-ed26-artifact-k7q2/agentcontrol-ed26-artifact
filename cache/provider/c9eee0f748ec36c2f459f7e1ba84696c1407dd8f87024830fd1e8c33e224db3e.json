@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016192000000000002,
+  "input_tokens": 84,
+  "latency_ms": 1233,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 100,
+  "provider": "together",
+  "request_hash": "c9eee0f748ec36c2f459f7e1ba84696c1407dd8f87024830fd1e8c33e224db3e",
+  "text": "12\n1. 48 / 12 = 4, 60 / 12 = 5 \n2. Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48, Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.685000000000001e-05,
+  "input_tokens": 265,
+  "latency_ms": 1130,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "cb3b50b01302c512c39a97be1dccff49ecaf8b34ef86aab92e5b41d3a6d8295e",
+  "text": "The first summiter of Everest, Edmund Hillary, was born in 1919. [doc_everest]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004688,
+  "input_tokens": 56,
+  "latency_ms": 3123,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "7f6135c3db9a94ce983d51ee75529267cf00636dc16526a1db8bc64161c2b96b",
+  "text": "**Hint:** Use dynamic"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001113,
+  "input_tokens": 292,
+  "latency_ms": 1019,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 79,
+  "provider": "together",
+  "request_hash": "c76287b9dc51f17dc2b8207e946145923f9b184ea363aa61b60fbf38b4be27e5",
+  "text": "The question does not provide a clear cause of death for the husband of the discoverer of radium. However, given the context, the discoverer of radium is Marie Curie. Marie Curie's husband, Pierre Curie, died in 1906 due to accidental head injuries from being hit by a horse-drawn wagon. [doc_curie_irene]"
+}

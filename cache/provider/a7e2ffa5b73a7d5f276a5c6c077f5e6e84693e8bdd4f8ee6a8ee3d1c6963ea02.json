@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010824,
+  "input_tokens": 92,
+  "latency_ms": 2942,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "a7e2ffa5b73a7d5f276a5c6c077f5e6e84693e8bdd4f8ee6a8ee3d1c6963ea02",
+  "text": "The most common mistake to avoid when calculating 100 - 37 is subtracting the larger number from the smaller number, resulting in a negative answer."
+}

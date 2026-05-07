@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001892,
+  "input_tokens": 204,
+  "latency_ms": 967,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "d65eb3b5ba3c7f496422d058e8a5f9d1bbf37b4631145eed77aa5e53cd10f954",
+  "text": "The answer is Albert Einstein [doc_einstein]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001584,
+  "input_tokens": 170,
+  "latency_ms": 553,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "9fee9e33e85184b600864ea9e4c4c2819a72b214aa3b717da1ef0aaccfc2648b",
+  "text": "Edmund Hillary [doc_everest]"
+}

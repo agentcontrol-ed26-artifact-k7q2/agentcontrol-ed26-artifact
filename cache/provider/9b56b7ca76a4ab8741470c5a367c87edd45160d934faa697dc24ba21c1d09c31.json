@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013992,
+  "input_tokens": 86,
+  "latency_ms": 2114,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 73,
+  "provider": "together",
+  "request_hash": "9b56b7ca76a4ab8741470c5a367c87edd45160d934faa697dc24ba21c1d09c31",
+  "text": "To solve this problem, you can use bitwise operations, specifically XOR, which has the property that a ^ a = 0 and a ^ 0 = a, allowing you to eliminate numbers that appear twice.\n\n```python\ndef single_number(xs):\n    result = 0\n    for x in xs:\n        result ^= x\n    return result\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027632,
+  "input_tokens": 291,
+  "latency_ms": 706,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "08adbaffd852d360052b015857ec6861834db7d05fcc7fb69e30300db9538e47",
+  "text": "There is no evidence of a sister of Marie Curie winning a Nobel Prize [doc_curie_marie]"
+}

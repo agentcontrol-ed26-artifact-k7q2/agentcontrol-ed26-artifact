@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.247e-05,
+  "input_tokens": 191,
+  "latency_ms": 924,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "26c303045a1f7b371845f40524905d0c0ff9cc469fcbcd17ed23ef200d32f7e2",
+  "text": "The first person to walk on the Moon was born in Ohio. [doc_armstrong]"
+}

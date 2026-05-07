@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033571999999999996,
+  "input_tokens": 260,
+  "latency_ms": 1743,
+  "model": "deepseek-reasoner",
+  "output_tokens": 88,
+  "provider": "deepseek",
+  "request_hash": "de3028dd98a5e046ee3ced91112e1a33744239e38d999f5fa2f0ae841daa8a3f",
+  "text": "the first sustained powered flight [doc_wright_flight]"
+}

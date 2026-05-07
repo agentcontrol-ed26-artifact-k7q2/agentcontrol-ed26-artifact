@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000227,
+  "input_tokens": 134,
+  "latency_ms": 1693,
+  "model": "deepseek-reasoner",
+  "output_tokens": 70,
+  "provider": "deepseek",
+  "request_hash": "aceb76fda6f710cc7954ee0aa8596a99ac357a3c7490f65d0ba94f4950a4e941",
+  "text": "discovery of the photoelectric effect [doc_einstein]"
+}

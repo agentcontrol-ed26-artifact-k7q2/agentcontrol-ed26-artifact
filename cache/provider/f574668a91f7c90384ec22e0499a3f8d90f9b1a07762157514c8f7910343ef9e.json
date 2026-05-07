@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026048,
+  "input_tokens": 96,
+  "latency_ms": 6982,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "f574668a91f7c90384ec22e0499a3f8d90f9b1a07762157514c8f7910343ef9e",
+  "text": "To solve this problem, you can use a depth-first search (DFS) approach with a twist: instead of exploring as far as possible along each branch before backtracking, you should add nodes to the ordering as you backtrack, which ensures that for every edge (u, v), node u comes after node v in the ordering.\n\n```python\ndef topological_sort(n, edges):\n    graph = [[] for _ in range(n)]\n    visited = [0 for _ in range(n)]\n    ordering = []\n    for u, v in edges:\n        graph[u].append(v)\n\n    def dfs(node):\n        if visited[node] == -1:\n            return False\n        if visited[node] == 1:\n            return True\n        visited[node] = -1\n        for neighbor in graph[node]:\n            if not dfs(neighbor):\n                return False\n        visited[node] = 1\n        ordering.append(node)\n        return True\n\n    for node in range(n):\n        if"
+}

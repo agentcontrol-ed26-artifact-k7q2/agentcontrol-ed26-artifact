@@ -1,0 +1,10 @@
+providers:
+  dummy:
+    enabled: true
+    real_api: false
+  deepseek:
+    enabled: false
+    real_api: true
+    requires_user_approval: true
+    cheap_model: deepseek-v4-flash
+    strong_model: deepseek-v4-pro

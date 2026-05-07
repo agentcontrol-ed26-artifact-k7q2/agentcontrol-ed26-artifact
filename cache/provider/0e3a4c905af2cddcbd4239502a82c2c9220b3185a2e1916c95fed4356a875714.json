@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025079999999999997,
+  "input_tokens": 98,
+  "latency_ms": 1271,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 187,
+  "provider": "together",
+  "request_hash": "0e3a4c905af2cddcbd4239502a82c2c9220b3185a2e1916c95fed4356a875714",
+  "text": "The most common bug to avoid in this task is not properly handling the grid boundaries and adjacent cell indices when performing the depth-first search. \n\n```python\ndef count_islands(grid):\n    if not grid:\n        return 0\n\n    rows, cols = len(grid), len(grid[0])\n    islands = 0\n\n    def dfs(r, c):\n        if 0 <= r < rows and 0 <= c < cols and grid[r][c] == 1:\n            grid[r][c] = 0\n            dfs(r - 1, c)\n            dfs(r + 1, c)\n            dfs(r, c - 1)\n            dfs(r, c + 1)\n\n    for r in range(rows):\n        for c in range(cols):\n            if grid[r][c] == 1:\n                islands += 1\n                dfs(r, c)\n\n    return islands\n```"
+}

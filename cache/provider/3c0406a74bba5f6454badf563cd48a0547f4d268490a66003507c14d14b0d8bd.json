@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022968,
+  "input_tokens": 239,
+  "latency_ms": 3368,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "3c0406a74bba5f6454badf563cd48a0547f4d268490a66003507c14d14b0d8bd",
+  "text": "To find the answer, look at doc_darwin \nAnswer phrase: [doc_darwin]"
+}

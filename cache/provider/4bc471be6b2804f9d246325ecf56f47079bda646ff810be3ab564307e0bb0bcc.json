@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002224,
+  "input_tokens": 70,
+  "latency_ms": 3324,
+  "model": "deepseek-chat",
+  "output_tokens": 185,
+  "provider": "deepseek",
+  "request_hash": "4bc471be6b2804f9d246325ecf56f47079bda646ff810be3ab564307e0bb0bcc",
+  "text": "We have a 3x3 grid with coordinates from (0,0) to (2,2).  \nThe robot starts at (0,0) and needs to reach (2,2).  \nObstacle at (1,1) cannot be entered.  \n\nPossible paths avoiding (1,1):  \n\n- (0,0) \u2192 (0,1) \u2192 (0,2) \u2192 (1,2) \u2192 (2,2): 4 moves  \n- (0,0) \u2192 (1,0) \u2192 (2,0) \u2192 (2,1) \u2192 (2,2): 4 moves  \n- (0,0) \u2192 (0,1) \u2192 (1,1) is blocked, so not allowed.  \n\nThe shortest path length is 4 moves, each costing 1, so total cost = 4.\n\nFinal integer: 4"
+}

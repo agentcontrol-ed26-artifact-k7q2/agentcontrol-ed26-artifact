@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030882999999999996,
+  "input_tokens": 235,
+  "latency_ms": 1905,
+  "model": "deepseek-reasoner",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "08570074527c392ef9f7140c1b204430a8b0d087692420c8f46fcc6209177c8f",
+  "text": "The Nile River is the longest river in the world. [doc_nile_river]"
+}

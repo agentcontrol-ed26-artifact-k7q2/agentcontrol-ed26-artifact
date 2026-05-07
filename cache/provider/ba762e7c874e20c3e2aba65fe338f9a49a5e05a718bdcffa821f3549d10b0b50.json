@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028749,
+  "input_tokens": 87,
+  "latency_ms": 3388,
+  "model": "deepseek-chat",
+  "output_tokens": 240,
+  "provider": "deepseek",
+  "request_hash": "ba762e7c874e20c3e2aba65fe338f9a49a5e05a718bdcffa821f3549d10b0b50",
+  "text": "We can compute the Pearson correlation coefficient and check if it is exactly 1 or -1 (perfect linear relationship).  \n\n```python\nimport math\n\npairs = [(1,2),(2,4),(3,6),(4,8),(5,10)]\n\nn = len(pairs)\nsum_x = sum(x for x, y in pairs)\nsum_y = sum(y for x, y in pairs)\nsum_xy = sum(x * y for x, y in pairs)\nsum_x2 = sum(x * x for x, y in pairs)\nsum_y2 = sum(y * y for x, y in pairs)\n\nnumerator = n * sum_xy - sum_x * sum_y\ndenominator = math.sqrt((n * sum_x2 - sum_x**2) * (n * sum_y2 - sum_y**2))\n\nif denominator == 0:\n    r = 0\nelse:\n    r = numerator / denominator\n\nif abs(r - 1.0) < 1e-9 or abs(r + 1.0) < 1e-9:\n    print(1)\nelse:\n    print(0)\n```"
+}

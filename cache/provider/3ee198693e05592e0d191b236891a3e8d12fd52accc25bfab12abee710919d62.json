@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001272,
+  "input_tokens": 270,
+  "latency_ms": 1122,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 154,
+  "provider": "together",
+  "request_hash": "3ee198693e05592e0d191b236891a3e8d12fd52accc25bfab12abee710919d62",
+  "text": "```python\ndef topological_sort(n, edges):\n    graph = [[] for _ in range(n)]\n    for u, v in edges:\n        graph[u].append(v)\n\n    visited = [0] * n\n    ordering = []\n\n    def dfs(node):\n        if visited[node] == -1:\n            return False\n        if visited[node] == 1:\n            return True\n        visited[node] = -1\n        for neighbor in graph[node]:\n            if not dfs(neighbor):\n                return False\n        visited[node] = 1\n        ordering.append(node)\n        return True\n\n    for node in range(n):\n        if visited[node] == 0 and not dfs(node):\n            return []\n\n    return ordering[::-1]\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.6700000000000003e-05,
+  "input_tokens": 120,
+  "latency_ms": 1186,
+  "model": "deepseek-chat",
+  "output_tokens": 13,
+  "provider": "deepseek",
+  "request_hash": "04df7b18f8fab5985e088e17786d35713b94c2bba4208f835af884193c50721c",
+  "text": "Python was first released in 1991 [doc_python]."
+}

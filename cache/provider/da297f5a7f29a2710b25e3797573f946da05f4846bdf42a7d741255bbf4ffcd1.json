@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.63e-05,
+  "input_tokens": 213,
+  "latency_ms": 269,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "da297f5a7f29a2710b25e3797573f946da05f4846bdf42a7d741255bbf4ffcd1",
+  "text": "Netherlands [doc_python2]"
+}

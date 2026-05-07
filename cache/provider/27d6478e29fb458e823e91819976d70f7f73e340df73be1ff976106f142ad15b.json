@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010648,
+  "input_tokens": 97,
+  "latency_ms": 426,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "27d6478e29fb458e823e91819976d70f7f73e340df73be1ff976106f142ad15b",
+  "text": "```python\ndef max_of_three(a, b, c):\n    return max(a, b, c)\n```"
+}

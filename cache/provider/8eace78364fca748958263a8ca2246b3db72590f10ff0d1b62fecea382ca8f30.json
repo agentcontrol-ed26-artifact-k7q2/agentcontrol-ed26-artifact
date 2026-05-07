@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024366,
+  "input_tokens": 228,
+  "latency_ms": 1590,
+  "model": "deepseek-reasoner",
+  "output_tokens": 54,
+  "provider": "deepseek",
+  "request_hash": "8eace78364fca748958263a8ca2246b3db72590f10ff0d1b62fecea382ca8f30",
+  "text": "Charles Darwin [doc_darwin_origin]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046990000000000004,
+  "input_tokens": 58,
+  "latency_ms": 3142,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "9085c3c1d6597f90ddc6db92470136325bcf647c8c0b294e6b0665c5fcac9b1c",
+  "text": "The most common mistake is to treat"
+}

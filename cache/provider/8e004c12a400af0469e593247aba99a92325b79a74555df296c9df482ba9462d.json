@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.1e-05,
+  "input_tokens": 259,
+  "latency_ms": 525,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "8e004c12a400af0469e593247aba99a92325b79a74555df296c9df482ba9462d",
+  "text": "Buzz Aldrin [doc_aldrin_bio]"
+}

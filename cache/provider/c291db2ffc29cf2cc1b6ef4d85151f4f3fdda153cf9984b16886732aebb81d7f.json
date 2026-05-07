@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792,
+  "input_tokens": 102,
+  "latency_ms": 583,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "c291db2ffc29cf2cc1b6ef4d85151f4f3fdda153cf9984b16886732aebb81d7f",
+  "text": "The most common mistake to avoid is forgetting to include 1 and the number itself when calculating the sum of divisors of a perfect number like 28."
+}

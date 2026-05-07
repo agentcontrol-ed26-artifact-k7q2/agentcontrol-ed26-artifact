@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011704,
+  "input_tokens": 98,
+  "latency_ms": 669,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "c7c70ce8040e59d5f5670f5d06f4894bc0cd71e60e7d439d647373d2bdc4be43",
+  "text": "A bulb will be toggled an odd number of times if and only if it has an odd number of factors, which happens when the bulb number is a perfect square."
+}

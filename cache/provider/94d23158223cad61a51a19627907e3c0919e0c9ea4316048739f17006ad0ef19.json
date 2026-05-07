@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045582,
+  "input_tokens": 120,
+  "latency_ms": 3015,
+  "model": "deepseek-reasoner",
+  "output_tokens": 178,
+  "provider": "deepseek",
+  "request_hash": "94d23158223cad61a51a19627907e3c0919e0c9ea4316048739f17006ad0ef19",
+  "text": "Hint: doc_apollo"
+}

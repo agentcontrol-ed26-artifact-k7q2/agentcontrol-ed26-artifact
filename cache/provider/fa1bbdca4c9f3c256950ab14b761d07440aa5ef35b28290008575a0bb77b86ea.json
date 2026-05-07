@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.288000000000001e-05,
+  "input_tokens": 184,
+  "latency_ms": 1005,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "fa1bbdca4c9f3c256950ab14b761d07440aa5ef35b28290008575a0bb77b86ea",
+  "text": "The photoelectric effect [doc_einstein_nobel]"
+}

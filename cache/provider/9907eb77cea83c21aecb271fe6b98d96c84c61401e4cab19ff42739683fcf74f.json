@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015840000000000003,
+  "input_tokens": 162,
+  "latency_ms": 4014,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "9907eb77cea83c21aecb271fe6b98d96c84c61401e4cab19ff42739683fcf74f",
+  "text": "Hint: doc_planck \nAnswer phrase: Max Planck [doc_planck]"
+}

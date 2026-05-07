@@ -1,0 +1,39 @@
+cluster_preference: cluster_a       # cluster_b marked unreliable; cluster_a is primary
+cluster:
+  cluster_a:
+    login_host: [ANONYMIZED_HOST]
+    workspace: ~/scratch/agentcontrol_apollo
+    conda_env: ~/scratch/compute_workspace/env
+    preferred_partition: normal_gpu
+    preferred_qos: normal
+    account: [ANONYMIZED_ACCOUNT]
+    walltime_cap_hours: 8
+    notes: |
+      normal_gpu: H200 / H100 / L40S, 6h cap by default; need 8h fallback to preemptable.
+      Use --account=[ANONYMIZED_ACCOUNT] --qos=normal explicitly.
+      Confirmed cluster_a session is open and idle.
+approval_env_var: AGENTCONTROL_APOLLO_GPU_APPROVED
+default_policy:
+  audit_only_until_approved: true
+  no_jobs_without_approval_env: true
+  no_lora_without_explicit_approval: true
+  no_finetune_without_explicit_approval: true
+  no_rl: true
+deferred_experiment_a_kv_readout:
+  model: Qwen/Qwen2.5-7B-Instruct       # ~14 GB fp16; fits H200 1× easily
+  estimated_resources:
+    gpus: 1
+    memory_gb: 64
+    cpus: 8
+    walltime: "06:00:00"
+    disk_gb: 30                         # model weights + intermediate embeddings
+  expected_artifact:
+    - per-task last-layer hidden state vectors saved to numpy
+    - linear probe + small-MLP head per control label
+    - latency benchmark: forward-pass + linear-head time vs external small-classifier prefill
+    - downstream policy utility on held-out control decisions
+  stop_criteria:
+    - probe accuracy < TF-IDF + LR baseline → KILL
+    - downstream policy quality below external-router baseline → KILL
+    - latency overhead > external-router latency → KILL
+    - VRAM > 14 GB or walltime > 6 h → KILL (safety)

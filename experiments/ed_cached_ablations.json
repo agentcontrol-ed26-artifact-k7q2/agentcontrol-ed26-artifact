@@ -1,0 +1,808 @@
+{
+  "budget": 20.0,
+  "cost_penalty": 0.01,
+  "n_total": 28,
+  "A_verifier": {
+    "automix_self_verification_cascade": {
+      "verifier_aware": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.6785714285714284,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9732142857142859
+      },
+      "no_verifier": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 12.0,
+        "avg_latency_ms": 3.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8799999999999999
+      },
+      "cost_saving_due_to_verifier_pct": 77.67857142857143,
+      "per_family_verifier_aware": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 9.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9075
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      },
+      "per_family_no_verifier": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 12.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.88
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 12.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.88
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 12.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8800000000000002
+        }
+      }
+    },
+    "shepherding_hint": {
+      "verifier_aware": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.8214285714285716,
+        "avg_latency_ms": 2.2142857142857144,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9717857142857147
+      },
+      "no_verifier": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 4.0,
+        "avg_latency_ms": 3.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9600000000000006
+      },
+      "cost_saving_due_to_verifier_pct": 29.464285714285708,
+      "per_family_verifier_aware": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 3.1,
+          "avg_latency_ms": 2.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9690000000000005
+        }
+      },
+      "per_family_no_verifier": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.96
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.96
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 3.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9600000000000005
+        }
+      }
+    },
+    "heuristic_bdelg": {
+      "verifier_aware": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "no_verifier": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 15.0,
+        "avg_latency_ms": 5.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8500000000000003
+      },
+      "cost_saving_due_to_verifier_pct": 87.14285714285714,
+      "per_family_verifier_aware": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 3.25,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.96
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      },
+      "per_family_no_verifier": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 15.0,
+          "avg_latency_ms": 5.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.85
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 15.0,
+          "avg_latency_ms": 5.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.85
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 15.0,
+          "avg_latency_ms": 5.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8499999999999999
+        }
+      }
+    },
+    "oracle_deliberation_graph": {
+      "verifier_aware": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "no_verifier": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.8214285714285716,
+        "avg_latency_ms": 2.2142857142857144,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9717857142857147
+      },
+      "cost_saving_due_to_verifier_pct": 35.44303797468355,
+      "per_family_verifier_aware": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      },
+      "per_family_no_verifier": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 3.1,
+          "avg_latency_ms": 2.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9690000000000005
+        }
+      }
+    }
+  },
+  "B_partial_strong": {
+    "oracle_graph_with_strong_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "oracle_graph_without_strong_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "oracle_graph_full_strong_only": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 6.464285714285714,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9353571428571424
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 7.3,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9269999999999999
+        }
+      }
+    },
+    "heuristic_bdelg_with_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 3.25,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.96
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "heuristic_bdelg_no_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.6785714285714284,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9732142857142859
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 9.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9075
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "_note": "code n=4; partial-strong evidence remains underpowered for any method claim."
+  },
+  "C_repair": {
+    "graph_full": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "graph_no_cheap_repair": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.8214285714285716,
+        "avg_latency_ms": 2.2142857142857144,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9717857142857147
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 3.1,
+          "avg_latency_ms": 2.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9690000000000005
+        }
+      }
+    },
+    "graph_no_cheap_repair_after_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "graph_only_cheap_and_strong": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 6.464285714285714,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9353571428571424
+      },
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 7.3,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9269999999999999
+        }
+      }
+    }
+  },
+  "D_action_set": {
+    "query_only": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 6.464285714285714,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9353571428571424
+      },
+      "cost_saving_vs_oracle_query_router_pct": -162.31884057971013,
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 7.3,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9269999999999999
+        }
+      }
+    },
+    "cascade_only": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "cost_saving_vs_oracle_query_router_pct": 0.0,
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "graph_no_hint": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "cost_saving_vs_oracle_query_router_pct": 0.0,
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 7.75,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9225
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "graph_no_repair": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.8214285714285716,
+        "avg_latency_ms": 2.2142857142857144,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9717857142857147
+      },
+      "cost_saving_vs_oracle_query_router_pct": -14.492753623188408,
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 3.1,
+          "avg_latency_ms": 2.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9690000000000005
+        }
+      }
+    },
+    "graph_full": {
+      "aggregate": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "cost_saving_vs_oracle_query_router_pct": 26.086956521739136,
+      "per_family": {
+        "code": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 3.25,
+          "avg_latency_ms": 2.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9675
+        },
+        "evidence": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math": {
+          "n": 20,
+          "success_rate": 1.0,
+          "avg_cost": 1.7,
+          "avg_latency_ms": 1.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9830000000000002
+        }
+      }
+    },
+    "_oracle_query_router_avg_cost": 2.4642857142857144
+  }
+}

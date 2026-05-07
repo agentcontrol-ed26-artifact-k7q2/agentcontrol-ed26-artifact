@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001672,
+  "input_tokens": 103,
+  "latency_ms": 811,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 87,
+  "provider": "together",
+  "request_hash": "a3d8b4601ab51ecfb646a468fa0233d42e2d7e64e69def7317acc8893c68a700",
+  "text": "```python\ndef spiral_order(m):\n    result = []\n    while m:\n        result += m.pop(0)\n        if m and m[0]:\n            for row in m:\n                result.append(row.pop())\n        if m:\n            result += m.pop()[::-1]\n        if m and m[0]:\n            for row in m[::-1]:\n                result.append(row.pop(0))\n    return result\n```"
+}

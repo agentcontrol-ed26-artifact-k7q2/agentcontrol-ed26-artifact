@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011423000000000001,
+  "input_tokens": 89,
+  "latency_ms": 1620,
+  "model": "deepseek-chat",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "8ccf59954e20877fa48311f8e83cfe6745b2319cc92396714fdffbc8bf0bc532",
+  "text": "```python\ndata = [(10,3),(20,2),(15,5),(8,7),(25,1)]\ntotal_qty = sum(q for _, q in data)\nweighted_sum = sum(p * q for p, q in data)\navg = weighted_sum / total_qty\nresult = int(avg)  # floor/round down to nearest integer\nprint(result)\n```"
+}

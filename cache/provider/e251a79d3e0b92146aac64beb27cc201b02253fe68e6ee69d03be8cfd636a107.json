@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011189999999999998,
+  "input_tokens": 237,
+  "latency_ms": 1275,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 136,
+  "provider": "together",
+  "request_hash": "e251a79d3e0b92146aac64beb27cc201b02253fe68e6ee69d03be8cfd636a107",
+  "text": "```python\nfrom collections import Counter\n\ndef find_anagrams(s, p):\n    p_count = Counter(p)\n    s_count = Counter()\n    anagrams = []\n    for i, c in enumerate(s):\n        s_count[c] += 1\n        if i >= len(p):\n            s_count[s[i - len(p)]] -= 1\n            if s_count[s[i - len(p)]] == 0:\n                del s_count[s[i - len(p)]]\n        if i >= len(p) - 1 and s_count == p_count:\n            anagrams.append(i - len(p) + 1)\n    return anagrams\n```"
+}

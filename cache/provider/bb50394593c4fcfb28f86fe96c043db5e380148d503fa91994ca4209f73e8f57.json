@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010061000000000001,
+  "input_tokens": 63,
+  "latency_ms": 1803,
+  "model": "deepseek-chat",
+  "output_tokens": 76,
+  "provider": "deepseek",
+  "request_hash": "bb50394593c4fcfb28f86fe96c043db5e380148d503fa91994ca4209f73e8f57",
+  "text": "We need the hypotenuse of a right triangle with legs 3 and 4.  \n\nStep 1: Square the legs:  \n3\u00b2 = 9  \n4\u00b2 = 16  \n\nStep 2: Sum the squares:  \n9 + 16 = 25  \n\nStep 3: Take the square root:  \n\u221a25 = 5  \n\nFinal answer:  \n5"
+}

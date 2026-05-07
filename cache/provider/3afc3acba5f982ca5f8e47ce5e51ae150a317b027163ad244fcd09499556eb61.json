@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.390000000000001e-05,
+  "input_tokens": 110,
+  "latency_ms": 1151,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 103,
+  "provider": "together",
+  "request_hash": "3afc3acba5f982ca5f8e47ce5e51ae150a317b027163ad244fcd09499556eb61",
+  "text": "To find the sum of the first 20 positive integers, we use the formula \\( \\frac{n(n+1)}{2} \\) with \\( n = 20 \\).\n\nFirst, compute \\( n(n+1) \\):\n\\[ 20 \\times 21 = 420 \\]\n\nNext, divide by 2:\n\\[ \\frac{420}{2} = 210 \\]\n\nThe final answer is:\n\\[ 210 \\]"
+}

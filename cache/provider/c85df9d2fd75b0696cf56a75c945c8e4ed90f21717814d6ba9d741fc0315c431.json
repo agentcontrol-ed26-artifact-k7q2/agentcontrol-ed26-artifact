@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013728,
+  "input_tokens": 99,
+  "latency_ms": 1082,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "c85df9d2fd75b0696cf56a75c945c8e4ed90f21717814d6ba9d741fc0315c431",
+  "text": "```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

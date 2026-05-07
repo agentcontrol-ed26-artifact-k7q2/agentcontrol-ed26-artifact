@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015893,
+  "input_tokens": 62,
+  "latency_ms": 1442,
+  "model": "deepseek-reasoner",
+  "output_tokens": 57,
+  "provider": "deepseek",
+  "request_hash": "34314437104812ec413fac9e6142ad988a75d7536e1ea66ba25484f6509c08d9",
+  "text": "The most common mistake is subtracting 5 only from the left side or forgetting to divide both sides by 3."
+}

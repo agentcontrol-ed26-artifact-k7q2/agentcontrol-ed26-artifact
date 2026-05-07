@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021912000000000003,
+  "input_tokens": 199,
+  "latency_ms": 1980,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "4c15fc38cdbd9cf1554ae51f5e78fbc2628f5a4039b83e7db228fd73613f7a36",
+  "text": "The most common citation mistake is incorrectly referencing a document that does not support the claim, such as citing doc_nile or doc_planck when answering a question about Albert Einstein.\nAnswer phrase: He won the Nobel Prize for [doc_einstein]"
+}

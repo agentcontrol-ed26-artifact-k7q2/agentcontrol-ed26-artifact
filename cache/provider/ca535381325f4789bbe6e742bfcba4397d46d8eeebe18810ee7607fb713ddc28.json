@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.68e-05,
+  "input_tokens": 67,
+  "latency_ms": 953,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 89,
+  "provider": "together",
+  "request_hash": "ca535381325f4789bbe6e742bfcba4397d46d8eeebe18810ee7607fb713ddc28",
+  "text": "```python\ndef binary_search(a, target):\n    left, right = 0, len(a) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n```"
+}

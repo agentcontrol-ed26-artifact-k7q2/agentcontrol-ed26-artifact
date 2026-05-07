@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144,
+  "input_tokens": 97,
+  "latency_ms": 2186,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "87f2edd28c5a8b41c91b35d90cd1d7a6c2138696b2e0e4419a844f7921a3dffb",
+  "text": "The most common mistake to avoid when solving the equation 4x - 7 = 21 is forgetting to add 7 to both sides of the equation before dividing by 4 to isolate x."
+}

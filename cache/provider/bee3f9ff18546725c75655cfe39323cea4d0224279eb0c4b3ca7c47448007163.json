@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026175,
+  "input_tokens": 237,
+  "latency_ms": 1652,
+  "model": "deepseek-reasoner",
+  "output_tokens": 60,
+  "provider": "deepseek",
+  "request_hash": "bee3f9ff18546725c75655cfe39323cea4d0224279eb0c4b3ca7c47448007163",
+  "text": "Ada Lovelace [doc_lovelace]"
+}

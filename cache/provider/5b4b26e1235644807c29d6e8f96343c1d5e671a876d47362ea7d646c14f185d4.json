@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012408,
+  "input_tokens": 84,
+  "latency_ms": 4124,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "5b4b26e1235644807c29d6e8f96343c1d5e671a876d47362ea7d646c14f185d4",
+  "text": "The sum of the digits of 999 is calculated as 9 + 9 + 9 = 27, and a typical arithmetic slip in this case would be writing 999 as 99 or 9999, which is an error of omission or commission of a digit."
+}

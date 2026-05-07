@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024728,
+  "input_tokens": 238,
+  "latency_ms": 765,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "0403c8d6d6dc944f2a9c1d7aafdf2e2a8317458940fa8e6d57d383c9ac2a9e91",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, often by not including the correct citation or by citing a source that does not support the claim.\nanswer [doc_darwin]"
+}

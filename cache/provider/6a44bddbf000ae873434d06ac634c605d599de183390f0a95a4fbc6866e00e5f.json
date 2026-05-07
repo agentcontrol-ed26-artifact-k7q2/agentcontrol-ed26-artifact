@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023394,
+  "input_tokens": 63,
+  "latency_ms": 2130,
+  "model": "deepseek-reasoner",
+  "output_tokens": 91,
+  "provider": "deepseek",
+  "request_hash": "6a44bddbf000ae873434d06ac634c605d599de183390f0a95a4fbc6866e00e5f",
+  "text": "25% = 1/4, so divide 320 by 4"
+}

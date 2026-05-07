@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031837,
+  "input_tokens": 109,
+  "latency_ms": 2247,
+  "model": "deepseek-reasoner",
+  "output_tokens": 118,
+  "provider": "deepseek",
+  "request_hash": "9df05c578b8464a9e236a5922f7ce882cafe8a31ad16b77ee22fb3b59e3f1816",
+  "text": "1. Check that the evidence document explicitly states the creator's full name and release year to confirm the information.\n2. Cross-verify the creator's name with a reliable external source or official Python documentation to ensure accuracy."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012494,
+  "input_tokens": 92,
+  "latency_ms": 1648,
+  "model": "deepseek-chat",
+  "output_tokens": 91,
+  "provider": "deepseek",
+  "request_hash": "b35d83d579bc67892022d5239dd46af14b0dbaef663bc9fdb4cefc5b1141baee",
+  "text": "```python\ndata = [(2018, 100), (2019, 120), (2020, 80), (2021, 150), (2022, 200)]\n\nmax_change = 0\nfor i in range(1, len(data)):\n    change = abs(data[i][1] - data[i-1][1])\n    if change > max_change:\n        max_change = change\n\nprint(max_change)\n```"
+}

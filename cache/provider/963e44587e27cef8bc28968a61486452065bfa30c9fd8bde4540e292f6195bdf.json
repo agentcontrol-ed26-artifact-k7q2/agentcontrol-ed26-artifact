@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00044979,
+  "input_tokens": 117,
+  "latency_ms": 3285,
+  "model": "deepseek-reasoner",
+  "output_tokens": 176,
+  "provider": "deepseek",
+  "request_hash": "963e44587e27cef8bc28968a61486452065bfa30c9fd8bde4540e292f6195bdf",
+  "text": "Adolf Hitler [doc_war]  \nThe most common citation mistake is using evidence that does not directly support the answer or citing the wrong document."
+}

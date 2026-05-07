@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032045,
+  "input_tokens": 65,
+  "latency_ms": 2620,
+  "model": "deepseek-reasoner",
+  "output_tokens": 130,
+  "provider": "deepseek",
+  "request_hash": "084382a9448f1f13feedc3bed28f108f7c60fe1ee0fe29129cb460e99f379cf8",
+  "text": "Prime factorize 360, then add 1 to each exponent and multiply."
+}

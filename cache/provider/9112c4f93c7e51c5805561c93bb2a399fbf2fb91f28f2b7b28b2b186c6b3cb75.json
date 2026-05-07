@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.71e-05,
+  "input_tokens": 234,
+  "latency_ms": 366,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "9112c4f93c7e51c5805561c93bb2a399fbf2fb91f28f2b7b28b2b186c6b3cb75",
+  "text": "Marie Curie shares a 1903 Nobel Prize and discovered radium [doc_curie]."
+}

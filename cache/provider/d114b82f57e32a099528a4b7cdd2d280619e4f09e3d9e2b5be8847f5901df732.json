@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047925,
+  "input_tokens": 75,
+  "latency_ms": 3129,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "d114b82f57e32a099528a4b7cdd2d280619e4f09e3d9e2b5be8847f5901df732",
+  "text": "```python\ndef rle_encode(s):\n    \"\"\"Return run-length encoding of string s as list of (char, count) tuples.\"\"\"\n    if not s:\n        return []\n    result = []\n    prev = s[0]\n    count = 1\n    for ch in s[1:]:\n        if ch == prev:\n            count += 1\n        else:\n            result.append((prev, count))\n            prev = ch\n           "
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002816,
+  "input_tokens": 293,
+  "latency_ms": 572,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "9e8b348c791a8b8e7e57bc89333a28546a4b360cae051071f1ba9671179c0aa0",
+  "text": "Einstein won the 1921 Nobel Prize for his discovery of the photoelectric effect, answer [doc_einstein_nobel]"
+}

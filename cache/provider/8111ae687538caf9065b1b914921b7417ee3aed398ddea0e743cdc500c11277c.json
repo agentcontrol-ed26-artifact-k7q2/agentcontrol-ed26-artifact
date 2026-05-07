@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.504e-05,
+  "input_tokens": 90,
+  "latency_ms": 479,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "8111ae687538caf9065b1b914921b7417ee3aed398ddea0e743cdc500c11277c",
+  "text": "To find the result, simply divide 144 by 12 using basic division operation."
+}

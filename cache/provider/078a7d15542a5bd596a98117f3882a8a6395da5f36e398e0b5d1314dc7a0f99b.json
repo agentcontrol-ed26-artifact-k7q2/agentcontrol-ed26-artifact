@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019984,
+  "input_tokens": 72,
+  "latency_ms": 2806,
+  "model": "deepseek-chat",
+  "output_tokens": 164,
+  "provider": "deepseek",
+  "request_hash": "078a7d15542a5bd596a98117f3882a8a6395da5f36e398e0b5d1314dc7a0f99b",
+  "text": "We can determine the number of bulbs that remain on by noting that a bulb toggles once for each divisor of its position number.  \nA bulb ends on if it is toggled an odd number of times, which happens when the position number has an odd number of divisors.  \nOnly perfect squares have an odd number of divisors.  \n\nFrom 1 to 100, the perfect squares are:  \n1\u00b2 = 1, 2\u00b2 = 4, 3\u00b2 = 9, 4\u00b2 = 16, 5\u00b2 = 25, 6\u00b2 = 36, 7\u00b2 = 49, 8\u00b2 = 64, 9\u00b2 = 81, 10\u00b2 = 100.  \n\nThat\u2019s 10 bulbs.\n\nFinal integer: 10"
+}

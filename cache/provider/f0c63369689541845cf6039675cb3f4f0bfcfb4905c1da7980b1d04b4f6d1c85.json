@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000194,
+  "input_tokens": 69,
+  "latency_ms": 1,
+  "model": "dummy-pro",
+  "output_tokens": 7,
+  "provider": "dummy",
+  "request_hash": "f0c63369689541845cf6039675cb3f4f0bfcfb4905c1da7980b1d04b4f6d1c85",
+  "text": "Guido van Rossum [doc_python]"
+}

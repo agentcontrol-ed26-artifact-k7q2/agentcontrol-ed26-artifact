@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00050235,
+  "input_tokens": 117,
+  "latency_ms": 3295,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "68081bca45285cb7e57abb8761bf332417d23b806f6655c11d39b91f3b064471",
+  "text": "Edmund Hillary and Tenzing Norgay [doc_everest]\nThe most common citation mistake is citing evidence that does not actually support"
+}

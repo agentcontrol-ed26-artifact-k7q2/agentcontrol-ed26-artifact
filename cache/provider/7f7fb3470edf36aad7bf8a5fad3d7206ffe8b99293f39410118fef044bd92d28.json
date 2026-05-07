@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029256000000000003,
+  "input_tokens": 78,
+  "latency_ms": 2135,
+  "model": "deepseek-reasoner",
+  "output_tokens": 114,
+  "provider": "deepseek",
+  "request_hash": "7f7fb3470edf36aad7bf8a5fad3d7206ffe8b99293f39410118fef044bd92d28",
+  "text": "- Verify that the author of \"On the Origin of Species\" is Charles Darwin as stated in the evidence [doc_evolution].\n- Verify that the publication year is 1859 as stated in the evidence [doc_evolution]."
+}

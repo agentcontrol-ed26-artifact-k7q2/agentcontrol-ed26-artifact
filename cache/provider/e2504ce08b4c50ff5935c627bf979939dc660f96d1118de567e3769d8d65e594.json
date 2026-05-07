@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00087059,
+  "input_tokens": 245,
+  "latency_ms": 4876,
+  "model": "deepseek-reasoner",
+  "output_tokens": 336,
+  "provider": "deepseek",
+  "request_hash": "e2504ce08b4c50ff5935c627bf979939dc660f96d1118de567e3769d8d65e594",
+  "text": "1933 [doc_einstein_birth]"
+}

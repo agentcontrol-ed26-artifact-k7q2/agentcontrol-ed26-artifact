@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020328000000000002,
+  "input_tokens": 218,
+  "latency_ms": 553,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "867141ef4526d48fcb0e04beb5180c1304c67d8ffddcca9da308b83545f3b140",
+  "text": "Hint: doc_darwin [doc_darwin]"
+}

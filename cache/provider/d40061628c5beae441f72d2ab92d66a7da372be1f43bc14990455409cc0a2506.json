@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.9220000000000006e-05,
+  "input_tokens": 36,
+  "latency_ms": 1384,
+  "model": "deepseek-chat",
+  "output_tokens": 45,
+  "provider": "deepseek",
+  "request_hash": "d40061628c5beae441f72d2ab92d66a7da372be1f43bc14990455409cc0a2506",
+  "text": "First, 25% means 25 per 100, or 0.25.  \nMultiply 0.25 by 60:  \n0.25 \u00d7 60 = 15.  \n\nFinal answer: 15"
+}

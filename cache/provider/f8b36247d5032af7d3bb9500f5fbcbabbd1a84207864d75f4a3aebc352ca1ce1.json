@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013868,
+  "input_tokens": 65,
+  "latency_ms": 1336,
+  "model": "deepseek-reasoner",
+  "output_tokens": 47,
+  "provider": "deepseek",
+  "request_hash": "f8b36247d5032af7d3bb9500f5fbcbabbd1a84207864d75f4a3aebc352ca1ce1",
+  "text": "Subtract 84 from 105 to get 21, then find GCD(84,21)."
+}

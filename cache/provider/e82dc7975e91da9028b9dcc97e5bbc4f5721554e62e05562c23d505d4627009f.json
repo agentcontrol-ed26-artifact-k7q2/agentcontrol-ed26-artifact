@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.41e-05,
+  "input_tokens": 212,
+  "latency_ms": 476,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "e82dc7975e91da9028b9dcc97e5bbc4f5721554e62e05562c23d505d4627009f",
+  "text": "There is no information provided about Marie Curie's sisters in the given documents, so I cannot answer which sister won a Nobel Prize. [doc_curie_marie]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.1740000000000004e-05,
+  "input_tokens": 122,
+  "latency_ms": 954,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "05725da750bb1b32a975dfd04d856102a3fd825fd11bfe75793313c192569b2a",
+  "text": "Adolf Hitler [doc_war]"
+}

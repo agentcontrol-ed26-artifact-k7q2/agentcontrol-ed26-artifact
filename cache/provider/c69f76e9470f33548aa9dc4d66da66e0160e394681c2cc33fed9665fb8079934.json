@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019501999999999999,
+  "input_tokens": 44,
+  "latency_ms": 1735,
+  "model": "deepseek-reasoner",
+  "output_tokens": 78,
+  "provider": "deepseek",
+  "request_hash": "c69f76e9470f33548aa9dc4d66da66e0160e394681c2cc33fed9665fb8079934",
+  "text": "The final price after a 20% discount on $50 is $40.\n\nFinal answer: 40"
+}

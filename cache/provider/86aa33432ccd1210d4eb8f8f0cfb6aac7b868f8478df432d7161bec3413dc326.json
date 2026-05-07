@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013904,
+  "input_tokens": 125,
+  "latency_ms": 887,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "86aa33432ccd1210d4eb8f8f0cfb6aac7b868f8478df432d7161bec3413dc326",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, such as not including the document title or identifier, like [doc_dna]."
+}

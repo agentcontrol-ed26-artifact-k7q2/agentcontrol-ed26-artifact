@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.53e-05,
+  "input_tokens": 212,
+  "latency_ms": 714,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "213e149515ea27a756b55e18034622013bbd3d761148c94b9e6a33ba42658bb0",
+  "text": "The evidence provided does not contain information about the discoverer of radium or their place of birth. Therefore, I cannot provide an answer based on the given documents. [doc_babbage]"
+}

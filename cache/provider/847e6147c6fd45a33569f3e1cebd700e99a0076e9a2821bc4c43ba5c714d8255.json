@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027192000000000004,
+  "input_tokens": 288,
+  "latency_ms": 548,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "847e6147c6fd45a33569f3e1cebd700e99a0076e9a2821bc4c43ba5c714d8255",
+  "text": "The longest river in the world primarily flows through Egypt and Sudan. [doc_nile_river]"
+}

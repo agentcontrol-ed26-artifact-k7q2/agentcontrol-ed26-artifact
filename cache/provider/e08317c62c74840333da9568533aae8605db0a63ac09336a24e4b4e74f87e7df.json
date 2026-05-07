@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010472000000000001,
+  "input_tokens": 86,
+  "latency_ms": 4162,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "e08317c62c74840333da9568533aae8605db0a63ac09336a24e4b4e74f87e7df",
+  "text": "1. Multiplication check: 12 * ? = 144\n2. Division check: 144 / 12 * 12 = 144 \n\n12"
+}

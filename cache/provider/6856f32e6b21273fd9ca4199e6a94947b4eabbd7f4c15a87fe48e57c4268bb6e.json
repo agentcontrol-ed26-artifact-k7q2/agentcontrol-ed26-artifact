@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001144,
+  "input_tokens": 96,
+  "latency_ms": 1211,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "6856f32e6b21273fd9ca4199e6a94947b4eabbd7f4c15a87fe48e57c4268bb6e",
+  "text": "The most common mistake to avoid when finding the greatest common divisor (GCD) is not using the Euclidean algorithm or prime factorization method correctly to ensure accuracy."
+}

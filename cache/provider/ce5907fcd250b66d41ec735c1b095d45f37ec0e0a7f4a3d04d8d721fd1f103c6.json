@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.6599999999999995e-05,
+  "input_tokens": 98,
+  "latency_ms": 484,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "ce5907fcd250b66d41ec735c1b095d45f37ec0e0a7f4a3d04d8d721fd1f103c6",
+  "text": "Python was created by Guido van Rossum and first released in 1991. [doc_python]"
+}

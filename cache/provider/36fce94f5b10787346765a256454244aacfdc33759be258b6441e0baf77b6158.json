@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010208,
+  "input_tokens": 97,
+  "latency_ms": 482,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "36fce94f5b10787346765a256454244aacfdc33759be258b6441e0baf77b6158",
+  "text": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n```"
+}

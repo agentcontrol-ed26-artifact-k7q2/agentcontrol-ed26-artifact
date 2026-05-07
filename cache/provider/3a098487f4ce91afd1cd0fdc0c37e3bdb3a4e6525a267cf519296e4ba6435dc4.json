@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030501,
+  "input_tokens": 240,
+  "latency_ms": 1829,
+  "model": "deepseek-reasoner",
+  "output_tokens": 79,
+  "provider": "deepseek",
+  "request_hash": "3a098487f4ce91afd1cd0fdc0c37e3bdb3a4e6525a267cf519296e4ba6435dc4",
+  "text": "Marie Curie [doc_curie_marie]"
+}

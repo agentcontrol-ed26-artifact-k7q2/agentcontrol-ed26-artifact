@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.68e-05,
+  "input_tokens": 98,
+  "latency_ms": 1729,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "39ddd985d226defa73953b2234687e3ec0d01f6459271a2cd7ff1e75b4be3b81",
+  "text": "Find the prime factorization of 96. \n96"
+}

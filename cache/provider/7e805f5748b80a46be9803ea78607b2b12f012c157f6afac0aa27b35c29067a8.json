@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.039e-05,
+  "input_tokens": 117,
+  "latency_ms": 799,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "7e805f5748b80a46be9803ea78607b2b12f012c157f6afac0aa27b35c29067a8",
+  "text": "Charles Babbage [doc_babbage]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00087397,
+  "input_tokens": 64,
+  "latency_ms": 5511,
+  "model": "deepseek-reasoner",
+  "output_tokens": 383,
+  "provider": "deepseek",
+  "request_hash": "71c4d6022be9c93d0ca64e3b973065443c62ed2ee65bb508dff7db20d3aae5a6",
+  "text": "```python\ndef subset_sum(xs, target):\n    \"\"\"\n    Returns True if some subset of nonnegative integers xs sums to target.\n    \"\"\"\n    if target < 0:\n        return False\n    reachable = {0}\n    for num in xs:\n        # Optimization: if num is 0, no change, skip?\n        # But keep it simple; adding 0 doesn't change reachable.\n        new_sums = {s + num for s in reachable}\n        reachable |= new_sums\n        if target in reachable:\n            return True\n    return target in reachable\n```"
+}

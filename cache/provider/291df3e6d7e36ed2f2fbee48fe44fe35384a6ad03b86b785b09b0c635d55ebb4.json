@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.809e-05,
+  "input_tokens": 117,
+  "latency_ms": 958,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "291df3e6d7e36ed2f2fbee48fe44fe35384a6ad03b86b785b09b0c635d55ebb4",
+  "text": "Pierre Curie and Marie Curie [doc_curie_pierre]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.775000000000002e-05,
+  "input_tokens": 195,
+  "latency_ms": 1333,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "18afbe92df3d7eac8fc467dbd3ed9fcf31f9e74440839cb44c1447ee9775a109",
+  "text": "Marie Curie's sister did not win a Nobel Prize; the evidence only mentions her daughter, Irene Joliot-Curie, who won the Nobel Prize. [doc_curie_irene]"
+}

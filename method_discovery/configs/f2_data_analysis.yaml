@@ -1,0 +1,40 @@
+seed: 20260427
+target_size: 50
+families:
+  data_analysis_code:
+    n: 50
+    provenance: |
+      n=20 inherited from main_rescue_gpu interactive_tasks.py (id_001..id_020);
+      n=30 new locally-constructed tasks (id_021..id_050) covering harder regimes
+      including multi-step aggregation, conditional filtering, group-by, weighted
+      stats, regex/text manipulation, time/percentage arithmetic, simple SQL-ish
+      questions over inline tables. All tasks have inline data and deterministic
+      verifiers; run_code returns model-emitted stdout (real, not gold-leaky).
+    interactive: true
+    available_observations: [run_code]
+    difficulty_distribution_target:
+      easy: 10
+      medium: 25
+      hard: 15
+price_model:
+  cheap_answer: 1.0
+  cheap_repair: 1.0
+  cheap_repair_after_observation: 1.0
+  cheap_repair_after_strong_partial: 1.0
+  strong_hint: 2.0
+  strong_critique: 2.0
+  strong_checklist: 2.0
+  strong_answer: 10.0
+  run_code: 0.5
+budget:
+  default_max_spend_usd: 5.0
+  default_per_provider_usd:
+    deepseek: 3.0
+    together: 2.0
+  approval_env_var: AGENTCONTROL_METHOD_DISCOVERY_API_APPROVED
+  hard_kill_on_overspend: true
+note: |
+  F2 extension of data_analysis_code from n=20 to n=50 to harden the bootstrap
+  CI on the project's only strict-GO interactive signal (DeepSeek 22.61% / +5.83
+  pp on n=20).  All tasks deterministic; run_code is genuinely fair (real
+  stdout); observation does NOT reveal the gold answer.

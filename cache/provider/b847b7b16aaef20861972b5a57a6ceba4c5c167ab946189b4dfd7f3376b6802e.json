@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00034612,
+  "input_tokens": 259,
+  "latency_ms": 1676,
+  "model": "deepseek-reasoner",
+  "output_tokens": 93,
+  "provider": "deepseek",
+  "request_hash": "b847b7b16aaef20861972b5a57a6ceba4c5c167ab946189b4dfd7f3376b6802e",
+  "text": "37 [doc_franklin_death]"
+}

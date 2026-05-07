@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00093638,
+  "input_tokens": 62,
+  "latency_ms": 6453,
+  "model": "deepseek-reasoner",
+  "output_tokens": 412,
+  "provider": "deepseek",
+  "request_hash": "087b2660a157663e1735a19fd1c99d771f31e6eeb8577f9c0d03188ef6a300f9",
+  "text": "```python\ndef edit_distance(a, b):\n    m, n = len(a), len(b)\n    # Use two rows for space efficiency: only keep previous and current row\n    prev = list(range(n + 1))\n    for i in range(1, m + 1):\n        curr = [i] * (n + 1)\n        for j in range(1, n + 1):\n            cost = 0 if a[i - 1] == b[j - 1] else 1\n            curr[j] = min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost)\n        prev = curr\n    return prev[n]\n```"
+}

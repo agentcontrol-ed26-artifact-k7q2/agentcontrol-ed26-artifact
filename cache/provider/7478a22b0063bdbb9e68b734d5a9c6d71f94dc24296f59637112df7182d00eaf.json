@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.425e-05,
+  "input_tokens": 55,
+  "latency_ms": 1322,
+  "model": "deepseek-chat",
+  "output_tokens": 54,
+  "provider": "deepseek",
+  "request_hash": "7478a22b0063bdbb9e68b734d5a9c6d71f94dc24296f59637112df7182d00eaf",
+  "text": "```python\ndef find_duplicates(xs):\n    seen = set()\n    duplicates = set()\n    for x in xs:\n        if x in seen:\n            duplicates.add(x)\n        else:\n            seen.add(x)\n    return sorted(duplicates)\n```"
+}

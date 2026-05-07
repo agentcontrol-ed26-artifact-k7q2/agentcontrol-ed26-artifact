@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9099999999999996e-05,
+  "input_tokens": 75,
+  "latency_ms": 686,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "72bad011c9a5b510a40a32d0d11753b78feb9c93c669cd8d0f7a2694af4b102e",
+  "text": "The intermediate value of (3+4) is 7.\n\nThe final answer is 21."
+}

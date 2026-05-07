@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00040258,
+  "input_tokens": 67,
+  "latency_ms": 3478,
+  "model": "deepseek-reasoner",
+  "output_tokens": 167,
+  "provider": "deepseek",
+  "request_hash": "a97afd93ec46197fe3181172beb7aee5cd9c0dd4b55be5c91e797b2296899848",
+  "text": "Find the prime factorizations and take the highest power of each prime."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.93e-05,
+  "input_tokens": 85,
+  "latency_ms": 517,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "44d60e9b84157824116c22aaa5fa25f777e0d97bd72d246dca98fafe08a1ff7e",
+  "text": "xs = [1,1,2,3,5,8,13,21,34]\ncount = sum(1 for x in xs if x % 2 != 0)\nprint(count)"
+}

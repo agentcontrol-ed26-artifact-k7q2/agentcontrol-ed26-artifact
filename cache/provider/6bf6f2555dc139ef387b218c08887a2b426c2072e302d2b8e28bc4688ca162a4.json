@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025657999999999996,
+  "input_tokens": 140,
+  "latency_ms": 1858,
+  "model": "deepseek-reasoner",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "6bf6f2555dc139ef387b218c08887a2b426c2072e302d2b8e28bc4688ca162a4",
+  "text": "1915 [doc_einstein]"
+}

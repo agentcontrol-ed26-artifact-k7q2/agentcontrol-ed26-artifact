@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036411,
+  "input_tokens": 228,
+  "latency_ms": 2099,
+  "model": "deepseek-reasoner",
+  "output_tokens": 109,
+  "provider": "deepseek",
+  "request_hash": "fca5603ae9f024b68f6a8cbd10a4ced1049a31b399b532d8592401c3a66c21d6",
+  "text": "doc_armstrong"
+}

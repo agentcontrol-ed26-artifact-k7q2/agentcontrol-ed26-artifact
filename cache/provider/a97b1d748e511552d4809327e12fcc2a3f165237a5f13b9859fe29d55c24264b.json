@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.87e-05,
+  "input_tokens": 182,
+  "latency_ms": 761,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "a97b1d748e511552d4809327e12fcc2a3f165237a5f13b9859fe29d55c24264b",
+  "text": "There is no information provided about the end-of-life for version 2 of the Python language in any of the given documents. Therefore, I cannot provide an answer based on the given evidence [doc_python_creator][doc_python_origin]."
+}

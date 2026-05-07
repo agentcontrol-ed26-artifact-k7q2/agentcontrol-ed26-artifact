@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.99e-05,
+  "input_tokens": 118,
+  "latency_ms": 297,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "0a226b75850d90c1442f7f30d7355ae131e71a82e67e8623ba5ec61f512fcf3e",
+  "text": "World War II ended in 1945 [doc_war]."
+}

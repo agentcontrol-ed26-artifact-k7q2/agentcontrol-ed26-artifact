@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031128000000000004,
+  "input_tokens": 120,
+  "latency_ms": 2260,
+  "model": "deepseek-reasoner",
+  "output_tokens": 112,
+  "provider": "deepseek",
+  "request_hash": "40bd323bde1d5236d4541cb96d0a1ff0602fdea33998029307d878459ca7f334",
+  "text": "1. Check if the evidence explicitly states the reason for Einstein's Nobel Prize.  \n2. Verify that the cited document (doc_einstein) includes the phrase \"photoelectric effect\" in relation to the prize."
+}

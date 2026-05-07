@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020856,
+  "input_tokens": 216,
+  "latency_ms": 1214,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "77aaafa3c0ce2ea70020b3e251d3c4af1b2d13f561d14dcb4aabe10a3b05785a",
+  "text": "Hint: doc_franklin \nAnswer phrase: Rosalind Franklin [doc_franklin]"
+}

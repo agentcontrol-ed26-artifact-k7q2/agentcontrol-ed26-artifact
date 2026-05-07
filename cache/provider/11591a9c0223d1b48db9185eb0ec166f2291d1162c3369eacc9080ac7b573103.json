@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00044582,
+  "input_tokens": 62,
+  "latency_ms": 3090,
+  "model": "deepseek-reasoner",
+  "output_tokens": 188,
+  "provider": "deepseek",
+  "request_hash": "11591a9c0223d1b48db9185eb0ec166f2291d1162c3369eacc9080ac7b573103",
+  "text": "Think of 9 as 10 minus 1."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004754,
+  "input_tokens": 68,
+  "latency_ms": 3520,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "059f9f576c32c4647e230a7596d1997e24f0b8046e7847cdaa03ffd4ada1bcf7",
+  "text": "The most common bug is"
+}

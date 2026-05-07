@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024288,
+  "input_tokens": 248,
+  "latency_ms": 2045,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "089f909fe79d340f419bd10687c0d44055e3138a04213e92db2b9ddf2428e8d9",
+  "text": "The author of On the Origin of Species traveled on HMS Beagle from 1831 to 1836 [doc_darwin]"
+}

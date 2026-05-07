@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017971000000000003,
+  "input_tokens": 83,
+  "latency_ms": 2715,
+  "model": "deepseek-chat",
+  "output_tokens": 143,
+  "provider": "deepseek",
+  "request_hash": "ba576aba49c58c99b4f95e81dcd4e67c8d885f959eee70c51e49fb1b7e6f1c1b",
+  "text": "```python\ndef knapsack_01(weights, values, capacity):\n    n = len(weights)\n    dp = [[0] * (capacity + 1) for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for w in range(capacity + 1):\n            if weights[i - 1] <= w:\n                dp[i][w] = max(dp[i - 1][w], dp[i - 1][w - weights[i - 1]] + values[i - 1])\n            else:\n                dp[i][w] = dp[i - 1][w]\n    return dp[n][capacity]\n```"
+}

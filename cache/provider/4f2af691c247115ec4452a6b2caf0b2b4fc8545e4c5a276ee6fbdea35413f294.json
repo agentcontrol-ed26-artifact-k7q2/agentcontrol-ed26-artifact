@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029127000000000005,
+  "input_tokens": 101,
+  "latency_ms": 3428,
+  "model": "deepseek-chat",
+  "output_tokens": 240,
+  "provider": "deepseek",
+  "request_hash": "4f2af691c247115ec4452a6b2caf0b2b4fc8545e4c5a276ee6fbdea35413f294",
+  "text": "We need to compute the 75th percentile of the list, round it to an integer, then count how many elements are >= that value.  \n\n```python\nxs = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]\n\n# Sort the list (already sorted, but for correctness)\nxs_sorted = sorted(xs)\nn = len(xs_sorted)\n\n# Compute 75th percentile using linear interpolation\n# Position in sorted list: 0.75 * (n-1)\npos = 0.75 * (n - 1)\nlower = int(pos)\nupper = lower + 1\nfraction = pos - lower\n\n# If pos is integer, take that value; otherwise interpolate\nif upper < n:\n    percentile = xs_sorted[lower] + fraction * (xs_sorted[upper] - xs_sorted[lower])\nelse:\n    percentile = xs_sorted[lower]\n\n# Round to integer\nthreshold = round(percentile)\n\n# Count elements >= threshold\ncount = sum(1 for x in xs if x >= threshold)\n\nprint(count)\n```"
+}

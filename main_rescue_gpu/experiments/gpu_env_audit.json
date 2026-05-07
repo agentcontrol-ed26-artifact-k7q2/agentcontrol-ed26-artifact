@@ -1,0 +1,22 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.11.3",
+  "node": "ZBookG5W",
+  "GPU_AVAILABLE": true,
+  "gpu_count": 1,
+  "gpu_info": "Quadro P1000, 4096 MiB, 2583 MiB, 573.71",
+  "torch": {
+    "version": "2.2.2+cpu",
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "cuda_version": null
+  },
+  "transformers_installed": true,
+  "vllm_installed": false,
+  "accelerate_installed": true,
+  "disk_free_gb": 850.16,
+  "model_cache_paths": {},
+  "recommended_tier": "TIER0_NO_GPU",
+  "effective_gpu_usable": false,
+  "effective_reason": "GPU detected by nvidia-smi but unusable for LLM serving in this run: torch.cuda_available=False, VRAM\u22658GB=False. API-only path."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8299999999999995e-05,
+  "input_tokens": 92,
+  "latency_ms": 1020,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 69,
+  "provider": "together",
+  "request_hash": "7c83f83479bf16ad190915e89d2c75a7f4dc001e317498342c40a100607c5bf4",
+  "text": "The sum of the numbers [10, 20, 30, 40] is 100.\nThe total count of numbers is 4.\nThe mean is calculated by dividing the sum by the count: 100 / 4 = 25.\n\nThe final answer is 25."
+}

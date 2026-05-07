@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.6110000000000005e-05,
+  "input_tokens": 93,
+  "latency_ms": 848,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "0f37222b9ecbd3c74f3aaba0bf15fbad1f5b336a75251bd87b359c3ec093e6ee",
+  "text": "William Shakespeare wrote Hamlet. [doc_shakespeare]"
+}

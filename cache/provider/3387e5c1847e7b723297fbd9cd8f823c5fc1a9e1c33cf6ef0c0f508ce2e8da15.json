@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018083,
+  "input_tokens": 62,
+  "latency_ms": 1808,
+  "model": "deepseek-reasoner",
+  "output_tokens": 67,
+  "provider": "deepseek",
+  "request_hash": "3387e5c1847e7b723297fbd9cd8f823c5fc1a9e1c33cf6ef0c0f508ce2e8da15",
+  "text": "Borrow from the hundreds digit to make the tens digit 10, then borrow again for the units."
+}

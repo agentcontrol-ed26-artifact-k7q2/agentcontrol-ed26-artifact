@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027544,
+  "input_tokens": 298,
+  "latency_ms": 587,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "8da8b0bc10e092d36ea0a5542075fa57f2553e0b8e95d5df9b188937d17e5d5c",
+  "text": "Marie Curie discovered polonium [doc_curie_marie]"
+}

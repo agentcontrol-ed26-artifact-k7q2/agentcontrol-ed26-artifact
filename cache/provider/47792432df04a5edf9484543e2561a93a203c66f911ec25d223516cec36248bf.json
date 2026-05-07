@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.1099999999999996e-05,
+  "input_tokens": 127,
+  "latency_ms": 316,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "47792432df04a5edf9484543e2561a93a203c66f911ec25d223516cec36248bf",
+  "text": "Apollo 11 [doc_apollo]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022704,
+  "input_tokens": 215,
+  "latency_ms": 3286,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "22fe2f2d0142b856f6b4da2dd797798925da6cb63869b65b491e5897b28f3929",
+  "text": "The most common citation mistake is incorrectly referencing a document that does not support the claim, such as citing doc_einstein for information about DNA structure.\nAnswer phrase: Rosalind Franklin [doc_franklin]"
+}

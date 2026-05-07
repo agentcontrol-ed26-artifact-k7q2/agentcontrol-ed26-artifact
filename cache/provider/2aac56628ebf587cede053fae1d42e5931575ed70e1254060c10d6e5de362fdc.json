@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00040694,
+  "input_tokens": 59,
+  "latency_ms": 2899,
+  "model": "deepseek-reasoner",
+  "output_tokens": 171,
+  "provider": "deepseek",
+  "request_hash": "2aac56628ebf587cede053fae1d42e5931575ed70e1254060c10d6e5de362fdc",
+  "text": "Think of 8 times 9 as 8 times 10 minus 8."
+}

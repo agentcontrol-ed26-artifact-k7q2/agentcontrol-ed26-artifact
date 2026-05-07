@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035108000000000003,
+  "input_tokens": 53,
+  "latency_ms": 2769,
+  "model": "deepseek-reasoner",
+  "output_tokens": 147,
+  "provider": "deepseek",
+  "request_hash": "fd90511b7bfbf06a6e5dc880b5c97d9b0cfe9dbf2fabb90499a7df60b8d59fe9",
+  "text": "Since each digit is 9, the sum is 9+9+9."
+}

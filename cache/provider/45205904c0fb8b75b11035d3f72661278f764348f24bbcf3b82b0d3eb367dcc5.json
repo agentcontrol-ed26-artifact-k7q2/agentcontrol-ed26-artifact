@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022527999999999998,
+  "input_tokens": 242,
+  "latency_ms": 518,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "45205904c0fb8b75b11035d3f72661278f764348f24bbcf3b82b0d3eb367dcc5",
+  "text": "Answer: Alexander Graham Bell patented the telephone [doc_telephone]"
+}

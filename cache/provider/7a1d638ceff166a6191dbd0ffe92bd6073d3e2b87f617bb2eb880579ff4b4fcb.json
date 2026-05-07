@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.64e-05,
+  "input_tokens": 67,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 5,
+  "provider": "dummy",
+  "request_hash": "7a1d638ceff166a6191dbd0ffe92bd6073d3e2b87f617bb2eb880579ff4b4fcb",
+  "text": "Apollo 13 [doc_moon]"
+}

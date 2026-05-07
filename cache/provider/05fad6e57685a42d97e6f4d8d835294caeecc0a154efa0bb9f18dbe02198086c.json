@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026136,
+  "input_tokens": 276,
+  "latency_ms": 1210,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "05fad6e57685a42d97e6f4d8d835294caeecc0a154efa0bb9f18dbe02198086c",
+  "text": "The creator of Python worked at CWI, Google, and Dropbox, answer [doc_python_origin]"
+}

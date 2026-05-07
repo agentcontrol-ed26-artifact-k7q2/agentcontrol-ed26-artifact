@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.177e-05,
+  "input_tokens": 61,
+  "latency_ms": 1128,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "7a1faa061e1841e009abd4cb6c93037b9a6c2a3bfe53cfda31ad225c0a20234a",
+  "text": "```python\ndef matrix_transpose(m):\n    return [list(row) for row in zip(*m)]\n```"
+}

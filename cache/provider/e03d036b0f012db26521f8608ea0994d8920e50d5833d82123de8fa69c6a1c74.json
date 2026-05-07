@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.2970000000000005e-05,
+  "input_tokens": 61,
+  "latency_ms": 875,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "e03d036b0f012db26521f8608ea0994d8920e50d5833d82123de8fa69c6a1c74",
+  "text": "def is_even(n):\n    return n % 2 == 0"
+}

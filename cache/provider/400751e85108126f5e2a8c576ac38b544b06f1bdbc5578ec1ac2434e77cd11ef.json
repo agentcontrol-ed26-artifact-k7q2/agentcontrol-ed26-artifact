@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029770999999999997,
+  "input_tokens": 167,
+  "latency_ms": 2082,
+  "model": "deepseek-reasoner",
+  "output_tokens": 94,
+  "provider": "deepseek",
+  "request_hash": "400751e85108126f5e2a8c576ac38b544b06f1bdbc5578ec1ac2434e77cd11ef",
+  "text": "Hint: Look at doc_python2 for the birthplace."
+}

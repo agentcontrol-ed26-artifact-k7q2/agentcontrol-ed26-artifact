@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001452,
+  "input_tokens": 90,
+  "latency_ms": 603,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 75,
+  "provider": "together",
+  "request_hash": "a5ce341549e7121977c8566a1cf908ccb70ab4597e8d350132f5f34e24388a27",
+  "text": "To determine if a number is prime, check divisibility only up to its square root.\n\n```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

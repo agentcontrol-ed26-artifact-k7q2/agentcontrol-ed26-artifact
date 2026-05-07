@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.43e-05,
+  "input_tokens": 81,
+  "latency_ms": 1886,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "15dfee2364e7cf4906e4d6432d7f7df236c4d523d25bbefe08547e5dff8d1ddc",
+  "text": "```python\nfrom collections import defaultdict\n\ndef course_schedule_possible(n, prereqs):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    \n    # Build the graph and calculate indegrees\n    for course, prereq in prereqs:\n        graph[prereq].append(course)\n        indegree[course] += 1\n    \n    # Initialize the queue with all courses that have no prerequisites\n    queue = [i for i in range(n) if indegree[i] == 0]\n    \n    # Process the queue\n    completed_courses = 0\n    while queue:\n        course = queue.pop(0)\n        completed_courses += 1\n        for next_course in graph[course]:\n            indegree[next_course] -= 1\n            if indegree[next_course] == 0:\n                queue.append(next_course)\n    \n    # If all courses are completed, return True, otherwise False\n    return completed_courses == n\n```"
+}

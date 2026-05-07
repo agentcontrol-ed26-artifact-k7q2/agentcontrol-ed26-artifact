@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036588,
+  "input_tokens": 60,
+  "latency_ms": 2526,
+  "model": "deepseek-reasoner",
+  "output_tokens": 152,
+  "provider": "deepseek",
+  "request_hash": "bfb8cb63c542e5d81b7a889601ddf8b73cd3f37a71f6c916db970f2cd9785cb5",
+  "text": "Intermediate: digits are 9, 9, 9. Sum = 9+9+9 = 27.\n27"
+}

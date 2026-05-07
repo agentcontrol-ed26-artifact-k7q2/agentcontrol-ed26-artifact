@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.759999999999999e-05,
+  "input_tokens": 188,
+  "latency_ms": 1196,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 104,
+  "provider": "together",
+  "request_hash": "40780c03a46a5456d0b5dda28a85905dbb88368c2f9a4973a297b50bf57f7172",
+  "text": "```python\ndef is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nxs = [3, 7, 11, 13, 17, 19, 23]\nprimes = [x for x in xs if is_prime(x)]\nprint(len(primes))\n```"
+}

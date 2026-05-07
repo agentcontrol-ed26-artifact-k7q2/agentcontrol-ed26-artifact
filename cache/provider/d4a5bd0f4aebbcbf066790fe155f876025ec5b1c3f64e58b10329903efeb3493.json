@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024081000000000005,
+  "input_tokens": 73,
+  "latency_ms": 3649,
+  "model": "deepseek-chat",
+  "output_tokens": 201,
+  "provider": "deepseek",
+  "request_hash": "d4a5bd0f4aebbcbf066790fe155f876025ec5b1c3f64e58b10329903efeb3493",
+  "text": "After 100 rounds, the bulbs that are toggled an odd number of times end up on.  \nA bulb numbered \\(n\\) is toggled once for each divisor of \\(n\\) (since we toggle every \\(k\\)th bulb on round \\(k\\)).  \nThus, bulb \\(n\\) is on if and only if \\(n\\) has an odd number of divisors.  \n\nA number has an odd number of divisors precisely when it is a perfect square.  \nThe perfect squares between 1 and 100 are:  \n\\(1^2 = 1\\), \\(2^2 = 4\\), \\(3^2 = 9\\), \\(4^2 = 16\\), \\(5^2 = 25\\), \\(6^2 = 36\\), \\(7^2 = 49\\), \\(8^2 = 64\\), \\(9^2 = 81\\), \\(10^2 = 100\\).  \n\nThat gives 10 bulbs on.\n\nFinal integer: 10"
+}

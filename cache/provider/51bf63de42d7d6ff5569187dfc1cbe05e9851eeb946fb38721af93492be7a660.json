@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047498999999999995,
+  "input_tokens": 123,
+  "latency_ms": 3170,
+  "model": "deepseek-reasoner",
+  "output_tokens": 186,
+  "provider": "deepseek",
+  "request_hash": "51bf63de42d7d6ff5569187dfc1cbe05e9851eeb946fb38721af93492be7a660",
+  "text": "1. Verify that the evidence explicitly states the year 1953 for the first summit of Everest.\n2. Verify that the evidence identifies the climber alongside Tenzing Norgay as Edmund Hillary."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023848,
+  "input_tokens": 258,
+  "latency_ms": 489,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "dd620c67ca0b1aded0a7c1d4217bd4833f390f74787b39a11aa1b4b9f261f201",
+  "text": "The answer is Alexander Graham Bell. [doc_telephone]"
+}

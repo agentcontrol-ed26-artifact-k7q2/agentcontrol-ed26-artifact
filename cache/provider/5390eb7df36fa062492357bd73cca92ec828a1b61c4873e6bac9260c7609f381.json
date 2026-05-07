@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020109,
+  "input_tokens": 97,
+  "latency_ms": 2587,
+  "model": "deepseek-chat",
+  "output_tokens": 159,
+  "provider": "deepseek",
+  "request_hash": "5390eb7df36fa062492357bd73cca92ec828a1b61c4873e6bac9260c7609f381",
+  "text": "```python\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.capacity = capacity\n        self.cache = {}\n        self.order = []\n\n    def get(self, key: int) -> int:\n        if key in self.cache:\n            self.order.remove(key)\n            self.order.append(key)\n            return self.cache[key]\n        return -1\n\n    def put(self, key: int, value: int) -> None:\n        if key in self.cache:\n            self.order.remove(key)\n        elif len(self.cache) >= self.capacity:\n            lru_key = self.order.pop(0)\n            del self.cache[lru_key]\n        self.cache[key] = value\n        self.order.append(key)\n```"
+}

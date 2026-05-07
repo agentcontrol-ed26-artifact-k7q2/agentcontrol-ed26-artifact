@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002728,
+  "input_tokens": 288,
+  "latency_ms": 712,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "50296394e5cc89a54256024b97ac7427e0681bfa970ad0f747aacdd31a32dbe2",
+  "text": "The person who developed the theory of general relativity was Albert Einstein [doc_einstein_relativity]"
+}

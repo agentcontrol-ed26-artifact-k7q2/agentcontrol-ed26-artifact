@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011,
+  "input_tokens": 87,
+  "latency_ms": 3222,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "7794e368191ff2f068aa0df21550b03c030135fad05eb6611407cb5d614089cd",
+  "text": "1. Multiply 320 by 0.25\n2. Divide the result of 320 * 0.25 by 0.25 and verify it equals 320 \n\n25"
+}

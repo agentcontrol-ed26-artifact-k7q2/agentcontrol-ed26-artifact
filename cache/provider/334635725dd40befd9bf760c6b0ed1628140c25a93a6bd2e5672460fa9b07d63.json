@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384,
+  "input_tokens": 92,
+  "latency_ms": 1449,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "334635725dd40befd9bf760c6b0ed1628140c25a93a6bd2e5672460fa9b07d63",
+  "text": "The most common mistake to avoid when calculating 144 divided by 12 is forgetting to double-check the division result for accuracy."
+}

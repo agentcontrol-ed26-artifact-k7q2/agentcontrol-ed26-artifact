@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00049435,
+  "input_tokens": 202,
+  "latency_ms": 3369,
+  "model": "deepseek-reasoner",
+  "output_tokens": 175,
+  "provider": "deepseek",
+  "request_hash": "63cccc6ca5a936a4b1a0ae12550ac97ce235a5efc3d6607a32ede4672d87e545",
+  "text": "doc_franklin"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.368000000000001e-05,
+  "input_tokens": 94,
+  "latency_ms": 1228,
+  "model": "deepseek-chat",
+  "output_tokens": 53,
+  "provider": "deepseek",
+  "request_hash": "7b927f9193d87113e66f416dc5f3f3d635fb095fb3976e975cea7e1e4db7ec4a",
+  "text": "The pairs are perfectly linear (y = 2x), so the Pearson correlation is 1.  \n\n```python\npairs = [(1,2),(2,4),(3,6),(4,8),(5,10)]\nprint(1)\n```"
+}

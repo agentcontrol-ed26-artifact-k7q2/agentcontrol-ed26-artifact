@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014344,
+  "input_tokens": 153,
+  "latency_ms": 447,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "70abb14a62ba8f07343df945e68d3fac21946376b780c59b8cb6d5d483bf376c",
+  "text": "Check doc_evolution [doc_evolution]"
+}

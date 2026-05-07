@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022792,
+  "input_tokens": 220,
+  "latency_ms": 1083,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "e530fba07aeb6a84198f88b682513c4357a428a552461e3122ae23d22dfbf90d",
+  "text": "Answer: Neil Armstrong commanded the first lunar landing mission [doc_apollo]. \nThe most common citation mistake is failing to provide the correct citation or providing multiple citations when only one is required."
+}

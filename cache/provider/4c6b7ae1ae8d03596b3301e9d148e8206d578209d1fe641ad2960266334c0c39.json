@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035167,
+  "input_tokens": 70,
+  "latency_ms": 2494,
+  "model": "deepseek-reasoner",
+  "output_tokens": 143,
+  "provider": "deepseek",
+  "request_hash": "4c6b7ae1ae8d03596b3301e9d148e8206d578209d1fe641ad2960266334c0c39",
+  "text": "```python\ndef sum_digits(n: int) -> int:\n    \"\"\"Return the sum of the decimal digits of nonnegative integer n.\"\"\"\n    total = 0\n    while n > 0:\n        total += n % 10\n        n //= 10\n    return total\n```"
+}

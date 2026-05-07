@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016544,
+  "input_tokens": 138,
+  "latency_ms": 954,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "4b8e1c15d6c486146615fa8bbaadace36ac10d1928cbec067cc98cdced1df3b0",
+  "text": "Answer: Marie Curie [doc_curie]\nVerification checks:\n1. Check if the discoverer of radium is mentioned in the provided evidence.\n2. Verify if the evidence explicitly states the year of radium discovery or any related awards."
+}

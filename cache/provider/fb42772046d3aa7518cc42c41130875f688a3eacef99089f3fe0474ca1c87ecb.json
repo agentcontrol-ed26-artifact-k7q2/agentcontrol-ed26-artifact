@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.829e-05,
+  "input_tokens": 97,
+  "latency_ms": 851,
+  "model": "deepseek-chat",
+  "output_tokens": 11,
+  "provider": "deepseek",
+  "request_hash": "fb42772046d3aa7518cc42c41130875f688a3eacef99089f3fe0474ca1c87ecb",
+  "text": "James Watson and Francis Crick [doc_dna]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027192,
+  "input_tokens": 248,
+  "latency_ms": 760,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 61,
+  "provider": "together",
+  "request_hash": "8efc5a4de595768df5660ec033ee7f7ab09e40695471e8bf76258d15339a59fc",
+  "text": "Answer: Marie Curie [doc_curie]\nVerification checks:\n1. Verify that the 1903 Nobel Prize in Physics was shared among multiple individuals.\n2. Confirm the discovery of radium is attributed to the same person who shared the 1903 Nobel Prize in Physics with Becquerel."
+}

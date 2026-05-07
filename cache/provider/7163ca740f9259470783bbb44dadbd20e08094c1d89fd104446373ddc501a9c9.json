@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011,
+  "input_tokens": 93,
+  "latency_ms": 551,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "7163ca740f9259470783bbb44dadbd20e08094c1d89fd104446373ddc501a9c9",
+  "text": "```python\ndef matrix_transpose(m):\n    return [[row[i] for row in m] for i in range(len(m[0]))]\n```"
+}

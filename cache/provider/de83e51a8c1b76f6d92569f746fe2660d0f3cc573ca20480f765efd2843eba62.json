@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384,
+  "input_tokens": 92,
+  "latency_ms": 632,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "de83e51a8c1b76f6d92569f746fe2660d0f3cc573ca20480f765efd2843eba62",
+  "text": "48\n1. Check if each term is twice the previous term.\n2. Verify the sequence follows a geometric progression pattern."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.9199999999999997e-05,
+  "input_tokens": 94,
+  "latency_ms": 777,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 70,
+  "provider": "together",
+  "request_hash": "ee6a1e56c924f58c038dff0e6abaefc8471001dae242b2b3ec25ecded4ee0866",
+  "text": "First, we evaluate the expression inside the first set of parentheses:\n3 + 4 = 7\n\nNext, we evaluate the expression inside the second set of parentheses:\n5 - 2 = 3\n\nNow, we multiply the results of the two expressions:\n7 * 3 = 21\n\nThe final answer is:\n21"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017072,
+  "input_tokens": 150,
+  "latency_ms": 6921,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "09a9243133ec9ce438eb00ddc1787b0efdb1b6549debe29c0266e38b667723bd",
+  "text": "The most common citation mistake is including multiple or incorrect citations, rather than providing a single correct reference to the supporting document, such as [doc_amazon] in this case, to ground the answer in provided evidence."
+}

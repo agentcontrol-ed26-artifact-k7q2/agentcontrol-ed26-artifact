@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.500000000000001e-05,
+  "input_tokens": 95,
+  "latency_ms": 1549,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 155,
+  "provider": "together",
+  "request_hash": "6b4dcf965776226419dc8256576e119cace2ec7e17a8a004a0eb8c6a45831417",
+  "text": "```python\nfrom collections import defaultdict\n\ndef course_schedule_possible(n, prereqs):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    \n    for course, prereq in prereqs:\n        graph[prereq].append(course)\n        indegree[course] += 1\n    \n    queue = [i for i in range(n) if indegree[i] == 0]\n    completed_courses = 0\n    \n    while queue:\n        course = queue.pop(0)\n        completed_courses += 1\n        for next_course in graph[course]:\n            indegree[next_course] -= 1\n            if indegree[next_course] == 0:\n                queue.append(next_course)\n    \n    return completed_courses == n\n```"
+}

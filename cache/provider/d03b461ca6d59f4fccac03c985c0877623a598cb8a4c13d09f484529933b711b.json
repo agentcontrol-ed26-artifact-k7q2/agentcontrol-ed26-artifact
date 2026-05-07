@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001272,
+  "input_tokens": 265,
+  "latency_ms": 1592,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 159,
+  "provider": "together",
+  "request_hash": "d03b461ca6d59f4fccac03c985c0877623a598cb8a4c13d09f484529933b711b",
+  "text": "```python\ndef count_islands(grid):\n    if not grid:\n        return 0\n\n    rows, cols = len(grid), len(grid[0])\n    islands = 0\n\n    def dfs(r, c):\n        if 0 <= r < rows and 0 <= c < cols and grid[r][c] == 1:\n            grid[r][c] = 0\n            dfs(r - 1, c)\n            dfs(r + 1, c)\n            dfs(r, c - 1)\n            dfs(r, c + 1)\n\n    for r in range(rows):\n        for c in range(cols):\n            if grid[r][c] == 1:\n                islands += 1\n                dfs(r, c)\n\n    return islands\n```"
+}

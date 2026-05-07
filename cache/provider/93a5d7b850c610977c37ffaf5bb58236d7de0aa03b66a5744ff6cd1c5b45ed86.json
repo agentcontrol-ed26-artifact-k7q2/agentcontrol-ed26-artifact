@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.57e-05,
+  "input_tokens": 72,
+  "latency_ms": 1386,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 147,
+  "provider": "together",
+  "request_hash": "93a5d7b850c610977c37ffaf5bb58236d7de0aa03b66a5744ff6cd1c5b45ed86",
+  "text": "```python\ndef knapsack_01(weights, values, capacity):\n    n = len(weights)\n    dp = [[0] * (capacity + 1) for _ in range(n + 1)]\n    \n    for i in range(1, n + 1):\n        for w in range(1, capacity + 1):\n            if weights[i - 1] <= w:\n                dp[i][w] = max(dp[i - 1][w], dp[i - 1][w - weights[i - 1]] + values[i - 1])\n            else:\n                dp[i][w] = dp[i - 1][w]\n    \n    return dp[n][capacity]\n```"
+}

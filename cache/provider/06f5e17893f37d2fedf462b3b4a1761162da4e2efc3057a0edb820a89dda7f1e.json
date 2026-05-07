@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013904,
+  "input_tokens": 109,
+  "latency_ms": 802,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 49,
+  "provider": "together",
+  "request_hash": "06f5e17893f37d2fedf462b3b4a1761162da4e2efc3057a0edb820a89dda7f1e",
+  "text": "Verification Check 1: Confirm the publication date of On the Origin of Species to ensure it matches the given information.\nVerification Check 2: Verify the author's full name to ensure it is correctly stated as Charles Darwin [doc_evolution]"
+}

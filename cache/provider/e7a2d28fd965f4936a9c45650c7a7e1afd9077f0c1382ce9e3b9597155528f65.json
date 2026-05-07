@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.86e-05,
+  "input_tokens": 248,
+  "latency_ms": 449,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "e7a2d28fd965f4936a9c45650c7a7e1afd9077f0c1382ce9e3b9597155528f65",
+  "text": "Max Planck originated quantum theory [doc_planck_quantum]."
+}

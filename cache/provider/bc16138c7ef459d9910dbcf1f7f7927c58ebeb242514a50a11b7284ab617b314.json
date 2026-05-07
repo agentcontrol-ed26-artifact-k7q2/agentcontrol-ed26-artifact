@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011163000000000001,
+  "input_tokens": 59,
+  "latency_ms": 1735,
+  "model": "deepseek-chat",
+  "output_tokens": 87,
+  "provider": "deepseek",
+  "request_hash": "bc16138c7ef459d9910dbcf1f7f7927c58ebeb242514a50a11b7284ab617b314",
+  "text": "```python\nimport math\n\nxs = [10, 20, 30, 40]\n\n# Geometric mean = (x1 * x2 * ... * xn) ** (1/n)\nproduct = 1\nfor x in xs:\n    product *= x\n\ngeometric_mean = product ** (1 / len(xs))\n\n# Round down to integer\nresult = math.floor(geometric_mean)\n\nprint(result)\n```"
+}

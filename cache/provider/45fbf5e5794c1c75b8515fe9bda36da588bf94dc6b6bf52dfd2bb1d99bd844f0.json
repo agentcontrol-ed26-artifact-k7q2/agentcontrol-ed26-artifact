@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010169999999999999,
+  "input_tokens": 312,
+  "latency_ms": 588,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "45fbf5e5794c1c75b8515fe9bda36da588bf94dc6b6bf52dfd2bb1d99bd844f0",
+  "text": "The home country of the discoverer of Photo 51 of DNA was the United Kingdom [doc_franklin_xray]."
+}

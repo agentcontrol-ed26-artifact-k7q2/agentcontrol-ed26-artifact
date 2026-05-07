@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002288,
+  "input_tokens": 219,
+  "latency_ms": 853,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "7d42be1f362b0e3cd90b2721ab6660cdd4dcaf196a9da376e854a94fd227fa48",
+  "text": "Answer: Neil Armstrong [doc_apollo]\nVerification checks:\n1. The mission in question should be a lunar landing.\n2. The commander's name should be mentioned in the context of the mission."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.592e-05,
+  "input_tokens": 79,
+  "latency_ms": 837,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "a8a7c79a44b0ea4216a387efe8dcd4778ed18743da5fcf07da53156b55029187",
+  "text": "7\n1. Reversing the calculation: 7 + 5 = 12\n2. Using a number line to visualize the subtraction"
+}

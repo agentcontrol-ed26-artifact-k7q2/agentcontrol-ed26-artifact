@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.75e-05,
+  "input_tokens": 112,
+  "latency_ms": 351,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "0cf2ef6d81c746e2be34466715afab08f80e9c7bc54a8ed7493230bda0f02c9d",
+  "text": "Kitty Hawk, North Carolina [doc_wright_flight]"
+}

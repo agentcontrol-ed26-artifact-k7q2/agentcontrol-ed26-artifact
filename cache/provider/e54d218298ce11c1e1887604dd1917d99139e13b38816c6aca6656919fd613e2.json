@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.939999999999999e-05,
+  "input_tokens": 76,
+  "latency_ms": 2170,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 222,
+  "provider": "together",
+  "request_hash": "e54d218298ce11c1e1887604dd1917d99139e13b38816c6aca6656919fd613e2",
+  "text": "```python\ndef n_queens_count(n):\n    def is_safe(board, row, col):\n        for i in range(col):\n            if board[row][i] == 1:\n                return False\n            if row - (col - i) >= 0 and board[row - (col - i)][i] == 1:\n                return False\n            if row + (col - i) < n and board[row + (col - i)][i] == 1:\n                return False\n        return True\n\n    def solve_n_queens_util(board, col):\n        if col >= n:\n            return 1\n        count = 0\n        for i in range(n):\n            if is_safe(board, i, col):\n                board[i][col] = 1\n                count += solve_n_queens_util(board, col + 1)\n                board[i][col] = 0\n        return count\n\n    board = [[0 for _ in range(n)] for _ in range(n)]\n    return solve_n_queens_util(board, 0)\n```"
+}

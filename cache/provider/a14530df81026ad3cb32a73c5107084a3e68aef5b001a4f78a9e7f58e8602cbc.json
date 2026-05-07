@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017336,
+  "input_tokens": 157,
+  "latency_ms": 679,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "a14530df81026ad3cb32a73c5107084a3e68aef5b001a4f78a9e7f58e8602cbc",
+  "text": "Answer: Edmund Hillary climbed Everest in 1953 alongside Tenzing Norgay [doc_everest]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

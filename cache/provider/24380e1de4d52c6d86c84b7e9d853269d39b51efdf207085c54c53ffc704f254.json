@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002816,
+  "input_tokens": 299,
+  "latency_ms": 551,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "24380e1de4d52c6d86c84b7e9d853269d39b51efdf207085c54c53ffc704f254",
+  "text": "The first person to walk on the Moon was born in 1930 [doc_armstrong_bio]"
+}

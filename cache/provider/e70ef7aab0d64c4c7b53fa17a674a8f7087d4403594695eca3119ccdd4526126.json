@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.319999999999999e-05,
+  "input_tokens": 94,
+  "latency_ms": 1183,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 150,
+  "provider": "together",
+  "request_hash": "e70ef7aab0d64c4c7b53fa17a674a8f7087d4403594695eca3119ccdd4526126",
+  "text": "First, we start with the equation:\n\\[ 3x + 5 = 20 \\]\n\nTo isolate the term with \\( x \\), we need to get rid of the constant term on the left side. We do this by subtracting 5 from both sides of the equation:\n\\[ 3x + 5 - 5 = 20 - 5 \\]\n\\[ 3x = 15 \\]\n\nNow, to solve for \\( x \\), we divide both sides of the equation by 3:\n\\[ \\frac{3x}{3} = \\frac{15}{3} \\]\n\\[ x = 5 \\]\n\nSo, the final answer is:\n\\[ x = 5 \\]"
+}

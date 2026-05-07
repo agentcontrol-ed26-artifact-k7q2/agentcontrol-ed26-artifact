@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003439,
+  "input_tokens": 247,
+  "latency_ms": 1762,
+  "model": "deepseek-reasoner",
+  "output_tokens": 95,
+  "provider": "deepseek",
+  "request_hash": "cf1ba203b66d23ee172baaf77a47d400578d81d7ed083d4e5a955835c192c3d1",
+  "text": "The Amazon River in South America [doc_amazon_river]"
+}

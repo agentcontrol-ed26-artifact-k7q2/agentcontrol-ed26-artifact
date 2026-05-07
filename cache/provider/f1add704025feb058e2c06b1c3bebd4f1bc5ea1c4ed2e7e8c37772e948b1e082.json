@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016456,
+  "input_tokens": 101,
+  "latency_ms": 600,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 86,
+  "provider": "together",
+  "request_hash": "f1add704025feb058e2c06b1c3bebd4f1bc5ea1c4ed2e7e8c37772e948b1e082",
+  "text": "```python\ndef word_break(s, words):\n    dp = [False] * (len(s) + 1)\n    dp[0] = True\n    for i in range(1, len(s) + 1):\n        for j in range(i):\n            if dp[j] and s[j:i] in words:\n                dp[i] = True\n                break\n    return dp[-1]\n```"
+}

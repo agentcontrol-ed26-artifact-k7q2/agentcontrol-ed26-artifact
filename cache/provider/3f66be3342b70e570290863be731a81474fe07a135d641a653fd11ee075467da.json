@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011246000000000002,
+  "input_tokens": 58,
+  "latency_ms": 1790,
+  "model": "deepseek-chat",
+  "output_tokens": 88,
+  "provider": "deepseek",
+  "request_hash": "3f66be3342b70e570290863be731a81474fe07a135d641a653fd11ee075467da",
+  "text": "```python\ndef binary_search(a, target):\n    left, right = 0, len(a) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n```"
+}

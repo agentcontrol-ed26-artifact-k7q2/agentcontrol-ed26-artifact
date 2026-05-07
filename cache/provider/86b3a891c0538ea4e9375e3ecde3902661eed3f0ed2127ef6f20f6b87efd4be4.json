@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011880000000000001,
+  "input_tokens": 91,
+  "latency_ms": 2300,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "86b3a891c0538ea4e9375e3ecde3902661eed3f0ed2127ef6f20f6b87efd4be4",
+  "text": "1. The product of the two numbers divided by their greatest common divisor should equal the least common multiple.\n2. The least common multiple should be divisible by both 12 and 18 without leaving a remainder.\n\n36"
+}

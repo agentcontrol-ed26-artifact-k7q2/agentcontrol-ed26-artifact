@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.12e-05,
+  "input_tokens": 276,
+  "latency_ms": 563,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "326065a2ad0157cfa734015e3ef9a91b2a4af328ca6ebb59f3de862bab6c40d9",
+  "text": "Edwin Eugene 'Buzz' Aldrin Jr. was the lunar module pilot of Apollo 11 [doc_aldrin_bio]."
+}

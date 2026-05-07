@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045699,
+  "input_tokens": 150,
+  "latency_ms": 2913,
+  "model": "deepseek-reasoner",
+  "output_tokens": 171,
+  "provider": "deepseek",
+  "request_hash": "beac4ac5dfabf5809bacf117d85041094e91af6d8675aab6f27f2014e787fe04",
+  "text": "1. Verify that the evidence source doc_franklin is from a credible and authoritative publication or database, such as a peer-reviewed scientific journal or a reputable biographical encyclopedia.\n2. Cross-reference the claim with another independent source to confirm that Rosalind Franklin indeed produced the X-ray diffraction images and that no other individual is credited for those specific images."
+}

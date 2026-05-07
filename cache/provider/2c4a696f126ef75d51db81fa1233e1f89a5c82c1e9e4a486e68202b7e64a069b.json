@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.69e-05,
+  "input_tokens": 109,
+  "latency_ms": 468,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "2c4a696f126ef75d51db81fa1233e1f89a5c82c1e9e4a486e68202b7e64a069b",
+  "text": "The Apollo 11 mission [doc_apollo_mission]."
+}

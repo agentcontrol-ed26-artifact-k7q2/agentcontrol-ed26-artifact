@@ -1,0 +1,26 @@
+{
+  "n_tasks": 90,
+  "actions_per_task": 7,
+  "estimates": {
+    "deepseek": {
+      "cheap_model": "deepseek-chat",
+      "strong_model": "deepseek-reasoner",
+      "calls_per_task": 7,
+      "total_calls": 630,
+      "estimated_total_usd": 0.276012,
+      "per_task_estimated_usd": 0.0030667999999999997
+    },
+    "together": {
+      "cheap_model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "strong_model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "calls_per_task": 7,
+      "total_calls": 630,
+      "estimated_total_usd": 0.16045199999999998,
+      "per_task_estimated_usd": 0.0017828
+    }
+  },
+  "grand_total_estimated_usd": 0.43646399999999996,
+  "max_spend_cap_usd_per_provider": 10.0,
+  "approval_env_var": "AGENTCONTROL_HARD_REGIME_APPROVED",
+  "approval_set": false
+}

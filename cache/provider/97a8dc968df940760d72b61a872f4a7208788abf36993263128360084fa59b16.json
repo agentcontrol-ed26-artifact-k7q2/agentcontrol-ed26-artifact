@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00052608,
+  "input_tokens": 192,
+  "latency_ms": 3461,
+  "model": "deepseek-reasoner",
+  "output_tokens": 192,
+  "provider": "deepseek",
+  "request_hash": "97a8dc968df940760d72b61a872f4a7208788abf36993263128360084fa59b16",
+  "text": "Neil Armstrong [doc_apollo]  \nThe most common citation mistake is citing a document that does not directly support the answer, such as using [doc_armstrong] for the command role when only [doc_apollo] contains that specific fact."
+}

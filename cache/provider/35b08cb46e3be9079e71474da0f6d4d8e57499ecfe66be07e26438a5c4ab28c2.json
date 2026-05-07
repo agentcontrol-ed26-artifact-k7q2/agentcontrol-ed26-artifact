@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00130255,
+  "input_tokens": 238,
+  "latency_ms": 7159,
+  "model": "deepseek-reasoner",
+  "output_tokens": 535,
+  "provider": "deepseek",
+  "request_hash": "35b08cb46e3be9079e71474da0f6d4d8e57499ecfe66be07e26438a5c4ab28c2",
+  "text": "The evidence does not specify the starting location for Edmund Hillary's climb. [doc_hillary_bio]"
+}

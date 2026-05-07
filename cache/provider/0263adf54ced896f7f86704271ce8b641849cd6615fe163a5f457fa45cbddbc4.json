@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00111483,
+  "input_tokens": 267,
+  "latency_ms": 6216,
+  "model": "deepseek-reasoner",
+  "output_tokens": 442,
+  "provider": "deepseek",
+  "request_hash": "0263adf54ced896f7f86704271ce8b641849cd6615fe163a5f457fa45cbddbc4",
+  "text": "The provided evidence does not mention Marie Curie's husband. [doc_curie_marie]"
+}

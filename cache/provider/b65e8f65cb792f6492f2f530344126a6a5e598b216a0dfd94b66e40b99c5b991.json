@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016604,
+  "input_tokens": 59,
+  "latency_ms": 1686,
+  "model": "deepseek-reasoner",
+  "output_tokens": 61,
+  "provider": "deepseek",
+  "request_hash": "b65e8f65cb792f6492f2f530344126a6a5e598b216a0dfd94b66e40b99c5b991",
+  "text": "Hint: Subtract 7 from 10, then add back 40."
+}

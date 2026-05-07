@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.84e-05,
+  "input_tokens": 291,
+  "latency_ms": 918,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "53c86581c7b7c6ea50016789dbbc829de910afec46aecfc85f142c37a2b8c583",
+  "text": "Rosalind Franklin produced the X-ray diffraction images of DNA, including Photo 51, that helped identify its helical structure. [doc_franklin_xray]"
+}

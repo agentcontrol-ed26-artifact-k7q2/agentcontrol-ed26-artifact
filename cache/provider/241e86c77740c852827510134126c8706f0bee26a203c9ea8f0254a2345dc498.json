@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027104,
+  "input_tokens": 108,
+  "latency_ms": 1477,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "241e86c77740c852827510134126c8706f0bee26a203c9ea8f0254a2345dc498",
+  "text": "```python\nclass Node:\n    def __init__(self, key, value):\n        self.key = key\n        self.value = value\n        self.prev = None\n        self.next = None\n\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.capacity = capacity\n        self.cache = {}\n        self.head = Node(0, 0)\n        self.tail = Node(0, 0)\n        self.head.next = self.tail\n        self.tail.prev = self.head\n\n    def _remove(self, node):\n        prev_node = node.prev\n        next_node = node.next\n        prev_node.next = next_node\n        next_node.prev = prev_node\n\n    def _add(self, node):\n        prev_node = self.tail.prev\n        prev_node.next = node\n        self.tail.prev = node\n        node.prev = prev_node\n        node.next = self.tail\n\n    def get(self, key: int) -> int:\n"
+}

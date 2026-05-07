@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.500000000000001e-05,
+  "input_tokens": 80,
+  "latency_ms": 1680,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 170,
+  "provider": "together",
+  "request_hash": "2c659e736f17126d7155cf1a39f2a1b9edf3ef1d5cf82776873f77dd8bc22ee5",
+  "text": "```python\ndef edit_distance(a, b):\n    if len(a) < len(b):\n        a, b = b, a\n    if not b:\n        return len(a)\n    prev_row = list(range(len(b) + 1))\n    for i, col_val in enumerate(a, 1):\n        current_row = [i]\n        for j, row_val in enumerate(b, 1):\n            insert_cost = prev_row[j] + 1\n            delete_cost = current_row[j - 1] + 1\n            substitute_cost = prev_row[j - 1] if col_val == row_val else prev_row[j - 1] + 1\n            current_row.append(min(insert_cost, delete_cost, substitute_cost))\n        prev_row = current_row\n    return prev_row[-1]\n```"
+}

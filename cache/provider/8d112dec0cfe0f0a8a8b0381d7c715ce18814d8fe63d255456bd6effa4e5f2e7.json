@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005235600000000001,
+  "input_tokens": 60,
+  "latency_ms": 3499,
+  "model": "deepseek-reasoner",
+  "output_tokens": 224,
+  "provider": "deepseek",
+  "request_hash": "8d112dec0cfe0f0a8a8b0381d7c715ce18814d8fe63d255456bd6effa4e5f2e7",
+  "text": "```python\ndef first_missing_positive(xs):\n    \"\"\"\n    Returns the smallest positive integer that is not present in xs.\n    \"\"\"\n    present = set(xs)\n    i = 1\n    while i in present:\n        i += 1\n    return i\n```"
+}

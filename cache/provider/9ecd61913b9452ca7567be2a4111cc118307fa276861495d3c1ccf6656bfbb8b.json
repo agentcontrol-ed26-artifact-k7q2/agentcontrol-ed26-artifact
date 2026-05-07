@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.871000000000001e-05,
+  "input_tokens": 243,
+  "latency_ms": 1263,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "9ecd61913b9452ca7567be2a4111cc118307fa276861495d3c1ccf6656bfbb8b",
+  "text": "The lunar module pilot of Apollo 11 was Buzz Aldrin. [doc_aldrin_bio]"
+}

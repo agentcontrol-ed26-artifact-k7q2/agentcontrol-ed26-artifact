@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.17e-05,
+  "input_tokens": 82,
+  "latency_ms": 744,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "84b78f85b2bbe529b134d64bad78b95dc554b501d7da9c0cb1cf331d4d4cfc2e",
+  "text": "```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

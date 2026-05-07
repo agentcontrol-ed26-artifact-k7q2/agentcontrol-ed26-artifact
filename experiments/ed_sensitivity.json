@@ -1,0 +1,1763 @@
+{
+  "budgets": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    8.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "cost_penalties": [
+    0.0,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "go_threshold_pct": 30.0,
+  "any_crossing": false,
+  "crossings": [],
+  "first_cross_budget_per_penalty": {
+    "0.0": null,
+    "0.001": null,
+    "0.003": null,
+    "0.01": null,
+    "0.03": null,
+    "0.1": null
+  },
+  "cells": [
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39285714285714285
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39285714285714285
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39285714285714285
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8928571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.0,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 1.0
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39246428571428577
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39246428571428577
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.3918571428571432
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8912500000000002
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8912500000000002
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8910357142857145
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.998071428571429
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8914642857142859
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.998071428571429
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9975357142857147
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.998071428571429
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9975357142857147
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.998071428571429
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.001,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9975357142857147
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9981785714285719
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.998071428571429
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39167857142857143
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.39167857142857143
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.3898571428571428
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8880357142857143
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8880357142857143
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8873928571428571
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9942142857142856
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8886785714285714
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9942142857142856
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9926071428571427
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9942142857142856
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9926071428571427
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9942142857142856
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.003,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9926071428571427
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9945357142857142
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9942142857142856
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.38892857142857146
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.38892857142857146
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.382857142857143
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8767857142857146
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8767857142857146
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8746428571428574
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8789285714285716
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.01,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.975357142857143
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9817857142857145
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.980714285714286
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.38107142857142856
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.38107142857142856
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.36285714285714316
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8446428571428575
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8446428571428575
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8382142857142859
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9421428571428577
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8510714285714289
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9421428571428577
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9260714285714291
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9421428571428577
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9260714285714291
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9421428571428577
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.03,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9260714285714291
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9453571428571435
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9421428571428577
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 1.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.35357142857142865
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 0.39285714285714285,
+        "avg_latency_ms": 0.39285714285714285,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.35357142857142865
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.39285714285714285,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.2928571428571431
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 1.0,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 2.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7321428571428575
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 3.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.6071428571428572,
+        "avg_latency_ms": 1.6071428571428572,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7321428571428575
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 1.6071428571428572,
+      "graph_query_cost_saving_pct": 0.0,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 4.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7107142857142861
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 5.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8071428571428576
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 8.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 0.8928571428571429,
+        "avg_cost": 1.3928571428571428,
+        "avg_latency_ms": 1.3928571428571428,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8071428571428576
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": -30.769230769230774,
+      "graph_query_success_delta_pp": 10.71428571428571
+    },
+    {
+      "budget": 10.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8071428571428576
+      },
+      "best_non_oracle_baseline_name": "shepherding_hint",
+      "best_non_oracle_baseline_cost": 2.8214285714285716,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 15.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8071428571428576
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    },
+    {
+      "budget": 20.0,
+      "cost_penalty": 0.1,
+      "oracle_query_router": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 2.4642857142857144,
+        "avg_latency_ms": 1.5,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.753571428571429
+      },
+      "oracle_deliberation_graph": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.8214285714285714,
+        "avg_latency_ms": 1.7142857142857142,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8178571428571433
+      },
+      "heuristic_bdelg": {
+        "n": 28,
+        "success_rate": 1.0,
+        "avg_cost": 1.9285714285714286,
+        "avg_latency_ms": 1.8214285714285714,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8071428571428576
+      },
+      "best_non_oracle_baseline_name": "automix_self_verification_cascade",
+      "best_non_oracle_baseline_cost": 2.6785714285714284,
+      "graph_query_cost_saving_pct": 26.086956521739136,
+      "graph_query_success_delta_pp": 0.0
+    }
+  ],
+  "decision_note": "Sensitivity sweep is diagnostic only. Even if a sweep cell crosses the 30% gate, this does NOT promote the artifact to GO; the pre-registered gate is on the as-run smoke configuration with n=28. Reopening Main Track requires explicit user approval per reports/MAIN_RESCUE_OPTION.md."
+}

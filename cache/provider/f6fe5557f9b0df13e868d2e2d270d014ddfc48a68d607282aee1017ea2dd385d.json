@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.486000000000001e-05,
+  "input_tokens": 78,
+  "latency_ms": 1634,
+  "model": "deepseek-chat",
+  "output_tokens": 58,
+  "provider": "deepseek",
+  "request_hash": "f6fe5557f9b0df13e868d2e2d270d014ddfc48a68d607282aee1017ea2dd385d",
+  "text": "12 choose 2 = 12! / (2! * 10!) = (12 * 11) / 2  \nIntermediate: 12 * 11 = 132  \nThen divide by 2: 132 / 2 = 66  \n\nFinal answer: 66"
+}

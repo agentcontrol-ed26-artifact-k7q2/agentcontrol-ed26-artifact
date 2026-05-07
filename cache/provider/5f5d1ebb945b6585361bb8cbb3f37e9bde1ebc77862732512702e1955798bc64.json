@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.14e-05,
+  "input_tokens": 60,
+  "latency_ms": 1127,
+  "model": "deepseek-chat",
+  "output_tokens": 32,
+  "provider": "deepseek",
+  "request_hash": "5f5d1ebb945b6585361bb8cbb3f37e9bde1ebc77862732512702e1955798bc64",
+  "text": "7! = 7 \u00d7 6 \u00d7 5!  \nSo 7! / 5! = 7 \u00d7 6 = 42\n\n42"
+}

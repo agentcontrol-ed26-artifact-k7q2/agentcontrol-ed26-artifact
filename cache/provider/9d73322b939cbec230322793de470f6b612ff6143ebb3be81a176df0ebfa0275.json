@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019536,
+  "input_tokens": 198,
+  "latency_ms": 548,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "9d73322b939cbec230322793de470f6b612ff6143ebb3be81a176df0ebfa0275",
+  "text": "To find Charles Darwin's birthplace, look at doc_darwin \nAnswer phrase [doc_darwin]"
+}

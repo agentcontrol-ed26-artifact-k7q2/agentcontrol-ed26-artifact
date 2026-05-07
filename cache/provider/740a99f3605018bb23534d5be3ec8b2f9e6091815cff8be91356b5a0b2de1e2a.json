@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017512000000000002,
+  "input_tokens": 96,
+  "latency_ms": 678,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 103,
+  "provider": "together",
+  "request_hash": "740a99f3605018bb23534d5be3ec8b2f9e6091815cff8be91356b5a0b2de1e2a",
+  "text": "```python\ndef compute_median(xs):\n    xs.sort()\n    n = len(xs)\n    if n % 2 == 0:\n        median = (xs[n // 2 - 1] + xs[n // 2]) / 2\n    else:\n        median = xs[n // 2]\n    return median\n\nxs = [1,2,3,4,5,6,7,8,9,10]\nmedian = compute_median(xs)\nprint(median)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015752,
+  "input_tokens": 101,
+  "latency_ms": 663,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "8528003caf4952a527c0642494a158f0f126a770b601efcf45545fa0135c299c",
+  "text": "```python\nimport math\n\nxs = [4, 8, 15, 16, 23, 42]\nn = len(xs)\nmean = sum(xs) / n\nvariance = sum((x - mean) ** 2 for x in xs) / n\nstd_dev = math.sqrt(variance)\n\nprint(f\"{std_dev:.2f}\")\n```"
+}

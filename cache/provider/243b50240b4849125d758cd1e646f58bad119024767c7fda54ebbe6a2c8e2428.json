@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018414,
+  "input_tokens": 72,
+  "latency_ms": 1516,
+  "model": "deepseek-reasoner",
+  "output_tokens": 66,
+  "provider": "deepseek",
+  "request_hash": "243b50240b4849125d758cd1e646f58bad119024767c7fda54ebbe6a2c8e2428",
+  "text": "Each term is twice the previous one."
+}

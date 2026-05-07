@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001188,
+  "input_tokens": 79,
+  "latency_ms": 798,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 56,
+  "provider": "together",
+  "request_hash": "69f95c5b224f88e3a452aa8cfd133c350140f903203993201a87e12918e6eb3e",
+  "text": "13\n1. Reversing the calculation: 13 - 7 = 6 and 13 - 6 = 7\n2. Estimating the sum: 5 + 5 = 10 and 7 + 6 is slightly greater than 10"
+}

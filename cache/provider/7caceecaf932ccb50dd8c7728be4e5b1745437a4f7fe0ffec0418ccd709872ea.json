@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012936,
+  "input_tokens": 93,
+  "latency_ms": 550,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 54,
+  "provider": "together",
+  "request_hash": "7caceecaf932ccb50dd8c7728be4e5b1745437a4f7fe0ffec0418ccd709872ea",
+  "text": "```python\ndef first_missing_positive(xs):\n    if not xs:\n        return 1\n    xs = set(xs)\n    i = 1\n    while True:\n        if i not in xs:\n            return i\n        i += 1\n```"
+}

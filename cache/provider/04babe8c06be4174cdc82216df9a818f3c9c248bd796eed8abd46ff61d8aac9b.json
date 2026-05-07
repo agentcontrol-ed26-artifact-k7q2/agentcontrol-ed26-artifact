@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018936000000000002,
+  "input_tokens": 78,
+  "latency_ms": 2713,
+  "model": "deepseek-chat",
+  "output_tokens": 153,
+  "provider": "deepseek",
+  "request_hash": "04babe8c06be4174cdc82216df9a818f3c9c248bd796eed8abd46ff61d8aac9b",
+  "text": "The grid is 3x3 with coordinates from (0,0) to (2,2).  \nObstacle at (1,1) blocks the direct diagonal.  \nPossible paths avoiding (1,1):  \n\n- (0,0) \u2192 (0,1) \u2192 (0,2) \u2192 (1,2) \u2192 (2,2): 4 moves  \n- (0,0) \u2192 (1,0) \u2192 (2,0) \u2192 (2,1) \u2192 (2,2): 4 moves  \n- (0,0) \u2192 (0,1) \u2192 (1,1) is blocked, so not allowed.  \n\nMinimum cost path length is 4.\n\nFinal integer: 4"
+}

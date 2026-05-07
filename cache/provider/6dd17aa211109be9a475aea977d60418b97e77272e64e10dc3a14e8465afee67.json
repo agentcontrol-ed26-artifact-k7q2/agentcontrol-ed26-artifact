@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.47e-05,
+  "input_tokens": 203,
+  "latency_ms": 758,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "6dd17aa211109be9a475aea977d60418b97e77272e64e10dc3a14e8465afee67",
+  "text": "The question does not provide information related to the evidence provided, as none of the documents mention the discoverer of polonium or their daughter. Therefore, I cannot provide an answer based on the given evidence [doc_xxx]."
+}

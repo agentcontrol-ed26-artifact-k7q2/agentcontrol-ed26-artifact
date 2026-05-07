@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.0199999999999999e-05,
+  "input_tokens": 48,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 1,
+  "provider": "dummy",
+  "request_hash": "4202786f3b69fe56715ced88c859c8987396a601eb5a9f0aab4702145bbe6041",
+  "text": "2"
+}

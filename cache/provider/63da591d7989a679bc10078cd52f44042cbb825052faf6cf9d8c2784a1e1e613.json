@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026240000000000004,
+  "input_tokens": 100,
+  "latency_ms": 3307,
+  "model": "deepseek-chat",
+  "output_tokens": 214,
+  "provider": "deepseek",
+  "request_hash": "63da591d7989a679bc10078cd52f44042cbb825052faf6cf9d8c2784a1e1e613",
+  "text": "The weighted average price is computed as the sum of (price \u00d7 qty) divided by the sum of qty.  \n\nSum of (price \u00d7 qty):  \n10\u00d73 = 30  \n20\u00d72 = 40  \n15\u00d75 = 75  \n8\u00d77 = 56  \n25\u00d71 = 25  \nTotal = 30 + 40 + 75 + 56 + 25 = 226  \n\nSum of qty:  \n3 + 2 + 5 + 7 + 1 = 18  \n\nWeighted average = 226 / 18 \u2248 12.555...  \nRounded down to nearest integer = 12  \n\nThe previous output matches.  \n\n```python\ndata = [(10,3),(20,2),(15,5),(8,7),(25,1)]\ntotal_price_qty = sum(p * q for p, q in data)\ntotal_qty = sum(q for _, q in data)\nresult = int(total_price_qty / total_qty)\nprint(result)\n```"
+}

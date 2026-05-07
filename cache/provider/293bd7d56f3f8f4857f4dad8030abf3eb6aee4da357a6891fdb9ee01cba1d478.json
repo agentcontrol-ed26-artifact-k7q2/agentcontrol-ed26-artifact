@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.849999999999999e-05,
+  "input_tokens": 169,
+  "latency_ms": 591,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "293bd7d56f3f8f4857f4dad8030abf3eb6aee4da357a6891fdb9ee01cba1d478",
+  "text": "The attack on Pearl Harbor is known for bringing the United States into World War II [doc_ww2_pearl]."
+}

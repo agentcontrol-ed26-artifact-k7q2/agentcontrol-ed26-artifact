@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021208000000000002,
+  "input_tokens": 207,
+  "latency_ms": 5391,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "15b0899e31c1c7c3d971ce2b7cf1c71694d568d4d8a5f33df2edb36e2ea95d4f",
+  "text": "The most common citation mistake is including multiple or incorrect citations, such as referencing unrelated documents or failing to properly format the citation bracket.\nAnswer phrase: [doc_war]"
+}

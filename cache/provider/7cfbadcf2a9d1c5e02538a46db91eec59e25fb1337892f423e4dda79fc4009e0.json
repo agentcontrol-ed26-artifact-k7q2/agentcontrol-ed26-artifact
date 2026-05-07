@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528,
+  "input_tokens": 103,
+  "latency_ms": 706,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "7cfbadcf2a9d1c5e02538a46db91eec59e25fb1337892f423e4dda79fc4009e0",
+  "text": "To find the cost of 7 notebooks, first determine the cost of one notebook by dividing the total cost by the number of notebooks."
+}

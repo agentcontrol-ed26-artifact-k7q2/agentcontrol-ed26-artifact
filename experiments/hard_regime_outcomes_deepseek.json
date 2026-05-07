@@ -1,0 +1,6412 @@
+{
+  "hm_002": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 835,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.838e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 944,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.433e-05,
+      "real_input_tokens": 49,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 788,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.718e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 9,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 980,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.158e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 27,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3090,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00044582,
+      "real_input_tokens": 62,
+      "real_output_tokens": 188,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3426,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3423,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_001": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 846,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.838e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 889,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.433e-05,
+      "real_input_tokens": 49,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1086,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.718e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 9,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1165,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.625000000000001e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 20,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3254,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047210000000000004,
+      "real_input_tokens": 62,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3302,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3365,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_003": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 809,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.838e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 929,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.433e-05,
+      "real_input_tokens": 49,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 774,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.828e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 10,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1384,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015893,
+      "real_input_tokens": 62,
+      "real_output_tokens": 57,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1079,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.939e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 26,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3351,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3741,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_004": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 919,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.433e-05,
+      "real_input_tokens": 49,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 899,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.838e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1032,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.718e-05,
+      "real_input_tokens": 64,
+      "real_output_tokens": 9,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1808,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018083,
+      "real_input_tokens": 62,
+      "real_output_tokens": 67,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1163,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.062999999999999e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 22,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3657,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3189,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_005": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 854,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5139999999999999e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 736,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.919e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1533,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.299e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 59,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1177,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010199,
+      "real_input_tokens": 62,
+      "real_output_tokens": 31,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2311,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023776,
+      "real_input_tokens": 58,
+      "real_output_tokens": 94,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3232,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00042119,
+      "real_input_tokens": 65,
+      "real_output_tokens": 176,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3781,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_006": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 792,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.379e-05,
+      "real_input_tokens": 47,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 800,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.7840000000000002e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 1,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1147,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.7640000000000006e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 19,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1137,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.391e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 24,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1994,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00021915,
+      "real_input_tokens": 60,
+      "real_output_tokens": 85,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3636,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00045512,
+      "real_input_tokens": 59,
+      "real_output_tokens": 193,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 4934,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046715000000000005,
+      "real_input_tokens": 53,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hm_007": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 779,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5680000000000002e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 783,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.973e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1440,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.483e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 42,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1716,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015127,
+      "real_input_tokens": 64,
+      "real_output_tokens": 53,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 2859,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031005000000000003,
+      "real_input_tokens": 66,
+      "real_output_tokens": 125,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3478,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00040258,
+      "real_input_tokens": 67,
+      "real_output_tokens": 167,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3428,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000471,
+      "real_input_tokens": 60,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_008": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 769,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.865e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 848,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.46e-05,
+      "real_input_tokens": 50,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1039,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.735e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2130,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023394,
+      "real_input_tokens": 63,
+      "real_output_tokens": 91,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1489,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012279,
+      "real_input_tokens": 60,
+      "real_output_tokens": 41,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3539,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046552999999999997,
+      "real_input_tokens": 62,
+      "real_output_tokens": 197,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 6561,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_009": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 923,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5680000000000002e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 943,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.973e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1136,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.823e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 36,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1262,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013594,
+      "real_input_tokens": 64,
+      "real_output_tokens": 46,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 2221,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025091999999999996,
+      "real_input_tokens": 66,
+      "real_output_tokens": 98,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3572,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047485,
+      "real_input_tokens": 67,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3398,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046661999999999995,
+      "real_input_tokens": 60,
+      "real_output_tokens": 198,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_010": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 752,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.865e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 783,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.2700000000000003e-05,
+      "real_input_tokens": 80,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1482,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.870000000000001e-05,
+      "real_input_tokens": 80,
+      "real_output_tokens": 61,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2130,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026462999999999997,
+      "real_input_tokens": 75,
+      "real_output_tokens": 102,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3124,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00048090000000000003,
+      "real_input_tokens": 78,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3122,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039494000000000004,
+      "real_input_tokens": 77,
+      "real_output_tokens": 161,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3455,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047705,
+      "real_input_tokens": 71,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_011": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 892,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.487e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1030,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.6420000000000006e-05,
+      "real_input_tokens": 66,
+      "real_output_tokens": 26,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1802,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.422000000000001e-05,
+      "real_input_tokens": 66,
+      "real_output_tokens": 24,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1583,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015181,
+      "real_input_tokens": 61,
+      "real_output_tokens": 54,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3146,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3370,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3849,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047265,
+      "real_input_tokens": 63,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_012": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 776,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.73e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1289,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.135e-05,
+      "real_input_tokens": 75,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1250,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.205e-05,
+      "real_input_tokens": 75,
+      "real_output_tokens": 38,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2300,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029637999999999995,
+      "real_input_tokens": 73,
+      "real_output_tokens": 117,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1994,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022027,
+      "real_input_tokens": 70,
+      "real_output_tokens": 83,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2493,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033414,
+      "real_input_tokens": 66,
+      "real_output_tokens": 136,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3273,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004776,
+      "real_input_tokens": 72,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_013": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 689,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5139999999999999e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 925,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.919e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1170,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.549e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 34,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1336,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013868,
+      "real_input_tokens": 65,
+      "real_output_tokens": 47,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1348,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011512999999999999,
+      "real_input_tokens": 62,
+      "real_output_tokens": 37,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3225,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3392,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_014": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 758,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.9999999999999998e-05,
+      "real_input_tokens": 70,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 854,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.595e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1132,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.8500000000000006e-05,
+      "real_input_tokens": 70,
+      "real_output_tokens": 36,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2063,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026954,
+      "real_input_tokens": 68,
+      "real_output_tokens": 106,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1949,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025037,
+      "real_input_tokens": 65,
+      "real_output_tokens": 98,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2860,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039271,
+      "real_input_tokens": 61,
+      "real_output_tokens": 164,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3165,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047485,
+      "real_input_tokens": 67,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_015": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 802,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.622e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 697,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.027e-05,
+      "real_input_tokens": 71,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1429,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.967e-05,
+      "real_input_tokens": 71,
+      "real_output_tokens": 55,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1937,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022629,
+      "real_input_tokens": 69,
+      "real_output_tokens": 86,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1395,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013923,
+      "real_input_tokens": 66,
+      "real_output_tokens": 47,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2256,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030128,
+      "real_input_tokens": 62,
+      "real_output_tokens": 122,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3072,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004754,
+      "real_input_tokens": 68,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_016": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 681,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.7840000000000002e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 1,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1600,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010219,
+      "real_input_tokens": 77,
+      "real_output_tokens": 74,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1658,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.779e-05,
+      "real_input_tokens": 77,
+      "real_output_tokens": 70,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1920,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019509000000000003,
+      "real_input_tokens": 72,
+      "real_output_tokens": 71,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3131,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047870000000000003,
+      "real_input_tokens": 74,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3420,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047925,
+      "real_input_tokens": 75,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3583,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004754,
+      "real_input_tokens": 68,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hm_017": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 682,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.487e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 789,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8920000000000002e-05,
+      "real_input_tokens": 66,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1501,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.272000000000001e-05,
+      "real_input_tokens": 66,
+      "real_output_tokens": 59,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2380,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033304,
+      "real_input_tokens": 64,
+      "real_output_tokens": 136,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1961,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024160000000000002,
+      "real_input_tokens": 61,
+      "real_output_tokens": 95,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3116,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 4160,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047265,
+      "real_input_tokens": 63,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_018": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1818,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011767,
+      "real_input_tokens": 61,
+      "real_output_tokens": 92,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2361,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017232,
+      "real_input_tokens": 76,
+      "real_output_tokens": 138,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2036,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00014372,
+      "real_input_tokens": 76,
+      "real_output_tokens": 112,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2610,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0003692,
+      "real_input_tokens": 74,
+      "real_output_tokens": 150,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2880,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031061,
+      "real_input_tokens": 71,
+      "real_output_tokens": 124,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3301,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047815,
+      "real_input_tokens": 73,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3402,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047485,
+      "real_input_tokens": 67,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_019": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2534,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018531000000000003,
+      "real_input_tokens": 63,
+      "real_output_tokens": 153,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 3311,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025426,
+      "real_input_tokens": 78,
+      "real_output_tokens": 212,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2723,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017726000000000002,
+      "real_input_tokens": 78,
+      "real_output_tokens": 142,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2191,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028543000000000004,
+      "real_input_tokens": 73,
+      "real_output_tokens": 112,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3579,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004798,
+      "real_input_tokens": 76,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3093,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047925,
+      "real_input_tokens": 75,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3252,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047595000000000005,
+      "real_input_tokens": 69,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_020": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1835,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010360000000000001,
+      "real_input_tokens": 70,
+      "real_output_tokens": 77,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2321,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015125000000000002,
+      "real_input_tokens": 55,
+      "real_output_tokens": 124,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2133,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001454,
+      "real_input_tokens": 70,
+      "real_output_tokens": 115,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2973,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004075099999999999,
+      "real_input_tokens": 68,
+      "real_output_tokens": 169,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2650,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00038177,
+      "real_input_tokens": 65,
+      "real_output_tokens": 158,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3319,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047485,
+      "real_input_tokens": 67,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3143,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_021": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 801,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5139999999999999e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1993,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012039,
+      "real_input_tokens": 67,
+      "real_output_tokens": 93,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2089,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012039,
+      "real_input_tokens": 67,
+      "real_output_tokens": 93,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2620,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032045,
+      "real_input_tokens": 65,
+      "real_output_tokens": 130,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3343,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3318,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3986,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00036041,
+      "real_input_tokens": 62,
+      "real_output_tokens": 149,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_022": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 866,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.077e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 13,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 835,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.482e-05,
+      "real_input_tokens": 76,
+      "real_output_tokens": 13,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1234,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.452000000000001e-05,
+      "real_input_tokens": 76,
+      "real_output_tokens": 40,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1539,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019673,
+      "real_input_tokens": 71,
+      "real_output_tokens": 72,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2272,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029965,
+      "real_input_tokens": 67,
+      "real_output_tokens": 120,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3255,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047870000000000003,
+      "real_input_tokens": 74,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3270,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047815,
+      "real_input_tokens": 73,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_023": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1720,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010694000000000002,
+      "real_input_tokens": 62,
+      "real_output_tokens": 82,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2192,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00014289,
+      "real_input_tokens": 77,
+      "real_output_tokens": 111,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2002,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013409,
+      "real_input_tokens": 77,
+      "real_output_tokens": 103,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2430,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029801,
+      "real_input_tokens": 68,
+      "real_output_tokens": 119,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3104,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047925,
+      "real_input_tokens": 75,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3037,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047870000000000003,
+      "real_input_tokens": 74,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3529,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047321999999999994,
+      "real_input_tokens": 72,
+      "real_output_tokens": 198,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_024": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 755,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5410000000000003e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1031,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.946e-05,
+      "real_input_tokens": 68,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1932,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012396,
+      "real_input_tokens": 68,
+      "real_output_tokens": 96,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3333,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047430000000000004,
+      "real_input_tokens": 66,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3132,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3447,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047375,
+      "real_input_tokens": 65,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3873,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00058872,
+      "real_input_tokens": 63,
+      "real_output_tokens": 253,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_025": {
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1920,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025477,
+      "real_input_tokens": 73,
+      "real_output_tokens": 98,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1979,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013465,
+      "real_input_tokens": 75,
+      "real_output_tokens": 104,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2826,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010530000000000001,
+      "real_input_tokens": 60,
+      "real_output_tokens": 81,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2246,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015885,
+      "real_input_tokens": 75,
+      "real_output_tokens": 126,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2181,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030567,
+      "real_input_tokens": 66,
+      "real_output_tokens": 123,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3098,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004776,
+      "real_input_tokens": 72,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2346,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032758,
+      "real_input_tokens": 70,
+      "real_output_tokens": 132,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_026": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 685,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5680000000000002e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 808,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.973e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 1,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1342,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012664,
+      "real_input_tokens": 67,
+      "real_output_tokens": 41,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1784,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.343e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 68,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1598,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00021040000000000002,
+      "real_input_tokens": 64,
+      "real_output_tokens": 80,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2302,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028703999999999996,
+      "real_input_tokens": 60,
+      "real_output_tokens": 116,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3159,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047430000000000004,
+      "real_input_tokens": 66,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hm_027": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 804,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.595e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 844,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.9999999999999998e-05,
+      "real_input_tokens": 70,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1235,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.400000000000001e-05,
+      "real_input_tokens": 70,
+      "real_output_tokens": 41,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 1862,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019999000000000001,
+      "real_input_tokens": 61,
+      "real_output_tokens": 76,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1837,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00015839,
+      "real_input_tokens": 65,
+      "real_output_tokens": 56,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3210,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046608999999999995,
+      "real_input_tokens": 67,
+      "real_output_tokens": 196,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3369,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004754,
+      "real_input_tokens": 68,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hm_028": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 826,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5680000000000002e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 726,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.973e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2223,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024709,
+      "real_input_tokens": 67,
+      "real_output_tokens": 96,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1683,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.893e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 73,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2370,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027829,
+      "real_input_tokens": 64,
+      "real_output_tokens": 111,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3335,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047430000000000004,
+      "real_input_tokens": 66,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3714,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000471,
+      "real_input_tokens": 60,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hm_029": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 816,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6760000000000002e-05,
+      "real_input_tokens": 58,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 744,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.0810000000000002e-05,
+      "real_input_tokens": 73,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1299,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.691000000000001e-05,
+      "real_input_tokens": 73,
+      "real_output_tokens": 52,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2083,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0002783,
+      "real_input_tokens": 68,
+      "real_output_tokens": 110,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3449,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047705,
+      "real_input_tokens": 71,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3555,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3823,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047650000000000004,
+      "real_input_tokens": 70,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hm_030": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 889,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5139999999999999e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 1,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1282,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.649000000000001e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 44,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2227,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023285000000000002,
+      "real_input_tokens": 65,
+      "real_output_tokens": 90,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1991,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012259000000000003,
+      "real_input_tokens": 67,
+      "real_output_tokens": 95,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1824,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023558,
+      "real_input_tokens": 62,
+      "real_output_tokens": 92,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3249,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3366,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hc_001": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 873,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.353e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 915,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.137e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1055,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.4070000000000004e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1450,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00014851,
+      "real_input_tokens": 55,
+      "real_output_tokens": 54,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 1981,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023281999999999998,
+      "real_input_tokens": 53,
+      "real_output_tokens": 93,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3373,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046550000000000004,
+      "real_input_tokens": 50,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3473,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hc_002": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 983,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.5770000000000005e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 20,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1158,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.7930000000000004e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 20,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 875,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.2970000000000005e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 15,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1667,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00020545,
+      "real_input_tokens": 55,
+      "real_output_tokens": 80,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3480,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046550000000000004,
+      "real_input_tokens": 50,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3230,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3566,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046715000000000005,
+      "real_input_tokens": 53,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hc_003": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 967,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.125e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 24,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1098,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.3410000000000006e-05,
+      "real_input_tokens": 63,
+      "real_output_tokens": 24,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1370,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.255e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 50,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2024,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022955000000000002,
+      "real_input_tokens": 59,
+      "real_output_tokens": 90,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3336,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3788,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3593,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hc_004": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1107,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.1910000000000004e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1042,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.057e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 31,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 928,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.461e-05,
+      "real_input_tokens": 63,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2066,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0002175,
+      "real_input_tokens": 57,
+      "real_output_tokens": 85,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3467,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004666,
+      "real_input_tokens": 52,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3433,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3655,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "hc_005": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1047,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.5210000000000003e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 19,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 991,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.737e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 19,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 890,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.351e-05,
+      "real_input_tokens": 63,
+      "real_output_tokens": 15,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3588,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004666,
+      "real_input_tokens": 52,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 4324,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 4413,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4501,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047592,
+      "real_input_tokens": 57,
+      "real_output_tokens": 203,
+      "regime": "easy_saturation"
+    }
+  },
+  "hc_006": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1566,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.049000000000001e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 41,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1700,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.289e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 68,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2062,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.135e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 58,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3485,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3800,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4239,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00051754,
+      "real_input_tokens": 61,
+      "real_output_tokens": 221,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 4622,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_007": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2533,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012624,
+      "real_input_tokens": 52,
+      "real_output_tokens": 102,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2641,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001284,
+      "real_input_tokens": 60,
+      "real_output_tokens": 102,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2055,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012344,
+      "real_input_tokens": 62,
+      "real_output_tokens": 97,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3836,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046605,
+      "real_input_tokens": 51,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3463,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3609,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4262,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00061334,
+      "real_input_tokens": 56,
+      "real_output_tokens": 266,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_008": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1045,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.486e-05,
+      "real_input_tokens": 48,
+      "real_output_tokens": 29,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1167,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.702000000000001e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 29,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1708,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.836e-05,
+      "real_input_tokens": 58,
+      "real_output_tokens": 57,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1758,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018409,
+      "real_input_tokens": 52,
+      "real_output_tokens": 71,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3467,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046385,
+      "real_input_tokens": 47,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3266,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004666,
+      "real_input_tokens": 52,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3384,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046550000000000004,
+      "real_input_tokens": 50,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_009": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1101,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.55e-05,
+      "real_input_tokens": 50,
+      "real_output_tokens": 20,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 988,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.820000000000001e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 20,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2474,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.206e-05,
+      "real_input_tokens": 58,
+      "real_output_tokens": 24,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3265,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046495,
+      "real_input_tokens": 49,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3495,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3435,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004666,
+      "real_input_tokens": 52,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4613,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00066042,
+      "real_input_tokens": 54,
+      "real_output_tokens": 288,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_010": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1080,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.264e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 26,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1259,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.0200000000000006e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 40,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1651,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.604000000000001e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 63,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1925,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024542,
+      "real_input_tokens": 56,
+      "real_output_tokens": 98,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3554,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046605,
+      "real_input_tokens": 51,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3474,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3366,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_011": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1950,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011387,
+      "real_input_tokens": 51,
+      "real_output_tokens": 91,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1844,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011603000000000001,
+      "real_input_tokens": 59,
+      "real_output_tokens": 91,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3307,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046550000000000004,
+      "real_input_tokens": 50,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3275,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3290,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046715000000000005,
+      "real_input_tokens": 53,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 3872,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011107,
+      "real_input_tokens": 61,
+      "real_output_tokens": 86,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3945,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00048796,
+      "real_input_tokens": 55,
+      "real_output_tokens": 209,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_012": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1742,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011273000000000001,
+      "real_input_tokens": 59,
+      "real_output_tokens": 88,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1938,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011057000000000001,
+      "real_input_tokens": 51,
+      "real_output_tokens": 88,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1776,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010777,
+      "real_input_tokens": 61,
+      "real_output_tokens": 83,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3077,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3388,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046550000000000004,
+      "real_input_tokens": 50,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2613,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00035218,
+      "real_input_tokens": 55,
+      "real_output_tokens": 147,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3088,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046715000000000005,
+      "real_input_tokens": 53,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_013": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1050,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.934e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 23,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1001,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.1500000000000006e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 23,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1454,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.164000000000001e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 59,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3362,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046605,
+      "real_input_tokens": 51,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3141,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3427,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00042171,
+      "real_input_tokens": 54,
+      "real_output_tokens": 179,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4341,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0006396199999999999,
+      "real_input_tokens": 56,
+      "real_output_tokens": 278,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_014": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1795,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011358000000000001,
+      "real_input_tokens": 54,
+      "real_output_tokens": 90,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2100,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011574000000000001,
+      "real_input_tokens": 62,
+      "real_output_tokens": 90,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1907,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00012178000000000002,
+      "real_input_tokens": 64,
+      "real_output_tokens": 95,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3259,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046715000000000005,
+      "real_input_tokens": 53,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3364,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3241,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2966,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043486,
+      "real_input_tokens": 58,
+      "real_output_tokens": 184,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_015": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1322,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.425e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 54,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1433,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.695e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 54,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2347,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.641000000000001e-05,
+      "real_input_tokens": 63,
+      "real_output_tokens": 54,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2901,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00040638,
+      "real_input_tokens": 54,
+      "real_output_tokens": 172,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3014,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00041241,
+      "real_input_tokens": 57,
+      "real_output_tokens": 174,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3561,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3735,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005471,
+      "real_input_tokens": 59,
+      "real_output_tokens": 235,
+      "regime": "medium_headroom"
+    }
+  },
+  "hc_016": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2502,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017489,
+      "real_input_tokens": 57,
+      "real_output_tokens": 145,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2477,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017705,
+      "real_input_tokens": 65,
+      "real_output_tokens": 145,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2466,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017759,
+      "real_input_tokens": 67,
+      "real_output_tokens": 145,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3123,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3125,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3403,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4203,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00064894,
+      "real_input_tokens": 61,
+      "real_output_tokens": 281,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_017": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2935,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022520000000000005,
+      "real_input_tokens": 60,
+      "real_output_tokens": 190,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 3104,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022304000000000003,
+      "real_input_tokens": 52,
+      "real_output_tokens": 190,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 3098,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022574000000000004,
+      "real_input_tokens": 62,
+      "real_output_tokens": 190,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3234,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046605,
+      "real_input_tokens": 51,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3393,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3281,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4483,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0006899899999999999,
+      "real_input_tokens": 56,
+      "real_output_tokens": 301,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_018": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1684,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011298,
+      "real_input_tokens": 64,
+      "real_output_tokens": 87,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2566,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00016802,
+      "real_input_tokens": 56,
+      "real_output_tokens": 139,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1941,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011792000000000001,
+      "real_input_tokens": 66,
+      "real_output_tokens": 91,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3259,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000471,
+      "real_input_tokens": 60,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3162,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3867,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4472,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00066591,
+      "real_input_tokens": 60,
+      "real_output_tokens": 289,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_019": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1895,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.241000000000002e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 71,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1673,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.457000000000001e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 71,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2123,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00014131000000000001,
+      "real_input_tokens": 63,
+      "real_output_tokens": 113,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3129,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004666,
+      "real_input_tokens": 52,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3002,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004146,
+      "real_input_tokens": 57,
+      "real_output_tokens": 175,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3277,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 4581,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00065331,
+      "real_input_tokens": 57,
+      "real_output_tokens": 284,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_020": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2388,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017678,
+      "real_input_tokens": 64,
+      "real_output_tokens": 145,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2818,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00020808000000000003,
+      "real_input_tokens": 74,
+      "real_output_tokens": 171,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 3053,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022844000000000003,
+      "real_input_tokens": 72,
+      "real_output_tokens": 190,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3232,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047265,
+      "real_input_tokens": 63,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3068,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004754,
+      "real_input_tokens": 68,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3383,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047430000000000004,
+      "real_input_tokens": 66,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 5557,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0008696000000000001,
+      "real_input_tokens": 68,
+      "real_output_tokens": 380,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_021": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2591,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017346000000000004,
+      "real_input_tokens": 68,
+      "real_output_tokens": 141,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2732,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017562000000000003,
+      "real_input_tokens": 76,
+      "real_output_tokens": 141,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3227,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047485,
+      "real_input_tokens": 67,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2570,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018826000000000002,
+      "real_input_tokens": 78,
+      "real_output_tokens": 152,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3283,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004776,
+      "real_input_tokens": 72,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3169,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047650000000000004,
+      "real_input_tokens": 70,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 5994,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00089151,
+      "real_input_tokens": 72,
+      "real_output_tokens": 389,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_022": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1736,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010505,
+      "real_input_tokens": 55,
+      "real_output_tokens": 82,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1699,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010721000000000001,
+      "real_input_tokens": 63,
+      "real_output_tokens": 82,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1886,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011325000000000002,
+      "real_input_tokens": 65,
+      "real_output_tokens": 87,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3184,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3166,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00038723,
+      "real_input_tokens": 59,
+      "real_output_tokens": 162,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3578,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3565,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_023": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2331,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00016194000000000004,
+      "real_input_tokens": 62,
+      "real_output_tokens": 132,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2334,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00017894,
+      "real_input_tokens": 72,
+      "real_output_tokens": 145,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 3236,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010910000000000001,
+      "real_input_tokens": 70,
+      "real_output_tokens": 82,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3339,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3448,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047430000000000004,
+      "real_input_tokens": 66,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3619,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3250,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004896299999999999,
+      "real_input_tokens": 66,
+      "real_output_tokens": 207,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_024": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2637,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019214,
+      "real_input_tokens": 72,
+      "real_output_tokens": 157,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2602,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001943,
+      "real_input_tokens": 80,
+      "real_output_tokens": 157,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2635,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019484,
+      "real_input_tokens": 82,
+      "real_output_tokens": 157,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3296,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047705,
+      "real_input_tokens": 71,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3168,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004798,
+      "real_input_tokens": 76,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3264,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047870000000000003,
+      "real_input_tokens": 74,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 5045,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00073384,
+      "real_input_tokens": 76,
+      "real_output_tokens": 316,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_025": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2489,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00016499,
+      "real_input_tokens": 57,
+      "real_output_tokens": 136,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2449,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018145,
+      "real_input_tokens": 65,
+      "real_output_tokens": 149,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2710,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018419000000000004,
+      "real_input_tokens": 67,
+      "real_output_tokens": 151,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3299,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3295,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3689,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 5692,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0009424,
+      "real_input_tokens": 61,
+      "real_output_tokens": 415,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_026": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1618,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.976000000000001e-05,
+      "real_input_tokens": 68,
+      "real_output_tokens": 74,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2190,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.32e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 70,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 2497,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001674,
+      "real_input_tokens": 70,
+      "real_output_tokens": 135,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3495,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004732,
+      "real_input_tokens": 64,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3163,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047210000000000004,
+      "real_input_tokens": 62,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 5511,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00087397,
+      "real_input_tokens": 64,
+      "real_output_tokens": 383,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 7909,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "hc_027": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1208,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.047000000000001e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 40,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1227,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.7130000000000004e-05,
+      "real_input_tokens": 69,
+      "real_output_tokens": 35,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1241,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.767e-05,
+      "real_input_tokens": 71,
+      "real_output_tokens": 35,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3463,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000471,
+      "real_input_tokens": 60,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3245,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047375,
+      "real_input_tokens": 65,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3401,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047265,
+      "real_input_tokens": 63,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3810,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00056135,
+      "real_input_tokens": 65,
+      "real_output_tokens": 240,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hc_028": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2053,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00013502000000000002,
+      "real_input_tokens": 56,
+      "real_output_tokens": 109,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1155,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.852e-05,
+      "real_input_tokens": 66,
+      "real_output_tokens": 37,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2878,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019658000000000002,
+      "real_input_tokens": 64,
+      "real_output_tokens": 163,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3184,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046825,
+      "real_input_tokens": 55,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3340,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000471,
+      "real_input_tokens": 60,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3499,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005235600000000001,
+      "real_input_tokens": 60,
+      "real_output_tokens": 224,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 4770,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046990000000000004,
+      "real_input_tokens": 58,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hc_029": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1421,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.059e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 32,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1019,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.779e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 27,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 2818,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.275e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 32,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3259,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004688,
+      "real_input_tokens": 56,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3069,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2999,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037518999999999996,
+      "real_input_tokens": 61,
+      "real_output_tokens": 156,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3286,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047155000000000005,
+      "real_input_tokens": 61,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "hc_030": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 950,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.905e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 22,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 985,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.121000000000001e-05,
+      "real_input_tokens": 63,
+      "real_output_tokens": 22,
+      "regime": "weak_verifier_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 904,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.735e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 18,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3467,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046770000000000004,
+      "real_input_tokens": 54,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3018,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047045,
+      "real_input_tokens": 59,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3131,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046935,
+      "real_input_tokens": 57,
+      "real_output_tokens": 200,
+      "regime": "weak_verifier_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 11317,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00182606,
+      "real_input_tokens": 59,
+      "real_output_tokens": 819,
+      "regime": "weak_verifier_risk"
+    }
+  },
+  "he_001": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 833,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.046e-05,
+      "real_input_tokens": 138,
+      "real_output_tokens": 12,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 989,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.046e-05,
+      "real_input_tokens": 138,
+      "real_output_tokens": 12,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 899,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.262000000000001e-05,
+      "real_input_tokens": 146,
+      "real_output_tokens": 12,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1535,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022647000000000002,
+      "real_input_tokens": 141,
+      "real_output_tokens": 68,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2621,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00038577,
+      "real_input_tokens": 132,
+      "real_output_tokens": 143,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3168,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005100500000000001,
+      "real_input_tokens": 131,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_002": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 873,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.3400000000000005e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 10,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 888,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.3400000000000005e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 10,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 846,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.5560000000000004e-05,
+      "real_input_tokens": 128,
+      "real_output_tokens": 10,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1444,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00018591000000000001,
+      "real_input_tokens": 123,
+      "real_output_tokens": 54,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2247,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031837,
+      "real_input_tokens": 109,
+      "real_output_tokens": 118,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3302,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050015,
+      "real_input_tokens": 113,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_003": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 933,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.355e-05,
+      "real_input_tokens": 125,
+      "real_output_tokens": 18,
+      "regime": "easy_saturation"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1018,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.355e-05,
+      "real_input_tokens": 125,
+      "real_output_tokens": 18,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 903,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.571000000000001e-05,
+      "real_input_tokens": 133,
+      "real_output_tokens": 18,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3156,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050345,
+      "real_input_tokens": 119,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3368,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005029,
+      "real_input_tokens": 118,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3079,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00048211999999999994,
+      "real_input_tokens": 128,
+      "real_output_tokens": 188,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3416,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005007,
+      "real_input_tokens": 114,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_004": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 834,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.2180000000000005e-05,
+      "real_input_tokens": 124,
+      "real_output_tokens": 17,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 892,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.2180000000000005e-05,
+      "real_input_tokens": 124,
+      "real_output_tokens": 17,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1036,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.4340000000000005e-05,
+      "real_input_tokens": 132,
+      "real_output_tokens": 17,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3143,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005029,
+      "real_input_tokens": 118,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2590,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00036218,
+      "real_input_tokens": 113,
+      "real_output_tokens": 137,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3505,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050235,
+      "real_input_tokens": 117,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2938,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043777,
+      "real_input_tokens": 127,
+      "real_output_tokens": 168,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_005": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 876,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.834e-05,
+      "real_input_tokens": 122,
+      "real_output_tokens": 14,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1016,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.834e-05,
+      "real_input_tokens": 122,
+      "real_output_tokens": 14,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 859,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.94e-05,
+      "real_input_tokens": 130,
+      "real_output_tokens": 13,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1509,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00021328999999999999,
+      "real_input_tokens": 125,
+      "real_output_tokens": 66,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2350,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034630999999999996,
+      "real_input_tokens": 116,
+      "real_output_tokens": 129,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2336,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032604,
+      "real_input_tokens": 111,
+      "real_output_tokens": 121,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 6446,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005012500000000001,
+      "real_input_tokens": 115,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_006": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 790,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.363e-05,
+      "real_input_tokens": 129,
+      "real_output_tokens": 8,
+      "regime": "easy_saturation"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 909,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.243e-05,
+      "real_input_tokens": 129,
+      "real_output_tokens": 16,
+      "regime": "easy_saturation"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2170,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032826,
+      "real_input_tokens": 123,
+      "real_output_tokens": 119,
+      "regime": "easy_saturation"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1604,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00020400000000000003,
+      "real_input_tokens": 132,
+      "real_output_tokens": 60,
+      "regime": "easy_saturation"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3295,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005051000000000001,
+      "real_input_tokens": 122,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3344,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005029,
+      "real_input_tokens": 118,
+      "real_output_tokens": 200,
+      "regime": "easy_saturation"
+    }
+  },
+  "he_007": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 849,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.6700000000000003e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 13,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1186,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.6700000000000003e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 13,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 985,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.886e-05,
+      "real_input_tokens": 128,
+      "real_output_tokens": 13,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1762,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024723,
+      "real_input_tokens": 123,
+      "real_output_tokens": 82,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3163,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005007,
+      "real_input_tokens": 114,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2563,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037312,
+      "real_input_tokens": 109,
+      "real_output_tokens": 143,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3248,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050015,
+      "real_input_tokens": 113,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_008": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 982,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.822000000000001e-05,
+      "real_input_tokens": 126,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 989,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.822000000000001e-05,
+      "real_input_tokens": 126,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 931,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.038e-05,
+      "real_input_tokens": 134,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2016,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029214,
+      "real_input_tokens": 129,
+      "real_output_tokens": 101,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3015,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00045582,
+      "real_input_tokens": 120,
+      "real_output_tokens": 178,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3179,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050345,
+      "real_input_tokens": 119,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3215,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005012500000000001,
+      "real_input_tokens": 115,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_009": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1028,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.997000000000001e-05,
+      "real_input_tokens": 141,
+      "real_output_tokens": 29,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1032,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.997000000000001e-05,
+      "real_input_tokens": 141,
+      "real_output_tokens": 29,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1021,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.213e-05,
+      "real_input_tokens": 149,
+      "real_output_tokens": 29,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2500,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00036333,
+      "real_input_tokens": 135,
+      "real_output_tokens": 132,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1982,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031572,
+      "real_input_tokens": 144,
+      "real_output_tokens": 108,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2698,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00044160999999999994,
+      "real_input_tokens": 130,
+      "real_output_tokens": 169,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3215,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005117,
+      "real_input_tokens": 134,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_010": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 776,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.093e-05,
+      "real_input_tokens": 119,
+      "real_output_tokens": 8,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 905,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.093e-05,
+      "real_input_tokens": 119,
+      "real_output_tokens": 8,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 849,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.3089999999999996e-05,
+      "real_input_tokens": 127,
+      "real_output_tokens": 8,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2142,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031619,
+      "real_input_tokens": 113,
+      "real_output_tokens": 116,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1999,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025544,
+      "real_input_tokens": 122,
+      "real_output_tokens": 86,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3111,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004996,
+      "real_input_tokens": 112,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3463,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0004974000000000001,
+      "real_input_tokens": 108,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_011": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1107,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.6790000000000003e-05,
+      "real_input_tokens": 137,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1033,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.789e-05,
+      "real_input_tokens": 137,
+      "real_output_tokens": 19,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 928,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.7850000000000003e-05,
+      "real_input_tokens": 145,
+      "real_output_tokens": 17,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1420,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019907,
+      "real_input_tokens": 131,
+      "real_output_tokens": 58,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2065,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028724,
+      "real_input_tokens": 140,
+      "real_output_tokens": 96,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3200,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005095,
+      "real_input_tokens": 130,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3448,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005073,
+      "real_input_tokens": 126,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_012": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 819,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.932000000000001e-05,
+      "real_input_tokens": 146,
+      "real_output_tokens": 9,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 952,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.932000000000001e-05,
+      "real_input_tokens": 146,
+      "real_output_tokens": 9,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 823,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.148000000000001e-05,
+      "real_input_tokens": 154,
+      "real_output_tokens": 9,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1412,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00021335,
+      "real_input_tokens": 149,
+      "real_output_tokens": 60,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2810,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039236,
+      "real_input_tokens": 140,
+      "real_output_tokens": 144,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3185,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005144500000000001,
+      "real_input_tokens": 139,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3596,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00051225,
+      "real_input_tokens": 135,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_013": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 896,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.106e-05,
+      "real_input_tokens": 128,
+      "real_output_tokens": 15,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 887,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.322e-05,
+      "real_input_tokens": 136,
+      "real_output_tokens": 15,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1904,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0002861,
+      "real_input_tokens": 122,
+      "real_output_tokens": 100,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 2625,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.106e-05,
+      "real_input_tokens": 128,
+      "real_output_tokens": 15,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1517,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00020783000000000002,
+      "real_input_tokens": 131,
+      "real_output_tokens": 62,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3034,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00044103,
+      "real_input_tokens": 117,
+      "real_output_tokens": 172,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3338,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050455,
+      "real_input_tokens": 121,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_014": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 933,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.571000000000001e-05,
+      "real_input_tokens": 133,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1017,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.571000000000001e-05,
+      "real_input_tokens": 133,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1946,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026095000000000003,
+      "real_input_tokens": 136,
+      "real_output_tokens": 85,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2778,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043338999999999997,
+      "real_input_tokens": 127,
+      "real_output_tokens": 166,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3522,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005073,
+      "real_input_tokens": 126,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3793,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005051000000000001,
+      "real_input_tokens": 122,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_015": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 958,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.7600000000000004e-05,
+      "real_input_tokens": 140,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1086,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.7600000000000004e-05,
+      "real_input_tokens": 140,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 929,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.976000000000001e-05,
+      "real_input_tokens": 148,
+      "real_output_tokens": 18,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1935,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00019634,
+      "real_input_tokens": 134,
+      "real_output_tokens": 56,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1727,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027356,
+      "real_input_tokens": 143,
+      "real_output_tokens": 89,
+      "regime": "medium_headroom"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 2891,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00046516,
+      "real_input_tokens": 133,
+      "real_output_tokens": 179,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3103,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00045201000000000003,
+      "real_input_tokens": 129,
+      "real_output_tokens": 174,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_016": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 917,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.281e-05,
+      "real_input_tokens": 143,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 951,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.281e-05,
+      "real_input_tokens": 143,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1069,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.497000000000001e-05,
+      "real_input_tokens": 151,
+      "real_output_tokens": 22,
+      "regime": "medium_headroom"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1377,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00020237,
+      "real_input_tokens": 137,
+      "real_output_tokens": 58,
+      "regime": "medium_headroom"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2002,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028835000000000004,
+      "real_input_tokens": 146,
+      "real_output_tokens": 95,
+      "regime": "medium_headroom"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3041,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005106,
+      "real_input_tokens": 132,
+      "real_output_tokens": 200,
+      "regime": "medium_headroom"
+    }
+  },
+  "he_017": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 806,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.551e-05,
+      "real_input_tokens": 173,
+      "real_output_tokens": 8,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 795,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.551e-05,
+      "real_input_tokens": 173,
+      "real_output_tokens": 8,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 792,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.767000000000001e-05,
+      "real_input_tokens": 181,
+      "real_output_tokens": 8,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2082,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029770999999999997,
+      "real_input_tokens": 167,
+      "real_output_tokens": 94,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2201,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00035522,
+      "real_input_tokens": 176,
+      "real_output_tokens": 118,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2783,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047016,
+      "real_input_tokens": 162,
+      "real_output_tokens": 174,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3223,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005293,
+      "real_input_tokens": 166,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_018": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1216,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.117000000000001e-05,
+      "real_input_tokens": 211,
+      "real_output_tokens": 22,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1219,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.227000000000001e-05,
+      "real_input_tokens": 211,
+      "real_output_tokens": 23,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1330,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.333e-05,
+      "real_input_tokens": 219,
+      "real_output_tokens": 22,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1777,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031480000000000006,
+      "real_input_tokens": 214,
+      "real_output_tokens": 90,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3044,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00055075,
+      "real_input_tokens": 205,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3133,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005502,
+      "real_input_tokens": 204,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3245,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005480000000000001,
+      "real_input_tokens": 200,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_019": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1105,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.776e-05,
+      "real_input_tokens": 178,
+      "real_output_tokens": 27,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1052,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.776e-05,
+      "real_input_tokens": 178,
+      "real_output_tokens": 27,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1109,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.332000000000001e-05,
+      "real_input_tokens": 186,
+      "real_output_tokens": 21,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1582,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025009,
+      "real_input_tokens": 172,
+      "real_output_tokens": 71,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2439,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037987,
+      "real_input_tokens": 181,
+      "real_output_tokens": 128,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2677,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00041378,
+      "real_input_tokens": 167,
+      "real_output_tokens": 147,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 4080,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005320500000000001,
+      "real_input_tokens": 171,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_020": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1098,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.123e-05,
+      "real_input_tokens": 199,
+      "real_output_tokens": 25,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1061,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.339e-05,
+      "real_input_tokens": 207,
+      "real_output_tokens": 25,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1166,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.233e-05,
+      "real_input_tokens": 199,
+      "real_output_tokens": 26,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3229,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00054415,
+      "real_input_tokens": 193,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3155,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005436,
+      "real_input_tokens": 192,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3047,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005414,
+      "real_input_tokens": 188,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3084,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00048559000000000005,
+      "real_input_tokens": 202,
+      "real_output_tokens": 171,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_021": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 971,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.46e-05,
+      "real_input_tokens": 170,
+      "real_output_tokens": 17,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1047,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.570000000000001e-05,
+      "real_input_tokens": 170,
+      "real_output_tokens": 18,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 949,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.786e-05,
+      "real_input_tokens": 178,
+      "real_output_tokens": 18,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1831,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029005999999999997,
+      "real_input_tokens": 173,
+      "real_output_tokens": 89,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3452,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005282,
+      "real_input_tokens": 164,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3126,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005276500000000001,
+      "real_input_tokens": 163,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3401,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00052545,
+      "real_input_tokens": 159,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_022": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1187,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.731e-05,
+      "real_input_tokens": 193,
+      "real_output_tokens": 32,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1083,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.397000000000001e-05,
+      "real_input_tokens": 201,
+      "real_output_tokens": 27,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1619,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.291e-05,
+      "real_input_tokens": 193,
+      "real_output_tokens": 28,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1483,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025453,
+      "real_input_tokens": 196,
+      "real_output_tokens": 67,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2532,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00044448999999999997,
+      "real_input_tokens": 187,
+      "real_output_tokens": 156,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3139,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005403000000000001,
+      "real_input_tokens": 186,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_023": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 924,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.247e-05,
+      "real_input_tokens": 191,
+      "real_output_tokens": 19,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 980,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.247e-05,
+      "real_input_tokens": 191,
+      "real_output_tokens": 19,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 905,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.463000000000001e-05,
+      "real_input_tokens": 199,
+      "real_output_tokens": 19,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3113,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005397500000000001,
+      "real_input_tokens": 185,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2756,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043519999999999995,
+      "real_input_tokens": 194,
+      "real_output_tokens": 150,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3109,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005392,
+      "real_input_tokens": 184,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3232,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000537,
+      "real_input_tokens": 180,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_024": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1308,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.278e-05,
+      "real_input_tokens": 184,
+      "real_output_tokens": 21,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1134,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.278e-05,
+      "real_input_tokens": 184,
+      "real_output_tokens": 21,
+      "regime": "hard_strong_gap"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 925,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.494000000000001e-05,
+      "real_input_tokens": 192,
+      "real_output_tokens": 21,
+      "regime": "hard_strong_gap"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3103,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005359000000000001,
+      "real_input_tokens": 178,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3364,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00053535,
+      "real_input_tokens": 177,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3394,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00053315,
+      "real_input_tokens": 173,
+      "real_output_tokens": 200,
+      "regime": "hard_strong_gap"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 3711,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00057151,
+      "real_input_tokens": 187,
+      "real_output_tokens": 214,
+      "regime": "hard_strong_gap"
+    }
+  },
+  "he_025": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 914,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.967e-05,
+      "real_input_tokens": 201,
+      "real_output_tokens": 14,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 895,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.967e-05,
+      "real_input_tokens": 201,
+      "real_output_tokens": 14,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 893,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.183000000000001e-05,
+      "real_input_tokens": 209,
+      "real_output_tokens": 14,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2217,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027425999999999997,
+      "real_input_tokens": 204,
+      "real_output_tokens": 74,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3094,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005425,
+      "real_input_tokens": 190,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3458,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00054525,
+      "real_input_tokens": 195,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3378,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005447000000000001,
+      "real_input_tokens": 194,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  },
+  "he_026": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1117,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.348000000000001e-05,
+      "real_input_tokens": 174,
+      "real_output_tokens": 15,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 913,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.348000000000001e-05,
+      "real_input_tokens": 174,
+      "real_output_tokens": 15,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 918,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.454e-05,
+      "real_input_tokens": 182,
+      "real_output_tokens": 14,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1375,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00021999,
+      "real_input_tokens": 177,
+      "real_output_tokens": 56,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3141,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005304,
+      "real_input_tokens": 168,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3125,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00052985,
+      "real_input_tokens": 167,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3203,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005276500000000001,
+      "real_input_tokens": 163,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  },
+  "he_027": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1049,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.889e-05,
+      "real_input_tokens": 157,
+      "real_output_tokens": 15,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1106,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.889e-05,
+      "real_input_tokens": 157,
+      "real_output_tokens": 15,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 865,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.105e-05,
+      "real_input_tokens": 165,
+      "real_output_tokens": 15,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3083,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050353,
+      "real_input_tokens": 151,
+      "real_output_tokens": 192,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2817,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026539,
+      "real_input_tokens": 160,
+      "real_output_tokens": 81,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3203,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005183,
+      "real_input_tokens": 146,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3395,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005205,
+      "real_input_tokens": 150,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  },
+  "he_028": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 932,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.327000000000001e-05,
+      "real_input_tokens": 161,
+      "real_output_tokens": 18,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1012,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.327000000000001e-05,
+      "real_input_tokens": 161,
+      "real_output_tokens": 18,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 967,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.543e-05,
+      "real_input_tokens": 169,
+      "real_output_tokens": 18,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1445,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00023474,
+      "real_input_tokens": 164,
+      "real_output_tokens": 66,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2584,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00040499000000000004,
+      "real_input_tokens": 155,
+      "real_output_tokens": 146,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2913,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00045699,
+      "real_input_tokens": 150,
+      "real_output_tokens": 171,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3200,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005227000000000001,
+      "real_input_tokens": 154,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  },
+  "he_029": {
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 870,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.5610000000000005e-05,
+      "real_input_tokens": 153,
+      "real_output_tokens": 13,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1034,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.5610000000000005e-05,
+      "real_input_tokens": 153,
+      "real_output_tokens": 13,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1101,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.777000000000001e-05,
+      "real_input_tokens": 161,
+      "real_output_tokens": 13,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2308,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037269000000000007,
+      "real_input_tokens": 156,
+      "real_output_tokens": 131,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 3324,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005188500000000001,
+      "real_input_tokens": 147,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 2929,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043725999999999997,
+      "real_input_tokens": 142,
+      "real_output_tokens": 164,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3362,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005183,
+      "real_input_tokens": 146,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  },
+  "he_030": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 886,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.974000000000001e-05,
+      "real_input_tokens": 152,
+      "real_output_tokens": 17,
+      "regime": "evidence_support_risk"
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1152,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.084000000000001e-05,
+      "real_input_tokens": 152,
+      "real_output_tokens": 18,
+      "regime": "evidence_support_risk"
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 2280,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037376,
+      "real_input_tokens": 146,
+      "real_output_tokens": 134,
+      "regime": "evidence_support_risk"
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 2319,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031082,
+      "real_input_tokens": 155,
+      "real_output_tokens": 103,
+      "regime": "evidence_support_risk"
+    },
+    "strong_critique": {
+      "cost": 2.0,
+      "latency_ms": 3583,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00051775,
+      "real_input_tokens": 145,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    },
+    "strong_checklist": {
+      "cost": 2.0,
+      "latency_ms": 3649,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00051555,
+      "real_input_tokens": 141,
+      "real_output_tokens": 200,
+      "regime": "evidence_support_risk"
+    }
+  }
+}

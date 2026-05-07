@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022792,
+  "input_tokens": 100,
+  "latency_ms": 807,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 159,
+  "provider": "together",
+  "request_hash": "5ea047313d6ba32b0646912ccc0dd8854dd8141d268792ef3a1c17b15af7099d",
+  "text": "```python\ndef count_islands(grid):\n    if not grid:\n        return 0\n\n    rows, cols = len(grid), len(grid[0])\n    islands = 0\n\n    def dfs(r, c):\n        if 0 <= r < rows and 0 <= c < cols and grid[r][c] == 1:\n            grid[r][c] = 0\n            dfs(r - 1, c)\n            dfs(r + 1, c)\n            dfs(r, c - 1)\n            dfs(r, c + 1)\n\n    for r in range(rows):\n        for c in range(cols):\n            if grid[r][c] == 1:\n                islands += 1\n                dfs(r, c)\n\n    return islands\n```"
+}

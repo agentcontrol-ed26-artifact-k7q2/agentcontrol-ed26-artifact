@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00207456,
+  "input_tokens": 252,
+  "latency_ms": 12085,
+  "model": "deepseek-reasoner",
+  "output_tokens": 884,
+  "provider": "deepseek",
+  "request_hash": "90f2e015b58ca4c9d46424246a878fd5229f0980a6011fe75cb8a59dca482abc",
+  "text": "The provided evidence does not specify where Edmund Hillary climbed Everest from. [doc_hillary_bio]"
+}

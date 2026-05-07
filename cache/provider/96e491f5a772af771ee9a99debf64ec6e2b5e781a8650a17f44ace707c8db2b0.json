@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792000000000001,
+  "input_tokens": 98,
+  "latency_ms": 847,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "96e491f5a772af771ee9a99debf64ec6e2b5e781a8650a17f44ace707c8db2b0",
+  "text": "```python\ndef is_palindrome(s):\n    s = ''.join(c for c in s if c.isalnum()).lower()\n    return s == s[::-1]\n```"
+}

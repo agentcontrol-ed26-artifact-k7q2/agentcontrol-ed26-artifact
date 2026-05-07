@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013376,
+  "input_tokens": 82,
+  "latency_ms": 4205,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 70,
+  "provider": "together",
+  "request_hash": "62507ffa537a9787d3661effb1babf3ed6ef59dbdbeaf2a6854b784d6936606c",
+  "text": "Only check divisibility up to the square root of n.\n\n```python\nimport math\n\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(math.sqrt(n)) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

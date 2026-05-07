@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.934000000000001e-05,
+  "input_tokens": 82,
+  "latency_ms": 1588,
+  "model": "deepseek-chat",
+  "output_tokens": 52,
+  "provider": "deepseek",
+  "request_hash": "c1463630e8da86ab1a34882fd45f8a9e9bb6a1dea31452ed933bd726cf937f11",
+  "text": "The range is \\(20 - (-5) = 25\\).  \n\n```python\nxs = [10, 5, 0, -5, 10, 20]\nresult = max(xs) - min(xs)\nprint(result)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.867e-05,
+  "input_tokens": 251,
+  "latency_ms": 1091,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "25104c8f97f95d426d146ef2b5db12bd69f7139371d84a4ed90bd9c808255a36",
+  "text": "Python 3.0 was released in 2008. [doc_python_versions]"
+}

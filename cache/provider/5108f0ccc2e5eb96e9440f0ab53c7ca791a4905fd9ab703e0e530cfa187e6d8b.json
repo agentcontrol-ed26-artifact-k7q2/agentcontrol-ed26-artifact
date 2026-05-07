@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025761,
+  "input_tokens": 114,
+  "latency_ms": 1714,
+  "model": "deepseek-reasoner",
+  "output_tokens": 89,
+  "provider": "deepseek",
+  "request_hash": "5108f0ccc2e5eb96e9440f0ab53c7ca791a4905fd9ab703e0e530cfa187e6d8b",
+  "text": "Edmund Hillary and Tenzing Norgay [doc_everest]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.822000000000001e-05,
+  "input_tokens": 126,
+  "latency_ms": 982,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "481326179776444abf923048ad80af612340f26af38a468e440ddafdd72b3975",
+  "text": "The Apollo 11 mission landed humans on the Moon in July 1969. [doc_apollo]"
+}

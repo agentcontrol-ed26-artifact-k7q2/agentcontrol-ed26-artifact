@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.064e-05,
+  "input_tokens": 90,
+  "latency_ms": 579,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "835a2e01778ff1f4ee30bf1754ddb68230b8811e86700e36fc69c113ed00b969",
+  "text": "To find the result, subtract 5 from 12."
+}

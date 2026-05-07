@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.161e-05,
+  "input_tokens": 73,
+  "latency_ms": 1189,
+  "model": "deepseek-chat",
+  "output_tokens": 29,
+  "provider": "deepseek",
+  "request_hash": "496c2b3d44b354330198286dad6c9b5f7a8338b3fdb6c21f4fc85c36abeaa15a",
+  "text": "```python\nxs = [4, 8, 15, 16, 23, 42]\nprint(sum(xs))\n```"
+}

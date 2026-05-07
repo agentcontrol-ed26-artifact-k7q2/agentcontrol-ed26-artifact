@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001804,
+  "input_tokens": 166,
+  "latency_ms": 4967,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "7597250e2af9987bd7a4d417eb9ef9ab2ce052b17ed99e0df6d1e00d6c0d0c8a",
+  "text": "The most common citation mistake is including unnecessary or incorrect information in the citation, such as including the answer or extra words, instead of just the document reference.\nanswer phrase [doc_babbage]"
+}

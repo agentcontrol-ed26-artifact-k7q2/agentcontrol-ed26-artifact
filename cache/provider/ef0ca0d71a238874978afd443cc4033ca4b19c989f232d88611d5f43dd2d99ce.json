@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528000000000001,
+  "input_tokens": 120,
+  "latency_ms": 331,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "ef0ca0d71a238874978afd443cc4033ca4b19c989f232d88611d5f43dd2d99ce",
+  "text": "Look at doc_moon [doc_moon]"
+}

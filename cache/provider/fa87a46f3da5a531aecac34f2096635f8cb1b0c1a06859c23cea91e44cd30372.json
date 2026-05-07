@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025453,
+  "input_tokens": 196,
+  "latency_ms": 1483,
+  "model": "deepseek-reasoner",
+  "output_tokens": 67,
+  "provider": "deepseek",
+  "request_hash": "fa87a46f3da5a531aecac34f2096635f8cb1b0c1a06859c23cea91e44cd30372",
+  "text": "HMS Beagle [doc_darwin]"
+}

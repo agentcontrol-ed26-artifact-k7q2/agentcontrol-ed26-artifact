@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020808000000000003,
+  "input_tokens": 74,
+  "latency_ms": 2818,
+  "model": "deepseek-chat",
+  "output_tokens": 171,
+  "provider": "deepseek",
+  "request_hash": "c0681d692bf8560855ac40037e6f64d0c1677b1560a145a2becb1f18d31df469",
+  "text": "```python\ndef topological_sort(n, edges):\n    if n <= 0:\n        return []\n    from collections import deque\n    adj = [[] for _ in range(n)]\n    indeg = [0] * n\n    for u, v in edges:\n        if 0 <= u < n and 0 <= v < n:\n            adj[u].append(v)\n            indeg[v] += 1\n    q = deque([i for i in range(n) if indeg[i] == 0])\n    res = []\n    while q:\n        u = q.popleft()\n        res.append(u)\n        for v in adj[u]:\n            indeg[v] -= 1\n            if indeg[v] == 0:\n                q.append(v)\n    return res if len(res) == n else []\n```"
+}

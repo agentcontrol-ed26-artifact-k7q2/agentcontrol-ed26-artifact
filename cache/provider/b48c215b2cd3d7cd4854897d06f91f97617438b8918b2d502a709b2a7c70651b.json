@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 90,
+  "latency_ms": 741,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "b48c215b2cd3d7cd4854897d06f91f97617438b8918b2d502a709b2a7c70651b",
+  "text": "To find the result, subtract 17 from 50 by performing the operation 50 - 17."
+}

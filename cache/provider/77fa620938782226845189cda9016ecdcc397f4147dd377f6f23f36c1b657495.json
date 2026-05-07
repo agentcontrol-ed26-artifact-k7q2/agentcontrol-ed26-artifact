@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.6399999999999998e-05,
+  "input_tokens": 64,
+  "latency_ms": 408,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "77fa620938782226845189cda9016ecdcc397f4147dd377f6f23f36c1b657495",
+  "text": "```python\ndef single_number(xs):\n    return reduce(lambda a, b: a ^ b, xs)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032000000000002,
+  "input_tokens": 81,
+  "latency_ms": 2148,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "425145c28cf94a6327faba286a5dd4201f5792bde9a4b7422a807310e9a05592",
+  "text": "To implement the add function, you can utilize Python's built-in arithmetic operators.\n\n```python\ndef add(a, b):\n    return a + b\n```"
+}

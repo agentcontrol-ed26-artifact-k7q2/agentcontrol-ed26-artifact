@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012408,
+  "input_tokens": 98,
+  "latency_ms": 859,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "53fc78ae8657fc51f5b4c05858a36e815181f6383411f84e276fc1ce67a4def4",
+  "text": "To minimize the number of crossings, consider the state where there are an equal number of missionaries and cannibals on the left bank, and think about how to make the most efficient use of each boat trip."
+}

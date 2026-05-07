@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.2199999999999995e-05,
+  "input_tokens": 98,
+  "latency_ms": 845,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 76,
+  "provider": "together",
+  "request_hash": "3358f986ccc93eb55d11ba57f6671b6051078449d9a549deb98b07e2d0247e27",
+  "text": "The intermediate sum of the numbers [10, 20, 30, 40] is 100.\n\nTo find the mean, we divide the sum by the number of values, which is 4.\n\nSo, the mean is \\( \\frac{100}{4} = 25 \\).\n\nFinal answer: 25"
+}

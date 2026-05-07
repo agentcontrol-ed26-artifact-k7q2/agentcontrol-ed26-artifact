@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012496,
+  "input_tokens": 79,
+  "latency_ms": 880,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 63,
+  "provider": "together",
+  "request_hash": "6b6990ac69b3cc184827503794e116c8edd93e3e6a91873b8af3c1aa2d8f7272",
+  "text": "42\n1. Reversing the calculation: 42 - 15 = 27 and 42 - 27 = 15\n2. Estimating the sum: 10 + 20 = 30 and 5 + 7 = 12, then 30 + 12 = 42"
+}

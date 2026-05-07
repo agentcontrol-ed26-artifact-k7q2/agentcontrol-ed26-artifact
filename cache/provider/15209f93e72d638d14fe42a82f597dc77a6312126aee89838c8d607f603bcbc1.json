@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017512000000000002,
+  "input_tokens": 99,
+  "latency_ms": 1214,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 100,
+  "provider": "together",
+  "request_hash": "15209f93e72d638d14fe42a82f597dc77a6312126aee89838c8d607f603bcbc1",
+  "text": "```python\ndef interval_merge(intervals):\n    if not intervals:\n        return []\n    \n    intervals.sort(key=lambda x: x[0])\n    merged = [intervals[0]]\n    \n    for current in intervals[1:]:\n        last = merged[-1]\n        if current[0] <= last[1]:\n            merged[-1] = (last[0], max(last[1], current[1]))\n        else:\n            merged.append(current)\n    \n    return merged\n```"
+}

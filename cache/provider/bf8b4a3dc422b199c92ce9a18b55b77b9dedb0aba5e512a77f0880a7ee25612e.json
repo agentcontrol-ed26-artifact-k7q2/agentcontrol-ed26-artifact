@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022528,
+  "input_tokens": 109,
+  "latency_ms": 1477,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 147,
+  "provider": "together",
+  "request_hash": "bf8b4a3dc422b199c92ce9a18b55b77b9dedb0aba5e512a77f0880a7ee25612e",
+  "text": "```python\n# Define the list of (name, score)\nstudents = [('A',80),('B',95),('C',72),('D',95)]\n\n# Initialize a counter for scores >= 90\ncount = 0\n\n# Iterate over each student in the list\nfor student in students:\n    # Check if the score is >= 90\n    if student[1] >= 90:\n        # If it is, increment the counter\n        count += 1\n\n# Print the count\nprint(count)\n```\n\nHint: You can use a list comprehension with a conditional statement to filter the scores and then use the `len()` function to count the number of scores that meet the condition."
+}

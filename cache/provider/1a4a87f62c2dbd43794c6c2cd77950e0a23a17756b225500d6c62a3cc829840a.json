@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012664,
+  "input_tokens": 67,
+  "latency_ms": 1342,
+  "model": "deepseek-reasoner",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "1a4a87f62c2dbd43794c6c2cd77950e0a23a17756b225500d6c62a3cc829840a",
+  "text": "Divide 378 by 252, remainder 126."
+}

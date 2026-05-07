@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00077871,
+  "input_tokens": 66,
+  "latency_ms": 5186,
+  "model": "deepseek-reasoner",
+  "output_tokens": 339,
+  "provider": "deepseek",
+  "request_hash": "f7929f519996167e96fbf00e0781332883db90bcc15e7ccdaca1c1c7f168ac28",
+  "text": "```python\ndef max_subarray_sum(xs):\n    \"\"\"\n    Returns the maximum sum of a contiguous subarray within xs.\n    Handles negative numbers by allowing negative sums (Kadane's algorithm).\n    If xs is empty, returns 0.\n    \"\"\"\n    if not xs:\n        return 0\n    current = 0\n    best = float('-inf')\n    for x in xs:\n        current = max(x, current + x)\n        best = max(best, current)\n    return best\n```"
+}

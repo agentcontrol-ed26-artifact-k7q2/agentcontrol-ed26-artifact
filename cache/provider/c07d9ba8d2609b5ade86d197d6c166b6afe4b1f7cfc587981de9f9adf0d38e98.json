@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001716,
+  "input_tokens": 104,
+  "latency_ms": 2754,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 91,
+  "provider": "together",
+  "request_hash": "c07d9ba8d2609b5ade86d197d6c166b6afe4b1f7cfc587981de9f9adf0d38e98",
+  "text": "To compute the total cents, we first calculate the value of each type of coin in cents.\n\n3 quarters = 3 * 25 = 75 cents\n4 dimes = 4 * 10 = 40 cents\n5 nickels = 5 * 5 = 25 cents\n\nNow, we add up the values of all the coins:\n75 + 40 + 25 = 140\n\nThe final answer is 140."
+}

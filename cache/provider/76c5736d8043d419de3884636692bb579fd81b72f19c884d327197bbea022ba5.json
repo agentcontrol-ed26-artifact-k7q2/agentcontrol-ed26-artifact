@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001908,
+  "input_tokens": 124,
+  "latency_ms": 4792,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 512,
+  "provider": "together",
+  "request_hash": "76c5736d8043d419de3884636692bb579fd81b72f19c884d327197bbea022ba5",
+  "text": "To solve the job scheduling problem, we can use a dynamic programming approach. Here's a step-by-step solution:\n\n1. **Sort the jobs by their deadlines**: This helps in managing the jobs in the order they need to be completed by their respective deadlines.\n2. **Initialize a DP array**: `dp[i]` will represent the maximum profit achievable by considering the first `i` jobs.\n3. **Fill the DP array**: For each job, we need to decide whether to include it in the schedule or not, based on the maximum profit achievable.\n\nGiven jobs: \\((2,100), (1,19), (2,27), (1,25), (3,15)\\)\n\nFirst, sort the jobs by their deadlines:\n1. (1, 19)\n2. (1, 25)\n3. (2, 27)\n4. (2, 100)\n5. (3, 15)\n\nNow, let's fill the DP array:\n\n- **For job 1 (1, 19)**:\n  - `dp[1] = 19` (since it's the first job, we can only take this job).\n\n- **For job 2 (1, 25)**:\n  - `dp[2] = max(dp[1], 25) = max(19, 25) = 25` (we can either take job 2 or not take it, but taking it gives us a higher profit).\n\n- **For job 3 (2, 27)**:\n  - We can take job 3 if we don't take job 1 (since job 3's deadline is 2 and job 1's deadline is 1).\n  - `dp[3] = max(dp[2], 27) = max(25, 27) = 27`.\n\n- **For job 4 (2, 100)**:\n  - We can take job 4 if we don't take job 3 (since job 4's deadline is 2 and job 3's deadline is 2).\n  - `dp[4] = max(dp[3], 100) = max(27, 100) = 100`.\n\n- **For job 5 (3, 15)**:\n  - We can take job 5"
+}

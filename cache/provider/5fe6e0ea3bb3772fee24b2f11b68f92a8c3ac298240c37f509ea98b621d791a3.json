@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025256,
+  "input_tokens": 249,
+  "latency_ms": 1216,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "5fe6e0ea3bb3772fee24b2f11b68f92a8c3ac298240c37f509ea98b621d791a3",
+  "text": "Answer: Marie Curie [doc_curie]. \nThe most common citation mistake is including unnecessary or incorrect information in the citation, such as citing multiple documents when only one is relevant."
+}

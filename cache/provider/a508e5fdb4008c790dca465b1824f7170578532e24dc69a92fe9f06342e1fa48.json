@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014344000000000002,
+  "input_tokens": 152,
+  "latency_ms": 706,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "a508e5fdb4008c790dca465b1824f7170578532e24dc69a92fe9f06342e1fa48",
+  "text": "The Apollo 11 mission [doc_apollo]"
+}

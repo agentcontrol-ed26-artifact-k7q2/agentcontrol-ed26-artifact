@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002024,
+  "input_tokens": 100,
+  "latency_ms": 1353,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 130,
+  "provider": "together",
+  "request_hash": "4a83e7f93ed01db17c51a97c807d3aac72ac4b3c441ebfc7b0dc7900acf64e83",
+  "text": "To calculate the median of a list of numbers, first, ensure the list is sorted, then find the middle value if the list has an odd number of elements, or average the two middle values if the list has an even number of elements.\n\n```python\nxs = [1,2,3,4,5,6,7,8,9,10]\nxs.sort()\nn = len(xs)\nif n % 2 == 1:\n    median = xs[n//2]\nelse:\n    median = (xs[n//2 - 1] + xs[n//2]) / 2\nprint(median)\n```"
+}

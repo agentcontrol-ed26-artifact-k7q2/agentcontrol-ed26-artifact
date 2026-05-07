@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045326,
+  "input_tokens": 191,
+  "latency_ms": 2901,
+  "model": "deepseek-reasoner",
+  "output_tokens": 159,
+  "provider": "deepseek",
+  "request_hash": "b9694b0bfc2ef3c63ac4e45ff7644632b34906e4a1957bc3209127b7a567dc14",
+  "text": "1. Verify that the Apollo 11 mission is indeed documented as the first lunar landing mission and that its commander is explicitly named.  \n2. Confirm that the individual identified as commander in the evidence has no contradictory statements (e.g., no other person listed as commander of the first lunar landing)."
+}

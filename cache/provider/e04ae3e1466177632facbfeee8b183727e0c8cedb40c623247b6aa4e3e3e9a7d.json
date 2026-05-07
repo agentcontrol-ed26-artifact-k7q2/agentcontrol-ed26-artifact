@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.3e-05,
+  "input_tokens": 289,
+  "latency_ms": 599,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "e04ae3e1466177632facbfeee8b183727e0c8cedb40c623247b6aa4e3e3e9a7d",
+  "text": "Charles Babbage designed the machine on which Ada Lovelace wrote her notes [doc_babbage]."
+}

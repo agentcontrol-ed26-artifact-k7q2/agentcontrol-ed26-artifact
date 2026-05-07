@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016984,
+  "input_tokens": 104,
+  "latency_ms": 746,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 89,
+  "provider": "together",
+  "request_hash": "64ca648b7013f9de59b711a8d08262b76bf7889cc78f445a0be77afc3b8d48a0",
+  "text": "```python\ndef binary_search(a, target):\n    low, high = 0, len(a) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n```"
+}

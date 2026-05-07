@@ -1,0 +1,44 @@
+{
+  "deepseek": {
+    "n_resamples": 2000,
+    "seed": 20260427,
+    "graph_query_costsaving_pct": {
+      "unstratified": {
+        "mean": 21.833039886187002,
+        "ci_lo": 5.333333333333332,
+        "ci_hi": 35.62753036437246
+      },
+      "family_stratified": {
+        "mean": 22.052124188100677,
+        "ci_lo": 6.907894736842098,
+        "ci_hi": 35.135135135135144
+      }
+    },
+    "graph_query_success_delta_pp": {
+      "mean": 5.812916666666665,
+      "ci_lo": 2.500000000000002,
+      "ci_hi": 9.166666666666668
+    }
+  },
+  "together": {
+    "n_resamples": 2000,
+    "seed": 20260427,
+    "graph_query_costsaving_pct": {
+      "unstratified": {
+        "mean": 6.8653776794551025,
+        "ci_lo": 0.0,
+        "ci_hi": 16.428571428571434
+      },
+      "family_stratified": {
+        "mean": 6.725775117651279,
+        "ci_lo": 0.0,
+        "ci_hi": 16.37931034482759
+      }
+    },
+    "graph_query_success_delta_pp": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    }
+  }
+}

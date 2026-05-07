@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384,
+  "input_tokens": 84,
+  "latency_ms": 604,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "6c2de36ae86d0dc893841a4b3fb43659f50539145d15b10000ef2c0d4c666a9f",
+  "text": "36\n1. Check if 36 is divisible by both 9 and 12.\n2. Verify that 36 is the smallest number that meets the condition."
+}

@@ -1,0 +1,18 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "GPU_AVAILABLE_locally": true,
+  "torch": {
+    "version": "2.2.2+cpu",
+    "cuda_available": false,
+    "cuda_device_count": 0
+  },
+  "transformers_installed": true,
+  "vllm_installed": false,
+  "disk_free_gb": 849.15,
+  "hf_cache": null,
+  "approval_env_var": "AGENTCONTROL_APOLLO_GPU_APPROVED",
+  "approval_set": false,
+  "gpu_info": "Quadro P1000, 4096 MiB, 2374 MiB, 573.71",
+  "effective_tier": "TIER0_NO_LOCAL_GPU_USE_ORCD",
+  "effective_reason": "torch.cuda_available=False, VRAM\u226514GB=False. Must use [CLUSTER_A] H200."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001071,
+  "input_tokens": 280,
+  "latency_ms": 1011,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 77,
+  "provider": "together",
+  "request_hash": "45daf8dd516eca7ada12be81c17ee205fc9ac4e762c44ac63b0b0b45171bae8e",
+  "text": "Charles Darwin was born in 1859 in Shrewsbury, England, but the document provided does not specify his birthplace. However, based on the context of the question and the available documents, we can infer that the publisher of On the Origin of Species, Charles Darwin, was born in Shrewsbury, England. [doc_darwin_origin]"
+}

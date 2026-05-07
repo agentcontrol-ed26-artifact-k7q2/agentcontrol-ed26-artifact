@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018591000000000001,
+  "input_tokens": 123,
+  "latency_ms": 1444,
+  "model": "deepseek-reasoner",
+  "output_tokens": 54,
+  "provider": "deepseek",
+  "request_hash": "4b55a28ff8602337c5d22a390c2b299b4a4f381dd3cb7f381dc9b2248f21eb26",
+  "text": "Guido van Rossum [doc_python]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025091999999999996,
+  "input_tokens": 66,
+  "latency_ms": 2221,
+  "model": "deepseek-reasoner",
+  "output_tokens": 98,
+  "provider": "deepseek",
+  "request_hash": "850882e61ce80e1c171bfb4029897fc4cca695362a5479822b720c773267badf",
+  "text": "A common mistake is to subtract 7 from 21 instead of adding 7 to both sides first."
+}

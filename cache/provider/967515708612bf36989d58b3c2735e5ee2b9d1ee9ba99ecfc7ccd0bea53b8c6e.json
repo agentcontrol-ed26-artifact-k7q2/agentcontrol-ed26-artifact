@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144,
+  "input_tokens": 110,
+  "latency_ms": 731,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "967515708612bf36989d58b3c2735e5ee2b9d1ee9ba99ecfc7ccd0bea53b8c6e",
+  "text": "To find the shortest distance, consider moving around the U-shaped wall to reach the goal, as moving through the wall is not possible."
+}

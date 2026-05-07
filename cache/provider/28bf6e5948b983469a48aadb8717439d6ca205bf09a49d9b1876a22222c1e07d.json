@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001864,
+  "input_tokens": 100,
+  "latency_ms": 1631,
+  "model": "deepseek-reasoner",
+  "output_tokens": 60,
+  "provider": "deepseek",
+  "request_hash": "28bf6e5948b983469a48aadb8717439d6ca205bf09a49d9b1876a22222c1e07d",
+  "text": "Hint: doc_telephone"
+}

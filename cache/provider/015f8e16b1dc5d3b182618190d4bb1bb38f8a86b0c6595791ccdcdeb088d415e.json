@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.289e-05,
+  "input_tokens": 67,
+  "latency_ms": 1700,
+  "model": "deepseek-chat",
+  "output_tokens": 68,
+  "provider": "deepseek",
+  "request_hash": "015f8e16b1dc5d3b182618190d4bb1bb38f8a86b0c6595791ccdcdeb088d415e",
+  "text": "def fib(n):\n    if n < 0:\n        raise ValueError(\"n must be non-negative\")\n    if n == 0:\n        return 0\n    a, b = 0, 1\n    for _ in range(1, n):\n        a, b = b, a + b\n    return b"
+}

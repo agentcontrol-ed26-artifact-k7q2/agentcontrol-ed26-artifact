@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018656,
+  "input_tokens": 156,
+  "latency_ms": 4848,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 56,
+  "provider": "together",
+  "request_hash": "c7438de2f28e32f87f79f75ec9ef8c341b4ca665c37d1ba14af7fbd1bbfa2d87",
+  "text": "To verify the answer, we should check the following:\n1. The location and context of the Wright brothers' achievement to ensure it matches the information provided.\n2. The specific year mentioned in the document to confirm the accuracy of the answer.\nAnswer phrase [doc_wright]"
+}

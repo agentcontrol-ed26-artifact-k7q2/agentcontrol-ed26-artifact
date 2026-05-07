@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.01e-05,
+  "input_tokens": 208,
+  "latency_ms": 964,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 59,
+  "provider": "together",
+  "request_hash": "0ce8f5bdeabac07484bf851191ba61463c816a302bc8a9382e70630091c2563b",
+  "text": "The information provided does not contain details about the cause of death of the husband of the discoverer of radium. This question requires information about Marie Curie's husband, Pierre Curie, and his cause of death, which is not included in the given documents. [doc_xxx]"
+}

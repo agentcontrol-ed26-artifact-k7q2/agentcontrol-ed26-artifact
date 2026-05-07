@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015487999999999998,
+  "input_tokens": 146,
+  "latency_ms": 670,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "9ca43a6be35a7209327612ae99eba6ce0cfa22a753efc54eed12b26193242ce0",
+  "text": "The answer is Kitty Hawk, North Carolina [doc_wright]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

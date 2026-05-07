@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 93,
+  "latency_ms": 2313,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "c635a177d1c9c6d8fe04affb40a8ee334e08e84bfa830132cfec13b02bf1f9d8",
+  "text": "The most common mistake to avoid when calculating a percentage of a number is forgetting to convert the percentage to a decimal by dividing by 100 before multiplying it with the number."
+}

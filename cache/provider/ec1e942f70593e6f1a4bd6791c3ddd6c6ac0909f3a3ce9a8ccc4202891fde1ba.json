@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017336,
+  "input_tokens": 112,
+  "latency_ms": 597,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 85,
+  "provider": "together",
+  "request_hash": "ec1e942f70593e6f1a4bd6791c3ddd6c6ac0909f3a3ce9a8ccc4202891fde1ba",
+  "text": "```python\ndef two_sum_sorted(xs, target):\n    left, right = 0, len(xs) - 1\n    while left < right:\n        current_sum = xs[left] + xs[right]\n        if current_sum == target:\n            return (left, right)\n        elif current_sum < target:\n            left += 1\n        else:\n            right -= 1\n    return None\n```"
+}

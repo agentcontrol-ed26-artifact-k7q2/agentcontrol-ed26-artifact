@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036035,
+  "input_tokens": 38,
+  "latency_ms": 2502,
+  "model": "deepseek-reasoner",
+  "output_tokens": 155,
+  "provider": "deepseek",
+  "request_hash": "cef94f0d3d97ee84d087fa4069a9be2ffe08fcde15f85112ea4d5777856cc011",
+  "text": "The least common multiple (LCM) of 6 and 8 is 24.\n\nFinal answer: 24"
+}

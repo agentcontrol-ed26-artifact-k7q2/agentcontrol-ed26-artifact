@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.71e-05,
+  "input_tokens": 76,
+  "latency_ms": 1728,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 181,
+  "provider": "together",
+  "request_hash": "084df1163b5c1442af1790080c36640c71cbb4f3c95753fc5d88c1c47772d6e3",
+  "text": "```python\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    adj_list = [[] for _ in range(n)]\n    for u, v, w in edges:\n        adj_list[u].append((v, w))\n        adj_list[v].append((u, w))\n    \n    dist = [float('inf')] * n\n    dist[src] = 0\n    pq = [(0, src)]\n    \n    while pq:\n        d, u = heapq.heappop(pq)\n        if u == dst:\n            return d\n        if d > dist[u]:\n            continue\n        for v, w in adj_list[u]:\n            if dist[u] + w < dist[v]:\n                dist[v] = dist[u] + w\n                heapq.heappush(pq, (dist[v], v))\n    \n    return -1\n```"
+}

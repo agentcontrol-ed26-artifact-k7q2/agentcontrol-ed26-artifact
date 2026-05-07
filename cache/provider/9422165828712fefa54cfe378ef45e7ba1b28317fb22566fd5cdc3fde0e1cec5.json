@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010208,
+  "input_tokens": 95,
+  "latency_ms": 1614,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "9422165828712fefa54cfe378ef45e7ba1b28317fb22566fd5cdc3fde0e1cec5",
+  "text": "To solve this, notice that you can calculate 7^2 mod 13 first. \n10"
+}

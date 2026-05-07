@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026136,
+  "input_tokens": 281,
+  "latency_ms": 436,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "1b759cdb0d07f76de09b7c0cb79c258e5872742051dafd16152651a3450c539b",
+  "text": "The answer is the Apollo 11 mission [doc_apollo_mission]"
+}

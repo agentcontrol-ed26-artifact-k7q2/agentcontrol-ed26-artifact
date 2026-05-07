@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.68e-05,
+  "input_tokens": 146,
+  "latency_ms": 284,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "1496058da6c3cdce69ec2315c3c1bc7737a83dd57c3b4f8165641e4f30a3cff2",
+  "text": "Edmund Hillary [doc_everest]"
+}

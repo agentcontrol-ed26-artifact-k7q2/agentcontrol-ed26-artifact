@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023407999999999998,
+  "input_tokens": 225,
+  "latency_ms": 1544,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "70356a54d9eaaa95eedbe46c6d1031b115820a81dea051799ccc21e9028de015",
+  "text": "Hint: doc_planck is not relevant, consider doc_lovelace and doc_babbage for the programmer and the machine, but look for a connection to a Nobel laureate [doc_planck]"
+}

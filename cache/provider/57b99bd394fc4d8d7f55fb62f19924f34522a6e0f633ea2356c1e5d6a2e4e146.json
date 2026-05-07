@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00119958,
+  "input_tokens": 222,
+  "latency_ms": 7289,
+  "model": "deepseek-reasoner",
+  "output_tokens": 492,
+  "provider": "deepseek",
+  "request_hash": "57b99bd394fc4d8d7f55fb62f19924f34522a6e0f633ea2356c1e5d6a2e4e146",
+  "text": "The evidence does not specify the year Alexander Graham Bell emigrated to Canada. [doc_telephone]"
+}

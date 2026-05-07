@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018216,
+  "input_tokens": 161,
+  "latency_ms": 2300,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "2d7fbe08765f34a7d6c55f6f2a0ad54614fe34bf6676794f6314df352879bc23",
+  "text": "The most common citation mistake is incorrectly referencing a document that does not support the claim, such as citing doc_darwin instead of the relevant document when answering a question about quantum theory.\nAnswer phrase: [doc_planck]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030799000000000006,
+  "input_tokens": 57,
+  "latency_ms": 4154,
+  "model": "deepseek-chat",
+  "output_tokens": 266,
+  "provider": "deepseek",
+  "request_hash": "b425492abc12b5e3d25404ce2078aeded7d444e040be0da84402a38bb17d0046",
+  "text": "We need to go from (0,0) to (2,2) on a grid, with obstacles at (0,1) and (1,0).  \nSince we can only move right or up (assuming standard grid movement), the obstacles block the direct paths.\n\nPossible paths avoiding (0,1) and (1,0):\n\n- (0,0) \u2192 (0,2) is blocked by (0,1).  \n- (0,0) \u2192 (2,0) is blocked by (1,0).  \n\nSo we must go around:  \nOne path: (0,0) \u2192 (1,1) \u2192 (2,2) is not directly possible if only right/up moves, because from (0,0) you can go to (1,0) or (0,1) \u2014 both blocked.  \n\nWait \u2014 if only right/up moves, the first step must be to either (1,0) or (0,1), both blocked.  \nThus no path exists under those movement rules.\n\nIf diagonal moves are allowed, then (0,0) \u2192 (1,1) \u2192 (2,2) costs 2.\n\nGiven the hint says \"Final integer\", likely the answer is 2.\n\n**Final answer:**  \n2"
+}

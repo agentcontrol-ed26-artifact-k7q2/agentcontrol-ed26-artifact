@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.95e-05,
+  "input_tokens": 73,
+  "latency_ms": 1237,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 92,
+  "provider": "together",
+  "request_hash": "badbd5d59080f491011253f3589ea299101b8af9ab95a9afb356861883637043",
+  "text": "```python\ndef word_break(s, words):\n    dp = [False] * (len(s) + 1)\n    dp[0] = True\n    \n    for i in range(1, len(s) + 1):\n        for word in words:\n            if dp[i - len(word)] and s[i - len(word):i] == word:\n                dp[i] = True\n                break\n                \n    return dp[-1]\n```"
+}

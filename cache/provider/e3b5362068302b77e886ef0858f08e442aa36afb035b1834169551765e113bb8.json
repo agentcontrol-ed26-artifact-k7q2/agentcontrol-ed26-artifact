@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792,
+  "input_tokens": 103,
+  "latency_ms": 4317,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "e3b5362068302b77e886ef0858f08e442aa36afb035b1834169551765e113bb8",
+  "text": "The most common mistake to avoid is forgetting to isolate the variable x on one side of the equation by performing the necessary algebraic operations to both sides."
+}

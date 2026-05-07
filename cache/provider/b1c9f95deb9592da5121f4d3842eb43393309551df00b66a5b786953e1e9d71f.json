@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 139,
+  "latency_ms": 720,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "b1c9f95deb9592da5121f4d3842eb43393309551df00b66a5b786953e1e9d71f",
+  "text": "Answer: The Apollo 11 mission [doc_apollo]. \nThe most common citation mistake is citing a document that does not support the claim made in the answer."
+}

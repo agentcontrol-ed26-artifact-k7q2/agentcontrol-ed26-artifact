@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.084000000000001e-05,
+  "input_tokens": 152,
+  "latency_ms": 1152,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "dd9c2d4ebe493f5576bc4d3b0233039720d02af36cc93342b42dd268f0111ba3",
+  "text": "Charles Darwin was born in Shrewsbury, England. [doc_darwin]"
+}

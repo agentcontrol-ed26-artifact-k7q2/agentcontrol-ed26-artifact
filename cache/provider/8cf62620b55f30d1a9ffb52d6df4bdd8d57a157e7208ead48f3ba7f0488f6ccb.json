@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014696,
+  "input_tokens": 156,
+  "latency_ms": 371,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "8cf62620b55f30d1a9ffb52d6df4bdd8d57a157e7208ead48f3ba7f0488f6ccb",
+  "text": "Hint: doc_nile [doc_nile]"
+}

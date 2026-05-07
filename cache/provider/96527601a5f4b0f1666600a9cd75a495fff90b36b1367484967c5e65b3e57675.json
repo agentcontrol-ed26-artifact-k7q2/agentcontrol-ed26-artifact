@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144,
+  "input_tokens": 94,
+  "latency_ms": 782,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "96527601a5f4b0f1666600a9cd75a495fff90b36b1367484967c5e65b3e57675",
+  "text": "Distributing the 2 to only one of the terms inside the parentheses, instead of both, is a common mistake to avoid when solving the equation 2(x - 3) = 14 for x."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011263999999999999,
+  "input_tokens": 118,
+  "latency_ms": 389,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "b24c42f305670b2c4b394d3fadb732c53c18c66ad22e78e3c877ceb5f8ec7585",
+  "text": "Guido van Rossum [doc_python]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004416,
+  "input_tokens": 126,
+  "latency_ms": 3092,
+  "model": "deepseek-reasoner",
+  "output_tokens": 170,
+  "provider": "deepseek",
+  "request_hash": "6e12e4d5661fb239447534f6bc8e2e0be3715ffd4aea6c15527799cb9103a8d6",
+  "text": "1. Verify that the evidence in doc_einstein explicitly states \"published in 1915\" for the theory of general relativity.\n2. Confirm that no other document (e.g., doc_curie) provides contradictory information regarding the publication year of general relativity."
+}

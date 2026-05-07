@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00134422,
+  "input_tokens": 262,
+  "latency_ms": 7732,
+  "model": "deepseek-reasoner",
+  "output_tokens": 548,
+  "provider": "deepseek",
+  "request_hash": "48b6c1263c884aa8398eb916f8addc6cfb52312e2b6bcfd9724d64f2d72885cd",
+  "text": "The provided evidence does not mention any sister of Marie Curie winning a Nobel Prize. [doc_curie_marie]"
+}

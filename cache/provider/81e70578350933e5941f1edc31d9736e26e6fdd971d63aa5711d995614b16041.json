@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.7399999999999993e-05,
+  "input_tokens": 149,
+  "latency_ms": 312,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "81e70578350933e5941f1edc31d9736e26e6fdd971d63aa5711d995614b16041",
+  "text": "The Nile River [doc_nile]"
+}

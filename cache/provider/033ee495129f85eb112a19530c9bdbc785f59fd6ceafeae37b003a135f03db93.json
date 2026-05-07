@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.13e-05,
+  "input_tokens": 67,
+  "latency_ms": 437,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 4,
+  "provider": "together",
+  "request_hash": "033ee495129f85eb112a19530c9bdbc785f59fd6ceafeae37b003a135f03db93",
+  "text": "First powered flight"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.85e-05,
+  "input_tokens": 198,
+  "latency_ms": 941,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 97,
+  "provider": "together",
+  "request_hash": "2eacde1cacedd65ab0d0878b9f834b17510409e51a4023658e681409e1157581",
+  "text": "```python\ndef interval_merge(intervals):\n    if not intervals:\n        return []\n    intervals.sort(key=lambda x: x[0])\n    merged = [intervals[0]]\n    for current in intervals[1:]:\n        last = merged[-1]\n        if current[0] <= last[1]:\n            merged[-1] = (last[0], max(last[1], current[1]))\n        else:\n            merged.append(current)\n    return merged\n```"
+}

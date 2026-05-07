@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001804,
+  "input_tokens": 95,
+  "latency_ms": 881,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 110,
+  "provider": "together",
+  "request_hash": "4c2295de4566be85b9424d6fce2e127a22e2b0c9dabb50982c027bbfc3018a30",
+  "text": "To find the percent decrease, we first need to calculate the drop in price, which is:\nDrop in price = Original price - New price\nDrop in price = 80 - 60\nDrop in price = 20\n\nNext, we calculate the percent decrease using the formula:\nPercent decrease = (Drop in price / Original price) * 100\nPercent decrease = (20 / 80) * 100\nPercent decrease = 0.25 * 100\nPercent decrease = 25\n\nThe final answer is 25."
+}

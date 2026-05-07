@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047785,
+  "input_tokens": 75,
+  "latency_ms": 6440,
+  "model": "deepseek-chat",
+  "output_tokens": 416,
+  "provider": "deepseek",
+  "request_hash": "455a454012a29da59b64b8bf3511ece0b20820c959a6b7077347463ac925b6a9",
+  "text": "We have four cities at the corners of a unit square:  \nA = (0,0)  \nB = (1,0)  \nC = (1,1)  \nD = (0,1)  \n\nManhattan distance between any two points (x1,y1) and (x2,y2) is |x1-x2| + |y1-y2|.  \n\nDistances:  \nAB = |0-1| + |0-0| = 1  \nBC = |1-1| + |0-1| = 1  \nCD = |1-0| + |1-1| = 1  \nDA = |0-0| + |1-0| = 1  \nAC = |0-1| + |0-1| = 2  \nBD = |1-0| + |0-1| = 2  \n\nWe need a tour visiting all 4 cities and returning to A.  \nPossible tours (starting and ending at A):  \n\nA \u2192 B \u2192 C \u2192 D \u2192 A:  \nAB=1, BC=1, CD=1, DA=1 \u2192 total = 4  \n\nA \u2192 B \u2192 D \u2192 C \u2192 A:  \nAB=1, BD=2, DC=1, CA=2 \u2192 total = 6  \n\nA \u2192 C \u2192 B \u2192 D \u2192 A:  \nAC=2, CB=1, BD=2, DA=1 \u2192 total = 6  \n\nA \u2192 C \u2192 D \u2192 B \u2192 A:  \nAC=2, CD=1, DB=2, BA=1 \u2192 total = 6  \n\nA \u2192 D \u2192 C \u2192 B \u2192 A:  \nAD=1, DC=1, CB=1, BA=1 \u2192 total = 4  \n\nA \u2192 D \u2192 B \u2192 C \u2192 A:  \nAD=1, DB=2, BC=1, CA=2 \u2192 total = 6  \n\nThe minimum is 4.  \n\nFinal integer: 4"
+}

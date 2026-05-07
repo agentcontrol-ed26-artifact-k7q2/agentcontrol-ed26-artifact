@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002156,
+  "input_tokens": 234,
+  "latency_ms": 554,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "e4e08a25b922426bbb46104925934ba24123acecd82c732f7452a3e2f404cc91",
+  "text": "The answer is Neil Armstrong [doc_apollo]"
+}

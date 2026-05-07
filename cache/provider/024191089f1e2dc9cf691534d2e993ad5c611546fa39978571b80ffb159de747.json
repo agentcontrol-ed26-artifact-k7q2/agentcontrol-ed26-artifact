@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.3400000000000003e-05,
+  "input_tokens": 76,
+  "latency_ms": 518,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 2,
+  "provider": "together",
+  "request_hash": "024191089f1e2dc9cf691534d2e993ad5c611546fa39978571b80ffb159de747",
+  "text": "4"
+}

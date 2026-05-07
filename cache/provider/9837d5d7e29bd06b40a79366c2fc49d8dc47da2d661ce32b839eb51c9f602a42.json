@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.2e-05,
+  "input_tokens": 232,
+  "latency_ms": 322,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "9837d5d7e29bd06b40a79366c2fc49d8dc47da2d661ce32b839eb51c9f602a42",
+  "text": "Neil Armstrong [doc_armstrong]"
+}

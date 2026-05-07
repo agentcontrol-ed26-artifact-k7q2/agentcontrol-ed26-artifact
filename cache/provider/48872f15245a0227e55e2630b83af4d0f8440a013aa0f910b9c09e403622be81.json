@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 90,
+  "latency_ms": 587,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "48872f15245a0227e55e2630b83af4d0f8440a013aa0f910b9c09e403622be81",
+  "text": "To find the product of 8 and 9, multiply the numbers together using the standard multiplication algorithm."
+}

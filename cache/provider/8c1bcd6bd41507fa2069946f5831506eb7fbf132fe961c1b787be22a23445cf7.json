@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033356999999999994,
+  "input_tokens": 57,
+  "latency_ms": 2274,
+  "model": "deepseek-reasoner",
+  "output_tokens": 138,
+  "provider": "deepseek",
+  "request_hash": "8c1bcd6bd41507fa2069946f5831506eb7fbf132fe961c1b787be22a23445cf7",
+  "text": "```python\nxs = [1, 2, 3, 4, 5]\nmean = sum(xs) / len(xs)\nprint(mean)\n```"
+}

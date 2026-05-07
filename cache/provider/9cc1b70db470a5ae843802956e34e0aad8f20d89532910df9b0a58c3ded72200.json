@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002376,
+  "input_tokens": 255,
+  "latency_ms": 574,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "9cc1b70db470a5ae843802956e34e0aad8f20d89532910df9b0a58c3ded72200",
+  "text": "Answer: Guido van Rossum created Python [doc_python_creator]"
+}

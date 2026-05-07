@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016544000000000002,
+  "input_tokens": 170,
+  "latency_ms": 2236,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "51b5c6cbd294335e4088f6fd14e96267cb7faf60301c65f058f8933657390974",
+  "text": "The Wright brothers achieved their first sustained flight in 1903 [doc_wright]"
+}

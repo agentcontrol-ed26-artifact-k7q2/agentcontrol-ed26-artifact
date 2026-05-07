@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011967999999999999,
+  "input_tokens": 97,
+  "latency_ms": 9202,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "7f88f7766b1b1a459b50a4265144876d244bd53fcb10246509729a7721409b32",
+  "text": "```python\nxs = [10, 5, 0, -5, 10, 20]\nrange_xs = max(xs) - min(xs)\nprint(range_xs)\n```"
+}

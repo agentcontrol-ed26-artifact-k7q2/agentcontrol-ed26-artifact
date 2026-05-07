@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020768,
+  "input_tokens": 98,
+  "latency_ms": 2192,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 138,
+  "provider": "together",
+  "request_hash": "a9b2ce0615b74905b10379819860bf46619c1e43093a84d9cf268b01ae787ce3",
+  "text": "The typical mistake is not sending the fastest person back and forth with the torch to minimize the total crossing time, instead having them wait or cross with slower individuals.\n\nTo solve this, we can list the times: 1, 2, 5, 10 minutes. \nThe fastest way to get everyone across is: \n1. 1 and 2 cross (2 minutes), 1 returns (1 minute), total 3 minutes.\n2. 5 and 10 cross (10 minutes), 2 returns (2 minutes), total 15 minutes.\n3. 1 and 2 cross (2 minutes), total 17 minutes.\n\nThe answer is 17."
+}

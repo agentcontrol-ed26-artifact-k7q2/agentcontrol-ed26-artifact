@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00039738,
+  "input_tokens": 54,
+  "latency_ms": 5319,
+  "model": "deepseek-chat",
+  "output_tokens": 348,
+  "provider": "deepseek",
+  "request_hash": "37146cd8c94a7e01b66e27fbb0b803e7cc889d9f3947884ea47ca188fc7932a8",
+  "text": "We have a grid from (0,0) to (2,2).  \nObstacles at (0,1) and (1,0) mean those cells cannot be used.  \n\nPossible paths avoiding obstacles:  \n\n- (0,0) \u2192 (0,2) is blocked by (0,1), so not possible.  \n- (0,0) \u2192 (1,1) \u2192 (2,2) is possible if (1,1) is free.  \n- (0,0) \u2192 (2,0) \u2192 (2,2) is blocked by (1,0).  \n- (0,0) \u2192 (1,1) \u2192 (1,2) \u2192 (2,2) is possible.  \n- (0,0) \u2192 (2,0) is not possible.  \n\nThe only viable path:  \n(0,0) \u2192 (1,1) \u2192 (2,2) has cost:  \nFrom (0,0) to (1,1) = |1-0| + |1-0| = 2  \nFrom (1,1) to (2,2) = |2-1| + |2-1| = 2  \nTotal = 4  \n\nAnother path: (0,0) \u2192 (1,1) \u2192 (1,2) \u2192 (2,2):  \n(0,0)\u2192(1,1) = 2  \n(1,1)\u2192(1,2) = 1  \n(1,2)\u2192(2,2) = 1  \nTotal = 4  \n\nSo minimum cost is 4.  \n\nFinal integer: 4"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022439999999999998,
+  "input_tokens": 107,
+  "latency_ms": 1555,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 148,
+  "provider": "together",
+  "request_hash": "e3e50aaffadf0fb6306efefb8bf614cd50a112013a166429155bdc935c882210",
+  "text": "```python\nfrom collections import defaultdict, deque\n\ndef course_schedule_possible(n, prereqs):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    \n    for a, b in prereqs:\n        graph[b].append(a)\n        indegree[a] += 1\n    \n    queue = deque([i for i in range(n) if indegree[i] == 0])\n    \n    count = 0\n    while queue:\n        node = queue.popleft()\n        count += 1\n        \n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n    \n    return count == n\n```"
+}

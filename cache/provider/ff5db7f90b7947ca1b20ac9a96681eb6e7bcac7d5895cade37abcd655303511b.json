@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.29e-05,
+  "input_tokens": 84,
+  "latency_ms": 695,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 59,
+  "provider": "together",
+  "request_hash": "ff5db7f90b7947ca1b20ac9a96681eb6e7bcac7d5895cade37abcd655303511b",
+  "text": "The intermediate values are 75, 40, 25.\n\n- Value from quarters: 75 cents\n- Value from dimes: 40 cents\n- Value from nickels: 25 cents\n\nThe final answer is 140 cents."
+}

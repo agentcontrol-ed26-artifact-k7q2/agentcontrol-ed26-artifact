@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004924500000000001,
+  "input_tokens": 99,
+  "latency_ms": 3707,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "4931181fd26a4a1fa3004bde28a67c029cc0fc4a4bae9a8da7a24ad6a339119d",
+  "text": "1991 [doc_python]\nThe most common citation mistake is citing"
+}

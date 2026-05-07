@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000154,
+  "input_tokens": 163,
+  "latency_ms": 1400,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "16302f07b4e52aa8da9f4aaa55c864d1038cd3541ad3d1033681645f922d6a2f",
+  "text": "Hint: doc_apollo \n[doc_apollo]"
+}

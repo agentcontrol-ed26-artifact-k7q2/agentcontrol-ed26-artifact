@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025432000000000005,
+  "input_tokens": 264,
+  "latency_ms": 699,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "649daa007b330879b1c54e27a98b6bdd55090280ddf4b9e2cf94c227ab932240",
+  "text": "The answer to the question is that Einstein emigrated to the United States in 1933 [doc_einstein_birth]"
+}

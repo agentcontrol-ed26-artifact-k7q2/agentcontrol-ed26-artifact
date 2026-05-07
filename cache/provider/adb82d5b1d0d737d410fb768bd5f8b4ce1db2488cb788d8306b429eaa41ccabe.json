@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.23e-05,
+  "input_tokens": 95,
+  "latency_ms": 472,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "adb82d5b1d0d737d410fb768bd5f8b4ce1db2488cb788d8306b429eaa41ccabe",
+  "text": "The intermediate value is base*height = 40.\n\nThe area of the triangle is calculated as (base*height)/2 = 40/2 = 20.\n\nThe final answer is 20."
+}

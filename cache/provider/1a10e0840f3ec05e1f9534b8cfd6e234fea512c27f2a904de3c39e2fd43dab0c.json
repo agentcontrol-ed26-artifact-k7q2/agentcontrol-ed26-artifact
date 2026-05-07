@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.853000000000001e-05,
+  "input_tokens": 119,
+  "latency_ms": 1171,
+  "model": "deepseek-chat",
+  "output_tokens": 24,
+  "provider": "deepseek",
+  "request_hash": "1a10e0840f3ec05e1f9534b8cfd6e234fea512c27f2a904de3c39e2fd43dab0c",
+  "text": "Marie Curie discovered radium in 1898 with her husband Pierre. [doc_curie_marie]"
+}

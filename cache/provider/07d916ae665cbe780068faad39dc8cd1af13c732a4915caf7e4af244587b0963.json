@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.819999999999999e-05,
+  "input_tokens": 271,
+  "latency_ms": 648,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "07d916ae665cbe780068faad39dc8cd1af13c732a4915caf7e4af244587b0963",
+  "text": "Max Planck won the Nobel Prize in Physics in 1918 [doc_planck_nobel]."
+}

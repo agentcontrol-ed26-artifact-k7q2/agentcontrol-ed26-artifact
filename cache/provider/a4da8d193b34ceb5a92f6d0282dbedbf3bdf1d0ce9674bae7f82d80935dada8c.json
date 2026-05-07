@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.2e-05,
+  "input_tokens": 172,
+  "latency_ms": 619,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 68,
+  "provider": "together",
+  "request_hash": "a4da8d193b34ceb5a92f6d0282dbedbf3bdf1d0ce9674bae7f82d80935dada8c",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for i in range(n):\n        for j in range(i, n):\n            m[j][i], m[i][j] = m[i][j], m[j][i]\n    for row in m:\n        row.reverse()\n    return None\n```"
+}

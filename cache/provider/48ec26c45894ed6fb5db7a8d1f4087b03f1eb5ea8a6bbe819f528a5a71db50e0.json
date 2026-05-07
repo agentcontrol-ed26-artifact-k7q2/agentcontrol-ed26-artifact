@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.6399999999999998e-05,
+  "input_tokens": 63,
+  "latency_ms": 436,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "48ec26c45894ed6fb5db7a8d1f4087b03f1eb5ea8a6bbe819f528a5a71db50e0",
+  "text": "```python\ndef count_set_bits(n: int) -> int:\n    return bin(n).count('1')\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020151999999999998,
+  "input_tokens": 167,
+  "latency_ms": 4684,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 62,
+  "provider": "together",
+  "request_hash": "d399df4061860cce69a081f232d31c568557613102468dfb1c3c88274fbe592b",
+  "text": "The most common citation mistake is including unnecessary or incorrect information in the citation, such as including the answer in the citation or using an incorrect document reference.\nAnswer phrase: The person who first summited Mount Everest in 1953 alongside Tenzing Norgay was Edmund Hillary [doc_everest]"
+}

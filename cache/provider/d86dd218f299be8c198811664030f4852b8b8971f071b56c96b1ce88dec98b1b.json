@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012162999999999999,
+  "input_tokens": 34,
+  "latency_ms": 1277,
+  "model": "deepseek-reasoner",
+  "output_tokens": 47,
+  "provider": "deepseek",
+  "request_hash": "d86dd218f299be8c198811664030f4852b8b8971f071b56c96b1ce88dec98b1b",
+  "text": "(-3) squared means (-3) \u00d7 (-3) = 9.\n\nFinal answer: 9"
+}

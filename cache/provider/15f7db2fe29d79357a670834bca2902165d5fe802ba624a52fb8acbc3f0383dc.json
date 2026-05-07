@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017423999999999999,
+  "input_tokens": 96,
+  "latency_ms": 5048,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 102,
+  "provider": "together",
+  "request_hash": "15f7db2fe29d79357a670834bca2902165d5fe802ba624a52fb8acbc3f0383dc",
+  "text": "The most common bug to avoid when implementing the rotate_matrix function is incorrectly handling the matrix dimensions and indices, leading to an IndexError or incorrect rotation. \n\n```python\ndef rotate_matrix(m):\n    n = len(m)\n    for i in range(n):\n        for j in range(i, n):\n            m[j][i], m[i][j] = m[i][j], m[j][i]\n    for i in range(n):\n        m[i] = m[i][::-1]\n```"
+}

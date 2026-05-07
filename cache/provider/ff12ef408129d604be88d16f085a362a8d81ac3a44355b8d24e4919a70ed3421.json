@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001232,
+  "input_tokens": 90,
+  "latency_ms": 3107,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "ff12ef408129d604be88d16f085a362a8d81ac3a44355b8d24e4919a70ed3421",
+  "text": "1. Factorization check: Break down 84 and 105 into their prime factors to verify the GCD.\n2. Euclidean algorithm check: Apply the Euclidean algorithm to 84 and 105 to confirm the GCD result.\n21"
+}

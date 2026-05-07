@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.554e-05,
+  "input_tokens": 72,
+  "latency_ms": 1290,
+  "model": "deepseek-chat",
+  "output_tokens": 51,
+  "provider": "deepseek",
+  "request_hash": "952ca2ef1e09593ddd73066235bdc859915ea62ccd52d9c04dc8dbfd1110eb01",
+  "text": "```python\nmatrix = [[1,2,3],[4,5,6],[7,8,9]]\ntrace = matrix[0][0] + matrix[1][1] + matrix[2][2]\nprint(trace)\n```"
+}

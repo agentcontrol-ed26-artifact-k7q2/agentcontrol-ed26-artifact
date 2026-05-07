@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.881e-05,
+  "input_tokens": 103,
+  "latency_ms": 993,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "e7bfbfce27b347700b2ddfc353ea2a3a7b6b68ee9bbfd39074271cdf7d11302c",
+  "text": "Ludwig van Beethoven [doc_beethoven]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.7899999999999997e-05,
+  "input_tokens": 68,
+  "latency_ms": 445,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "15d1298363dfb2434554802c0aca1015fc2f3468a76a666e0c78a1f61ea9b80c",
+  "text": "```python\nfrom itertools import permutations\n\ndef all_permutations(xs):\n    return sorted(map(tuple, permutations(xs)))\n```"
+}

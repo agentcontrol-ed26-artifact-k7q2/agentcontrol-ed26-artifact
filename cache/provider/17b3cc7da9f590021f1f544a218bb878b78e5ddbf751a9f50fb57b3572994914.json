@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792,
+  "input_tokens": 97,
+  "latency_ms": 4665,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "17b3cc7da9f590021f1f544a218bb878b78e5ddbf751a9f50fb57b3572994914",
+  "text": "The most common mistake to avoid when finding the greatest common divisor is forgetting to check all possible factors or using an incorrect method, such as division instead of using the Euclidean algorithm."
+}

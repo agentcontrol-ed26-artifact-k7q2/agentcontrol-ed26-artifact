@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028248,
+  "input_tokens": 293,
+  "latency_ms": 837,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "8be0af9903bfa690f3c68dcec82d46f4d20c5107b0386898a2e9fb2916552610",
+  "text": "There is no information about the cause of death of the husband of the discoverer of radium. [doc_aldrin_bio]"
+}

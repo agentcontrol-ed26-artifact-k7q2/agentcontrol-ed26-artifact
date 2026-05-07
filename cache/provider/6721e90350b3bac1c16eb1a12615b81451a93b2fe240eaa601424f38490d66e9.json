@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.2290000000000004e-05,
+  "input_tokens": 87,
+  "latency_ms": 1056,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "6721e90350b3bac1c16eb1a12615b81451a93b2fe240eaa601424f38490d66e9",
+  "text": "Mount Everest [doc_everest]"
+}

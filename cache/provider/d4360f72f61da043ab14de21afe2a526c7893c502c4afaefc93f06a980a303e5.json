@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.0499999999999995e-05,
+  "input_tokens": 112,
+  "latency_ms": 545,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "d4360f72f61da043ab14de21afe2a526c7893c502c4afaefc93f06a980a303e5",
+  "text": "World War II ended in 1945 after the surrender of Germany and Japan [doc_war_dates]."
+}

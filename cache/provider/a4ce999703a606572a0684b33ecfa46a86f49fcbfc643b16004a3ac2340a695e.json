@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020709,
+  "input_tokens": 54,
+  "latency_ms": 1733,
+  "model": "deepseek-reasoner",
+  "output_tokens": 81,
+  "provider": "deepseek",
+  "request_hash": "a4ce999703a606572a0684b33ecfa46a86f49fcbfc643b16004a3ac2340a695e",
+  "text": "```python\ndef abs_diff(a, b):\n    return abs(a - b)\n```"
+}

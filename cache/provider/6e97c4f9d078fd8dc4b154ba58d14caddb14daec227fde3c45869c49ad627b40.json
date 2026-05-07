@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014696,
+  "input_tokens": 89,
+  "latency_ms": 834,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "6e97c4f9d078fd8dc4b154ba58d14caddb14daec227fde3c45869c49ad627b40",
+  "text": "The function can utilize a set data structure to efficiently keep track of the positive integers present in the input list and then iterate through positive integers to find the first missing one.\n\n```python\ndef first_missing_positive(xs):\n    xs = set(xs)\n    i = 1\n    while True:\n        if i not in xs:\n            return i\n        i += 1\n```"
+}

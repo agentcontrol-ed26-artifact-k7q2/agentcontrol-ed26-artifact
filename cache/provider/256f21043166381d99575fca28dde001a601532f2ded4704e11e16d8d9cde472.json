@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.422000000000001e-05,
+  "input_tokens": 66,
+  "latency_ms": 1802,
+  "model": "deepseek-chat",
+  "output_tokens": 24,
+  "provider": "deepseek",
+  "request_hash": "256f21043166381d99575fca28dde001a601532f2ded4704e11e16d8d9cde472",
+  "text": "13 squared is 169.  \n11 squared is 121.  \n169 minus 121 is 48.  \n\n48"
+}

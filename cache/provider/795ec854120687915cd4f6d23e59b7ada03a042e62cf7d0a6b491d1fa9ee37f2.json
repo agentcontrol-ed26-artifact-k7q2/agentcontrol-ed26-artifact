@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8899999999999996e-05,
+  "input_tokens": 71,
+  "latency_ms": 1399,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 92,
+  "provider": "together",
+  "request_hash": "795ec854120687915cd4f6d23e59b7ada03a042e62cf7d0a6b491d1fa9ee37f2",
+  "text": "```python\ndef merge_sorted(a, b):\n    i, j = 0, 0\n    merged = []\n    while i < len(a) and j < len(b):\n        if a[i] < b[j]:\n            merged.append(a[i])\n            i += 1\n        else:\n            merged.append(b[j])\n            j += 1\n    merged.extend(a[i:])\n    merged.extend(b[j:])\n    return merged\n```"
+}

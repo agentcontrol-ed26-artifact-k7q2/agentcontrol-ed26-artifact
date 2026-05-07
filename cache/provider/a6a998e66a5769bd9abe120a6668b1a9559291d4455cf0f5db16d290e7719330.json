@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012056,
+  "input_tokens": 92,
+  "latency_ms": 3115,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "a6a998e66a5769bd9abe120a6668b1a9559291d4455cf0f5db16d290e7719330",
+  "text": "The most common mistake to avoid when calculating 12 + 7 is adding an incorrect number or misplacing the decimal point, but in this simple addition, the main error would be a basic arithmetic miscalculation."
+}

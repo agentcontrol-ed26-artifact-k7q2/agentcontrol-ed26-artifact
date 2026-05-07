@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002684,
+  "input_tokens": 105,
+  "latency_ms": 1207,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "5dbd558d6fc523f6193d141e0c01e5a5ebfb8763046945ab1f91071329615f57",
+  "text": "To implement an efficient LRUCache, utilize a combination of a dictionary for O(1) lookups and a doubly linked list to track the order of elements.\n\n```python\nclass Node:\n    def __init__(self, key, value):\n        self.key = key\n        self.value = value\n        self.prev = None\n        self.next = None\n\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.capacity = capacity\n        self.cache = {}\n        self.head = Node(0, 0)\n        self.tail = Node(0, 0)\n        self.head.next = self.tail\n        self.tail.prev = self.head\n\n    def get(self, key: int) -> int:\n        if key in self.cache:\n            node = self.cache[key]\n            self._remove(node)\n            self._add(node)\n            return node.value\n        return -1\n\n    def put(self, key: int, value: int)"
+}

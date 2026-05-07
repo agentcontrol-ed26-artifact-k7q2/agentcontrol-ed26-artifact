@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019658000000000002,
+  "input_tokens": 64,
+  "latency_ms": 2878,
+  "model": "deepseek-chat",
+  "output_tokens": 163,
+  "provider": "deepseek",
+  "request_hash": "e0fed1b30f12b0116b8c97a4b79d4ce035b87fcedacd771c0fa01191aa21dddb",
+  "text": "```python\ndef first_missing_positive(xs):\n    n = len(xs)\n    # Place each number in its correct position (1 at index 0, 2 at index 1, etc.)\n    for i in range(n):\n        while 1 <= xs[i] <= n and xs[xs[i] - 1] != xs[i]:\n            # Swap xs[i] to its correct position\n            correct_pos = xs[i] - 1\n            xs[i], xs[correct_pos] = xs[correct_pos], xs[i]\n    # Find the first index where the value is not i+1\n    for i in range(n):\n        if xs[i] != i + 1:\n            return i + 1\n    return n + 1\n```"
+}

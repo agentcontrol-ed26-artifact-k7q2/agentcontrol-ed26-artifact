@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011176000000000001,
+  "input_tokens": 100,
+  "latency_ms": 745,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "916f181614c3e106e83d9fbf856806211facf7d394ae7d7996c85f6e5e68507a",
+  "text": "To find the maximum value, consider using dynamic programming to evaluate all possible combinations of items that fit within the knapsack capacity."
+}

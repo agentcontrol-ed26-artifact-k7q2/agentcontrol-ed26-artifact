@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025432,
+  "input_tokens": 98,
+  "latency_ms": 1466,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 191,
+  "provider": "together",
+  "request_hash": "5d3b40108c2d3d82a24af51c3c9a9067da5debc06ee5bbd8bfd4457a77f2f83d",
+  "text": "To solve the 0/1 knapsack problem, consider using dynamic programming to build a 2D table where each cell represents the maximum value that can be obtained with a given capacity and considering the first i items.\n```python\ndef knapsack_01(weights, values, capacity):\n    n = len(values)\n    dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for w in range(1, capacity + 1):\n            if weights[i - 1] <= w:\n                dp[i][w] = max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w])\n            else:\n                dp[i][w] = dp[i - 1][w]\n    return dp[n][capacity]\n```"
+}

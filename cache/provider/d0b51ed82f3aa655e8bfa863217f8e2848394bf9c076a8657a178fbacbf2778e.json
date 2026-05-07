@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013237,
+  "input_tokens": 91,
+  "latency_ms": 1821,
+  "model": "deepseek-chat",
+  "output_tokens": 98,
+  "provider": "deepseek",
+  "request_hash": "d0b51ed82f3aa655e8bfa863217f8e2848394bf9c076a8657a178fbacbf2778e",
+  "text": "Here's the Python code to compute the average salary in the engineering department:\n\n```python\ndata = [('eng',100),('eng',120),('hr',60),('hr',70),('eng',110),('hr',65)]\n\neng_salaries = [salary for dept, salary in data if dept == 'eng']\naverage_eng = sum(eng_salaries) / len(eng_salaries)\n\nprint(average_eng)\n```"
+}

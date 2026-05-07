@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.610000000000001e-05,
+  "input_tokens": 110,
+  "latency_ms": 951,
+  "model": "deepseek-chat",
+  "output_tokens": 24,
+  "provider": "deepseek",
+  "request_hash": "2d215e4c5e183aca495f217a3bfd3ae38b7e7e07fbeb58f3f3444af4672345fc",
+  "text": "Pythagoras of Samos is traditionally credited with the first proof of the Pythagorean theorem. [doc_pythagoras]"
+}

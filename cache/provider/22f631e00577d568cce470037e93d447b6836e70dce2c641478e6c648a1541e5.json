@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016016,
+  "input_tokens": 144,
+  "latency_ms": 631,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "22f631e00577d568cce470037e93d447b6836e70dce2c641478e6c648a1541e5",
+  "text": "Answer: Polonium. [doc_curie] \nThe most common citation mistake is including citations that are not provided in the evidence, such as citing a non-existent doc_xxx."
+}

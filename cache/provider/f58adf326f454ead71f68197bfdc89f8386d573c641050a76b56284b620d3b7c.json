@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.66e-05,
+  "input_tokens": 110,
+  "latency_ms": 374,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "f58adf326f454ead71f68197bfdc89f8386d573c641050a76b56284b620d3b7c",
+  "text": "Jeff Bezos [doc_amazon_distractor]"
+}

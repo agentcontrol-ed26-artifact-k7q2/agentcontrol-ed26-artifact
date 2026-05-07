@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224000000000002,
+  "input_tokens": 162,
+  "latency_ms": 434,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "94814eca3c8528dcfe9f613915d0e96dda8297534029f8c7a9d6cb2666068bf7",
+  "text": "Look at doc_einstein [doc_einstein]"
+}

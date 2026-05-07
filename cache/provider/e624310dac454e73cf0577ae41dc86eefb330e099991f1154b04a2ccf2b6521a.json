@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032104000000000003,
+  "input_tokens": 82,
+  "latency_ms": 2380,
+  "model": "deepseek-reasoner",
+  "output_tokens": 126,
+  "provider": "deepseek",
+  "request_hash": "e624310dac454e73cf0577ae41dc86eefb330e099991f1154b04a2ccf2b6521a",
+  "text": "- Confirm that the release year stated matches \"1991\" from the evidence [doc_python].\n- Ensure no other years (e.g., 1990, 1992) are incorrectly attributed based on the evidence."
+}

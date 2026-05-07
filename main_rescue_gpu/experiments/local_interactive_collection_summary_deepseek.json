@@ -1,0 +1,73 @@
+{
+  "provider_mode": "deepseek",
+  "n_tasks": 120,
+  "n_errors": 0,
+  "incremental_spend_usd": 0.004062470000000262,
+  "per_action_success_rate": {
+    "cheap_answer": {
+      "n": 120,
+      "successes": 98,
+      "rate": 0.8166666666666667
+    },
+    "cheap_repair": {
+      "n": 120,
+      "successes": 103,
+      "rate": 0.8583333333333333
+    },
+    "cheap_repair_after_observation": {
+      "n": 120,
+      "successes": 115,
+      "rate": 0.9583333333333334
+    },
+    "strong_hint": {
+      "n": 120,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "cheap_repair_after_strong_partial": {
+      "n": 120,
+      "successes": 99,
+      "rate": 0.825
+    },
+    "strong_critique": {
+      "n": 120,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "strong_checklist": {
+      "n": 120,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "strong_answer": {
+      "n": 120,
+      "successes": 103,
+      "rate": 0.8583333333333333
+    },
+    "run_tests": {
+      "n": 40,
+      "successes": 39,
+      "rate": 0.975
+    },
+    "run_code": {
+      "n": 20,
+      "successes": 20,
+      "rate": 1.0
+    },
+    "retrieve": {
+      "n": 30,
+      "successes": 30,
+      "rate": 1.0
+    },
+    "tool_observation": {
+      "n": 15,
+      "successes": 13,
+      "rate": 0.8666666666666667
+    },
+    "checkpoint_check": {
+      "n": 15,
+      "successes": 2,
+      "rate": 0.13333333333333333
+    }
+  }
+}

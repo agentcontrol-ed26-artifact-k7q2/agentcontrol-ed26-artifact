@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.14e-05,
+  "input_tokens": 219,
+  "latency_ms": 437,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "cecd57d1ef9cefe7fc7b94df4441a1e5266bae924d3b2c5cf2360aa29292c8f3",
+  "text": "The country of birth of the person who created Python is the Netherlands [doc_python2]."
+}

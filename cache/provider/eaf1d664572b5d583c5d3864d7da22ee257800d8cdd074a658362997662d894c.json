@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.597e-05,
+  "input_tokens": 51,
+  "latency_ms": 823,
+  "model": "deepseek-chat",
+  "output_tokens": 2,
+  "provider": "deepseek",
+  "request_hash": "eaf1d664572b5d583c5d3864d7da22ee257800d8cdd074a658362997662d894c",
+  "text": "Ulm"
+}

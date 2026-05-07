@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013199999999999998,
+  "input_tokens": 99,
+  "latency_ms": 826,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 51,
+  "provider": "together",
+  "request_hash": "1bec6eeb214f3b94fe74cde918142c1f971991eb1d3913fd797f62b8a519074c",
+  "text": "The most common bug to avoid in the 0/1 knapsack problem is not properly handling the case where an item's weight exceeds the remaining capacity, which can lead to incorrect results if not accounted for in the recursive or dynamic programming solution."
+}

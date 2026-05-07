@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00043409000000000004,
+  "input_tokens": 188,
+  "latency_ms": 2752,
+  "model": "deepseek-reasoner",
+  "output_tokens": 151,
+  "provider": "deepseek",
+  "request_hash": "90fb90c5884ddc50138558a9deb738f1525d94121c6dd835e8f71f3802306d23",
+  "text": "Netherlands [doc_python2]\n\nThe most common citation mistake is citing a document that does not contain the relevant information."
+}

@@ -1,0 +1,5100 @@
+{
+  "n_total": 388,
+  "sources": [
+    "smoke",
+    "rescue",
+    "rescue_together",
+    "hard_regime",
+    "hard_regime_together",
+    "interactive",
+    "interactive_together",
+    "agentic_search",
+    "agentic_search_together",
+    "f2"
+  ],
+  "per_label_class_balance": {
+    "need_code": {
+      "pos": 139,
+      "neg": 249,
+      "n": 388,
+      "pos_rate": 0.3582474226804124
+    },
+    "need_retrieve": {
+      "pos": 139,
+      "neg": 249,
+      "n": 388,
+      "pos_rate": 0.3582474226804124
+    },
+    "verifier_risk": {
+      "pos": 16,
+      "neg": 372,
+      "n": 388,
+      "pos_rate": 0.041237113402061855
+    },
+    "need_strong": {
+      "pos": 119,
+      "neg": 269,
+      "n": 388,
+      "pos_rate": 0.30670103092783507
+    },
+    "escalate": {
+      "pos": 119,
+      "neg": 269,
+      "n": 388,
+      "pos_rate": 0.30670103092783507
+    },
+    "graph_candidate": {
+      "pos": 29,
+      "neg": 359,
+      "n": 388,
+      "pos_rate": 0.07474226804123711
+    }
+  },
+  "rows": [
+    {
+      "source": "smoke",
+      "task_id": "code_add",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "code_factorial",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "code_is_even",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "code_reverse_words",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "e001",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "e002",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "e003",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "e004",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m001",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m002",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m003",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m004",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m005",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m006",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m007",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m008",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m009",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m010",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m011",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m012",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m013",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m014",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m015",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m016",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m017",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m018",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m019",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "smoke",
+      "task_id": "m020",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_001",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_002",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_003",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_004",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_005",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_006",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_007",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_008",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_009",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_010",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_011",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_012",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_013",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_014",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_015",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_016",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_017",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_018",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_019",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_020",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_021",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_022",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_023",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_024",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_025",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_026",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_027",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_028",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_029",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rm_030",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_001",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_002",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_003",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_004",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_005",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_006",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_007",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_008",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_009",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_010",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_011",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_012",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_013",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_014",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "rc_015",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_001",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_002",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_003",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_004",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_005",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_006",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_007",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_008",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_009",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_010",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_011",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_012",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_013",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_014",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "rescue",
+      "task_id": "re_015",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_002",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_001",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_003",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_004",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_005",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_006",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_007",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_008",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_009",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_010",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_011",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_012",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_013",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_014",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_015",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_016",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_017",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_018",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_019",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_020",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_021",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_022",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_023",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_024",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_025",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_026",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_027",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_028",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_029",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hm_030",
+      "family": "math",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_001",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_002",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_003",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_004",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_005",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_006",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_007",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_008",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_009",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_010",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_011",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_012",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_013",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_014",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_015",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_016",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_017",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_018",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_019",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_020",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_021",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_022",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_023",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_024",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_025",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_026",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_027",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_028",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_029",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "hc_030",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_001",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_002",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_003",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_004",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_005",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_006",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_007",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_008",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_009",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_010",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_011",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_012",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_013",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_014",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_015",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_016",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_017",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_018",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_019",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_020",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_021",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_022",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_023",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_024",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_025",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_026",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_027",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_028",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_029",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "hard_regime",
+      "task_id": "he_030",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_002",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_004",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_007",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_003",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_008",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_006",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_001",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_005",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_009",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_012",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_014",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_015",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_011",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_010",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_013",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_016",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_017",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_019",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_018",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_023",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_021",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_020",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_022",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_024",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_026",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_025",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_027",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_028",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_031",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_030",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_029",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_032",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_033",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_035",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_034",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_036",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_037",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_039",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_038",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ic_040",
+      "family": "code",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_002",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_001",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_004",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_003",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_006",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_005",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_007",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_010",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_008",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_009",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_011",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_012",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_013",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_015",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_014",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_016",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_018",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_017",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_020",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "id_019",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_001",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_002",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_003",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_004",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_005",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_006",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_007",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_008",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_009",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_010",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_011",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_012",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_013",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_014",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_015",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_016",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_018",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_019",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_017",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_020",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_021",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_022",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_024",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_023",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_025",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_026",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_027",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_029",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_028",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "ie_030",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_004",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_007",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_005",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_008",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_011",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_001",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_006",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_010",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_012",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_013",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_009",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_015",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_001",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_002",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_014",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_003",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_005",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_004",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_003",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "it_002",
+      "family": "tool_planning",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_006",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_008",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_007",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_009",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_012",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_010",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_013",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_014",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_015",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "interactive",
+      "task_id": "im_011",
+      "family": "math_checkpoint",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_001",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_002",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_003",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_004",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_005",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_006",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_007",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_008",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_009",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_010",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_011",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_012",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_013",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_014",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_015",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_016",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_017",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_018",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_019",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_020",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_021",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_022",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_023",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_024",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_025",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_026",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_027",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_028",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_029",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_030",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_031",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_032",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_033",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_034",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_035",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_036",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_037",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_038",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_039",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_040",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_041",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_042",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_043",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_044",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_045",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_046",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_047",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_048",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_049",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_050",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_051",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_052",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_053",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_054",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_055",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_056",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_057",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_058",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_059",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "agentic_search",
+      "task_id": "ag_060",
+      "family": "evidence",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_021",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_023",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_022",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_024",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_025",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_026",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_028",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_027",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_030",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_029",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_031",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_033",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_034",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_035",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_036",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_037",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_039",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_038",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_040",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_041",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_042",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_043",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_044",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_045",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_046",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_047",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_049",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_050",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_048",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "source": "f2",
+      "task_id": "id_032",
+      "family": "data_analysis",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    }
+  ],
+  "honesty": "Labels derived deterministically from cached oracle outcomes. need_code / need_retrieve are family-based (trivially predictable). verifier_risk / need_strong / escalate / graph_candidate are derived from per-task oracle plan decisions. The task prompt text is NOT stored here (use original task pool modules for prompt text); the external-router baseline (run_external_router_baselines.py) joins this label table with the prompt text."
+}

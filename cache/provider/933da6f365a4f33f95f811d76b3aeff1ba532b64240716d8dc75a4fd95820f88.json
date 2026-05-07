@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023285000000000002,
+  "input_tokens": 65,
+  "latency_ms": 2227,
+  "model": "deepseek-reasoner",
+  "output_tokens": 90,
+  "provider": "deepseek",
+  "request_hash": "933da6f365a4f33f95f811d76b3aeff1ba532b64240716d8dc75a4fd95820f88",
+  "text": "Count factors of 5 in 25!"
+}

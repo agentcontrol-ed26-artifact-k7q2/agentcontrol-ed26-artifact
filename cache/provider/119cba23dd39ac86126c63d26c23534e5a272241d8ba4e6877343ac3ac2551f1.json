@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.85e-05,
+  "input_tokens": 254,
+  "latency_ms": 631,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "119cba23dd39ac86126c63d26c23534e5a272241d8ba4e6877343ac3ac2551f1",
+  "text": "Pearl Harbor is known for the attack on Pearl Harbor on December 7, 1941, which brought the United States into World War II [doc_ww2_pearl]."
+}

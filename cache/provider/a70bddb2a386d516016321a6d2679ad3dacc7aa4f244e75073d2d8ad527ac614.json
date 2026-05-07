@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 96,
+  "latency_ms": 550,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "a70bddb2a386d516016321a6d2679ad3dacc7aa4f244e75073d2d8ad527ac614",
+  "text": "The typical arithmetic slip is forgetting to subtract the product of 4ac from b^2 when calculating the discriminant, which in this case is b^2 - 4ac = 25 - 24 = 1."
+}

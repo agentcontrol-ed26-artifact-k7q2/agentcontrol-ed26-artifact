@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024639999999999997,
+  "input_tokens": 107,
+  "latency_ms": 2624,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 173,
+  "provider": "together",
+  "request_hash": "5e5ef346c35d33019489a9b6746a2f31c51dd7a4ac32db5e306beca71bb0c14a",
+  "text": "The most common bug to avoid in this task is not properly handling the case where the end word is not present in the given list of words, which can lead to incorrect results or infinite loops. \n\n```python\nfrom collections import deque\n\ndef word_ladder_len(begin, end, words):\n    words = set(words)\n    if end not in words:\n        return 0\n\n    queue = deque([(begin, 1)])\n    while queue:\n        word, length = queue.popleft()\n        if word == end:\n            return length\n        for i in range(len(word)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                next_word = word[:i] + c + word[i+1:]\n                if next_word in words:\n                    words.remove(next_word)\n                    queue.append((next_word, length + 1))\n    return 0\n```"
+}

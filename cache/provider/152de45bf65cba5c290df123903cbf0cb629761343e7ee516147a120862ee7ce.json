@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 101,
+  "latency_ms": 918,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 72,
+  "provider": "together",
+  "request_hash": "152de45bf65cba5c290df123903cbf0cb629761343e7ee516147a120862ee7ce",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for i in range(n):\n        for j in range(i, n):\n            m[j][i], m[i][j] = m[i][j], m[j][i]\n    for i in range(n):\n        m[i] = m[i][::-1]\n```"
+}

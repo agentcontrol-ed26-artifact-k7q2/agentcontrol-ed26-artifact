@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.732e-05,
+  "input_tokens": 56,
+  "latency_ms": 797,
+  "model": "deepseek-chat",
+  "output_tokens": 2,
+  "provider": "deepseek",
+  "request_hash": "be81ae3b87cc1d12acd7abc697df323fb8d56bfe2c953cfe0446019ad485ce37",
+  "text": "First flight"
+}

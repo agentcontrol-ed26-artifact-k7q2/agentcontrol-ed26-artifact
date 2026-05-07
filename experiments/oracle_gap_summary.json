@@ -1,0 +1,737 @@
+{
+  "avg_cost_delta": -0.642857142857143,
+  "avg_objective_delta": 0.00642857142857145,
+  "budget": 20.0,
+  "cost_penalty": 0.01,
+  "cost_saving_pct_at_observed": 26.086956521739136,
+  "decision": "BACKUP",
+  "deliberation_graph": {
+    "avg_cost": 1.8214285714285714,
+    "avg_latency_ms": 1.7142857142857142,
+    "avg_objective": 0.9817857142857145,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "oracle_type": "deliberation_graph",
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "graph_shepherding_hint",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "graph_shepherding_hint",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "graph_shepherding_hint",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "query_router": {
+    "avg_cost": 2.4642857142857144,
+    "avg_latency_ms": 1.5,
+    "avg_objective": 0.975357142857143,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "oracle_type": "query_router",
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "query_strong_only",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "query_strong_only",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "query_strong_only",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "query_cheap_only",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "query_automix",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "success_delta_pp": 0.0
+}

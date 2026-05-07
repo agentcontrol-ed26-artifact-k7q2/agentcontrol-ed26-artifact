@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.592e-05,
+  "input_tokens": 86,
+  "latency_ms": 1751,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "866bf112ef3813ef72f6feb5c79b000460de5e1e4751f459ab53cd7f56d913f4",
+  "text": "1. Multiply 8 by 10 and subtract 8\n2. Add 8 together 9 times"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027016000000000003,
+  "input_tokens": 288,
+  "latency_ms": 2378,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "0afd46fc0c1c669c4a0a4347ab997d6f0701e725d3a7c071067c7bf1c494b71e",
+  "text": "The first person to walk on the Moon was Neil Armstrong. [doc_armstrong_bio]"
+}

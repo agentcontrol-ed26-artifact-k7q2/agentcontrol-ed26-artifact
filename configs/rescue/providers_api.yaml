@@ -1,0 +1,40 @@
+# Rescue real-API provider config.
+# DEFAULT real_api_allowed=false. Real APIs are blocked unless the user sets
+# AGENTCONTROL_RESCUE_APPROVED=1 AND budget configuration here is approved.
+real_api_allowed: false
+budget:
+  max_total_spend_usd: 0.0       # must be set by user before approval
+  per_provider_max_calls: 0      # must be set by user before approval
+  hard_kill_on_overspend: true
+cache:
+  cache_dir: cache/provider
+  cost_ledger: cache/cost_ledger.jsonl
+  replay_mode: true              # if true, scripts must NEVER call real API
+rate_limit:
+  retry_max_attempts: 0          # must be set by user before approval
+  backoff_seconds: 0
+provider_slots:
+  cheap:
+    name: PLACEHOLDER_CHEAP
+    model: PLACEHOLDER_MODEL_CHEAP
+    estimated_input_per_call_tokens: 200
+    estimated_output_per_call_tokens: 80
+    estimated_cost_per_call_usd: 0.0
+  strong:
+    name: PLACEHOLDER_STRONG
+    model: PLACEHOLDER_MODEL_STRONG
+    estimated_input_per_call_tokens: 200
+    estimated_output_per_call_tokens: 200
+    estimated_cost_per_call_usd: 0.0
+  frontier:
+    name: PLACEHOLDER_FRONTIER
+    model: PLACEHOLDER_MODEL_FRONTIER
+    estimated_input_per_call_tokens: 200
+    estimated_output_per_call_tokens: 300
+    estimated_cost_per_call_usd: 0.0
+note: |
+  This file is a template. The user must fill in provider names, models,
+  per-call cost estimates, max-total-spend, and per-provider call caps,
+  then set AGENTCONTROL_RESCUE_APPROVED=1 to enable real-API runs.
+  Until then every script is required to short-circuit to DummyProvider
+  and label outputs as non-decisive.

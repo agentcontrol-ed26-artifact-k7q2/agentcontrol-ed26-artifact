@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017072,
+  "input_tokens": 138,
+  "latency_ms": 886,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 56,
+  "provider": "together",
+  "request_hash": "60559ac6ceddffcc1cbf08054cfada3996854c7891d3133092f0d4120aeb749e",
+  "text": "To verify the answer, two checks can be performed: \n1. Check if the mission in question was crewed and successfully landed on the Moon's surface.\n2. Verify the timeline of the mission to confirm it was the first to achieve this feat [doc_apollo]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011704,
+  "input_tokens": 84,
+  "latency_ms": 3328,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 49,
+  "provider": "together",
+  "request_hash": "173d8b3802ae86848bfb41a8583c8f39ca4d2a4077e0edc53174009f75531532",
+  "text": "```python\ndef find_duplicates(xs):\n    seen = set()\n    duplicates = set()\n    for x in xs:\n        if x in seen:\n            duplicates.add(x)\n        seen.add(x)\n    return sorted(list(duplicates))\n```"
+}

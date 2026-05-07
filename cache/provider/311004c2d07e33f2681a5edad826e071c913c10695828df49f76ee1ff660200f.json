@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.819999999999999e-05,
+  "input_tokens": 205,
+  "latency_ms": 802,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 89,
+  "provider": "together",
+  "request_hash": "311004c2d07e33f2681a5edad826e071c913c10695828df49f76ee1ff660200f",
+  "text": "```python\ndef spiral_order(m):\n    result = []\n    while m:\n        result += m.pop(0)\n        if m and m[0]:\n            for row in m:\n                result.append(row.pop(0))\n        if m:\n            result += m.pop()[::-1]\n        if m and m[0]:\n            for row in m[::-1]:\n                result.append(row.pop(0))\n    return result\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.528e-05,
+  "input_tokens": 94,
+  "latency_ms": 1080,
+  "model": "deepseek-chat",
+  "output_tokens": 9,
+  "provider": "deepseek",
+  "request_hash": "b38ea16ee170261b945fded1ef85a2f7042c311fc17f4493976c1b646f480234",
+  "text": "The Amazon River [doc_amazon]"
+}

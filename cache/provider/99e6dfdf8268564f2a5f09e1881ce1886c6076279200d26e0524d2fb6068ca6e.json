@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.26e-05,
+  "input_tokens": 134,
+  "latency_ms": 383,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "99e6dfdf8268564f2a5f09e1881ce1886c6076279200d26e0524d2fb6068ca6e",
+  "text": "polonium [doc_curie]"
+}

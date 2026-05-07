@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.329999999999999e-05,
+  "input_tokens": 260,
+  "latency_ms": 1143,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "045050d1ce19736b977dd2f0cc13a2d6546de0e3bab11b64ff5695621f32c2cd",
+  "text": "The Wright brothers achieved the first sustained powered flight in 1903. [doc_wright_flight]"
+}

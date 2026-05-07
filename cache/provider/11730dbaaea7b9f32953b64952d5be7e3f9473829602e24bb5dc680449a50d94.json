@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015136,
+  "input_tokens": 94,
+  "latency_ms": 520,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "11730dbaaea7b9f32953b64952d5be7e3f9473829602e24bb5dc680449a50d94",
+  "text": "```python\ndef balanced_parens(s):\n    stack = []\n    pairs = {')': '(', '}': '{', ']': '['}\n    for char in s:\n        if char in pairs.values():\n            stack.append(char)\n        elif char in pairs.keys():\n            if not stack or stack.pop() != pairs[char]:\n                return False\n    return not stack\n```"
+}

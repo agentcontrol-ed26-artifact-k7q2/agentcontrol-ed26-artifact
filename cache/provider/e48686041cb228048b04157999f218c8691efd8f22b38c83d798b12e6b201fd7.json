@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013376,
+  "input_tokens": 117,
+  "latency_ms": 563,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "e48686041cb228048b04157999f218c8691efd8f22b38c83d798b12e6b201fd7",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, such as not including the bracketed citation [doc_amazon] to support the answer."
+}

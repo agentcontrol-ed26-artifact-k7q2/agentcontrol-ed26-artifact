@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.351e-05,
+  "input_tokens": 63,
+  "latency_ms": 890,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "65b1f5f3c5abec92e99ae7ba03f9bbf49d98c4bc81c2ca985c436ed99cb0184a",
+  "text": "def is_palindrome(s):\n    return s == s[::-1]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.98e-05,
+  "input_tokens": 62,
+  "latency_ms": 575,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 4,
+  "provider": "together",
+  "request_hash": "b43874771d83b47c5da7b8241786679b7e72927caa9af6c7eaaf4964180a28c3",
+  "text": "Nepal"
+}

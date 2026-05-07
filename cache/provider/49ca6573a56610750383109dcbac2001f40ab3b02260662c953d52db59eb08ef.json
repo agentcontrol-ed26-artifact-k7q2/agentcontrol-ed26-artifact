@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027544,
+  "input_tokens": 296,
+  "latency_ms": 443,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "49ca6573a56610750383109dcbac2001f40ab3b02260662c953d52db59eb08ef",
+  "text": "The designer of the Analytical Engine was born in London [doc_babbage]"
+}

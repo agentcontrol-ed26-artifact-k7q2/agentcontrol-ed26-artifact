@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014344,
+  "input_tokens": 116,
+  "latency_ms": 1357,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "f1458f35f29682b6060fd63ef784e367db4503c124cfbeba8979e0fcdc34f46d",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, such as not including the document title or number in the citation, for example, not including [doc_curie] when stating who discovered radium."
+}

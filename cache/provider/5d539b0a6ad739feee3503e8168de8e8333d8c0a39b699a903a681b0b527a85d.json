@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.79e-05,
+  "input_tokens": 280,
+  "latency_ms": 456,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "5d539b0a6ad739feee3503e8168de8e8333d8c0a39b699a903a681b0b527a85d",
+  "text": "Charles Babbage was born in London [doc_babbage]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019976,
+  "input_tokens": 208,
+  "latency_ms": 3875,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "29542b7fc7c6b47fa24e47be81cdee46e7579d4f6678a1542372bff51076e29e",
+  "text": "To answer this question, you should look at doc_war. \nAnswer [doc_war]"
+}

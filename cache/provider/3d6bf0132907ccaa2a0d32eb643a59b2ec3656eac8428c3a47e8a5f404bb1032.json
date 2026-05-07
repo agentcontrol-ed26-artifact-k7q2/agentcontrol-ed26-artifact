@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019102000000000002,
+  "input_tokens": 76,
+  "latency_ms": 2880,
+  "model": "deepseek-chat",
+  "output_tokens": 155,
+  "provider": "deepseek",
+  "request_hash": "3d6bf0132907ccaa2a0d32eb643a59b2ec3656eac8428c3a47e8a5f404bb1032",
+  "text": "```python\ndef course_schedule_possible(n, prereqs):\n    from collections import deque\n    \n    graph = [[] for _ in range(n)]\n    indegree = [0] * n\n    \n    for a, b in prereqs:\n        graph[b].append(a)\n        indegree[a] += 1\n    \n    queue = deque([i for i in range(n) if indegree[i] == 0])\n    count = 0\n    \n    while queue:\n        node = queue.popleft()\n        count += 1\n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n    \n    return count == n\n```"
+}

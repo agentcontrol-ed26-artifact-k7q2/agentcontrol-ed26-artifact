@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017336,
+  "input_tokens": 98,
+  "latency_ms": 1154,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 99,
+  "provider": "together",
+  "request_hash": "589128d445d5c9172e8609ab1e05f52456b1b1102168ede9075a2037d2e46def",
+  "text": "To solve this, we need to ensure that the missionaries are never outnumbered by the cannibals on either bank. \n\n1. Verification check: At any point, the number of cannibals on a bank should not exceed the number of missionaries if there are any missionaries present.\n2. Verification check: The boat should never carry more people than its capacity, and it should not leave a bank with more cannibals than missionaries if there are any missionaries on that bank. \n\n11"
+}

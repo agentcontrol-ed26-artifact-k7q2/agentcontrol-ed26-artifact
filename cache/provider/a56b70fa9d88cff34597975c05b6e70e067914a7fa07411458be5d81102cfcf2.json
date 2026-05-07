@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002772,
+  "input_tokens": 301,
+  "latency_ms": 569,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "a56b70fa9d88cff34597975c05b6e70e067914a7fa07411458be5d81102cfcf2",
+  "text": "The answer is 1919. [doc_hillary_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003655,
+  "input_tokens": 127,
+  "latency_ms": 2583,
+  "model": "deepseek-reasoner",
+  "output_tokens": 135,
+  "provider": "deepseek",
+  "request_hash": "eddc0356fea79457daf8369ff563eaefa9105e3c5d1dc2ddefd5abfff514bd5d",
+  "text": "1915 [doc_einstein]\n\nThe most common citation mistake is failing to include any citation or using a citation that does not correspond to the evidence provided."
+}

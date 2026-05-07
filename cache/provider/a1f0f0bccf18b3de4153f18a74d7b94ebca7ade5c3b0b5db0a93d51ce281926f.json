@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025256,
+  "input_tokens": 97,
+  "latency_ms": 1179,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 190,
+  "provider": "together",
+  "request_hash": "a1f0f0bccf18b3de4153f18a74d7b94ebca7ade5c3b0b5db0a93d51ce281926f",
+  "text": "To solve this problem, you can utilize a depth-first search (DFS) algorithm to traverse and mark all connected 1s in the grid as visited.\n\n```python\ndef count_islands(grid):\n    if not grid:\n        return 0\n\n    rows, cols = len(grid), len(grid[0])\n    islands = 0\n\n    def dfs(r, c):\n        if 0 <= r < rows and 0 <= c < cols and grid[r][c] == 1:\n            grid[r][c] = 0\n            dfs(r - 1, c)\n            dfs(r + 1, c)\n            dfs(r, c - 1)\n            dfs(r, c + 1)\n\n    for r in range(rows):\n        for c in range(cols):\n            if grid[r][c] == 1:\n                islands += 1\n                dfs(r, c)\n\n    return islands\n```"
+}

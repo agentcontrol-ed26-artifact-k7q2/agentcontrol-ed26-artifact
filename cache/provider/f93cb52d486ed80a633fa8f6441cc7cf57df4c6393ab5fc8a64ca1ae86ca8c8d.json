@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004075099999999999,
+  "input_tokens": 68,
+  "latency_ms": 2973,
+  "model": "deepseek-reasoner",
+  "output_tokens": 169,
+  "provider": "deepseek",
+  "request_hash": "f93cb52d486ed80a633fa8f6441cc7cf57df4c6393ab5fc8a64ca1ae86ca8c8d",
+  "text": "Use the multinomial coefficient: total letters factorial divided by factorials of each repeated letter count."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.514000000000001e-05,
+  "input_tokens": 242,
+  "latency_ms": 1291,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "c348050b5191ba98daa34cab0911874671681428e6c2b50f1265aed41450ca84",
+  "text": "Python 2 reached end-of-life in 2020 [doc_python_versions]."
+}

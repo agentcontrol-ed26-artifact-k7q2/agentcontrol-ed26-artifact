@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.26e-05,
+  "input_tokens": 121,
+  "latency_ms": 627,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "ec01d375eab8b75c375ee1316ed5e299412b06f9f4bb7a64013360e3ffd94e14",
+  "text": "Einstein emigrated to the United States in 1933 [doc_einstein_birth]."
+}

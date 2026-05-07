@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.545000000000001e-05,
+  "input_tokens": 95,
+  "latency_ms": 1040,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "533e69f49f85def67bb41a12c480f2f72856a0bf88aef2550b4e41a6636729c0",
+  "text": "The longest river in the world is the Nile. [doc_amazon_river]"
+}

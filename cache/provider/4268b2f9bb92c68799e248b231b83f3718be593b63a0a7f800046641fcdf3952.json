@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036161999999999994,
+  "input_tokens": 108,
+  "latency_ms": 2737,
+  "model": "deepseek-reasoner",
+  "output_tokens": 138,
+  "provider": "deepseek",
+  "request_hash": "4268b2f9bb92c68799e248b231b83f3718be593b63a0a7f800046641fcdf3952",
+  "text": "doc_darwin"
+}

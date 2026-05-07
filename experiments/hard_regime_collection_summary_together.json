@@ -1,0 +1,37 @@
+{
+  "provider_mode": "together",
+  "n_tasks": 90,
+  "n_jobs": 630,
+  "n_errors": 0,
+  "incremental_spend_usd": 0.06636834000000014,
+  "per_action_success_rate": {
+    "cheap_answer": {
+      "n": 90,
+      "successes": 78
+    },
+    "cheap_repair": {
+      "n": 90,
+      "successes": 79
+    },
+    "strong_hint": {
+      "n": 90,
+      "successes": 0
+    },
+    "cheap_repair_after_hint": {
+      "n": 90,
+      "successes": 78
+    },
+    "strong_critique": {
+      "n": 90,
+      "successes": 0
+    },
+    "strong_checklist": {
+      "n": 90,
+      "successes": 0
+    },
+    "strong_answer": {
+      "n": 90,
+      "successes": 85
+    }
+  }
+}

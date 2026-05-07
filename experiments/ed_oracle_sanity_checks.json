@@ -1,0 +1,65 @@
+{
+  "budget": 20.0,
+  "cost_penalty": 0.01,
+  "n_checks": 8,
+  "n_pass": 8,
+  "n_fail": 0,
+  "checks": [
+    {
+      "name": "graph_objective_ge_router_objective_per_task",
+      "status": "PASS",
+      "violations": [],
+      "note": "Graph plan set is a superset of router plan set, so the graph oracle should never lose to the router oracle on objective."
+    },
+    {
+      "name": "graph_plan_set_is_superset_of_router_plan_set",
+      "status": "PASS",
+      "router_plans": [
+        "query_automix",
+        "query_cascade",
+        "query_cheap_only",
+        "query_strong_only"
+      ],
+      "graph_plans": [
+        "graph_bdelg",
+        "graph_shepherding_hint",
+        "query_automix",
+        "query_cascade",
+        "query_cheap_only",
+        "query_strong_only"
+      ]
+    },
+    {
+      "name": "budget_respected",
+      "budget": 20.0,
+      "status": "PASS",
+      "violations": []
+    },
+    {
+      "name": "conditional_actions_skipped_after_success",
+      "status": "PASS",
+      "violations": [],
+      "note": "When verifier-aware and an answer action has succeeded, subsequent `_if_needed` actions must not be executed."
+    },
+    {
+      "name": "missing_outcomes_handled_safely",
+      "status": "PASS",
+      "violations": []
+    },
+    {
+      "name": "simulator_does_not_import_provider_layer",
+      "status": "PASS",
+      "leaked_symbols": []
+    },
+    {
+      "name": "max_observed_cost_within_budget",
+      "max_observed_cost": 10.0,
+      "budget": 20.0,
+      "status": "PASS"
+    },
+    {
+      "name": "replay_determinism",
+      "status": "PASS"
+    }
+  ]
+}

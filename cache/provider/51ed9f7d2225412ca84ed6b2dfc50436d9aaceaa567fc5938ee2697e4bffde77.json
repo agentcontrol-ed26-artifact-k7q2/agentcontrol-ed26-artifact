@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.199e-05,
+  "input_tokens": 247,
+  "latency_ms": 1032,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "51ed9f7d2225412ca84ed6b2dfc50436d9aaceaa567fc5938ee2697e4bffde77",
+  "text": "Marie Curie did not have a sister who won a Nobel Prize. [doc_curie_marie]"
+}

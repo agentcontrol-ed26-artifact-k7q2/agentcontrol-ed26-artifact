@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001454,
+  "input_tokens": 70,
+  "latency_ms": 2133,
+  "model": "deepseek-chat",
+  "output_tokens": 115,
+  "provider": "deepseek",
+  "request_hash": "bfb797aa12593d0cba62ed44a9e47fd0850eaecf085947ee196b008903e2f190",
+  "text": "We have 11 letters: M (1), I (4), S (4), P (2).  \nNumber of permutations = 11! / (4! * 4! * 2!).  \n\nCompute step-by-step:  \n11! = 39916800  \n4! = 24, so 4! * 4! = 24 * 24 = 576  \n2! = 2  \nDenominator = 576 * 2 = 1152  \n\n39916800 / 1152 = 34650  \n\n34650"
+}

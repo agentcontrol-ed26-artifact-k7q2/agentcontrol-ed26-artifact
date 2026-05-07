@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023496,
+  "input_tokens": 104,
+  "latency_ms": 1197,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 163,
+  "provider": "together",
+  "request_hash": "f2b13bfd660e2dc64900cb9a9ce0168ba963ab3a7b61902b58f6199f9a7b9e59",
+  "text": "```python\ndef n_queens_count(n):\n    def is_safe(board, row, col):\n        for i in range(row):\n            if board[i] == col or board[i] - i == col - row or board[i] + i == col + row:\n                return False\n        return True\n\n    def solve_n_queens_util(n, row, board):\n        if row == n:\n            return 1\n        count = 0\n        for col in range(n):\n            if is_safe(board, row, col):\n                board[row] = col\n                count += solve_n_queens_util(n, row + 1, board)\n        return count\n\n    board = [-1] * n\n    return solve_n_queens_util(n, 0, board)\n```"
+}

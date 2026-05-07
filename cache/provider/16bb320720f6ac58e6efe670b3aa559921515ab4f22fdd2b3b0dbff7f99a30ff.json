@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8599999999999995e-05,
+  "input_tokens": 99,
+  "latency_ms": 889,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 63,
+  "provider": "together",
+  "request_hash": "16bb320720f6ac58e6efe670b3aa559921515ab4f22fdd2b3b0dbff7f99a30ff",
+  "text": "The drop in price is calculated as \\(80 - 60 = 20\\).\n\nThe percent decrease is then calculated as \\(\\frac{20}{80} \\times 100 = 25\\%\\).\n\nSo, the final answer is \\(25\\%\\)."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.24e-05,
+  "input_tokens": 188,
+  "latency_ms": 546,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "4465f097127c2d56688d530a733ddd809fc075b4c0b3cb7829ac35ed6be9811a",
+  "text": "The first sustained powered flight was achieved at Kitty Hawk, North Carolina [doc_wright_flight]."
+}

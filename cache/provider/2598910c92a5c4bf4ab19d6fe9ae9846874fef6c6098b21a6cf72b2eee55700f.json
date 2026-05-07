@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00192456,
+  "input_tokens": 258,
+  "latency_ms": 11148,
+  "model": "deepseek-reasoner",
+  "output_tokens": 814,
+  "provider": "deepseek",
+  "request_hash": "2598910c92a5c4bf4ab19d6fe9ae9846874fef6c6098b21a6cf72b2eee55700f",
+  "text": "The provided evidence does not contain information about the creator of Python. [doc_apollo_mission]"
+}

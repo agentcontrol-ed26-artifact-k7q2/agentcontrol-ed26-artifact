@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.328e-05,
+  "input_tokens": 98,
+  "latency_ms": 1193,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "6c47167711eed387e036308affd4f3035d5f4e5b32d28d362570978ee38de6f9",
+  "text": "Use the Euclidean algorithm \n42"
+}

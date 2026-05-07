@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.68e-05,
+  "input_tokens": 98,
+  "latency_ms": 683,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "c1739980557ee351a3bbefa7f69b64ee67d5d320c7db24b55f443d69215b678f",
+  "text": "Find the prime factorization of each number. \n36"
+}

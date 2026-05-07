@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029304,
+  "input_tokens": 288,
+  "latency_ms": 1090,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "1867e20212ab51fdd192da274b1bb39494a7c711990b97bead83f9da6864fe2f",
+  "text": "There is no information about the daughter of the discoverer of polonium in the provided documents, so I must conclude that the answer is not available based on the given evidence. \nAnswer [doc_aldrin_bio]"
+}

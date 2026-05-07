@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029142999999999997,
+  "input_tokens": 64,
+  "latency_ms": 2236,
+  "model": "deepseek-reasoner",
+  "output_tokens": 117,
+  "provider": "deepseek",
+  "request_hash": "59a57bdbd1070f6c42e2e85c0b426ccef8bd513575d495ec4c3884dfd8b21c12",
+  "text": "Subtract 5 from both sides to isolate the term with x."
+}

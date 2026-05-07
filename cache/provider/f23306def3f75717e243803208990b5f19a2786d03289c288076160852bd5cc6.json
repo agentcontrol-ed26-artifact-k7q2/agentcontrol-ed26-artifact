@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010824,
+  "input_tokens": 107,
+  "latency_ms": 1681,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "f23306def3f75717e243803208990b5f19a2786d03289c288076160852bd5cc6",
+  "text": "Hint: Cube the given equation \nx + 1/x = 5"
+}

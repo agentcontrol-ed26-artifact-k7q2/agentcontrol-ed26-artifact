@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024288,
+  "input_tokens": 231,
+  "latency_ms": 3628,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "5b55edc3351e8a30209a24d758bde3c17c9786a4e14a01cc27c32eeef2cdfb1d",
+  "text": "The most common citation mistake is incorrectly referencing a document that does not support the claim, such as citing doc_franklin for information about the Nobel Prize in Physics.\nAnswer phrase: Marie Curie [doc_curie]"
+}

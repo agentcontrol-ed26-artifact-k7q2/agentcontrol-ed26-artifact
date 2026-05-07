@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027543999999999995,
+  "input_tokens": 292,
+  "latency_ms": 850,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "d02eefd03af65a81cfb2eb77a3617b70f56b41d4b80fd4761a8b4a7552c31ba0",
+  "text": "Max Planck won the Nobel Prize in the year 1918 [doc_planck_nobel]"
+}

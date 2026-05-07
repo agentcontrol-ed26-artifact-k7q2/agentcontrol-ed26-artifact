@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022196,
+  "input_tokens": 89,
+  "latency_ms": 1712,
+  "model": "deepseek-reasoner",
+  "output_tokens": 79,
+  "provider": "deepseek",
+  "request_hash": "38bfc0292171a43e3136606097550e416d6f72f64fdd1b67a0cf4d4caf92319b",
+  "text": "doc_moon"
+}

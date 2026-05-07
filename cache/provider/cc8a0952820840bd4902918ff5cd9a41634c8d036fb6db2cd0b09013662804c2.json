@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.28e-05,
+  "input_tokens": 34,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 10,
+  "provider": "dummy",
+  "request_hash": "cc8a0952820840bd4902918ff5cd9a41634c8d036fb6db2cd0b09013662804c2",
+  "text": "def reverse_words(s):\n    return s[::-1]\n"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000246,
+  "input_tokens": 31,
+  "latency_ms": 1,
+  "model": "dummy-pro",
+  "output_tokens": 23,
+  "provider": "dummy",
+  "request_hash": "156b00b94ebe79cd78b26dd582d36c53cbcfb779a2eca3a8df6935b3400f726d",
+  "text": "def factorial(n):\n    out = 1\n    for i in range(2, n + 1):\n        out *= i\n    return out\n"
+}

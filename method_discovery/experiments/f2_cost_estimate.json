@@ -1,0 +1,25 @@
+{
+  "n_tasks_total": 50,
+  "n_new_tasks_likely_uncached": 30,
+  "n_legacy_tasks_likely_cached": 20,
+  "actions_per_task": 8,
+  "providers": {
+    "deepseek": {
+      "cheap_model": "deepseek-chat",
+      "strong_model": "deepseek-reasoner",
+      "per_task_estimated_usd": 0.0033844,
+      "estimated_total_usd_if_no_cache": 0.16922,
+      "estimated_total_usd_after_cache": 0.101532
+    },
+    "together": {
+      "cheap_model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "strong_model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "per_task_estimated_usd": 0.0019328,
+      "estimated_total_usd_if_no_cache": 0.09663999999999999,
+      "estimated_total_usd_after_cache": 0.057984
+    }
+  },
+  "max_spend_cap_usd": 5.0,
+  "approval_env_var": "AGENTCONTROL_METHOD_DISCOVERY_API_APPROVED",
+  "approval_set": false
+}

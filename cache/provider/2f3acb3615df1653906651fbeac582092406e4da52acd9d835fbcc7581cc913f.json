@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.19e-05,
+  "input_tokens": 79,
+  "latency_ms": 1815,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 194,
+  "provider": "together",
+  "request_hash": "2f3acb3615df1653906651fbeac582092406e4da52acd9d835fbcc7581cc913f",
+  "text": "```python\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    # Create adjacency list\n    graph = [[] for _ in range(n)]\n    for u, v, w in edges:\n        graph[u].append((v, w))\n    \n    # Priority queue to store (distance, node)\n    pq = [(0, src)]\n    # Distance array to store the shortest distance from src to each node\n    dist = [float('inf')] * n\n    dist[src] = 0\n    \n    while pq:\n        d, u = heapq.heappop(pq)\n        if u == dst:\n            return d\n        if d > dist[u]:\n            continue\n        for v, w in graph[u]:\n            if d + w < dist[v]:\n                dist[v] = d + w\n                heapq.heappush(pq, (dist[v], v))\n    \n    return -1\n```"
+}

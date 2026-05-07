@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.402e-05,
+  "input_tokens": 246,
+  "latency_ms": 987,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "38faaa7cfda4b371e5edb850483b88f6a78a71ac28969c3143c59fc331b91629",
+  "text": "Albert Einstein developed the theory of general relativity [doc_einstein_relativity]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013199999999999998,
+  "input_tokens": 104,
+  "latency_ms": 780,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "219cc8b75ae98cb342e558c6ff3ac4bd8f0881c604d928e3839010eb2270f401",
+  "text": "4/12 \n\n1. Total marbles: 3 + 4 + 5 = 12\n2. Blue marbles proportion: 4 blue marbles / total number of marbles = 4/12"
+}

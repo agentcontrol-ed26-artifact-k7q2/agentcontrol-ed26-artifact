@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.952000000000001e-05,
+  "input_tokens": 106,
+  "latency_ms": 1054,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "96784040462e79a6decd2bdf8df9061483758b0272835b479a57a1a6f51d12f9",
+  "text": "The provided evidence does not mention the publisher's travels. [doc_darwin_origin]"
+}

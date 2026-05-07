@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.99e-05,
+  "input_tokens": 66,
+  "latency_ms": 607,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 67,
+  "provider": "together",
+  "request_hash": "01897b999b2a047c263888ee87c8658ad54bb71f5f8b1cbefe9f5da2693e19c1",
+  "text": "```python\ndef gcd(a, b):\n    if not isinstance(a, int) or not isinstance(b, int) or a < 0 or b < 0:\n        raise ValueError(\"Both numbers must be positive integers.\")\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

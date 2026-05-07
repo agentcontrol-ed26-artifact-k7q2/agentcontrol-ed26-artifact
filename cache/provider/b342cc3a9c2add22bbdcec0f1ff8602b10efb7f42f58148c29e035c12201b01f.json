@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.155000000000001e-05,
+  "input_tokens": 105,
+  "latency_ms": 1301,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "b342cc3a9c2add22bbdcec0f1ff8602b10efb7f42f58148c29e035c12201b01f",
+  "text": "Germany's invasion of Poland [doc_war_dates]"
+}

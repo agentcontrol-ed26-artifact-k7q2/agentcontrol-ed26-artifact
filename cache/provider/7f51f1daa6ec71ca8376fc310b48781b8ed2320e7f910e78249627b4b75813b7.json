@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004688,
+  "input_tokens": 56,
+  "latency_ms": 3241,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "7f51f1daa6ec71ca8376fc310b48781b8ed2320e7f910e78249627b4b75813b7",
+  "text": "```python\ndef rle_encode(s: str) -> list:\n    if not s:\n        return []\n    result = []\n    prev = s[0]\n    count = 1\n    for ch in s[1:]:\n        if ch == prev:\n            count += 1\n        else:\n"
+}

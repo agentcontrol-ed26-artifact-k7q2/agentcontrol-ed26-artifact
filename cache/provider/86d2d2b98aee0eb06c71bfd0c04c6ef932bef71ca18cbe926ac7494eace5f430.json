@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001179,
+  "input_tokens": 248,
+  "latency_ms": 1383,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 145,
+  "provider": "together",
+  "request_hash": "86d2d2b98aee0eb06c71bfd0c04c6ef932bef71ca18cbe926ac7494eace5f430",
+  "text": "```python\ndef longest_common_subseq_len(a, b):\n    m, n = len(a), len(b)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if a[i - 1] == b[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n    return dp[m][n]\n```"
+}

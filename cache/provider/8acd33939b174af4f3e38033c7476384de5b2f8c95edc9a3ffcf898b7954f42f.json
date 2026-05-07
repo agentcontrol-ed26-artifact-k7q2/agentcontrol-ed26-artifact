@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00043543,
+  "input_tokens": 67,
+  "latency_ms": 3147,
+  "model": "deepseek-reasoner",
+  "output_tokens": 182,
+  "provider": "deepseek",
+  "request_hash": "8acd33939b174af4f3e38033c7476384de5b2f8c95edc9a3ffcf898b7954f42f",
+  "text": "The minimum total time is 17 minutes. The typical mistake is sending the fastest person back and forth to accompany each slow person individually, resulting in 19 minutes."
+}

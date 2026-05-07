@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.12e-05,
+  "input_tokens": 120,
+  "latency_ms": 832,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "7149aee129e00ba3d2d6542808d2f37140aa5a7bd4386d28eca86da97e811f92",
+  "text": "polonium [doc_curie]"
+}

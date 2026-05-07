@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.290000000000001e-05,
+  "input_tokens": 209,
+  "latency_ms": 672,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "0dc4e84fbf32d4040546db167e66284eae55bb647febd03d0140c478b6ac26d0",
+  "text": "Marie Curie was the chemist who discovered polonium, but there is no information provided about her husband in the given documents [doc_curie_marie]."
+}

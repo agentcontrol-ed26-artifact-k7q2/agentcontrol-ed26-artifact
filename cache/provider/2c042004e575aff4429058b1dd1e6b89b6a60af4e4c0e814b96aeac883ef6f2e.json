@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013552,
+  "input_tokens": 121,
+  "latency_ms": 1606,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "2c042004e575aff4429058b1dd1e6b89b6a60af4e4c0e814b96aeac883ef6f2e",
+  "text": "The most common citation mistake is failing to properly reference the source material, such as incorrectly formatting the citation or neglecting to include it altogether [doc_curie]"
+}

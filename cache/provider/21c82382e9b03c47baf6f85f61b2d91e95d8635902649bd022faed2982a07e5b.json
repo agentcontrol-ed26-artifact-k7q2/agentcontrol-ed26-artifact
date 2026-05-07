@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0006396199999999999,
+  "input_tokens": 56,
+  "latency_ms": 4341,
+  "model": "deepseek-reasoner",
+  "output_tokens": 278,
+  "provider": "deepseek",
+  "request_hash": "21c82382e9b03c47baf6f85f61b2d91e95d8635902649bd022faed2982a07e5b",
+  "text": "```python\ndef matrix_transpose(m):\n    \"\"\"Return the transpose of a 2D list m.\"\"\"\n    if not m:\n        return []\n    return [list(row) for row in zip(*m)]\n```"
+}

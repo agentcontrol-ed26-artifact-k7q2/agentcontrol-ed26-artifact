@@ -1,0 +1,6 @@
+n_evidence: 4
+provider: dummy
+cheap_model: dummy-cheap
+strong_model: dummy-pro
+budget: 20.0
+real_api_allowed: false

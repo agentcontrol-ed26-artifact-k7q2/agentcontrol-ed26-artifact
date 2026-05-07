@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.333e-05,
+  "input_tokens": 219,
+  "latency_ms": 1330,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "db68d61f2a2fa01c449be34b183ed4e20db3fb60b0505810a125bf6508a8afad",
+  "text": "Neil Armstrong commanded the Apollo 11 mission that first landed humans on the Moon. [doc_apollo]"
+}

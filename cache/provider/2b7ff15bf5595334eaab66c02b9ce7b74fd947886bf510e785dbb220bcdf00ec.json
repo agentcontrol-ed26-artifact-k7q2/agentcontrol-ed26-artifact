@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001188,
+  "input_tokens": 122,
+  "latency_ms": 605,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "2b7ff15bf5595334eaab66c02b9ce7b74fd947886bf510e785dbb220bcdf00ec",
+  "text": "Python was first released in 1991 [doc_python]"
+}

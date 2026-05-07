@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.106e-05,
+  "input_tokens": 128,
+  "latency_ms": 896,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "468a14c10bfbc9a31170749de053eef8b2b7a77dd1ac6833aa7aff1243a88f11",
+  "text": "Max Planck originated quantum theory in 1900 [doc_planck]"
+}

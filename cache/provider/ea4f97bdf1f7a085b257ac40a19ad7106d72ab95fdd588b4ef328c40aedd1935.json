@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00217159,
+  "input_tokens": 82,
+  "latency_ms": 14285,
+  "model": "deepseek-reasoner",
+  "output_tokens": 971,
+  "provider": "deepseek",
+  "request_hash": "ea4f97bdf1f7a085b257ac40a19ad7106d72ab95fdd588b4ef328c40aedd1935",
+  "text": "```python\ndef word_ladder_len(begin, end, words):\n    \"\"\"\n    Returns the length of the shortest word ladder from begin to end,\n    where each step changes exactly one letter and all intermediate words\n    are in the given list. Returns 0 if no such ladder exists.\n    \"\"\"\n    words_set = set(words)\n    if end not in words_set:\n        return 0\n    if begin == end:\n        return 1\n\n    from collections import deque\n    queue = deque()\n    queue.append((begin, 1))\n    visited = {begin}\n\n    while queue:\n        current, dist = queue.popleft()\n        for i in range(len(current)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                if c == current[i]:\n                    continue\n                neighbor = current[:i] + c + current[i+1:]\n                if neighbor in words_set and neighbor not in visited:\n                    if neighbor == end:\n                        return dist + 1\n                    visited.add(neighbor)\n                    queue.append((neighbor, dist + 1))\n\n    return 0\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026663999999999995,
+  "input_tokens": 276,
+  "latency_ms": 752,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "d72f0b6ab497a7b4fc1f5de4f7294a3c745b75e57b703fd4438c929c42b6d2d1",
+  "text": "Pearl Harbor is known for the attack that brought the United States into World War II [doc_ww2_pearl]"
+}

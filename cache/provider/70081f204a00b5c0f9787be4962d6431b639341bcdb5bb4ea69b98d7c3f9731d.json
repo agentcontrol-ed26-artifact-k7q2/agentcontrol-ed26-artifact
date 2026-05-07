@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001716,
+  "input_tokens": 148,
+  "latency_ms": 872,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "70081f204a00b5c0f9787be4962d6431b639341bcdb5bb4ea69b98d7c3f9731d",
+  "text": "1. Check if the publication year of On the Origin of Species is mentioned in the provided evidence.\n2. Verify if Charles Darwin is the correct author of On the Origin of Species as stated in the evidence [doc_evolution]"
+}

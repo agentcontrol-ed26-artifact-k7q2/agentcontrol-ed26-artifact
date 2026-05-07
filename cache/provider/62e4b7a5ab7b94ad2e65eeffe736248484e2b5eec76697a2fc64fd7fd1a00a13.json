@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.35e-05,
+  "input_tokens": 93,
+  "latency_ms": 559,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 52,
+  "provider": "together",
+  "request_hash": "62e4b7a5ab7b94ad2e65eeffe736248484e2b5eec76697a2fc64fd7fd1a00a13",
+  "text": "First, compute the intermediate value:\n3 + 4 = 7\n\nNext, use this value to compute the final result:\n7 * (5 - 2) = 7 * 3 = 21\n\nFinal answer: 21"
+}

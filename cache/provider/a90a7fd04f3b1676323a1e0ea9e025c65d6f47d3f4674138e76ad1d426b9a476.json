@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028512000000000003,
+  "input_tokens": 295,
+  "latency_ms": 746,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "a90a7fd04f3b1676323a1e0ea9e025c65d6f47d3f4674138e76ad1d426b9a476",
+  "text": "Marie Curie and Pierre Curie won the 1903 physics Nobel for radioactivity work, answer [doc_curie_pierre]"
+}

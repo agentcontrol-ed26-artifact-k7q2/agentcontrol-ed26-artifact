@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 91,
+  "latency_ms": 350,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "77626115933b9e4f78b1b0de9d6bd49daf7c1f954c9fb492c781f52e5e2372a5",
+  "text": "To find 18% of 250, first convert the percentage to a decimal by dividing by 100."
+}

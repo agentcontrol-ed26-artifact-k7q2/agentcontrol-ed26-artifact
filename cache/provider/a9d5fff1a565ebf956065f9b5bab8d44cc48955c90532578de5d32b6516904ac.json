@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001232,
+  "input_tokens": 83,
+  "latency_ms": 1405,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "a9d5fff1a565ebf956065f9b5bab8d44cc48955c90532578de5d32b6516904ac",
+  "text": "To compute 2^10, you can use the property of exponents that states a^(b+c) = a^b * a^c, which allows you to break down the problem into smaller parts, such as using the given intermediate value of 2^5."
+}

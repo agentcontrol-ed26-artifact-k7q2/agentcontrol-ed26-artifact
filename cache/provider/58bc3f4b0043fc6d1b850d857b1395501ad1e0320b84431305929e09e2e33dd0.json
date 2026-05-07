@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001012,
+  "input_tokens": 84,
+  "latency_ms": 1179,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "58bc3f4b0043fc6d1b850d857b1395501ad1e0320b84431305929e09e2e33dd0",
+  "text": "5 \n1) Substitute x = 5 into the original equation, 2) Check if 3(5) + 5 equals 20"
+}

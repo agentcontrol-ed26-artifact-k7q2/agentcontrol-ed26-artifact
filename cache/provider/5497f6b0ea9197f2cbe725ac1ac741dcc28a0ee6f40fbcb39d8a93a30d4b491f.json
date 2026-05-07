@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 113,
+  "latency_ms": 1031,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "5497f6b0ea9197f2cbe725ac1ac741dcc28a0ee6f40fbcb39d8a93a30d4b491f",
+  "text": "To verify the answer, the following checks can be performed:\n1. Cross-check the length of the Amazon River with other major rivers to confirm its ranking.\n2. Verify the length of the Nile River to ensure it is indeed the longest, making the Amazon the second longest [doc_amazon]"
+}

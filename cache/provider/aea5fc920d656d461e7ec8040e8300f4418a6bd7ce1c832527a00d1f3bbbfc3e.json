@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012585,
+  "input_tokens": 75,
+  "latency_ms": 2089,
+  "model": "deepseek-chat",
+  "output_tokens": 96,
+  "provider": "deepseek",
+  "request_hash": "aea5fc920d656d461e7ec8040e8300f4418a6bd7ce1c832527a00d1f3bbbfc3e",
+  "text": "We have the starting state:\n\n```\n1 2 3\n4 5 6\n7 0 8\n```\n\nGoal state:\n\n```\n1 2 3\n4 5 6\n7 8 0\n```\n\nThe only difference is the blank (0) and the 8 are swapped.  \nThis is a single move: slide the 8 into the blank space.\n\nSo the minimum number of moves is 1.\n\nFinal integer: 1"
+}

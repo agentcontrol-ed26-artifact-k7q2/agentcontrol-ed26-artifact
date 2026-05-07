@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.712e-05,
+  "input_tokens": 93,
+  "latency_ms": 1290,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 6,
+  "provider": "together",
+  "request_hash": "1ef69f2a6fdd96f128dfd2e5697f7d1882cfa06871f38e54c7f92ef2b1abd866",
+  "text": "Multiply the numbers \n72"
+}

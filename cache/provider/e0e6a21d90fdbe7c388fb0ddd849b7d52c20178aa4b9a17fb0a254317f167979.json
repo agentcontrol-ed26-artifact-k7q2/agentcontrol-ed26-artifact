@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020154,
+  "input_tokens": 62,
+  "latency_ms": 2937,
+  "model": "deepseek-chat",
+  "output_tokens": 168,
+  "provider": "deepseek",
+  "request_hash": "e0e6a21d90fdbe7c388fb0ddd849b7d52c20178aa4b9a17fb0a254317f167979",
+  "text": "We need to get all four people across the bridge in the shortest time.  \nThe times are 1, 2, 5, and 10 minutes.  \n\nA common optimal strategy:  \n\n1. Send the two fastest (1 and 2) across: time = 2 minutes.  \n2. Fastest (1) returns with torch: time = 1 minute.  \n3. Send the two slowest (5 and 10) across: time = 10 minutes.  \n4. Second fastest (2) returns with torch: time = 2 minutes.  \n5. Send the two fastest (1 and 2) across again: time = 2 minutes.  \n\nTotal = 2 + 1 + 10 + 2 + 2 = 17 minutes.  \n\nFinal integer: 17"
+}

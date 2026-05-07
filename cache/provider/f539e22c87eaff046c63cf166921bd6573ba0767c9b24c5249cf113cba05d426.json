@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9999999999999997e-05,
+  "input_tokens": 69,
+  "latency_ms": 461,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "f539e22c87eaff046c63cf166921bd6573ba0767c9b24c5249cf113cba05d426",
+  "text": "```python\ndef single_number(xs):\n    result = 0\n    for x in xs:\n        result ^= x\n    return result\n```"
+}

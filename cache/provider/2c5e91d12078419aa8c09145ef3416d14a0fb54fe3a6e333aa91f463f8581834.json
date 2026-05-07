@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001144,
+  "input_tokens": 97,
+  "latency_ms": 3271,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "2c5e91d12078419aa8c09145ef3416d14a0fb54fe3a6e333aa91f463f8581834",
+  "text": "The typical mistake in solving this puzzle is not considering the state of the left bank after a crossing, allowing cannibals to outnumber missionaries when the boat returns."
+}

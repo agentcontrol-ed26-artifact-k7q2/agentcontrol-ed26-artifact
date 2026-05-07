@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013288,
+  "input_tokens": 102,
+  "latency_ms": 634,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 49,
+  "provider": "together",
+  "request_hash": "d479d65b4bfd62dcb12f393c198b4b6bc588dd0ee838b93289b2f4a6842b6b48",
+  "text": "```python\ndef fib(n):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fib(n-1) + fib(n-2)\n```"
+}

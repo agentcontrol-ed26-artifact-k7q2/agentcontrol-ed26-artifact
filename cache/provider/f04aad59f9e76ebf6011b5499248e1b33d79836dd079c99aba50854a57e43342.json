@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.7320000000000003e-05,
+  "input_tokens": 36,
+  "latency_ms": 1124,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "f04aad59f9e76ebf6011b5499248e1b33d79836dd079c99aba50854a57e43342",
+  "text": "The square root of 144 is 12.  \n\nFinal answer: 12"
+}

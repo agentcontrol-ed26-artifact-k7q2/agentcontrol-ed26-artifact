@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.011e-05,
+  "input_tokens": 293,
+  "latency_ms": 896,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "eb8cdaac840aa736216ab9cab8c509049f0830c3372ab92fc4a46ade6dc6b9de",
+  "text": "Rosalind Franklin [doc_franklin]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.504e-05,
+  "input_tokens": 87,
+  "latency_ms": 513,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "5e68885b0a9fafa657c8bb47b050e08a5c4383935321d587b9dffdcf0220d642",
+  "text": "12 \n1. Area = length * width \n2. 84 = 12 * 7"
+}

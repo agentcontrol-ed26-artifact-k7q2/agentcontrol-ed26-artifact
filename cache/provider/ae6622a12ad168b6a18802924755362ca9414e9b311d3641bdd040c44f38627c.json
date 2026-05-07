@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00053507,
+  "input_tokens": 65,
+  "latency_ms": 4143,
+  "model": "deepseek-reasoner",
+  "output_tokens": 228,
+  "provider": "deepseek",
+  "request_hash": "ae6622a12ad168b6a18802924755362ca9414e9b311d3641bdd040c44f38627c",
+  "text": "```python\ndef balanced_parens(s):\n    stack = []\n    matching = {')': '(', ']': '[', '}': '{'}\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in ')]}':\n            if not stack or stack.pop() != matching[ch]:\n                return False\n    return not stack\n```"
+}

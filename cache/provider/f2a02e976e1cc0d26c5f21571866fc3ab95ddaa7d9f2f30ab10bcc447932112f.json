@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000192,
+  "input_tokens": 72,
+  "latency_ms": 1,
+  "model": "dummy-pro",
+  "output_tokens": 6,
+  "provider": "dummy",
+  "request_hash": "f2a02e976e1cc0d26c5f21571866fc3ab95ddaa7d9f2f30ab10bcc447932112f",
+  "text": "Mount Everest [doc_everest]"
+}

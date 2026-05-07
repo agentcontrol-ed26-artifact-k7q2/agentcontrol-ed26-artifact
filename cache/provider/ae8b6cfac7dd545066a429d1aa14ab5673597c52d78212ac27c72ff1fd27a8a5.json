@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00034333,
+  "input_tokens": 238,
+  "latency_ms": 2361,
+  "model": "deepseek-reasoner",
+  "output_tokens": 97,
+  "provider": "deepseek",
+  "request_hash": "ae8b6cfac7dd545066a429d1aa14ab5673597c52d78212ac27c72ff1fd27a8a5",
+  "text": "Germany's invasion of Poland began World War II in 1939 [doc_war_dates]."
+}

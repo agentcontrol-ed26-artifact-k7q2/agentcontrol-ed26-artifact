@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011352000000000001,
+  "input_tokens": 115,
+  "latency_ms": 511,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "ee8c6f65b58acf6900f6b8a6d16314dbff3e71e7a82856fde46c731abaf990ae",
+  "text": "World War II ended in 1945. [doc_war]"
+}

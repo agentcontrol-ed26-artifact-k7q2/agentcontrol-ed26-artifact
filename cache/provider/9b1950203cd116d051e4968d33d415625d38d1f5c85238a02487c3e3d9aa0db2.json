@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.23e-05,
+  "input_tokens": 131,
+  "latency_ms": 237,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "9b1950203cd116d051e4968d33d415625d38d1f5c85238a02487c3e3d9aa0db2",
+  "text": "Guido van Rossum [doc_python]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.944e-05,
+  "input_tokens": 87,
+  "latency_ms": 650,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "ec3acf3cf345e443bc232c6928ae7e39e8d58f963ee73a0e4a138c598a56db3c",
+  "text": "25\n1. Check if the increase is proportional to the original value \n2. Verify the calculation using the percentage increase formula"
+}

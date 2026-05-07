@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.054e-05,
+  "input_tokens": 52,
+  "latency_ms": 1090,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "910e9dae9913fdfbd6d1c07acdd9b461188291f1c3ddcf6b121106c224a3ca96",
+  "text": "The surprise military attack by Japan on December 7, 1941."
+}

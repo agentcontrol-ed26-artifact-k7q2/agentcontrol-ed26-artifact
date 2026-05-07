@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.309999999999999e-05,
+  "input_tokens": 196,
+  "latency_ms": 859,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 81,
+  "provider": "together",
+  "request_hash": "b6a6ae5a19729b7c82d2d57e7d0d7b8be8b5f76a8a8bfc376e406e837b1e623d",
+  "text": "The evidence provided does not specify the exact location from where Edmund Hillary climbed Mount Everest. However, based on the information given, we can infer that Hillary and Norgay summited Everest in 1953 [doc_everest]. For the precise starting point, we would need additional information which is not present in the given documents [doc_everest]. [doc_everest]"
+}

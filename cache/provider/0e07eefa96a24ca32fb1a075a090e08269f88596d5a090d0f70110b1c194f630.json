@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00073384,
+  "input_tokens": 76,
+  "latency_ms": 5045,
+  "model": "deepseek-reasoner",
+  "output_tokens": 316,
+  "provider": "deepseek",
+  "request_hash": "0e07eefa96a24ca32fb1a075a090e08269f88596d5a090d0f70110b1c194f630",
+  "text": "```python\nfrom collections import OrderedDict\n\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.cache = OrderedDict()\n        self.capacity = capacity\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n        self.cache.move_to_end(key)  # mark as recently used\n        return self.cache[key]\n\n    def put(self, key: int, value: int) -> None:\n        if key in self.cache:\n            self.cache.move_to_end(key)\n        self.cache[key] = value\n        if len(self.cache) > self.capacity:\n            self.cache.popitem(last=False)  # evict LRU item\n```"
+}

@@ -1,0 +1,102 @@
+{
+  "deepseek": {
+    "full_graph": {
+      "n": 120,
+      "success_rate": 0.975,
+      "avg_cost": 1.2125,
+      "avg_latency_ms": 1976.25,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.9628749999999983
+    },
+    "no_observation": {
+      "n": 120,
+      "success_rate": 0.9166666666666666,
+      "avg_cost": 1.5666666666666667,
+      "avg_latency_ms": 1980.1916666666666,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.9009999999999984
+    },
+    "no_partial_strong": {
+      "n": 120,
+      "success_rate": 0.975,
+      "avg_cost": 1.2125,
+      "avg_latency_ms": 1976.25,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.9628749999999983
+    },
+    "no_repair": {
+      "n": 120,
+      "success_rate": 0.9,
+      "avg_cost": 1.75,
+      "avg_latency_ms": 1933.5916666666667,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.8824999999999985
+    },
+    "no_strong": {
+      "n": 120,
+      "success_rate": 0.8166666666666667,
+      "avg_cost": 1.0,
+      "avg_latency_ms": 1773.4666666666667,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.8066666666666656
+    },
+    "query_router_baseline": {
+      "n": 120,
+      "success_rate": 0.9166666666666666,
+      "avg_cost": 1.5666666666666667,
+      "avg_latency_ms": 1980.1916666666666,
+      "avg_unsupported_risk": 0.008333333333333333,
+      "avg_objective": 0.9009999999999984
+    }
+  },
+  "together": {
+    "full_graph": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.5041666666666667,
+      "avg_latency_ms": 804.2083333333334,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9182916666666654
+    },
+    "no_observation": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.5166666666666666,
+      "avg_latency_ms": 790.1333333333333,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9181666666666655
+    },
+    "no_partial_strong": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.5541666666666667,
+      "avg_latency_ms": 805.8416666666667,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9177916666666655
+    },
+    "no_repair": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.75,
+      "avg_latency_ms": 811.7416666666667,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9158333333333322
+    },
+    "no_strong": {
+      "n": 120,
+      "success_rate": 0.85,
+      "avg_cost": 1.0,
+      "avg_latency_ms": 664.2333333333333,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.8399999999999984
+    },
+    "query_router_baseline": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.6166666666666667,
+      "avg_latency_ms": 802.925,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9171666666666655
+    }
+  }
+}

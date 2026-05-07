@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023672,
+  "input_tokens": 106,
+  "latency_ms": 2745,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 163,
+  "provider": "together",
+  "request_hash": "0ffca27aca90014ef45e2722fa5cbc701a59d43924bb547e277a0ff86c36632f",
+  "text": "Using a breadth-first search (BFS) algorithm can efficiently explore all possible transformations from the beginning word to find the shortest path to the end word.\n\n```python\nfrom collections import deque\n\ndef word_ladder_len(begin, end, words):\n    words = set(words)\n    if end not in words:\n        return 0\n\n    queue = deque([(begin, 1)])\n    while queue:\n        word, length = queue.popleft()\n        if word == end:\n            return length\n        for i in range(len(word)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                next_word = word[:i] + c + word[i+1:]\n                if next_word in words:\n                    words.remove(next_word)\n                    queue.append((next_word, length + 1))\n    return 0\n```"
+}

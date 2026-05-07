@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.504e-05,
+  "input_tokens": 90,
+  "latency_ms": 671,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "9045063bc0ae8aeda8edbd7a1b09a6da555e84da3c24b933782cd77fb3bb702f",
+  "text": "To find the result, simply divide 100 by 4 using basic division operation."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.6599999999999995e-05,
+  "input_tokens": 68,
+  "latency_ms": 670,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 54,
+  "provider": "together",
+  "request_hash": "59636febb4550ec058f1281e13d2f8424097bdc8eec5042a0fef9b0e5be7b88b",
+  "text": "```python\ndef reverse_words(s: str) -> str:\n    if not s:\n        return s\n    words = s.split()\n    if len(words) == 1:\n        return words[0]\n    return ' '.join(reversed(words))\n```"
+}

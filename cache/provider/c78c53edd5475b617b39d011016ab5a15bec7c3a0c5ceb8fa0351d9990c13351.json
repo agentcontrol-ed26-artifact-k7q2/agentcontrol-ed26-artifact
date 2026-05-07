@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.5e-05,
+  "input_tokens": 175,
+  "latency_ms": 893,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 75,
+  "provider": "together",
+  "request_hash": "c78c53edd5475b617b39d011016ab5a15bec7c3a0c5ceb8fa0351d9990c13351",
+  "text": "```python\ndef all_permutations(xs):\n    if len(xs) == 1:\n        return [tuple(xs)]\n    result = []\n    for i, x in enumerate(xs):\n        rest = xs[:i] + xs[i+1:]\n        for p in all_permutations(rest):\n            result.append((x,) + p)\n    return sorted(result)\n```"
+}

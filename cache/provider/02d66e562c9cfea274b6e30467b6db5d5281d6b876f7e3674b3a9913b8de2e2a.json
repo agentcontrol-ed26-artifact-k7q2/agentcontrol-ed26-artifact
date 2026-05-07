@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.709999999999999e-05,
+  "input_tokens": 147,
+  "latency_ms": 341,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "02d66e562c9cfea274b6e30467b6db5d5281d6b876f7e3674b3a9913b8de2e2a",
+  "text": "Marie Curie [doc_curie]"
+}

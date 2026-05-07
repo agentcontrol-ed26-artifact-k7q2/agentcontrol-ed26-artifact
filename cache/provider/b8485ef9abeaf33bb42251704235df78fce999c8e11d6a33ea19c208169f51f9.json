@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.510000000000001e-05,
+  "input_tokens": 291,
+  "latency_ms": 676,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "b8485ef9abeaf33bb42251704235df78fce999c8e11d6a33ea19c208169f51f9",
+  "text": "Edmund Hillary, the first person to summit Mount Everest, was born in Auckland, New Zealand [doc_hillary_bio]."
+}

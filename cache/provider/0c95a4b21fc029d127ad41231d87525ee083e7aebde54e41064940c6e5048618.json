@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036160999999999995,
+  "input_tokens": 104,
+  "latency_ms": 2762,
+  "model": "deepseek-reasoner",
+  "output_tokens": 139,
+  "provider": "deepseek",
+  "request_hash": "0c95a4b21fc029d127ad41231d87525ee083e7aebde54e41064940c6e5048618",
+  "text": "Shrewsbury, England [doc_darwin]  \nThe most common citation mistake is citing a document that does not contain the information used in the answer."
+}

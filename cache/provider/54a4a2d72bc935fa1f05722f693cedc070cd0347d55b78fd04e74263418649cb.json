@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.732e-05,
+  "input_tokens": 56,
+  "latency_ms": 896,
+  "model": "deepseek-chat",
+  "output_tokens": 2,
+  "provider": "deepseek",
+  "request_hash": "54a4a2d72bc935fa1f05722f693cedc070cd0347d55b78fd04e74263418649cb",
+  "text": "South America"
+}

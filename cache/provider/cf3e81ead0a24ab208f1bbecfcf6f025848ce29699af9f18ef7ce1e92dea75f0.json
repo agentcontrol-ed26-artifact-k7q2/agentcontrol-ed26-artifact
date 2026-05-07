@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.65e-05,
+  "input_tokens": 70,
+  "latency_ms": 1128,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "cf3e81ead0a24ab208f1bbecfcf6f025848ce29699af9f18ef7ce1e92dea75f0",
+  "text": "```python\ndef add(a, b):\n    return a + b\n```"
+}

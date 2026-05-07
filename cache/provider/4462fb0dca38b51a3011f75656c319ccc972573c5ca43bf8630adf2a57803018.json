@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025418,
+  "input_tokens": 56,
+  "latency_ms": 2040,
+  "model": "deepseek-reasoner",
+  "output_tokens": 102,
+  "provider": "deepseek",
+  "request_hash": "4462fb0dca38b51a3011f75656c319ccc972573c5ca43bf8630adf2a57803018",
+  "text": "LCM(8, 12) = 24.\n\nA typical arithmetic slip is swapping the roles of LCM and GCD, e.g., computing GCD instead of LCM."
+}

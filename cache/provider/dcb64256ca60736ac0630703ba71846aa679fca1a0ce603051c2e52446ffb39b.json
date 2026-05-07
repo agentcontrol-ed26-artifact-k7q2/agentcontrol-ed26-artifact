@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.254e-05,
+  "input_tokens": 82,
+  "latency_ms": 1669,
+  "model": "deepseek-chat",
+  "output_tokens": 64,
+  "provider": "deepseek",
+  "request_hash": "dcb64256ca60736ac0630703ba71846aa679fca1a0ce603051c2e52446ffb39b",
+  "text": "First, the sum of [10, 20, 30, 40] is 10 + 20 = 30, then 30 + 30 = 60, then 60 + 40 = 100.  \nThe mean is 100 / 4 = 25.  \n\n100  \n25"
+}

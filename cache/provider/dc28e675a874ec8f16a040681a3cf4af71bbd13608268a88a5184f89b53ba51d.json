@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.482e-05,
+  "input_tokens": 196,
+  "latency_ms": 1087,
+  "model": "deepseek-chat",
+  "output_tokens": 29,
+  "provider": "deepseek",
+  "request_hash": "dc28e675a874ec8f16a040681a3cf4af71bbd13608268a88a5184f89b53ba51d",
+  "text": "The first person to walk on the Moon was Neil Armstrong, born in 1930.  \n1930 [doc_armstrong_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029128,
+  "input_tokens": 306,
+  "latency_ms": 675,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "6277f1f5451ce812c8198c8fa12c2efd5a27a5a14c019f673521b4647f903a1f",
+  "text": "The husband of the chemist who discovered polonium was Pierre Curie, answer [doc_curie_irene]"
+}

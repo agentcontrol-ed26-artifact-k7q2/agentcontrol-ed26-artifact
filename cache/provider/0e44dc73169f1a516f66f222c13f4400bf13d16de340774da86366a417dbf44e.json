@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00041858,
+  "input_tokens": 116,
+  "latency_ms": 3128,
+  "model": "deepseek-reasoner",
+  "output_tokens": 162,
+  "provider": "deepseek",
+  "request_hash": "0e44dc73169f1a516f66f222c13f4400bf13d16de340774da86366a417dbf44e",
+  "text": "1. Verify that the evidence document doc_war explicitly states who led the Nazi regime during World War II.\n2. Confirm that no other evidence document (e.g., doc_wright) contains contradictory information about the Nazi leadership."
+}

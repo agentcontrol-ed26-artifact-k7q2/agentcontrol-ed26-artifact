@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.7640000000000006e-05,
+  "input_tokens": 62,
+  "latency_ms": 1147,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "a335caa011c7f906e9d367566f755723470aea9ca0a5d3c740f30e8414f7e5c7",
+  "text": "7 squared means 7 multiplied by itself:  \n7 \u00d7 7 = 49  \n\n49"
+}

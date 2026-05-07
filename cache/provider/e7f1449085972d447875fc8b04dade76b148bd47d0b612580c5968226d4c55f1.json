@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013705,
+  "input_tokens": 35,
+  "latency_ms": 2246,
+  "model": "deepseek-chat",
+  "output_tokens": 116,
+  "provider": "deepseek",
+  "request_hash": "e7f1449085972d447875fc8b04dade76b148bd47d0b612580c5968226d4c55f1",
+  "text": "We need the sum of integers from 1 to 8.\n\nWe can add step by step:\n\n1 + 2 = 3  \n3 + 3 = 6  \n6 + 4 = 10  \n10 + 5 = 15  \n15 + 6 = 21  \n21 + 7 = 28  \n28 + 8 = 36  \n\nAlternatively, using the formula:  \nSum = n(n + 1)/2 = 8 \u00d7 9 / 2 = 72 / 2 = 36.\n\nFinal answer: 36"
+}

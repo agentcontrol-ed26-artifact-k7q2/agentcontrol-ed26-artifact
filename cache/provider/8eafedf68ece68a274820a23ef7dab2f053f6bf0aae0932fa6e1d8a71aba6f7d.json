@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.691000000000001e-05,
+  "input_tokens": 73,
+  "latency_ms": 1299,
+  "model": "deepseek-chat",
+  "output_tokens": 52,
+  "provider": "deepseek",
+  "request_hash": "8eafedf68ece68a274820a23ef7dab2f053f6bf0aae0932fa6e1d8a71aba6f7d",
+  "text": "The positive divisors of 28 are: 1, 2, 4, 7, 14, 28.  \nSum = 1 + 2 + 4 + 7 + 14 + 28 = 56.  \n\n56"
+}

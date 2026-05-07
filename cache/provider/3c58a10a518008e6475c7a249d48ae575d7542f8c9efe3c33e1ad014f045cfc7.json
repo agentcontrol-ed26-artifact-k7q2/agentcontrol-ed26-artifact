@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020836,
+  "input_tokens": 124,
+  "latency_ms": 1612,
+  "model": "deepseek-reasoner",
+  "output_tokens": 64,
+  "provider": "deepseek",
+  "request_hash": "3c58a10a518008e6475c7a249d48ae575d7542f8c9efe3c33e1ad014f045cfc7",
+  "text": "Hint: Look at doc_nile."
+}

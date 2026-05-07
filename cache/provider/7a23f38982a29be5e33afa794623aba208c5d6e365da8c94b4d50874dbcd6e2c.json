@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015487999999999998,
+  "input_tokens": 94,
+  "latency_ms": 3008,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 82,
+  "provider": "together",
+  "request_hash": "7a23f38982a29be5e33afa794623aba208c5d6e365da8c94b4d50874dbcd6e2c",
+  "text": "To solve this problem, you can use a recursive approach with memoization to efficiently calculate the nth Fibonacci number.\n\n```python\ndef fib(n, memo = {}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n-1, memo) + fib(n-2, memo)\n    return memo[n]\n```"
+}

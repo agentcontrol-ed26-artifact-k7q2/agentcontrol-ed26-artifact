@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.620000000000001e-05,
+  "input_tokens": 230,
+  "latency_ms": 1089,
+  "model": "deepseek-chat",
+  "output_tokens": 31,
+  "provider": "deepseek",
+  "request_hash": "c210f486903f6311ee2a4276f7420d6c176edcb7a69e25f8ec382452f86c84bf",
+  "text": "The attack on Pearl Harbor on December 7, 1941 brought the United States into World War II. [doc_ww2_pearl]"
+}

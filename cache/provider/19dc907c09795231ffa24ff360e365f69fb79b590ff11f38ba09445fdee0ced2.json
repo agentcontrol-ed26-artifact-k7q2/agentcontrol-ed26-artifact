@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.775000000000002e-05,
+  "input_tokens": 195,
+  "latency_ms": 1511,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "19dc907c09795231ffa24ff360e365f69fb79b590ff11f38ba09445fdee0ced2",
+  "text": "The provided evidence does not contain information about who patented the telephone or where that person was born. [doc_aldrin_bio][doc_armstrong_bio][doc_einstein_birth]"
+}

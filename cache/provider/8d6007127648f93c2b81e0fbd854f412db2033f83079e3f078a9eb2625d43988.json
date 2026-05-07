@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010910000000000001,
+  "input_tokens": 70,
+  "latency_ms": 3236,
+  "model": "deepseek-chat",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "8d6007127648f93c2b81e0fbd854f412db2033f83079e3f078a9eb2625d43988",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    # Transpose the matrix\n    for i in range(n):\n        for j in range(i + 1, n):\n            m[i][j], m[j][i] = m[j][i], m[i][j]\n    # Reverse each row\n    for i in range(n):\n        m[i].reverse()\n```"
+}

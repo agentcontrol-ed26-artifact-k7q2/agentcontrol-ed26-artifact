@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.606e-05,
+  "input_tokens": 188,
+  "latency_ms": 1063,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "7c0b40bb1bdf58ecc6105bfdd8824409a97db55e78cb21b4e4fe91f56b95308c",
+  "text": "Marie Curie won the 1903 physics Nobel for radioactivity work. [doc_curie_marie]"
+}

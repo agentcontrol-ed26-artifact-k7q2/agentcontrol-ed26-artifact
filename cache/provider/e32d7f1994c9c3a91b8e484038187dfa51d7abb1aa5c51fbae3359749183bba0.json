@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 129,
+  "latency_ms": 521,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "e32d7f1994c9c3a91b8e484038187dfa51d7abb1aa5c51fbae3359749183bba0",
+  "text": "Hint: Check doc_lovelace [doc_lovelace]"
+}

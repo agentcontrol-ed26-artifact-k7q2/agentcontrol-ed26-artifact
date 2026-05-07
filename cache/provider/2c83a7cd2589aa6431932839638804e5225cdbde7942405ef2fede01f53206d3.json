@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017864,
+  "input_tokens": 91,
+  "latency_ms": 1125,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 112,
+  "provider": "together",
+  "request_hash": "2c83a7cd2589aa6431932839638804e5225cdbde7942405ef2fede01f53206d3",
+  "text": "The most common bug to avoid when implementing a matrix transpose function is incorrectly assuming that the input matrix is a square matrix or not handling the case where the input matrix is empty or has rows of different lengths. \n\n```python\ndef matrix_transpose(m):\n    if not m or not all(len(row) == len(m[0]) for row in m):\n        raise ValueError(\"Input matrix must be a list of lists with the same length\")\n    return [[row[i] for row in m] for i in range(len(m[0]))]\n```"
+}

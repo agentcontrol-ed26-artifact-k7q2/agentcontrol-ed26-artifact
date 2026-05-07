@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384000000000001,
+  "input_tokens": 88,
+  "latency_ms": 1129,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "6c7c660b603b9905db035f7d6aec18bfac647e2d736b5a809d9cf5757081c76b",
+  "text": "To solve for x, you need to isolate x on one side of the equation, consider what operation will cancel out the division by 3."
+}

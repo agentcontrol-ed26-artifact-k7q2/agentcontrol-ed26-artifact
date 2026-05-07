@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 79,
+  "latency_ms": 593,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "110b638729c964beb6a269cd39829aaf38a9b66facfed12a50ff341027b4511b",
+  "text": "72\n1. Reversing the multiplication to check: 9 * 8 \n2. Using the multiplication table of 8 or 9 to verify"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.870000000000001e-05,
+  "input_tokens": 80,
+  "latency_ms": 1482,
+  "model": "deepseek-chat",
+  "output_tokens": 61,
+  "provider": "deepseek",
+  "request_hash": "3204bbf904046c13e25e550b1ba3092572d087afc40ad9c164a859e8bcdfd765",
+  "text": "The differences between consecutive terms are: 6-2=4, 12-6=6, 20-12=8, 30-20=10. The differences increase by 2 each time. Next difference = 12. Next number = 30+12=42.\n\n42"
+}

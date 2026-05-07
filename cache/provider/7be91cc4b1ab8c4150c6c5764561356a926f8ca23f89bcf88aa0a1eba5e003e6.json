@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025696,
+  "input_tokens": 278,
+  "latency_ms": 534,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "7be91cc4b1ab8c4150c6c5764561356a926f8ca23f89bcf88aa0a1eba5e003e6",
+  "text": "The answer is 1918 [doc_planck_nobel]"
+}

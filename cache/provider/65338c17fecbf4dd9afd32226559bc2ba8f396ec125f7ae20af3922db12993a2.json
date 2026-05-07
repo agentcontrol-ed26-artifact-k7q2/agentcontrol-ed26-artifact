@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.53e-05,
+  "input_tokens": 180,
+  "latency_ms": 719,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 71,
+  "provider": "together",
+  "request_hash": "65338c17fecbf4dd9afd32226559bc2ba8f396ec125f7ae20af3922db12993a2",
+  "text": "```python\ndef max_subarray_sum(xs):\n    if not xs:\n        return 0\n    max_sum = float('-inf')\n    current_sum = 0\n    for x in xs:\n        current_sum = max(x, current_sum + x)\n        max_sum = max(max_sum, current_sum)\n    return max_sum\n```"
+}

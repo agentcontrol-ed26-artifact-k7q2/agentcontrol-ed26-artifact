@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027104,
+  "input_tokens": 294,
+  "latency_ms": 514,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "6c3ede1301e52fe62bfe766fa655095ed73478a353f761bc910d80c52f5e29f9",
+  "text": "The answer is Ada Lovelace [doc_lovelace]"
+}

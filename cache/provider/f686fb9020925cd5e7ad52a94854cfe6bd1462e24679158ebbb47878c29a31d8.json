@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00042610000000000006,
+  "input_tokens": 58,
+  "latency_ms": 2932,
+  "model": "deepseek-reasoner",
+  "output_tokens": 180,
+  "provider": "deepseek",
+  "request_hash": "f686fb9020925cd5e7ad52a94854cfe6bd1462e24679158ebbb47878c29a31d8",
+  "text": "```python\ndef find_first(xs, target):\n    for i, x in enumerate(xs):\n        if x == target:\n            return i\n    return -1\n```"
+}

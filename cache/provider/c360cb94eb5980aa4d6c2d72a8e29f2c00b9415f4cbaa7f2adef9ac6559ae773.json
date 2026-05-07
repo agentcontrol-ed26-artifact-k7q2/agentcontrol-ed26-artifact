@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001248,
+  "input_tokens": 270,
+  "latency_ms": 1457,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 146,
+  "provider": "together",
+  "request_hash": "c360cb94eb5980aa4d6c2d72a8e29f2c00b9415f4cbaa7f2adef9ac6559ae773",
+  "text": "```python\nfrom collections import defaultdict, deque\n\ndef course_schedule_possible(n, prereqs):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    for a, b in prereqs:\n        graph[b].append(a)\n        indegree[a] += 1\n    queue = deque([i for i in range(n) if indegree[i] == 0])\n    count = 0\n    while queue:\n        node = queue.popleft()\n        count += 1\n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n    return count == n\n```"
+}

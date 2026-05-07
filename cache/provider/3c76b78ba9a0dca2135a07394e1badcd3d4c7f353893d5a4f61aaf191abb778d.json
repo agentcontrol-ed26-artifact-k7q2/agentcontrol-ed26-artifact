@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.031000000000002e-05,
+  "input_tokens": 253,
+  "latency_ms": 1177,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "3c76b78ba9a0dca2135a07394e1badcd3d4c7f353893d5a4f61aaf191abb778d",
+  "text": "Rosalind Franklin produced the X-ray images of DNA. [doc_franklin_xray]"
+}

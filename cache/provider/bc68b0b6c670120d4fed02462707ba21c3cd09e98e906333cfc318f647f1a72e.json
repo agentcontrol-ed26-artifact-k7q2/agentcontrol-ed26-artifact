@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.652e-05,
+  "input_tokens": 46,
+  "latency_ms": 1142,
+  "model": "deepseek-chat",
+  "output_tokens": 31,
+  "provider": "deepseek",
+  "request_hash": "bc68b0b6c670120d4fed02462707ba21c3cd09e98e906333cfc318f647f1a72e",
+  "text": "The number of distinct solutions to the 8-queens problem on a standard 8\u00d78 board is 92.  \n\nFinal integer: 92"
+}

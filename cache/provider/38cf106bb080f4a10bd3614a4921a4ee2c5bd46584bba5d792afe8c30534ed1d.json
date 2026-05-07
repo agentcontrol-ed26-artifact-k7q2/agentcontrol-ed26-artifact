@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028424000000000006,
+  "input_tokens": 123,
+  "latency_ms": 12465,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "38cf106bb080f4a10bd3614a4921a4ee2c5bd46584bba5d792afe8c30534ed1d",
+  "text": "To find the maximum total profit, we can use a greedy algorithm. The idea is to sort the jobs based on their profits in descending order and then iterate through the sorted jobs. For each job, we try to schedule it in the latest possible slot that is less than or equal to its deadline.\n\nHere's a step-by-step solution:\n\n1. Sort the jobs based on their profits in descending order: [(2,100),(2,27),(1,25),(1,19),(3,15)]\n2. Initialize an array to store the scheduled jobs, with the size equal to the maximum deadline (3 in this case). Initialize all elements to 0, indicating no job is scheduled in that slot.\n3. Iterate through the sorted jobs:\n   - For job (2,100), schedule it in slot 2.\n   - For job (2,27), schedule it in slot 1, since slot 2 is already occupied.\n   - For job (1,25),"
+}

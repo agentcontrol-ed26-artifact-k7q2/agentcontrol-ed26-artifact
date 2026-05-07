@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.507e-05,
+  "input_tokens": 71,
+  "latency_ms": 1466,
+  "model": "deepseek-chat",
+  "output_tokens": 69,
+  "provider": "deepseek",
+  "request_hash": "29d58b32af2f995454344184a2541959c12046e19c8052970071e0cf8334fb8a",
+  "text": "```python\ndef json_path_lookup(d, path):\n    if not path:\n        return None\n    keys = path.split('.')\n    current = d\n    for key in keys:\n        if isinstance(current, dict) and key in current:\n            current = current[key]\n        else:\n            return None\n    return current\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.398000000000001e-05,
+  "input_tokens": 114,
+  "latency_ms": 1062,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "ff4eca732e555a53ed3074f3decc13b56b06fe319c5df419810e1c99c147ab85",
+  "text": "Shrewsbury, England [doc_darwin]"
+}

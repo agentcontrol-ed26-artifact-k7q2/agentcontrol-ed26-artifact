@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017865,
+  "input_tokens": 66,
+  "latency_ms": 2152,
+  "model": "deepseek-reasoner",
+  "output_tokens": 65,
+  "provider": "deepseek",
+  "request_hash": "e4a57166251c11506925997beb9d7045fd92ec7ea29eb98214a0447fc95906a1",
+  "text": "Subtract 3 from both sides, then multiply by 4."
+}

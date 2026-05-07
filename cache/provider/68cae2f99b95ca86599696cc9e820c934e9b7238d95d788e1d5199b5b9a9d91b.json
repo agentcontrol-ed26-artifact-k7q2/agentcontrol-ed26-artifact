@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026139,
+  "input_tokens": 93,
+  "latency_ms": 2146,
+  "model": "deepseek-reasoner",
+  "output_tokens": 96,
+  "provider": "deepseek",
+  "request_hash": "68cae2f99b95ca86599696cc9e820c934e9b7238d95d788e1d5199b5b9a9d91b",
+  "text": "William Shakespeare [doc_shakespeare]"
+}

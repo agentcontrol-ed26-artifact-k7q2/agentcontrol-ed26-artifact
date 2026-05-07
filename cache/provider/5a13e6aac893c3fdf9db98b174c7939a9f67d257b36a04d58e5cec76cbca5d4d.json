@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.36e-05,
+  "input_tokens": 77,
+  "latency_ms": 1791,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 235,
+  "provider": "together",
+  "request_hash": "5a13e6aac893c3fdf9db98b174c7939a9f67d257b36a04d58e5cec76cbca5d4d",
+  "text": "```python\ndef spiral_order(matrix):\n    if not matrix or not matrix[0]:\n        return []\n    \n    rows, cols = len(matrix), len(matrix[0])\n    result = []\n    top, bottom, left, right = 0, rows - 1, 0, cols - 1\n    \n    while top <= bottom and left <= right:\n        # Traverse from left to right\n        for col in range(left, right + 1):\n            result.append(matrix[top][col])\n        top += 1\n        \n        # Traverse from top to bottom\n        for row in range(top, bottom + 1):\n            result.append(matrix[row][right])\n        right -= 1\n        \n        if top <= bottom:\n            # Traverse from right to left\n            for col in range(right, left - 1, -1):\n                result.append(matrix[bottom][col])\n            bottom -= 1\n        \n        if left <= right:\n            # Traverse from bottom to top\n            for row in range(bottom, top - 1, -1):\n                result.append(matrix[row][left])\n            left += 1\n    \n    return result\n```"
+}

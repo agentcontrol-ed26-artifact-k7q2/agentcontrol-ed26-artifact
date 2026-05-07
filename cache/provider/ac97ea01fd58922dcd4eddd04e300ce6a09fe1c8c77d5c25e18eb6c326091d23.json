@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018633,
+  "input_tokens": 79,
+  "latency_ms": 2546,
+  "model": "deepseek-chat",
+  "output_tokens": 150,
+  "provider": "deepseek",
+  "request_hash": "ac97ea01fd58922dcd4eddd04e300ce6a09fe1c8c77d5c25e18eb6c326091d23",
+  "text": "```python\ndef trap_rain_water(heights):\n    if not heights:\n        return 0\n    left, right = 0, len(heights) - 1\n    left_max, right_max = 0, 0\n    total = 0\n    while left < right:\n        if heights[left] < heights[right]:\n            if heights[left] >= left_max:\n                left_max = heights[left]\n            else:\n                total += left_max - heights[left]\n            left += 1\n        else:\n            if heights[right] >= right_max:\n                right_max = heights[right]\n            else:\n                total += right_max - heights[right]\n            right -= 1\n    return total\n```"
+}

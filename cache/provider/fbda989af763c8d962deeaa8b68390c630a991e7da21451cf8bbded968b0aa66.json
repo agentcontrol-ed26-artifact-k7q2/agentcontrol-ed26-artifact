@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.494000000000001e-05,
+  "input_tokens": 192,
+  "latency_ms": 925,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "fbda989af763c8d962deeaa8b68390c630a991e7da21451cf8bbded968b0aa66",
+  "text": "Marie Curie shares the 1903 Nobel Prize and discovered radium. [doc_curie]"
+}

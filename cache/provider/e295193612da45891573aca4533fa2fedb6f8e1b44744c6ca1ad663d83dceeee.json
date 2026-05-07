@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012026000000000002,
+  "input_tokens": 38,
+  "latency_ms": 1780,
+  "model": "deepseek-chat",
+  "output_tokens": 100,
+  "provider": "deepseek",
+  "request_hash": "e295193612da45891573aca4533fa2fedb6f8e1b44744c6ca1ad663d83dceeee",
+  "text": "We need the greatest common divisor (GCD) of 12 and 18.\n\nFirst, list the factors:\n- Factors of 12: 1, 2, 3, 4, 6, 12  \n- Factors of 18: 1, 2, 3, 6, 9, 18  \n\nThe common factors are 1, 2, 3, 6.  \nThe greatest of these is 6.\n\nFinal answer: 6"
+}

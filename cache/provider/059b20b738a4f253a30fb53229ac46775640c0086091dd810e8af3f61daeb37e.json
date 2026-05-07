@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013551999999999998,
+  "input_tokens": 84,
+  "latency_ms": 1169,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 70,
+  "provider": "together",
+  "request_hash": "059b20b738a4f253a30fb53229ac46775640c0086091dd810e8af3f61daeb37e",
+  "text": "1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 = 100 \n1. The sum can be calculated using the formula for the sum of an arithmetic series.\n2. The sum can be verified by using a calculator or computer program to add the numbers."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013552,
+  "input_tokens": 83,
+  "latency_ms": 6273,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 71,
+  "provider": "together",
+  "request_hash": "29cb5749472a8d1a7d76bae8554c0592ebbf41fbf174e219d1319d7d5c35a2ed",
+  "text": "To find the smallest positive integer missing from the list, consider sorting the list and then iterating through it to find the first gap in the sequence of positive integers.\n\n```python\ndef first_missing_positive(xs):\n    xs = set(xs)\n    i = 1\n    while i in xs:\n        i += 1\n    return i\n```"
+}

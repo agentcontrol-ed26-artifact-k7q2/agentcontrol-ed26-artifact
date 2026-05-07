@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018137,
+  "input_tokens": 59,
+  "latency_ms": 1704,
+  "model": "deepseek-reasoner",
+  "output_tokens": 68,
+  "provider": "deepseek",
+  "request_hash": "0ab4404ca9b79480802424f32617ff66154953513700628bcf0bdddba9bd6fb8",
+  "text": "Think of 6 as 5+1, then multiply each part by 7 and add."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028219000000000003,
+  "input_tokens": 91,
+  "latency_ms": 2244,
+  "model": "deepseek-reasoner",
+  "output_tokens": 106,
+  "provider": "deepseek",
+  "request_hash": "edfb93c598ab5792460e473167d7be82aa9de8e55a804d4f35f139be2414218a",
+  "text": "1. Check that the evidence explicitly states a person is described as an early computer programmer for the Analytical Engine.\n2. Verify that the name in the evidence matches the entity referenced in the question."
+}

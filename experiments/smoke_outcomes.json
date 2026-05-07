@@ -1,0 +1,898 @@
+{
+  "code_add": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "code_factorial": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "code_is_even": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "code_reverse_words": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "e001": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "e002": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "e003": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "e004": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m001": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m002": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m003": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m004": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m005": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m006": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m007": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m008": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m009": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m010": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m011": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m012": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m013": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m014": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m015": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m016": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m017": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m018": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m019": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  },
+  "m020": {
+    "cheap_answer": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "cheap_repair_after_hint": {
+      "cost": 1.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_answer": {
+      "cost": 10.0,
+      "latency_ms": 1,
+      "success": true,
+      "unsupported_risk": 0.0
+    },
+    "strong_hint": {
+      "cost": 2.0,
+      "latency_ms": 1,
+      "success": false,
+      "unsupported_risk": 0.0
+    }
+  }
+}

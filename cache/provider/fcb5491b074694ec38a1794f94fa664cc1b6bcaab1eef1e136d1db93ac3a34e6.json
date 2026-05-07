@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.8270000000000005e-05,
+  "input_tokens": 101,
+  "latency_ms": 866,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "fcb5491b074694ec38a1794f94fa664cc1b6bcaab1eef1e136d1db93ac3a34e6",
+  "text": "Christopher Latham Sholes [doc_typewriter]"
+}

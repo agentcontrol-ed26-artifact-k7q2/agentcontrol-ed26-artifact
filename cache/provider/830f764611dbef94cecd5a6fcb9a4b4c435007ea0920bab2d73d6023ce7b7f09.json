@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.8200000000000002e-05,
+  "input_tokens": 76,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 5,
+  "provider": "dummy",
+  "request_hash": "830f764611dbef94cecd5a6fcb9a4b4c435007ea0920bab2d73d6023ce7b7f09",
+  "text": "Marie Curie [doc_curie]"
+}

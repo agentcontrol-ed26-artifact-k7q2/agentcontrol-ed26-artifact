@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.905e-05,
+  "input_tokens": 55,
+  "latency_ms": 950,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "e526fb7204d9877e470b4b5203794f44b56932e4008e5104238b1623bce7c833",
+  "text": "```python\ndef is_anagram(a, b):\n    return sorted(a) == sorted(b)\n```"
+}

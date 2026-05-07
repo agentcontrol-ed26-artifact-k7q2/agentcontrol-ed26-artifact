@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528000000000001,
+  "input_tokens": 100,
+  "latency_ms": 2639,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "07e05d14dd2e714917e5a641b5528ffdfb82995e3642ec10f1263360f2aaade8",
+  "text": "The most common bug to avoid in this implementation is an infinite loop caused by not properly marking visited nodes, which can occur if the graph contains cycles."
+}

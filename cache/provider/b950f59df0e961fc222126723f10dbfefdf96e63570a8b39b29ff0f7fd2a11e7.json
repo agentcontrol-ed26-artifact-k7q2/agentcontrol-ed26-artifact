@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00097962,
+  "input_tokens": 57,
+  "latency_ms": 5776,
+  "model": "deepseek-reasoner",
+  "output_tokens": 433,
+  "provider": "deepseek",
+  "request_hash": "b950f59df0e961fc222126723f10dbfefdf96e63570a8b39b29ff0f7fd2a11e7",
+  "text": "```python\nimport statistics\n\nxs = [1, 2, 3, 4, 5]\nprint(statistics.median(xs))\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.416e-05,
+  "input_tokens": 90,
+  "latency_ms": 663,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "a5b99bc3506a9fafda84e03e145f0270fd2e754b979a8a00f754f782a13adb2c",
+  "text": "To find the sum, simply add the two numbers together by combining their values."
+}

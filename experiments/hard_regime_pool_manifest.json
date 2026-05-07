@@ -1,0 +1,483 @@
+{
+  "n_total": 90,
+  "family_counts": {
+    "math": 30,
+    "code": 30,
+    "evidence": 30
+  },
+  "regime_counts": {
+    "easy_saturation": 17,
+    "medium_headroom": 30,
+    "hard_strong_gap": 29,
+    "weak_verifier_risk": 8,
+    "evidence_support_risk": 6
+  },
+  "family_regime_counts": {
+    "math/easy_saturation": 6,
+    "math/medium_headroom": 10,
+    "math/hard_strong_gap": 10,
+    "math/weak_verifier_risk": 4,
+    "code/easy_saturation": 5,
+    "code/medium_headroom": 10,
+    "code/hard_strong_gap": 11,
+    "code/weak_verifier_risk": 4,
+    "evidence/easy_saturation": 6,
+    "evidence/medium_headroom": 10,
+    "evidence/hard_strong_gap": 8,
+    "evidence/evidence_support_risk": 6
+  },
+  "tasks": [
+    {
+      "task_id": "hm_001",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_002",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_003",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_004",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_005",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_006",
+      "family": "math",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hm_007",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_008",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_009",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_010",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_011",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_012",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_013",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_014",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_015",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_016",
+      "family": "math",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hm_017",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_018",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_019",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_020",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_021",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_022",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_023",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_024",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_025",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_026",
+      "family": "math",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hm_027",
+      "family": "math",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hm_028",
+      "family": "math",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hm_029",
+      "family": "math",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hm_030",
+      "family": "math",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hc_001",
+      "family": "code",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hc_002",
+      "family": "code",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hc_003",
+      "family": "code",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hc_004",
+      "family": "code",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hc_005",
+      "family": "code",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "hc_006",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_007",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_008",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_009",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_010",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_011",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_012",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_013",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_014",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_015",
+      "family": "code",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "hc_016",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_017",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_018",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_019",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_020",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_021",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_022",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_023",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_024",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_025",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_026",
+      "family": "code",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "hc_027",
+      "family": "code",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hc_028",
+      "family": "code",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hc_029",
+      "family": "code",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "hc_030",
+      "family": "code",
+      "regime": "weak_verifier_risk"
+    },
+    {
+      "task_id": "he_001",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_002",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_003",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_004",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_005",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_006",
+      "family": "evidence",
+      "regime": "easy_saturation"
+    },
+    {
+      "task_id": "he_007",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_008",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_009",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_010",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_011",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_012",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_013",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_014",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_015",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_016",
+      "family": "evidence",
+      "regime": "medium_headroom"
+    },
+    {
+      "task_id": "he_017",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_018",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_019",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_020",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_021",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_022",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_023",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_024",
+      "family": "evidence",
+      "regime": "hard_strong_gap"
+    },
+    {
+      "task_id": "he_025",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    },
+    {
+      "task_id": "he_026",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    },
+    {
+      "task_id": "he_027",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    },
+    {
+      "task_id": "he_028",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    },
+    {
+      "task_id": "he_029",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    },
+    {
+      "task_id": "he_030",
+      "family": "evidence",
+      "regime": "evidence_support_risk"
+    }
+  ],
+  "config_path": "configs/rescue/hard_regime.yaml",
+  "honesty": "Synthetic-local hard pool with regime tags. Tasks are auditable in src/agentcontrol/hard_regime_tasks.py. NOT a benchmark download."
+}

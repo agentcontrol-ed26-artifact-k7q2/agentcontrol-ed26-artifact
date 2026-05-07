@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.06e-05,
+  "input_tokens": 189,
+  "latency_ms": 344,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "a828604767ff6ac4c0858091be79a7c0d294810082439d0c2d2f2ae1c8fbc2ea",
+  "text": "Albert Einstein discovered the photoelectric effect [doc_einstein]."
+}

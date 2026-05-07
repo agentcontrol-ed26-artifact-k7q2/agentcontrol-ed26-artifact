@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.199999999999999e-05,
+  "input_tokens": 65,
+  "latency_ms": 867,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 75,
+  "provider": "together",
+  "request_hash": "bbf62503c4859bf30d8fad9aca4410c364e85923cc2ffb9e9b5a31396d179ec0",
+  "text": "```python\ndef fib(n):\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b\n```"
+}

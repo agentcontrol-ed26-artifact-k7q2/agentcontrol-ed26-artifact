@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031486000000000003,
+  "input_tokens": 238,
+  "latency_ms": 1774,
+  "model": "deepseek-reasoner",
+  "output_tokens": 84,
+  "provider": "deepseek",
+  "request_hash": "751b290dd994eb64e04453945bd822b2539c1b134058c8c7e4c66390d210045a",
+  "text": "blackbody radiation [doc_planck_quantum]"
+}

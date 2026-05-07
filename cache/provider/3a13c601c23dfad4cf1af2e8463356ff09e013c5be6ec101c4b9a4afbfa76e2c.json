@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00039214999999999996,
+  "input_tokens": 56,
+  "latency_ms": 3337,
+  "model": "deepseek-reasoner",
+  "output_tokens": 165,
+  "provider": "deepseek",
+  "request_hash": "3a13c601c23dfad4cf1af2e8463356ff09e013c5be6ec101c4b9a4afbfa76e2c",
+  "text": "16  \n64  \nUsing squared instead of cubed is a common arithmetic slip when computing volume."
+}

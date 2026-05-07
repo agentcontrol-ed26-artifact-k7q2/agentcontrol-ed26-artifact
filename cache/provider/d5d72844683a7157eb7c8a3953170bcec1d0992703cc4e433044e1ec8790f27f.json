@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.0699999999999995e-05,
+  "input_tokens": 65,
+  "latency_ms": 349,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 4,
+  "provider": "together",
+  "request_hash": "d5d72844683a7157eb7c8a3953170bcec1d0992703cc4e433044e1ec8790f27f",
+  "text": "blackbody radiation"
+}

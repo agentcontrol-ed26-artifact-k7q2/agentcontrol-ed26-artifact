@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036929000000000004,
+  "input_tokens": 110,
+  "latency_ms": 2713,
+  "model": "deepseek-reasoner",
+  "output_tokens": 141,
+  "provider": "deepseek",
+  "request_hash": "f5d90bd37fb7e432c616683705a6db677e18d3b6834e7936bc9e66c5c9d5f613",
+  "text": "The Apollo 11 mission [doc_apollo]. The most common citation mistake is using a source that does not contain the information claimed, such as citing a document about Python instead of the Apollo mission."
+}

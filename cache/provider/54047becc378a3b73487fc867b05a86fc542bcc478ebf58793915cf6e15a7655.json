@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.463e-05,
+  "input_tokens": 59,
+  "latency_ms": 1022,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "54047becc378a3b73487fc867b05a86fc542bcc478ebf58793915cf6e15a7655",
+  "text": "```python\ndef strip_whitespace(s):\n    return s.strip()\n```"
+}

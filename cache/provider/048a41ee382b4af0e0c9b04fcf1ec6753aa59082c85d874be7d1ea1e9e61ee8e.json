@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.19e-05,
+  "input_tokens": 266,
+  "latency_ms": 322,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 7,
+  "provider": "together",
+  "request_hash": "048a41ee382b4af0e0c9b04fcf1ec6753aa59082c85d874be7d1ea1e9e61ee8e",
+  "text": "Ohio [doc_armstrong]"
+}

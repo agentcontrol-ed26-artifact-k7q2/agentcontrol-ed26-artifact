@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012936,
+  "input_tokens": 115,
+  "latency_ms": 389,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "1f1004cf1f9f3db6518f60dbc7a98ce79accbcbc6a85f415deb57a7521af9caa",
+  "text": "To find the probability of drawing a blue marble, calculate the ratio of the number of blue marbles to the total number of marbles in the bag."
+}

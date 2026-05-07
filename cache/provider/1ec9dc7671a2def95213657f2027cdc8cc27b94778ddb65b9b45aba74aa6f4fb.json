@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.6599999999999995e-05,
+  "input_tokens": 78,
+  "latency_ms": 530,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "1ec9dc7671a2def95213657f2027cdc8cc27b94778ddb65b9b45aba74aa6f4fb",
+  "text": "```python\ndef count_set_bits(n: int) -> int:\n    if n < 0:\n        raise ValueError(\"Input must be a nonnegative integer\")\n    return bin(n).count('1')\n```"
+}

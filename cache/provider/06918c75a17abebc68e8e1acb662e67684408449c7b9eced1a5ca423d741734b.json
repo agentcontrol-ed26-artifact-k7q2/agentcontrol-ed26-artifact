@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792,
+  "input_tokens": 118,
+  "latency_ms": 398,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "06918c75a17abebc68e8e1acb662e67684408449c7b9eced1a5ca423d741734b",
+  "text": "Mount Everest is the highest mountain above sea level [doc_everest]"
+}

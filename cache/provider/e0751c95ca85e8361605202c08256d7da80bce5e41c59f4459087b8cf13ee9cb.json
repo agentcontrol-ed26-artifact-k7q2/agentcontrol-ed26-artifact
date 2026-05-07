@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.312000000000001e-05,
+  "input_tokens": 66,
+  "latency_ms": 984,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "e0751c95ca85e8361605202c08256d7da80bce5e41c59f4459087b8cf13ee9cb",
+  "text": "```python\ndef sum_digits(n):\n    return sum(int(digit) for digit in str(n))\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012408,
+  "input_tokens": 133,
+  "latency_ms": 997,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "891d7cf682649331cd02ea7dae4ee051aa1f6c8791667bbb9a440d2fe565f03a",
+  "text": "Check doc_war [doc_war]"
+}

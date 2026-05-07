@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015048,
+  "input_tokens": 155,
+  "latency_ms": 370,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "069962a37c5dc7ec8df026629d8b305e25e75c6c16ef5fcdc7a9026bb2631f3e",
+  "text": "Max Planck originated quantum theory in 1900 [doc_planck]"
+}

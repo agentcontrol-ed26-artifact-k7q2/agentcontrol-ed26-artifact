@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.07e-05,
+  "input_tokens": 255,
+  "latency_ms": 479,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "30bd597e8974317d1e579a8cb4b6ffebe0d3fc7632738fb7286be8b204b4144b",
+  "text": "Charles Babbage designed the Analytical Engine [doc_babbage]."
+}

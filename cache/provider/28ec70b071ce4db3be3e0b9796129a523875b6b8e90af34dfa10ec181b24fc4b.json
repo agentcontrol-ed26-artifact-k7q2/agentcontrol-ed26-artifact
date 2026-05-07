@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035662000000000004,
+  "input_tokens": 66,
+  "latency_ms": 5116,
+  "model": "deepseek-chat",
+  "output_tokens": 308,
+  "provider": "deepseek",
+  "request_hash": "28ec70b071ce4db3be3e0b9796129a523875b6b8e90af34dfa10ec181b24fc4b",
+  "text": "We need to move 3 missionaries and 3 cannibals from the left bank to the right bank.  \nThe boat holds 1 or 2 people, and missionaries cannot be outnumbered by cannibals on either bank at any time.\n\nLet\u2019s denote state as (M_left, C_left, boat_position).  \nStart: (3, 3, left). Goal: (0, 0, right).\n\nA known minimal solution takes 11 crossings.  \nLet\u2019s verify step by step:\n\n1. Two cannibals cross right \u2192 (3,1,right)  \n2. One cannibal returns left \u2192 (3,2,left)  \n3. Two cannibals cross right \u2192 (3,0,right)  \n4. One cannibal returns left \u2192 (3,1,left)  \n5. Two missionaries cross right \u2192 (1,1,right)  \n6. One missionary and one cannibal return left \u2192 (2,2,left)  \n7. Two missionaries cross right \u2192 (0,2,right)  \n8. One cannibal returns left \u2192 (0,3,left)  \n9. Two cannibals cross right \u2192 (0,1,right)  \n10. One cannibal returns left \u2192 (0,2,left)  \n11. Two cannibals cross right \u2192 (0,0,right)\n\nAll moves are valid; missionaries never outnumbered.  \nThus minimal crossings = 11.\n\nFinal integer: 11"
+}

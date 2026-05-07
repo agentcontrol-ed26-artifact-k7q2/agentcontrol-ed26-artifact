@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.8499999999999995e-05,
+  "input_tokens": 65,
+  "latency_ms": 415,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "9f18b9d121fdc52de50e15182d32b3f8e768b0017a61bdf18a46f3700e75b7bc",
+  "text": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017952,
+  "input_tokens": 158,
+  "latency_ms": 3461,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "eac75eefdb56264bdd62ea142d3bfc99d70bb21ed909225d5732481a90db071f",
+  "text": "The most common citation mistake is failing to properly reference the source document, such as not including the document name or including incorrect information, which can lead to confusion and inaccuracies in academic and professional work [doc_everest]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014360000000000002,
+  "input_tokens": 100,
+  "latency_ms": 1896,
+  "model": "deepseek-chat",
+  "output_tokens": 106,
+  "provider": "deepseek",
+  "request_hash": "e49a27e6bdd8d20115aa547506c4879230c7b7190e28b77f4655fd67613526a0",
+  "text": "The average salary in the engineering department is 110.0.  \n\n```python\n# Data\ndata = [('eng',100),('eng',120),('hr',60),('hr',70),('eng',110),('hr',65)]\n\n# Filter for 'eng' and compute average\neng_salaries = [salary for dept, salary in data if dept == 'eng']\naverage = sum(eng_salaries) / len(eng_salaries)\n\nprint(average)\n```"
+}

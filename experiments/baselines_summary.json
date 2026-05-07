@@ -1,0 +1,1803 @@
+{
+  "always_cheapest": {
+    "avg_cost": 1.0,
+    "avg_latency_ms": 1.0,
+    "avg_objective": 0.382857142857143,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "success_rate": 0.39285714285714285,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "always_cheapest",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": -0.01,
+        "plan_name": "always_cheapest",
+        "success": false,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "always_strongest": {
+    "avg_cost": 10.0,
+    "avg_latency_ms": 1.0,
+    "avg_objective": 0.8999999999999996,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "strong_answer"
+        ],
+        "cost": 10.0,
+        "latency_ms": 1,
+        "objective": 0.9,
+        "plan_name": "always_strongest",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "automix_self_verification_cascade": {
+    "avg_cost": 2.6785714285714284,
+    "avg_latency_ms": 1.7142857142857142,
+    "avg_objective": 0.9732142857142859,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair",
+          "strong_answer"
+        ],
+        "cost": 12.0,
+        "latency_ms": 3,
+        "objective": 0.88,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair",
+          "strong_answer"
+        ],
+        "cost": 12.0,
+        "latency_ms": 3,
+        "objective": 0.88,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair",
+          "strong_answer"
+        ],
+        "cost": 12.0,
+        "latency_ms": 3,
+        "objective": 0.88,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "cheap_repair"
+        ],
+        "cost": 2.0,
+        "latency_ms": 2,
+        "objective": 0.98,
+        "plan_name": "automix_self_verification_cascade",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "frugalgpt_cascade": {
+    "avg_cost": 7.071428571428571,
+    "avg_latency_ms": 1.6071428571428572,
+    "avg_objective": 0.9292857142857146,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_answer"
+        ],
+        "cost": 11.0,
+        "latency_ms": 2,
+        "objective": 0.89,
+        "plan_name": "frugalgpt_cascade",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  },
+  "shepherding_hint": {
+    "avg_cost": 2.8214285714285716,
+    "avg_latency_ms": 2.2142857142857144,
+    "avg_objective": 0.9717857142857147,
+    "avg_unsupported_risk": 0.0,
+    "n": 28,
+    "success_rate": 1.0,
+    "task_results": [
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "code_add",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "code_factorial",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "code_is_even",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "code_reverse_words",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "e001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "e002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "e003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "e004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m001",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m002",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m003",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m004",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m005",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer"
+        ],
+        "cost": 1.0,
+        "latency_ms": 1,
+        "objective": 0.99,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m006",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m007",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m008",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m009",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m010",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m011",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m012",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m013",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m014",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m015",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m016",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m017",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m018",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m019",
+        "unsupported_risk": 0.0
+      },
+      {
+        "actions_run": [
+          "cheap_answer",
+          "strong_hint",
+          "cheap_repair_after_hint"
+        ],
+        "cost": 4.0,
+        "latency_ms": 3,
+        "objective": 0.96,
+        "plan_name": "shepherding_hint",
+        "success": true,
+        "task_id": "m020",
+        "unsupported_risk": 0.0
+      }
+    ]
+  }
+}

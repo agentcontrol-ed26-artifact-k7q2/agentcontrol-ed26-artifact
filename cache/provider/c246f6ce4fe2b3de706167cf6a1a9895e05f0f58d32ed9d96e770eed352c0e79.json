@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001628,
+  "input_tokens": 164,
+  "latency_ms": 664,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "c246f6ce4fe2b3de706167cf6a1a9895e05f0f58d32ed9d96e770eed352c0e79",
+  "text": "Hint: Check doc_curie2 \nAnswer phrase: Pierre Curie [doc_curie2]"
+}

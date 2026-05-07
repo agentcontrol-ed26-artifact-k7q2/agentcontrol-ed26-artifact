@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.96e-05,
+  "input_tokens": 114,
+  "latency_ms": 524,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "db0238b8ca3269f55c74d4382c186754ec9afef1cb8e4f9ee59262e94fe6ebb3",
+  "text": "Albert Einstein developed the theory of general relativity [doc_einstein_relativity]."
+}

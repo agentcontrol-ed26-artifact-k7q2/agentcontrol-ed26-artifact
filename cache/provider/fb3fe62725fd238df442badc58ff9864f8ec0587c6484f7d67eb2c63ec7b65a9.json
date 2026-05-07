@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.66e-05,
+  "input_tokens": 91,
+  "latency_ms": 404,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "fb3fe62725fd238df442badc58ff9864f8ec0587c6484f7d67eb2c63ec7b65a9",
+  "text": "The intermediate value is 4^2 = 16.\nThe volume of the cube is 4^3 = 64.\n64"
+}

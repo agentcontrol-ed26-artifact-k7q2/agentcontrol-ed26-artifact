@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00038953,
+  "input_tokens": 103,
+  "latency_ms": 2853,
+  "model": "deepseek-reasoner",
+  "output_tokens": 152,
+  "provider": "deepseek",
+  "request_hash": "ef00dbb71a7de8d7c25e4329a2a762a9d976d51ccc38059802cb2d206a5f4bbc",
+  "text": "1. Verify that the evidence explicitly states the birthplace of Charles Darwin, including the city and country as \"Shrewsbury, England\" in doc_darwin.\n2. Check that no other evidence document contradicts this information; confirm doc_telephone is irrelevant to the question."
+}

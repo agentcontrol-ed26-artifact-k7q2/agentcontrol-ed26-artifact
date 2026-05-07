@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046715000000000005,
+  "input_tokens": 53,
+  "latency_ms": 3681,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "2da58dea9a1ada7c59ff28a2498766ebf321113911c241a96ff094989fedc4ec",
+  "text": "Remember to divide by 2! to"
+}

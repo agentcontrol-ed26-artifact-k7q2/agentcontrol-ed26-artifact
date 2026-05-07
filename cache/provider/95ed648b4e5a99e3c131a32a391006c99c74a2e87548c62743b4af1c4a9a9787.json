@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018137,
+  "input_tokens": 59,
+  "latency_ms": 1785,
+  "model": "deepseek-reasoner",
+  "output_tokens": 68,
+  "provider": "deepseek",
+  "request_hash": "95ed648b4e5a99e3c131a32a391006c99c74a2e87548c62743b4af1c4a9a9787",
+  "text": "Think of the multiplication table: 9 times what equals 81?"
+}

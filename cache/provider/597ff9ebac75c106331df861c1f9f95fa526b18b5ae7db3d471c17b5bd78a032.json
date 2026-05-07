@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00205822,
+  "input_tokens": 67,
+  "latency_ms": 12405,
+  "model": "deepseek-reasoner",
+  "output_tokens": 923,
+  "provider": "deepseek",
+  "request_hash": "597ff9ebac75c106331df861c1f9f95fa526b18b5ae7db3d471c17b5bd78a032",
+  "text": "The column-wise sums are calculated by adding each column's elements:\n- First column: 1 + 3 + 5 = 9\n- Second column: 2 + 4 + 6 = 12\n\nThus, the column-wise sums are [9, 12].\n\n[9, 12]"
+}

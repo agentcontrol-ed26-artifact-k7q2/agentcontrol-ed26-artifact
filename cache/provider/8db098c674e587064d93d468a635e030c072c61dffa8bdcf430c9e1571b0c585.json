@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016016,
+  "input_tokens": 90,
+  "latency_ms": 866,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 92,
+  "provider": "together",
+  "request_hash": "8db098c674e587064d93d468a635e030c072c61dffa8bdcf430c9e1571b0c585",
+  "text": "```python\ndef merge_sorted(a, b):\n    result = []\n    i, j = 0, 0\n    while i < len(a) and j < len(b):\n        if a[i] < b[j]:\n            result.append(a[i])\n            i += 1\n        else:\n            result.append(b[j])\n            j += 1\n    result.extend(a[i:])\n    result.extend(b[j:])\n    return result\n```"
+}

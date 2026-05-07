@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.1e-05,
+  "input_tokens": 83,
+  "latency_ms": 993,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 87,
+  "provider": "together",
+  "request_hash": "080341f1a9bb5be70523df33eb805adb3fd95d78a3f2c3fda7dfa4b76a025120",
+  "text": "```python\ndef balanced_parens(s):\n    stack = []\n    mapping = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n    \n    for char in s:\n        if char in mapping.values():\n            stack.append(char)\n        elif char in mapping.keys():\n            if stack == [] or mapping[char] != stack.pop():\n                return False\n        else:\n            return False\n    \n    return stack == []\n```"
+}

@@ -1,0 +1,312 @@
+{
+  "n_total": 60,
+  "family_counts": {
+    "math_traps": 20,
+    "code_traps": 15,
+    "evidence_traps": 15,
+    "data_analysis_traps": 10
+  },
+  "tasks": [
+    {
+      "task_id": "vm_001",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_002",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_003",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_004",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_005",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_006",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_007",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_008",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_009",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_010",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_011",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_012",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_013",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_014",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_015",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_016",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_017",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_018",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_019",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vm_020",
+      "family": "math_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_001",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_002",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_003",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_004",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_005",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_006",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_007",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_008",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_009",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_010",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_011",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_012",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_013",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_014",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vc_015",
+      "family": "code_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_001",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_002",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_003",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_004",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_005",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_006",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_007",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_008",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_009",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_010",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_011",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_012",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_013",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_014",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "ve_015",
+      "family": "evidence_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_001",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_002",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_003",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_004",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_005",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_006",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_007",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_008",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_009",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    },
+    {
+      "task_id": "vd_010",
+      "family": "data_analysis_traps",
+      "difficulty": "trap"
+    }
+  ],
+  "honesty": "Adversarial verifier-risk pool: each task is engineered so a *weak* verifier (loose pattern match: any-integer for numeric, gold-phrase + any-citation for evidence, weak-test-suite-only for code) can FALSE-accept a plausible wrong answer. An *exact* verifier (full audit suite) catches it. Tasks are auditable in this script. NOT a benchmark download."
+}

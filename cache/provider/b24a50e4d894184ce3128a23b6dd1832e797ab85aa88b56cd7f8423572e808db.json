@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.447999999999999e-05,
+  "input_tokens": 94,
+  "latency_ms": 357,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 2,
+  "provider": "together",
+  "request_hash": "b24a50e4d894184ce3128a23b6dd1832e797ab85aa88b56cd7f8423572e808db",
+  "text": "12"
+}

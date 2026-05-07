@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012936,
+  "input_tokens": 78,
+  "latency_ms": 2017,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 69,
+  "provider": "together",
+  "request_hash": "1278242d1acdaae9a732a88dcc40feeaeacd4edb464824db0d186e06b4feaab7",
+  "text": "Use the Euclidean algorithm, which repeatedly replaces 'a' and 'b' with 'b' and the remainder of 'a' divided by 'b' until 'b' is zero.\n\n```python\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

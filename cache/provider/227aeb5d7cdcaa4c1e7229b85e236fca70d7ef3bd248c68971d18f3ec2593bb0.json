@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025696,
+  "input_tokens": 102,
+  "latency_ms": 1315,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 190,
+  "provider": "together",
+  "request_hash": "227aeb5d7cdcaa4c1e7229b85e236fca70d7ef3bd248c68971d18f3ec2593bb0",
+  "text": "To solve this problem, you can use a depth-first search approach with a recursive function that keeps track of visited nodes and detects cycles by checking if a node is currently being visited.\n\n```python\ndef topological_sort(n, edges):\n    graph = [[] for _ in range(n)]\n    for u, v in edges:\n        graph[u].append(v)\n\n    visited = [0] * n\n    ordering = []\n\n    def dfs(node):\n        if visited[node] == -1:\n            return False\n        if visited[node] == 1:\n            return True\n        visited[node] = -1\n        for neighbor in graph[node]:\n            if not dfs(neighbor):\n                return False\n        visited[node] = 1\n        ordering.append(node)\n        return True\n\n    for node in range(n):\n        if visited[node] == 0 and not dfs(node):\n            return []\n\n    return ordering[::-1]\n```"
+}

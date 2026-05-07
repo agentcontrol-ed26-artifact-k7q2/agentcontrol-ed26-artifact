@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027984000000000006,
+  "input_tokens": 304,
+  "latency_ms": 657,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "fa8d087668a1ae84eabd88b17400bbf50f645d91714dc619fe5c5ce13f8d544a",
+  "text": "The answer is 1962 [doc_franklin_death]"
+}

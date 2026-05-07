@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032406000000000004,
+  "input_tokens": 88,
+  "latency_ms": 4660,
+  "model": "deepseek-chat",
+  "output_tokens": 273,
+  "provider": "deepseek",
+  "request_hash": "787495eb0532677323a40bd7df75c035313498a93d47c6037fb8439c4e6419b8",
+  "text": "We have jobs with (deadline, profit):  \n1. (2, 100)  \n2. (1, 19)  \n3. (2, 27)  \n4. (1, 25)  \n5. (3, 15)  \n\nWe have time slots starting at 1. The maximum deadline is 3, so we have slots 1, 2, 3.\n\n**Step 1 \u2013 Sort by profit descending:**  \n(2,100), (2,27), (1,25), (1,19), (3,15)\n\n**Step 2 \u2013 Schedule each job in the latest free slot \u2264 deadline:**  \n\n- Job (2,100): slot 2 is free \u2192 schedule at slot 2.  \n- Job (2,27): slot 2 is taken, try slot 1 \u2192 free \u2192 schedule at slot 1.  \n- Job (1,25): deadline 1, slot 1 is taken \u2192 cannot schedule.  \n- Job (1,19): deadline 1, slot 1 taken \u2192 cannot schedule.  \n- Job (3,15): deadline 3, slot 3 free \u2192 schedule at slot 3.\n\n**Step 3 \u2013 Total profit:**  \n100 + 27 + 15 = 142\n\nFinal integer:  \n142"
+}

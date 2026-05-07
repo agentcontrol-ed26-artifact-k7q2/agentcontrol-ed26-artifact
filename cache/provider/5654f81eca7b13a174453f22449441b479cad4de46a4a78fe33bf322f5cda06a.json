@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.922000000000001e-05,
+  "input_tokens": 76,
+  "latency_ms": 867,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "5654f81eca7b13a174453f22449441b479cad4de46a4a78fe33bf322f5cda06a",
+  "text": "print(\"banana banana cherry banana cherry apple\".split().count(\"banana\"))"
+}

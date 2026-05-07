@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.91e-05,
+  "input_tokens": 78,
+  "latency_ms": 615,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "0b90b70d91aeac64b4a245cd33bed27219229672b4224b50b438870687f717a5",
+  "text": "def add(a: int, b: int) -> int:\n    return a + b"
+}

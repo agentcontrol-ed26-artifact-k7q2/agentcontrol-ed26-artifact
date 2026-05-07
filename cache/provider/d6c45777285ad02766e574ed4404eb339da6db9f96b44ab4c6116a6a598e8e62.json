@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00139514,
+  "input_tokens": 263,
+  "latency_ms": 8431,
+  "model": "deepseek-reasoner",
+  "output_tokens": 571,
+  "provider": "deepseek",
+  "request_hash": "d6c45777285ad02766e574ed4404eb339da6db9f96b44ab4c6116a6a598e8e62",
+  "text": "The provided evidence does not specify the birthplace of the first person to summit Everest. [doc_everest]"
+}

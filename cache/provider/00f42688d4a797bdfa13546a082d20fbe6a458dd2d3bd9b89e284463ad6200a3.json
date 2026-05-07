@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025696000000000003,
+  "input_tokens": 103,
+  "latency_ms": 1475,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 189,
+  "provider": "together",
+  "request_hash": "00f42688d4a797bdfa13546a082d20fbe6a458dd2d3bd9b89e284463ad6200a3",
+  "text": "To determine if a course schedule is possible, consider using a topological sorting algorithm to detect cycles in the graph, as a cycle would indicate that it's impossible to complete all courses due to a prerequisite dependency loop.\n\n```python\nfrom collections import defaultdict, deque\n\ndef course_schedule_possible(n, prereqs):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    for a, b in prereqs:\n        graph[b].append(a)\n        indegree[a] += 1\n    queue = deque([i for i in range(n) if indegree[i] == 0])\n    count = 0\n    while queue:\n        node = queue.popleft()\n        count += 1\n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n    return count == n\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011352000000000001,
+  "input_tokens": 79,
+  "latency_ms": 1991,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "5c92fe6858651e07ad5b7ee71d4e05ae15cab8b130c137cd2dda551633d49e38",
+  "text": "33\n1. Reversing the calculation: 33 + 17 = 50\n2. Estimating the result: 50 - 20 = 30, so 50 - 17 should be a bit more than 30"
+}

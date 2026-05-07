@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010208,
+  "input_tokens": 92,
+  "latency_ms": 1674,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "0b3a8556f6ffbc8fd9f02883397322029b3c05857665c0cc955f5c0795188057",
+  "text": "13^2 = 169\n11^2 = 121\n169 - 121 = 48\n\n48"
+}

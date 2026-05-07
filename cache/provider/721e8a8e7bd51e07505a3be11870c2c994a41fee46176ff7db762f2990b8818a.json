@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028864,
+  "input_tokens": 313,
+  "latency_ms": 356,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "721e8a8e7bd51e07505a3be11870c2c994a41fee46176ff7db762f2990b8818a",
+  "text": "The answer is the photoelectric effect [doc_einstein_nobel]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031064,
+  "input_tokens": 293,
+  "latency_ms": 1022,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "e08e54ec1950629f2caf1fd22ae5ef1e0f965649f88b8fe5d33bb1ce26886b64",
+  "text": "The answer is not explicitly stated in the provided documents, as the birthplace of Edmund Hillary and Tenzing Norgay is not mentioned. However, based on the available information, we cannot determine the birthplace of the first person to summit Everest. \nAnswer [doc_everest]"
+}

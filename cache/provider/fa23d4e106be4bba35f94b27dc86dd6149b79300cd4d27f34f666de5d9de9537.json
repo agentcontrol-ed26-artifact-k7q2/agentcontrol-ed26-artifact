@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.6390000000000003e-05,
+  "input_tokens": 57,
+  "latency_ms": 853,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "fa23d4e106be4bba35f94b27dc86dd6149b79300cd4d27f34f666de5d9de9537",
+  "text": "81 divided by 9 is 9.\n\n9"
+}

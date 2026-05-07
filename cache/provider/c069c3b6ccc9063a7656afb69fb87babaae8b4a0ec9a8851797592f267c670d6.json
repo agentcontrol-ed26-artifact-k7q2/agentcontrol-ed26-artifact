@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.097e-05,
+  "input_tokens": 111,
+  "latency_ms": 865,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "c069c3b6ccc9063a7656afb69fb87babaae8b4a0ec9a8851797592f267c670d6",
+  "text": "1930 [doc_armstrong_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.679999999999999e-05,
+  "input_tokens": 130,
+  "latency_ms": 675,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "d38272023cacf4983cb3125221b4eeb377d26d14e6be50e563f14cad6371e1b0",
+  "text": "Rosalind Franklin died of cancer in 1958 at age 37 [doc_franklin_death]."
+}

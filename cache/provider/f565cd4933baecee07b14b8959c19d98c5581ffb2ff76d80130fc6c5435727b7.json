@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019183999999999998,
+  "input_tokens": 88,
+  "latency_ms": 4310,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 130,
+  "provider": "together",
+  "request_hash": "f565cd4933baecee07b14b8959c19d98c5581ffb2ff76d80130fc6c5435727b7",
+  "text": "The most common bug to avoid in implementing run-length encoding is incorrectly handling the case when the input string is empty or contains only a single character. \n\n```python\ndef rle_encode(s):\n    if not s:\n        return []\n    result = []\n    current_char = s[0]\n    current_count = 1\n    for char in s[1:]:\n        if char == current_char:\n            current_count += 1\n        else:\n            result.append((current_char, current_count))\n            current_char = char\n            current_count = 1\n    result.append((current_char, current_count))\n    return result\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.4999999999999996e-05,
+  "input_tokens": 70,
+  "latency_ms": 821,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 80,
+  "provider": "together",
+  "request_hash": "21fba0fda20f4c1de9450553aafdc6ef9b659c7f0db89a7f72d00f17ba7dc793",
+  "text": "```python\ndef subset_sum(xs, target):\n    n = len(xs)\n    dp = [False] * (target + 1)\n    dp[0] = True\n    \n    for num in xs:\n        for t in range(target, num - 1, -1):\n            dp[t] = dp[t] or dp[t - num]\n    \n    return dp[target]\n```"
+}

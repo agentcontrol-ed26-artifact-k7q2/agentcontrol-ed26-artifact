@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.5299999999999997e-05,
+  "input_tokens": 114,
+  "latency_ms": 674,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "3da83b9b94a8691130f2603aabbde5f0c83cc9123da612eea8efa0e7183ba749",
+  "text": "The evidence provided does not specify the base location from which Edmund Hillary climbed Mount Everest. Therefore, I cannot determine the starting point with the given information. [doc_everest]"
+}

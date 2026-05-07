@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001803,
+  "input_tokens": 283,
+  "latency_ms": 2395,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 318,
+  "provider": "together",
+  "request_hash": "678469286bfae24462d30212501af08f577d75facc0caa3fd3ec98d6bfc83285",
+  "text": "```python\nclass Node:\n    def __init__(self, key, value):\n        self.key = key\n        self.value = value\n        self.prev = None\n        self.next = None\n\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.capacity = capacity\n        self.cache = {}\n        self.head = Node(0, 0)\n        self.tail = Node(0, 0)\n        self.head.next = self.tail\n        self.tail.prev = self.head\n\n    def get(self, key: int) -> int:\n        if key in self.cache:\n            node = self.cache[key]\n            self._remove(node)\n            self._add(node)\n            return node.value\n        return -1\n\n    def put(self, key: int, value: int):\n        if key in self.cache:\n            self._remove(self.cache[key])\n        node = Node(key, value)\n        self._add(node)\n        self.cache[key] = node\n        if len(self.cache) > self.capacity:\n            node_to_evict = self.head.next\n            self._remove(node_to_evict)\n            del self.cache[node_to_evict.key]\n\n    def _remove(self, node):\n        prev = node.prev\n        next = node.next\n        prev.next = next\n        next.prev = prev\n\n    def _add(self, node):\n        prev = self.tail.prev\n        prev.next = node\n        self.tail.prev = node\n        node.prev = prev\n        node.next = self.tail\n```"
+}

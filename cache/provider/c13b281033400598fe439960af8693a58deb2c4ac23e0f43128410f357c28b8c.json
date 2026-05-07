@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014633,
+  "input_tokens": 59,
+  "latency_ms": 1397,
+  "model": "deepseek-reasoner",
+  "output_tokens": 52,
+  "provider": "deepseek",
+  "request_hash": "c13b281033400598fe439960af8693a58deb2c4ac23e0f43128410f357c28b8c",
+  "text": "Subtract 5 ones from 12 ones, remembering that 12 is 1 ten and 2 ones."
+}

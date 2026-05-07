@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.815e-05,
+  "input_tokens": 55,
+  "latency_ms": 999,
+  "model": "deepseek-chat",
+  "output_tokens": 3,
+  "provider": "deepseek",
+  "request_hash": "3e30ff02d6efa9439a7e9e35f3854d2bbb2a592b9d27dae1a270312b6fbc5652",
+  "text": "blackbody radiation"
+}

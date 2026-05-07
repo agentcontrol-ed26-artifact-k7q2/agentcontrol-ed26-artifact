@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00051974,
+  "input_tokens": 65,
+  "latency_ms": 3696,
+  "model": "deepseek-reasoner",
+  "output_tokens": 221,
+  "provider": "deepseek",
+  "request_hash": "0f24b9194161da16de9bae29aef67d41fd2df5f4089372ac584ddeb3ca163f27",
+  "text": "```python\ndef is_anagram(a: str, b: str) -> bool:\n    return sorted(a) == sorted(b)\n```"
+}

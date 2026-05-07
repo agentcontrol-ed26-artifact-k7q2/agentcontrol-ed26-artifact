@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014765,
+  "input_tokens": 115,
+  "latency_ms": 2421,
+  "model": "deepseek-chat",
+  "output_tokens": 106,
+  "provider": "deepseek",
+  "request_hash": "313efb83746c218d7b0b6350f04e9429199dfacc05d9ed88140cfecadbaaba8b",
+  "text": "Here\u2019s the Python code to compute the weighted average price and print the result:  \n\n```python\ndata = [(10,3), (20,2), (15,5), (8,7), (25,1)]\n\ntotal_value = sum(price * qty for price, qty in data)\ntotal_qty = sum(qty for _, qty in data)\n\nweighted_avg = total_value // total_qty  # floor division for integer result\nprint(weighted_avg)\n```"
+}

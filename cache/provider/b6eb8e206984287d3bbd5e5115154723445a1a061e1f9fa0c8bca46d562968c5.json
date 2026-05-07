@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047705,
+  "input_tokens": 71,
+  "latency_ms": 3148,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "b6eb8e206984287d3bbd5e5115154723445a1a061e1f9fa0c8bca46d562968c5",
+  "text": "```python\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    adj = [[] for _ in range(n)]\n    for u, v, w in edges:\n        adj[u].append((v, w))\n        adj[v].append((u, w))\n    dist = [float('inf')] * n\n    dist[src] = 0\n    pq = [(0, src)]  # (distance, node"
+}

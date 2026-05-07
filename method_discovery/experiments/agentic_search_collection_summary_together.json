@@ -1,0 +1,44 @@
+{
+  "provider_mode": "together",
+  "n_tasks": 60,
+  "n_jobs": 420,
+  "n_errors": 0,
+  "incremental_spend_usd": 0.05127744000000112,
+  "per_action_success_rate": {
+    "cheap_cold": {
+      "n": 60,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "cheap_topk1": {
+      "n": 60,
+      "successes": 41,
+      "rate": 0.6833333333333333
+    },
+    "cheap_topk3": {
+      "n": 60,
+      "successes": 43,
+      "rate": 0.7166666666666667
+    },
+    "cheap_topk5": {
+      "n": 60,
+      "successes": 48,
+      "rate": 0.8
+    },
+    "cheap_agentic": {
+      "n": 60,
+      "successes": 47,
+      "rate": 0.7833333333333333
+    },
+    "strong_topk5": {
+      "n": 60,
+      "successes": 46,
+      "rate": 0.7666666666666667
+    },
+    "strong_agentic": {
+      "n": 60,
+      "successes": 44,
+      "rate": 0.7333333333333333
+    }
+  }
+}

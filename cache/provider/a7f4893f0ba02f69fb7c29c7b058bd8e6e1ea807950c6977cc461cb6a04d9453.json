@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010420000000000001,
+  "input_tokens": 60,
+  "latency_ms": 1916,
+  "model": "deepseek-chat",
+  "output_tokens": 80,
+  "provider": "deepseek",
+  "request_hash": "a7f4893f0ba02f69fb7c29c7b058bd8e6e1ea807950c6977cc461cb6a04d9453",
+  "text": "```python\ndef longest_increasing_subseq(xs):\n    if not xs:\n        return 0\n    dp = [1] * len(xs)\n    for i in range(len(xs)):\n        for j in range(i):\n            if xs[j] < xs[i]:\n                dp[i] = max(dp[i], dp[j] + 1)\n    return max(dp)\n```"
+}

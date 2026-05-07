@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.17e-05,
+  "input_tokens": 227,
+  "latency_ms": 476,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "cc8543272a5dfad6c1b14f181a0f76bfbc77e57513c8c06e5a1facef54efd499",
+  "text": "Alexander Graham Bell patented the telephone [doc_telephone]."
+}

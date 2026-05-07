@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.02e-05,
+  "input_tokens": 27,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 8,
+  "provider": "dummy",
+  "request_hash": "d85349ac0e7003cd78f2f1c99d26491b3d2d276d8c41407d1bd856245541a0ef",
+  "text": "def add(a, b):\n    return a + b\n"
+}

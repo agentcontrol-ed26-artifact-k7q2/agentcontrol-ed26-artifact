@@ -1,0 +1,1682 @@
+{
+  "vm_001": {
+    "cheap": {
+      "task_id": "vm_001",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "156",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 1.0549999999999999e-05,
+      "input_tokens": 35,
+      "output_tokens": 1,
+      "latency_ms": 858,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_001",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "156",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 9.59e-05,
+      "input_tokens": 35,
+      "output_tokens": 35,
+      "latency_ms": 1224,
+      "cache_hit": false
+    }
+  },
+  "vm_002": {
+    "cheap": {
+      "task_id": "vm_002",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "17 - 9 = 8  \nFinal answer: 8",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 2.375e-05,
+      "input_tokens": 35,
+      "output_tokens": 13,
+      "latency_ms": 984,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_002",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "8",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 8.714000000000001e-05,
+      "input_tokens": 35,
+      "output_tokens": 31,
+      "latency_ms": 1349,
+      "cache_hit": false
+    }
+  },
+  "vm_006": {
+    "cheap": {
+      "task_id": "vm_006",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "The square root of 144 is 12.  \n\nFinal answer: 12",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 2.7320000000000003e-05,
+      "input_tokens": 36,
+      "output_tokens": 16,
+      "latency_ms": 1124,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_006",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "12",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 9.426000000000001e-05,
+      "input_tokens": 36,
+      "output_tokens": 34,
+      "latency_ms": 1333,
+      "cache_hit": false
+    }
+  },
+  "vm_005": {
+    "cheap": {
+      "task_id": "vm_005",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "First, find 1/4 of 20:  \n20 \u00f7 4 = 5  \n\nThen, multiply by 3 to get 3/4:  \n5 \u00d7 3 = 15  \n\nFinal answer: 15",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 6.169e-05,
+      "input_tokens": 37,
+      "output_tokens": 47,
+      "latency_ms": 1238,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_005",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "15",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00011452000000000001,
+      "input_tokens": 37,
+      "output_tokens": 43,
+      "latency_ms": 1378,
+      "cache_hit": false
+    }
+  },
+  "vm_003": {
+    "cheap": {
+      "task_id": "vm_003",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "First, 25% means 25 per 100, or 0.25.  \nMultiply 0.25 by 60:  \n0.25 \u00d7 60 = 15.  \n\nFinal answer: 15",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.9220000000000006e-05,
+      "input_tokens": 36,
+      "output_tokens": 45,
+      "latency_ms": 1384,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_003",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "15",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00010083,
+      "input_tokens": 36,
+      "output_tokens": 37,
+      "latency_ms": 1139,
+      "cache_hit": false
+    }
+  },
+  "vm_004": {
+    "cheap": {
+      "task_id": "vm_004",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "Let's solve step by step:\n\n2x + 7 = 15  \nSubtract 7 from both sides:  \n2x = 8  \nDivide both sides by 2:  \nx = 4  \n\nFinal answer: 4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 6.416000000000001e-05,
+      "input_tokens": 38,
+      "output_tokens": 49,
+      "latency_ms": 1443,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_004",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "2x + 7 = 15  \nSubtract 7 from both sides: 2x = 8  \nDivide both sides by 2: x = 4  \n\nFinal answer: 4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00022019,
+      "input_tokens": 38,
+      "output_tokens": 91,
+      "latency_ms": 2071,
+      "cache_hit": false
+    }
+  },
+  "vm_008": {
+    "cheap": {
+      "task_id": "vm_008",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We have \\( 7! = 7 \\times 6 \\times 5! \\).  \nSo \\( \\frac{7!}{5!} = 7 \\times 6 = 42 \\).\n\nFinal answer: 42",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 6.416000000000001e-05,
+      "input_tokens": 38,
+      "output_tokens": 49,
+      "latency_ms": 1205,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_008",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "42",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00014354,
+      "input_tokens": 38,
+      "output_tokens": 56,
+      "latency_ms": 1522,
+      "cache_hit": false
+    }
+  },
+  "vm_010": {
+    "cheap": {
+      "task_id": "vm_010",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "(-3) squared means (-3) \u00d7 (-3).  \nMultiplying two negative numbers gives a positive result.  \n3 \u00d7 3 = 9.  \n\nFinal answer: 9",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.208e-05,
+      "input_tokens": 34,
+      "output_tokens": 39,
+      "latency_ms": 1115,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_010",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "(-3) squared means (-3) \u00d7 (-3) = 9.\n\nFinal answer: 9",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012162999999999999,
+      "input_tokens": 34,
+      "output_tokens": 47,
+      "latency_ms": 1277,
+      "cache_hit": false
+    }
+  },
+  "vm_012": {
+    "cheap": {
+      "task_id": "vm_012",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "The LCM of 6 and 8 is 24.  \nFinal answer: 24",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.0060000000000007e-05,
+      "input_tokens": 38,
+      "output_tokens": 18,
+      "latency_ms": 1110,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_012",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "The least common multiple (LCM) of 6 and 8 is 24.\n\nFinal answer: 24",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00036035,
+      "input_tokens": 38,
+      "output_tokens": 155,
+      "latency_ms": 2502,
+      "cache_hit": false
+    }
+  },
+  "vm_009": {
+    "cheap": {
+      "task_id": "vm_009",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "Let's calculate step by step.\n\n1. Find the increase:  \n\\( 100 - 80 = 20 \\)\n\n2. Divide the increase by the original price:  \n\\( 20 / 80 = 0.25 \\)\n\n3. Convert to a percentage:  \n\\( 0.25 \\times 100 = 25\\% \\)\n\nFinal answer: 25",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 9.550000000000002e-05,
+      "input_tokens": 40,
+      "output_tokens": 77,
+      "latency_ms": 1542,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_009",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "The percent increase is calculated as ((new price - old price) / old price) \u00d7 100%. Here, (100 - 80) / 80 = 20 / 80 = 0.25, and 0.25 \u00d7 100% = 25%. Thus, the final answer is 25.\n\n25",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00031327,
+      "input_tokens": 40,
+      "output_tokens": 133,
+      "latency_ms": 2433,
+      "cache_hit": false
+    }
+  },
+  "vm_007": {
+    "cheap": {
+      "task_id": "vm_007",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We need the sum of integers from 1 to 8.\n\nWe can add step by step:\n\n1 + 2 = 3  \n3 + 3 = 6  \n6 + 4 = 10  \n10 + 5 = 15  \n15 + 6 = 21  \n21 + 7 = 28  \n28 + 8 = 36  \n\nAlternatively, using the formula:  \nSum = n(n + 1)/2 = 8 \u00d7 9 / 2 = 72 / 2 = 36.\n\nFinal answer: 36",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00013705,
+      "input_tokens": 35,
+      "output_tokens": 116,
+      "latency_ms": 2246,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_007",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "36",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00011342000000000001,
+      "input_tokens": 35,
+      "output_tokens": 43,
+      "latency_ms": 1485,
+      "cache_hit": false
+    }
+  },
+  "vm_015": {
+    "cheap": {
+      "task_id": "vm_015",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "A tetrahedron is a polyhedron with 4 faces.  \n\nFinal answer: 4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 2.9520000000000002e-05,
+      "input_tokens": 36,
+      "output_tokens": 18,
+      "latency_ms": 1020,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_015",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00011616,
+      "input_tokens": 36,
+      "output_tokens": 44,
+      "latency_ms": 1371,
+      "cache_hit": false
+    }
+  },
+  "vm_014": {
+    "cheap": {
+      "task_id": "vm_014",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "A cube has 6 faces, each a square, and each square has 4 edges.  \nIf we count edges by faces: \\(6 \\times 4 = 24\\), but each edge is shared by 2 faces, so we divide by 2:  \n\\(24 \\div 2 = 12\\).\n\nFinal answer: 12",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 8.645e-05,
+      "input_tokens": 35,
+      "output_tokens": 70,
+      "latency_ms": 1487,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_014",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "A cube has 12 edges.\n\nFinal answer: 12",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012655999999999998,
+      "input_tokens": 35,
+      "output_tokens": 49,
+      "latency_ms": 1445,
+      "cache_hit": false
+    }
+  },
+  "vm_011": {
+    "cheap": {
+      "task_id": "vm_011",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We check each number from 1 to 10:\n\n- 1 is not prime.  \n- 2 is prime.  \n- 3 is prime.  \n- 4 is not prime (2 \u00d7 2).  \n- 5 is prime.  \n- 6 is not prime (2 \u00d7 3).  \n- 7 is prime.  \n- 8 is not prime (2 \u00d7 4).  \n- 9 is not prime (3 \u00d7 3).  \n- 10 is not prime (2 \u00d7 5).\n\nThe primes are: 2, 3, 5, 7. That is 4 primes.\n\nFinal answer: 4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00016233,
+      "input_tokens": 39,
+      "output_tokens": 138,
+      "latency_ms": 2485,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_011",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "There are 4 primes between 1 and 10: 2, 3, 5, and 7.\n\nFinal answer: 4",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00022731,
+      "input_tokens": 39,
+      "output_tokens": 94,
+      "latency_ms": 1985,
+      "cache_hit": false
+    }
+  },
+  "vm_013": {
+    "cheap": {
+      "task_id": "vm_013",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We need the greatest common divisor (GCD) of 12 and 18.\n\nFirst, list the factors:\n- Factors of 12: 1, 2, 3, 4, 6, 12  \n- Factors of 18: 1, 2, 3, 6, 9, 18  \n\nThe common factors are 1, 2, 3, 6.  \nThe greatest of these is 6.\n\nFinal answer: 6",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012026000000000002,
+      "input_tokens": 38,
+      "output_tokens": 100,
+      "latency_ms": 1780,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_013",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "6",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00016982,
+      "input_tokens": 38,
+      "output_tokens": 68,
+      "latency_ms": 1617,
+      "cache_hit": false
+    }
+  },
+  "vm_017": {
+    "cheap": {
+      "task_id": "vm_017",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We need to count distinct anagrams of the word \"AB\".  \n\nThe word \"AB\" has 2 letters, both distinct.  \nNumber of distinct anagrams = 2! = 2.  \n\nThe anagrams are: AB, BA.  \n\nFinal answer: 2",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 7.215e-05,
+      "input_tokens": 35,
+      "output_tokens": 57,
+      "latency_ms": 1291,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_017",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "2",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012875,
+      "input_tokens": 35,
+      "output_tokens": 50,
+      "latency_ms": 1265,
+      "cache_hit": false
+    }
+  },
+  "vm_020": {
+    "cheap": {
+      "task_id": "vm_020",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We compute step by step:  \n9 * 8 = 72.  \nNow 72 mod 7: 7 * 10 = 70, remainder 2.  \n\nFinal answer: 2",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.646e-05,
+      "input_tokens": 38,
+      "output_tokens": 42,
+      "latency_ms": 1239,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_020",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "2",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012821,
+      "input_tokens": 38,
+      "output_tokens": 49,
+      "latency_ms": 1429,
+      "cache_hit": false
+    }
+  },
+  "vm_018": {
+    "cheap": {
+      "task_id": "vm_018",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "First, find the sum:  \n4 + 8 = 12  \n12 + 12 = 24  \n24 + 16 = 40  \n\nNow, count the numbers: there are 4 numbers.  \n\nDivide the sum by the count:  \n40 \u00f7 4 = 10  \n\nFinal answer: 10",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 8.338e-05,
+      "input_tokens": 44,
+      "output_tokens": 65,
+      "latency_ms": 1623,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_018",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "The average is 10.\n\n10",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00017312,
+      "input_tokens": 44,
+      "output_tokens": 68,
+      "latency_ms": 1523,
+      "cache_hit": false
+    }
+  },
+  "vm_019": {
+    "cheap": {
+      "task_id": "vm_019",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "First, calculate 20% of $50:  \n20% \u00d7 50 = 0.20 \u00d7 50 = 10.  \n\nThen subtract that discount from the original price:  \n50 \u2212 10 = 40.  \n\nFinal answer: 40",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 7.018000000000001e-05,
+      "input_tokens": 44,
+      "output_tokens": 53,
+      "latency_ms": 1375,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_019",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "The final price after a 20% discount on $50 is $40.\n\nFinal answer: 40",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00019501999999999999,
+      "input_tokens": 44,
+      "output_tokens": 78,
+      "latency_ms": 1735,
+      "cache_hit": false
+    }
+  },
+  "vm_016": {
+    "cheap": {
+      "task_id": "vm_016",
+      "family": "math_traps",
+      "action": "cheap",
+      "text": "We need to compute \\( \\binom{10}{2} \\), which is the number of ways to choose 2 items from 10.\n\nThe formula for combinations is:\n\n\\[\n\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n\\]\n\nHere, \\( n = 10 \\) and \\( k = 2 \\):\n\n\\[\n\\binom{10}{2} = \\frac{10!}{2!(10-2)!} = \\frac{10!}{2! \\cdot 8!}\n\\]\n\nSimplify:\n\n\\[\n\\frac{10 \\times 9 \\times 8!}{2 \\times 1 \\times 8!} = \\frac{10 \\times 9}{2} = \\frac{90}{2} = 45\n\\]\n\nFinal answer: 45",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00019535,
+      "input_tokens": 35,
+      "output_tokens": 169,
+      "latency_ms": 2706,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vm_016",
+      "family": "math_traps",
+      "action": "strong",
+      "text": "45",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00021854,
+      "input_tokens": 35,
+      "output_tokens": 91,
+      "latency_ms": 1772,
+      "cache_hit": false
+    }
+  },
+  "vc_002": {
+    "cheap": {
+      "task_id": "vc_002",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    result = 1\n    for i in range(1, n + 1):\n        result *= i\n    return result\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 6.63e-05,
+      "input_tokens": 50,
+      "output_tokens": 48,
+      "latency_ms": 1504,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_002",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef factorial(n: int) -> int:\n    \"\"\"Return n! for nonnegative integer n.\"\"\"\n    if n < 0:\n        raise ValueError(\"n must be nonnegative\")\n    result = 1\n    for i in range(2, n + 1):\n        result *= i\n    return result\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00033629000000000005,
+      "input_tokens": 50,
+      "output_tokens": 141,
+      "latency_ms": 2416,
+      "cache_hit": false
+    }
+  },
+  "vc_001": {
+    "cheap": {
+      "task_id": "vc_001",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    if n <= 3:\n        return True\n    if n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i <= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00012732,
+      "input_tokens": 56,
+      "output_tokens": 102,
+      "latency_ms": 1928,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_001",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\nimport math\n\ndef is_prime(n: int) -> bool:\n    if n <= 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    limit = math.isqrt(n)\n    for i in range(3, limit + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00040529,
+      "input_tokens": 56,
+      "output_tokens": 171,
+      "latency_ms": 2773,
+      "cache_hit": false
+    }
+  },
+  "vc_003": {
+    "cheap": {
+      "task_id": "vc_003",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef max_of_list(xs):\n    return max(xs)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.274e-05,
+      "input_tokens": 52,
+      "output_tokens": 17,
+      "latency_ms": 961,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_003",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef max_of_list(xs):\n    if not xs:\n        return None\n    max_val = xs[0]\n    for item in xs[1:]:\n        if item > max_val:\n            max_val = item\n    return max_val\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.0008323299999999999,
+      "input_tokens": 52,
+      "output_tokens": 367,
+      "latency_ms": 4934,
+      "cache_hit": false
+    }
+  },
+  "vc_004": {
+    "cheap": {
+      "task_id": "vc_004",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef is_even(n):\n    return n % 2 == 0\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.4420000000000006e-05,
+      "input_tokens": 46,
+      "output_tokens": 20,
+      "latency_ms": 883,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_004",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef is_even(n):\n    return n % 2 == 0\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00013261,
+      "input_tokens": 46,
+      "output_tokens": 49,
+      "latency_ms": 1319,
+      "cache_hit": false
+    }
+  },
+  "vc_005": {
+    "cheap": {
+      "task_id": "vc_005",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "def fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.580000000000001e-05,
+      "input_tokens": 60,
+      "output_tokens": 36,
+      "latency_ms": 1087,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_005",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef fib(n):\n    if n == 0:\n        return 0\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.0006067800000000001,
+      "input_tokens": 60,
+      "output_tokens": 262,
+      "latency_ms": 3789,
+      "cache_hit": false
+    }
+  },
+  "vc_007": {
+    "cheap": {
+      "task_id": "vc_007",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef strip_whitespace(s):\n    return s.strip()\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.463e-05,
+      "input_tokens": 59,
+      "output_tokens": 17,
+      "latency_ms": 1022,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_007",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef strip_whitespace(s):\n    \"\"\"Return s with leading and trailing whitespace removed.\"\"\"\n    return s.strip()\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00036533000000000003,
+      "input_tokens": 59,
+      "output_tokens": 152,
+      "latency_ms": 2585,
+      "cache_hit": false
+    }
+  },
+  "vc_008": {
+    "cheap": {
+      "task_id": "vc_008",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef count_words(s):\n    return len(s.split())\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.054e-05,
+      "input_tokens": 52,
+      "output_tokens": 15,
+      "latency_ms": 1063,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_008",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef count_words(s):\n    return len(s.split())\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00038994999999999996,
+      "input_tokens": 52,
+      "output_tokens": 165,
+      "latency_ms": 2724,
+      "cache_hit": false
+    }
+  },
+  "vc_006": {
+    "cheap": {
+      "task_id": "vc_006",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef binary_search(a, target):\n    left, right = 0, len(a) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00011111000000000001,
+      "input_tokens": 53,
+      "output_tokens": 88,
+      "latency_ms": 1702,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_006",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef binary_search(a, target):\n    left, right = 0, len(a) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00031384999999999996,
+      "input_tokens": 53,
+      "output_tokens": 130,
+      "latency_ms": 2383,
+      "cache_hit": false
+    }
+  },
+  "vc_009": {
+    "cheap": {
+      "task_id": "vc_009",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef reverse_list(xs):\n    return xs[::-1]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.137e-05,
+      "input_tokens": 51,
+      "output_tokens": 16,
+      "latency_ms": 1141,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_009",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef reverse_list(xs):\n    return xs[::-1]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00013098,
+      "input_tokens": 51,
+      "output_tokens": 47,
+      "latency_ms": 1255,
+      "cache_hit": false
+    }
+  },
+  "vc_010": {
+    "cheap": {
+      "task_id": "vc_010",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef find_first(xs, target):\n    for i, x in enumerate(xs):\n        if x == target:\n            return i\n    return -1\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.636e-05,
+      "input_tokens": 58,
+      "output_tokens": 37,
+      "latency_ms": 1186,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_010",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef find_first(xs, target):\n    for i, x in enumerate(xs):\n        if x == target:\n            return i\n    return -1\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00042610000000000006,
+      "input_tokens": 58,
+      "output_tokens": 180,
+      "latency_ms": 2932,
+      "cache_hit": false
+    }
+  },
+  "vc_011": {
+    "cheap": {
+      "task_id": "vc_011",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.359e-05,
+      "input_tokens": 47,
+      "output_tokens": 19,
+      "latency_ms": 1154,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_011",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00066095,
+      "input_tokens": 47,
+      "output_tokens": 290,
+      "latency_ms": 4184,
+      "cache_hit": false
+    }
+  },
+  "vc_013": {
+    "cheap": {
+      "task_id": "vc_013",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef uniq_count(xs):\n    return len(set(xs))\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.4380000000000006e-05,
+      "input_tokens": 54,
+      "output_tokens": 18,
+      "latency_ms": 882,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_013",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef uniq_count(xs):\n    return len(set(xs))\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00022460999999999998,
+      "input_tokens": 54,
+      "output_tokens": 89,
+      "latency_ms": 1852,
+      "cache_hit": false
+    }
+  },
+  "vc_012": {
+    "cheap": {
+      "task_id": "vc_012",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef sum_positive(xs):\n    return sum(x for x in xs if x > 0)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.2080000000000004e-05,
+      "input_tokens": 54,
+      "output_tokens": 25,
+      "latency_ms": 991,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_012",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef sum_positive(xs):\n    return sum(x for x in xs if x > 0)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00023118,
+      "input_tokens": 54,
+      "output_tokens": 92,
+      "latency_ms": 1711,
+      "cache_hit": false
+    }
+  },
+  "vc_014": {
+    "cheap": {
+      "task_id": "vc_014",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef abs_diff(a, b):\n    return abs(a - b)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.4380000000000006e-05,
+      "input_tokens": 54,
+      "output_tokens": 18,
+      "latency_ms": 1037,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_014",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef abs_diff(a, b):\n    return abs(a - b)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00020709,
+      "input_tokens": 54,
+      "output_tokens": 81,
+      "latency_ms": 1733,
+      "cache_hit": false
+    }
+  },
+  "vc_015": {
+    "cheap": {
+      "task_id": "vc_015",
+      "family": "code_traps",
+      "action": "cheap",
+      "text": "```python\ndef matrix_diag(m):\n    return [m[i][i] for i in range(len(m))]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.507e-05,
+      "input_tokens": 61,
+      "output_tokens": 26,
+      "latency_ms": 1186,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vc_015",
+      "family": "code_traps",
+      "action": "strong",
+      "text": "```python\ndef matrix_diag(m):\n    return [m[i][i] for i in range(len(m))]\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00032044000000000007,
+      "input_tokens": 61,
+      "output_tokens": 131,
+      "latency_ms": 2304,
+      "cache_hit": false
+    }
+  },
+  "ve_001": {
+    "cheap": {
+      "task_id": "ve_001",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Marie Curie discovered radium in 1898 with her husband Pierre. [doc_curie_marie]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.853000000000001e-05,
+      "input_tokens": 119,
+      "output_tokens": 24,
+      "latency_ms": 1171,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_001",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Marie Curie and Pierre Curie [doc_curie_marie]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.0007115,
+      "input_tokens": 119,
+      "output_tokens": 295,
+      "latency_ms": 4131,
+      "cache_hit": false
+    }
+  },
+  "ve_002": {
+    "cheap": {
+      "task_id": "ve_002",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Guido van Rossum [doc_python]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.935000000000001e-05,
+      "input_tokens": 105,
+      "output_tokens": 10,
+      "latency_ms": 1006,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_002",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Guido van Rossum [doc_python]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00023952,
+      "input_tokens": 105,
+      "output_tokens": 83,
+      "latency_ms": 1748,
+      "cache_hit": false
+    }
+  },
+  "ve_003": {
+    "cheap": {
+      "task_id": "ve_003",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Neil Armstrong first walked on the Moon. [doc_apollo]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.834e-05,
+      "input_tokens": 122,
+      "output_tokens": 14,
+      "latency_ms": 867,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_003",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Neil Armstrong first walked on the Moon. [doc_apollo]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.0002642,
+      "input_tokens": 122,
+      "output_tokens": 90,
+      "latency_ms": 1778,
+      "cache_hit": false
+    }
+  },
+  "ve_004": {
+    "cheap": {
+      "task_id": "ve_004",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Albert Einstein developed the theory of general relativity [doc_einstein].",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.456000000000001e-05,
+      "input_tokens": 108,
+      "output_tokens": 14,
+      "latency_ms": 923,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_004",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Albert Einstein [doc_einstein]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00019737000000000002,
+      "input_tokens": 108,
+      "output_tokens": 63,
+      "latency_ms": 1502,
+      "cache_hit": false
+    }
+  },
+  "ve_005": {
+    "cheap": {
+      "task_id": "ve_005",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Alexander Graham Bell [doc_telephone]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.663e-05,
+      "input_tokens": 99,
+      "output_tokens": 9,
+      "latency_ms": 729,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_005",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Alexander Graham Bell [doc_telephone]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00027783,
+      "input_tokens": 99,
+      "output_tokens": 102,
+      "latency_ms": 2070,
+      "cache_hit": false
+    }
+  },
+  "ve_006": {
+    "cheap": {
+      "task_id": "ve_006",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Charles Darwin [doc_darwin]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.7420000000000004e-05,
+      "input_tokens": 106,
+      "output_tokens": 8,
+      "latency_ms": 874,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_006",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Charles Darwin [doc_darwin]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00018532,
+      "input_tokens": 106,
+      "output_tokens": 58,
+      "latency_ms": 1525,
+      "cache_hit": false
+    }
+  },
+  "ve_007": {
+    "cheap": {
+      "task_id": "ve_007",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Edmund Hillary and Tenzing Norgay [doc_everest]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.728000000000001e-05,
+      "input_tokens": 114,
+      "output_tokens": 15,
+      "latency_ms": 868,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_007",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Edmund Hillary and Tenzing Norgay [doc_everest]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00025761,
+      "input_tokens": 114,
+      "output_tokens": 89,
+      "latency_ms": 1714,
+      "cache_hit": false
+    }
+  },
+  "ve_008": {
+    "cheap": {
+      "task_id": "ve_008",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Charles Babbage [doc_babbage]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.6610000000000004e-05,
+      "input_tokens": 103,
+      "output_tokens": 8,
+      "latency_ms": 983,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_008",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Charles Babbage [doc_babbage]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00031287999999999997,
+      "input_tokens": 103,
+      "output_tokens": 117,
+      "latency_ms": 1967,
+      "cache_hit": false
+    }
+  },
+  "ve_009": {
+    "cheap": {
+      "task_id": "ve_009",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Max Planck originated quantum theory in 1900. [doc_planck]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.244000000000001e-05,
+      "input_tokens": 92,
+      "output_tokens": 16,
+      "latency_ms": 965,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_009",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Max Planck originated quantum theory. [doc_planck]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00023894,
+      "input_tokens": 92,
+      "output_tokens": 86,
+      "latency_ms": 1946,
+      "cache_hit": false
+    }
+  },
+  "ve_010": {
+    "cheap": {
+      "task_id": "ve_010",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Christopher Latham Sholes [doc_typewriter]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.8270000000000005e-05,
+      "input_tokens": 101,
+      "output_tokens": 10,
+      "latency_ms": 866,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_010",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Christopher Latham Sholes [doc_typewriter]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00020666,
+      "input_tokens": 101,
+      "output_tokens": 69,
+      "latency_ms": 1779,
+      "cache_hit": false
+    }
+  },
+  "ve_011": {
+    "cheap": {
+      "task_id": "ve_011",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Thomas Edison invented the lightbulb [doc_edison].",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.211e-05,
+      "input_tokens": 103,
+      "output_tokens": 13,
+      "latency_ms": 935,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_011",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Thomas Edison [doc_edison]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00026689,
+      "input_tokens": 103,
+      "output_tokens": 96,
+      "latency_ms": 1855,
+      "cache_hit": false
+    }
+  },
+  "ve_012": {
+    "cheap": {
+      "task_id": "ve_012",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Leonardo da Vinci painted the Mona Lisa. [doc_mona_lisa]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 4.5950000000000006e-05,
+      "input_tokens": 105,
+      "output_tokens": 16,
+      "latency_ms": 916,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_012",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Leonardo da Vinci [doc_mona_lisa]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00018696,
+      "input_tokens": 105,
+      "output_tokens": 59,
+      "latency_ms": 1500,
+      "cache_hit": false
+    }
+  },
+  "ve_013": {
+    "cheap": {
+      "task_id": "ve_013",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Ludwig van Beethoven [doc_beethoven]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.881e-05,
+      "input_tokens": 103,
+      "output_tokens": 10,
+      "latency_ms": 993,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_013",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Ludwig van Beethoven [doc_beethoven]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00018585999999999999,
+      "input_tokens": 103,
+      "output_tokens": 59,
+      "latency_ms": 1566,
+      "cache_hit": false
+    }
+  },
+  "ve_014": {
+    "cheap": {
+      "task_id": "ve_014",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "William Shakespeare wrote Hamlet. [doc_shakespeare]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 3.6110000000000005e-05,
+      "input_tokens": 93,
+      "output_tokens": 10,
+      "latency_ms": 848,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_014",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "William Shakespeare [doc_shakespeare]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00026139,
+      "input_tokens": 93,
+      "output_tokens": 96,
+      "latency_ms": 2146,
+      "cache_hit": false
+    }
+  },
+  "ve_015": {
+    "cheap": {
+      "task_id": "ve_015",
+      "family": "evidence_traps",
+      "action": "cheap",
+      "text": "Pythagoras of Samos is traditionally credited with the first proof of the Pythagorean theorem. [doc_pythagoras]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 5.610000000000001e-05,
+      "input_tokens": 110,
+      "output_tokens": 24,
+      "latency_ms": 951,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "ve_015",
+      "family": "evidence_traps",
+      "action": "strong",
+      "text": "Pythagoras of Samos [doc_pythagoras]",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00018752,
+      "input_tokens": 110,
+      "output_tokens": 58,
+      "latency_ms": 1387,
+      "cache_hit": false
+    }
+  },
+  "vd_001": {
+    "cheap": {
+      "task_id": "vd_001",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [1, 2, 3, 4, 5]\nmean = sum(xs) / len(xs)\nprint(mean)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 5.4990000000000014e-05,
+      "input_tokens": 57,
+      "output_tokens": 36,
+      "latency_ms": 1161,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_001",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nxs = [1, 2, 3, 4, 5]\nmean = sum(xs) / len(xs)\nprint(mean)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00033356999999999994,
+      "input_tokens": 57,
+      "output_tokens": 138,
+      "latency_ms": 2274,
+      "cache_hit": false
+    }
+  },
+  "vd_003": {
+    "cheap": {
+      "task_id": "vd_003",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [10, 20, 30]\nmax_index = xs.index(max(xs))\nprint(max_index)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 4.592000000000001e-05,
+      "input_tokens": 56,
+      "output_tokens": 28,
+      "latency_ms": 1249,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_003",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nxs = [10, 20, 30]\nindex_of_max = xs.index(max(xs))\nprint(index_of_max)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.0002717,
+      "input_tokens": 56,
+      "output_tokens": 110,
+      "latency_ms": 2076,
+      "cache_hit": false
+    }
+  },
+  "vd_002": {
+    "cheap": {
+      "task_id": "vd_002",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [1, 2, 3, 4, 5]\nn = len(xs)\nsorted_xs = sorted(xs)\nif n % 2 == 1:\n    median = sorted_xs[n // 2]\nelse:\n    median = (sorted_xs[n // 2 - 1] + sorted_xs[n // 2]) / 2\nprint(median)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00011329000000000001,
+      "input_tokens": 57,
+      "output_tokens": 89,
+      "latency_ms": 1773,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_002",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nimport statistics\n\nxs = [1, 2, 3, 4, 5]\nprint(statistics.median(xs))\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00097962,
+      "input_tokens": 57,
+      "output_tokens": 433,
+      "latency_ms": 5776,
+      "cache_hit": false
+    }
+  },
+  "vd_005": {
+    "cheap": {
+      "task_id": "vd_005",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\n# Given list\nlst = ['a', 'b', 'a', 'c']\n\n# Count distinct values\ndistinct_count = len(set(lst))\n\n# Print the final answer\nprint(distinct_count)\n```",
+      "weak_pass": false,
+      "exact_pass": false,
+      "cost_usd": 6.572e-05,
+      "input_tokens": 56,
+      "output_tokens": 46,
+      "latency_ms": 1289,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_005",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nvalues = ['a', 'b', 'a', 'c']\ndistinct_count = len(set(values))\nprint(distinct_count)\n```",
+      "weak_pass": false,
+      "exact_pass": false,
+      "cost_usd": 0.00041404999999999995,
+      "input_tokens": 56,
+      "output_tokens": 175,
+      "latency_ms": 2740,
+      "cache_hit": false
+    }
+  },
+  "vd_004": {
+    "cheap": {
+      "task_id": "vd_004",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [1, 2, 3, 4, 5]\nn = len(xs)\nmean = sum(xs) / n\nvariance = sum((x - mean) ** 2 for x in xs) / n\nprint(variance)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 8.22e-05,
+      "input_tokens": 60,
+      "output_tokens": 60,
+      "latency_ms": 1363,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_004",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nxs = [1, 2, 3, 4, 5]\nn = len(xs)\nmean = sum(xs) / n\nvariance = sum((x - mean) ** 2 for x in xs) / n\nprint(variance)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00033521999999999995,
+      "input_tokens": 60,
+      "output_tokens": 138,
+      "latency_ms": 2491,
+      "cache_hit": false
+    }
+  },
+  "vd_006": {
+    "cheap": {
+      "task_id": "vd_006",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [3, 1, 4, 1, 5, 9, 2, 6]\ncount = sum(1 for x in xs if x >= 4)\nprint(count)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 7.143e-05,
+      "input_tokens": 69,
+      "output_tokens": 48,
+      "latency_ms": 1493,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_006",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nxs = [3, 1, 4, 1, 5, 9, 2, 6]\ncount = sum(1 for x in xs if x >= 4)\nprint(count)\n```",
+      "weak_pass": true,
+      "exact_pass": true,
+      "cost_usd": 0.00054603,
+      "input_tokens": 69,
+      "output_tokens": 232,
+      "latency_ms": 3344,
+      "cache_hit": false
+    }
+  },
+  "vd_007": {
+    "cheap": {
+      "task_id": "vd_007",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\n# Given list of tuples\ndata = [('a', 1), ('b', 2), ('a', 3)]\n\n# Compute total v for k='a'\ntotal = sum(v for k, v in data if k == 'a')\n\n# Print the final answer\nprint(total)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 8.959e-05,
+      "input_tokens": 67,
+      "output_tokens": 65,
+      "latency_ms": 1617,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_007",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\n# Given list of tuples\npairs = [('a',1),('b',2),('a',3)]\n# Compute total v for k='a'\ntotal = sum(v for k, v in pairs if k == 'a')\n# Print the final answer on the last line of stdout\nprint(total)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00036534999999999996,
+      "input_tokens": 67,
+      "output_tokens": 150,
+      "latency_ms": 2538,
+      "cache_hit": false
+    }
+  },
+  "vd_009": {
+    "cheap": {
+      "task_id": "vd_009",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\ns = 'banana'\ndistinct = len(set(s))\nprint(distinct)\n```",
+      "weak_pass": false,
+      "exact_pass": false,
+      "cost_usd": 3.6060000000000004e-05,
+      "input_tokens": 48,
+      "output_tokens": 21,
+      "latency_ms": 1155,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_009",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\ns = 'banana'\ndistinct = len(set(s))\nprint(distinct)\n```",
+      "weak_pass": false,
+      "exact_pass": false,
+      "cost_usd": 0.00017532,
+      "input_tokens": 48,
+      "output_tokens": 68,
+      "latency_ms": 1457,
+      "cache_hit": false
+    }
+  },
+  "vd_008": {
+    "cheap": {
+      "task_id": "vd_008",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nxs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfrom collections import Counter\ncounts = Counter(xs)\nmode = max(counts, key=counts.get)\nprint(mode)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 9.119e-05,
+      "input_tokens": 77,
+      "output_tokens": 64,
+      "latency_ms": 1452,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_008",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nxs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfrom collections import Counter\nmode = Counter(xs).most_common(1)[0][0]\nprint(mode)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00106727,
+      "input_tokens": 77,
+      "output_tokens": 468,
+      "latency_ms": 6233,
+      "cache_hit": false
+    }
+  },
+  "vd_010": {
+    "cheap": {
+      "task_id": "vd_010",
+      "family": "data_analysis_traps",
+      "action": "cheap",
+      "text": "```python\nimport math\n\nxs = [10, 20, 30, 40]\n\n# Geometric mean = (x1 * x2 * ... * xn) ** (1/n)\nproduct = 1\nfor x in xs:\n    product *= x\n\ngeometric_mean = product ** (1 / len(xs))\n\n# Round down to integer\nresult = math.floor(geometric_mean)\n\nprint(result)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00011163000000000001,
+      "input_tokens": 59,
+      "output_tokens": 87,
+      "latency_ms": 1735,
+      "cache_hit": false
+    },
+    "strong": {
+      "task_id": "vd_010",
+      "family": "data_analysis_traps",
+      "action": "strong",
+      "text": "```python\nimport math\n\nxs = [10, 20, 30, 40]\nproduct = math.prod(xs)\nn = len(xs)\ngeom_mean = product ** (1.0 / n)\nresult = math.floor(geom_mean)\nprint(result)\n```",
+      "weak_pass": true,
+      "exact_pass": false,
+      "cost_usd": 0.00073106,
+      "input_tokens": 59,
+      "output_tokens": 319,
+      "latency_ms": 4479,
+      "cache_hit": false
+    }
+  }
+}

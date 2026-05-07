@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.768e-05,
+  "input_tokens": 92,
+  "latency_ms": 769,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "992a9e3d9c55c7afbca4d49542c19d0dbc91bbdb8ffecaf99cd20ea9d7513318",
+  "text": "35\n\n1. Check unit price calculation \n2. Verify proportionality of cost to quantity"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016896,
+  "input_tokens": 97,
+  "latency_ms": 845,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 95,
+  "provider": "together",
+  "request_hash": "3ed963165393e5ba3f200bb8e75243733597e4e28293ec8a477a04b28eb55948",
+  "text": "```python\n# Define the 2D list\ndata = [[1,2],[3,4],[5,6]]\n\n# Use zip to transpose the list and sum each column\ncolumn_sums = [sum(col) for col in zip(*data)]\n\n# Print the column-wise sums\nprint(column_sums)\n```\n\nHint: The `zip(*data)` expression is used to transpose the 2D list, allowing you to iterate over the columns."
+}

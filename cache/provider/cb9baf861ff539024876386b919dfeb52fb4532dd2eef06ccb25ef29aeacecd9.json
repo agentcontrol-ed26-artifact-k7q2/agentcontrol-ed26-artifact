@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.65e-05,
+  "input_tokens": 121,
+  "latency_ms": 688,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "cb9baf861ff539024876386b919dfeb52fb4532dd2eef06ccb25ef29aeacecd9",
+  "text": "The publisher of On the Origin of Species, Charles Darwin, traveled from 1831 to 1836. [doc_darwin_origin]"
+}

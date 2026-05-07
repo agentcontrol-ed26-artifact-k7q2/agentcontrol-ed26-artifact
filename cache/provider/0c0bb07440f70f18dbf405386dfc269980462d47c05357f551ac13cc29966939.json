@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.78e-05,
+  "input_tokens": 71,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 6,
+  "provider": "dummy",
+  "request_hash": "0c0bb07440f70f18dbf405386dfc269980462d47c05357f551ac13cc29966939",
+  "text": "Pierre Curie [doc_curie]"
+}

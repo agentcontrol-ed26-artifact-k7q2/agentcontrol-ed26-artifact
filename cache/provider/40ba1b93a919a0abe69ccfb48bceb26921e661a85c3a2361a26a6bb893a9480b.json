@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.649999999999999e-05,
+  "input_tokens": 147,
+  "latency_ms": 303,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "40ba1b93a919a0abe69ccfb48bceb26921e661a85c3a2361a26a6bb893a9480b",
+  "text": "Adolf Hitler [doc_war]"
+}

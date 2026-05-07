@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.74e-05,
+  "input_tokens": 245,
+  "latency_ms": 457,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "1d13986d56368be7f4f31b8a4d0045a34bc354774f39aa1beec53420d42c2a93",
+  "text": "Guido van Rossum created Python [doc_python_creator]."
+}

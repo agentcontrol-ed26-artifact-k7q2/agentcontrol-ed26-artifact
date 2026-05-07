@@ -1,0 +1,523 @@
+{
+  "provider": "together",
+  "cheap_model": "Qwen2.5-7B-Instruct-Turbo",
+  "strong_model": "Llama-3.3-70B-Instruct-Turbo",
+  "n_tasks": 60,
+  "oracles": {
+    "query_router": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.9833333333333333,
+        "avg_cost": 1.3,
+        "avg_latency_ms": 517.3666666666667,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9703333333333337
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 428.06666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333335
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.6,
+          "avg_latency_ms": 467.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9839999999999994
+        }
+      }
+    },
+    "deliberation_graph": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.9833333333333333,
+        "avg_cost": 1.3,
+        "avg_latency_ms": 517.3666666666667,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9703333333333337
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 428.06666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333335
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.6,
+          "avg_latency_ms": 467.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9839999999999994
+        }
+      }
+    },
+    "success_delta_pp": 0.0,
+    "cost_saving_pct_at_observed": 0.0
+  },
+  "baselines": {
+    "always_cheapest": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.95,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 497.53333333333336,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9400000000000005
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 428.06666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333335
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 427.73333333333335,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        }
+      }
+    },
+    "always_strongest": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.95,
+        "avg_cost": 10.0,
+        "avg_latency_ms": 652.1333333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8499999999999991
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 760.4666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9000000000000002
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 606.9333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8333333333333336
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 620.5666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8333333333333328
+        }
+      }
+    },
+    "frugalgpt_cascade": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.9833333333333333,
+        "avg_cost": 1.5,
+        "avg_latency_ms": 544.3833333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9683333333333338
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.6666666666666667,
+          "avg_latency_ms": 483.06666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9166666666666667
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.6666666666666667,
+          "avg_latency_ms": 493.93333333333334,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9833333333333328
+        }
+      }
+    },
+    "automix_self_verification_cascade": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.9833333333333333,
+        "avg_cost": 1.55,
+        "avg_latency_ms": 568.8333333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9678333333333338
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.7333333333333334,
+          "avg_latency_ms": 514.8666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9160000000000001
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.7333333333333334,
+          "avg_latency_ms": 526.9333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9826666666666661
+        }
+      }
+    },
+    "shepherding_hint": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.95,
+        "avg_cost": 1.15,
+        "avg_latency_ms": 562.9,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9385000000000006
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 706.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.2,
+          "avg_latency_ms": 525.8666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9213333333333334
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.2,
+          "avg_latency_ms": 509.56666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9213333333333329
+        }
+      }
+    },
+    "fixed_react": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.95,
+        "avg_cost": 3.05,
+        "avg_latency_ms": 1434.7,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9194999999999993
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 1662.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9700000000000002
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 1374.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666668
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 1350.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666664
+        }
+      }
+    },
+    "fixed_retrieve_answer_verify": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.95,
+        "avg_cost": 3.05,
+        "avg_latency_ms": 1521.1,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9194999999999993
+      },
+      "per_family": {
+        "code": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 1559.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9700000000000002
+        },
+        "evidence": {
+          "n": 15,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 1675.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666668
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 1424.7333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666664
+        }
+      }
+    }
+  },
+  "heuristic": {
+    "aggregate": {
+      "n": 60,
+      "success_rate": 0.9833333333333333,
+      "avg_cost": 1.7,
+      "avg_latency_ms": 634.2,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9663333333333338
+    },
+    "per_family": {
+      "code": {
+        "n": 15,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 706.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "evidence": {
+        "n": 15,
+        "success_rate": 0.9333333333333333,
+        "avg_cost": 1.9333333333333333,
+        "avg_latency_ms": 612.6666666666666,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.914
+      },
+      "math": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.9333333333333333,
+        "avg_latency_ms": 608.7666666666667,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9806666666666662
+      }
+    }
+  },
+  "verifier_ablation": {
+    "budget_tiers": [
+      {
+        "budget": 3.0,
+        "verifier_aware_success": 0.95,
+        "verifier_aware_cost": 0.95,
+        "no_verifier_success": 0.95,
+        "no_verifier_cost": 0.95,
+        "no_verifier_cost_premium_pct": 0.0
+      },
+      {
+        "budget": 5.0,
+        "verifier_aware_success": 0.95,
+        "verifier_aware_cost": 0.95,
+        "no_verifier_success": 0.95,
+        "no_verifier_cost": 0.95,
+        "no_verifier_cost_premium_pct": 0.0
+      },
+      {
+        "budget": 8.0,
+        "verifier_aware_success": 0.95,
+        "verifier_aware_cost": 0.95,
+        "no_verifier_success": 0.95,
+        "no_verifier_cost": 0.95,
+        "no_verifier_cost_premium_pct": 0.0
+      },
+      {
+        "budget": 12.0,
+        "verifier_aware_success": 0.9833333333333333,
+        "verifier_aware_cost": 1.3,
+        "no_verifier_success": 0.9833333333333333,
+        "no_verifier_cost": 1.3,
+        "no_verifier_cost_premium_pct": 0.0
+      },
+      {
+        "budget": 20.0,
+        "verifier_aware_success": 0.9833333333333333,
+        "verifier_aware_cost": 1.3,
+        "no_verifier_success": 0.9833333333333333,
+        "no_verifier_cost": 1.3,
+        "no_verifier_cost_premium_pct": 0.0
+      }
+    ],
+    "no_verifier_dominates_at_budgets": [],
+    "go_criterion_4_passed": false
+  },
+  "bootstrap": {
+    "n_resamples": 1000,
+    "seed": 20260427,
+    "graph_query_cost_saving_pct": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    },
+    "oracle_query_router_avg_cost": {
+      "mean": 1.29595,
+      "ci_lo": 1.0,
+      "ci_hi": 1.75
+    },
+    "oracle_deliberation_graph_avg_cost": {
+      "mean": 1.29595,
+      "ci_lo": 1.0,
+      "ci_hi": 1.75
+    },
+    "heuristic_bdelg_avg_cost": {
+      "mean": 1.6985999999999999,
+      "ci_lo": 1.0,
+      "ci_hi": 2.4
+    }
+  },
+  "sensitivity": {
+    "cells": [
+      {
+        "budget": 3.0,
+        "cost_penalty": 0.0,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 3.0,
+        "cost_penalty": 0.01,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 3.0,
+        "cost_penalty": 0.1,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 8.0,
+        "cost_penalty": 0.0,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 8.0,
+        "cost_penalty": 0.01,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 8.0,
+        "cost_penalty": 0.1,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 12.0,
+        "cost_penalty": 0.0,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 12.0,
+        "cost_penalty": 0.01,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 12.0,
+        "cost_penalty": 0.1,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 20.0,
+        "cost_penalty": 0.0,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 20.0,
+        "cost_penalty": 0.01,
+        "saving_pct": 0.0
+      },
+      {
+        "budget": 20.0,
+        "cost_penalty": 0.1,
+        "saving_pct": 0.0
+      }
+    ],
+    "crossings": [],
+    "any_crossing": false
+  }
+}

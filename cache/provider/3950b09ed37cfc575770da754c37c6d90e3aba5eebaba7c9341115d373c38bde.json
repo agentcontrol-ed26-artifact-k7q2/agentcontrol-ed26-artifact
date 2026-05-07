@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016808,
+  "input_tokens": 158,
+  "latency_ms": 773,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "3950b09ed37cfc575770da754c37c6d90e3aba5eebaba7c9341115d373c38bde",
+  "text": "Answer: 1915 [doc_einstein]. \nThe most common citation mistake is failing to include the citation or including multiple citations when only one is required."
+}

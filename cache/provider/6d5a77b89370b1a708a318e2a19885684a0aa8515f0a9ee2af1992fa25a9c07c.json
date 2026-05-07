@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021915,
+  "input_tokens": 60,
+  "latency_ms": 1994,
+  "model": "deepseek-reasoner",
+  "output_tokens": 85,
+  "provider": "deepseek",
+  "request_hash": "6d5a77b89370b1a708a318e2a19885684a0aa8515f0a9ee2af1992fa25a9c07c",
+  "text": "Multiply 7 by itself."
+}

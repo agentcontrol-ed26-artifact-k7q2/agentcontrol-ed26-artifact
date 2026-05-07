@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.91e-05,
+  "input_tokens": 73,
+  "latency_ms": 434,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "4fc4efb02f07bcb8088d21b821501688f0b62f84577ffcc27af3d7382df109db",
+  "text": "def sum_digits(n: int) -> int:\n    return sum(int(digit) for digit in str(n))"
+}

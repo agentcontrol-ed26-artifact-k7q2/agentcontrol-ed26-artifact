@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.07e-05,
+  "input_tokens": 73,
+  "latency_ms": 1572,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 196,
+  "provider": "together",
+  "request_hash": "f031fce8cc66649d2362814845f5592c6a696f3cfcdec90af90cfc30a670bda1",
+  "text": "To find the percent decrease when the price drops from 80 to 60, we need to follow these steps:\n\n1. Calculate the drop in price.\n2. Divide the drop by the original price.\n3. Convert the result to a percentage.\n\nLet's go through each step in detail:\n\n1. **Calculate the drop in price:**\n   \\[\n   \\text{Drop} = 80 - 60 = 20\n   \\]\n\n2. **Divide the drop by the original price:**\n   \\[\n   \\frac{\\text{Drop}}{\\text{Original Price}} = \\frac{20}{80} = 0.25\n   \\]\n\n3. **Convert the result to a percentage:**\n   \\[\n   0.25 \\times 100 = 25\\%\n   \\]\n\nSo, the percent decrease is \\(\\boxed{25}\\)."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00044472999999999995,
+  "input_tokens": 64,
+  "latency_ms": 3206,
+  "model": "deepseek-reasoner",
+  "output_tokens": 187,
+  "provider": "deepseek",
+  "request_hash": "0185d370796c20d59a2d5b28076bd36c8d7c68502b336c4adba62faaa710caac",
+  "text": "Sum = 10 + 20 + 30 + 40 = 100  \nCount = 4  \nMean = 100 \u00f7 4 = 25  \n\n25"
+}

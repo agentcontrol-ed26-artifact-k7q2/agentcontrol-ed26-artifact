@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013288,
+  "input_tokens": 119,
+  "latency_ms": 765,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "0a608bde352a39a421b9cf92b7fead0b3060d23c3a453a972df8f293d3c867c1",
+  "text": "The most common citation mistake is failing to properly reference the source document, such as omitting the bracketed citation or incorrectly formatting it [doc_moon]."
+}

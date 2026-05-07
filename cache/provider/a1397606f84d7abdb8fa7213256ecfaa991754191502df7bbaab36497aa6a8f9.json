@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.3499999999999993e-05,
+  "input_tokens": 136,
+  "latency_ms": 250,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "a1397606f84d7abdb8fa7213256ecfaa991754191502df7bbaab36497aa6a8f9",
+  "text": "The Amazon River [doc_amazon]"
+}

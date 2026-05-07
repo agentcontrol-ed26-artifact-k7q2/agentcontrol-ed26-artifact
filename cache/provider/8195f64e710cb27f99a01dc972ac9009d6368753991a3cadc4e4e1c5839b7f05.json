@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016016,
+  "input_tokens": 91,
+  "latency_ms": 1663,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 91,
+  "provider": "together",
+  "request_hash": "8195f64e710cb27f99a01dc972ac9009d6368753991a3cadc4e4e1c5839b7f05",
+  "text": "1 + 3 = 4, 4 + 5 = 9, 9 + 7 = 16, 16 + 9 = 25, 25 + 11 = 36, 36 + 13 = 49, 49 + 15 = 64, 64 + 17 = 81, 81 + 19 = 100, 100 + 21 = 121 \n121"
+}

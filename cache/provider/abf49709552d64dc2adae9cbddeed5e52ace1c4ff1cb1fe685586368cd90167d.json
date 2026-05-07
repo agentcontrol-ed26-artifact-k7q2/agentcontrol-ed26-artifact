@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.97e-05,
+  "input_tokens": 184,
+  "latency_ms": 259,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "abf49709552d64dc2adae9cbddeed5e52ace1c4ff1cb1fe685586368cd90167d",
+  "text": "World War II began in 1939 [doc_war]."
+}

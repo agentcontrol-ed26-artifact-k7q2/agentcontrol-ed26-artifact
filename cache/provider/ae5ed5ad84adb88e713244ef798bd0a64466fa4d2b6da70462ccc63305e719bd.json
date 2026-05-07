@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019536,
+  "input_tokens": 143,
+  "latency_ms": 1134,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 79,
+  "provider": "together",
+  "request_hash": "ae5ed5ad84adb88e713244ef798bd0a64466fa4d2b6da70462ccc63305e719bd",
+  "text": "The most common citation mistake is failing to properly reference the supporting document, often resulting in a citation that does not match the provided evidence, such as incorrectly citing [doc_telephone] when the correct citation should be related to the Nile River, in this case [doc_nile] would be the correct citation to use for a question about the Nile River, answer phrase [doc_nile]"
+}

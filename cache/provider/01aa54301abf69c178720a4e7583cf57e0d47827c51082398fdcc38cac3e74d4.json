@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015664,
+  "input_tokens": 98,
+  "latency_ms": 2522,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 80,
+  "provider": "together",
+  "request_hash": "01aa54301abf69c178720a4e7583cf57e0d47827c51082398fdcc38cac3e74d4",
+  "text": "To compute (3+4)*(5-2), we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the expressions inside the parentheses:\n   (3+4) = 7\n   (5-2) = 3\n\n2. Now that we have the intermediate values, we can multiply them:\n   7 * 3 = 21\n\n21"
+}

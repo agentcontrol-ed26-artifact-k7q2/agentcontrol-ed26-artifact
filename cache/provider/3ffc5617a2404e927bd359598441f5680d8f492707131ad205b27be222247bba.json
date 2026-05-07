@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013728,
+  "input_tokens": 113,
+  "latency_ms": 946,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "3ffc5617a2404e927bd359598441f5680d8f492707131ad205b27be222247bba",
+  "text": "To avoid the mistake of incorrectly calculating the total number of marbles, which is 3 + 4 + 5 = 12, and then using this to find the probability of drawing a blue marble."
+}

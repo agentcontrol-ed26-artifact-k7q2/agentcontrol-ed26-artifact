@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018696,
+  "input_tokens": 105,
+  "latency_ms": 1500,
+  "model": "deepseek-reasoner",
+  "output_tokens": 59,
+  "provider": "deepseek",
+  "request_hash": "769d4a646cf5e4d872a8c6f4f06f049da691b27a8b44ebfd9e259b1308692ec8",
+  "text": "Leonardo da Vinci [doc_mona_lisa]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.11e-05,
+  "input_tokens": 81,
+  "latency_ms": 1501,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 156,
+  "provider": "together",
+  "request_hash": "ef5817ab723370971af7b0172d837ce9efa048cbaf677d27945571d489263d77",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for layer in range(n // 2):\n        first, last = layer, n - layer - 1\n        for i in range(first, last):\n            offset = i - first\n            # Save top element\n            top = m[first][i]\n            # Move left element to top\n            m[first][i] = m[last - offset][first]\n            # Move bottom element to left\n            m[last - offset][first] = m[last][last - offset]\n            # Move right element to bottom\n            m[last][last - offset] = m[i][last]\n            # Assign saved top element to right\n            m[i][last] = top\n```"
+}

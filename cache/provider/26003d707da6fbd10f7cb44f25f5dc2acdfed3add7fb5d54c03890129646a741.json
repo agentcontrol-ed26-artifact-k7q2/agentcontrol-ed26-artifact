@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.826e-05,
+  "input_tokens": 258,
+  "latency_ms": 1537,
+  "model": "deepseek-chat",
+  "output_tokens": 26,
+  "provider": "deepseek",
+  "request_hash": "26003d707da6fbd10f7cb44f25f5dc2acdfed3add7fb5d54c03890129646a741",
+  "text": "The provided evidence does not contain information about the creator of Python or their country of birth. [doc_armstrong_bio]"
+}

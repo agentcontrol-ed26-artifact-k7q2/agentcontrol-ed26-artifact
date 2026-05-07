@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00044160999999999994,
+  "input_tokens": 130,
+  "latency_ms": 2698,
+  "model": "deepseek-reasoner",
+  "output_tokens": 169,
+  "provider": "deepseek",
+  "request_hash": "768448ccd6ff3cc7fe0d3f3df4b8d9f720e6575c29cc180a66324e55c60de0c0",
+  "text": "1. Verify that the evidence explicitly names Pierre Curie as sharing the 1903 Nobel Prize in Physics with Marie Curie and Henri Becquerel.\n2. Confirm that the evidence specifies the year 1903 and the category \"Physics\" match the question's parameters."
+}

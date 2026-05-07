@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001035,
+  "input_tokens": 263,
+  "latency_ms": 951,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 82,
+  "provider": "together",
+  "request_hash": "e719c268870a1ea2dbb7e469322cbc6180243d64917f9ca6795da4e805304fcc",
+  "text": "The evidence provided does not specify the exact location from which Edmund Hillary climbed Mount Everest. However, it does mention that he summited Everest with Tenzing Norgay in 1953 [doc_hillary_bio]. Given the context, it is commonly known that they climbed from the Nepalese side, but this is not directly stated in the given documents. [doc_hillary_bio]"
+}

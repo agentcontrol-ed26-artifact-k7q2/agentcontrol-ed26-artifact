@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00040529,
+  "input_tokens": 56,
+  "latency_ms": 2773,
+  "model": "deepseek-reasoner",
+  "output_tokens": 171,
+  "provider": "deepseek",
+  "request_hash": "1f16428d82b99d338e9ca533b16e2a1bdfddf031b03cc4e1ee1c3f8cf3fbebc3",
+  "text": "```python\nimport math\n\ndef is_prime(n: int) -> bool:\n    if n <= 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    limit = math.isqrt(n)\n    for i in range(3, limit + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

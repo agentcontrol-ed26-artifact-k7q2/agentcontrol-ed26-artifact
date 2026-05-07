@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001144,
+  "input_tokens": 92,
+  "latency_ms": 2294,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "a4da32ec8127a1b8a90feae6fabef235844bb03dd4a71b6ee7fb83e21d8f63b6",
+  "text": "7^4 = 2401\n2401 mod 13 = 2401 - (13 * 184) = 2401 - 2392 = 9\n10"
+}

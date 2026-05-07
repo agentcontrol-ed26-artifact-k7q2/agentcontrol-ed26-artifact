@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046552999999999997,
+  "input_tokens": 62,
+  "latency_ms": 3539,
+  "model": "deepseek-reasoner",
+  "output_tokens": 197,
+  "provider": "deepseek",
+  "request_hash": "1ca9ec3c4e558e79d6f8a0d5fd7a55b6d045ac6266510551dc3b5165e64a4b70",
+  "text": "A common mistake is to multiply 25 by 320 instead of converting 25% to 0.25 or 1/4 first."
+}

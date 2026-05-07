@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001364,
+  "input_tokens": 93,
+  "latency_ms": 722,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 62,
+  "provider": "together",
+  "request_hash": "21fb360fb1dae1ae0d1228b78f679f3d657d855c549810cb2947e160afaeb618",
+  "text": "```python\n# Define the 2D list\ndata = [[1,2],[3,4],[5,6]]\n\n# Compute the column-wise sums\ncolumn_sums = [sum(col) for col in zip(*data)]\n\n# Print the column-wise sums\nprint(column_sums)\n```"
+}

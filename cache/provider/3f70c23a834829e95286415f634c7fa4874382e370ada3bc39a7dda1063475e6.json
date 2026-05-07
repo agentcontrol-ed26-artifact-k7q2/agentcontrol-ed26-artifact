@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030272000000000003,
+  "input_tokens": 301,
+  "latency_ms": 1038,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "3f70c23a834829e95286415f634c7fa4874382e370ada3bc39a7dda1063475e6",
+  "text": "There is no information about the cause of death of Pierre Curie in the provided documents, however, it can be inferred that information about his death is not present.\nAnswer [doc_curie_irene]"
+}

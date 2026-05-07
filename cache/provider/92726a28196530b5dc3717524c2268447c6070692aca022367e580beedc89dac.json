@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.99e-05,
+  "input_tokens": 88,
+  "latency_ms": 556,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "92726a28196530b5dc3717524c2268447c6070692aca022367e580beedc89dac",
+  "text": "The number is 999. Each digit is 9.\n\nFirst, we compute the sum of the digits:\n9 + 9 + 9 = 27\n\nThe final answer is 27."
+}

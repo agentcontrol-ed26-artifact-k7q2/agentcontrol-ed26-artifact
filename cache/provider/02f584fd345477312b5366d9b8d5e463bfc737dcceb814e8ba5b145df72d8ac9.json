@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001188,
+  "input_tokens": 127,
+  "latency_ms": 422,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "02f584fd345477312b5366d9b8d5e463bfc737dcceb814e8ba5b145df72d8ac9",
+  "text": "Polonium [doc_curie]"
+}

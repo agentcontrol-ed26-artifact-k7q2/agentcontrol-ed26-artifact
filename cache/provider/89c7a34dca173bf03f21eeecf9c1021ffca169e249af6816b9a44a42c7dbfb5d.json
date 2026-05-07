@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.6899999999999996e-05,
+  "input_tokens": 79,
+  "latency_ms": 593,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "89c7a34dca173bf03f21eeecf9c1021ffca169e249af6816b9a44a42c7dbfb5d",
+  "text": "```python\ndata = [{'k':1},{'k':2},{'k':3}]\nsum_k = sum(d['k'] for d in data)\nsum_k\n```\n1+2+3"
+}

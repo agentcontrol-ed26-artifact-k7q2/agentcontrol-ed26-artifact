@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024376,
+  "input_tokens": 220,
+  "latency_ms": 2783,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "3814e10e90ed870136daa67f5510f8f6743dd85ac696582e8bedc2913cdd87ca",
+  "text": "The most common citation mistake is including multiple or incorrect citations, rather than providing a single correct reference to the supporting document, such as [doc_xxx], that directly answers the question.\nAnswer phrase: The first person to walk on the Moon was born in [doc_armstrong]"
+}

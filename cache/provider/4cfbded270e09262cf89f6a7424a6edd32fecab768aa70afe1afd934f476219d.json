@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528,
+  "input_tokens": 78,
+  "latency_ms": 803,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 53,
+  "provider": "together",
+  "request_hash": "4cfbded270e09262cf89f6a7424a6edd32fecab768aa70afe1afd934f476219d",
+  "text": "The number of distinct solutions to the 8-queens problem on a standard 8x8 board is 92, and a typical mistake is to assume that the problem can be solved using only backtracking without considering the symmetries of the board."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.87e-05,
+  "input_tokens": 210,
+  "latency_ms": 635,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "b689ffdabb24bd209927ddb96c379e4836dd7aab16a12112da0853131097d8f0",
+  "text": "Rosalind Franklin's X-ray diffraction images [doc_franklin_xray]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.672e-05,
+  "input_tokens": 76,
+  "latency_ms": 1325,
+  "model": "deepseek-chat",
+  "output_tokens": 42,
+  "provider": "deepseek",
+  "request_hash": "98744bbe010a88c22d3ea74c438b5353beef04819f5b3e2e3bd392d786005121",
+  "text": "```python\ndef sum_digits(n):\n    total = 0\n    while n > 0:\n        total += n % 10\n        n //= 10\n    return total\n```"
+}

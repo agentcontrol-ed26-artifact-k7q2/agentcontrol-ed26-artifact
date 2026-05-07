@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.379000000000001e-05,
+  "input_tokens": 237,
+  "latency_ms": 993,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "969ad5f83740678ffa84729907fad4923a6d4b3dc39f9e8ee2e34a8b3b372c3f",
+  "text": "Ada Lovelace is described as the first computer programmer. [doc_lovelace]"
+}

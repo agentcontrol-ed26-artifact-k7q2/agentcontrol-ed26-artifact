@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.118e-05,
+  "input_tokens": 54,
+  "latency_ms": 973,
+  "model": "deepseek-chat",
+  "output_tokens": 6,
+  "provider": "deepseek",
+  "request_hash": "033733c013f26d14f43e111a969387c90eb8fc360d82f90c5b67827b09d30556",
+  "text": "Google, Dropbox, Microsoft"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028776,
+  "input_tokens": 296,
+  "latency_ms": 858,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "015423eaa65d05f8793d94f4b52d86ad83804ad204278282b72104ab85ff29f9",
+  "text": "The answer is Irene Joliot-Curie, the daughter of Marie Curie, who discovered polonium [doc_curie_irene]"
+}

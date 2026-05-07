@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026488,
+  "input_tokens": 240,
+  "latency_ms": 4431,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 61,
+  "provider": "together",
+  "request_hash": "aa9f8c6cc4039fb830db04c77a7e9cb77d10e6a83d7cd51bcbf3034462258c10",
+  "text": "The most common citation mistake is failing to properly reference the source of information, often resulting in inaccurate or missing citations, such as not including the bracketed citation as required.\nAnswer phrase: Whose X-ray diffraction images contributed to the discovery of the DNA double helix structure [doc_dna]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8910000000000004e-05,
+  "input_tokens": 63,
+  "latency_ms": 1180,
+  "model": "deepseek-chat",
+  "output_tokens": 29,
+  "provider": "deepseek",
+  "request_hash": "5263e7b16d071984d17b774de5045045d072234faf4843cbe757460db27384ac",
+  "text": "```python\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

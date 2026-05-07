@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.7600000000000004e-05,
+  "input_tokens": 71,
+  "latency_ms": 1500,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 121,
+  "provider": "together",
+  "request_hash": "089d8d8ddb20a8c0bb1cb66199d5a8d327effb541b0b4e19bec432db13ce9a32",
+  "text": "```python\ndef interval_merge(intervals):\n    if not intervals:\n        return []\n    \n    # Sort intervals based on the start time\n    intervals.sort(key=lambda x: x[0])\n    \n    merged = [intervals[0]]\n    \n    for current in intervals[1:]:\n        last_merged = merged[-1]\n        if current[0] <= last_merged[1]:  # Overlapping intervals\n            merged[-1] = (last_merged[0], max(last_merged[1], current[1]))\n        else:\n            merged.append(current)\n    \n    return merged\n```"
+}

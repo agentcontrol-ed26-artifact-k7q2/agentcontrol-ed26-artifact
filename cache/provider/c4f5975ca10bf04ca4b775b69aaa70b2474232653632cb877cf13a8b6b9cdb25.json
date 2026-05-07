@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.137e-05,
+  "input_tokens": 51,
+  "latency_ms": 1141,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "c4f5975ca10bf04ca4b775b69aaa70b2474232653632cb877cf13a8b6b9cdb25",
+  "text": "```python\ndef reverse_list(xs):\n    return xs[::-1]\n```"
+}

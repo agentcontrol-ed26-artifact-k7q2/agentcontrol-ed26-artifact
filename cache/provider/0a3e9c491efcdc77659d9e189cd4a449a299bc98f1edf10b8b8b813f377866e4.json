@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010559999999999999,
+  "input_tokens": 84,
+  "latency_ms": 628,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "0a3e9c491efcdc77659d9e189cd4a449a299bc98f1edf10b8b8b813f377866e4",
+  "text": "To find the sum of the digits of 999, consider that since each digit is 9, you can simply multiply 9 by the number of digits in 999."
+}

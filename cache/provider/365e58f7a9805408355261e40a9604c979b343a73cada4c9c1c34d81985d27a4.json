@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023672,
+  "input_tokens": 102,
+  "latency_ms": 1424,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 167,
+  "provider": "together",
+  "request_hash": "365e58f7a9805408355261e40a9604c979b343a73cada4c9c1c34d81985d27a4",
+  "text": "```python\ndef compute_trace(matrix):\n    \"\"\"\n    Compute the trace (diagonal sum) of a square matrix.\n    \n    Args:\n    matrix (list of lists): A square matrix.\n    \n    Returns:\n    int: The trace of the matrix.\n    \"\"\"\n    # Check if the matrix is square\n    assert all(len(row) == len(matrix) for row in matrix), \"Matrix is not square\"\n    \n    # Compute the trace\n    trace = sum(matrix[i][i] for i in range(len(matrix)))\n    \n    return trace\n\n# Define the matrix\nmatrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\n# Compute and print the trace\ntrace = compute_trace(matrix)\nprint(\"Trace:\", trace)\n```"
+}

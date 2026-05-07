@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00182606,
+  "input_tokens": 59,
+  "latency_ms": 11317,
+  "model": "deepseek-reasoner",
+  "output_tokens": 819,
+  "provider": "deepseek",
+  "request_hash": "98f405fa6da3ce2efb0171604913cfcd45866561e13c2da7f7f03fe7c537d09f",
+  "text": "```python\ndef is_anagram(a, b):\n    a_letters = ''.join(c.lower() for c in a if c.isalpha())\n    b_letters = ''.join(c.lower() for c in b if c.isalpha())\n    return sorted(a_letters) == sorted(b_letters)\n```"
+}

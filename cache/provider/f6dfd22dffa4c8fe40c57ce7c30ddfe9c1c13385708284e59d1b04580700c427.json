@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027632000000000004,
+  "input_tokens": 293,
+  "latency_ms": 1387,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "f6dfd22dffa4c8fe40c57ce7c30ddfe9c1c13385708284e59d1b04580700c427",
+  "text": "The producer of Photo 51 of DNA died at age 37 [doc_franklin_death]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017776,
+  "input_tokens": 143,
+  "latency_ms": 1640,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 59,
+  "provider": "together",
+  "request_hash": "5cc138e24e4010d586ec4f67ad2c97691dad0e266a8f81f8d00d35d28f550b7f",
+  "text": "What did Marie Curie discover besides radium? [doc_curie]\nVerification check 1: Review the list of elements discovered by Marie Curie to confirm the discovery.\nVerification check 2: Verify the year of discovery of polonium to ensure it aligns with known historical records."
+}

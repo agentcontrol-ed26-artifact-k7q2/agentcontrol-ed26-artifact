@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.152e-05,
+  "input_tokens": 93,
+  "latency_ms": 1846,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "9fb3f0bcf74b9bc27e461331e8cfd4363fad5a85441ef94725f3d4e8d106fdcf",
+  "text": "Subtract the tens and ones places separately \n63"
+}

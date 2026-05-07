@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019536,
+  "input_tokens": 94,
+  "latency_ms": 954,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 128,
+  "provider": "together",
+  "request_hash": "cd8b5231d14f75274fa233ccac231c2054969e4d3f3e6639f468e53ae9044819",
+  "text": "The most common bug to avoid when generating permutations is forgetting to handle the base case where the input list is empty, which can lead to infinite recursion or incorrect results. \n\n```python\ndef all_permutations(xs):\n    if len(xs) == 0:\n        return [()]\n    elif len(xs) == 1:\n        return [(xs[0],)]\n    else:\n        result = []\n        for i in range(len(xs)):\n            rest = xs[:i] + xs[i+1:]\n            for p in all_permutations(rest):\n                result.append((xs[i],) + p)\n        return sorted(result)\n```"
+}

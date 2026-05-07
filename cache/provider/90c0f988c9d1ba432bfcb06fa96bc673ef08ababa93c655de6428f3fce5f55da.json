@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045512,
+  "input_tokens": 59,
+  "latency_ms": 3636,
+  "model": "deepseek-reasoner",
+  "output_tokens": 193,
+  "provider": "deepseek",
+  "request_hash": "90c0f988c9d1ba432bfcb06fa96bc673ef08ababa93c655de6428f3fce5f55da",
+  "text": "The most common mistake is confusing squaring with doubling, e.g., thinking 7 squared equals 14 instead of 49."
+}

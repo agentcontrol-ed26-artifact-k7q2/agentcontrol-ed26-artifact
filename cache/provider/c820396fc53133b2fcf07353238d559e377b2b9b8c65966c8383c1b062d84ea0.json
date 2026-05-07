@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017952000000000002,
+  "input_tokens": 162,
+  "latency_ms": 3733,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "c820396fc53133b2fcf07353238d559e377b2b9b8c65966c8383c1b062d84ea0",
+  "text": "The most common citation mistake is including multiple or incorrect citations, rather than providing a single correct reference to the relevant document, such as [doc_apollo] or another relevant source, to support the answer."
+}

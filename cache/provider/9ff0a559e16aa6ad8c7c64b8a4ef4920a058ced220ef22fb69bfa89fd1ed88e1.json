@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026312000000000004,
+  "input_tokens": 106,
+  "latency_ms": 3782,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 193,
+  "provider": "together",
+  "request_hash": "9ff0a559e16aa6ad8c7c64b8a4ef4920a058ced220ef22fb69bfa89fd1ed88e1",
+  "text": "```python\ndef next_permutation(xs):\n    \"\"\"\n    Mutates xs to the next lexicographic permutation in place; \n    if at last, set to first. Returns None.\n    \"\"\"\n    def reverse(i, j):\n        while i < j:\n            xs[i], xs[j] = xs[j], xs[i]\n            i += 1\n            j -= 1\n\n    i = len(xs) - 2\n    while i >= 0 and xs[i] >= xs[i + 1]:\n        i -= 1\n    if i < 0:\n        reverse(0, len(xs) - 1)\n    else:\n        j = len(xs) - 1\n        while xs[j] <= xs[i]:\n            j -= 1\n        xs[i], xs[j] = xs[j], xs[i]\n        reverse(i + 1, len(xs) - 1)\n    return None\n```"
+}

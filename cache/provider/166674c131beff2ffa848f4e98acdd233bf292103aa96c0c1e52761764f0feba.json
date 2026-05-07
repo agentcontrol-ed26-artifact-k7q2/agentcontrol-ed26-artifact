@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.86e-05,
+  "input_tokens": 89,
+  "latency_ms": 845,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 73,
+  "provider": "together",
+  "request_hash": "166674c131beff2ffa848f4e98acdd233bf292103aa96c0c1e52761764f0feba",
+  "text": "```python\nxs = [3, 7, 11, 13, 17, 19, 23]\ncount = sum(1 for x in xs if all(x % d != 0 for d in range(2, int(x**0.5) + 1)))\nprint(count)\n```\n7"
+}

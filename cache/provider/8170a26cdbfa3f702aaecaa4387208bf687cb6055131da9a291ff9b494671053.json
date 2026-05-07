@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 94,
+  "latency_ms": 695,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 79,
+  "provider": "together",
+  "request_hash": "8170a26cdbfa3f702aaecaa4387208bf687cb6055131da9a291ff9b494671053",
+  "text": "```python\ndef matrix_transpose(m):\n    \"\"\"\n    Returns the transpose of a 2D list.\n    \n    Args:\n        m (list): A 2D list representing a matrix.\n    \n    Returns:\n        list: The transpose of the input matrix.\n    \"\"\"\n    return [[row[i] for row in m] for i in range(len(m[0]))]\n```"
+}

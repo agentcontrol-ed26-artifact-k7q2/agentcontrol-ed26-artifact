@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012655999999999998,
+  "input_tokens": 35,
+  "latency_ms": 1445,
+  "model": "deepseek-reasoner",
+  "output_tokens": 49,
+  "provider": "deepseek",
+  "request_hash": "71f430615587312e301cc8aa46a9f4b9dc1da961c3e157af0f38d1f9ae9959ba",
+  "text": "A cube has 12 edges.\n\nFinal answer: 12"
+}

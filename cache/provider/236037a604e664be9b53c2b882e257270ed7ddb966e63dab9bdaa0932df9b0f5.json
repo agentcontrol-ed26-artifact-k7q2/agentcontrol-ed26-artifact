@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015047999999999998,
+  "input_tokens": 139,
+  "latency_ms": 775,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "236037a604e664be9b53c2b882e257270ed7ddb966e63dab9bdaa0932df9b0f5",
+  "text": "Answer: Marie Curie [doc_curie]. \nThe most common citation mistake is citing a source that does not support the claim made in the text."
+}

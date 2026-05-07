@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011112,
+  "input_tokens": 106,
+  "latency_ms": 1647,
+  "model": "deepseek-chat",
+  "output_tokens": 75,
+  "provider": "deepseek",
+  "request_hash": "ddac6fd8631cf62b5e60669f46a038b89eda5ac0c2ceb810e2790f996f9d312c",
+  "text": "```python\ntable = [(1,'A','x',10),(2,'B','y',20),(3,'A','y',30),(4,'B','x',15),(5,'A','x',25)]\n\ntotal = sum(value for _, group, kind, value in table if group == 'A' and kind == 'x')\nprint(total)\n```"
+}

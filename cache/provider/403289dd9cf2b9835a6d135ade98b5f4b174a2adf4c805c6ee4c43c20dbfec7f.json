@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 90,
+  "latency_ms": 728,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "403289dd9cf2b9835a6d135ade98b5f4b174a2adf4c805c6ee4c43c20dbfec7f",
+  "text": "210\n1. Check unit rate of distance per hour \n2. Verify proportionality of distance and time"
+}

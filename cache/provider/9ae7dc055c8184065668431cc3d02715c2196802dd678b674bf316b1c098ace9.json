@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.45e-05,
+  "input_tokens": 66,
+  "latency_ms": 565,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 49,
+  "provider": "together",
+  "request_hash": "9ae7dc055c8184065668431cc3d02715c2196802dd678b674bf316b1c098ace9",
+  "text": "```python\ndef find_duplicates(xs):\n    seen = set()\n    duplicates = set()\n    for x in xs:\n        if x in seen:\n            duplicates.add(x)\n        seen.add(x)\n    return sorted(list(duplicates))\n```"
+}

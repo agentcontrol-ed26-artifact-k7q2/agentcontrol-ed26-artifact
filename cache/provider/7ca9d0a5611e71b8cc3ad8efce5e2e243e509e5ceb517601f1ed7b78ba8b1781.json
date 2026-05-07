@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004688,
+  "input_tokens": 56,
+  "latency_ms": 3294,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "7ca9d0a5611e71b8cc3ad8efce5e2e243e509e5ceb517601f1ed7b78ba8b1781",
+  "text": ""
+}

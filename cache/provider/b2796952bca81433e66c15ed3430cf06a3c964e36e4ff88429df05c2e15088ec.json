@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.550000000000002e-05,
+  "input_tokens": 40,
+  "latency_ms": 1542,
+  "model": "deepseek-chat",
+  "output_tokens": 77,
+  "provider": "deepseek",
+  "request_hash": "b2796952bca81433e66c15ed3430cf06a3c964e36e4ff88429df05c2e15088ec",
+  "text": "Let's calculate step by step.\n\n1. Find the increase:  \n\\( 100 - 80 = 20 \\)\n\n2. Divide the increase by the original price:  \n\\( 20 / 80 = 0.25 \\)\n\n3. Convert to a percentage:  \n\\( 0.25 \\times 100 = 25\\% \\)\n\nFinal answer: 25"
+}

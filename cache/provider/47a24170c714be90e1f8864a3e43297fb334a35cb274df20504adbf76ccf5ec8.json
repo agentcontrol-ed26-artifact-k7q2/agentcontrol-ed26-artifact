@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020768,
+  "input_tokens": 106,
+  "latency_ms": 807,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 130,
+  "provider": "together",
+  "request_hash": "47a24170c714be90e1f8864a3e43297fb334a35cb274df20504adbf76ccf5ec8",
+  "text": "```python\ndef is_prime(n):\n    \"\"\"Check if a number is prime.\"\"\"\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\n# Given list of numbers\nxs = [3, 7, 11, 13, 17, 19, 23]\n\n# Count the prime numbers in the list\nprime_count = sum(1 for x in xs if is_prime(x))\n\n# Print the final answer\nprint(prime_count)\n```"
+}

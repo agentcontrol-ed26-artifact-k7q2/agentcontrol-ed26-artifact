@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026488,
+  "input_tokens": 101,
+  "latency_ms": 1287,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "cf4049f0d755deb1266b03a420fec4c43f50a60a2af42f22a16e34e694e245ce",
+  "text": "To solve this problem, you can utilize a priority queue to efficiently explore the nodes in the graph, starting from the source node and updating the distances to neighboring nodes as you traverse the graph.\n\n```python\nimport sys\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    graph = [[] for _ in range(n)]\n    for u, v, w in edges:\n        graph[u].append((v, w))\n        graph[v].append((u, w))  # comment this line for directed graph\n\n    distances = [sys.maxsize] * n\n    distances[src] = 0\n    pq = [(0, src)]\n\n    while pq:\n        curr_dist, curr_node = heapq.heappop(pq)\n\n        if curr_node == dst:\n            return curr_dist\n\n        if curr_dist > distances[curr_node]:\n            continue\n\n        for neighbor, weight in graph[curr_node]:\n            distance = curr_dist + weight\n\n            if distance "
+}

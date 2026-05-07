@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.967e-05,
+  "input_tokens": 71,
+  "latency_ms": 1429,
+  "model": "deepseek-chat",
+  "output_tokens": 55,
+  "provider": "deepseek",
+  "request_hash": "039c8d88d4a9d322e483e2e5d673a0f14a7338d62c46bfd0a20c35c61165189e",
+  "text": "The sum of interior angles of an n-sided polygon is (n-2) \u00d7 180\u00b0.  \nFor a hexagon, n = 6.  \n(6 - 2) \u00d7 180\u00b0 = 4 \u00d7 180\u00b0 = 720\u00b0.  \n\n720"
+}

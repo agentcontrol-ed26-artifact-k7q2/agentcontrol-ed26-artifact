@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.5499999999999995e-05,
+  "input_tokens": 140,
+  "latency_ms": 702,
+  "model": "deepseek-chat",
+  "output_tokens": 7,
+  "provider": "deepseek",
+  "request_hash": "bfdbe6f69ca24f56325cd083b585e349f5f94c1d2b1d772436042e9e8bf9b777",
+  "text": "1903 [doc_wright]"
+}

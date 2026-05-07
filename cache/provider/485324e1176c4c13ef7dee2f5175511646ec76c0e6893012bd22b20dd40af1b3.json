@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025038,
+  "input_tokens": 69,
+  "latency_ms": 2230,
+  "model": "deepseek-reasoner",
+  "output_tokens": 97,
+  "provider": "deepseek",
+  "request_hash": "485324e1176c4c13ef7dee2f5175511646ec76c0e6893012bd22b20dd40af1b3",
+  "text": "xs = [4, 8, 15, 16, 23, 42]\nresult = sum(xs)\nprint(result)"
+}

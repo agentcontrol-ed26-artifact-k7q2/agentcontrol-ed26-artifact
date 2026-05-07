@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013904,
+  "input_tokens": 96,
+  "latency_ms": 2231,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 62,
+  "provider": "together",
+  "request_hash": "0cb568c747e014173ad3c1b96f44a5c9cd2cf7c8343416fc58aee992a6985a86",
+  "text": "11! / (1! * 4! * 4! * 2!)\n= 11! / (1 * 24 * 24 * 2)\n= 11! / 1152\n= 39916800 / 1152\n= 34650\n\n34650"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010471999999999999,
+  "input_tokens": 104,
+  "latency_ms": 1318,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "75cc93e473ce9b510a44bd0111610ab280757fe6b2966483fa44138a07926d09",
+  "text": "Isolate x by subtracting 2x from both sides.\n23"
+}

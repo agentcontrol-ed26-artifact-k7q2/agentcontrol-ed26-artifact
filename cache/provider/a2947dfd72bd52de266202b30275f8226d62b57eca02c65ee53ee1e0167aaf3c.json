@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011440000000000002,
+  "input_tokens": 86,
+  "latency_ms": 773,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "a2947dfd72bd52de266202b30275f8226d62b57eca02c65ee53ee1e0167aaf3c",
+  "text": "24 \n1. Substitute x = 24 into the equation to check for equality.\n2. Solve the equation again using a different method, such as subtracting 3 from both sides before multiplying by 4."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026312,
+  "input_tokens": 102,
+  "latency_ms": 4563,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 197,
+  "provider": "together",
+  "request_hash": "5167c8b794d74a2d349e12282abe38b670dfe7b929671bf3f43e8fc3b61c3d72",
+  "text": "The most common bug to avoid in this problem is incorrectly handling the diagonal conflicts between queens, which can lead to overcounting or undercounting of valid solutions. \n\n```python\ndef n_queens_count(n):\n    def is_safe(board, row, col):\n        for i in range(row):\n            if board[i] == col or \\\n                board[i] - i == col - row or \\\n                board[i] + i == col + row:\n                return False\n        return True\n\n    def place_queens(n, row, board):\n        if row == n:\n            return 1\n        else:\n            count = 0\n            for col in range(n):\n                if is_safe(board, row, col):\n                    board[row] = col\n                    count += place_queens(n, row + 1, board)\n            return count\n\n    board = [-1]*n\n    return place_queens(n, 0, board)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.5299999999999997e-05,
+  "input_tokens": 98,
+  "latency_ms": 656,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 53,
+  "provider": "together",
+  "request_hash": "b8fc2f87444394846ba0d24e04b670f03b6d810b9cbc6cb4187e6a71c2258eed",
+  "text": "```python\nxs = [10, 5, 0, -5, 10, 20]\nmax_value = max(xs)\nmin_value = min(xs)\nrange_value = max_value - min_value\nprint(range_value)\n```"
+}

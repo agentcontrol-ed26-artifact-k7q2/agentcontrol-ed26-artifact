@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.28e-05,
+  "input_tokens": 59,
+  "latency_ms": 303,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "bab1f35cfbc881146c7c9b25d1cf646d60737cebf8de071ba4c9e0da7d3176e3",
+  "text": "```python\ndef add(a, b):\n    return a + b\n```"
+}

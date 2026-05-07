@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019184,
+  "input_tokens": 192,
+  "latency_ms": 570,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "06f3c8eeab9c87e54a740102a7978334497389a6700d5cbaf318b83c7cab9ac5",
+  "text": "Edmund Hillary and Tenzing Norgay summited Mount Everest first in 1953 [doc_everest]"
+}

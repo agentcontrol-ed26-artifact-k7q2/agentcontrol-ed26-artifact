@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.2999999999999996e-05,
+  "input_tokens": 93,
+  "latency_ms": 312,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "d8e859a5e4ff45b9ead1da889e9aaed2b9d9230515db04c232965279eb994625",
+  "text": "Mount Everest is the highest mountain above sea level. [doc_everest]"
+}

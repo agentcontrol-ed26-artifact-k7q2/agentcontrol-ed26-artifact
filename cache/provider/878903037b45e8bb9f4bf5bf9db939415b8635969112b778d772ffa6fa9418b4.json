@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025476,
+  "input_tokens": 69,
+  "latency_ms": 1971,
+  "model": "deepseek-reasoner",
+  "output_tokens": 99,
+  "provider": "deepseek",
+  "request_hash": "878903037b45e8bb9f4bf5bf9db939415b8635969112b778d772ffa6fa9418b4",
+  "text": "```python\ndef max_of_three(a, b, c):\n    if a >= b and a >= c:\n        return a\n    elif b >= a and b >= c:\n        return b\n    else:\n        return c\n```"
+}

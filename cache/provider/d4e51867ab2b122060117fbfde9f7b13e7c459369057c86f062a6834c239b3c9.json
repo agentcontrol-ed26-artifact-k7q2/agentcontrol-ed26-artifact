@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024376,
+  "input_tokens": 250,
+  "latency_ms": 669,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "d4e51867ab2b122060117fbfde9f7b13e7c459369057c86f062a6834c239b3c9",
+  "text": "Rosalind Franklin's X-ray diffraction images contributed to the discovery of the DNA double helix structure [doc_dna]"
+}

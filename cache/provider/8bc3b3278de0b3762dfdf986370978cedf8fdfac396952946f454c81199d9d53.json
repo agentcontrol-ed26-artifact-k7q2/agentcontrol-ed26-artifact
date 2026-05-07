@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016984,
+  "input_tokens": 91,
+  "latency_ms": 2131,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 102,
+  "provider": "together",
+  "request_hash": "8bc3b3278de0b3762dfdf986370978cedf8fdfac396952946f454c81199d9d53",
+  "text": "To compute the sum of digits of 999, we first need to identify the individual digits. \nThe number 999 has three digits: 9, 9, and 9.\nSince each digit is 9, we can calculate the sum by adding these digits together: 9 + 9 + 9.\nPerforming the addition: 9 + 9 = 18, then 18 + 9 = 27.\nSo, the sum of the digits is 27.\n\n27"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021999999999999998,
+  "input_tokens": 214,
+  "latency_ms": 723,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "6f9c239ee883077e42b25adc00e9e2c72e7a692d580b58b82bec9204e9a45ee1",
+  "text": "The answer is HMS Beagle [doc_darwin]. \nThe most common citation mistake is failing to provide the correct citation or providing multiple citations when only one is required."
+}

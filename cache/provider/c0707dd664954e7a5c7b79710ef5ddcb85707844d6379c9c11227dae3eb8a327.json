@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.5999999999999994e-05,
+  "input_tokens": 108,
+  "latency_ms": 374,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "c0707dd664954e7a5c7b79710ef5ddcb85707844d6379c9c11227dae3eb8a327",
+  "text": "James Watson and Francis Crick [doc_dna]"
+}

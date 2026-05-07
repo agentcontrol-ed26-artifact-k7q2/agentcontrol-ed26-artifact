@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016808,
+  "input_tokens": 90,
+  "latency_ms": 1380,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 101,
+  "provider": "together",
+  "request_hash": "e2987d5cf737045f9dc8b3179da972e9174e868ecd0c974d5c1ecbc400c02257",
+  "text": "To compute 2^10, we can break it down into smaller steps. \nFirst, we need to calculate 2^5. \n2^5 = 2 * 2 * 2 * 2 * 2 = 32.\n\nNow that we have 2^5, we can use it to calculate 2^10. \n2^10 = (2^5) * (2^5) = 32 * 32 = 1024.\n\n1024"
+}

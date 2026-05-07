@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017770999999999998,
+  "input_tokens": 128,
+  "latency_ms": 1662,
+  "model": "deepseek-reasoner",
+  "output_tokens": 49,
+  "provider": "deepseek",
+  "request_hash": "8632df25dfae426e43ff102ba4af01030adf683be3103f5665c7174fe718fbb9",
+  "text": "Polonium [doc_curie]"
+}

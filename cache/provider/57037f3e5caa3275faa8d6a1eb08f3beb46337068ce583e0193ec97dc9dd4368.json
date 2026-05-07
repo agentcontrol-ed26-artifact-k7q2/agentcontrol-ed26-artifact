@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028743,
+  "input_tokens": 216,
+  "latency_ms": 1933,
+  "model": "deepseek-reasoner",
+  "output_tokens": 77,
+  "provider": "deepseek",
+  "request_hash": "57037f3e5caa3275faa8d6a1eb08f3beb46337068ce583e0193ec97dc9dd4368",
+  "text": "Egypt and Sudan [doc_nile_river]"
+}

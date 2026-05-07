@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031855999999999996,
+  "input_tokens": 319,
+  "latency_ms": 683,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "e45e370b2cfd42782196f9ee1e9a838d2abf781a1ed2095c804df51c6aabdb2c",
+  "text": "The answer is the United Kingdom, as Rosalind Franklin, the producer of Photo 51, worked at King's College London, implying she was based in the UK [doc_franklin_xray]"
+}

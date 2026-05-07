@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00049575,
+  "input_tokens": 105,
+  "latency_ms": 3500,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "084aa250bc236b811f9a0e8e7d2b16ba04bb3167f6bdbc29d425496b1db2e15b",
+  "text": "1. Verify that doc_evolution explicitly states \"Charles Darwin published On the Origin of Species\".\n2. Verify that doc_python2 makes no mention of the book or its author, ensuring no conflicting evidence"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.429e-05,
+  "input_tokens": 247,
+  "latency_ms": 852,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "b9c3ef7bd7ef923386fe313a0d364b0ceabe4dc551361b22af947d8f0716ebd9",
+  "text": "The Analytical Engine was designed in the 1830s [doc_babbage]."
+}

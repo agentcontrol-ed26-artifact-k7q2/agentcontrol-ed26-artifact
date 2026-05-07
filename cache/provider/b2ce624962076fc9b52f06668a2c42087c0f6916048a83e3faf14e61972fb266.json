@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020856,
+  "input_tokens": 92,
+  "latency_ms": 853,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 145,
+  "provider": "together",
+  "request_hash": "b2ce624962076fc9b52f06668a2c42087c0f6916048a83e3faf14e61972fb266",
+  "text": "```python\ndef longest_common_subseq_len(a, b):\n    m, n = len(a), len(b)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if a[i - 1] == b[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n    return dp[m][n]\n```"
+}

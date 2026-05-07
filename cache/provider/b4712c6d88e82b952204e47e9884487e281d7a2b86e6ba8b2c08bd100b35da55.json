@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.52e-05,
+  "input_tokens": 67,
+  "latency_ms": 1015,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 117,
+  "provider": "together",
+  "request_hash": "b4712c6d88e82b952204e47e9884487e281d7a2b86e6ba8b2c08bd100b35da55",
+  "text": "```python\ndef first_missing_positive(xs):\n    if not xs:\n        return 1\n    \n    n = len(xs)\n    for i in range(n):\n        while 1 <= xs[i] <= n and xs[xs[i] - 1] != xs[i]:\n            xs[xs[i] - 1], xs[i] = xs[i], xs[xs[i] - 1]\n    \n    for i in range(n):\n        if xs[i] != i + 1:\n            return i + 1\n    return n + 1\n```"
+}

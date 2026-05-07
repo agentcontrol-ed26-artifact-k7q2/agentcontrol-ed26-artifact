@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.495e-05,
+  "input_tokens": 105,
+  "latency_ms": 833,
+  "model": "deepseek-chat",
+  "output_tokens": 6,
+  "provider": "deepseek",
+  "request_hash": "4778d3ff2f4c12063248d5fee2eeccb5a8dc88a2f3fb052c4e83e69aa5d165a8",
+  "text": "London [doc_babbage]"
+}

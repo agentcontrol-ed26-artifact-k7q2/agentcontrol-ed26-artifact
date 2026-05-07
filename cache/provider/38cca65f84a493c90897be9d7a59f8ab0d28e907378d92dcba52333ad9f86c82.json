@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001232,
+  "input_tokens": 95,
+  "latency_ms": 630,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "38cca65f84a493c90897be9d7a59f8ab0d28e907378d92dcba52333ad9f86c82",
+  "text": "To find the least common multiple of 9 and 12, first factorize the numbers into their prime factors, which are 9 = 3^2 and 12 = 2^2 * 3."
+}

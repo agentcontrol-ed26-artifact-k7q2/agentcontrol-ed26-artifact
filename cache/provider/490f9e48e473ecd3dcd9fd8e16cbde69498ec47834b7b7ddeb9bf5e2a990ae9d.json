@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.3299999999999996e-05,
+  "input_tokens": 102,
+  "latency_ms": 435,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "490f9e48e473ecd3dcd9fd8e16cbde69498ec47834b7b7ddeb9bf5e2a990ae9d",
+  "text": "Kitty Hawk [doc_wright]"
+}

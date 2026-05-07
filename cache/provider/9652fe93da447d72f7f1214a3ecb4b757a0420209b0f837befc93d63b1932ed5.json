@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.7600000000000004e-05,
+  "input_tokens": 140,
+  "latency_ms": 1086,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "9652fe93da447d72f7f1214a3ecb4b757a0420209b0f837befc93d63b1932ed5",
+  "text": "The second longest river in the world is the Amazon River. [doc_amazon]"
+}

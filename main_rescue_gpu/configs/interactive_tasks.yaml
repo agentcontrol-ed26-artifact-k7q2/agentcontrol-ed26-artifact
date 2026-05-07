@@ -1,0 +1,52 @@
+seed: 20260427
+target_size: 120
+families:
+  code_debug_interactive:
+    n: 40
+    provenance: synthetic-local-interactive (Python function tasks where test failure trace is the key observation)
+    available_observations: [run_tests, type_error, traceback]
+    interactive: true
+  data_analysis_code:
+    n: 20
+    provenance: synthetic-local (small inline tabular tasks; observation = output of running code)
+    available_observations: [run_code, output_value]
+    interactive: true
+  evidence_multihop_local:
+    n: 30
+    provenance: synthetic-local-multihop (frozen 20-doc corpus with distractors; observation = retrieve_topk)
+    available_observations: [retrieve, citation_check]
+    interactive: true
+  tool_planning_deterministic:
+    n: 15
+    provenance: synthetic-local (small grid/state environment with partial observations)
+    available_observations: [tool_observation]
+    interactive: true
+  math_checkpoint:
+    n: 15
+    provenance: synthetic-local (multi-step math with intermediate-checkpoint verifier)
+    available_observations: [checkpoint_check]
+    interactive: true
+price_model:
+  cheap_answer: 1.0
+  cheap_repair: 1.0
+  cheap_repair_after_observation: 1.0
+  cheap_repair_after_strong_partial: 1.0
+  strong_hint: 2.0
+  strong_critique: 2.0
+  strong_checklist: 2.0
+  strong_answer: 10.0
+  run_tests: 0.5
+  run_code: 0.5
+  retrieve: 0.3
+  citation_check: 0.2
+  tool_observation: 0.5
+  checkpoint_check: 0.3
+  stop: 0.0
+note: |
+  Interactive task pool. Observation actions (run_tests / run_code / retrieve /
+  citation_check / tool_observation / checkpoint_check) are local and inexpensive
+  but produce real new state information not available to a query-level router.
+  Only cheap_*/strong_* actions consume LLM API budget.
+budget:
+  default_max_spend_usd_per_provider: 5.0
+  hard_kill_on_overspend: true

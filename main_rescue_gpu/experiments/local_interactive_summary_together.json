@@ -1,0 +1,690 @@
+{
+  "provider": "together",
+  "n_tasks": 120,
+  "oracle_query_router": {
+    "aggregate": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.6166666666666667,
+      "avg_latency_ms": 802.925,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9171666666666655
+    },
+    "per_family": {
+      "code_debug_interactive": {
+        "n": 40,
+        "success_rate": 0.975,
+        "avg_cost": 1.025,
+        "avg_latency_ms": 1049.975,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9647499999999998
+      },
+      "data_analysis_code": {
+        "n": 20,
+        "success_rate": 0.8,
+        "avg_cost": 1.9,
+        "avg_latency_ms": 872.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7810000000000001
+      },
+      "evidence_multihop_local": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.3,
+        "avg_latency_ms": 420.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9869999999999994
+      },
+      "tool_planning_deterministic": {
+        "n": 15,
+        "success_rate": 0.8,
+        "avg_cost": 4.066666666666666,
+        "avg_latency_ms": 1071.8,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7593333333333335
+      },
+      "math_checkpoint": {
+        "n": 15,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 547.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      }
+    }
+  },
+  "oracle_deliberation_graph": {
+    "aggregate": {
+      "n": 120,
+      "success_rate": 0.9333333333333333,
+      "avg_cost": 1.5041666666666667,
+      "avg_latency_ms": 804.2083333333334,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9182916666666654
+    },
+    "per_family": {
+      "code_debug_interactive": {
+        "n": 40,
+        "success_rate": 0.975,
+        "avg_cost": 1.025,
+        "avg_latency_ms": 1049.975,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9647499999999998
+      },
+      "data_analysis_code": {
+        "n": 20,
+        "success_rate": 0.8,
+        "avg_cost": 1.6,
+        "avg_latency_ms": 862.8,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.784
+      },
+      "evidence_multihop_local": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.3,
+        "avg_latency_ms": 420.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9869999999999994
+      },
+      "tool_planning_deterministic": {
+        "n": 15,
+        "success_rate": 0.8,
+        "avg_cost": 3.566666666666667,
+        "avg_latency_ms": 1095.1333333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7643333333333334
+      },
+      "math_checkpoint": {
+        "n": 15,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 547.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      }
+    }
+  },
+  "graph_query_cost_saving_pct": 6.95876288659794,
+  "graph_query_success_delta_pp": 0.0,
+  "baselines": {
+    "always_cheapest": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.85,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 664.2333333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8399999999999984
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.95,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1038.45,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9399999999999997
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.7,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 697.15,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.6900000000000002
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 0.9666666666666667,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 351.3666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.956666666666666
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.4,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 365.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.39000000000000007
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "always_strongest": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.8833333333333333,
+        "avg_cost": 10.0,
+        "avg_latency_ms": 1658.2916666666667,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7833333333333344
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.95,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 1052.375,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8499999999999993
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.6,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 2322.25,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.5000000000000002
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 652.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8999999999999996
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.7333333333333333,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 3760.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.6333333333333334
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 2299.0666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9000000000000002
+        }
+      }
+    },
+    "frugalgpt_cascade": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.9333333333333333,
+        "avg_cost": 2.5,
+        "avg_latency_ms": 1022.8333333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.908333333333332
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.5,
+          "avg_latency_ms": 1076.2,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9599999999999997
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.8,
+          "avg_cost": 4.0,
+          "avg_latency_ms": 1188.9,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7600000000000002
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.3333333333333333,
+          "avg_latency_ms": 430.3666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9866666666666661
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.8,
+          "avg_cost": 7.0,
+          "avg_latency_ms": 2319.866666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7300000000000002
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "automix_self_verification_cascade": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.9333333333333333,
+        "avg_cost": 2.4833333333333334,
+        "avg_latency_ms": 1084.3333333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9084999999999984
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.3,
+          "avg_latency_ms": 1109.725,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9619999999999997
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.8,
+          "avg_cost": 4.3,
+          "avg_latency_ms": 1408.15,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7570000000000003
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.3666666666666667,
+          "avg_latency_ms": 448.03333333333336,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9863333333333327
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.8,
+          "avg_cost": 6.933333333333334,
+          "avg_latency_ms": 2394.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7306666666666668
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "shepherding_hint": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.875,
+        "avg_cost": 1.45,
+        "avg_latency_ms": 953.7083333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.8604999999999982
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.15,
+          "avg_latency_ms": 1157.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9634999999999998
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.75,
+          "avg_cost": 1.9,
+          "avg_latency_ms": 1269.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7310000000000001
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 0.9666666666666667,
+          "avg_cost": 1.1,
+          "avg_latency_ms": 415.06666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9556666666666661
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.4666666666666667,
+          "avg_cost": 2.8,
+          "avg_latency_ms": 1472.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.43866666666666665
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "fixed_react": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.8666666666666667,
+        "avg_cost": 1.5000000000000013,
+        "avg_latency_ms": 817.1,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.851666666666665
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.55,
+          "avg_latency_ms": 1081.825,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9594999999999997
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.7,
+          "avg_cost": 1.8,
+          "avg_latency_ms": 952.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.6819999999999998
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 0.9666666666666667,
+          "avg_cost": 1.0333333333333334,
+          "avg_latency_ms": 362.46666666666664,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9563333333333328
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.4666666666666667,
+          "avg_cost": 2.1,
+          "avg_latency_ms": 1109.8666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.4456666666666666
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.3000000000000003,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.987
+        }
+      }
+    },
+    "fixed_retrieve_answer_verify": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.8666666666666667,
+        "avg_cost": 1.5000000000000013,
+        "avg_latency_ms": 817.1,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.851666666666665
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.55,
+          "avg_latency_ms": 1081.825,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9594999999999997
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.7,
+          "avg_cost": 1.8,
+          "avg_latency_ms": 952.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.6819999999999998
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 0.9666666666666667,
+          "avg_cost": 1.0333333333333334,
+          "avg_latency_ms": 362.46666666666664,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9563333333333328
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.4666666666666667,
+          "avg_cost": 2.1,
+          "avg_latency_ms": 1109.8666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.4456666666666666
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.3000000000000003,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.987
+        }
+      }
+    },
+    "heuristic_bdelg": {
+      "aggregate": {
+        "n": 120,
+        "success_rate": 0.9333333333333333,
+        "avg_cost": 3.1500000000000012,
+        "avg_latency_ms": 1403.7,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9018333333333317
+      },
+      "per_family": {
+        "code_debug_interactive": {
+          "n": 40,
+          "success_rate": 0.975,
+          "avg_cost": 1.875,
+          "avg_latency_ms": 1198.925,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9562499999999996
+        },
+        "data_analysis_code": {
+          "n": 20,
+          "success_rate": 0.8,
+          "avg_cost": 5.2,
+          "avg_latency_ms": 1910.3,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.748
+        },
+        "evidence_multihop_local": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.4666666666666666,
+          "avg_latency_ms": 505.1666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9853333333333328
+        },
+        "tool_planning_deterministic": {
+          "n": 15,
+          "success_rate": 0.8,
+          "avg_cost": 9.033333333333333,
+          "avg_latency_ms": 3928.0666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.7096666666666668
+        },
+        "math_checkpoint": {
+          "n": 15,
+          "success_rate": 1.0,
+          "avg_cost": 1.3000000000000003,
+          "avg_latency_ms": 547.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.987
+        }
+      }
+    }
+  },
+  "conditional_breakdown": {
+    "code_debug_interactive/cheap=1/obs_repair=1/strong=1": {
+      "n": 34,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "code_debug_interactive/cheap=1/obs_repair=0/strong=1": {
+      "n": 3,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "code_debug_interactive/cheap=0/obs_repair=1/strong=1": {
+      "n": 1,
+      "router_avg_cost": 2.0,
+      "graph_avg_cost": 2.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "code_debug_interactive/cheap=0/obs_repair=0/strong=0": {
+      "n": 1,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 0.0,
+      "graph_success": 0.0,
+      "saving_pct": 0.0
+    },
+    "code_debug_interactive/cheap=1/obs_repair=1/strong=0": {
+      "n": 1,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "data_analysis_code/cheap=1/obs_repair=0/strong=1": {
+      "n": 3,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "data_analysis_code/cheap=0/obs_repair=0/strong=1": {
+      "n": 2,
+      "router_avg_cost": 10.0,
+      "graph_avg_cost": 7.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 30.0
+    },
+    "data_analysis_code/cheap=1/obs_repair=1/strong=1": {
+      "n": 7,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "data_analysis_code/cheap=0/obs_repair=0/strong=0": {
+      "n": 4,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 0.0,
+      "graph_success": 0.0,
+      "saving_pct": 0.0
+    },
+    "data_analysis_code/cheap=1/obs_repair=0/strong=0": {
+      "n": 2,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "data_analysis_code/cheap=1/obs_repair=1/strong=0": {
+      "n": 2,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "evidence_multihop_local/cheap=1/obs_repair=1/strong=1": {
+      "n": 28,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "evidence_multihop_local/cheap=0/obs_repair=0/strong=1": {
+      "n": 1,
+      "router_avg_cost": 10.0,
+      "graph_avg_cost": 10.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "evidence_multihop_local/cheap=1/obs_repair=0/strong=1": {
+      "n": 1,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "tool_planning_deterministic/cheap=0/obs_repair=0/strong=1": {
+      "n": 5,
+      "router_avg_cost": 8.4,
+      "graph_avg_cost": 8.4,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "tool_planning_deterministic/cheap=1/obs_repair=1/strong=1": {
+      "n": 5,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "tool_planning_deterministic/cheap=0/obs_repair=0/strong=0": {
+      "n": 3,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 0.0,
+      "graph_success": 0.0,
+      "saving_pct": 0.0
+    },
+    "tool_planning_deterministic/cheap=1/obs_repair=1/strong=0": {
+      "n": 1,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "math_checkpoint/cheap=1/obs_repair=1/strong=1": {
+      "n": 15,
+      "router_avg_cost": 1.0,
+      "graph_avg_cost": 1.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 0.0
+    },
+    "tool_planning_deterministic/cheap=0/obs_repair=1/strong=1": {
+      "n": 1,
+      "router_avg_cost": 10.0,
+      "graph_avg_cost": 2.5,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "saving_pct": 75.0
+    }
+  }
+}

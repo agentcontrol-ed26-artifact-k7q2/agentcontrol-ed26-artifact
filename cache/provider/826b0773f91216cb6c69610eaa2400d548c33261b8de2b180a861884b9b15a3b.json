@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018745000000000003,
+  "input_tokens": 75,
+  "latency_ms": 2757,
+  "model": "deepseek-chat",
+  "output_tokens": 152,
+  "provider": "deepseek",
+  "request_hash": "826b0773f91216cb6c69610eaa2400d548c33261b8de2b180a861884b9b15a3b",
+  "text": "```python\ndef course_schedule_possible(n, prereqs):\n    from collections import defaultdict, deque\n    graph = defaultdict(list)\n    indeg = [0] * n\n    for a, b in prereqs:\n        graph[b].append(a)\n        indeg[a] += 1\n    q = deque([i for i in range(n) if indeg[i] == 0])\n    count = 0\n    while q:\n        node = q.popleft()\n        count += 1\n        for nei in graph[node]:\n            indeg[nei] -= 1\n            if indeg[nei] == 0:\n                q.append(nei)\n    return count == n\n```"
+}

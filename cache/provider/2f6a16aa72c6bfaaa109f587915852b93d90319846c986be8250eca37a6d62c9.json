@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016896,
+  "input_tokens": 92,
+  "latency_ms": 5539,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 100,
+  "provider": "together",
+  "request_hash": "2f6a16aa72c6bfaaa109f587915852b93d90319846c986be8250eca37a6d62c9",
+  "text": "To rotate the matrix, you can use a transpose and reverse approach, where you first transpose the matrix (i.e., swap its rows with columns) and then reverse each row.\n\n```python\ndef rotate_matrix(m):\n    n = len(m)\n    for i in range(n):\n        for j in range(i, n):\n            m[j][i], m[i][j] = m[i][j], m[j][i]\n    for row in m:\n        row.reverse()\n```"
+}

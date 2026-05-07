@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.72e-05,
+  "input_tokens": 105,
+  "latency_ms": 572,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "6f084a903894dab0dc522ba7ec0950002e7d899b4a2ba768b8d0395ae48c3a68",
+  "text": "The second longest river in the world is the Amazon River [doc_amazon_river]."
+}

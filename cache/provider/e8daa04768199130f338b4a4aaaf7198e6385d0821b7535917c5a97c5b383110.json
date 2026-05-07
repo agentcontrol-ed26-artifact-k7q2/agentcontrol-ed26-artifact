@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.834000000000001e-05,
+  "input_tokens": 62,
+  "latency_ms": 1507,
+  "model": "deepseek-chat",
+  "output_tokens": 56,
+  "provider": "deepseek",
+  "request_hash": "e8daa04768199130f338b4a4aaaf7198e6385d0821b7535917c5a97c5b383110",
+  "text": "The prime factorization of 9 is 3\u00b2.  \nThe prime factorization of 12 is 2\u00b2 \u00d7 3.  \nThe LCM takes the highest power of each prime: 2\u00b2 \u00d7 3\u00b2 = 4 \u00d7 9 = 36.  \n\n36"
+}

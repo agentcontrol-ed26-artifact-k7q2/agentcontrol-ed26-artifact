@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031995,
+  "input_tokens": 84,
+  "latency_ms": 2316,
+  "model": "deepseek-reasoner",
+  "output_tokens": 125,
+  "provider": "deepseek",
+  "request_hash": "87157267ece6e6154e471c11e9c417acb7205d591a64ab062ad9cd855b848a52",
+  "text": "1. Verify that the evidence explicitly states \"Apollo 11 mission\" as the one that landed humans on the Moon in 1969. [doc_moon]\n2. Verify that the evidence includes the year \"1969\" matching the question. [doc_moon]"
+}

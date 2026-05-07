@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144,
+  "input_tokens": 102,
+  "latency_ms": 2084,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "8a92f2b6d550557f5273cb7cf4fe5632f8df2784d22878e29b32e32dea6718eb",
+  "text": "2^10 = 1024\n3^4 = 81\n5^2 = 25\n1024 - 81 - 25 = 918\n918"
+}

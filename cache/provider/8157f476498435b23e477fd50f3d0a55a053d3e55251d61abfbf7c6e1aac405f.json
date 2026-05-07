@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 93,
+  "latency_ms": 2577,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "8157f476498435b23e477fd50f3d0a55a053d3e55251d61abfbf7c6e1aac405f",
+  "text": "Division by 12 is the same as dividing by 4 and then by 3. \n12"
+}

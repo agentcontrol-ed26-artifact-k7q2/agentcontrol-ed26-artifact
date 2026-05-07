@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.680000000000001e-05,
+  "input_tokens": 80,
+  "latency_ms": 1762,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "51dc99dcb27698bab1901c387d9c6d467bd70cb56ba063802b57392ca42e654d",
+  "text": "```python\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

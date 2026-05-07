@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.3630000000000007e-05,
+  "input_tokens": 109,
+  "latency_ms": 1051,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "e74fc6520d609ceaf3e4d3bcb2774b62dbbbf4a82d747d18b2ea9d986a55dede",
+  "text": "The evidence does not provide information about the first summiter of Everest. [doc_armstrong_bio]"
+}

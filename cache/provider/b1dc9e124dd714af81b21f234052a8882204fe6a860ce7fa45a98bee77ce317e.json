@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001804,
+  "input_tokens": 163,
+  "latency_ms": 3459,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "b1dc9e124dd714af81b21f234052a8882204fe6a860ce7fa45a98bee77ce317e",
+  "text": "The most common citation mistake is incorrectly formatting or referencing the citation, such as using the wrong document number or failing to include the bracketed citation.\nAnswer phrase: Pierre Curie [doc_curie2]"
+}

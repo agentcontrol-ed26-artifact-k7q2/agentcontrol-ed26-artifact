@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.42e-05,
+  "input_tokens": 72,
+  "latency_ms": 496,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "d56eeba30b507ceab3cb4a4410e86666e118c10e3b8055b970aeace2cf51a522",
+  "text": "```python\ndef is_anagram(a: str, b: str) -> bool:\n    if len(a) != len(b):\n        return False\n    return sorted(a) == sorted(b)\n```"
+}

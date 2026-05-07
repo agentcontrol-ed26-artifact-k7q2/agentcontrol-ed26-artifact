@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010648000000000001,
+  "input_tokens": 81,
+  "latency_ms": 881,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "ac4d2727255529222322edad5ca54de2af6c1837f80e48f13d7752f619ba7b7d",
+  "text": "121 - 49 = 72\n1. Recalculate using the formula (a+b)(a-b) = a^2 - b^2 \n2. Verify the result using a calculator"
+}

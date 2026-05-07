@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011292,
+  "input_tokens": 76,
+  "latency_ms": 1928,
+  "model": "deepseek-chat",
+  "output_tokens": 84,
+  "provider": "deepseek",
+  "request_hash": "6423fa686329d355c87593ead0555461eb4ea0759695d95f8666d03f85dfe3d0",
+  "text": "```python\ndef max_subarray_sum(xs):\n    max_ending_here = max_so_far = xs[0]\n    for x in xs[1:]:\n        max_ending_here = max(x, max_ending_here + x)\n        max_so_far = max(max_so_far, max_ending_here)\n    return max_so_far\n```"
+}

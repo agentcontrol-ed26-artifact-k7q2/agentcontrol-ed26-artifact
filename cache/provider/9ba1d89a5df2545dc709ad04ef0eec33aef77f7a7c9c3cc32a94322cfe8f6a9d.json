@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.4330000000000004e-05,
+  "input_tokens": 99,
+  "latency_ms": 1076,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "9ba1d89a5df2545dc709ad04ef0eec33aef77f7a7c9c3cc32a94322cfe8f6a9d",
+  "text": "Albert Einstein developed the photoelectric effect explanation [doc_einstein_nobel]."
+}

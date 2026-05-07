@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00038808,
+  "input_tokens": 123,
+  "latency_ms": 3356,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 318,
+  "provider": "together",
+  "request_hash": "3acc71139968ac87b83fb743917a768f4222a122b96a32bdaeab8a6d44db301c",
+  "text": "To find the maximum total profit, we can use a greedy algorithm. The idea is to sort the jobs based on their profits in descending order and then schedule them in the available slots.\n\nFirst, let's sort the jobs based on their profits in descending order:\n\n(2,100), (2,27), (1,25), (1,19), (3,15)\n\nNow, let's schedule the jobs in the available slots. We will start with the job that has the highest profit and try to schedule it in the last available slot that is less than or equal to its deadline.\n\nWe have 3 slots available (since the maximum deadline is 3). Let's schedule the jobs:\n\n- Slot 1: (1,25) - We schedule the job with the highest profit that has a deadline of 1.\n- Slot 2: (1,19) - We schedule the job with the next highest profit that has a deadline of 1. We cannot schedule (2,100) or (2,27) here because we want to leave space for them in case we cannot schedule them later.\n- Slot 3: (2,100) - We schedule the job with the highest profit that has a deadline of 2 or 3.\n\nWe cannot schedule (2,27) or (3,15) because there are no available slots left that meet their deadlines and give us more profit than the already scheduled jobs.\n\nThe total profit is: 25 + 19 + 100 = 144.\n\nThe final answer is: 144"
+}

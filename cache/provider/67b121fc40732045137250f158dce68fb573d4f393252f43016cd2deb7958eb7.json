@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792000000000001,
+  "input_tokens": 125,
+  "latency_ms": 728,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "67b121fc40732045137250f158dce68fb573d4f393252f43016cd2deb7958eb7",
+  "text": "at Kitty Hawk [doc_wright]"
+}

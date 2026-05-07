@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.476000000000001e-05,
+  "input_tokens": 188,
+  "latency_ms": 1226,
+  "model": "deepseek-chat",
+  "output_tokens": 40,
+  "provider": "deepseek",
+  "request_hash": "fe502dfddb32c48818323560c678de946263be720dd2545c70684941ce478661",
+  "text": "The provided evidence does not contain information about the discoverer of polonium or their daughter. [doc_aldrin_bio][doc_amazon_distractor][doc_armstrong_bio]"
+}

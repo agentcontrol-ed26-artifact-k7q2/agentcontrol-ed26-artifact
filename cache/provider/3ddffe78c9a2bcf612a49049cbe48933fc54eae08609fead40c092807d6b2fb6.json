@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.142e-05,
+  "input_tokens": 236,
+  "latency_ms": 755,
+  "model": "deepseek-chat",
+  "output_tokens": 7,
+  "provider": "deepseek",
+  "request_hash": "3ddffe78c9a2bcf612a49049cbe48933fc54eae08609fead40c092807d6b2fb6",
+  "text": "Ohio [doc_armstrong]"
+}

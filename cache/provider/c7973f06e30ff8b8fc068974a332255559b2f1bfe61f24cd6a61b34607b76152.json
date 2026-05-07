@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031492,
+  "input_tokens": 262,
+  "latency_ms": 1722,
+  "model": "deepseek-reasoner",
+  "output_tokens": 78,
+  "provider": "deepseek",
+  "request_hash": "c7973f06e30ff8b8fc068974a332255559b2f1bfe61f24cd6a61b34607b76152",
+  "text": "Max Planck won the Nobel Prize in 1918 [doc_planck_nobel]."
+}

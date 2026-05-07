@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000286,
+  "input_tokens": 296,
+  "latency_ms": 1007,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "74be9bc0106934eb7aca3ea2a6a5d2ae9b600f74be0fa6a347bc593452faf179",
+  "text": "There is no information about the person who patented the telephone or their birthplace in the provided documents. answer [doc_aldrin_bio]"
+}

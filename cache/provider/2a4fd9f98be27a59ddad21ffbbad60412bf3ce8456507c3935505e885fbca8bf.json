@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001672,
+  "input_tokens": 97,
+  "latency_ms": 2709,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 93,
+  "provider": "together",
+  "request_hash": "2a4fd9f98be27a59ddad21ffbbad60412bf3ce8456507c3935505e885fbca8bf",
+  "text": "1. Count the integers from 1 to 100 that are divisible by 2 or 5, then subtract this count from 100.\n2. Count the integers from 1 to 100 that are divisible by 2, and the integers from 1 to 100 that are divisible by 5, then add these counts and subtract the count of integers divisible by both 2 and 5, and finally subtract this result from 100.\n40"
+}

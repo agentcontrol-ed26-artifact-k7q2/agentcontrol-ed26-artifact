@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.397000000000001e-05,
+  "input_tokens": 201,
+  "latency_ms": 1083,
+  "model": "deepseek-chat",
+  "output_tokens": 27,
+  "provider": "deepseek",
+  "request_hash": "ed9bb13a024fb4437e5f8f57fcfd231169f8d03f855b77d9141a98a85c84f36f",
+  "text": "The author of On the Origin of Species traveled aboard HMS Beagle from 1831 to 1836 [doc_darwin]."
+}

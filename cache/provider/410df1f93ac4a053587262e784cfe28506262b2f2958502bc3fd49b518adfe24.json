@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011088000000000001,
+  "input_tokens": 88,
+  "latency_ms": 4662,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "410df1f93ac4a053587262e784cfe28506262b2f2958502bc3fd49b518adfe24",
+  "text": "1. Plug the values into a calculator to verify the result\n2. Factor the expression as (13+11)(13-11) to simplify the calculation \n169 - 121"
+}

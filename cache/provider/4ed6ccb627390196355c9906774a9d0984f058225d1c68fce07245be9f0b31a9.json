@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003187,
+  "input_tokens": 241,
+  "latency_ms": 1755,
+  "model": "deepseek-reasoner",
+  "output_tokens": 85,
+  "provider": "deepseek",
+  "request_hash": "4ed6ccb627390196355c9906774a9d0984f058225d1c68fce07245be9f0b31a9",
+  "text": "CWI, Google, and Dropbox [doc_python_origin]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.291e-05,
+  "input_tokens": 73,
+  "latency_ms": 808,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "554f49f7d635e71b9f7ed788d48ee97aa70f50d5c0b99bc77989a42107cdbe86",
+  "text": "The minimum number of crossings required is 11.  \n\n11"
+}

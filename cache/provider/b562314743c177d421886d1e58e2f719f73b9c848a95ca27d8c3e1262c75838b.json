@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.768e-05,
+  "input_tokens": 79,
+  "latency_ms": 560,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "b562314743c177d421886d1e58e2f719f73b9c848a95ca27d8c3e1262c75838b",
+  "text": "41\n1. Reversing the calculation: 28 + 13\n2. Estimating the sum: 10 + 30 = 40"
+}

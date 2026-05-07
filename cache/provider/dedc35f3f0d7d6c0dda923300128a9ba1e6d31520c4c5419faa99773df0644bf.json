@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8190000000000004e-05,
+  "input_tokens": 97,
+  "latency_ms": 1019,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "dedc35f3f0d7d6c0dda923300128a9ba1e6d31520c4c5419faa99773df0644bf",
+  "text": "The second longest river is the Amazon River, in South America [doc_amazon_river]."
+}

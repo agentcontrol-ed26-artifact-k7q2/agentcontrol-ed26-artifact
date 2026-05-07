@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.209999999999999e-05,
+  "input_tokens": 276,
+  "latency_ms": 566,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "54f2b61a7e44b0f38dfa28cd3a52daf7f10fd0b6aea7b8b1ebde2bd4fc9d2386",
+  "text": "Max Planck originated quantum theory in 1900 by introducing energy quanta to explain blackbody radiation. [doc_planck_quantum]"
+}

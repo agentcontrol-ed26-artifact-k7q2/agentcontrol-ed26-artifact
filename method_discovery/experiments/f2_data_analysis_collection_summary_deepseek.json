@@ -1,0 +1,52 @@
+{
+  "provider_mode": "deepseek",
+  "n_tasks": 50,
+  "incremental_spend_usd": 0.0022427300000000816,
+  "per_action_success_rate": {
+    "cheap_answer": {
+      "n": 50,
+      "successes": 18,
+      "rate": 0.36
+    },
+    "cheap_repair": {
+      "n": 50,
+      "successes": 21,
+      "rate": 0.42
+    },
+    "cheap_repair_after_observation": {
+      "n": 50,
+      "successes": 47,
+      "rate": 0.94
+    },
+    "strong_hint": {
+      "n": 50,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "cheap_repair_after_strong_partial": {
+      "n": 50,
+      "successes": 19,
+      "rate": 0.38
+    },
+    "strong_critique": {
+      "n": 50,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "strong_checklist": {
+      "n": 50,
+      "successes": 0,
+      "rate": 0.0
+    },
+    "strong_answer": {
+      "n": 50,
+      "successes": 31,
+      "rate": 0.62
+    },
+    "run_code": {
+      "n": 50,
+      "successes": 50,
+      "rate": 1.0
+    }
+  }
+}

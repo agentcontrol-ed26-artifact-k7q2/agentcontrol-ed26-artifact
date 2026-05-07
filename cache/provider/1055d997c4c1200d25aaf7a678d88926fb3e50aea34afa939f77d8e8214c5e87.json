@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.3499999999999993e-05,
+  "input_tokens": 136,
+  "latency_ms": 289,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "1055d997c4c1200d25aaf7a678d88926fb3e50aea34afa939f77d8e8214c5e87",
+  "text": "Max Planck [doc_planck]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001628,
+  "input_tokens": 161,
+  "latency_ms": 374,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "d0cdab0c0986b0c277572dd33ee7d89c90cb8abd5e029c659c157c1ad33224ce",
+  "text": "Look at doc_wright for the answer to this question about the Wright brothers' achievement.\n[doc_wright]"
+}

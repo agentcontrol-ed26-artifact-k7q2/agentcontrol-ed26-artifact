@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010472,
+  "input_tokens": 97,
+  "latency_ms": 473,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "3a33c447a91262870c398457759f5e68c19a498a22c5a0a9a7292db890c9ac32",
+  "text": "To solve for x, subtract 3 from both sides of the equation to isolate the term involving x."
+}

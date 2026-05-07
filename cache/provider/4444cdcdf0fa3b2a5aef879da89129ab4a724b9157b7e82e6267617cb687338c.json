@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00040695999999999994,
+  "input_tokens": 67,
+  "latency_ms": 3097,
+  "model": "deepseek-reasoner",
+  "output_tokens": 169,
+  "provider": "deepseek",
+  "request_hash": "4444cdcdf0fa3b2a5aef879da89129ab4a724b9157b7e82e6267617cb687338c",
+  "text": "(3+4) = 7\n(5-2) = 3\n7 * 3 = 21\n21"
+}

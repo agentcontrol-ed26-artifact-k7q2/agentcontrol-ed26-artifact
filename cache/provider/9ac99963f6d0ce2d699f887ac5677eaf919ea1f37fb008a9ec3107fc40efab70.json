@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.45e-05,
+  "input_tokens": 105,
+  "latency_ms": 470,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "9ac99963f6d0ce2d699f887ac5677eaf919ea1f37fb008a9ec3107fc40efab70",
+  "text": "Charles Darwin [doc_darwin_origin]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.451e-05,
+  "input_tokens": 133,
+  "latency_ms": 1125,
+  "model": "deepseek-chat",
+  "output_tokens": 26,
+  "provider": "deepseek",
+  "request_hash": "4c34943b0f1dacd65fd9f0822277882881fa78903eafaeabc296542b47e9ecd0",
+  "text": "He won the Nobel Prize in Physics in 1921 for his discovery of the photoelectric effect. [doc_einstein]"
+}

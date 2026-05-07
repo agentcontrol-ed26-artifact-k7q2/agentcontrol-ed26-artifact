@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.274e-05,
+  "input_tokens": 52,
+  "latency_ms": 961,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "68d17578b8d1dd5c345ee39af5b0aebbca5a1cb1f4f83a3792f7f5d6754ba71e",
+  "text": "```python\ndef max_of_list(xs):\n    return max(xs)\n```"
+}

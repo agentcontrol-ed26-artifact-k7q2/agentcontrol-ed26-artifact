@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.169e-05,
+  "input_tokens": 37,
+  "latency_ms": 1238,
+  "model": "deepseek-chat",
+  "output_tokens": 47,
+  "provider": "deepseek",
+  "request_hash": "c89045d22a5666f51947cf3d3147ae70bf05e5715628e348b3069e2a4256a141",
+  "text": "First, find 1/4 of 20:  \n20 \u00f7 4 = 5  \n\nThen, multiply by 3 to get 3/4:  \n5 \u00d7 3 = 15  \n\nFinal answer: 15"
+}

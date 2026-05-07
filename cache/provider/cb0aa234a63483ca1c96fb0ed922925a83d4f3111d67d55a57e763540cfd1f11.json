@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035169000000000004,
+  "input_tokens": 78,
+  "latency_ms": 3092,
+  "model": "deepseek-reasoner",
+  "output_tokens": 141,
+  "provider": "deepseek",
+  "request_hash": "cb0aa234a63483ca1c96fb0ed922925a83d4f3111d67d55a57e763540cfd1f11",
+  "text": "1. The evidence states \"Python was created by Guido van Rossum,\" directly confirming the creator. [doc_python]\n2. The evidence includes the first release year (1991), which supports the historical accuracy of the creation claim. [doc_python]"
+}

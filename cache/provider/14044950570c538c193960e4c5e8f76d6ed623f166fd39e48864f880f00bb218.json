@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.75e-05,
+  "input_tokens": 212,
+  "latency_ms": 237,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "14044950570c538c193960e4c5e8f76d6ed623f166fd39e48864f880f00bb218",
+  "text": "Wapakoneta, Ohio [doc_armstrong]"
+}

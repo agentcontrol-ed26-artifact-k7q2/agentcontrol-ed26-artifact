@@ -1,0 +1,276 @@
+{
+  "n_total": 50,
+  "difficulty_counts": {
+    "easy": 11,
+    "medium": 23,
+    "hard": 16
+  },
+  "provenance_counts": {
+    "synthetic-local-legacy-from-main-rescue-gpu": 20,
+    "synthetic-local-extension-f2": 30
+  },
+  "available_observations": [
+    "run_code"
+  ],
+  "no_gold_leak_check": {
+    "n_leaked": 0,
+    "leaks": []
+  },
+  "programmatic_gold_verification": {
+    "verified_count": 30,
+    "mismatches": []
+  },
+  "tasks": [
+    {
+      "task_id": "id_001",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_002",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_003",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_004",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_005",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_006",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_007",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_008",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_009",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_010",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_011",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_012",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_013",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_014",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_015",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_016",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_017",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_018",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_019",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_020",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-legacy-from-main-rescue-gpu"
+    },
+    {
+      "task_id": "id_021",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_022",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_023",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_024",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_025",
+      "difficulty": "easy",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_026",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_027",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_028",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_029",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_030",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_031",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_032",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_033",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_034",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_035",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_036",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_037",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_038",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_039",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_040",
+      "difficulty": "medium",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_041",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_042",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_043",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_044",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_045",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_046",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_047",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_048",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_049",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    },
+    {
+      "task_id": "id_050",
+      "difficulty": "hard",
+      "provenance": "synthetic-local-extension-f2"
+    }
+  ],
+  "honesty": "F2 extension of data_analysis_code from n=20 to n=50. Legacy 20 inherited from main_rescue_gpu/interactive_tasks.py (synthetic-local-legacy); 30 new locally-constructed tasks (synthetic-local-extension-f2) with deterministic verifiers. Each new task's gold answer is recomputed programmatically in this script's `_verify_gold_answers` function and cross-checked against the in-pool value; result reported under 'programmatic_gold_verification'. run_code observation returns real model-emitted stdout, not gold."
+}

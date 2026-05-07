@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001155,
+  "input_tokens": 97,
+  "latency_ms": 2673,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 288,
+  "provider": "together",
+  "request_hash": "5416ca96cf03918ce38802849a10e64ddc4b44df31705c3b2af37c6fd3ca26a5",
+  "text": "To determine how many bulbs are on after 100 rounds, we need to analyze the toggling process. Each bulb is toggled in rounds corresponding to its divisors. For example, bulb 12 is toggled in rounds 1, 2, 3, 4, 6, and 12. Notice that the number of times a bulb is toggled is equal to the number of divisors of the bulb's number.\n\nA bulb ends up being on if it is toggled an odd number of times. This happens if and only if the bulb's number has an odd number of divisors. The only numbers that have an odd number of divisors are perfect squares. This is because divisors of a number come in pairs, except in the case of perfect squares where the square root is counted only once.\n\nThe perfect squares between 1 and 100 are: 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100. There are 10 perfect squares in this range.\n\nTherefore, after all 100 rounds, the number of bulbs that are on is the number of perfect squares between 1 and 100, which is 10.\n\nThe final answer is:\n\\[\n\\boxed{10}\n\\]"
+}

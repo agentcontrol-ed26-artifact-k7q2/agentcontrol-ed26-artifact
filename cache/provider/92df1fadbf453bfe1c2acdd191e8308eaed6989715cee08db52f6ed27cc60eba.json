@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010263,
+  "input_tokens": 99,
+  "latency_ms": 1534,
+  "model": "deepseek-chat",
+  "output_tokens": 69,
+  "provider": "deepseek",
+  "request_hash": "92df1fadbf453bfe1c2acdd191e8308eaed6989715cee08db52f6ed27cc60eba",
+  "text": "```python\ndata = [(0,10),(15,20),(30,15),(45,25),(60,30),(75,20)]\n# Filter timestamps >= 45\nfiltered = [v for t, v in data if t >= 45]\n# Compute sum\nresult = sum(filtered)\nprint(result)\n```"
+}

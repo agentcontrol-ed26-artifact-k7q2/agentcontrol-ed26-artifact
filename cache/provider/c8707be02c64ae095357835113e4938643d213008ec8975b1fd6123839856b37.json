@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001144,
+  "input_tokens": 96,
+  "latency_ms": 916,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "c8707be02c64ae095357835113e4938643d213008ec8975b1fd6123839856b37",
+  "text": "To find the sum, use the formula for the sum of an arithmetic series, which is the average of the first and last term multiplied by the number of terms."
+}

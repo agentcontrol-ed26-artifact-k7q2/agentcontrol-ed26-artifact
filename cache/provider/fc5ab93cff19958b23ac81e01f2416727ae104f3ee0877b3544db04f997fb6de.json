@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.2000000000000004e-05,
+  "input_tokens": 123,
+  "latency_ms": 473,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "fc5ab93cff19958b23ac81e01f2416727ae104f3ee0877b3544db04f997fb6de",
+  "text": "Irene Joliot-Curie [doc_curie_irene]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010499999999999999,
+  "input_tokens": 224,
+  "latency_ms": 1326,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 126,
+  "provider": "together",
+  "request_hash": "55e30ed144d191f6e8035344fadd1ed4c6cf45bbda339ab5db78cafdd0053389",
+  "text": "```python\ndef decode_string(s):\n    stack = []\n    cur_num = 0\n    cur_str = ''\n    for c in s:\n        if c == '[':\n            stack.append(cur_str)\n            stack.append(cur_num)\n            cur_str = ''\n            cur_num = 0\n        elif c == ']':\n            num = stack.pop()\n            prev_str = stack.pop()\n            cur_str = prev_str + num * cur_str\n        elif c.isdigit():\n            cur_num = cur_num * 10 + int(c)\n        else:\n            cur_str += c\n    return cur_str\n```"
+}

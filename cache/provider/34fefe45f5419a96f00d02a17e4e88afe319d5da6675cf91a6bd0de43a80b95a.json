@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00134149,
+  "input_tokens": 265,
+  "latency_ms": 7042,
+  "model": "deepseek-reasoner",
+  "output_tokens": 546,
+  "provider": "deepseek",
+  "request_hash": "34fefe45f5419a96f00d02a17e4e88afe319d5da6675cf91a6bd0de43a80b95a",
+  "text": "Pierre Curie shared the 1903 Nobel Prize in Physics for radioactivity work. [doc_curie_pierre]"
+}

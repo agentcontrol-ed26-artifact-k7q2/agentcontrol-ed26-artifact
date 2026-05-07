@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.869999999999999e-05,
+  "input_tokens": 75,
+  "latency_ms": 722,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 54,
+  "provider": "together",
+  "request_hash": "901c3454003e2254dcd0e8098be1757dd8450624947ef26cb7bf0f997e23a090",
+  "text": "```python\ndef json_path_lookup(d, path):\n    keys = path.split('.')\n    for k in keys:\n        if isinstance(d, dict) and k in d:\n            d = d[k]\n        else:\n            return None\n    return d\n```"
+}

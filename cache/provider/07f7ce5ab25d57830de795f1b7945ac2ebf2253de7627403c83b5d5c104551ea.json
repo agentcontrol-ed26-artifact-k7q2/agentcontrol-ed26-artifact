@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023228000000000002,
+  "input_tokens": 56,
+  "latency_ms": 2011,
+  "model": "deepseek-reasoner",
+  "output_tokens": 92,
+  "provider": "deepseek",
+  "request_hash": "07f7ce5ab25d57830de795f1b7945ac2ebf2253de7627403c83b5d5c104551ea",
+  "text": "Multiply both sides by 3 to isolate \\(x\\)."
+}

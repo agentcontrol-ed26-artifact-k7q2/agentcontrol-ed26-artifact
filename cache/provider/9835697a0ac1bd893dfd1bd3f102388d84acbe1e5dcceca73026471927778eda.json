@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011791999999999998,
+  "input_tokens": 99,
+  "latency_ms": 1208,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "9835697a0ac1bd893dfd1bd3f102388d84acbe1e5dcceca73026471927778eda",
+  "text": "To minimize the total time, consider sending the fastest person back and forth with the torch to accompany the slower individuals, as this can reduce the overall number of trips needed."
+}

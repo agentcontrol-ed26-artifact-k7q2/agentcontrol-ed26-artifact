@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016807999999999998,
+  "input_tokens": 150,
+  "latency_ms": 4293,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "76aa511eddfa3d7f6b2a752a337139d54891d0581da7593bff3bf95c94138efc",
+  "text": "The most common citation mistake is including unnecessary or extra information in the citation, such as a page number or author name, when only a simple document reference is required, answer phrase [doc_curie]"
+}

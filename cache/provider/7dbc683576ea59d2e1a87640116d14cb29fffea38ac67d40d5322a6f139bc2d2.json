@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.2499999999999995e-05,
+  "input_tokens": 93,
+  "latency_ms": 803,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 82,
+  "provider": "together",
+  "request_hash": "7dbc683576ea59d2e1a87640116d14cb29fffea38ac67d40d5322a6f139bc2d2",
+  "text": "```python\n# Given data\ndata = [('A', 80), ('B', 95), ('C', 72), ('D', 95)]\n\n# Count how many have score >= 90\ncount = sum(1 for _, score in data if score >= 90)\n\n# Print the final answer\nprint(count)\n```\n```\n2\n```"
+}

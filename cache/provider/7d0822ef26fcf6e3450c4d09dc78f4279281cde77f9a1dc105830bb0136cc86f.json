@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027104,
+  "input_tokens": 275,
+  "latency_ms": 1112,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "7d0822ef26fcf6e3450c4d09dc78f4279281cde77f9a1dc105830bb0136cc86f",
+  "text": "The Amazon River, located in South America, is the second longest river, and it is on the continent of South America. [doc_amazon_river]"
+}

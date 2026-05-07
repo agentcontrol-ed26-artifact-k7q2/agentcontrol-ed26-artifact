@@ -1,0 +1,607 @@
+{
+  "deepseek": {
+    "cells": [
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -31.94444444444444,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": 43.6046511627907,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": 43.6046511627907,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 4.901960784313726,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 22.606382978723406,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -16.399999999999984,
+        "router_succ": 0.8583333333333333,
+        "graph_succ": 0.975
+      }
+    ],
+    "crossings": [
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": 43.6046511627907,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": 43.6046511627907,
+        "router_succ": 0.9166666666666666,
+        "graph_succ": 0.975
+      }
+    ],
+    "any_crossing": true
+  },
+  "together": {
+    "cells": [
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": -6.1320754716981165,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -2.35849056603774,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.875
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": -6.1320754716981165,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -2.35849056603774,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.875
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": -6.1320754716981165,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 5.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -2.35849056603774,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.875
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 10.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 15.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -8.01886792452831,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.0,
+        "strong_mult": 2.0,
+        "saving_pct": 11.496350364963492,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.01,
+        "strong_mult": 2.0,
+        "saving_pct": 11.496350364963492,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 0.5,
+        "saving_pct": 2.922077922077929,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 1.0,
+        "saving_pct": 6.95876288659794,
+        "router_succ": 0.9333333333333333,
+        "graph_succ": 0.9333333333333333
+      },
+      {
+        "budget": 25.0,
+        "cost_penalty": 0.1,
+        "strong_mult": 2.0,
+        "saving_pct": -5.327868852459019,
+        "router_succ": 0.8666666666666667,
+        "graph_succ": 0.8833333333333333
+      }
+    ],
+    "crossings": [],
+    "any_crossing": false
+  }
+}

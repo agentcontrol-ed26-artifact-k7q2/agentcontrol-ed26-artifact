@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018666000000000003,
+  "input_tokens": 68,
+  "latency_ms": 2879,
+  "model": "deepseek-chat",
+  "output_tokens": 153,
+  "provider": "deepseek",
+  "request_hash": "3877b35bd58d6ee1f70fcf310819053a236903b48b28629f4046ed6eed2786fa",
+  "text": "```python\ndef find_anagrams(s, p):\n    if len(p) > len(s):\n        return []\n    p_count = [0] * 26\n    s_count = [0] * 26\n    for ch in p:\n        p_count[ord(ch) - ord('a')] += 1\n    result = []\n    for i in range(len(s)):\n        s_count[ord(s[i]) - ord('a')] += 1\n        if i >= len(p):\n            s_count[ord(s[i - len(p)]) - ord('a')] -= 1\n        if s_count == p_count:\n            result.append(i - len(p) + 1)\n    return result\n```"
+}

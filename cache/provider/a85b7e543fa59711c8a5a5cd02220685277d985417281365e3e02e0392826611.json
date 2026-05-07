@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036322,
+  "input_tokens": 66,
+  "latency_ms": 4979,
+  "model": "deepseek-chat",
+  "output_tokens": 314,
+  "provider": "deepseek",
+  "request_hash": "a85b7e543fa59711c8a5a5cd02220685277d985417281365e3e02e0392826611",
+  "text": "We need to get all four people across the bridge in the shortest time.  \nThe times are 1, 2, 5, and 10 minutes.  \nThe torch must be carried back and forth.  \n\nA common optimal strategy:  \n\n1. The two fastest (1 and 2) cross first. Time = 2 minutes.  \n2. The fastest (1) returns with the torch. Time = 1 minute.  \n3. The two slowest (5 and 10) cross together. Time = 10 minutes.  \n4. The second fastest (2) returns with the torch. Time = 2 minutes.  \n5. The two fastest (1 and 2) cross again. Time = 2 minutes.  \n\nTotal = 2 + 1 + 10 + 2 + 2 = 17 minutes.  \n\nAlternative check:  \n- Send 1 and 10 first (10 min), 1 returns (1 min), 1 and 5 (5 min), 1 returns (1 min), 1 and 2 (2 min) = 10+1+5+1+2 = 19, worse.  \n- Send 1 and 5 first (5 min), 1 returns (1 min), 2 and 10 (10 min), 2 returns (2 min), 1 and 2 (2 min) = 5+1+10+2+2 = 20, worse.  \n\nSo 17 is minimal.\n\nFinal integer: 17"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027829,
+  "input_tokens": 64,
+  "latency_ms": 2220,
+  "model": "deepseek-reasoner",
+  "output_tokens": 111,
+  "provider": "deepseek",
+  "request_hash": "fe64864d555afe474fa10eed66ae7f127f85a505091105b696364546872a27b1",
+  "text": "The sum of the first n odd positive integers is n squared."
+}

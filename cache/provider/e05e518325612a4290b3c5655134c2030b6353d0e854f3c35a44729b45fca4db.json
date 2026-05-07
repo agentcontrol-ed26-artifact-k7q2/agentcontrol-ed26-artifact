@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.4340000000000005e-05,
+  "input_tokens": 132,
+  "latency_ms": 1036,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "e05e518325612a4290b3c5655134c2030b6353d0e854f3c35a44729b45fca4db",
+  "text": "Alexander Graham Bell patented the telephone in 1876. [doc_telephone]"
+}

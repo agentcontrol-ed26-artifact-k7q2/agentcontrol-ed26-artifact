@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00034573,
+  "input_tokens": 103,
+  "latency_ms": 2634,
+  "model": "deepseek-reasoner",
+  "output_tokens": 132,
+  "provider": "deepseek",
+  "request_hash": "720649bc929573fa6c99b613c9afa809a84e08c37c17dfbe1e12cbc02d8f9f75",
+  "text": "Charles Babbage [doc_babbage]. The most common citation mistake is citing a document that does not contain the relevant information, such as using doc_nile for this question."
+}

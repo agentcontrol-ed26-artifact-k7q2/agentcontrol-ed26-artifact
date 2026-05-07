@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00050825,
+  "input_tokens": 68,
+  "latency_ms": 3651,
+  "model": "deepseek-reasoner",
+  "output_tokens": 215,
+  "provider": "deepseek",
+  "request_hash": "5f19fb5909f977a381861f96f61273b825fa406d8130d2c84628576da7430ad3",
+  "text": "```python\ndef matrix_transpose(m):\n    \"\"\"Return the transpose of a 2D list m.\"\"\"\n    if not m:\n        return []\n    return [[m[j][i] for j in range(len(m))] for i in range(len(m[0]))]\n```"
+}

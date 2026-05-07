@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019976,
+  "input_tokens": 99,
+  "latency_ms": 1812,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 128,
+  "provider": "together",
+  "request_hash": "3465b3aad4ce324f93e4abd8b9066b66a300a519ea9df8404eff089ae9dd8ad9",
+  "text": "To solve this problem, you can initialize four pointers representing the current top, bottom, left, and right boundaries of the matrix and iteratively move them inward as you traverse the elements in a spiral order.\n\n```python\ndef spiral_order(m):\n    result = []\n    while m:\n        result += m.pop(0)\n        if m and m[0]:\n            for row in m:\n                result.append(row.pop())\n        if m:\n            result += m.pop()[::-1]\n        if m and m[0]:\n            for row in m[::-1]:\n                result.append(row.pop(0))\n    return result\n```"
+}

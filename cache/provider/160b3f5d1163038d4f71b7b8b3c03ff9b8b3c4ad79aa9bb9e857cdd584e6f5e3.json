@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.571000000000001e-05,
+  "input_tokens": 133,
+  "latency_ms": 1017,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "160b3f5d1163038d4f71b7b8b3c03ff9b8b3c4ad79aa9bb9e857cdd584e6f5e3",
+  "text": "Charles Babbage designed the Analytical Engine in the 1830s [doc_babbage]."
+}

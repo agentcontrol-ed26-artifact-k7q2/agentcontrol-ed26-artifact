@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026689,
+  "input_tokens": 103,
+  "latency_ms": 1855,
+  "model": "deepseek-reasoner",
+  "output_tokens": 96,
+  "provider": "deepseek",
+  "request_hash": "b668e8f21ea79e541db0d8b9cebf907677e5d210fa5c22a00b5f32dcb8429106",
+  "text": "Thomas Edison [doc_edison]"
+}

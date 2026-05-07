@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005051000000000001,
+  "input_tokens": 122,
+  "latency_ms": 3793,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "19745b90f25c7de573ee606b8d1601a85d9328e44d1f886659354b02b57a1082",
+  "text": "1. Verify that the evidence document explicitly names the designer of the Analytical Engine and confirms the timeframe (1830"
+}

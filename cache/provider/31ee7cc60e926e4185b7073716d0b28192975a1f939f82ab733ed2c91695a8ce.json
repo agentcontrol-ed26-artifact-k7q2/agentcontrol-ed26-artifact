@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016456,
+  "input_tokens": 151,
+  "latency_ms": 1082,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "31ee7cc60e926e4185b7073716d0b28192975a1f939f82ab733ed2c91695a8ce",
+  "text": "Verification checks:\n1. Check if the river in question is indeed the longest in the world.\n2. Verify the countries through which the river primarily flows [doc_nile]"
+}

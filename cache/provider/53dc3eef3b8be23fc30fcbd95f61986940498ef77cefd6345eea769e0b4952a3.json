@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027397,
+  "input_tokens": 88,
+  "latency_ms": 2090,
+  "model": "deepseek-reasoner",
+  "output_tokens": 103,
+  "provider": "deepseek",
+  "request_hash": "53dc3eef3b8be23fc30fcbd95f61986940498ef77cefd6345eea769e0b4952a3",
+  "text": "1. Verify that the evidence explicitly states the year of the first sustained powered flight by the Wright brothers.\n2. Confirm that the flight location (Kitty Hawk) and the brothers' names match the question's context."
+}

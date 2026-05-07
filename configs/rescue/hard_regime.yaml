@@ -1,0 +1,43 @@
+seed: 20260427
+target_size: 90  # math=30, code=30, evidence=30
+families:
+  math:
+    n: 30
+    provenance: synthetic-local-hard (modular arithmetic, number theory, combinatorics, algebra)
+    regime_distribution:
+      easy_saturation: 6
+      medium_headroom: 10
+      hard_strong_gap: 10
+      weak_verifier_risk: 4
+  code:
+    n: 30
+    provenance: synthetic-local-hard (algorithm tasks with deterministic unit tests)
+    regime_distribution:
+      easy_saturation: 5
+      medium_headroom: 10
+      hard_strong_gap: 11
+      weak_verifier_risk: 4
+  evidence:
+    n: 30
+    provenance: synthetic-local-multihop (frozen 20-doc corpus with chain reasoning + distractors)
+    regime_distribution:
+      easy_saturation: 6
+      medium_headroom: 10
+      hard_strong_gap: 8
+      evidence_support_risk: 6
+price_model:
+  cheap_answer: 1.0
+  cheap_repair: 1.0
+  strong_hint: 2.0
+  cheap_repair_after_hint: 1.0
+  strong_critique: 2.0
+  strong_checklist: 2.0
+  strong_answer: 10.0
+budget:
+  default_max_spend_usd_per_provider: 10.0
+  hard_kill_on_overspend: true
+note: |
+  Tasks are constructed locally with deterministic verifiers and explicit
+  difficulty regime tags. Difficulty is calibrated so cheap arms can fail
+  while strong arms succeed on a non-trivial fraction. NOT drawn from
+  benchmark downloads; provenance and verifiers are open and auditable.

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015840000000000003,
+  "input_tokens": 162,
+  "latency_ms": 374,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "b7165e4e3e377e479066994ca51b7b1e6cc03a80b18510edd0907505b86adb80",
+  "text": "Charles Darwin published On the Origin of Species in 1859 [doc_evolution]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.168e-05,
+  "input_tokens": 184,
+  "latency_ms": 1033,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "fbeba29f7c15ad4d81a918fe670aaf6f339f1119fe9d832875d4020919dd76ef",
+  "text": "The Apollo 11 mission first landed humans on the Moon. [doc_apollo_mission]"
+}

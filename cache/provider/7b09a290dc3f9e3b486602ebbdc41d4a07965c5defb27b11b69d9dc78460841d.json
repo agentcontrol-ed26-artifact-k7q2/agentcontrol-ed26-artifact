@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00042119,
+  "input_tokens": 65,
+  "latency_ms": 3232,
+  "model": "deepseek-reasoner",
+  "output_tokens": 176,
+  "provider": "deepseek",
+  "request_hash": "7b09a290dc3f9e3b486602ebbdc41d4a07965c5defb27b11b69d9dc78460841d",
+  "text": "Pair the numbers: (1+10) + (2+9) + (3+8) + (4+7) + (5+6)."
+}

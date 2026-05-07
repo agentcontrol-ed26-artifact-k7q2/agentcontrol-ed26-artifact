@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026663999999999995,
+  "input_tokens": 280,
+  "latency_ms": 1227,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "cf3c6f1ae737b6af3ea402902ddba82eb1c681f603c3a47b8024cdf0328b6a16",
+  "text": "The attack on Pearl Harbor brought the United States into World War II [doc_ww2_pearl]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005469,
+  "input_tokens": 198,
+  "latency_ms": 3784,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "b6d30147c0d49bf07ba2a6182b5da578ad2472861212de75c3148f98d76b90db",
+  "text": "Ros"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.219999999999999e-05,
+  "input_tokens": 72,
+  "latency_ms": 1571,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 202,
+  "provider": "together",
+  "request_hash": "38380a9c41c52760f2a4848e71e2f4b9e8b8419d0e58f7b0cf4d7e5476d65f59",
+  "text": "```python\ndef count_islands(grid):\n    if not grid or not grid[0]:\n        return 0\n    \n    rows, cols = len(grid), len(grid[0])\n    visited = set()\n    count = 0\n    \n    def dfs(r, c):\n        if (r < 0 or c < 0 or r >= rows or c >= cols or grid[r][c] == 0 or (r, c) in visited):\n            return\n        visited.add((r, c))\n        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]\n        for dr, dc in directions:\n            dfs(r + dr, c + dc)\n    \n    for r in range(rows):\n        for c in range(cols):\n            if grid[r][c] == 1 and (r, c) not in visited:\n                dfs(r, c)\n                count += 1\n                \n    return count\n```"
+}

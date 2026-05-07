@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.34e-05,
+  "input_tokens": 58,
+  "latency_ms": 409,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "cabffc59a697b3b9acdb459398deee6edb2f726fbd062e1a9d4b24418cf2d8f9",
+  "text": "```python\ndef is_even(n):\n    return n % 2 == 0\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.427e-05,
+  "input_tokens": 71,
+  "latency_ms": 1214,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "5d8b949365bc09d5e808a5f8b1720cdaa5da3674cf8c0df30910e4464a734124",
+  "text": "```python\nxs = [3, 7, 11, 13, 17, 19, 23]\n# All numbers in the list are primes.\nprint(len(xs))\n```"
+}

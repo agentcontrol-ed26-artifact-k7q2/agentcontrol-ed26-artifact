@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028512,
+  "input_tokens": 289,
+  "latency_ms": 624,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "4f36d13f4fb5880a367f8cce05d6c449856486983afdb0ef355aaf84a0c4a12b",
+  "text": "The person who developed the photoelectric effect explanation is Albert Einstein, as he won the Nobel Prize in Physics for this discovery. \nAnswer [doc_einstein_nobel]"
+}

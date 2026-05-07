@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019712,
+  "input_tokens": 154,
+  "latency_ms": 4635,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 70,
+  "provider": "together",
+  "request_hash": "89f0b42afb0a7e412a88fdf41866af0ad969983c987b76dd1d9456b09e61a526",
+  "text": "To verify the answer, two checks can be performed: \n1. Consult a reliable source of geographical information to confirm the mountain's height and its status as the highest above sea level.\n2. Cross-check the information with other documents or databases that list the world's highest mountains to ensure consistency and accuracy.\nAnswer phrase [doc_everest]"
+}

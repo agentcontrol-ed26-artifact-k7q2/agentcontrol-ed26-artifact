@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017492,
+  "input_tokens": 107,
+  "latency_ms": 1390,
+  "model": "deepseek-reasoner",
+  "output_tokens": 53,
+  "provider": "deepseek",
+  "request_hash": "738e286313ad50a05dfba1cba1f348c525e37078231b036e0def6c010bac44f5",
+  "text": "Hint: See doc_babbage."
+}

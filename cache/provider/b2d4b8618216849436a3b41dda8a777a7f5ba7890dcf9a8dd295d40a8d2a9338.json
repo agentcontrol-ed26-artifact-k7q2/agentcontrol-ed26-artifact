@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023672,
+  "input_tokens": 232,
+  "latency_ms": 705,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "b2d4b8618216849436a3b41dda8a777a7f5ba7890dcf9a8dd295d40a8d2a9338",
+  "text": "Hint: doc_curie and doc_curie2 may contain relevant information about the 1903 Nobel Prize and the discovery of radium.\nAnswer phrase: [doc_curie]"
+}

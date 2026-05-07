@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027984,
+  "input_tokens": 299,
+  "latency_ms": 798,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "cb6ebe443d03628ff2f15695118775753e67a78d0c30e16220c6156cab74e00b",
+  "text": "The first person to walk on the Moon was born in Ohio [doc_armstrong_bio]"
+}

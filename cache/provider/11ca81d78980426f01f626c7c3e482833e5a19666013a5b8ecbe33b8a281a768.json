@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002112,
+  "input_tokens": 160,
+  "latency_ms": 5297,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 80,
+  "provider": "together",
+  "request_hash": "11ca81d78980426f01f626c7c3e482833e5a19666013a5b8ecbe33b8a281a768",
+  "text": "The most common citation mistake is including unnecessary or incorrect information in the citation, such as including the author's name or a summary of the content, instead of just the reference identifier, for example, writing [Wright brothers, doc_wright] instead of just [doc_wright].\nAnswer phrase: The year the Wright brothers achieved their first sustained flight was 1903 [doc_wright]"
+}

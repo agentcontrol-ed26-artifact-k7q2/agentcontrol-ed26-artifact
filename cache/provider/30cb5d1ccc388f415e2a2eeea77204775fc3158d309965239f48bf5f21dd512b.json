@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024816,
+  "input_tokens": 258,
+  "latency_ms": 610,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "30cb5d1ccc388f415e2a2eeea77204775fc3158d309965239f48bf5f21dd512b",
+  "text": "The answer to the question is that Python 3.0 was released in 2008 [doc_python_versions]"
+}

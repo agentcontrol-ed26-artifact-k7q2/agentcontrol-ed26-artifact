@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.649999999999999e-05,
+  "input_tokens": 108,
+  "latency_ms": 1486,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 147,
+  "provider": "together",
+  "request_hash": "3750f1ad705d2f780a4d750d35f58796125b2a56a231fa4d231762ab9cd92733",
+  "text": "To compute the total cents in 3 quarters, 4 dimes, and 5 nickels, we start by calculating the value of each type of coin:\n\n- The value of 3 quarters is \\(3 \\times 25 = 75\\) cents.\n- The value of 4 dimes is \\(4 \\times 10 = 40\\) cents.\n- The value of 5 nickels is \\(5 \\times 5 = 25\\) cents.\n\nNow, we sum these values to get the total:\n\n\\[75 + 40 + 25 = 140\\]\n\nSo, the total number of cents is \\(\\boxed{140}\\)."
+}

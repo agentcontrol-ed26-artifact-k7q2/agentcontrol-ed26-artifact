@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.740000000000001e-05,
+  "input_tokens": 141,
+  "latency_ms": 447,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "1e2f838ad52d305573a2da7d32fca885979ce830807874ab26b2cb6a8051b6a4",
+  "text": "Edmund Hillary and Tenzing Norgay [doc_everest]"
+}

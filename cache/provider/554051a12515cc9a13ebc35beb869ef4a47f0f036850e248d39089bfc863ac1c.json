@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013552,
+  "input_tokens": 91,
+  "latency_ms": 765,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 63,
+  "provider": "together",
+  "request_hash": "554051a12515cc9a13ebc35beb869ef4a47f0f036850e248d39089bfc863ac1c",
+  "text": "The function can utilize bitwise operations to find the single number, as XOR of all numbers will eliminate the numbers that appear twice and leave the number that appears once.\n\n```python\ndef single_number(xs):\n    result = 0\n    for x in xs:\n        result ^= x\n    return result\n```"
+}

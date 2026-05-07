@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015928,
+  "input_tokens": 171,
+  "latency_ms": 348,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "e52335454fc1cb57c2ad75b3c4a8d74f35a76a48daabd2b7aeaa1190a3b721cb",
+  "text": "In 1915 [doc_einstein]"
+}

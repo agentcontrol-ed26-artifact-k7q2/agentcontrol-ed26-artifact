@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.888e-05,
+  "input_tokens": 86,
+  "latency_ms": 916,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "ee42a94cd432ddad53fd968ff578fa8afba7297777046adb24a20c9019f76a96",
+  "text": "```python\ndef sum_list(xs):\n    return sum(xs)\n```"
+}

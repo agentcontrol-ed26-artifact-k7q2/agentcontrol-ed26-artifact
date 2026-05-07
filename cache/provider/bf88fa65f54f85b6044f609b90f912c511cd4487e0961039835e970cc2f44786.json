@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005183,
+  "input_tokens": 146,
+  "latency_ms": 3203,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "bf88fa65f54f85b6044f609b90f912c511cd4487e0961039835e970cc2f44786",
+  "text": "- Verify that the evidence specifically mentions the year 1953 in connection with the first summit of Mount Everest.\n- Confirm that the evidence lists both Edmund Hillary and Tenzing Norgay as the individuals who accomplished"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027661000000000005,
+  "input_tokens": 63,
+  "latency_ms": 4078,
+  "model": "deepseek-chat",
+  "output_tokens": 236,
+  "provider": "deepseek",
+  "request_hash": "16f1882b44fb43f3b18b04193de0b05c41cc978ff1278e8e053f7956820744ae",
+  "text": "We have capacity 7 and items:  \n(3,4), (4,5), (2,3), (5,6).  \n\nLet\u2019s consider combinations:\n\n- Items (3,4) and (4,5): weight 3+4=7, value 4+5=9.  \n- Items (3,4) and (2,3): weight 5, value 7.  \n- Items (4,5) and (2,3): weight 6, value 8.  \n- Items (2,3) and (5,6): weight 7, value 9.  \n- Item (5,6) alone: weight 5, value 6.  \n- Item (4,5) alone: weight 4, value 5.  \n- Item (3,4) alone: weight 3, value 4.  \n- Item (2,3) alone: weight 2, value 3.  \n\nBest value is 9 from either (3,4)+(4,5) or (2,3)+(5,6).  \n\nFinal integer: 9"
+}

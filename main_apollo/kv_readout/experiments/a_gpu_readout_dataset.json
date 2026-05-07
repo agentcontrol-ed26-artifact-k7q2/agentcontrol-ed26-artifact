@@ -1,0 +1,6856 @@
+{
+  "n_total": 388,
+  "n_missing_text": 0,
+  "label_admissibility": {
+    "need_code": "trivial_family_tag",
+    "need_retrieve": "trivial_family_tag",
+    "verifier_risk": "admissible_hard",
+    "need_strong": "admissible_hard",
+    "escalate": "admissible_hard",
+    "graph_candidate": "admissible_hard"
+  },
+  "label_balance": {
+    "need_code": {
+      "pos": 139,
+      "neg": 249,
+      "pos_rate": 0.3582474226804124
+    },
+    "need_retrieve": {
+      "pos": 139,
+      "neg": 249,
+      "pos_rate": 0.3582474226804124
+    },
+    "verifier_risk": {
+      "pos": 16,
+      "neg": 372,
+      "pos_rate": 0.041237113402061855
+    },
+    "need_strong": {
+      "pos": 119,
+      "neg": 269,
+      "pos_rate": 0.30670103092783507
+    },
+    "escalate": {
+      "pos": 119,
+      "neg": 269,
+      "pos_rate": 0.30670103092783507
+    },
+    "graph_candidate": {
+      "pos": 29,
+      "neg": 359,
+      "pos_rate": 0.07474226804123711
+    }
+  },
+  "splits": {
+    "random_5fold": [
+      {
+        "n_test": 78
+      },
+      {
+        "n_test": 78
+      },
+      {
+        "n_test": 78
+      },
+      {
+        "n_test": 77
+      },
+      {
+        "n_test": 77
+      }
+    ],
+    "family_held_out": {
+      "code": {
+        "n_held": 89,
+        "n_train": 299,
+        "label_pos_rates_in_held": {
+          "need_code": 1.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.06741573033707865,
+          "escalate": 0.06741573033707865,
+          "graph_candidate": 0.0
+        }
+      },
+      "data_analysis": {
+        "n_held": 50,
+        "n_train": 338,
+        "label_pos_rates_in_held": {
+          "need_code": 1.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.64,
+          "escalate": 0.64,
+          "graph_candidate": 0.26
+        }
+      },
+      "evidence": {
+        "n_held": 139,
+        "n_train": 249,
+        "label_pos_rates_in_held": {
+          "need_code": 0.0,
+          "need_retrieve": 1.0,
+          "verifier_risk": 0.11510791366906475,
+          "need_strong": 0.4460431654676259,
+          "escalate": 0.4460431654676259,
+          "graph_candidate": 0.0
+        }
+      },
+      "math": {
+        "n_held": 80,
+        "n_train": 308,
+        "label_pos_rates_in_held": {
+          "need_code": 0.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.1875,
+          "escalate": 0.1875,
+          "graph_candidate": 0.175
+        }
+      },
+      "math_checkpoint": {
+        "n_held": 15,
+        "n_train": 373,
+        "label_pos_rates_in_held": {
+          "need_code": 0.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.13333333333333333,
+          "escalate": 0.13333333333333333,
+          "graph_candidate": 0.13333333333333333
+        }
+      },
+      "tool_planning": {
+        "n_held": 15,
+        "n_train": 373,
+        "label_pos_rates_in_held": {
+          "need_code": 0.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.13333333333333333,
+          "escalate": 0.13333333333333333,
+          "graph_candidate": 0.0
+        }
+      }
+    },
+    "sprint_held_out": {
+      "agentic_search": {
+        "n_held": 60,
+        "n_train": 328,
+        "label_pos_rates_in_held": {
+          "need_code": 0.0,
+          "need_retrieve": 1.0,
+          "verifier_risk": 0.25,
+          "need_strong": 1.0,
+          "escalate": 1.0,
+          "graph_candidate": 0.0
+        }
+      },
+      "f2": {
+        "n_held": 30,
+        "n_train": 358,
+        "label_pos_rates_in_held": {
+          "need_code": 1.0,
+          "need_retrieve": 0.0,
+          "verifier_risk": 0.0,
+          "need_strong": 0.5333333333333333,
+          "escalate": 0.5333333333333333,
+          "graph_candidate": 0.16666666666666666
+        }
+      },
+      "hard_regime": {
+        "n_held": 90,
+        "n_train": 298,
+        "label_pos_rates_in_held": {
+          "need_code": 0.3333333333333333,
+          "need_retrieve": 0.3333333333333333,
+          "verifier_risk": 0.0,
+          "need_strong": 0.022222222222222223,
+          "escalate": 0.022222222222222223,
+          "graph_candidate": 0.0
+        }
+      },
+      "interactive": {
+        "n_held": 120,
+        "n_train": 268,
+        "label_pos_rates_in_held": {
+          "need_code": 0.5,
+          "need_retrieve": 0.25,
+          "verifier_risk": 0.008333333333333333,
+          "need_strong": 0.18333333333333332,
+          "escalate": 0.18333333333333332,
+          "graph_candidate": 0.08333333333333333
+        }
+      },
+      "rescue": {
+        "n_held": 60,
+        "n_train": 328,
+        "label_pos_rates_in_held": {
+          "need_code": 0.25,
+          "need_retrieve": 0.25,
+          "verifier_risk": 0.0,
+          "need_strong": 0.03333333333333333,
+          "escalate": 0.03333333333333333,
+          "graph_candidate": 0.0
+        }
+      },
+      "smoke": {
+        "n_held": 28,
+        "n_train": 360,
+        "label_pos_rates_in_held": {
+          "need_code": 0.14285714285714285,
+          "need_retrieve": 0.14285714285714285,
+          "verifier_risk": 0.0,
+          "need_strong": 0.6071428571428571,
+          "escalate": 0.6071428571428571,
+          "graph_candidate": 0.5
+        }
+      }
+    },
+    "hard_label_only_set": [
+      "verifier_risk",
+      "need_strong",
+      "escalate",
+      "graph_candidate"
+    ]
+  },
+  "random_folds_indices": [
+    [
+      94,
+      278,
+      159,
+      345,
+      223,
+      34,
+      247,
+      43,
+      243,
+      175,
+      264,
+      38,
+      157,
+      165,
+      210,
+      312,
+      74,
+      19,
+      281,
+      248,
+      180,
+      178,
+      69,
+      109,
+      118,
+      324,
+      343,
+      164,
+      334,
+      48,
+      147,
+      207,
+      84,
+      289,
+      259,
+      296,
+      132,
+      102,
+      315,
+      225,
+      168,
+      303,
+      20,
+      268,
+      4,
+      283,
+      95,
+      163,
+      27,
+      261,
+      244,
+      331,
+      5,
+      32,
+      24,
+      300,
+      275,
+      234,
+      290,
+      161,
+      358,
+      314,
+      136,
+      186,
+      368,
+      35,
+      321,
+      63,
+      309,
+      370,
+      355,
+      142,
+      376,
+      13,
+      47,
+      44,
+      71,
+      12
+    ],
+    [
+      113,
+      228,
+      53,
+      294,
+      366,
+      55,
+      75,
+      29,
+      313,
+      245,
+      26,
+      169,
+      190,
+      221,
+      203,
+      304,
+      326,
+      276,
+      340,
+      356,
+      217,
+      96,
+      305,
+      317,
+      254,
+      154,
+      177,
+      25,
+      90,
+      104,
+      146,
+      362,
+      8,
+      18,
+      141,
+      256,
+      280,
+      349,
+      227,
+      246,
+      286,
+      17,
+      145,
+      206,
+      306,
+      199,
+      39,
+      215,
+      233,
+      67,
+      0,
+      386,
+      128,
+      352,
+      46,
+      328,
+      126,
+      202,
+      108,
+      372,
+      285,
+      382,
+      107,
+      232,
+      333,
+      98,
+      150,
+      274,
+      176,
+      378,
+      174,
+      301,
+      359,
+      308,
+      15,
+      279,
+      114,
+      57
+    ],
+    [
+      354,
+      97,
+      99,
+      201,
+      284,
+      77,
+      106,
+      85,
+      271,
+      93,
+      173,
+      357,
+      277,
+      10,
+      64,
+      253,
+      100,
+      238,
+      337,
+      151,
+      322,
+      11,
+      6,
+      360,
+      31,
+      325,
+      240,
+      365,
+      348,
+      149,
+      292,
+      60,
+      266,
+      1,
+      364,
+      335,
+      230,
+      182,
+      54,
+      42,
+      265,
+      124,
+      361,
+      212,
+      82,
+      374,
+      50,
+      76,
+      129,
+      249,
+      323,
+      351,
+      239,
+      353,
+      252,
+      204,
+      380,
+      255,
+      33,
+      117,
+      138,
+      273,
+      181,
+      350,
+      148,
+      295,
+      282,
+      235,
+      183,
+      172,
+      373,
+      229,
+      332,
+      258,
+      16,
+      346,
+      125,
+      327
+    ],
+    [
+      262,
+      66,
+      375,
+      213,
+      158,
+      122,
+      208,
+      72,
+      329,
+      218,
+      231,
+      91,
+      139,
+      65,
+      363,
+      267,
+      37,
+      156,
+      152,
+      7,
+      384,
+      167,
+      385,
+      200,
+      59,
+      381,
+      257,
+      320,
+      144,
+      62,
+      191,
+      131,
+      170,
+      269,
+      307,
+      30,
+      299,
+      319,
+      288,
+      383,
+      196,
+      187,
+      14,
+      92,
+      153,
+      41,
+      155,
+      160,
+      45,
+      224,
+      330,
+      310,
+      195,
+      78,
+      260,
+      219,
+      339,
+      291,
+      137,
+      28,
+      318,
+      87,
+      189,
+      344,
+      116,
+      185,
+      40,
+      22,
+      49,
+      110,
+      81,
+      112,
+      101,
+      119,
+      216,
+      52,
+      140
+    ],
+    [
+      338,
+      198,
+      88,
+      297,
+      179,
+      162,
+      220,
+      133,
+      293,
+      123,
+      2,
+      120,
+      68,
+      237,
+      80,
+      272,
+      143,
+      89,
+      130,
+      188,
+      209,
+      311,
+      336,
+      9,
+      127,
+      211,
+      103,
+      105,
+      270,
+      226,
+      192,
+      342,
+      371,
+      347,
+      86,
+      115,
+      171,
+      341,
+      241,
+      121,
+      367,
+      21,
+      61,
+      298,
+      251,
+      250,
+      242,
+      222,
+      263,
+      184,
+      369,
+      58,
+      197,
+      56,
+      70,
+      134,
+      73,
+      387,
+      205,
+      166,
+      236,
+      36,
+      83,
+      51,
+      23,
+      316,
+      193,
+      135,
+      194,
+      79,
+      3,
+      214,
+      287,
+      111,
+      302,
+      377,
+      379
+    ]
+  ],
+  "family_held_out_indices": {
+    "code": [
+      0,
+      1,
+      2,
+      3,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217
+    ],
+    "data_analysis": [
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387
+    ],
+    "evidence": [
+      4,
+      5,
+      6,
+      7,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357
+    ],
+    "math": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "math_checkpoint": [
+      280,
+      281,
+      284,
+      285,
+      286,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
+    ],
+    "tool_planning": [
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      282,
+      283,
+      287
+    ]
+  },
+  "sprint_held_out_indices": {
+    "agentic_search": [
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357
+    ],
+    "f2": [
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387
+    ],
+    "hard_regime": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "interactive": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
+    ],
+    "rescue": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "smoke": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "rows": [
+    {
+      "task_id": "code_add",
+      "family": "code",
+      "source": "smoke",
+      "text": "Write add(a, b) returning the sum.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "code_factorial",
+      "family": "code",
+      "source": "smoke",
+      "text": "Write factorial(n) for nonnegative integer n.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "code_is_even",
+      "family": "code",
+      "source": "smoke",
+      "text": "Write is_even(n) returning True iff n is even.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "code_reverse_words",
+      "family": "code",
+      "source": "smoke",
+      "text": "Write reverse_words(s) reversing word order, not characters.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "e001",
+      "family": "evidence",
+      "source": "smoke",
+      "text": "Who discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "e002",
+      "family": "evidence",
+      "source": "smoke",
+      "text": "Which mission landed humans on the Moon in 1969?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "e003",
+      "family": "evidence",
+      "source": "smoke",
+      "text": "Who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "e004",
+      "family": "evidence",
+      "source": "smoke",
+      "text": "What is the highest mountain above sea level?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m001",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 2 + 3?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m002",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 7 * 6?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m003",
+      "family": "math",
+      "source": "smoke",
+      "text": "If x + 4 = 9, what is x?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m004",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 15 - 8?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m005",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 12 / 3?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m006",
+      "family": "math",
+      "source": "smoke",
+      "text": "A box has 3 red and 5 blue balls. How many balls total?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "m007",
+      "family": "math",
+      "source": "smoke",
+      "text": "If 3 notebooks cost $12, what is the cost of 5 notebooks?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m008",
+      "family": "math",
+      "source": "smoke",
+      "text": "A train travels 60 miles in 2 hours. How far in 5 hours?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m009",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is the next number: 2, 4, 8, 16, ?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m010",
+      "family": "math",
+      "source": "smoke",
+      "text": "A rectangle has area 45 and width 5. What is its length?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m011",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 25% of 80?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m012",
+      "family": "math",
+      "source": "smoke",
+      "text": "Solve 2x - 3 = 11.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m013",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is the sum of integers from 1 to 10?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m014",
+      "family": "math",
+      "source": "smoke",
+      "text": "If a fair coin is flipped twice, how many possible outcomes?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m015",
+      "family": "math",
+      "source": "smoke",
+      "text": "A number is doubled and then increased by 6 to get 22. What is the number?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m016",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is 9 squared minus 5 squared?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m017",
+      "family": "math",
+      "source": "smoke",
+      "text": "If 4 workers build 4 tables in 4 hours, how many tables do 8 workers build in 8 hours?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m018",
+      "family": "math",
+      "source": "smoke",
+      "text": "What is the least common multiple of 6 and 8?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m019",
+      "family": "math",
+      "source": "smoke",
+      "text": "A price increases from 50 to 60. What is the percent increase?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "m020",
+      "family": "math",
+      "source": "smoke",
+      "text": "If x/3 + 2 = 6, what is x?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "rm_001",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 7 + 6?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_002",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 12 - 5?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_003",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 8 * 9?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_004",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 81 / 9?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_005",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 50 - 17?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_006",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 13 + 28?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_007",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 6 * 7?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_008",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 100 / 4?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_009",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 144 / 12?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_010",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 15 + 27?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_011",
+      "family": "math",
+      "source": "rescue",
+      "text": "If 4 notebooks cost $20, what is the cost of 7 notebooks? Answer in dollars.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_012",
+      "family": "math",
+      "source": "rescue",
+      "text": "A train travels 90 miles in 3 hours. How many miles in 7 hours?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_013",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 35% of 200?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_014",
+      "family": "math",
+      "source": "rescue",
+      "text": "Solve 3x + 5 = 20 for x.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_015",
+      "family": "math",
+      "source": "rescue",
+      "text": "A rectangle has area 84 and width 7. What is its length?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_016",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is the sum of the integers from 1 to 20?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_017",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is the next number in the sequence 3, 6, 12, 24, ?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_018",
+      "family": "math",
+      "source": "rescue",
+      "text": "If x/4 + 3 = 9, what is x?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_019",
+      "family": "math",
+      "source": "rescue",
+      "text": "A number is tripled and then increased by 4 to get 31. What is the number?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_020",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 18% of 250?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_021",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 11 squared minus 7 squared?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_022",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is the least common multiple of 9 and 12?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_023",
+      "family": "math",
+      "source": "rescue",
+      "text": "A price increases from 80 to 100. What is the percent increase?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_024",
+      "family": "math",
+      "source": "rescue",
+      "text": "If 6 workers build 6 chairs in 6 hours, how many chairs do 12 workers build in 12 hours?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_025",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is the greatest common divisor of 48 and 60?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_026",
+      "family": "math",
+      "source": "rescue",
+      "text": "Solve 2(x - 3) = 14 for x.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_027",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is 7! divided by 5!?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_028",
+      "family": "math",
+      "source": "rescue",
+      "text": "A bag has 3 red, 4 blue, and 5 green marbles. The probability of drawing a blue marble is what fraction with denominator 12?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_029",
+      "family": "math",
+      "source": "rescue",
+      "text": "What is the sum of the first 10 odd positive integers?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rm_030",
+      "family": "math",
+      "source": "rescue",
+      "text": "If a 60% solution is mixed with a 40% solution in equal parts, what is the resulting percentage?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_001",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write add(a, b) returning the sum of two integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_002",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write is_even(n) returning True iff n is even.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_003",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write max_of_three(a, b, c) returning the maximum of three integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_004",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write factorial(n) for nonnegative integer n.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_005",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write fib(n) returning the nth Fibonacci number with fib(0)=0, fib(1)=1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_006",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write is_prime(n) returning True iff n is a prime number greater than 1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_007",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write reverse_words(s) reversing the order of words in s, not characters.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_008",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write count_vowels(s) counting vowels (aeiou, lowercase) in s.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_009",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write gcd(a, b) returning the greatest common divisor of two positive integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_010",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write is_palindrome(s) returning True iff s reads the same forward and backward.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_011",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write sum_digits(n) returning the sum of the decimal digits of nonnegative integer n.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_012",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write merge_sorted(a, b) merging two sorted lists into one sorted list.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_013",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write binary_search(a, target) returning the index of target in sorted list a, or -1 if absent.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_014",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write rle_encode(s) returning the run-length encoding as a list of (char, count) tuples.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "rc_015",
+      "family": "code",
+      "source": "rescue",
+      "text": "Write matrix_transpose(m) returning the transpose of a 2D list m.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_001",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_002",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Which mission landed humans on the Moon in 1969?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_003",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_004",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "What is the highest mountain above sea level?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_005",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who developed the theory of general relativity?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_006",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Where did the Wright brothers achieve their first flight?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_007",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who elucidated the double helix structure of DNA?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_008",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "In what year did World War II end?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_009",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who patented the telephone in 1876?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_010",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who wrote On the Origin of Species?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_011",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Who is described as an early computer programmer for the Analytical Engine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_012",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "Which river is the second longest in the world?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_013",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "What did Marie Curie discover besides radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_014",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "In what year was Python first released?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "re_015",
+      "family": "evidence",
+      "source": "rescue",
+      "text": "In what year did the Wright brothers achieve their first sustained powered flight?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_002",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 8 * 9?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_001",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 12 + 7?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_003",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 144 / 12?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_004",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 100 - 37?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_005",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the sum of 1 through 10?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_006",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 7 squared?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_007",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the least common multiple of 12 and 18?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_008",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 25% of 320?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_009",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Solve 4x - 7 = 21 for x.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_010",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the next number in the sequence 2, 6, 12, 20, 30, ?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_011",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 13 squared minus 11 squared?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_012",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "If 5x + 3 = 2x + 18, what is x?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_013",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the GCD of 84 and 105?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_014",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "How many ways can 5 distinct books be arranged on a shelf?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_015",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the sum of the interior angles of a hexagon in degrees?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_016",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "If a fair die is rolled twice, what is the number of outcomes where the sum is 7?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_017",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is 7^4 mod 13?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_018",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Find the smallest positive integer n such that 7n is congruent to 3 modulo 11.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_019",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "If x + 1/x = 5, what is x^3 + 1/x^3?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_020",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "How many permutations of the letters in MISSISSIPPI are there?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_021",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Find the number of positive integer divisors of 360.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_022",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the value of 2^10 - 3^4 - 5^2?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_023",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the coefficient of x^3 in the expansion of (2x + 3)^5?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_024",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Find the smallest positive integer that has exactly 6 divisors.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_025",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "How many integers from 1 to 100 are divisible by neither 2 nor 5?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_026",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the greatest common divisor of 252 and 378?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_027",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "How many prime numbers are there between 1 and 20 inclusive?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_028",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "What is the largest power of 2 that divides 96?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_029",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Sum of all positive integer divisors of 28 (a perfect number) equals what?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hm_030",
+      "family": "math",
+      "source": "hard_regime",
+      "text": "Find the number of trailing zeros in 25 factorial.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_001",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write add(a, b) returning the sum of two integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_002",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write is_even(n) returning True iff n is even.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_003",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write max_of_three(a, b, c) returning max of three integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_004",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write sum_list(xs) returning the sum of a list of integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_005",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write is_palindrome(s) iff s reads same forward and backward.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_006",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write fib(n) for nth Fibonacci with fib(0)=0 fib(1)=1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_007",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write is_prime(n) True iff n is prime > 1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_008",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write gcd(a, b) for positive integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_009",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write reverse_words(s) reversing word order, not characters.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_010",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write count_vowels(s) counting lowercase aeiou in s.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_011",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write merge_sorted(a, b) merging two sorted lists.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_012",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write binary_search(a, target) returning index or -1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_013",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write matrix_transpose(m) returning transpose of 2D list.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_014",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write rle_encode(s) returning [(char, count)] run-length encoding.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_015",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write find_duplicates(xs) returning sorted list of duplicates (each once).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_016",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write longest_common_subseq_len(a, b) returning LCS length of two strings.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_017",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write edit_distance(a, b) returning Levenshtein distance.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_018",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write knapsack_01(weights, values, capacity) returning max total value.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_019",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write longest_increasing_subseq(xs) returning length of LIS.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_020",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write topological_sort(n, edges) returning a valid topological ordering of nodes 0..n-1, or [] if cyclic.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_021",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write shortest_path_bfs(n, edges, src, dst) returning shortest path length in unweighted undirected graph, or -1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_022",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write balanced_parens(s) iff s has balanced parentheses among ()[]{}.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_023",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write rotate_matrix(m) rotating an n x n matrix 90 degrees clockwise in place; return None and mutate m.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_024",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write a class LRUCache(capacity) with get(key) returning value or -1, and put(key, value) evicting least-recently-used.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_025",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write longest_common_substring_len(a, b) returning length of longest common contiguous substring.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_026",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write subset_sum(xs, target) returning True iff some subset of nonnegative integers xs sums to target.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_027",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write count_set_bits(n) returning the number of 1s in the binary representation of nonnegative n.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_028",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write first_missing_positive(xs) returning the smallest positive integer not in xs.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_029",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write single_number(xs) returning the integer that appears exactly once when every other appears twice.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "hc_030",
+      "family": "code",
+      "source": "hard_regime",
+      "text": "Write is_anagram(a, b) iff a and b are anagrams.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_001",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_002",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_003",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Which mission first landed humans on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_004",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who patented the telephone?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_005",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who wrote On the Origin of Species?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_006",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "What is the highest mountain above sea level?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_007",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what year was Python first released?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_008",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what year did Apollo 11 land humans on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_009",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who shared the 1903 Nobel Prize in Physics with Marie Curie and Henri Becquerel?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_010",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Which longest-river-in-the-world flows through Egypt and Sudan?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_011",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what year did the Wright brothers achieve their first sustained flight?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_012",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who first summited Mount Everest in 1953 alongside Tenzing Norgay?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_013",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who originated quantum theory in 1900?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_014",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who designed the Analytical Engine in the 1830s?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_015",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "What is the second longest river in the world?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_016",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who is often described as the first computer programmer for the Analytical Engine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_017",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "What was the country of birth of the person who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_018",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who commanded the mission that first landed humans on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_019",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "What did Albert Einstein win the Nobel Prize for, given that he developed general relativity?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_020",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Whose X-ray diffraction images contributed to the discovery of the DNA double helix structure?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_021",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what year did the Nazi regime's leader's war end?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_022",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "On what ship did the author of On the Origin of Species travel from 1831 to 1836?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_023",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what state in the USA was the first person to walk on the Moon born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_024",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who shares a 1903 Nobel Prize and discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_025",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who first walked on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_026",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who discovered the photoelectric effect?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_027",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who summited Mount Everest first in 1953?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_028",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who produced X-ray diffraction images of DNA?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_029",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "In what year did World War II begin?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "he_030",
+      "family": "evidence",
+      "source": "hard_regime",
+      "text": "Who was Charles Darwin's birthplace?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_002",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write is_prime(n) returning True iff n is a prime > 1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_004",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write edit_distance(a, b) returning Levenshtein distance.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_007",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write binary_search(a, target) returning index in sorted list a or -1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_003",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write gcd(a, b) returning the gcd of two positive integers.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_008",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write merge_sorted(a, b) merging two sorted lists.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_006",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write longest_increasing_subseq(xs) returning length of LIS.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_001",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write fib(n) returning the nth Fibonacci with fib(0)=0 fib(1)=1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_005",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write longest_common_subseq_len(a, b) returning LCS length.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_009",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write rle_encode(s) returning [(char, count)] run-length encoding.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_012",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write count_set_bits(n) returning popcount of nonnegative n.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_014",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write single_number(xs) returning the int that appears exactly once when others appear twice.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_015",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write is_anagram(a, b) iff a and b are anagrams.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_011",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write balanced_parens(s) iff s has balanced parentheses among ()[]{}.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_010",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write matrix_transpose(m) returning the transpose of a 2D list.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_013",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write first_missing_positive(xs) returning the smallest positive integer not in xs.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_016",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write rotate_matrix(m) rotating an n x n matrix 90 degrees clockwise in place; mutate m and return None.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_017",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write knapsack_01(weights, values, capacity) returning max total value with each item used at most once.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_019",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write subset_sum(xs, target) returning True iff some subset of nonnegative integers xs sums to target.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_018",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write topological_sort(n, edges) returning a valid topological ordering of nodes 0..n-1, or [] if cyclic.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_023",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write count_islands(grid) counting connected components of 1s in a 2D grid (4-connected).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_021",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write a class LRUCache(capacity) with get(key) -> value or -1, and put(key, value) evicting LRU.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_020",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write longest_common_substring_len(a, b) returning length of longest common contiguous substring.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_022",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write find_duplicates(xs) returning sorted list of duplicates (each once).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_024",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write decode_string(s) decoding s like '3[a]2[bc]' -> 'aaabcbc'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_026",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write all_permutations(xs) returning sorted list of all permutations of xs (each as tuple).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_025",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write max_subarray_sum(xs) returning max contiguous subarray sum (handle negatives).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_027",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write valid_sudoku_3x3(grid) iff a 3x3 grid contains digits 1..9 with no repeats.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_028",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write dijkstra_distance(n, edges, src, dst) for non-negative weighted edges; return distance or -1 if unreachable.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_031",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write string_compress(s) compressing run-lengths like 'aaabb' -> 'a3b2'; if not shorter than s, return s.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_030",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write interval_merge(intervals) merging overlapping [start, end] tuples into a sorted list of merged tuples.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_029",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write json_path_lookup(d, path) returning value at dotted path or None. Path is a string like 'a.b.c'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_032",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write n_queens_count(n) returning the number of solutions to the N-queens problem for n in [1..8].",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_033",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write spiral_order(m) traversing a 2D matrix in spiral (clockwise) order, returning a flat list.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_035",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write trap_rain_water(heights) returning total trapped rainwater above bars (classic problem).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_034",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write two_sum_sorted(xs, target) returning a 0-indexed (i, j) tuple with i<j and xs[i]+xs[j]==target, or None.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_036",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write word_break(s, words) iff s can be segmented into a sequence from words (each word usable many times).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_037",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write find_anagrams(s, p) returning sorted list of start indices of anagrams of p in s.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_039",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write next_permutation(xs) mutating xs to the next lexicographic permutation in place; if at last, set to first. Return None.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_038",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write course_schedule_possible(n, prereqs) iff all n courses can be completed given (a, b) edges meaning a needs b first.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ic_040",
+      "family": "code",
+      "source": "interactive",
+      "text": "Write word_ladder_len(begin, end, words) returning the shortest transformation length (changing one letter at a time within words), or 0 if impossible.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_002",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [4, 8, 15, 16, 23, 42], compute the mean to nearest integer.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_001",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given the list xs = [4, 8, 15, 16, 23, 42], compute the sum.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_004",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given a list of (name, score): [('A',80),('B',95),('C',72),('D',95)], how many have score >= 90?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_003",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], how many distinct values?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_006",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [10, 5, 0, -5, 10, 20], compute the range (max - min).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_005",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [1,2,3,4,5,6,7,8,9,10], compute the median.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_007",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given (a,b) pairs [(1,2),(3,4),(5,6),(7,8)], compute sum of a*b across pairs.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_010",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given strings ['apple','banana','cherry','apple','banana','apple'], count unique strings.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_008",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [1,2,2,3,3,3,4,4,4,4], what is the mode?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_009",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [10, 20, 30, 40, 50], compute the variance (population).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_011",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = list(range(1, 21)), compute sum of even values.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_012",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [3, 7, 11, 13, 17, 19, 23], how many primes? (all of them)",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_013",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given (price, qty) = [(10, 3), (5, 4), (20, 1)], compute total revenue.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_015",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [4, 8, 15, 16, 23, 42], compute the standard deviation (population, to 2 decimals).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_014",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given a 2D list [[1,2],[3,4],[5,6]], compute the column-wise sums.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_016",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [1,1,2,3,5,8,13,21,34], how many odd values?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_018",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given a 3x3 matrix [[1,2,3],[4,5,6],[7,8,9]], compute the trace (diagonal sum).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_017",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given a list of dicts [{'k':1},{'k':2},{'k':3}], compute sum of 'k' values.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_020",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given xs = [-3, -1, 0, 1, 3, 5, 7], compute the count of values >= 1.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_019",
+      "family": "data_analysis",
+      "source": "interactive",
+      "text": "Given the string 'mississippi', count occurrences of letter 's'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_001",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_002",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "What did Marie Curie discover besides radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_003",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_004",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "In what year was Python first released?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_005",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Where was the Python creator born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_006",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Which mission first landed humans on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_007",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who commanded the first lunar landing mission?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_008",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "In what state was the first person to walk on the Moon born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_009",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "What did Albert Einstein win the Nobel Prize for?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_010",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "In what year did Einstein publish general relativity?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_011",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who originated quantum theory in 1900?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_012",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Whose X-ray diffraction images contributed to the DNA double helix discovery?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_013",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "In what year was the DNA double helix elucidated?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_014",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "When did World War II end?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_015",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who patented the telephone in 1876?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_016",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who wrote On the Origin of Species?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_018",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "What is the second longest river in the world?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_019",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who first summited Mount Everest in 1953?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_017",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "On what ship did Darwin travel from 1831 to 1836?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_020",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who is described as the first computer programmer for the Analytical Engine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_021",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who designed the Analytical Engine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_022",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Which Nobel laureate is associated with the Analytical Engine programmer's machine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_024",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Where did the Wright brothers achieve their first sustained flight?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_023",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who shared the 1903 Nobel in Physics with Becquerel and discovered radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_025",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "In what year did the Wright brothers achieve their first sustained flight?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_026",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "What river flows through Egypt and Sudan and is considered the longest?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_027",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who climbed Everest in 1953 alongside Tenzing Norgay?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_029",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "When did Charles Darwin publish On the Origin of Species?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_028",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Who led the Nazi regime during World War II?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ie_030",
+      "family": "evidence",
+      "source": "interactive",
+      "text": "Where was Charles Darwin born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_004",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Tower of Hanoi: move 4 disks from peg A to peg C. Minimum number of moves?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_007",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Bridge crossing: 4 people times {1,2,5,10} minutes; one torch; max 2 cross at a time, slower person sets pace. Minimum total minutes?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_005",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "8-puzzle: starting [[1,2,3],[4,5,6],[7,0,8]], goal [[1,2,3],[4,5,6],[7,8,0]]. Min moves?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_008",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Coin change: target 11 cents, denominations [1, 5, 10]. Minimum number of coins?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_011",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "8-queens: number of distinct solutions on a standard 8x8 board?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_001",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "A robot at (0,0) on a 3x3 grid. Goal at (2,2). Each move costs 1; obstacles at (1,1). Minimum total cost path length?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_006",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Robot must visit 4 named cities A=(0,0) B=(1,0) C=(1,1) D=(0,1) and return to A in any order, taking Manhattan distance. Min total tour length?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_010",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Job scheduling: jobs (deadline, profit) = [(2,100),(1,19),(2,27),(1,25),(3,15)]; one job per slot, integer slots starting at 1, choose at most one job per slot, profit only if completed by deadline. Maximum total profit?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_012",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Water jugs: jug A 5L, jug B 3L. Goal: measure exactly 4L using fill, empty, pour. Min number of operations?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_013",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Light bulbs: 100 bulbs initially off; on round k (k from 1 to 100) toggle every kth bulb. After all rounds, how many bulbs are on?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_009",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Knapsack: capacity 7, items (weight, value) = [(3,4),(4,5),(2,3),(5,6)]. Maximum value (each item once)?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_015",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Missionaries and cannibals classic puzzle: 3 of each on left bank, boat carries 1-2, never outnumber missionaries. Min crossings to move all to right bank?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_001",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute (3+4)*(5-2) where the intermediate step (3+4) should equal 7.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_002",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute the area of a triangle with base 8 and height 5; intermediate is base*height = 40.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_014",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Burning rope: 2 ropes each take 60 min to burn unevenly; using only matches and ropes, can you measure exactly 45 min, and if so, what is min ropes used? Answer with the minimum count.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "it_003",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Maze (5x5) start (0,0) goal (4,4). Walls form a U: (1,1),(1,2),(1,3),(2,3),(3,3). Shortest distance?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_005",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute discriminant of x^2-5x+6; intermediate is b^2 = 25 and 4ac = 24.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_004",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute the hypotenuse of right triangle with legs 3 and 4; intermediate is 9+16=25.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "im_003",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute mean of [10, 20, 30, 40]; intermediate sum is 100.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "it_002",
+      "family": "tool_planning",
+      "source": "interactive",
+      "text": "Same grid, obstacles at (0,1) and (1,0). Min cost from (0,0) to (2,2)?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_006",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "If 3x+5=20, x=?; intermediate is 3x = 15.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_008",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Sum of first 20 positive integers; intermediate uses formula n(n+1)/2 with n=20 giving 20*21=420.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_007",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute volume of a cube with side 4; intermediate is 4^2 = 16.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_009",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute 12 choose 2; intermediate is 12*11 = 132.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_012",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute total cents in 3 quarters and 4 dimes and 5 nickels; intermediate values are 75, 40, 25.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_010",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute sum of digits of 999; intermediate observation: each digit is 9.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_013",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute 2^10; intermediate is 2^5 = 32.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_014",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Solve x/3 + 4 = 10; intermediate is x/3 = 6.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_015",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "If price drops from 80 to 60, percent decrease? Intermediate is the drop = 20.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "im_011",
+      "family": "math_checkpoint",
+      "source": "interactive",
+      "text": "Compute LCM(8, 12); intermediate is GCD(8,12) = 4.",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_001",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what city was the discoverer of radium born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_002",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who was the husband of the chemist who discovered polonium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_003",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What was the cause of death of the husband of the discoverer of radium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_004",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who was the daughter of the discoverer of polonium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_005",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what state was the first person to walk on the Moon born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_006",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year was the first person to walk on the Moon born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_007",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who was the second person to walk on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_008",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What did Albert Einstein win the Nobel Prize for?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_009",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year did Einstein emigrate to the United States?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_010",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What was the country of birth of the creator of Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_011",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Three companies the creator of Python worked at?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_012",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year did the language created by Guido van Rossum reach end-of-life for version 2?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_013",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Whose X-ray diffraction images contributed to the discovery of DNA's double helix?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_014",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "At what age did the producer of Photo 51 of DNA die?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_015",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year was the Nobel Prize awarded for the discovery of DNA's double helix?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_016",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where did the publisher of On the Origin of Species travel from 1831 to 1836?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_017",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where was the publisher of On the Origin of Species born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_018",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who patented the telephone, and where was that person born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_019",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year did the inventor of the telephone emigrate to Canada?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_020",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What is the longest river in the world?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_021",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Through which two countries does the longest river in the world primarily flow?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_022",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What is the second longest river, on which continent?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_023",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where was the first person to summit Everest born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_024",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year was the first summiter of Everest born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_025",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who designed the machine on which Ada Lovelace wrote her notes?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_026",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where was the designer of the Analytical Engine born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_027",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "When was the Analytical Engine designed?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_028",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What event in 1941 brought the United States into World War II?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_029",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Whose invasion in 1939 began World War II?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_030",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where was the first sustained powered flight achieved?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_031",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who originated quantum theory?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_032",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What did Max Planck originate quantum theory to explain?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_033",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "In what year did Max Planck win the Nobel Prize?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_034",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where was Albert Einstein born?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_035",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "When was Python 3.0 released?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_036",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who discovered polonium?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_037",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who developed the theory of general relativity?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_038",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who created Python?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_039",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Which mission first landed humans on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_040",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who first walked on the Moon?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_041",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who patented the telephone?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_042",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who wrote On the Origin of Species?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_043",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who first summited Mount Everest?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_044",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who is described as the first computer programmer?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_045",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "When did World War II end?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_046",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who shared the 1903 Nobel Prize in Physics with Henri Becquerel?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_047",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who produced X-ray images of DNA?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_048",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who designed the Analytical Engine?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_049",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who developed the photoelectric effect explanation?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_050",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Which sister of Marie Curie won a Nobel Prize?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_051",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What discovery did Einstein win the 1921 Nobel for?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_052",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What is Pearl Harbor known for?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_053",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What did the Wright brothers achieve in 1903?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_054",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who was the lunar module pilot of Apollo 11?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_055",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Which Curie won a Nobel Prize in 1935?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_056",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Which Curie won the 1903 physics Nobel for radioactivity work?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 1,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_057",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Where did Edmund Hillary climb Everest from?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_058",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What was the home country of the discoverer of Photo 51 of DNA?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_059",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "Who founded the company Amazon (the retailer)?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "ag_060",
+      "family": "evidence",
+      "source": "agentic_search",
+      "text": "What is the second longest river in the world?",
+      "labels": {
+        "need_code": 0,
+        "need_retrieve": 1,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_021",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [2, 4, 6, 8, 10, 12], compute the product of all elements.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_023",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given temperatures = [-5, 0, 12, 25, 18, -3, 30, 4], how many readings are above freezing (>0)?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_022",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = ['cat', 'dog', 'bird', 'fish', 'cat', 'dog', 'cat'], how many distinct strings?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_024",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = list(range(1, 31)), compute the sum of elements that are multiples of 3.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_025",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given grades = [85, 72, 91, 68, 95, 79, 88, 76], what is the average rounded to nearest integer?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_026",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (name, score) = [('A',82),('B',91),('C',75),('D',88),('E',93),('F',79)], how many scored at least 85?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_028",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (item, price, qty) = [('A',5,3),('B',10,2),('C',8,5),('D',12,1)], compute total revenue.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_027",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [10, 20, 15, 30, 25, 40, 35], compute the difference between the maximum and the minimum.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_030",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given the string 'banana banana cherry banana cherry apple', how many times does 'banana' occur as a word?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_029",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [4, 1, 7, 3, 9, 2, 8, 6, 5], how many strictly greater than 5?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_031",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9], compute the median (middle element of sorted xs).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_033",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [12, 7, 9, 14, 5, 11, 8, 15, 10, 6], how many elements are within 3 of the mean?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_034",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (department, salary) = [('eng',100),('eng',120),('hr',60),('hr',70),('eng',110),('hr',65)], compute the average salary in eng.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_035",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given a 2D list [[1,2,3,4],[5,6,7,8],[9,10,11,12]], compute the sum of the second column (index 1).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_036",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [1, 4, 9, 16, 25, 36, 49, 64], how many are perfect squares of even numbers?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_037",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given the string 'The quick brown fox jumps over the lazy dog', how many words have length >= 4?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_039",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], compute the sum of unique values.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_038",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (year, sales) = [(2018, 100),(2019, 120),(2020, 80),(2021, 150),(2022, 200)], compute the largest year-over-year change as a positive integer.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_040",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (gender, age) = [('M',25),('F',30),('M',45),('F',22),('M',38),('F',38),('F',30)], compute the average age of all rows where gender == 'F'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_041",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (price, qty) = [(10,3),(20,2),(15,5),(8,7),(25,1)], compute the weighted average price (weighted by qty), rounded down to nearest integer.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_042",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [3, 5, 2, 8, 1, 4, 9, 7, 8], how many strictly increasing adjacent pairs (xs[i] < xs[i+1]) are there?",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_043",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given the string 'aA1bB2cC3dD4eE5', count the number of lowercase letter characters.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_044",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given table = [(1,'A','x',10),(2,'B','y',20),(3,'A','y',30),(4,'B','x',15),(5,'A','x',25)] with columns id, group, kind, value, compute the total value where group=='A' and kind=='x'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_045",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (timestamp_min, value) = [(0,10),(15,20),(30,15),(45,25),(60,30),(75,20)], compute the simple integer sum of value for timestamps in the last 30 minutes (>=45).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_046",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100], compute the count of elements in the upper quartile (>= 75th percentile rounded to integer 75).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_047",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given the integer matrix [[1,3,5,7],[2,4,6,8],[9,11,13,15],[10,12,14,16]], compute the sum of elements on the main anti-diagonal (top-right to bottom-left).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_049",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given the string 'one TWO three FOUR five SIX seven EIGHT', count words written entirely in uppercase letters.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 0
+      }
+    },
+    {
+      "task_id": "id_050",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given xs = [4, -3, 7, -1, 2, 0, -5, 6, -8, 1, 3], compute the sum of strictly positive values minus the sum of strictly negative values (i.e. abs sum without zeros).",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_048",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given (sku, returns) = [('A1',2),('B2',5),('A1',1),('C3',3),('B2',2),('A1',4),('D4',1)], compute the total returns for sku 'A1'.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 1,
+        "escalate": 1,
+        "graph_candidate": 1
+      }
+    },
+    {
+      "task_id": "id_032",
+      "family": "data_analysis",
+      "source": "f2",
+      "text": "Given pairs = [(2,12),(4,24),(6,36)], compute the value of y when x = 10, assuming y = k*x for some integer k.",
+      "labels": {
+        "need_code": 1,
+        "need_retrieve": 0,
+        "verifier_risk": 0,
+        "need_strong": 0,
+        "escalate": 0,
+        "graph_candidate": 0
+      }
+    }
+  ],
+  "honesty": "Labels mined from cached oracle outcomes; texts joined from task pool modules. Trivial family-tag labels (need_code, need_retrieve) excluded from Main claims because TF-IDF + LR achieves AUROC \u2265 0.99 on them \u2014 any GPU probe winning on these is uninformative. Admissible hard labels: need_strong, escalate, verifier_risk, graph_candidate."
+}

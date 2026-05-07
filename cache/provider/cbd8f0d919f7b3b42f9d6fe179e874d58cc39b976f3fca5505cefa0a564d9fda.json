@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011263999999999999,
+  "input_tokens": 94,
+  "latency_ms": 1225,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "cbd8f0d919f7b3b42f9d6fe179e874d58cc39b976f3fca5505cefa0a564d9fda",
+  "text": "To find 25% of 320, first convert the percentage to a decimal by dividing by 100: 25 / 100 = 0.25."
+}

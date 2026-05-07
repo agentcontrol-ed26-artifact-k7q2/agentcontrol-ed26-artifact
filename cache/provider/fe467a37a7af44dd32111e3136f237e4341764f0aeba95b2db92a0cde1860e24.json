@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.07e-05,
+  "input_tokens": 258,
+  "latency_ms": 430,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "fe467a37a7af44dd32111e3136f237e4341764f0aeba95b2db92a0cde1860e24",
+  "text": "Ada Lovelace [doc_lovelace]"
+}

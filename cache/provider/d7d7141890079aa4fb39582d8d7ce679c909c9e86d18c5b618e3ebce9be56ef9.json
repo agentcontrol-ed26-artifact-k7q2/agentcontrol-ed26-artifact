@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528,
+  "input_tokens": 92,
+  "latency_ms": 444,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "d7d7141890079aa4fb39582d8d7ce679c909c9e86d18c5b618e3ebce9be56ef9",
+  "text": "```python\ndef count_set_bits(n):\n    count = 0\n    while n:\n        count += n & 1\n        n >>= 1\n    return count\n```"
+}

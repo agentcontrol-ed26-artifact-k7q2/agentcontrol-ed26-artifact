@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012005,
+  "input_tokens": 59,
+  "latency_ms": 1177,
+  "model": "deepseek-reasoner",
+  "output_tokens": 40,
+  "provider": "deepseek",
+  "request_hash": "b27d48f9fd3b0625980c08cb0053ad9290af1dbffc9c273c4e2b1ac75cd268d3",
+  "text": "The key step is to recall that 12 multiplied by itself gives 144."
+}

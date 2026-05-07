@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021296,
+  "input_tokens": 228,
+  "latency_ms": 381,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "7f55fa0688dd03e1ae3ac36041cd39eda48ab29426c54111e9838dda472c3212",
+  "text": "The Python creator was born in the Netherlands [doc_python2]"
+}

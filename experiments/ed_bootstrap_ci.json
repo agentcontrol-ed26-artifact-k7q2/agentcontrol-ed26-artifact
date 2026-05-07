@@ -1,0 +1,82 @@
+{
+  "seed": 20260427,
+  "n_resamples": 2000,
+  "n_tasks": 28,
+  "family_counts": {
+    "code": 4,
+    "evidence": 4,
+    "math": 20
+  },
+  "unstratified": {
+    "oracle_deliberation_graph_avg_cost": {
+      "mean": 1.8229285714285712,
+      "ci_lo": 1.5357142857142858,
+      "ci_hi": 2.1785714285714284,
+      "n_resamples": 2000
+    },
+    "oracle_query_router_avg_cost": {
+      "mean": 2.4708214285714285,
+      "ci_lo": 1.6071428571428572,
+      "ci_hi": 3.5,
+      "n_resamples": 2000
+    },
+    "graph_query_cost_saving_pct": {
+      "mean": 24.495608319463113,
+      "ci_lo": 0.0,
+      "ci_hi": 39.130434782608695,
+      "n_resamples": 2000
+    },
+    "heuristic_bdelg_avg_cost": {
+      "mean": 1.9309107142857143,
+      "ci_lo": 1.5357142857142858,
+      "ci_hi": 2.392857142857143,
+      "n_resamples": 2000
+    },
+    "best_non_oracle_baseline_avg_cost": {
+      "mean": 2.5254285714285714,
+      "ci_lo": 1.6071428571428572,
+      "ci_hi": 3.25,
+      "n_resamples": 2000
+    },
+    "code_family_graph_query_cost_saving_pct": null
+  },
+  "family_stratified": {
+    "oracle_deliberation_graph_avg_cost": {
+      "mean": 1.8240357142857142,
+      "ci_lo": 1.5714285714285714,
+      "ci_hi": 2.0357142857142856,
+      "n_resamples": 2000
+    },
+    "oracle_query_router_avg_cost": {
+      "mean": 2.4704285714285716,
+      "ci_lo": 1.8214285714285714,
+      "ci_hi": 2.892857142857143,
+      "n_resamples": 2000
+    },
+    "graph_query_cost_saving_pct": {
+      "mean": 25.634579035644855,
+      "ci_lo": 11.764705882352937,
+      "ci_hi": 31.999999999999996,
+      "n_resamples": 2000
+    },
+    "heuristic_bdelg_avg_cost": {
+      "mean": 1.9317678571428571,
+      "ci_lo": 1.6428571428571428,
+      "ci_hi": 2.1785714285714284,
+      "n_resamples": 2000
+    },
+    "best_non_oracle_baseline_avg_cost": {
+      "mean": 2.6294285714285714,
+      "ci_lo": 1.8928571428571428,
+      "ci_hi": 3.1785714285714284,
+      "n_resamples": 2000
+    },
+    "code_family_graph_query_cost_saving_pct": {
+      "mean": 57.26141890367697,
+      "ci_lo": 46.15384615384615,
+      "ci_hi": 60.0,
+      "n_resamples": 2000
+    }
+  },
+  "caveats": "Code n=4 \u2192 code-family CI is wide and nearly degenerate. Bootstrap CIs reflect within-pool sampling uncertainty only; they do not capture model-, prompt-, or distribution-shift uncertainty. Decision remains BACKUP / E&D-only."
+}

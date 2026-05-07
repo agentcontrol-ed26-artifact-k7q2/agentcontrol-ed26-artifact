@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001452,
+  "input_tokens": 94,
+  "latency_ms": 720,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 71,
+  "provider": "together",
+  "request_hash": "f3106721f2882bcefea3c7a45632afdd703486274e48972d61d3594da7aeef5d",
+  "text": "```python\ndef max_subarray_sum(xs):\n    if not xs:\n        return 0\n    max_sum = float('-inf')\n    current_sum = 0\n    for num in xs:\n        current_sum = max(num, current_sum + num)\n        max_sum = max(max_sum, current_sum)\n    return max_sum\n```"
+}

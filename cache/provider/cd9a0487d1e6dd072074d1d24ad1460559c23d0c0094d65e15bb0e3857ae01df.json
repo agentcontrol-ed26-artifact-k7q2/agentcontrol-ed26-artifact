@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.4930000000000005e-05,
+  "input_tokens": 89,
+  "latency_ms": 1075,
+  "model": "deepseek-chat",
+  "output_tokens": 19,
+  "provider": "deepseek",
+  "request_hash": "cd9a0487d1e6dd072074d1d24ad1460559c23d0c0094d65e15bb0e3857ae01df",
+  "text": "The provided evidence does not mention the inventor's emigration to Canada. [doc_telephone]"
+}

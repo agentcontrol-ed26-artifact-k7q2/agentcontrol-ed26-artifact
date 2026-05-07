@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384000000000001,
+  "input_tokens": 106,
+  "latency_ms": 567,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "66a2d31c2d52aa6891c36d7b3391ee5109f642fed3f49526e17436ff900238b2",
+  "text": "Use the Binomial Theorem to find the expansion."
+}

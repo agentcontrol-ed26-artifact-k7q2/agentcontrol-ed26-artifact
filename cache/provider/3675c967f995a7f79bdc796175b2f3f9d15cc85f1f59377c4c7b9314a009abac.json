@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013111999999999998,
+  "input_tokens": 84,
+  "latency_ms": 1014,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 65,
+  "provider": "together",
+  "request_hash": "3675c967f995a7f79bdc796175b2f3f9d15cc85f1f59377c4c7b9314a009abac",
+  "text": "To compute 12 choose 2, we need to calculate the number of combinations of 12 items taken 2 at a time. The formula for this is 12! / (2! * (12-2)!), which can be simplified. \n\nFirst, calculate 12 * 11 = 132."
+}

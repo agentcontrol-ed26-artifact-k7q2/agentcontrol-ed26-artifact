@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046608999999999995,
+  "input_tokens": 67,
+  "latency_ms": 3210,
+  "model": "deepseek-reasoner",
+  "output_tokens": 196,
+  "provider": "deepseek",
+  "request_hash": "d8cb3c79bc58fc405a8c19f360308b4a3ceb874563f5f5de996c8da315d7319f",
+  "text": "The most common mistake is counting 1 as a prime number, but 1 is not prime."
+}

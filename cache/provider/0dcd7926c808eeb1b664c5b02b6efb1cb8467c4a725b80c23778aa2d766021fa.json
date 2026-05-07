@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.029e-05,
+  "input_tokens": 117,
+  "latency_ms": 1016,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "0dcd7926c808eeb1b664c5b02b6efb1cb8467c4a725b80c23778aa2d766021fa",
+  "text": "The Nobel Prize was awarded in 1962 [doc_franklin_death]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.893e-05,
+  "input_tokens": 69,
+  "latency_ms": 1683,
+  "model": "deepseek-chat",
+  "output_tokens": 73,
+  "provider": "deepseek",
+  "request_hash": "80cf25e599e9ef42bee40e39e4f93f82a3326f3330f217940d55889a0fe346c2",
+  "text": "96 \u00f7 2 = 48  \n48 \u00f7 2 = 24  \n24 \u00f7 2 = 12  \n12 \u00f7 2 = 6  \n6 \u00f7 2 = 3  \nSo 96 = 2^5 \u00d7 3.  \nThe largest power of 2 dividing 96 is 2^5 = 32.  \n\n32"
+}

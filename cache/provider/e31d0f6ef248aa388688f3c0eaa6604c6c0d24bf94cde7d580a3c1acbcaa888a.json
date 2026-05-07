@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.228e-05,
+  "input_tokens": 104,
+  "latency_ms": 1001,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "e31d0f6ef248aa388688f3c0eaa6604c6c0d24bf94cde7d580a3c1acbcaa888a",
+  "text": "The attack on Pearl Harbor on December 7, 1941 [doc_ww2_pearl]"
+}

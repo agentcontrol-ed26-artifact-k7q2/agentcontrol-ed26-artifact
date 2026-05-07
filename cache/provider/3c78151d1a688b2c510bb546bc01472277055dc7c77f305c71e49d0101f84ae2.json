@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.03e-05,
+  "input_tokens": 201,
+  "latency_ms": 939,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 100,
+  "provider": "together",
+  "request_hash": "3c78151d1a688b2c510bb546bc01472277055dc7c77f305c71e49d0101f84ae2",
+  "text": "```python\ndef rle_encode(s):\n    if not s:\n        return []\n    result = []\n    current_char = s[0]\n    current_count = 1\n    for char in s[1:]:\n        if char == current_char:\n            current_count += 1\n        else:\n            result.append((current_char, current_count))\n            current_char = char\n            current_count = 1\n    result.append((current_char, current_count))\n    return result\n```"
+}

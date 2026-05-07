@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018215999999999998,
+  "input_tokens": 177,
+  "latency_ms": 843,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "71a46e627dba70504180fdce1a06919c8b9f1b55aafc721dddc064011edf19b8",
+  "text": "Edmund Hillary was the person who first summited Mount Everest in 1953 alongside Tenzing Norgay [doc_everest]"
+}

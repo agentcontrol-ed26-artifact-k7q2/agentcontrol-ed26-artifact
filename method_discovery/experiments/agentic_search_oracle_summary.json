@@ -1,0 +1,124 @@
+{
+  "deepseek": {
+    "n_tasks": 60,
+    "qr": {
+      "n": 60,
+      "success_rate": 0.85,
+      "avg_cost": 1.2549999999999988,
+      "avg_objective": 0.8437249999999994,
+      "avg_unsupported_risk": 0.0
+    },
+    "gr": {
+      "n": 60,
+      "success_rate": 0.8666666666666667,
+      "avg_cost": 1.263333333333332,
+      "avg_objective": 0.8603499999999993,
+      "avg_unsupported_risk": 0.0
+    },
+    "graph_query_cost_saving_pct": -0.664010624169985,
+    "graph_query_success_delta_pp": 1.6666666666666718,
+    "bootstrap_saving_ci": {
+      "mean": -0.6577083741812533,
+      "ci_lo": -2.0408163265306047,
+      "ci_hi": 0.0
+    },
+    "bootstrap_succ_delta_ci": {
+      "mean": 1.645833333333333,
+      "ci_lo": 0.0,
+      "ci_hi": 5.000000000000004
+    },
+    "qr_per_difficulty": {
+      "multihop": {
+        "n": 22,
+        "success_rate": 0.5909090909090909,
+        "avg_cost": 1.1772727272727275,
+        "avg_objective": 0.5850227272727273,
+        "avg_unsupported_risk": 0.0
+      },
+      "single_hop": {
+        "n": 38,
+        "success_rate": 1.0,
+        "avg_cost": 1.2999999999999992,
+        "avg_objective": 0.9935000000000002,
+        "avg_unsupported_risk": 0.0
+      }
+    },
+    "gr_per_difficulty": {
+      "multihop": {
+        "n": 22,
+        "success_rate": 0.6363636363636364,
+        "avg_cost": 1.2000000000000002,
+        "avg_objective": 0.6303636363636363,
+        "avg_unsupported_risk": 0.0
+      },
+      "single_hop": {
+        "n": 38,
+        "success_rate": 1.0,
+        "avg_cost": 1.2999999999999992,
+        "avg_objective": 0.9935000000000002,
+        "avg_unsupported_risk": 0.0
+      }
+    }
+  },
+  "together": {
+    "n_tasks": 60,
+    "qr": {
+      "n": 60,
+      "success_rate": 0.85,
+      "avg_cost": 1.4049999999999985,
+      "avg_objective": 0.8429749999999995,
+      "avg_unsupported_risk": 0.0
+    },
+    "gr": {
+      "n": 60,
+      "success_rate": 0.9,
+      "avg_cost": 1.4299999999999986,
+      "avg_objective": 0.8928499999999993,
+      "avg_unsupported_risk": 0.0
+    },
+    "graph_query_cost_saving_pct": -1.7793594306049936,
+    "graph_query_success_delta_pp": 5.000000000000004,
+    "bootstrap_saving_ci": {
+      "mean": -1.8099195795904692,
+      "ci_lo": -4.065040650406508,
+      "ci_hi": 0.0
+    },
+    "bootstrap_succ_delta_ci": {
+      "mean": 5.007499999999999,
+      "ci_lo": 0.0,
+      "ci_hi": 11.666666666666659
+    },
+    "qr_per_difficulty": {
+      "multihop": {
+        "n": 22,
+        "success_rate": 0.6363636363636364,
+        "avg_cost": 1.6,
+        "avg_objective": 0.6283636363636363,
+        "avg_unsupported_risk": 0.0
+      },
+      "single_hop": {
+        "n": 38,
+        "success_rate": 0.9736842105263158,
+        "avg_cost": 1.292105263157894,
+        "avg_objective": 0.9672236842105265,
+        "avg_unsupported_risk": 0.0
+      }
+    },
+    "gr_per_difficulty": {
+      "multihop": {
+        "n": 22,
+        "success_rate": 0.7727272727272727,
+        "avg_cost": 1.6681818181818182,
+        "avg_objective": 0.7643863636363637,
+        "avg_unsupported_risk": 0.0
+      },
+      "single_hop": {
+        "n": 38,
+        "success_rate": 0.9736842105263158,
+        "avg_cost": 1.292105263157894,
+        "avg_objective": 0.9672236842105265,
+        "avg_unsupported_risk": 0.0
+      }
+    }
+  }
+}

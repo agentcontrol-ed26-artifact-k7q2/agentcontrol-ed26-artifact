@@ -1,0 +1,1133 @@
+{
+  "n_total": 120,
+  "family_counts": {
+    "code_debug_interactive": 40,
+    "data_analysis_code": 20,
+    "evidence_multihop_local": 30,
+    "tool_planning_deterministic": 15,
+    "math_checkpoint": 15
+  },
+  "n_interactive": 120,
+  "observation_actions_offered": {
+    "run_tests": 40,
+    "run_code": 20,
+    "retrieve": 30,
+    "citation_check": 30,
+    "tool_observation": 15,
+    "checkpoint_check": 15
+  },
+  "tasks": [
+    {
+      "task_id": "ic_001",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ic_002",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ic_003",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_004",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_005",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_006",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_007",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_008",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_009",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_010",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_011",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ic_012",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ic_013",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ic_014",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_015",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_016",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_017",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_018",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_019",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_020",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_021",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_022",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_023",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_024",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_025",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_026",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_027",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_028",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_029",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_030",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_031",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_032",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_033",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_034",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_035",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_036",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_037",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_038",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_039",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ic_040",
+      "family": "code_debug_interactive",
+      "interactive": true,
+      "observations": [
+        "run_tests"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_001",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_002",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_003",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_004",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_005",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_006",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_007",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_008",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_009",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_010",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_011",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_012",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_013",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_014",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_015",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_016",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_017",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_018",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_019",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "id_020",
+      "family": "data_analysis_code",
+      "interactive": true,
+      "observations": [
+        "run_code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_001",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_002",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_003",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_004",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_005",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_006",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_007",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_008",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_009",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_010",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_011",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_012",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_013",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_014",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_015",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_016",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_017",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_018",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_019",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_020",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_021",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_022",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_023",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "ie_024",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_025",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_026",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_027",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_028",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_029",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "ie_030",
+      "family": "evidence_multihop_local",
+      "interactive": true,
+      "observations": [
+        "retrieve",
+        "citation_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "it_001",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_002",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_003",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_004",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_005",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_006",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_007",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_008",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_009",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_010",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_011",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_012",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_013",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_014",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "it_015",
+      "family": "tool_planning_deterministic",
+      "interactive": true,
+      "observations": [
+        "tool_observation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "im_001",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_002",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_003",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_004",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_005",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_006",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_007",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_008",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_009",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_010",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_011",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_012",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_013",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_014",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "im_015",
+      "family": "math_checkpoint",
+      "interactive": true,
+      "observations": [
+        "checkpoint_check"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "config_path": "main_rescue_gpu/configs/interactive_tasks.yaml",
+  "honesty": "Interactive task pool. Observation actions (run_tests, run_code, retrieve, citation_check, tool_observation, checkpoint_check) are local and inexpensive but produce real new state information not available to a query-level router. The pool is constructed locally and auditable in main_rescue_gpu/src/agentcontrol_main_rescue/interactive_tasks.py. Not a benchmark download."
+}

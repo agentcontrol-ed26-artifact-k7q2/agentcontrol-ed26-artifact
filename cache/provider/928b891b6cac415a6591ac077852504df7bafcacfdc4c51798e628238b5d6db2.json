@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013386000000000002,
+  "input_tokens": 68,
+  "latency_ms": 2001,
+  "model": "deepseek-chat",
+  "output_tokens": 105,
+  "provider": "deepseek",
+  "request_hash": "928b891b6cac415a6591ac077852504df7bafcacfdc4c51798e628238b5d6db2",
+  "text": "def interval_merge(intervals):\n    if not intervals:\n        return []\n    sorted_intervals = sorted(intervals, key=lambda x: x[0])\n    merged = [sorted_intervals[0]]\n    for start, end in sorted_intervals[1:]:\n        last_start, last_end = merged[-1]\n        if start <= last_end:\n            merged[-1] = (last_start, max(last_end, end))\n        else:\n            merged.append((start, end))\n    return merged"
+}

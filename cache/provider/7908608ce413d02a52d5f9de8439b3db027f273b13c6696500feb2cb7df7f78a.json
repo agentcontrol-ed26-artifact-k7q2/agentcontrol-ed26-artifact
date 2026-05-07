@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.32e-05,
+  "input_tokens": 60,
+  "latency_ms": 2190,
+  "model": "deepseek-chat",
+  "output_tokens": 70,
+  "provider": "deepseek",
+  "request_hash": "7908608ce413d02a52d5f9de8439b3db027f273b13c6696500feb2cb7df7f78a",
+  "text": "def subset_sum(xs, target):\n    dp = [False] * (target + 1)\n    dp[0] = True\n    for x in xs:\n        for s in range(target, x - 1, -1):\n            if dp[s - x]:\n                dp[s] = True\n    return dp[target]"
+}

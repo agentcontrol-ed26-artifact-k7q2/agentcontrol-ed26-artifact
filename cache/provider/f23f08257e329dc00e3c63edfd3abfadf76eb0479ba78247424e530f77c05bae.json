@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.06e-05,
+  "input_tokens": 70,
+  "latency_ms": 407,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "f23f08257e329dc00e3c63edfd3abfadf76eb0479ba78247424e530f77c05bae",
+  "text": "```python\ndef matrix_transpose(m):\n    if not m:\n        return []\n    return [list(row) for row in zip(*m)]\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022792,
+  "input_tokens": 96,
+  "latency_ms": 1517,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 163,
+  "provider": "together",
+  "request_hash": "a3e81661b4e2a8e7a20a9c56e4470bba523a514dd89428a22c288925e8c0c0f2",
+  "text": "To solve this problem, use a sliding window approach with a dictionary to track character frequencies in both the string and the anagram. \n```python\nfrom collections import Counter\n\ndef find_anagrams(s, p):\n    p_count = Counter(p)\n    s_count = Counter()\n    anagrams = []\n    for i, c in enumerate(s):\n        s_count[c] += 1\n        if i >= len(p):\n            s_count[s[i - len(p)]] -= 1\n            if s_count[s[i - len(p)]] == 0:\n                del s_count[s[i - len(p)]]\n        if i >= len(p) - 1 and s_count == p_count:\n            anagrams.append(i - len(p) + 1)\n    return anagrams\n```"
+}

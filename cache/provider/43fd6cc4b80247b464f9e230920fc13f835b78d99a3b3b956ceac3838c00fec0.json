@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015698,
+  "input_tokens": 64,
+  "latency_ms": 2433,
+  "model": "deepseek-chat",
+  "output_tokens": 127,
+  "provider": "deepseek",
+  "request_hash": "43fd6cc4b80247b464f9e230920fc13f835b78d99a3b3b956ceac3838c00fec0",
+  "text": "We can model each bulb by its number.  \nBulb \\( n \\) is toggled on rounds that are divisors of \\( n \\).  \nIt ends on if toggled an odd number of times, i.e., if \\( n \\) has an odd number of divisors.  \n\nA number has an odd number of divisors exactly when it is a perfect square.  \n\nFrom 1 to 100, the perfect squares are:  \n\\( 1^2, 2^2, \\dots, 10^2 \\) \u2192 10 numbers.  \n\nThus, 10 bulbs are on.\n\n**Final answer:** 10"
+}

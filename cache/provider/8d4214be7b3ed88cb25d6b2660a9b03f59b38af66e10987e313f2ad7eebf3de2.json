@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017335999999999998,
+  "input_tokens": 139,
+  "latency_ms": 5996,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 58,
+  "provider": "together",
+  "request_hash": "8d4214be7b3ed88cb25d6b2660a9b03f59b38af66e10987e313f2ad7eebf3de2",
+  "text": "To verify the answer, two checks can be performed: \n1. Check if the Nile River is indeed considered the longest river in the world.\n2. Verify the countries through which the Nile River flows, to confirm if they include Egypt and Sudan.\nAnswer phrase [doc_nile]"
+}

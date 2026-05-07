@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019448,
+  "input_tokens": 157,
+  "latency_ms": 4039,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 64,
+  "provider": "together",
+  "request_hash": "93f6999c1265021a9ff4234d215bf8bd298ffb929bda02eb2ad8e0de99b32d9a",
+  "text": "To verify the answer, two checks can be performed: \n1. Check if the year 1900 is associated with the origination of quantum theory in the provided documents.\n2. Check if Max Planck is mentioned as the person who originated quantum theory in the provided documents.\nAnswer phrase [doc_planck]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029480000000000006,
+  "input_tokens": 311,
+  "latency_ms": 762,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "b10bcda8ca14e3ceaf3b52b2e6775b5d7001f5758e64db306919d6c086cafc9f",
+  "text": "Albert Einstein won the Nobel Prize for his discovery of the photoelectric effect, answer [doc_einstein_nobel]"
+}

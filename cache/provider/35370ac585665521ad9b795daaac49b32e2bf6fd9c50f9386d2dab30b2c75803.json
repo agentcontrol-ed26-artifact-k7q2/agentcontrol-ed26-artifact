@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.296000000000001e-05,
+  "input_tokens": 58,
+  "latency_ms": 1464,
+  "model": "deepseek-chat",
+  "output_tokens": 43,
+  "provider": "deepseek",
+  "request_hash": "35370ac585665521ad9b795daaac49b32e2bf6fd9c50f9386d2dab30b2c75803",
+  "text": "The minimum number of coins to make 11 cents with denominations 1, 5, and 10 is 2 (one 10-cent coin and one 1-cent coin).  \n\nFinal integer: 2"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 90,
+  "latency_ms": 550,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "8a945684864592c2023f6c626fd8085de777e6a7c67919b98b2b653670a83170",
+  "text": "To find the sum, simply add the two numbers together by counting up from 7 and adding 6 more."
+}

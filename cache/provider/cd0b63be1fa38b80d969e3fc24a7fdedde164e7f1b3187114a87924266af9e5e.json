@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004146,
+  "input_tokens": 57,
+  "latency_ms": 3002,
+  "model": "deepseek-reasoner",
+  "output_tokens": 175,
+  "provider": "deepseek",
+  "request_hash": "cd0b63be1fa38b80d969e3fc24a7fdedde164e7f1b3187114a87924266af9e5e",
+  "text": "The most common bug is failing to enforce strict inequality when the problem requires strictly increasing subsequences, often by using <= instead of <."
+}

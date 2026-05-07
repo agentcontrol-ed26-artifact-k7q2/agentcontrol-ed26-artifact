@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031822,
+  "input_tokens": 268,
+  "latency_ms": 1708,
+  "model": "deepseek-reasoner",
+  "output_tokens": 78,
+  "provider": "deepseek",
+  "request_hash": "d7d0d7d1f51d04a980d3d35e7eb1e9dbda0bef4ad79b7cb034bb8ac4a01a87ea",
+  "text": "Ohio [doc_armstrong_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.25e-05,
+  "input_tokens": 60,
+  "latency_ms": 233,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "949ab006c6a168d816739f08e5cabc38238360328e326125208a1ba882928e44",
+  "text": "```python\ndef sum_list(xs):\n    return sum(xs)\n```"
+}

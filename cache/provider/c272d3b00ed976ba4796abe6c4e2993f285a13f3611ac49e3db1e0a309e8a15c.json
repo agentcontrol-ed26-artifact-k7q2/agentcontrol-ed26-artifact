@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024904,
+  "input_tokens": 265,
+  "latency_ms": 632,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "c272d3b00ed976ba4796abe6c4e2993f285a13f3611ac49e3db1e0a309e8a15c",
+  "text": "The longest river in the world is the Nile River [doc_nile_river]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001892,
+  "input_tokens": 164,
+  "latency_ms": 3056,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 51,
+  "provider": "together",
+  "request_hash": "bf9c1a759e8b48f03d80d7b74314b41368c636739c5f4c97d875d47968bcf632",
+  "text": "The most common citation mistake is including multiple or incorrect citations, rather than providing a single correct reference to the supporting document, such as [doc_apollo] in this case, which should be used to answer the question about the Apollo 11 mission."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011789000000000001,
+  "input_tokens": 127,
+  "latency_ms": 3417,
+  "model": "deepseek-chat",
+  "output_tokens": 76,
+  "provider": "deepseek",
+  "request_hash": "6a5615628574d3738466854196d52f3b4087b8ce3d1ad69fd648202375665aac",
+  "text": "```python\nimport math\n\ndef is_prime(n):\n    \"\"\"Return True if n is a prime number greater than 1, otherwise False.\"\"\"\n    if n <= 1:\n        return False\n    for i in range(2, int(math.isqrt(n)) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+}

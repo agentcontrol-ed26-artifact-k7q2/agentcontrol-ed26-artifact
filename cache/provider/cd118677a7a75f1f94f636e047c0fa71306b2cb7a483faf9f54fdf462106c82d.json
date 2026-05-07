@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010694000000000002,
+  "input_tokens": 62,
+  "latency_ms": 1720,
+  "model": "deepseek-chat",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "cd118677a7a75f1f94f636e047c0fa71306b2cb7a483faf9f54fdf462106c82d",
+  "text": "We use the binomial theorem: term with \\(x^3\\) is \\(\\binom{5}{3} (2x)^3 (3)^2\\).  \n\\(\\binom{5}{3} = 10\\), \\((2x)^3 = 8x^3\\), \\(3^2 = 9\\).  \nMultiply: \\(10 \\times 8 \\times 9 = 720\\).  \n\n720"
+}

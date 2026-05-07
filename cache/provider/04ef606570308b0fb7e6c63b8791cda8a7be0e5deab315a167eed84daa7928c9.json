@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014289,
+  "input_tokens": 77,
+  "latency_ms": 2192,
+  "model": "deepseek-chat",
+  "output_tokens": 111,
+  "provider": "deepseek",
+  "request_hash": "04ef606570308b0fb7e6c63b8791cda8a7be0e5deab315a167eed84daa7928c9",
+  "text": "We need the term with x^3 in (2x + 3)^5.  \nGeneral term: C(5, k) (2x)^(5-k) * 3^k.  \nFor x^3, exponent of x is 5 - k = 3 \u2192 k = 2.  \nTerm: C(5,2) * (2x)^3 * 3^2 = 10 * 8x^3 * 9 = 720 x^3.  \nCoefficient is 720.\n\n720"
+}

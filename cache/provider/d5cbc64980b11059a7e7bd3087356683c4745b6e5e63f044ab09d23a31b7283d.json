@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.243e-05,
+  "input_tokens": 129,
+  "latency_ms": 909,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "d5cbc64980b11059a7e7bd3087356683c4745b6e5e63f044ab09d23a31b7283d",
+  "text": "The highest mountain above sea level is Mount Everest. [doc_everest]"
+}

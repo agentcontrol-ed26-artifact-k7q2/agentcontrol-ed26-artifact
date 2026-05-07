@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.400000000000001e-05,
+  "input_tokens": 70,
+  "latency_ms": 1235,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "a957931f6887cce47816a74a1a78ddd69714f366d047ed44d7aeae42fb34775f",
+  "text": "Prime numbers between 1 and 20: 2, 3, 5, 7, 11, 13, 17, 19.  \nCount = 8.  \n\n8"
+}

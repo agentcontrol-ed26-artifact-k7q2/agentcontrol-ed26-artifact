@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014608,
+  "input_tokens": 155,
+  "latency_ms": 427,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "03eb0292da4b9ac90a4597f5d1180a0f61e5e16ac816dfe2d2d5705404001715",
+  "text": "Hint: doc_dna [doc_dna]"
+}

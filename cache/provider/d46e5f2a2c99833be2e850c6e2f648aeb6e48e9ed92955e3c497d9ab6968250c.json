@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004732,
+  "input_tokens": 64,
+  "latency_ms": 3459,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "d46e5f2a2c99833be2e850c6e2f648aeb6e48e9ed92955e3c497d9ab6968250c",
+  "text": "```python\ndef trap_rain_water(heights"
+}

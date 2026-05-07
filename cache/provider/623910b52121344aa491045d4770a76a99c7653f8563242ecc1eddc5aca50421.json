@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00061775,
+  "input_tokens": 68,
+  "latency_ms": 4366,
+  "model": "deepseek-reasoner",
+  "output_tokens": 265,
+  "provider": "deepseek",
+  "request_hash": "623910b52121344aa491045d4770a76a99c7653f8563242ecc1eddc5aca50421",
+  "text": "```python\ndef fib(n):\n    if n == 0:\n        return 0\n    if n == 1:\n        return 1\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```"
+}

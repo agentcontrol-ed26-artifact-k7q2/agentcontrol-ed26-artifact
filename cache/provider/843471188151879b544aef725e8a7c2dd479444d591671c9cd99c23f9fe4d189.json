@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.489999999999999e-05,
+  "input_tokens": 71,
+  "latency_ms": 1022,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 112,
+  "provider": "together",
+  "request_hash": "843471188151879b544aef725e8a7c2dd479444d591671c9cd99c23f9fe4d189",
+  "text": "```python\ndef decode_string(s: str) -> str:\n    stack, num, res = [], 0, ''\n    for char in s:\n        if char.isdigit():\n            num = num * 10 + int(char)\n        elif char == '[':\n            stack.append((res, num))\n            res, num = '', 0\n        elif char == ']':\n            prev_res, prev_num = stack.pop()\n            res = prev_res + prev_num * res\n        else:\n            res += char\n    return res\n```"
+}

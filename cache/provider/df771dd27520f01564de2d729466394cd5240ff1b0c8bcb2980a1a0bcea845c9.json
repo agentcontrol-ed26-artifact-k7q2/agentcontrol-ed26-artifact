@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.2280000000000004e-05,
+  "input_tokens": 54,
+  "latency_ms": 993,
+  "model": "deepseek-chat",
+  "output_tokens": 7,
+  "provider": "deepseek",
+  "request_hash": "df771dd27520f01564de2d729466394cd5240ff1b0c8bcb2980a1a0bcea845c9",
+  "text": "December 3, 2008"
+}

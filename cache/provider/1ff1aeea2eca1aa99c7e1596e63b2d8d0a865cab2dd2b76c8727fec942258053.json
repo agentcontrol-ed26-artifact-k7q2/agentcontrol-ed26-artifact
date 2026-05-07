@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00042335000000000007,
+  "input_tokens": 53,
+  "latency_ms": 3490,
+  "model": "deepseek-reasoner",
+  "output_tokens": 180,
+  "provider": "deepseek",
+  "request_hash": "1ff1aeea2eca1aa99c7e1596e63b2d8d0a865cab2dd2b76c8727fec942258053",
+  "text": "Hint: Start by using the largest denomination that does not exceed the target, then see how many more coins are needed for the remainder."
+}

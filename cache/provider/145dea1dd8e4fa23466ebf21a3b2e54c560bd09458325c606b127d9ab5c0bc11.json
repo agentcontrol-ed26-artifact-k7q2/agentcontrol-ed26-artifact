@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.769999999999999e-05,
+  "input_tokens": 243,
+  "latency_ms": 472,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "145dea1dd8e4fa23466ebf21a3b2e54c560bd09458325c606b127d9ab5c0bc11",
+  "text": "Charles Darwin wrote On the Origin of Species [doc_darwin_origin]."
+}

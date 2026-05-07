@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016437000000000003,
+  "input_tokens": 71,
+  "latency_ms": 2451,
+  "model": "deepseek-chat",
+  "output_tokens": 132,
+  "provider": "deepseek",
+  "request_hash": "0792309307877f02715cac037fe294bfc28f586f855cd3ee16bef35f1eb357e0",
+  "text": "We need to find the minimum number of moves to solve the 8-puzzle from the given start to the goal.\n\nStart:\n1 2 3  \n4 5 6  \n7 0 8  \n\nGoal:\n1 2 3  \n4 5 6  \n7 8 0  \n\nThe only difference is the blank (0) is at position (2,1) in start and (2,2) in goal.  \nWe can slide the 8 into the blank's spot in one move: move 8 left into the blank.\n\nThus, the minimum number of moves is 1.\n\nFinal integer: 1"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.58e-05,
+  "input_tokens": 101,
+  "latency_ms": 761,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 85,
+  "provider": "together",
+  "request_hash": "b5722c20a5f3119be29407c76b0d59b4b37d15f7d94ca7798bf8306e0356ead5",
+  "text": "```python\ndef two_sum_sorted(xs, target):\n    i, j = 0, len(xs) - 1\n    while i < j:\n        current_sum = xs[i] + xs[j]\n        if current_sum == target:\n            return (i, j)\n        elif current_sum < target:\n            i += 1\n        else:\n            j -= 1\n    return None\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010360000000000001,
+  "input_tokens": 70,
+  "latency_ms": 1835,
+  "model": "deepseek-chat",
+  "output_tokens": 77,
+  "provider": "deepseek",
+  "request_hash": "1b417b4f6ab6b13d6611d36ac606d6c367c07cea70023db371335dabfbbb8733",
+  "text": "The word MISSISSIPPI has 11 letters: M(1), I(4), S(4), P(2).\n\nNumber of permutations = 11! / (4! * 4! * 2!) = 39916800 / (24 * 24 * 2) = 39916800 / 1152 = 34650.\n\n34650"
+}

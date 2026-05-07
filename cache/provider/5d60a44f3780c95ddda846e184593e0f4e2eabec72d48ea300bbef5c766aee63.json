@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.54e-05,
+  "input_tokens": 82,
+  "latency_ms": 521,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "5d60a44f3780c95ddda846e184593e0f4e2eabec72d48ea300bbef5c766aee63",
+  "text": "```python\ndef matrix_transpose(m):\n    return [[m[j][i] for j in range(len(m))] for i in range(len(m[0]))]\n```"
+}

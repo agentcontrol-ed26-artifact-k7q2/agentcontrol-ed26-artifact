@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.779999999999999e-05,
+  "input_tokens": 241,
+  "latency_ms": 943,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 85,
+  "provider": "together",
+  "request_hash": "60d480541f5b0e31314ea5c6d24280498df69784ab8bfbe5de65425705416e5d",
+  "text": "```python\n# Define the list of (name, score)\nstudents = [('A',80),('B',95),('C',72),('D',95)]\n\n# Count the number of students with score >= 90 using list comprehension\ncount = len([student for student in students if student[1] >= 90])\n\n# Print the count\ncount\n```\n4"
+}

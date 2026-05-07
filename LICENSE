@@ -1,0 +1,107 @@
+AGENTCONTROL — LICENSING
+
+This artifact contains three asset classes with three distinct release terms.
+The text below is normative for this artifact; if any included file carries a
+narrower upstream license, that file's upstream license also applies.
+
+================================================================================
+1. SOURCE CODE
+================================================================================
+
+All Python source code under:
+
+    src/                  scripts/                tests/                configs/
+    main_rescue_gpu/      method_discovery/       main_apollo/
+
+is released under the **MIT License** below.
+
+----------------------------------------
+MIT License
+
+Copyright (c) 2026 [ANONYMIZED_AUTHORS]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+----------------------------------------
+
+================================================================================
+2. TASK POOLS / BENCHMARK METADATA / TRACES / EXPERIMENT JSONS / FIGURES / PAPER DRAFTS
+================================================================================
+
+All non-code data assets under:
+
+    cache/cost_ledger.jsonl
+    traces/
+    experiments/                figures/                paper/
+    main_rescue_gpu/experiments/                method_discovery/experiments/
+    main_apollo/*/experiments/  reports/                review_bundles/
+    submission/
+
+are released under the **Creative Commons Attribution 4.0 International
+(CC-BY-4.0)** license. Full text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution: cite the AgentControl paper (NeurIPS 2026 Evaluations & Datasets
+submission; placeholder citation in `submission/OPENREVIEW_METADATA.md`).
+
+================================================================================
+3. CACHED PROVIDER LLM RESPONSES (cache/provider/*.json)
+================================================================================
+
+Cached responses from external commercial LLM providers (DeepSeek, Together AI)
+under `cache/provider/*.json` are **NOT** released under MIT or CC-BY-4.0.
+
+POLICY:
+
+    Cached LLM responses are included in this artifact for academic
+    review-time reproducibility, subject to the original providers' terms
+    of service.
+
+    They are NOT licensed for:
+      - commercial redistribution;
+      - use as training data, fine-tuning data, or distillation data for
+        any model (whether competing or otherwise);
+      - any use prohibited by the upstream provider's then-current ToS.
+
+    Public redistribution outside review-time reproducibility (e.g.,
+    camera-ready public release on a content-distribution network) will be
+    re-verified against each provider's then-current terms of service
+    before distribution.
+
+    Each cached payload preserves the upstream `model` field so that
+    attribution to the original provider remains traceable.
+
+PROVIDERS (as of 2026-04, dates of cache collection):
+
+    - DeepSeek API: deepseek-chat, deepseek-reasoner
+    - Together AI:  Qwen/Qwen2.5-7B-Instruct-Turbo,
+                    meta-llama/Llama-3.3-70B-Instruct-Turbo
+
+================================================================================
+4. EXTERNAL DEPENDENCIES
+================================================================================
+
+Python dependencies declared in pyproject.toml retain their upstream licenses
+(matplotlib, pyyaml, pytest, numpy, scikit-learn, etc.). This artifact does not
+modify or redistribute their source.
+
+================================================================================
+5. AUTHORSHIP / ANONYMIZATION
+================================================================================
+
+This artifact is anonymized for double-blind review at NeurIPS 2026.
+Author identifiers will be added at camera-ready time.

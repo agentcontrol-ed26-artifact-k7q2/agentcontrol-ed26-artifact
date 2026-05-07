@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023539000000000003,
+  "input_tokens": 167,
+  "latency_ms": 2847,
+  "model": "deepseek-chat",
+  "output_tokens": 173,
+  "provider": "deepseek",
+  "request_hash": "34bcb2a5dfce0e3a74e1ac6ebfecc7edd6c0ae7c63236be264c037c396f9221d",
+  "text": "```python\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    adj = [[] for _ in range(n)]\n    for u, v, w in edges:\n        adj[u].append((v, w))\n        adj[v].append((u, w))\n    dist = [float('inf')] * n\n    dist[src] = 0\n    pq = [(0, src)]\n    while pq:\n        d, u = heapq.heappop(pq)\n        if d > dist[u]:\n            continue\n        if u == dst:\n            return d\n        for v, w in adj[u]:\n            nd = d + w\n            if nd < dist[v]:\n                dist[v] = nd\n                heapq.heappush(pq, (nd, v))\n    return -1\n```"
+}

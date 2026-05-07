@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.105000000000002e-05,
+  "input_tokens": 105,
+  "latency_ms": 1501,
+  "model": "deepseek-chat",
+  "output_tokens": 57,
+  "provider": "deepseek",
+  "request_hash": "22dc36a610d3520280608345acda91411bd2294800566a6151c8b60d623e6516",
+  "text": "The question asks about a Curie winning the 1903 physics Nobel, but the provided evidence only discusses Einstein's Nobel. No information about Curie is present. Therefore, I cannot answer based on the given evidence.\n\nAnswer: Unanswerable [doc_einstein_nobel]"
+}

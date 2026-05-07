@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.147000000000001e-05,
+  "input_tokens": 121,
+  "latency_ms": 932,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "a612572af04fa1d368187e6113c217aa9aa8dc2987ae86c2e4b73758c5d97a59",
+  "text": "Max Planck [doc_planck]"
+}

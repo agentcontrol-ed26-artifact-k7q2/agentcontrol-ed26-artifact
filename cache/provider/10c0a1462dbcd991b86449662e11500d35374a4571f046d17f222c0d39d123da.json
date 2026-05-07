@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.066e-05,
+  "input_tokens": 168,
+  "latency_ms": 981,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "10c0a1462dbcd991b86449662e11500d35374a4571f046d17f222c0d39d123da",
+  "text": "Ada Lovelace wrote notes on Charles Babbage's Analytical Engine.  \nCharles Babbage [doc_babbage]"
+}

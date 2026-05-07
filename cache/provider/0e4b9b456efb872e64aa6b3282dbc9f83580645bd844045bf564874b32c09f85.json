@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012056,
+  "input_tokens": 109,
+  "latency_ms": 514,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "0e4b9b456efb872e64aa6b3282dbc9f83580645bd844045bf564874b32c09f85",
+  "text": "The most common citation mistake is failing to include the required bracketed citation, such as [doc_war], to reference the supporting document."
+}

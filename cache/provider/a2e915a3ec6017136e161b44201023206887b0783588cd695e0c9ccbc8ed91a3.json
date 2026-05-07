@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019448000000000002,
+  "input_tokens": 200,
+  "latency_ms": 3553,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "a2e915a3ec6017136e161b44201023206887b0783588cd695e0c9ccbc8ed91a3",
+  "text": "Hint: doc_einstein \nAnswer phrase: He won the Nobel Prize for [doc_einstein]"
+}

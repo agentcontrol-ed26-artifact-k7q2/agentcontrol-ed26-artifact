@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.0199999999999995e-05,
+  "input_tokens": 125,
+  "latency_ms": 339,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "091b1280e72d5867b394c4172ec1609b03ba25f9fde1c49bb97a8868634914ec",
+  "text": "Alexander Graham Bell [doc_telephone]"
+}

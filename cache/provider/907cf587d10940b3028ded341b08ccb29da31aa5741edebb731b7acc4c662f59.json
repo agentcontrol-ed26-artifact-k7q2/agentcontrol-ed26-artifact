@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.8690000000000002e-05,
+  "input_tokens": 57,
+  "latency_ms": 936,
+  "model": "deepseek-chat",
+  "output_tokens": 3,
+  "provider": "deepseek",
+  "request_hash": "907cf587d10940b3028ded341b08ccb29da31aa5741edebb731b7acc4c662f59",
+  "text": "photoelectric effect"
+}

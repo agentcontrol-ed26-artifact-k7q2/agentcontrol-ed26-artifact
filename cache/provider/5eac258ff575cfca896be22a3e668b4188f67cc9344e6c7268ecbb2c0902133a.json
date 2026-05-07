@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010747,
+  "input_tokens": 64,
+  "latency_ms": 1288,
+  "model": "deepseek-reasoner",
+  "output_tokens": 33,
+  "provider": "deepseek",
+  "request_hash": "5eac258ff575cfca896be22a3e668b4188f67cc9344e6c7268ecbb2c0902133a",
+  "text": "Hint: First find the prime factorization of each number."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018656,
+  "input_tokens": 201,
+  "latency_ms": 1270,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "8e5ba20fda3854dd2ef4079a1430789b46728d49b79051274d487891bbaf2672",
+  "text": "The answer is 1939 [doc_war]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018752,
+  "input_tokens": 110,
+  "latency_ms": 1387,
+  "model": "deepseek-reasoner",
+  "output_tokens": 58,
+  "provider": "deepseek",
+  "request_hash": "7a1eda226efb1f7a847347cd8942d37f009966b595334feea0d1347cb3431adc",
+  "text": "Pythagoras of Samos [doc_pythagoras]"
+}

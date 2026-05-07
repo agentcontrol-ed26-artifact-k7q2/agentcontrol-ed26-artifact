@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011176,
+  "input_tokens": 92,
+  "latency_ms": 951,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "523f8b5515c4911c20360705cd70058946fd4d7f3a5a5c143910ddab8e7bbc72",
+  "text": "To find the result, you can use the difference of squares formula, which states that a squared minus b squared equals (a plus b) times (a minus b)."
+}

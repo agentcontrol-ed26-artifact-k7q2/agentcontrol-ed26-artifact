@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023894,
+  "input_tokens": 92,
+  "latency_ms": 1946,
+  "model": "deepseek-reasoner",
+  "output_tokens": 86,
+  "provider": "deepseek",
+  "request_hash": "02cf8b87d791f7fc8beac75ebaba994c84ae73579d645395f7bff1a89203ecf0",
+  "text": "Max Planck originated quantum theory. [doc_planck]"
+}

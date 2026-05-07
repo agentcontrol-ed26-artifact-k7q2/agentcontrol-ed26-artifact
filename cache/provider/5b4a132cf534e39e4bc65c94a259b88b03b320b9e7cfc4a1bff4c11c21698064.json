@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011176,
+  "input_tokens": 103,
+  "latency_ms": 592,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "5b4a132cf534e39e4bc65c94a259b88b03b320b9e7cfc4a1bff4c11c21698064",
+  "text": "The key step is to recognize that each term in the sequence is obtained by multiplying the previous term by 2."
+}

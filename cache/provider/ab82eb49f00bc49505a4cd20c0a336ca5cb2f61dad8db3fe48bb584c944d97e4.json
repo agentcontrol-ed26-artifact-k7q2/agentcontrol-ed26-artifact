@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013112,
+  "input_tokens": 105,
+  "latency_ms": 492,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "ab82eb49f00bc49505a4cd20c0a336ca5cb2f61dad8db3fe48bb584c944d97e4",
+  "text": "```python\nmatrix = [[1,2,3],[4,5,6],[7,8,9]]\ntrace = sum(matrix[i][i] for i in range(len(matrix)))\nprint(trace)\n```"
+}

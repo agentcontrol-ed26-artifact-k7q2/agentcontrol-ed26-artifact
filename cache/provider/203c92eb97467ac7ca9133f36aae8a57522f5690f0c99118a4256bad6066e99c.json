@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.45e-05,
+  "input_tokens": 74,
+  "latency_ms": 578,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "203c92eb97467ac7ca9133f36aae8a57522f5690f0c99118a4256bad6066e99c",
+  "text": "```python\ndef spiral_order(m):\n    result = []\n    while m:\n        result += m.pop(0)\n        m = list(zip(*m))[::-1]\n    return result\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024386,
+  "input_tokens": 68,
+  "latency_ms": 3264,
+  "model": "deepseek-chat",
+  "output_tokens": 205,
+  "provider": "deepseek",
+  "request_hash": "8d6c5d0ab4b014d48fc17f5375a1ac4ae3041aa321c89ac3f8e830838be32e3f",
+  "text": "```python\ndef count_islands(grid):\n    if not grid or not grid[0]:\n        return 0\n    rows, cols = len(grid), len(grid[0])\n    visited = [[False] * cols for _ in range(rows)]\n    \n    def dfs(r, c):\n        if r < 0 or r >= rows or c < 0 or c >= cols:\n            return\n        if visited[r][c] or grid[r][c] == 0:\n            return\n        visited[r][c] = True\n        dfs(r - 1, c)\n        dfs(r + 1, c)\n        dfs(r, c - 1)\n        dfs(r, c + 1)\n    \n    count = 0\n    for i in range(rows):\n        for j in range(cols):\n            if grid[i][j] == 1 and not visited[i][j]:\n                count += 1\n                dfs(i, j)\n    return count\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.28e-05,
+  "input_tokens": 71,
+  "latency_ms": 469,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 5,
+  "provider": "together",
+  "request_hash": "a4f836f6f3133b926edfd303d0a6e646fec2ced61b56568398db149e4c3f1f41",
+  "text": "Attack on Pearl Harbor"
+}

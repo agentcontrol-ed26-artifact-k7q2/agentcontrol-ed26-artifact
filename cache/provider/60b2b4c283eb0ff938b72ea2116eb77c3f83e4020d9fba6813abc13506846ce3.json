@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033848,
+  "input_tokens": 269,
+  "latency_ms": 1773,
+  "model": "deepseek-reasoner",
+  "output_tokens": 87,
+  "provider": "deepseek",
+  "request_hash": "60b2b4c283eb0ff938b72ea2116eb77c3f83e4020d9fba6813abc13506846ce3",
+  "text": "Auckland, New Zealand [doc_hillary_bio]"
+}

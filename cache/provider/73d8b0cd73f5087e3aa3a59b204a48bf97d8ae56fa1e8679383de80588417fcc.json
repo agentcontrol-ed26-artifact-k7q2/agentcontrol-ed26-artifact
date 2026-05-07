@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.767e-05,
+  "input_tokens": 91,
+  "latency_ms": 1089,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "73d8b0cd73f5087e3aa3a59b204a48bf97d8ae56fa1e8679383de80588417fcc",
+  "text": "Python 3.0 release date is not provided in the evidence. [doc_python_creator]"
+}

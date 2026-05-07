@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047815,
+  "input_tokens": 73,
+  "latency_ms": 3291,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "5ae10a96c1a01ad0913b77141355b72846918c953ef46e2c2623cf64411e0967",
+  "text": "```python\ndef binary_search(a, target):\n    \"\"\"\n    Perform binary search on a sorted list.\n    Returns the index of target if found, else -1.\n   "
+}

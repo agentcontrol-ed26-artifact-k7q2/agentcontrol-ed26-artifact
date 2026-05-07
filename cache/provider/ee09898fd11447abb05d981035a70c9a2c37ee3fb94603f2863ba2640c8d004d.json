@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004688,
+  "input_tokens": 56,
+  "latency_ms": 3323,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "ee09898fd11447abb05d981035a70c9a2c37ee3fb94603f2863ba2640c8d004d",
+  "text": "Hint: Use two pointers to compare the current smallest elements of each list, appending the smaller to the result and advancing that pointer.\n\n```python\ndef merge_sorted(a, b):\n    i = j = 0\n    merged = []\n    while i < len(a) and j < len(b):\n        if a[i] <= b"
+}

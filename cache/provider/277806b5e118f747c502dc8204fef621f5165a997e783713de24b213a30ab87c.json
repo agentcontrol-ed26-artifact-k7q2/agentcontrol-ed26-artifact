@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027104,
+  "input_tokens": 288,
+  "latency_ms": 383,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "277806b5e118f747c502dc8204fef621f5165a997e783713de24b213a30ab87c",
+  "text": "The first sustained powered flight was achieved at Kitty Hawk, North Carolina [doc_wright_flight]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025872,
+  "input_tokens": 269,
+  "latency_ms": 612,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "c664de9640a383cacd844ab0a8c7ba4196aef3c15e9281296f8e0c2d5e7f2a9f",
+  "text": "The answer is Albert Einstein, who is credited with the discovery of the photoelectric effect [doc_einstein_nobel]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016016,
+  "input_tokens": 137,
+  "latency_ms": 867,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "16a95c69f8012502ee962745cb1437dc08504fbaca0d4dc58be20784d0e1035c",
+  "text": "Answer: Charles Babbage designed the Analytical Engine [doc_babbage]. \nThe most common citation mistake is failing to include the required citation, such as [doc_xxx], at the end of the answer phrase."
+}

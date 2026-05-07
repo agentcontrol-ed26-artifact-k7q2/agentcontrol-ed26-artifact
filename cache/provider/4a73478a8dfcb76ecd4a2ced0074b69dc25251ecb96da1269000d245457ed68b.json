@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.089999999999999e-05,
+  "input_tokens": 283,
+  "latency_ms": 483,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "4a73478a8dfcb76ecd4a2ced0074b69dc25251ecb96da1269000d245457ed68b",
+  "text": "The Analytical Engine was designed in the 1830s [doc_babbage]."
+}

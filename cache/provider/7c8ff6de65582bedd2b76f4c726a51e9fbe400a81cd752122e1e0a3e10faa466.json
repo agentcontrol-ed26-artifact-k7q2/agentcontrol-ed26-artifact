@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010621,
+  "input_tokens": 263,
+  "latency_ms": 1284,
+  "model": "deepseek-chat",
+  "output_tokens": 32,
+  "provider": "deepseek",
+  "request_hash": "7c8ff6de65582bedd2b76f4c726a51e9fbe400a81cd752122e1e0a3e10faa466",
+  "text": "The provided evidence does not contain information about the discoverer of radium, her husband, or his cause of death. [doc_armstrong_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013288000000000002,
+  "input_tokens": 105,
+  "latency_ms": 1311,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "23795a446d70ce06e29e2797feb291b876e57e39e960112f9e28883a3921918c",
+  "text": "```python\ndata = [('A',80),('B',95),('C',72),('D',95)]\ncount = sum(1 for _, score in data if score >= 90)\nprint(count)\n```"
+}

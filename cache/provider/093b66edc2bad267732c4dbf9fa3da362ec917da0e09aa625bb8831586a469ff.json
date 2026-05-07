@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024112,
+  "input_tokens": 259,
+  "latency_ms": 578,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "093b66edc2bad267732c4dbf9fa3da362ec917da0e09aa625bb8831586a469ff",
+  "text": "The answer is Jeff Bezos [doc_amazon_distractor]"
+}

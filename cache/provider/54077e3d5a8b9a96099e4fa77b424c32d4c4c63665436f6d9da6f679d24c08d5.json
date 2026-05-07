@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017336,
+  "input_tokens": 93,
+  "latency_ms": 865,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 104,
+  "provider": "together",
+  "request_hash": "54077e3d5a8b9a96099e4fa77b424c32d4c4c63665436f6d9da6f679d24c08d5",
+  "text": "To generate all permutations of a list, consider using a recursive approach that selects each element in turn and generates all permutations of the remaining elements. \n```python\ndef all_permutations(xs):\n    if len(xs) == 1:\n        return [tuple(xs)]\n    result = []\n    for i, x in enumerate(xs):\n        rest = xs[:i] + xs[i+1:]\n        for p in all_permutations(rest):\n            result.append((x,) + p)\n    return sorted(result)\n```"
+}

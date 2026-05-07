@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020063999999999998,
+  "input_tokens": 98,
+  "latency_ms": 3102,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 130,
+  "provider": "together",
+  "request_hash": "2424b9497981aec356c3418f01fbb57b48d2026daf06f86ebca1b6746f2ee68d",
+  "text": "```python\nfrom collections import deque\n\ndef shortest_path_bfs(n, edges, src, dst):\n    graph = [[] for _ in range(n)]\n    for u, v in edges:\n        graph[u].append(v)\n        graph[v].append(u)\n    queue = deque([(src, 0)])\n    visited = {src}\n    while queue:\n        node, length = queue.popleft()\n        if node == dst:\n            return length\n        for neighbor in graph[node]:\n            if neighbor not in visited:\n                queue.append((neighbor, length + 1))\n                visited.add(neighbor)\n    return -1\n```"
+}

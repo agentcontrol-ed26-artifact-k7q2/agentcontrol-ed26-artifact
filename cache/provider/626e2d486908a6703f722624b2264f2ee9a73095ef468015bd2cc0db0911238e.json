@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036090000000000004,
+  "input_tokens": 258,
+  "latency_ms": 2212,
+  "model": "deepseek-reasoner",
+  "output_tokens": 100,
+  "provider": "deepseek",
+  "request_hash": "626e2d486908a6703f722624b2264f2ee9a73095ef468015bd2cc0db0911238e",
+  "text": "Buzz Aldrin [doc_aldrin_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026224,
+  "input_tokens": 282,
+  "latency_ms": 393,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "c3d51aa5c39663346aaffd44597a258814588c8eb05a8d13995a1e7171794d3c",
+  "text": "Charles Darwin wrote On the Origin of Species [doc_darwin_origin]"
+}

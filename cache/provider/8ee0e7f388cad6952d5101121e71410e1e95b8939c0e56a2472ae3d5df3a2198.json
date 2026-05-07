@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00089151,
+  "input_tokens": 72,
+  "latency_ms": 5994,
+  "model": "deepseek-reasoner",
+  "output_tokens": 389,
+  "provider": "deepseek",
+  "request_hash": "8ee0e7f388cad6952d5101121e71410e1e95b8939c0e56a2472ae3d5df3a2198",
+  "text": "```python\ndef shortest_path_bfs(n, edges, src, dst):\n    # Build adjacency list\n    adj = [[] for _ in range(n)]\n    for u, v in edges:\n        adj[u].append(v)\n        adj[v].append(u)\n    \n    from collections import deque\n    dist = [-1] * n\n    dist[src] = 0\n    q = deque([src])\n    \n    while q:\n        cur = q.popleft()\n        if cur == dst:\n            return dist[cur]\n        for nb in adj[cur]:\n            if dist[nb] == -1:\n                dist[nb] = dist[cur] + 1\n                q.append(nb)\n    \n    return -1\n```"
+}

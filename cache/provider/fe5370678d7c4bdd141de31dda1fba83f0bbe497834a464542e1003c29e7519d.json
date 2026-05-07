@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016104,
+  "input_tokens": 136,
+  "latency_ms": 922,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "fe5370678d7c4bdd141de31dda1fba83f0bbe497834a464542e1003c29e7519d",
+  "text": "Answer: Charles Darwin [doc_evolution]. \nThe most common citation mistake is failing to include the relevant citation, in this case, [doc_evolution] to support the answer that Charles Darwin wrote On the Origin of Species."
+}

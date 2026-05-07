@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.369999999999999e-05,
+  "input_tokens": 260,
+  "latency_ms": 601,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "2c4ad69733059a461070d37fcc6416cb15171381ff6080e44d102e8bac443130",
+  "text": "Python 2 reached end-of-life in 2020 [doc_python_versions]."
+}

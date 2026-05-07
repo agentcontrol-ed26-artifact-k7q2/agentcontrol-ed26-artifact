@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.6399999999999995e-05,
+  "input_tokens": 77,
+  "latency_ms": 989,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 111,
+  "provider": "together",
+  "request_hash": "c0d82cb3c4d148af9825c41570df30d30c5b05ee26c57e9e745fed2607b3b86d",
+  "text": "```python\ndef subset_sum(xs, target):\n    if target == 0:\n        return True\n    if not xs:\n        return False\n    xs = list(set(xs))  # Remove duplicates\n    n = len(xs)\n    dp = [False] * (target + 1)\n    dp[0] = True\n    for num in xs:\n        for t in range(target, num - 1, -1):\n            dp[t] = dp[t] or dp[t - num]\n    return dp[target]\n```"
+}

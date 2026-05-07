@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.834e-05,
+  "input_tokens": 122,
+  "latency_ms": 876,
+  "model": "deepseek-chat",
+  "output_tokens": 14,
+  "provider": "deepseek",
+  "request_hash": "6f7d1a2fcff805d9c0f88355338f4013492421153e362df105410264d7628d0f",
+  "text": "Charles Darwin wrote On the Origin of Species. [doc_evolution]"
+}

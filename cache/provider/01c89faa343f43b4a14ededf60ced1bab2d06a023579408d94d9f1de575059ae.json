@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.26e-05,
+  "input_tokens": 133,
+  "latency_ms": 266,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "01c89faa343f43b4a14ededf60ced1bab2d06a023579408d94d9f1de575059ae",
+  "text": "Charles Babbage [doc_babbage]"
+}

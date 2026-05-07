@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010823,
+  "input_tokens": 79,
+  "latency_ms": 1819,
+  "model": "deepseek-chat",
+  "output_tokens": 79,
+  "provider": "deepseek",
+  "request_hash": "d12ba1b28dee56786b51eea3f8beb9dad8db526a8d8d66876c16d653e009695f",
+  "text": "```python\ndef all_permutations(xs):\n    if len(xs) == 0:\n        return [()]\n    result = set()\n    for i, elem in enumerate(xs):\n        rest = xs[:i] + xs[i+1:]\n        for perm in all_permutations(rest):\n            result.add((elem,) + perm)\n    return sorted(result)\n```"
+}

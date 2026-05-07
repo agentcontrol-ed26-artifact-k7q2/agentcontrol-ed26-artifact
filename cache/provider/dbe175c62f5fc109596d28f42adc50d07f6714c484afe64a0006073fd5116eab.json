@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028586,
+  "input_tokens": 245,
+  "latency_ms": 1732,
+  "model": "deepseek-reasoner",
+  "output_tokens": 69,
+  "provider": "deepseek",
+  "request_hash": "dbe175c62f5fc109596d28f42adc50d07f6714c484afe64a0006073fd5116eab",
+  "text": "1918 [doc_planck_nobel]"
+}

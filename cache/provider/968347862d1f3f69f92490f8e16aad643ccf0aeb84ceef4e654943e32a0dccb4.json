@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017759,
+  "input_tokens": 67,
+  "latency_ms": 2466,
+  "model": "deepseek-chat",
+  "output_tokens": 145,
+  "provider": "deepseek",
+  "request_hash": "968347862d1f3f69f92490f8e16aad643ccf0aeb84ceef4e654943e32a0dccb4",
+  "text": "```python\ndef longest_common_subseq_len(a, b):\n    n, m = len(a), len(b)\n    dp = [[0] * (m + 1) for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for j in range(1, m + 1):\n            if a[i - 1] == b[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n    return dp[n][m]\n```"
+}

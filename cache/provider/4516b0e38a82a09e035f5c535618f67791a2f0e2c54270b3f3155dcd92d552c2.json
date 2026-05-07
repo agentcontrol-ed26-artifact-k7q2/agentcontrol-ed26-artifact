@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 88,
+  "latency_ms": 999,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "4516b0e38a82a09e035f5c535618f67791a2f0e2c54270b3f3155dcd92d552c2",
+  "text": "The most common mistake to avoid in solving this subtraction problem is subtracting the smaller number from the larger number incorrectly, such as reversing the order of the numbers or miscalculating the difference."
+}

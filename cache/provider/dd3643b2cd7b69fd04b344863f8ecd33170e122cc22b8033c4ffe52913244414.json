@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.324000000000001e-05,
+  "input_tokens": 72,
+  "latency_ms": 1546,
+  "model": "deepseek-chat",
+  "output_tokens": 58,
+  "provider": "deepseek",
+  "request_hash": "dd3643b2cd7b69fd04b344863f8ecd33170e122cc22b8033c4ffe52913244414",
+  "text": "Here's the Python code to compute total revenue:  \n\n```python\ndata = [(10, 3), (5, 4), (20, 1)]\ntotal_revenue = sum(price * qty for price, qty in data)\nprint(total_revenue)\n```"
+}

@@ -1,0 +1,158 @@
+{
+  "deepseek": {
+    "n_tasks": 50,
+    "qr_no_obs": {
+      "n": 50,
+      "success_rate": 0.68,
+      "avg_cost": 3.4,
+      "avg_objective": 0.6630000000000001,
+      "avg_unsupported_risk": 0.0
+    },
+    "qr_with_obs": {
+      "n": 50,
+      "success_rate": 0.98,
+      "avg_cost": 2.05,
+      "avg_objective": 0.9697499999999996,
+      "avg_unsupported_risk": 0.0
+    },
+    "graph": {
+      "n": 50,
+      "success_rate": 0.98,
+      "avg_cost": 2.05,
+      "avg_objective": 0.9697499999999996,
+      "avg_unsupported_risk": 0.0
+    },
+    "graph_vs_router_with_obs": {
+      "cost_saving_pct": 0.0,
+      "success_delta_pp": 0.0,
+      "ci_saving": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "ci_succ_delta": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      }
+    },
+    "graph_vs_router_no_obs": {
+      "cost_saving_pct": 39.705882352941174,
+      "success_delta_pp": 29.999999999999993,
+      "ci_saving": {
+        "mean": 38.31851580257319,
+        "ci_lo": 16.810344827586206,
+        "ci_hi": 53.57142857142857
+      },
+      "ci_succ_delta": {
+        "mean": 29.84,
+        "ci_lo": 17.999999999999993,
+        "ci_hi": 43.99999999999999
+      }
+    },
+    "per_difficulty_graph": {
+      "easy": {
+        "n": 11,
+        "success_rate": 1.0,
+        "avg_cost": 2.0454545454545454,
+        "avg_objective": 0.9897727272727274,
+        "avg_unsupported_risk": 0.0
+      },
+      "medium": {
+        "n": 23,
+        "success_rate": 1.0,
+        "avg_cost": 2.0869565217391304,
+        "avg_objective": 0.9895652173913044,
+        "avg_unsupported_risk": 0.0
+      },
+      "hard": {
+        "n": 16,
+        "success_rate": 0.9375,
+        "avg_cost": 2.0,
+        "avg_objective": 0.9275000000000001,
+        "avg_unsupported_risk": 0.0
+      }
+    },
+    "per_difficulty_router_with_obs": {
+      "easy": {
+        "n": 11,
+        "success_rate": 1.0,
+        "avg_cost": 2.0454545454545454,
+        "avg_objective": 0.9897727272727274,
+        "avg_unsupported_risk": 0.0
+      },
+      "medium": {
+        "n": 23,
+        "success_rate": 1.0,
+        "avg_cost": 2.0869565217391304,
+        "avg_objective": 0.9895652173913044,
+        "avg_unsupported_risk": 0.0
+      },
+      "hard": {
+        "n": 16,
+        "success_rate": 0.9375,
+        "avg_cost": 2.0,
+        "avg_objective": 0.9275000000000001,
+        "avg_unsupported_risk": 0.0
+      }
+    },
+    "baselines": {
+      "always_cheapest": {
+        "n": 50,
+        "success_rate": 0.36,
+        "avg_cost": 1.0,
+        "avg_objective": 0.3549999999999999,
+        "avg_unsupported_risk": 0.0
+      },
+      "always_strongest": {
+        "n": 50,
+        "success_rate": 0.62,
+        "avg_cost": 10.0,
+        "avg_objective": 0.5699999999999996,
+        "avg_unsupported_risk": 0.0
+      },
+      "frugalgpt_cascade": {
+        "n": 50,
+        "success_rate": 0.64,
+        "avg_cost": 7.4,
+        "avg_objective": 0.6030000000000003,
+        "avg_unsupported_risk": 0.0
+      },
+      "automix": {
+        "n": 50,
+        "success_rate": 0.68,
+        "avg_cost": 7.44,
+        "avg_objective": 0.6428000000000003,
+        "avg_unsupported_risk": 0.0
+      },
+      "shepherding_hint": {
+        "n": 50,
+        "success_rate": 0.38,
+        "avg_cost": 2.92,
+        "avg_objective": 0.3654000000000001,
+        "avg_unsupported_risk": 0.0
+      },
+      "fixed_react": {
+        "n": 50,
+        "success_rate": 0.96,
+        "avg_cost": 2.14,
+        "avg_objective": 0.9492999999999996,
+        "avg_unsupported_risk": 0.0
+      },
+      "fixed_react_with_strong_fallback": {
+        "n": 50,
+        "success_rate": 0.98,
+        "avg_cost": 2.54,
+        "avg_objective": 0.9672999999999996,
+        "avg_unsupported_risk": 0.0
+      },
+      "heuristic_bdelg": {
+        "n": 50,
+        "success_rate": 0.98,
+        "avg_cost": 2.66,
+        "avg_objective": 0.9666999999999996,
+        "avg_unsupported_risk": 0.0
+      }
+    }
+  }
+}

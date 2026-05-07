@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0011285699999999997,
+  "input_tokens": 69,
+  "latency_ms": 7300,
+  "model": "deepseek-reasoner",
+  "output_tokens": 498,
+  "provider": "deepseek",
+  "request_hash": "b9575437d7a4b2d8bb38fda08c15f56d75b321a00ef9d0f50b7e5297dc384549",
+  "text": "```python\nfrom itertools import permutations\n\ndef all_permutations(xs):\n    return sorted(permutations(xs))\n```"
+}

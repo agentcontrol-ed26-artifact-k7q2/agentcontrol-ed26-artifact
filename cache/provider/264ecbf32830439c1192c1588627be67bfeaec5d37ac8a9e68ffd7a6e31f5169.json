@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144,
+  "input_tokens": 98,
+  "latency_ms": 1922,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "264ecbf32830439c1192c1588627be67bfeaec5d37ac8a9e68ffd7a6e31f5169",
+  "text": "The most common mistake to avoid is incorrectly identifying 1 as a prime number or failing to check for divisibility by all prime numbers less than or equal to the square root of the given number."
+}

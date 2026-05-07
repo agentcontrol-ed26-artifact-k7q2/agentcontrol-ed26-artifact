@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.279e-05,
+  "input_tokens": 167,
+  "latency_ms": 734,
+  "model": "deepseek-chat",
+  "output_tokens": 7,
+  "provider": "deepseek",
+  "request_hash": "503aceb24b6d5f85f454fed612685d39ade1ae15717b0a2a39e7ffa79c72d2d5",
+  "text": "1945 [doc_war]"
+}

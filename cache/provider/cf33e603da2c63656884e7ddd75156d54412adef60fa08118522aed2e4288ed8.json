@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.046e-05,
+  "input_tokens": 138,
+  "latency_ms": 833,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "cf33e603da2c63656884e7ddd75156d54412adef60fa08118522aed2e4288ed8",
+  "text": "Marie Curie discovered radium [doc_curie]"
+}

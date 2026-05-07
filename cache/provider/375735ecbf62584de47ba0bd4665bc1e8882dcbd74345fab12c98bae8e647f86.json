@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001185,
+  "input_tokens": 297,
+  "latency_ms": 1053,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 98,
+  "provider": "together",
+  "request_hash": "375735ecbf62584de47ba0bd4665bc1e8882dcbd74345fab12c98bae8e647f86",
+  "text": "The Nobel Prize was not awarded for the discovery of DNA's double helix in a specific year as it was a discovery made in 1953 by James Watson and Francis Crick, but the Nobel Prize in Physiology or Medicine was awarded in 1962 to James Watson, Francis Crick, and Maurice Wilkins for their contributions to the understanding of the molecular structure of nucleic acids and its significance for information transfer in living material [doc_franklin_death]."
+}

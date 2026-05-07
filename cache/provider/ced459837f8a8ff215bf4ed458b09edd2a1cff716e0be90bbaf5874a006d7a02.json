@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0009232499999999999,
+  "input_tokens": 66,
+  "latency_ms": 6384,
+  "model": "deepseek-reasoner",
+  "output_tokens": 405,
+  "provider": "deepseek",
+  "request_hash": "ced459837f8a8ff215bf4ed458b09edd2a1cff716e0be90bbaf5874a006d7a02",
+  "text": "```python\ndef first_missing_positive(xs):\n    n = len(xs)\n    for i in range(n):\n        while 1 <= xs[i] <= n and xs[i] != xs[xs[i] - 1]:\n            target = xs[i] - 1\n            xs[i], xs[target] = xs[target], xs[i]\n    for i in range(n):\n        if xs[i] != i + 1:\n            return i + 1\n    return n + 1\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010999999999999999,
+  "input_tokens": 97,
+  "latency_ms": 758,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "7eb1f7c5d6806f28940c21548c98c9a9229da6adb355039028ef67fc64baef4d",
+  "text": "72 \n1. Check the rate of work per worker per hour\n2. Verify the proportionality of workers and hours to chairs built"
+}

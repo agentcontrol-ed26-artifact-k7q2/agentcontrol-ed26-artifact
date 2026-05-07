@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017512000000000002,
+  "input_tokens": 99,
+  "latency_ms": 2335,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 100,
+  "provider": "together",
+  "request_hash": "d1e9002d7e0a1022958d924165e36b4e01048564c3a69b2aa9a8e4bb635e1d1d",
+  "text": "8 * 7 = 56, 56 mod 11 = 1, 8 * 7 * 3 = 168, 168 mod 11 = 7, 8 * 7 * 4 = 224, 224 mod 11 = 3\n8 * 7 * 4 - 11 * 8 * 3 = 8, 8 * 7 = 56, 56 - 11 * 5 = 1"
+}

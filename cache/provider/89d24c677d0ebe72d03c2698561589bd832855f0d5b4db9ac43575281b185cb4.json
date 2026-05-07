@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.8690000000000002e-05,
+  "input_tokens": 57,
+  "latency_ms": 776,
+  "model": "deepseek-chat",
+  "output_tokens": 3,
+  "provider": "deepseek",
+  "request_hash": "89d24c677d0ebe72d03c2698561589bd832855f0d5b4db9ac43575281b185cb4",
+  "text": "Warsaw"
+}

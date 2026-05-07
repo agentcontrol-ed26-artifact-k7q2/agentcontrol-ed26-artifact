@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.7509999999999997e-05,
+  "input_tokens": 103,
+  "latency_ms": 1266,
+  "model": "deepseek-chat",
+  "output_tokens": 27,
+  "provider": "deepseek",
+  "request_hash": "c23f9a0b8c60a0637fb5340eedd123a004962385f227f656d0ffd1a4e82d71d4",
+  "text": "The Wright brothers achieved the first sustained powered flight in 1903 at Kitty Hawk, North Carolina. [doc_wright_flight]"
+}

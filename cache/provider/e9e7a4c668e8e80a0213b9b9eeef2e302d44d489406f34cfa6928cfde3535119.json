@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014432000000000003,
+  "input_tokens": 83,
+  "latency_ms": 2696,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 81,
+  "provider": "together",
+  "request_hash": "e9e7a4c668e8e80a0213b9b9eeef2e302d44d489406f34cfa6928cfde3535119",
+  "text": "```python\ndef longest_increasing_subseq(xs):\n    if not xs:\n        return 0\n    dp = [1] * len(xs)\n    for i in range(1, len(xs)):\n        for j in range(i):\n            if xs[i] > xs[j]:\n                dp[i] = max(dp[i], dp[j] + 1)\n    return max(dp)\n```"
+}

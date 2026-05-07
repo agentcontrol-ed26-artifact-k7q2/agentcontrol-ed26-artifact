@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004974000000000001,
+  "input_tokens": 108,
+  "latency_ms": 3670,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "0fabdcdd3d071c79df2149634fe4ff168219b1880165f375bad635ff0d72aa12",
+  "text": "1. Check that the evidence explicitly states Max Planck originated quantum theory in 1900, as indicated in doc_planck"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018826000000000002,
+  "input_tokens": 78,
+  "latency_ms": 2570,
+  "model": "deepseek-chat",
+  "output_tokens": 152,
+  "provider": "deepseek",
+  "request_hash": "2cc15c1660b9d1c1a5e9a1fe9d5dd467e30ca61da8bfbf29be2df3712dcbdca2",
+  "text": "```python\nfrom collections import deque\n\ndef shortest_path_bfs(n, edges, src, dst):\n    if src == dst:\n        return 0\n    adj = [[] for _ in range(n)]\n    for u, v in edges:\n        adj[u].append(v)\n        adj[v].append(u)\n    dist = [-1] * n\n    dist[src] = 0\n    q = deque([src])\n    while q:\n        u = q.popleft()\n        for v in adj[u]:\n            if dist[v] == -1:\n                dist[v] = dist[u] + 1\n                if v == dst:\n                    return dist[v]\n                q.append(v)\n    return -1\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012496,
+  "input_tokens": 96,
+  "latency_ms": 609,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 46,
+  "provider": "together",
+  "request_hash": "2f1f008c6c3d89c5dd736d282685c6203f4fe6f6dde13acce0ca4f4f775b1ec3",
+  "text": "To find the sum of the first 20 positive integers, you can use the formula for the sum of an arithmetic series, which is n(n+1)/2, where n is the number of terms in the series."
+}

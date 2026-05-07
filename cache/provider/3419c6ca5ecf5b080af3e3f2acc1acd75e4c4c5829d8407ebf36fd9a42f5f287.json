@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027632,
+  "input_tokens": 301,
+  "latency_ms": 542,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "3419c6ca5ecf5b080af3e3f2acc1acd75e4c4c5829d8407ebf36fd9a42f5f287",
+  "text": "The answer is Charles Babbage [doc_lovelace]"
+}

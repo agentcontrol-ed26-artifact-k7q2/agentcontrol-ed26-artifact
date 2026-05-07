@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023474,
+  "input_tokens": 164,
+  "latency_ms": 1445,
+  "model": "deepseek-reasoner",
+  "output_tokens": 66,
+  "provider": "deepseek",
+  "request_hash": "3bc2d9d08762cdf383902ec803bd9cb4a4df02975ba057b59d95b20b25c893ea",
+  "text": "Rosalind Franklin produced the X-ray diffraction images of DNA [doc_franklin]."
+}

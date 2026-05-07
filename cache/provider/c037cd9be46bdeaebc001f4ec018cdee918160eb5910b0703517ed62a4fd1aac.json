@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026954,
+  "input_tokens": 68,
+  "latency_ms": 2063,
+  "model": "deepseek-reasoner",
+  "output_tokens": 106,
+  "provider": "deepseek",
+  "request_hash": "c037cd9be46bdeaebc001f4ec018cdee918160eb5910b0703517ed62a4fd1aac",
+  "text": "Use the factorial of the number of books."
+}

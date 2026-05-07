@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020416,
+  "input_tokens": 88,
+  "latency_ms": 22907,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 144,
+  "provider": "together",
+  "request_hash": "fabce0115b784a1c0284073de81fe8d90c2eff742f141474d8dfdaad175efcdf",
+  "text": "To find the percent decrease, first, we need to calculate the drop in price, which is:\n80 - 60 = 20\n\nThen, we calculate the percent decrease using the formula: (drop/original price) * 100\n= (20/80) * 100\n= 0.25 * 100\n= 25\n\nSo, the percent decrease is 25%.\n\nVerification checks:\n1. If the price drops from 80 to 60, a 25% decrease should mean that 60 is 75% of 80.\n2. A 25% decrease from 80 should result in the same value as calculating 80 * (1 - 0.25)."
+}

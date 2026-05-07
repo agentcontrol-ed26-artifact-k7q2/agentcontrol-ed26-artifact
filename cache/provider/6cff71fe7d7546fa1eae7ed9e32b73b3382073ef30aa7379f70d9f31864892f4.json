@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010296,
+  "input_tokens": 90,
+  "latency_ms": 1229,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "6cff71fe7d7546fa1eae7ed9e32b73b3382073ef30aa7379f70d9f31864892f4",
+  "text": "The most common mistake to avoid in solving this is forgetting to follow the order of operations, specifically calculating the squares before subtracting."
+}

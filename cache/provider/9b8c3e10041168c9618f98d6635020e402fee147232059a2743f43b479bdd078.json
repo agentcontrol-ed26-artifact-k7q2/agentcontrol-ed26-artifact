@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019888000000000002,
+  "input_tokens": 207,
+  "latency_ms": 3269,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "9b8c3e10041168c9618f98d6635020e402fee147232059a2743f43b479bdd078",
+  "text": "Charles Darwin's birthplace was Shrewsbury, England [doc_darwin]"
+}

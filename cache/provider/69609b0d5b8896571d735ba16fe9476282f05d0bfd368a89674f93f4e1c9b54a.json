@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011704,
+  "input_tokens": 98,
+  "latency_ms": 924,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "69609b0d5b8896571d735ba16fe9476282f05d0bfd368a89674f93f4e1c9b54a",
+  "text": "```python\nxs = [4, 8, 15, 16, 23, 42]\nsum_xs = sum(xs)\nprint(sum_xs)\n```"
+}

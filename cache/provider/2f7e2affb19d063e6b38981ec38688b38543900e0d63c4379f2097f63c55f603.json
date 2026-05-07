@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00076173,
+  "input_tokens": 63,
+  "latency_ms": 5057,
+  "model": "deepseek-reasoner",
+  "output_tokens": 332,
+  "provider": "deepseek",
+  "request_hash": "2f7e2affb19d063e6b38981ec38688b38543900e0d63c4379f2097f63c55f603",
+  "text": "GCD(8,12) = 4\nLCM(8,12) = (8 * 12) / 4 = 96 / 4 = 24\n24"
+}

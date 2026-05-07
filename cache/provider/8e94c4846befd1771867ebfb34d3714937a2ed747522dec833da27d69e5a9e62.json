@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.919e-05,
+  "input_tokens": 57,
+  "latency_ms": 1571,
+  "model": "deepseek-chat",
+  "output_tokens": 58,
+  "provider": "deepseek",
+  "request_hash": "8e94c4846befd1771867ebfb34d3714937a2ed747522dec833da27d69e5a9e62",
+  "text": "We are summing the digits of 999.\n\nThe digits are: 9, 9, 9.\n\nFirst, add the first two:  \n9 + 9 = 18  \n\nThen add the third digit:  \n18 + 9 = 27  \n\nFinal answer:  \n27"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.132000000000001e-05,
+  "input_tokens": 236,
+  "latency_ms": 964,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "4fe27db242bb7aa8aa536217a9c237dc17fddcf1629817754d744b38b5d3a8aa",
+  "text": "World War II ended in 1945. [doc_war_dates]"
+}

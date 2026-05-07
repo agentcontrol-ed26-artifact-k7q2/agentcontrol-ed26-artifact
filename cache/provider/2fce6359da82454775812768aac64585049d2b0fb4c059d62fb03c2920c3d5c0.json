@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026576,
+  "input_tokens": 255,
+  "latency_ms": 1302,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "2fce6359da82454775812768aac64585049d2b0fb4c059d62fb03c2920c3d5c0",
+  "text": "Answer: Ohio [doc_armstrong]\nVerification checks:\n1. Check if the person in question is indeed the first person to walk on the Moon.\n2. Verify the birthplace of the person in question to confirm the state."
+}

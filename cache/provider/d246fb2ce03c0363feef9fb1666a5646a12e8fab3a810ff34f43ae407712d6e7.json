@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029744000000000005,
+  "input_tokens": 297,
+  "latency_ms": 769,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "d246fb2ce03c0363feef9fb1666a5646a12e8fab3a810ff34f43ae407712d6e7",
+  "text": "There is no information about the discoverer of radium in the provided documents, so it is not possible to determine the city where they were born. \nAnswer: [doc_aldrin_bio]"
+}

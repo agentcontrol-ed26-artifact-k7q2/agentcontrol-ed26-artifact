@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046402,
+  "input_tokens": 115,
+  "latency_ms": 3650,
+  "model": "deepseek-reasoner",
+  "output_tokens": 183,
+  "provider": "deepseek",
+  "request_hash": "1c49cf394d180aa928c995438f9e851a20cef7406a503ef84404622912a0626e",
+  "text": "1. Verify that the source \"doc_dna\" is a credible scientific reference (e.g., peer-reviewed article or textbook) and that the attributed year is consistently reported in other authoritative sources on the discovery of DNA structure.\n2. Cross-check the cited evidence against the original research publication by Watson and Crick in *Nature* (1953) to confirm that the year of elucidation is correctly extracted from the document."
+}

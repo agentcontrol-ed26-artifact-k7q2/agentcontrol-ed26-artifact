@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013112,
+  "input_tokens": 108,
+  "latency_ms": 2380,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "c04764a63b6748cfcaa29515d632fd391bb16f2243d718ac81f17d54a988221a",
+  "text": "The most common mistake to avoid is assuming a simple arithmetic progression when the sequence may be formed by adding increasing increments, such as adding 4, 6, 8, 10, etc."
+}

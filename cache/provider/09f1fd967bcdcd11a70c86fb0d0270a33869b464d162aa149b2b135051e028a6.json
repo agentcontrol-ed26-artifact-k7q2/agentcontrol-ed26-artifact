@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011880000000000001,
+  "input_tokens": 100,
+  "latency_ms": 863,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "09f1fd967bcdcd11a70c86fb0d0270a33869b464d162aa149b2b135051e028a6",
+  "text": "Key step: Recall the formula for the sum of interior angles of a polygon, which is (n-2)*180 degrees, where n is the number of sides."
+}

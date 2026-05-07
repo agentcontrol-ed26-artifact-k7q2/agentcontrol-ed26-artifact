@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016104,
+  "input_tokens": 146,
+  "latency_ms": 940,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "ba046c3cb0cce7499e961f5aa51a1e1f7d9f68014e23941a413646df1796aa76",
+  "text": "1. Verification that the subject in question worked on the Analytical Engine.\n2. Verification that the subject is specifically referred to as the first computer programmer [doc_lovelace]"
+}

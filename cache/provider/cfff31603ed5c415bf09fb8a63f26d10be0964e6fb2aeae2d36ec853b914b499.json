@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019737000000000002,
+  "input_tokens": 71,
+  "latency_ms": 2838,
+  "model": "deepseek-chat",
+  "output_tokens": 162,
+  "provider": "deepseek",
+  "request_hash": "cfff31603ed5c415bf09fb8a63f26d10be0964e6fb2aeae2d36ec853b914b499",
+  "text": "```python\ndef topological_sort(n, edges):\n    from collections import deque\n    \n    graph = [[] for _ in range(n)]\n    in_degree = [0] * n\n    \n    for u, v in edges:\n        graph[u].append(v)\n        in_degree[v] += 1\n    \n    queue = deque([i for i in range(n) if in_degree[i] == 0])\n    result = []\n    \n    while queue:\n        node = queue.popleft()\n        result.append(node)\n        for neighbor in graph[node]:\n            in_degree[neighbor] -= 1\n            if in_degree[neighbor] == 0:\n                queue.append(neighbor)\n    \n    if len(result) != n:\n        return []\n    return result\n```"
+}

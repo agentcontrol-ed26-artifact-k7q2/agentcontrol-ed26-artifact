@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012056,
+  "input_tokens": 96,
+  "latency_ms": 463,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "9aa879e35a4537f6d7258bedf478149311cbd7569b5f8de5acc9ddbc3915736c",
+  "text": "```python\ndata = [{'k':1},{'k':2},{'k':3}]\nsum_of_k = sum(d['k'] for d in data)\nprint(sum_of_k)\n```"
+}

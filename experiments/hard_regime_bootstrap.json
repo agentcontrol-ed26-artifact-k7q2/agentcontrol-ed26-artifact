@@ -1,0 +1,64 @@
+{
+  "deepseek": {
+    "n_resamples": 2000,
+    "seed": 20260427,
+    "graph_query_cost_saving_pct": {
+      "unstratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "family_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "regime_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "family_regime_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      }
+    },
+    "cheap_vs_strong_success_gap_pp": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    }
+  },
+  "together": {
+    "n_resamples": 2000,
+    "seed": 20260427,
+    "graph_query_cost_saving_pct": {
+      "unstratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "family_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "regime_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "family_regime_stratified": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      }
+    },
+    "cheap_vs_strong_success_gap_pp": {
+      "mean": 7.826111111111112,
+      "ci_lo": 3.3333333333333326,
+      "ci_hi": 13.33333333333333
+    }
+  }
+}

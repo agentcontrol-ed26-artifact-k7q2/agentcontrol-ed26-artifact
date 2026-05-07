@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013992,
+  "input_tokens": 117,
+  "latency_ms": 1000,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "aba39f1904794fcede053bd26651db5ff40e011a6e666f797ac7da233ed8b277",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, such as not including the author's name or the title of the document, like doc_einstein. [doc_einstein]"
+}

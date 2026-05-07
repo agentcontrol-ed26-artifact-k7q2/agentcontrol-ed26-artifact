@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.908e-05,
+  "input_tokens": 104,
+  "latency_ms": 982,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "7679569f165928414e94633c6a79af597eb099bba2df156146d02057be62b939",
+  "text": "Neil Armstrong [doc_armstrong_bio]"
+}

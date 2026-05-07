@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.8e-05,
+  "input_tokens": 93,
+  "latency_ms": 1944,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 7,
+  "provider": "together",
+  "request_hash": "e4098422f7f9ba84506e62e9382647adf065ea52b808bc62c72db502c7002883",
+  "text": "Add the numbers together \n19"
+}

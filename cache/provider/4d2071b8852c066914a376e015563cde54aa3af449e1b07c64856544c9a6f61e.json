@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012672,
+  "input_tokens": 103,
+  "latency_ms": 3749,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "4d2071b8852c066914a376e015563cde54aa3af449e1b07c64856544c9a6f61e",
+  "text": "The most common mistake to avoid is forgetting to account for the integers that are divisible by both 2 and 5, which would result in double-counting when using the principle of inclusion-exclusion."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.37e-05,
+  "input_tokens": 157,
+  "latency_ms": 489,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "c5835bd6a1454534f1330cbd788d45124df8c2364ce14f4622993b24eaca8a94",
+  "text": "Charles Babbage designed the Analytical Engine in the 1830s [doc_babbage]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.5950000000000006e-05,
+  "input_tokens": 105,
+  "latency_ms": 916,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "a0854252717c706573cd7a5495ec2a52e6883409df5e6d7958a793a097473a8c",
+  "text": "Leonardo da Vinci painted the Mona Lisa. [doc_mona_lisa]"
+}

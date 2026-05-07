@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.419999999999999e-05,
+  "input_tokens": 296,
+  "latency_ms": 709,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "a90e33975fd93c91563c1d8d6aff0b4a0fe60532d0342a5765fadb0f0f6ee51c",
+  "text": "Marie Curie was born in Warsaw, Poland [doc_curie_marie]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013466000000000002,
+  "input_tokens": 128,
+  "latency_ms": 2152,
+  "model": "deepseek-chat",
+  "output_tokens": 91,
+  "provider": "deepseek",
+  "request_hash": "471c9a07a42e56674eece41af34a3c273c14936aa8569a8333f724c06b02187c",
+  "text": "```python\ndef merge_sorted(a, b):\n    i = j = 0\n    merged = []\n    while i < len(a) and j < len(b):\n        if a[i] <= b[j]:\n            merged.append(a[i])\n            i += 1\n        else:\n            merged.append(b[j])\n            j += 1\n    merged.extend(a[i:])\n    merged.extend(b[j:])\n    return merged\n```"
+}

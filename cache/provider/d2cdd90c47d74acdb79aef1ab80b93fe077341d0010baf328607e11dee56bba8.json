@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014168,
+  "input_tokens": 152,
+  "latency_ms": 575,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "d2cdd90c47d74acdb79aef1ab80b93fe077341d0010baf328607e11dee56bba8",
+  "text": "The Amazon River [doc_amazon]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021203,
+  "input_tokens": 59,
+  "latency_ms": 1779,
+  "model": "deepseek-reasoner",
+  "output_tokens": 82,
+  "provider": "deepseek",
+  "request_hash": "0dd726b66ba68d8a89425c984b5b0bcb5cb39a581c089a258a6f150c5c993efe",
+  "text": "Add 20 to 13 to get 33, then add 8."
+}

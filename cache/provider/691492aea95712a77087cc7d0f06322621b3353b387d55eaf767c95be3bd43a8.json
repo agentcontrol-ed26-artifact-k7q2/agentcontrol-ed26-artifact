@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.15e-05,
+  "input_tokens": 290,
+  "latency_ms": 428,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "691492aea95712a77087cc7d0f06322621b3353b387d55eaf767c95be3bd43a8",
+  "text": "Marie Curie discovered polonium [doc_curie_marie]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.999999999999999e-05,
+  "input_tokens": 289,
+  "latency_ms": 478,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "4797e86bbfdbe3f8ad54baf1873c66502bbb28bde2154277603f595a9bc04bfb",
+  "text": "1879 [doc_einstein_birth]"
+}

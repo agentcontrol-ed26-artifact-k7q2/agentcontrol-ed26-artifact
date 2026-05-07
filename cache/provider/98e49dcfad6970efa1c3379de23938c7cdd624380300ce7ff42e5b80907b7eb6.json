@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.213e-05,
+  "input_tokens": 149,
+  "latency_ms": 1021,
+  "model": "deepseek-chat",
+  "output_tokens": 29,
+  "provider": "deepseek",
+  "request_hash": "98e49dcfad6970efa1c3379de23938c7cdd624380300ce7ff42e5b80907b7eb6",
+  "text": "Pierre Curie shared the 1903 Nobel Prize in Physics with Marie Curie and Henri Becquerel. [doc_curie2]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018192000000000002,
+  "input_tokens": 60,
+  "latency_ms": 1873,
+  "model": "deepseek-reasoner",
+  "output_tokens": 68,
+  "provider": "deepseek",
+  "request_hash": "67c793c6bb18f98f6838b5a177f08e07276c5ce242138b7cc9cc521ac2d40720",
+  "text": "Convert 35% to a decimal (0.35) and multiply by 200."
+}

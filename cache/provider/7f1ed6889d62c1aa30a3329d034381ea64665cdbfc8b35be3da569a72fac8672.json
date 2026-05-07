@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010648,
+  "input_tokens": 104,
+  "latency_ms": 1110,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "7f1ed6889d62c1aa30a3329d034381ea64665cdbfc8b35be3da569a72fac8672",
+  "text": "Count the integers divisible by 2 or 5 and subtract from 100."
+}

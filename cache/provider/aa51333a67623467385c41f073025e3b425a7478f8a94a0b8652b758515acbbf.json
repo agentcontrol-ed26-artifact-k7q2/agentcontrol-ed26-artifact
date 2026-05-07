@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010208,
+  "input_tokens": 88,
+  "latency_ms": 1472,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "aa51333a67623467385c41f073025e3b425a7478f8a94a0b8652b758515acbbf",
+  "text": "To solve for x, you need to isolate the variable x by getting rid of the constant term on the same side of the equation."
+}

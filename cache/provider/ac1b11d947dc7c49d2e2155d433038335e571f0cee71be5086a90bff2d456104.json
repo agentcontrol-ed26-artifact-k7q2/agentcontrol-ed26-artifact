@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.932000000000001e-05,
+  "input_tokens": 146,
+  "latency_ms": 819,
+  "model": "deepseek-chat",
+  "output_tokens": 9,
+  "provider": "deepseek",
+  "request_hash": "ac1b11d947dc7c49d2e2155d433038335e571f0cee71be5086a90bff2d456104",
+  "text": "Edmund Hillary [doc_everest]"
+}

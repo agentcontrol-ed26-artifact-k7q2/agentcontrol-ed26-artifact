@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.416e-05,
+  "input_tokens": 91,
+  "latency_ms": 1307,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "9ee4dc39af7dcfa0ccb7860feba45988809e8860534cf857836423ee08aa9d57",
+  "text": "1. Factorization check: \n2. Euclidean algorithm check\n420"
+}

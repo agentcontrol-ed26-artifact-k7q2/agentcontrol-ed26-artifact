@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022968,
+  "input_tokens": 100,
+  "latency_ms": 1217,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 161,
+  "provider": "together",
+  "request_hash": "15af89f6d19d77883a2029fa4b9875e6e22a7a15046d1c33e332536254a0f010",
+  "text": "```python\ndef interval_merge(intervals):\n    if not intervals:\n        return []\n    \n    # Sort intervals by start value\n    intervals.sort(key=lambda x: x[0])\n    \n    merged = [intervals[0]]\n    \n    for current in intervals[1:]:\n        # Get the last merged interval\n        last_merged = merged[-1]\n        \n        # Check if the current interval overlaps with the last merged interval\n        if current[0] <= last_merged[1]:\n            # Merge the current interval with the last merged interval\n            merged[-1] = (last_merged[0], max(last_merged[1], current[1]))\n        else:\n            # Add the current interval to the list of merged intervals\n            merged.append(current)\n    \n    return merged\n```"
+}

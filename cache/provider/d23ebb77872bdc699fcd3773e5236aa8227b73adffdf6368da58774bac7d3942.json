@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.279999999999998e-05,
+  "input_tokens": 260,
+  "latency_ms": 521,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "d23ebb77872bdc699fcd3773e5236aa8227b73adffdf6368da58774bac7d3942",
+  "text": "Jeff Bezos founded the company Amazon [doc_amazon_distractor]."
+}

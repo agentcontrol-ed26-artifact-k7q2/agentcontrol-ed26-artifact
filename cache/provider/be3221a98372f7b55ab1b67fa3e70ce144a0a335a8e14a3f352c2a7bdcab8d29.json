@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016104,
+  "input_tokens": 98,
+  "latency_ms": 719,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 85,
+  "provider": "together",
+  "request_hash": "be3221a98372f7b55ab1b67fa3e70ce144a0a335a8e14a3f352c2a7bdcab8d29",
+  "text": "```python\ndef subset_sum(xs, target):\n    def helper(xs, target, index):\n        if target == 0:\n            return True\n        if index == len(xs) or target < 0:\n            return False\n        return helper(xs, target - xs[index], index + 1) or helper(xs, target, index + 1)\n    return helper(xs, target, 0)\n```"
+}

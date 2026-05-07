@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.8500000000000006e-05,
+  "input_tokens": 70,
+  "latency_ms": 1132,
+  "model": "deepseek-chat",
+  "output_tokens": 36,
+  "provider": "deepseek",
+  "request_hash": "23924776a7b34cbe2576b16da174439a2ac5f38e7ddf6244accc3d594126f741",
+  "text": "The number of ways to arrange 5 distinct books is 5 factorial, which is 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120.\n\n120"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016120000000000002,
+  "input_tokens": 94,
+  "latency_ms": 1390,
+  "model": "deepseek-reasoner",
+  "output_tokens": 50,
+  "provider": "deepseek",
+  "request_hash": "48dbd04357d04f3e1f388c315ea65c9615ce2a5d8436d0ecb70f2abdc1175303",
+  "text": "Kitty Hawk [doc_wright]"
+}

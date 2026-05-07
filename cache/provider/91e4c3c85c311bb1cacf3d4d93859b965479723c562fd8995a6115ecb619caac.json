@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.494000000000001e-05,
+  "input_tokens": 62,
+  "latency_ms": 1901,
+  "model": "deepseek-chat",
+  "output_tokens": 62,
+  "provider": "deepseek",
+  "request_hash": "91e4c3c85c311bb1cacf3d4d93859b965479723c562fd8995a6115ecb619caac",
+  "text": "8 = 2^3, 12 = 2^2 \u00d7 3  \nGCD(8, 12) = 2^2 = 4  \nLCM(8, 12) = (8 \u00d7 12) / 4 = 96 / 4 = 24  \n\n24"
+}

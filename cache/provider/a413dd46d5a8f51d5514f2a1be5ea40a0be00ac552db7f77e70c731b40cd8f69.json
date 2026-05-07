@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.9e-05,
+  "input_tokens": 74,
+  "latency_ms": 1616,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 156,
+  "provider": "together",
+  "request_hash": "a413dd46d5a8f51d5514f2a1be5ea40a0be00ac552db7f77e70c731b40cd8f69",
+  "text": "```python\nfrom collections import Counter\n\ndef find_anagrams(s, p):\n    if len(p) > len(s):\n        return []\n    \n    p_count = Counter(p)\n    window_count = Counter(s[:len(p) - 1])\n    result = []\n    \n    for i in range(len(p) - 1, len(s)):\n        window_count[s[i]] += 1\n        if window_count == p_count:\n            result.append(i - len(p) + 1)\n        window_count[s[i - len(p) + 1]] -= 1\n        if window_count[s[i - len(p) + 1]] == 0:\n            del window_count[s[i - len(p) + 1]]\n    \n    return result\n```"
+}

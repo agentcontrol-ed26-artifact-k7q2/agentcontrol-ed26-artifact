@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021648000000000001,
+  "input_tokens": 109,
+  "latency_ms": 2066,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 137,
+  "provider": "together",
+  "request_hash": "68f4787e4507a3a9972085cb971b0df6be90791e9d331e8915089dbccd11c54e",
+  "text": "```python\nfrom collections import deque\n\ndef word_ladder_len(begin, end, words):\n    word_set = set(words)\n    if end not in word_set:\n        return 0\n\n    queue = deque([(begin, 1)])\n    while queue:\n        word, length = queue.popleft()\n        if word == end:\n            return length\n        for i in range(len(word)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                next_word = word[:i] + c + word[i+1:]\n                if next_word in word_set:\n                    word_set.remove(next_word)\n                    queue.append((next_word, length + 1))\n    return 0\n```"
+}

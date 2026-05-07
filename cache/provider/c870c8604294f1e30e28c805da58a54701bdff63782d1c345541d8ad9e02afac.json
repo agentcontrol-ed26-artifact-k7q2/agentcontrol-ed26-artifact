@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.499e-05,
+  "input_tokens": 237,
+  "latency_ms": 982,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "c870c8604294f1e30e28c805da58a54701bdff63782d1c345541d8ad9e02afac",
+  "text": "Albert Einstein [doc_einstein_nobel]"
+}

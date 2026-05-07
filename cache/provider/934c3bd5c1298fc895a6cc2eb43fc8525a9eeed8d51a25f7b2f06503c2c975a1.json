@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032968000000000006,
+  "input_tokens": 253,
+  "latency_ms": 1928,
+  "model": "deepseek-reasoner",
+  "output_tokens": 87,
+  "provider": "deepseek",
+  "request_hash": "934c3bd5c1298fc895a6cc2eb43fc8525a9eeed8d51a25f7b2f06503c2c975a1",
+  "text": "Rosalind Franklin [doc_franklin_xray]"
+}

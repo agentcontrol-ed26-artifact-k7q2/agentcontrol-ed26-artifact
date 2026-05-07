@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012056,
+  "input_tokens": 94,
+  "latency_ms": 983,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "4952ab45de9a675b697b4c270be0229f401ad449011f6c76393f7b8867724875",
+  "text": "The most common mistake to avoid in solving this is forgetting to use the formula for the sum of an arithmetic series, which is n(n+1)/2, where n is the last number in the series."
+}

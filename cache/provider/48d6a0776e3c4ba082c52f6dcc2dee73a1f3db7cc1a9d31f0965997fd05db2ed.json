@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010824000000000001,
+  "input_tokens": 98,
+  "latency_ms": 3986,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "48d6a0776e3c4ba082c52f6dcc2dee73a1f3db7cc1a9d31f0965997fd05db2ed",
+  "text": "1. Recalculating the expression using a different order of operations\n2. Using a calculator to evaluate the expression"
+}

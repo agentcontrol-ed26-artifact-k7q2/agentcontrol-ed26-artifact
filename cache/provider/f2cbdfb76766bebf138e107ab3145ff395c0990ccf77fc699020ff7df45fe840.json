@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036533000000000003,
+  "input_tokens": 59,
+  "latency_ms": 2585,
+  "model": "deepseek-reasoner",
+  "output_tokens": 152,
+  "provider": "deepseek",
+  "request_hash": "f2cbdfb76766bebf138e107ab3145ff395c0990ccf77fc699020ff7df45fe840",
+  "text": "```python\ndef strip_whitespace(s):\n    \"\"\"Return s with leading and trailing whitespace removed.\"\"\"\n    return s.strip()\n```"
+}

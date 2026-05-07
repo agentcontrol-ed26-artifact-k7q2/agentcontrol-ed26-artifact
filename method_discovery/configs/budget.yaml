@@ -1,0 +1,26 @@
+api:
+  default_max_total_spend_usd: 20.0
+  per_provider_caps_usd:
+    deepseek: 10.0
+    together: 5.0
+  approval_env_var: AGENTCONTROL_METHOD_DISCOVERY_API_APPROVED
+  hard_kill_on_overspend: true
+  cache_dir: cache/provider
+  ledger: cache/cost_ledger.jsonl
+selected_experiments:
+  - id: F1
+    name: agentic_search_vs_fixed_rag
+    estimated_total_usd: 3.0
+    requires_gpu: false
+  - id: F2
+    name: interactive_feedback_extended
+    estimated_total_usd: 0.3
+    requires_gpu: false
+deferred_experiments:
+  - id: B
+    name: kv_amortized_control_readout
+    requires_gpu: true
+    requires_user_approval: true
+    note: |
+      [CLUSTER_A] H200 preferred ([CLUSTER_B] marked unreliable by user).
+      Requires daily plink session + AGENTCONTROL_METHOD_DISCOVERY_GPU_APPROVED=1.

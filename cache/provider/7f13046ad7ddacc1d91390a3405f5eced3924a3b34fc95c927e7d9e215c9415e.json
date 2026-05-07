@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00034133,
+  "input_tokens": 95,
+  "latency_ms": 2951,
+  "model": "deepseek-reasoner",
+  "output_tokens": 132,
+  "provider": "deepseek",
+  "request_hash": "7f13046ad7ddacc1d91390a3405f5eced3924a3b34fc95c927e7d9e215c9415e",
+  "text": "1. Verify that the document \"doc_telephone\" explicitly states that Alexander Graham Bell patented the telephone in 1876.\n2. Confirm that no other cited document contradicts or provides a different inventor or year for the telephone patent."
+}

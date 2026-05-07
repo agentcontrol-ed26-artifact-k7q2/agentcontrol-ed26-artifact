@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.558e-05,
+  "input_tokens": 84,
+  "latency_ms": 1269,
+  "model": "deepseek-chat",
+  "output_tokens": 39,
+  "provider": "deepseek",
+  "request_hash": "112bcbd94e930dec0a70f2d4e0ce0803f5fcee24ed3d6a8da5d4ae7a990c3b77",
+  "text": "12 choose 2 = (12 \u00d7 11) / 2  \nIntermediate: 12 \u00d7 11 = 132  \nThen 132 / 2 = 66  \n\n132  \n66"
+}

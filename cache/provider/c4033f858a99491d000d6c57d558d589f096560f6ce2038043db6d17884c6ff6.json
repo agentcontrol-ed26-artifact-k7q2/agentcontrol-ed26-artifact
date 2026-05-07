@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001014,
+  "input_tokens": 290,
+  "latency_ms": 709,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 48,
+  "provider": "together",
+  "request_hash": "c4033f858a99491d000d6c57d558d589f096560f6ce2038043db6d17884c6ff6",
+  "text": "Rosalind Franklin died of cancer in 1958 at age 37, before the 1962 Nobel Prize was awarded for the discovery of DNA's double helix. [doc_franklin_death]"
+}

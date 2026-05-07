@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012936,
+  "input_tokens": 106,
+  "latency_ms": 3854,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "8aad770c2c11241f83c86ed818745afd351ff0340d7da5b2cbb83ff090f8dbd5",
+  "text": "List all possible pairs of rolls and count the pairs that sum to 7. \n1 6\n2 5\n3 4\n4 3\n5 2\n6 1"
+}

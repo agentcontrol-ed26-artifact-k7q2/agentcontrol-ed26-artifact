@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.2e-05,
+  "input_tokens": 98,
+  "latency_ms": 666,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "df10531a081fe66fe1072a85893a3f762824e8ed6987e24011dac36e3e4ae723",
+  "text": "```python\nxs = [4, 8, 15, 16, 23, 42]\nmean = round(sum(xs) / len(xs))\nprint(mean)\n```"
+}

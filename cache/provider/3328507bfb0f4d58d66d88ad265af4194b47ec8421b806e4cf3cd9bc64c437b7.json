@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031599000000000004,
+  "input_tokens": 252,
+  "latency_ms": 1816,
+  "model": "deepseek-reasoner",
+  "output_tokens": 81,
+  "provider": "deepseek",
+  "request_hash": "3328507bfb0f4d58d66d88ad265af4194b47ec8421b806e4cf3cd9bc64c437b7",
+  "text": "Kitty Hawk, North Carolina [doc_wright_flight]"
+}

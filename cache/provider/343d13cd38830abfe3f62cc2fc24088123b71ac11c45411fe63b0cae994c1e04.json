@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010735999999999999,
+  "input_tokens": 99,
+  "latency_ms": 567,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "343d13cd38830abfe3f62cc2fc24088123b71ac11c45411fe63b0cae994c1e04",
+  "text": "```python\ndef sum_digits(n):\n    return sum(int(digit) for digit in str(n))\n```"
+}

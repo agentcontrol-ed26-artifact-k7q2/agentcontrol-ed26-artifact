@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017336,
+  "input_tokens": 79,
+  "latency_ms": 1375,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 118,
+  "provider": "together",
+  "request_hash": "8d234cb93c0f25cd75d93cb6a531282d3d54e6fb6460cbbac3c7980b4b5bb230",
+  "text": "To verify the number of distinct solutions for the 8-queens problem on a standard 8x8 board, the following checks can be performed:\n1. **Symmetry Check**: Verify that the solutions are symmetric, meaning that if a solution is reflected across the vertical, horizontal, or diagonal axis of the board, it should still be a valid solution.\n2. **Unique Placement Check**: Verify that each solution has a unique placement of queens, such that no two queens attack each other, and that all rows, columns, and diagonals contain at most one queen.\n\n92"
+}

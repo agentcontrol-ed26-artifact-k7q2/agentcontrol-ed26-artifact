@@ -1,0 +1,396 @@
+{
+  "policies": {
+    "always_cheap_weak": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.1,
+        "accept_rate": 0.9666666666666667,
+        "avg_cost": 1.0
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.6,
+          "accept_rate": 0.8,
+          "avg_cost": 1.0
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.098475,
+          "ci_lo": 0.03333333333333333,
+          "ci_hi": 0.18333333333333332
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 1.0,
+          "ci_lo": 1.0,
+          "ci_hi": 1.0
+        }
+      }
+    },
+    "always_cheap_exact": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.0,
+        "accept_rate": 0.8666666666666667,
+        "avg_cost": 1.5
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.0,
+          "accept_rate": 0.2,
+          "avg_cost": 1.5
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 1.5,
+          "ci_lo": 1.5,
+          "ci_hi": 1.5
+        }
+      }
+    },
+    "always_strong_weak": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.1,
+        "accept_rate": 0.9666666666666667,
+        "avg_cost": 10.0
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.0
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.0
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.0
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.6,
+          "accept_rate": 0.8,
+          "avg_cost": 10.0
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.098475,
+          "ci_lo": 0.03333333333333333,
+          "ci_hi": 0.18333333333333332
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 10.0,
+          "ci_lo": 10.0,
+          "ci_hi": 10.0
+        }
+      }
+    },
+    "always_strong_exact": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.0,
+        "accept_rate": 0.8666666666666667,
+        "avg_cost": 10.5
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.5
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.5
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 10.5
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.0,
+          "accept_rate": 0.2,
+          "avg_cost": 10.5
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 10.5,
+          "ci_lo": 10.5,
+          "ci_hi": 10.5
+        }
+      }
+    },
+    "cascade_weak": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.1,
+        "accept_rate": 0.9666666666666667,
+        "avg_cost": 1.3333333333333333
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.6,
+          "accept_rate": 0.8,
+          "avg_cost": 3.0
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.098475,
+          "ci_lo": 0.03333333333333333,
+          "ci_hi": 0.18333333333333332
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 1.3330833333333332,
+          "ci_lo": 1.0,
+          "ci_hi": 1.8333333333333333
+        }
+      }
+    },
+    "cascade_exact": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.0,
+        "accept_rate": 0.8666666666666667,
+        "avg_cost": 2.9
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.5
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.0,
+          "accept_rate": 0.2,
+          "avg_cost": 9.9
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 2.883725,
+          "ci_lo": 2.025,
+          "ci_hi": 3.775
+        }
+      }
+    },
+    "risk_constrained": {
+      "aggregate": {
+        "n": 60,
+        "success_rate": 0.8666666666666667,
+        "false_accept_rate": 0.08333333333333333,
+        "accept_rate": 0.95,
+        "avg_cost": 1.1833333333333333
+      },
+      "per_family": {
+        "math_traps": {
+          "n": 20,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "code_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "evidence_traps": {
+          "n": 15,
+          "success_rate": 1.0,
+          "false_accept_rate": 0.0,
+          "accept_rate": 1.0,
+          "avg_cost": 1.0
+        },
+        "data_analysis_traps": {
+          "n": 10,
+          "success_rate": 0.2,
+          "false_accept_rate": 0.5,
+          "accept_rate": 0.7,
+          "avg_cost": 2.1
+        }
+      },
+      "bootstrap": {
+        "false_accept_rate": {
+          "mean": 0.082,
+          "ci_lo": 0.016666666666666666,
+          "ci_hi": 0.15
+        },
+        "success_rate": {
+          "mean": 0.8682166666666667,
+          "ci_lo": 0.7833333333333333,
+          "ci_hi": 0.95
+        },
+        "avg_cost": {
+          "mean": 1.181225,
+          "ci_lo": 1.0,
+          "ci_hi": 1.55
+        }
+      }
+    }
+  }
+}

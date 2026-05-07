@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 131,
+  "latency_ms": 825,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "82b62c8b8aba0c73fc152a5830a4fb84ad6a626976a860a6f69b2e58a4453a7f",
+  "text": "James Watson and Francis Crick [doc_dna]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.960000000000001e-05,
+  "input_tokens": 110,
+  "latency_ms": 906,
+  "model": "deepseek-chat",
+  "output_tokens": 9,
+  "provider": "deepseek",
+  "request_hash": "0b9c84d638bb17743e88955dbb25f49ba5826444c586af158d840df8719f816a",
+  "text": "Alexander Graham Bell [doc_telephone]"
+}

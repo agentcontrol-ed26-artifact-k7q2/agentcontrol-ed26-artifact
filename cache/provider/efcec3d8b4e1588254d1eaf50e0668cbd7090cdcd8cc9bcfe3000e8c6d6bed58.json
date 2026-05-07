@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011568,
+  "input_tokens": 74,
+  "latency_ms": 1999,
+  "model": "deepseek-chat",
+  "output_tokens": 87,
+  "provider": "deepseek",
+  "request_hash": "efcec3d8b4e1588254d1eaf50e0668cbd7090cdcd8cc9bcfe3000e8c6d6bed58",
+  "text": "We have the starting state:\n\n1 2 3  \n4 5 6  \n7 0 8  \n\nGoal state:\n\n1 2 3  \n4 5 6  \n7 8 0  \n\nThis is a simple 8-puzzle where only the 0 (blank) needs to move one step to the right to reach the goal.\n\nMinimum number of moves = 1.\n\nFinal integer: 1"
+}

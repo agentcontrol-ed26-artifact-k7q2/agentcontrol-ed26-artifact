@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.45e-05,
+  "input_tokens": 82,
+  "latency_ms": 496,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "70eb9790cfcae78c516e0ef48f11b577b7f21184f8d2a00ae0d9eb3373703393",
+  "text": "```python\ndef count_vowels(s: str) -> int:\n    return sum(1 for char in s if char in 'aeiou')\n```"
+}

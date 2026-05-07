@@ -1,0 +1,457 @@
+{
+  "n_total": 60,
+  "difficulty_counts": {
+    "multihop": 22,
+    "single_hop": 38
+  },
+  "n_corpus_docs": 41,
+  "naive_top3_miss_stats": {
+    "all": 22,
+    "any_miss": 17,
+    "full_miss": 6,
+    "examples": [
+      {
+        "task_id": "ag_001",
+        "question": "In what city was the discoverer of radium born?",
+        "citations": [
+          "doc_curie_marie"
+        ],
+        "top3": [
+          "doc_aldrin_bio",
+          "doc_armstrong_bio",
+          "doc_babbage"
+        ],
+        "missed": [
+          "doc_curie_marie"
+        ]
+      },
+      {
+        "task_id": "ag_002",
+        "question": "Who was the husband of the chemist who discovered polonium?",
+        "citations": [
+          "doc_curie_marie",
+          "doc_curie_pierre"
+        ],
+        "top3": [
+          "doc_curie_marie",
+          "doc_aldrin_bio",
+          "doc_amazon_distractor"
+        ],
+        "missed": [
+          "doc_curie_pierre"
+        ]
+      },
+      {
+        "task_id": "ag_003",
+        "question": "What was the cause of death of the husband of the discoverer of radium?",
+        "citations": [
+          "doc_curie_marie",
+          "doc_curie_pierre"
+        ],
+        "top3": [
+          "doc_aldrin_bio",
+          "doc_amazon_distractor",
+          "doc_armstrong_bio"
+        ],
+        "missed": [
+          "doc_curie_marie",
+          "doc_curie_pierre"
+        ]
+      },
+      {
+        "task_id": "ag_004",
+        "question": "Who was the daughter of the discoverer of polonium?",
+        "citations": [
+          "doc_curie_irene"
+        ],
+        "top3": [
+          "doc_aldrin_bio",
+          "doc_amazon_distractor",
+          "doc_armstrong_bio"
+        ],
+        "missed": [
+          "doc_curie_irene"
+        ]
+      },
+      {
+        "task_id": "ag_005",
+        "question": "In what state was the first person to walk on the Moon born?",
+        "citations": [
+          "doc_apollo_mission",
+          "doc_armstrong_bio"
+        ],
+        "top3": [
+          "doc_armstrong_bio",
+          "doc_aldrin_bio",
+          "doc_babbage"
+        ],
+        "missed": [
+          "doc_apollo_mission"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "task_id": "ag_001",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_002",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_003",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_004",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_005",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_006",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_007",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_008",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_009",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_010",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_011",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_012",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_013",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_014",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_015",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_016",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_017",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_018",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_019",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_020",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_021",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_022",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_023",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_024",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_025",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_026",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_027",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_028",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_029",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_030",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_031",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_032",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_033",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_034",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_035",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_036",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_037",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_038",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_039",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_040",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_041",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_042",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_043",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_044",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_045",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_046",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_047",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_048",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_049",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_050",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_051",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_052",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_053",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_054",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_055",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_056",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_057",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_058",
+      "difficulty": "multihop",
+      "multihop": true,
+      "n_supporting_docs": 2
+    },
+    {
+      "task_id": "ag_059",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    },
+    {
+      "task_id": "ag_060",
+      "difficulty": "single_hop",
+      "multihop": false,
+      "n_supporting_docs": 1
+    }
+  ],
+  "honesty": "Frozen multi-hop QA corpus with deliberate distractors. Naive top-3 RAG misses at least one supporting doc on a calibrated fraction of multi-hop questions. Auditable in src/agentcontrol_method/agentic_corpus.py. Not a benchmark download; not live web."
+}

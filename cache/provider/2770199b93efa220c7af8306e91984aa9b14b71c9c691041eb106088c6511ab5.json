@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011352,
+  "input_tokens": 103,
+  "latency_ms": 619,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "2770199b93efa220c7af8306e91984aa9b14b71c9c691041eb106088c6511ab5",
+  "text": "To find the original number, we need to reverse the operations by first subtracting 4 and then dividing by 3."
+}

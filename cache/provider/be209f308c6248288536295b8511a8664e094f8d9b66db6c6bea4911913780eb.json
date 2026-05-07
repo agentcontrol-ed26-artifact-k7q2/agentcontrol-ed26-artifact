@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.79e-05,
+  "input_tokens": 283,
+  "latency_ms": 357,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "be209f308c6248288536295b8511a8664e094f8d9b66db6c6bea4911913780eb",
+  "text": "37 [doc_franklin_death]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.003000000000001e-05,
+  "input_tokens": 59,
+  "latency_ms": 1135,
+  "model": "deepseek-chat",
+  "output_tokens": 31,
+  "provider": "deepseek",
+  "request_hash": "43a42e6dcab116787ffae24fa27c308a664fc6eccad34c70ecd3b5ecabbfb05c",
+  "text": "999 has three digits, each being 9.  \nThe sum of the digits is 9 + 9 + 9 = 27.  \n\n27"
+}

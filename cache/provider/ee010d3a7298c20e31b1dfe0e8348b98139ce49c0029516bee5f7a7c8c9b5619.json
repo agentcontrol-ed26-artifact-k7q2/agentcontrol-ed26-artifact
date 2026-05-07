@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011352,
+  "input_tokens": 104,
+  "latency_ms": 795,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "ee010d3a7298c20e31b1dfe0e8348b98139ce49c0029516bee5f7a7c8c9b5619",
+  "text": "The most common bug to avoid when implementing the Fibonacci function is an infinite recursion caused by not properly handling the base cases."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 108,
+  "latency_ms": 697,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "3d6b5c24e4d620b95a9328079c7223e5fae23f0cb528face679ad017aaf376cd",
+  "text": "First, determine the rate at which the workers build chairs per hour to scale up the production."
+}

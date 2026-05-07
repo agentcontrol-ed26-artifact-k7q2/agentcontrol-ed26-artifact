@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.649999999999999e-05,
+  "input_tokens": 88,
+  "latency_ms": 1377,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 167,
+  "provider": "together",
+  "request_hash": "bf3030eec2be58b591b9140f75f26db0fc83fc2193713f60088d285caac601c6",
+  "text": "```python\nfrom collections import OrderedDict\n\nclass LRUCache:\n    def __init__(self, capacity: int):\n        self.cache = OrderedDict()\n        self.capacity = capacity\n\n    def get(self, key: int) -> int:\n        if key not in self.cache:\n            return -1\n        value = self.cache.pop(key)\n        self.cache[key] = value  # move the key to the end to show that it was recently used\n        return value\n\n    def put(self, key: int, value: int) -> None:\n        if key in self.cache:\n            self.cache.pop(key)\n        elif len(self.cache) == self.capacity:\n            self.cache.popitem(last=False)  # remove the first item, which is the least recently used\n        self.cache[key] = value\n```"
+}

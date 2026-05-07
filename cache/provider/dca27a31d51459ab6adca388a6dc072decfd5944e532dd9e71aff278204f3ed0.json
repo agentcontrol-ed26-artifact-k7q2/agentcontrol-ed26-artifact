@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.8400000000000005e-05,
+  "input_tokens": 109,
+  "latency_ms": 596,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "dca27a31d51459ab6adca388a6dc072decfd5944e532dd9e71aff278204f3ed0",
+  "text": "Max Planck originated quantum theory to explain blackbody radiation [doc_planck_quantum]."
+}

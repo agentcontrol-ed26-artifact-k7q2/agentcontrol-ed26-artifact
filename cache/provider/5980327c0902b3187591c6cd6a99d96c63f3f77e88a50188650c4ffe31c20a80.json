@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.057e-05,
+  "input_tokens": 61,
+  "latency_ms": 1042,
+  "model": "deepseek-chat",
+  "output_tokens": 31,
+  "provider": "deepseek",
+  "request_hash": "5980327c0902b3187591c6cd6a99d96c63f3f77e88a50188650c4ffe31c20a80",
+  "text": "```python\ndef sum_list(xs):\n    total = 0\n    for x in xs:\n        total += x\n    return total\n```"
+}

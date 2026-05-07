@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00115322,
+  "input_tokens": 74,
+  "latency_ms": 6915,
+  "model": "deepseek-reasoner",
+  "output_tokens": 508,
+  "provider": "deepseek",
+  "request_hash": "feaf6bd503265bfb6377e7c85c8bafcccada79fd1b6303395ba7eae53ef39546",
+  "text": "```python\nfrom collections import deque\n\ndef topological_sort(n, edges):\n    # Build adjacency list and indegree array\n    adj = [[] for _ in range(n)]\n    indeg = [0] * n\n    for u, v in edges:\n        adj[u].append(v)\n        indeg[v] += 1\n\n    # Collect all nodes with zero in-degree\n    q = deque([i for i in range(n) if indeg[i] == 0])\n    order = []\n\n    # Process nodes\n    while q:\n        u = q.popleft()\n        order.append(u)\n        for v in adj[u]:\n            indeg[v] -= 1\n            if indeg[v] == 0:\n                q.append(v)\n\n    # If all nodes are processed, it's a valid topological order; otherwise, cycle exists\n    return order if len(order) == n else []\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00036218,
+  "input_tokens": 113,
+  "latency_ms": 2590,
+  "model": "deepseek-reasoner",
+  "output_tokens": 137,
+  "provider": "deepseek",
+  "request_hash": "3c053704c2ec5abae63da6d87b1a573db4c293efeedbacf23bf1b4899892e811",
+  "text": "1. Verify that the patent year (1876) matches historical records from independent sources beyond the provided evidence.\n2. Confirm that no other inventor is credited with patenting the telephone in other documents within the evidence set."
+}

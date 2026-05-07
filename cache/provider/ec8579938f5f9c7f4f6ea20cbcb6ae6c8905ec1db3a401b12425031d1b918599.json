@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.9e-05,
+  "input_tokens": 82,
+  "latency_ms": 542,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 48,
+  "provider": "together",
+  "request_hash": "ec8579938f5f9c7f4f6ea20cbcb6ae6c8905ec1db3a401b12425031d1b918599",
+  "text": "```python\npairs = [(1,2),(3,4),(5,6),(7,8)]\nresult = sum(a * b for a, b in pairs)\nprint(result)\n```\n```\n100\n```"
+}

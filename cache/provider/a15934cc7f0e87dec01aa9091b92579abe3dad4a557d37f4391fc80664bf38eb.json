@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035426,
+  "input_tokens": 230,
+  "latency_ms": 2184,
+  "model": "deepseek-reasoner",
+  "output_tokens": 104,
+  "provider": "deepseek",
+  "request_hash": "a15934cc7f0e87dec01aa9091b92579abe3dad4a557d37f4391fc80664bf38eb",
+  "text": "The attack on Pearl Harbor [doc_ww2_pearl]"
+}

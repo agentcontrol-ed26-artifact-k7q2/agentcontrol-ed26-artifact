@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0009725399999999999,
+  "input_tokens": 72,
+  "latency_ms": 6607,
+  "model": "deepseek-reasoner",
+  "output_tokens": 426,
+  "provider": "deepseek",
+  "request_hash": "115c01bf38900cff84a3c6a26f0a53df0d2a05ead4f53db68ee515785b4e79c5",
+  "text": "```python\ndef spiral_order(m):\n    if not m or not m[0]:\n        return []\n    result = []\n    top, bottom = 0, len(m) - 1\n    left, right = 0, len(m[0]) - 1\n    while top <= bottom and left <= right:\n        # left to right on top row\n        for col in range(left, right + 1):\n            result.append(m[top][col])\n        top += 1\n        # top to bottom on right column\n        for row in range(top, bottom + 1):\n            result.append(m[row][right])\n        right -= 1\n        if top <= bottom:\n            # right to left on bottom row\n            for col in range(right, left - 1, -1):\n                result.append(m[bottom][col])\n            bottom -= 1\n        if left <= right:\n            # bottom to top on left column\n            for row in range(bottom, top - 1, -1):\n                result.append(m[row][left])\n            left += 1\n    return result\n```"
+}

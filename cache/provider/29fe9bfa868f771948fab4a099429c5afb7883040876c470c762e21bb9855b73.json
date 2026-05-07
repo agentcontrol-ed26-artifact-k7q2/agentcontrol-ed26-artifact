@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025256,
+  "input_tokens": 265,
+  "latency_ms": 440,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "29fe9bfa868f771948fab4a099429c5afb7883040876c470c762e21bb9855b73",
+  "text": "Edmund Hillary and Tenzing Norgay first summited Mount Everest [doc_everest]"
+}

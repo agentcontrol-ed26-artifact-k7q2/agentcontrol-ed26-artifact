@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017312,
+  "input_tokens": 44,
+  "latency_ms": 1523,
+  "model": "deepseek-reasoner",
+  "output_tokens": 68,
+  "provider": "deepseek",
+  "request_hash": "eb194e2b258a8bf1587f1b412572d81b36d517d90f29c005d29ca604bbed97ed",
+  "text": "The average is 10.\n\n10"
+}

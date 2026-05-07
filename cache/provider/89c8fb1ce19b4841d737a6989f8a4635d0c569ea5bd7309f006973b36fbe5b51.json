@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020679999999999999,
+  "input_tokens": 89,
+  "latency_ms": 3544,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 146,
+  "provider": "together",
+  "request_hash": "89c8fb1ce19b4841d737a6989f8a4635d0c569ea5bd7309f006973b36fbe5b51",
+  "text": "```python\ndef knapsack_01(weights, values, capacity):\n    n = len(values)\n    dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for w in range(1, capacity + 1):\n            if weights[i - 1] <= w:\n                dp[i][w] = max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w])\n            else:\n                dp[i][w] = dp[i - 1][w]\n    return dp[n][capacity]\n```"
+}

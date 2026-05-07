@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00044812,
+  "input_tokens": 106,
+  "latency_ms": 3313,
+  "model": "deepseek-reasoner",
+  "output_tokens": 178,
+  "provider": "deepseek",
+  "request_hash": "ac44d1f085433b10a27f74319c94de72c3224eb10e9b4133ad3c0080ff20172c",
+  "text": "1. Verify that the evidence cited (doc_amazon) explicitly states the Amazon River is the second longest, and check if the source is authoritative (e.g., geographic consensus or reputable database) to confirm no contradiction with other credible sources.\n2. Cross-reference the claim with at least one independent, up-to-date geographic reference (e.g., CIA World Factbook or Encyclopedia Britannica) to ensure the ranking of longest rivers has not changed due to updated measurements."
+}

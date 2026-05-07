@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 90,
+  "latency_ms": 536,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "b69b3fa4b82738e3fed57327f1564f9e7abf19b026fb58e94469f49706e8b78d",
+  "text": "To find the product of 6 and 7, multiply the numbers together using the standard multiplication algorithm."
+}

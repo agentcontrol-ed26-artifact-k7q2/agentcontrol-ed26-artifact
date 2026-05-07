@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 98,
+  "latency_ms": 345,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "7ba59b98ed7299e486ef97ada1dd933d83910e67ced9f9ccdf45696040fe1af3",
+  "text": "To find the length, divide the area of the rectangle by its width."
+}

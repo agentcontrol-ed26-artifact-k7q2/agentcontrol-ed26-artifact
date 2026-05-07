@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.46e-05,
+  "input_tokens": 263,
+  "latency_ms": 633,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "d87a1665a0915ccc9f758a5bcbe2c53a493e5060db86b294b7bffe2f399f3ec9",
+  "text": "Neil Armstrong was the first person to walk on the Moon [doc_apollo_mission]."
+}

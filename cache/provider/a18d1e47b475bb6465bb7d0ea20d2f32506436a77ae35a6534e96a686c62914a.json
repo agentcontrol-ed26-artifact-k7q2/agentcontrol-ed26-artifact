@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.306999999999999e-05,
+  "input_tokens": 271,
+  "latency_ms": 1372,
+  "model": "deepseek-chat",
+  "output_tokens": 9,
+  "provider": "deepseek",
+  "request_hash": "a18d1e47b475bb6465bb7d0ea20d2f32506436a77ae35a6534e96a686c62914a",
+  "text": "1919 [doc_hillary_bio]"
+}

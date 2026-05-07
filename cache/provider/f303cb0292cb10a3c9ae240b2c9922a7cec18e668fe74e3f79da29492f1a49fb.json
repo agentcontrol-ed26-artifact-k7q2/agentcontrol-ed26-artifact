@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.97e-05,
+  "input_tokens": 152,
+  "latency_ms": 589,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "f303cb0292cb10a3c9ae240b2c9922a7cec18e668fe74e3f79da29492f1a49fb",
+  "text": "```python\nmatrix = [[1,2,3],[4,5,6],[7,8,9]]\ntrace = sum(matrix[i][i] for i in range(len(matrix)))\nprint(trace)\n```\n15"
+}

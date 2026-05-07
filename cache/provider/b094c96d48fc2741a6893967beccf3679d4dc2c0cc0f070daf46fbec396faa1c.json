@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.94e-05,
+  "input_tokens": 179,
+  "latency_ms": 601,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "b094c96d48fc2741a6893967beccf3679d4dc2c0cc0f070daf46fbec396faa1c",
+  "text": "Rosalind Franklin produced X-ray images of DNA [doc_franklin_xray]."
+}

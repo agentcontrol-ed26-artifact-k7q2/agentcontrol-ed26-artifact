@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.968999999999999e-05,
+  "input_tokens": 267,
+  "latency_ms": 914,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "0d1ed3245c69f5ae3e5365cb7c127f232f42167adc4bb386676bd900103c798c",
+  "text": "Neil Armstrong was born in 1930 [doc_armstrong_bio]."
+}

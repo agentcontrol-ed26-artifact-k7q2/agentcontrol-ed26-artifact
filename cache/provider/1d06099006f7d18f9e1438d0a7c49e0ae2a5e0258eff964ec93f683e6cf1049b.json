@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.62e-05,
+  "input_tokens": 244,
+  "latency_ms": 249,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "1d06099006f7d18f9e1438d0a7c49e0ae2a5e0258eff964ec93f683e6cf1049b",
+  "text": "1915 [doc_einstein]"
+}

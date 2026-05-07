@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033264,
+  "input_tokens": 280,
+  "latency_ms": 1743,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 98,
+  "provider": "together",
+  "request_hash": "9efed380d30208e50ae44edefafbbad6fa60615f080ebd0bdf22bf8423353a73",
+  "text": "The answer phrase is not directly supported by the provided evidence, as the documents do not mention Charles Darwin's travels from 1831 to 1836. However, based on general knowledge, Charles Darwin traveled on the HMS Beagle from 1831 to 1836. Since this information is not present in the provided documents, I must conclude that the answer is not available in the given evidence. \nAnswer phrase: Not available in the given evidence [doc_darwin_origin]"
+}

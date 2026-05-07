@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017952000000000002,
+  "input_tokens": 81,
+  "latency_ms": 1253,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 123,
+  "provider": "together",
+  "request_hash": "84d40c7f4f390da11fcd8f4d5de726f464b5ed13bb88be2f07611cb06cecf86f",
+  "text": "To implement binary search, repeatedly divide the search interval in half and search for the target in one of the two halves until it is found or the interval is empty.\n\n```python\ndef binary_search(a, target):\n    low = 0\n    high = len(a) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if a[mid] == target:\n            return mid\n        elif a[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n```"
+}

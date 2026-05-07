@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014432,
+  "input_tokens": 123,
+  "latency_ms": 734,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "61829eb80f96b9a7fccb091ff89128a5fd10bb952f4a94ade9450a24f3309951",
+  "text": "To maximize the total profit, sort the jobs based on their profits in descending order and then use a greedy approach to schedule them in the available slots, ensuring that each job is completed by its deadline."
+}

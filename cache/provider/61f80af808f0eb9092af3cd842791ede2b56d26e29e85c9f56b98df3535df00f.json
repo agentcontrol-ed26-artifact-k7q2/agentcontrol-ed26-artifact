@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.281e-05,
+  "input_tokens": 143,
+  "latency_ms": 951,
+  "model": "deepseek-chat",
+  "output_tokens": 22,
+  "provider": "deepseek",
+  "request_hash": "61f80af808f0eb9092af3cd842791ede2b56d26e29e85c9f56b98df3535df00f",
+  "text": "Ada Lovelace is often described as the first computer programmer for the Analytical Engine [doc_lovelace]."
+}

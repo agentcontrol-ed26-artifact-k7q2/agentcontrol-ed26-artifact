@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 98,
+  "latency_ms": 620,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "9c617e8ffd631369897c432856a5f43b9267043fa1e564dad8bd6fc5650a46fe",
+  "text": "The most common bug to avoid when implementing the gcd function is not handling the case where one or both of the input integers are zero or negative."
+}

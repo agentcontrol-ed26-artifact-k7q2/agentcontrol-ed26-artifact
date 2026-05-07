@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015927999999999998,
+  "input_tokens": 138,
+  "latency_ms": 908,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "b85fec61712162472d45f25616dfa0fa461f1039583226b06ebda6d644313bfc",
+  "text": "1. Verification that the river in question is located in South America [doc_amazon]\n2. Verification that the length of the river is compared to the Nile river to determine its ranking [doc_amazon]"
+}

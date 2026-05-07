@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.25e-05,
+  "input_tokens": 185,
+  "latency_ms": 964,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 90,
+  "provider": "together",
+  "request_hash": "ad6159accd751ba6015f8dd72dd6c4f765035dd9607b67fdb585a72726bafa34",
+  "text": "```python\nimport math\n\nxs = [4, 8, 15, 16, 23, 42]\nmean = sum(xs) / len(xs)\nvariance = sum((x - mean) ** 2 for x in xs) / len(xs)\nstd_dev = math.sqrt(variance)\n\nprint(f\"{std_dev:.2f}\")\n```\n```python\n12.88\n```"
+}

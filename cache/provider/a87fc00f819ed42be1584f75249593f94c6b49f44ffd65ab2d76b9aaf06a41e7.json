@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004108,
+  "input_tokens": 70,
+  "latency_ms": 2983,
+  "model": "deepseek-reasoner",
+  "output_tokens": 170,
+  "provider": "deepseek",
+  "request_hash": "a87fc00f819ed42be1584f75249593f94c6b49f44ffd65ab2d76b9aaf06a41e7",
+  "text": "```python\nxs = [1,2,3,4,5,6,7,8,9,10]\nn = len(xs)\nxs_sorted = sorted(xs)\nif n % 2 == 1:\n    median = xs_sorted[n//2]\nelse:\n    median = (xs_sorted[n//2 - 1] + xs_sorted[n//2]) / 2\nprint(median)\n```"
+}

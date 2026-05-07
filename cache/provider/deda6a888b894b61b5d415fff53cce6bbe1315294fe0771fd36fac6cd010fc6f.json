@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.1949999999999998e-05,
+  "input_tokens": 65,
+  "latency_ms": 723,
+  "model": "deepseek-chat",
+  "output_tokens": 4,
+  "provider": "deepseek",
+  "request_hash": "deda6a888b894b61b5d415fff53cce6bbe1315294fe0771fd36fac6cd010fc6f",
+  "text": "HMS Beagle"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017600000000000002,
+  "input_tokens": 145,
+  "latency_ms": 783,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 55,
+  "provider": "together",
+  "request_hash": "bef14562aa2db66d76672ef19ec0416987a8ab93046744b4e4ee619ccce8e9b1",
+  "text": "Answer: Kitty Hawk, North Carolina [doc_wright]\nVerification checks:\n1. Check if the location of the first sustained powered flight is mentioned in the provided evidence.\n2. Verify if the year of the first sustained powered flight matches the year mentioned in the evidence."
+}

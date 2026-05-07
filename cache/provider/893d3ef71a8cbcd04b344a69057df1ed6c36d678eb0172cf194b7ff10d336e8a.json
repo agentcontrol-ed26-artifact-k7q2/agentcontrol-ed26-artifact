@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00084765,
+  "input_tokens": 267,
+  "latency_ms": 4814,
+  "model": "deepseek-reasoner",
+  "output_tokens": 320,
+  "provider": "deepseek",
+  "request_hash": "893d3ef71a8cbcd04b344a69057df1ed6c36d678eb0172cf194b7ff10d336e8a",
+  "text": "The provided evidence does not contain any information about the inventor of the telephone or their birthplace. Therefore, I cannot answer the question based on the given documents. [doc_aldrin_bio]"
+}

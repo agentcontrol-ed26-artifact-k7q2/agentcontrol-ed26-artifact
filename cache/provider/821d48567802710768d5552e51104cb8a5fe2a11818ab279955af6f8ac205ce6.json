@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.606000000000001e-05,
+  "input_tokens": 78,
+  "latency_ms": 1665,
+  "model": "deepseek-chat",
+  "output_tokens": 50,
+  "provider": "deepseek",
+  "request_hash": "821d48567802710768d5552e51104cb8a5fe2a11818ab279955af6f8ac205ce6",
+  "text": "```python\ntemperatures = [-5, 0, 12, 25, 18, -3, 30, 4]\ncount = sum(1 for t in temperatures if t > 0)\nprint(count)\n```"
+}

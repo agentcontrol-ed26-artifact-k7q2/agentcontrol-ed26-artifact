@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.6099999999999995e-05,
+  "input_tokens": 73,
+  "latency_ms": 1247,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 114,
+  "provider": "together",
+  "request_hash": "abffa04cf6eaf3f506725dda27cb7d26ee92d831f9e2d3cc9c8cf662e872004b",
+  "text": "First, we compute the value of the expression inside the first set of parentheses:\n\n\\[ 3 + 4 = 7 \\]\n\nNext, we use this result to compute the final expression:\n\n\\[ 7 \\times (5 - 2) \\]\n\nNow, we compute the value inside the second set of parentheses:\n\n\\[ 5 - 2 = 3 \\]\n\nFinally, we multiply the results of the two computations:\n\n\\[ 7 \\times 3 = 21 \\]\n\nSo, the final answer is:\n\n\\[ 21 \\]"
+}

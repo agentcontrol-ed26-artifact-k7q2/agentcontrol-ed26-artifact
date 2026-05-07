@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010472,
+  "input_tokens": 80,
+  "latency_ms": 1346,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "9a499d99d4baa3f388397e84f79ff9ba64e328f63de884624eed05d069955cea",
+  "text": "45.00\n1. Check calculation using decimal form: 0.18 * 250\n2. Verify result using proportion or fraction form: (18/100) * 250"
+}

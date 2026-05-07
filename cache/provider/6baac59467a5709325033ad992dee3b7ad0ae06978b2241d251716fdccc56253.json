@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025079999999999997,
+  "input_tokens": 251,
+  "latency_ms": 1173,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "6baac59467a5709325033ad992dee3b7ad0ae06978b2241d251716fdccc56253",
+  "text": "There is no information about the inventor of the telephone emigrating to Canada, the provided text only mentions the year the telephone was patented.\n[doc_telephone]"
+}

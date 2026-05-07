@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010824000000000001,
+  "input_tokens": 98,
+  "latency_ms": 532,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "b04f46214db27fdac4f86e24ae3ed5ea44dc1902f5d293cfa356f2fd463ae794",
+  "text": "To find the percent increase, first calculate the difference between the new and old prices and then divide by the old price."
+}

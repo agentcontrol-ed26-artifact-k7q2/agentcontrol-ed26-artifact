@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001144,
+  "input_tokens": 101,
+  "latency_ms": 761,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "c846498ec37ffd212ce172436e552aa38732afea0d6c6936580318e94ee805a7",
+  "text": "To find the distance traveled in 7 hours, first calculate the train's speed in miles per hour by dividing the distance by the time."
+}

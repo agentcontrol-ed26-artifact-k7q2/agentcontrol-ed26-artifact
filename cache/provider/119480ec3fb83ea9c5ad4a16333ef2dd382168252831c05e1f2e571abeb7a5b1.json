@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00038834000000000004,
+  "input_tokens": 65,
+  "latency_ms": 2750,
+  "model": "deepseek-reasoner",
+  "output_tokens": 161,
+  "provider": "deepseek",
+  "request_hash": "119480ec3fb83ea9c5ad4a16333ef2dd382168252831c05e1f2e571abeb7a5b1",
+  "text": "Use the formula for the sum of an arithmetic series: average of first and last terms multiplied by the number of terms."
+}

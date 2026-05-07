@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014344,
+  "input_tokens": 115,
+  "latency_ms": 1338,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 48,
+  "provider": "together",
+  "request_hash": "98fd4483c7fa7410fc588ead24fc85a906db494b40064538069e07db94b2f0ad",
+  "text": "1. Verification of location: Is Kitty Hawk the correct location mentioned in the document?\n2. Verification of event type: Does the document specifically mention that the event at Kitty Hawk was the first sustained powered flight? [doc_wright]"
+}

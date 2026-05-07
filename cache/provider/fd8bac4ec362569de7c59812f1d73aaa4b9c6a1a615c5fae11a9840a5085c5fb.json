@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.830000000000001e-05,
+  "input_tokens": 141,
+  "latency_ms": 367,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "fd8bac4ec362569de7c59812f1d73aaa4b9c6a1a615c5fae11a9840a5085c5fb",
+  "text": "Charles Darwin published On the Origin of Species in 1859 [doc_evolution]."
+}

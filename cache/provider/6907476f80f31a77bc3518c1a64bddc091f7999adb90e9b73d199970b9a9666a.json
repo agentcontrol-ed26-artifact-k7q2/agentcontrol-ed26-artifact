@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015567,
+  "input_tokens": 72,
+  "latency_ms": 1592,
+  "model": "deepseek-reasoner",
+  "output_tokens": 53,
+  "provider": "deepseek",
+  "request_hash": "6907476f80f31a77bc3518c1a64bddc091f7999adb90e9b73d199970b9a9666a",
+  "text": "Total revenue = 10*3 + 5*4 + 20*1 = 30 + 20 + 20 = 70.\n\n70"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.909999999999999e-05,
+  "input_tokens": 169,
+  "latency_ms": 654,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "92039e167acce14669b5f87b20e82775cc1068e190b286aa439705ccf08a5f2e",
+  "text": "The Nile River, primarily flowing through Egypt and Sudan, is generally considered the longest river in the world [doc_nile_river]."
+}

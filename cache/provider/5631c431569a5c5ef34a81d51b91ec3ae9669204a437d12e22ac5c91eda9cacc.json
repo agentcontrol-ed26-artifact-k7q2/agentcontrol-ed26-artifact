@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.4699999999999996e-05,
+  "input_tokens": 111,
+  "latency_ms": 737,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "5631c431569a5c5ef34a81d51b91ec3ae9669204a437d12e22ac5c91eda9cacc",
+  "text": "The information provided does not contain details about the companies the creator of Python worked at. Therefore, I cannot provide an answer based on the given evidence [doc_python_distractor1]."
+}

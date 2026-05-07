@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013288000000000002,
+  "input_tokens": 91,
+  "latency_ms": 2043,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "c8fc1ff0532bd86a52609d44e699302540ff338e623b2be485597c2194ac7c02",
+  "text": "```python\ndef subset_sum(xs, target):\n    if target == 0:\n        return True\n    if not xs or target < 0:\n        return False\n    return subset_sum(xs[1:], target) or subset_sum(xs[1:], target - xs[0])\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020944,
+  "input_tokens": 227,
+  "latency_ms": 368,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "c147e811f252423d41ba563d2031c1ee667c803fcc9ea26aa1e3a6d4642cf021",
+  "text": "HMS Beagle [doc_darwin]"
+}

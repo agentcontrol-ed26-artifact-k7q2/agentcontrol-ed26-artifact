@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.659999999999999e-05,
+  "input_tokens": 104,
+  "latency_ms": 1007,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 118,
+  "provider": "together",
+  "request_hash": "a69837846fa5ace744911710a2b365748d7964a2d6b2b225d879be4066a0f29c",
+  "text": "First, let's compute the value in cents for each type of coin:\n- 3 quarters: \\(3 \\times 25 = 75\\) cents\n- 4 dimes: \\(4 \\times 10 = 40\\) cents\n- 5 nickels: \\(5 \\times 5 = 25\\) cents\n\nNow, let's add these values together to get the total:\n\\[75 + 40 + 25 = 140\\]\n\nSo, the final answer is:\n\\[140\\]"
+}

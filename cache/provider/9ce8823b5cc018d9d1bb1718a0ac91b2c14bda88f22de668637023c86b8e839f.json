@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020108,
+  "input_tokens": 59,
+  "latency_ms": 1615,
+  "model": "deepseek-reasoner",
+  "output_tokens": 77,
+  "provider": "deepseek",
+  "request_hash": "9ce8823b5cc018d9d1bb1718a0ac91b2c14bda88f22de668637023c86b8e839f",
+  "text": "Add the tens (10+20=30) and the ones (5+7=12) separately, then combine."
+}

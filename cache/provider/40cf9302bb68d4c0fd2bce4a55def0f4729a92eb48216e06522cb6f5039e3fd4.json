@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014586000000000002,
+  "input_tokens": 88,
+  "latency_ms": 2017,
+  "model": "deepseek-chat",
+  "output_tokens": 111,
+  "provider": "deepseek",
+  "request_hash": "40cf9302bb68d4c0fd2bce4a55def0f4729a92eb48216e06522cb6f5039e3fd4",
+  "text": "Here\u2019s the Python code to compute the largest year-over-year change as a positive integer:  \n\n```python\ndata = [(2018, 100), (2019, 120), (2020, 80), (2021, 150), (2022, 200)]\n\nmax_change = 0\nfor i in range(1, len(data)):\n    change = abs(data[i][1] - data[i-1][1])\n    if change > max_change:\n        max_change = change\n\nprint(max_change)\n```"
+}

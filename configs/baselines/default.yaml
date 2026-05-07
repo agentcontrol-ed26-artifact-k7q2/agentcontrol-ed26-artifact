@@ -1,0 +1,10 @@
+baselines:
+  - always_cheapest
+  - always_strongest
+  - frugalgpt_cascade
+  - automix_self_verification_cascade
+  - shepherding_hint
+  - heuristic_bdelg
+oracles:
+  - oracle_query_router
+  - oracle_deliberation_graph

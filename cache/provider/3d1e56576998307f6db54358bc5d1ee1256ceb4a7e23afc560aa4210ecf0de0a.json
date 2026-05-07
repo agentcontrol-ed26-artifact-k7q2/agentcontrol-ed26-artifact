@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.4e-05,
+  "input_tokens": 137,
+  "latency_ms": 916,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "3d1e56576998307f6db54358bc5d1ee1256ceb4a7e23afc560aa4210ecf0de0a",
+  "text": "The information provided does not contain details about the husband of the discoverer of radium or his cause of death. Therefore, I cannot provide an answer based on the given evidence [doc_aldrin_bio]."
+}

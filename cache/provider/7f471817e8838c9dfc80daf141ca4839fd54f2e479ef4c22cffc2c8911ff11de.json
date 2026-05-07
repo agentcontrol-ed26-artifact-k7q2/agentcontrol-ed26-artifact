@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 80,
+  "latency_ms": 1151,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "7f471817e8838c9dfc80daf141ca4839fd54f2e479ef4c22cffc2c8911ff11de",
+  "text": "70\n1. Check using proportion: 35/100 = x/200\n2. Check using decimal equivalent: 0.35 * 200"
+}

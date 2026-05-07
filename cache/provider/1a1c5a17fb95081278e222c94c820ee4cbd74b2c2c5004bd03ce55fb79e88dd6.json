@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015048,
+  "input_tokens": 151,
+  "latency_ms": 1664,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "1a1c5a17fb95081278e222c94c820ee4cbd74b2c2c5004bd03ce55fb79e88dd6",
+  "text": "Hint: Look at doc_telephone \nAnswer phrase: Alexander Graham Bell [doc_telephone]"
+}

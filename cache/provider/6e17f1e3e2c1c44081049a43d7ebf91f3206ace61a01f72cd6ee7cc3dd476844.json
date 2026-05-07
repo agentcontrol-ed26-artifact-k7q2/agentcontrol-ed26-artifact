@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033629000000000005,
+  "input_tokens": 50,
+  "latency_ms": 2416,
+  "model": "deepseek-reasoner",
+  "output_tokens": 141,
+  "provider": "deepseek",
+  "request_hash": "6e17f1e3e2c1c44081049a43d7ebf91f3206ace61a01f72cd6ee7cc3dd476844",
+  "text": "```python\ndef factorial(n: int) -> int:\n    \"\"\"Return n! for nonnegative integer n.\"\"\"\n    if n < 0:\n        raise ValueError(\"n must be nonnegative\")\n    result = 1\n    for i in range(2, n + 1):\n        result *= i\n    return result\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015576,
+  "input_tokens": 160,
+  "latency_ms": 1928,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "7901d7ec37c9abb0366c8072886c93fce9f3d93a435eb0651bf1e7e503c8e9c9",
+  "text": "The Amazon River is the second longest river in the world [doc_amazon]"
+}

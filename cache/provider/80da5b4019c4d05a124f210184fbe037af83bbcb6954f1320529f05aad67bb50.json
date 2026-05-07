@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 160,
+  "latency_ms": 1957,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "80da5b4019c4d05a124f210184fbe037af83bbcb6954f1320529f05aad67bb50",
+  "text": "Marie Curie discovered radium [doc_curie]"
+}

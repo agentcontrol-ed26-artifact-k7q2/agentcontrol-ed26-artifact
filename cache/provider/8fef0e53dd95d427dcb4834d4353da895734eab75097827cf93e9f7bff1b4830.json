@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00043883,
+  "input_tokens": 113,
+  "latency_ms": 3438,
+  "model": "deepseek-reasoner",
+  "output_tokens": 172,
+  "provider": "deepseek",
+  "request_hash": "8fef0e53dd95d427dcb4834d4353da895734eab75097827cf93e9f7bff1b4830",
+  "text": "1. Verify that the evidence explicitly identifies Ada Lovelace as \"the first computer programmer\" in connection with the Analytical Engine.\n2. Confirm that no other provided evidence contains an alternative description or contradicts the claim linking Ada Lovelace to that designation."
+}

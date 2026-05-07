@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004535,
+  "input_tokens": 68,
+  "latency_ms": 3749,
+  "model": "deepseek-reasoner",
+  "output_tokens": 190,
+  "provider": "deepseek",
+  "request_hash": "1e55e27710c13da2121def6a8a88ea8d4794e61453c8f175039ef1cbfc1a4071",
+  "text": "The key is to avoid leaving more cannibals than missionaries on either bank; consider using a cannibal to return the boat."
+}

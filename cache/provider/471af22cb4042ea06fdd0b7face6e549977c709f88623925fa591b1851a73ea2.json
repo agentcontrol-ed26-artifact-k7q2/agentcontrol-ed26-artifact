@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00033304,
+  "input_tokens": 64,
+  "latency_ms": 2380,
+  "model": "deepseek-reasoner",
+  "output_tokens": 136,
+  "provider": "deepseek",
+  "request_hash": "471af22cb4042ea06fdd0b7face6e549977c709f88623925fa591b1851a73ea2",
+  "text": "Compute 7^2 mod 13, then square that result."
+}

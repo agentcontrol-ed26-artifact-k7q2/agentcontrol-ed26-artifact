@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001496,
+  "input_tokens": 151,
+  "latency_ms": 1630,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "12a7d3811ed950256871804f3ac50eb4ef3dae33a150d7f54d8d4a74b42e5aff",
+  "text": "Hint: doc_amazon \nAnswer phrase: The second longest river [doc_amazon]"
+}

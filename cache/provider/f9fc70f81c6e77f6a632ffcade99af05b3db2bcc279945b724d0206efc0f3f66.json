@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010912000000000001,
+  "input_tokens": 91,
+  "latency_ms": 1364,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "f9fc70f81c6e77f6a632ffcade99af05b3db2bcc279945b724d0206efc0f3f66",
+  "text": "The typical arithmetic slip is known as the \"order of operations\" mistake, where people forget to follow the correct order of operations, often resulting in incorrect calculations."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005007,
+  "input_tokens": 114,
+  "latency_ms": 3416,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "6aea61bc051ef4b3fe1cd8e628063c518bc0514aab6038b93b50b43fe58c3ddd",
+  "text": "1. Verify that the evidence explicitly identifies the Apollo 11 mission as the"
+}

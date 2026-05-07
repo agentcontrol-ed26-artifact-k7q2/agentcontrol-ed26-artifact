@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002288,
+  "input_tokens": 86,
+  "latency_ms": 1891,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 174,
+  "provider": "together",
+  "request_hash": "30d2c2dfe6b9f9c8207cd369370b34482782d3e342504401ea01e1c33e754f9e",
+  "text": "To solve this problem, you can use dynamic programming to build a 2D table where each cell stores the length of the longest common substring ending at the corresponding positions in the input strings.\n\n```python\ndef longest_common_substring_len(a, b):\n    m, n = len(a), len(b)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    max_len = 0\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if a[i - 1] == b[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n                max_len = max(max_len, dp[i][j])\n    return max_len\n```"
+}

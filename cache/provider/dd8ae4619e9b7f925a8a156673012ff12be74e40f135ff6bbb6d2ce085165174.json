@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.61e-05,
+  "input_tokens": 268,
+  "latency_ms": 540,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "dd8ae4619e9b7f925a8a156673012ff12be74e40f135ff6bbb6d2ce085165174",
+  "text": "Python 3.0 was released in 2008 [doc_python_versions]."
+}

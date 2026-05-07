@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024639999999999997,
+  "input_tokens": 256,
+  "latency_ms": 1263,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "149417963933b151fcb3d1e036197c19ac8b898b8bbc4df0cd61da91672c7c33",
+  "text": "Answer: Ohio [doc_armstrong]\nThe most common citation mistake is including multiple citations when only one is required."
+}

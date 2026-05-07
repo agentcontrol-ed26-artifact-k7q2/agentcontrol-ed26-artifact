@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.809999999999999e-05,
+  "input_tokens": 216,
+  "latency_ms": 318,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "0c752bedeb8bc49f38fa0012619fcd668ae23522fbb31f6679c0aab180d4e4da",
+  "text": "Rosalind Franklin [doc_franklin]"
+}

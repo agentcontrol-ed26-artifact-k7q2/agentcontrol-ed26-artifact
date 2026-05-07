@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.6099999999999995e-05,
+  "input_tokens": 72,
+  "latency_ms": 1170,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 115,
+  "provider": "together",
+  "request_hash": "07f3f4c4a5aa77d751278dae20af86b23d20ff9ebd15b2cbda3f991ae4289d1d",
+  "text": "Given the equation \\(3x + 5 = 20\\), we start by isolating the term with \\(x\\).\n\nFirst, subtract 5 from both sides of the equation:\n\\[3x + 5 - 5 = 20 - 5\\]\n\\[3x = 15\\]\n\nNext, divide both sides by 3 to solve for \\(x\\):\n\\[x = \\frac{15}{3}\\]\n\\[x = 5\\]\n\nSo, the final answer is:\n\\[x = 5\\]"
+}

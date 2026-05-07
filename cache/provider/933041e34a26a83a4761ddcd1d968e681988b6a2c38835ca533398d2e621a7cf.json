@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005012500000000001,
+  "input_tokens": 115,
+  "latency_ms": 3434,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "933041e34a26a83a4761ddcd1d968e681988b6a2c38835ca533398d2e621a7cf",
+  "text": "1. Verify that the evidence doc_wright is from a credible historical source (e.g., check author, publication date, and cross-reference with authoritative databases like the Smithsonian or Library of Congress).\n2. Confirm that the specific location \"Kitty Hawk, North Carolina\" appears in multiple independent reliable records or official"
+}

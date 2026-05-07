@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012056,
+  "input_tokens": 93,
+  "latency_ms": 1118,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "626cd9bb91a5ddbd90d91a05bf996ee540e0f173ded304027533c8234303ad75",
+  "text": "To solve this, recall that n! (n factorial) means the product of all whole numbers from n down to 1, and consider simplifying the fraction by canceling out common factors in the factorials."
+}

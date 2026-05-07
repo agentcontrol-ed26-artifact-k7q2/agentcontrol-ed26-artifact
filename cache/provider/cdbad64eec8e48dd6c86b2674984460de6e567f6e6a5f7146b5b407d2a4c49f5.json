@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792000000000001,
+  "input_tokens": 86,
+  "latency_ms": 6510,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 48,
+  "provider": "together",
+  "request_hash": "cdbad64eec8e48dd6c86b2674984460de6e567f6e6a5f7146b5b407d2a4c49f5",
+  "text": "1. Redo the calculation: 100 - 37 = \n2. Estimate the answer by rounding numbers: 100 - 40 = 60, so the answer should be close to 60 but a little higher\n\n63"
+}

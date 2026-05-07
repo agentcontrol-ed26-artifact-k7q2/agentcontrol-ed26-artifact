@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010648,
+  "input_tokens": 97,
+  "latency_ms": 505,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "6af480fa605282842380b8d74b03db2f6c632f5c3e07bc59800d972978dde933",
+  "text": "To find the total cents, first calculate the value of each type of coin in cents and then add them together."
+}

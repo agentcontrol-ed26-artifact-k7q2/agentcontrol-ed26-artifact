@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.867e-05,
+  "input_tokens": 61,
+  "latency_ms": 1412,
+  "model": "deepseek-chat",
+  "output_tokens": 2,
+  "provider": "deepseek",
+  "request_hash": "6756134bb6e78aa3f8dbbe833127888ee3b52c794893663d74b969f470a1e0c0",
+  "text": "United Kingdom"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022844000000000003,
+  "input_tokens": 72,
+  "latency_ms": 3053,
+  "model": "deepseek-chat",
+  "output_tokens": 190,
+  "provider": "deepseek",
+  "request_hash": "5257319293612f5fb37d78f847257884188f19944cdf7b29a81fce533e385739",
+  "text": "```python\ndef topological_sort(n, edges):\n    from collections import deque\n    \n    # Build adjacency list and indegree array\n    adj = [[] for _ in range(n)]\n    indegree = [0] * n\n    for u, v in edges:\n        adj[u].append(v)\n        indegree[v] += 1\n    \n    # Initialize queue with nodes having indegree 0\n    q = deque([i for i in range(n) if indegree[i] == 0])\n    result = []\n    \n    while q:\n        node = q.popleft()\n        result.append(node)\n        for neighbor in adj[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                q.append(neighbor)\n    \n    # If result contains all nodes, return it; otherwise cycle exists\n    return result if len(result) == n else []\n```"
+}

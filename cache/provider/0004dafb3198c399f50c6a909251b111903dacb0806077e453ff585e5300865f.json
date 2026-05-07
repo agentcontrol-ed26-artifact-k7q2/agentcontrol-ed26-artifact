@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.11e-05,
+  "input_tokens": 84,
+  "latency_ms": 1458,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 153,
+  "provider": "together",
+  "request_hash": "0004dafb3198c399f50c6a909251b111903dacb0806077e453ff585e5300865f",
+  "text": "```python\nfrom collections import deque\n\ndef word_ladder_len(begin, end, words):\n    if end not in words:\n        return 0\n    \n    words = set(words)\n    queue = deque([(begin, 1)])\n    visited = set([begin])\n    \n    while queue:\n        current_word, length = queue.popleft()\n        if current_word == end:\n            return length\n        \n        for i in range(len(current_word)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                next_word = current_word[:i] + c + current_word[i+1:]\n                if next_word in words and next_word not in visited:\n                    visited.add(next_word)\n                    queue.append((next_word, length + 1))\n    \n    return 0\n```"
+}

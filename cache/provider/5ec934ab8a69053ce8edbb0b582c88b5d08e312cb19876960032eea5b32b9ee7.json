@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026576000000000003,
+  "input_tokens": 102,
+  "latency_ms": 1476,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "5ec934ab8a69053ce8edbb0b582c88b5d08e312cb19876960032eea5b32b9ee7",
+  "text": "The most common bug to avoid in implementing Dijkstra's algorithm is not properly handling the priority queue, specifically not updating the distances of nodes that have already been visited when a shorter path is found. \n\n```python\nimport sys\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    graph = [[] for _ in range(n)]\n    for u, v, w in edges:\n        graph[u].append((v, w))\n        graph[v].append((u, w))  # comment this line for directed graph\n\n    distances = [sys.maxsize] * n\n    distances[src] = 0\n    pq = [(0, src)]\n\n    while pq:\n        curr_dist, curr_node = heapq.heappop(pq)\n\n        if curr_dist > distances[curr_node]:\n            continue\n\n        for neighbor, weight in graph[curr_node]:\n            distance = curr_dist + weight\n\n            if distance < distances[neighbor]:\n                distances[neighbor] ="
+}

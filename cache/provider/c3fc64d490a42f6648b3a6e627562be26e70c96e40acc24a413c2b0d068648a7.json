@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016807999999999998,
+  "input_tokens": 150,
+  "latency_ms": 714,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "c3fc64d490a42f6648b3a6e627562be26e70c96e40acc24a413c2b0d068648a7",
+  "text": "Answer: Edmund Hillary and Tenzing Norgay [doc_everest]. \nThe most common citation mistake is failing to include the correct citation or including multiple citations when only one is required."
+}

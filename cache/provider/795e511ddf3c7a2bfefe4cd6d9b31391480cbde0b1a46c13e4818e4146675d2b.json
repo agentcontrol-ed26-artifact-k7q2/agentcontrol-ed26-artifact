@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031989999999999997,
+  "input_tokens": 64,
+  "latency_ms": 2363,
+  "model": "deepseek-reasoner",
+  "output_tokens": 130,
+  "provider": "deepseek",
+  "request_hash": "795e511ddf3c7a2bfefe4cd6d9b31391480cbde0b1a46c13e4818e4146675d2b",
+  "text": "```python\ndef matrix_transpose(m):\n    return [[m[j][i] for j in range(len(m))] for i in range(len(m[0]))]\n```"
+}

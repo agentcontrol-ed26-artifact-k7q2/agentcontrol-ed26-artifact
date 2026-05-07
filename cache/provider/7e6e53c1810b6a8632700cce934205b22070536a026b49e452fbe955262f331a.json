@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.0299999999999998e-05,
+  "input_tokens": 60,
+  "latency_ms": 500,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 41,
+  "provider": "together",
+  "request_hash": "7e6e53c1810b6a8632700cce934205b22070536a026b49e452fbe955262f331a",
+  "text": "```python\ndef find_duplicates(xs):\n    from collections import Counter\n    counts = Counter(xs)\n    return sorted([x for x, count in counts.items() if count > 1])\n```"
+}

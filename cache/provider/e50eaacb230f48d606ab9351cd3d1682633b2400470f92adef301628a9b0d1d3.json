@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.054e-05,
+  "input_tokens": 52,
+  "latency_ms": 1063,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "e50eaacb230f48d606ab9351cd3d1682633b2400470f92adef301628a9b0d1d3",
+  "text": "```python\ndef count_words(s):\n    return len(s.split())\n```"
+}

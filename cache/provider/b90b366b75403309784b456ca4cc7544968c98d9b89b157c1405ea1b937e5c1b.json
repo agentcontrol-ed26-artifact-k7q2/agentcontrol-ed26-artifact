@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023144,
+  "input_tokens": 106,
+  "latency_ms": 6116,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 157,
+  "provider": "together",
+  "request_hash": "b90b366b75403309784b456ca4cc7544968c98d9b89b157c1405ea1b937e5c1b",
+  "text": "The most common bug to avoid when implementing an LRU cache is incorrectly updating the order of elements when accessing or modifying existing keys, leading to incorrect eviction of elements. \n\n```python\nfrom collections import OrderedDict\n\nclass LRUCache:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.cache = OrderedDict()\n\n    def get(self, key):\n        if key in self.cache:\n            value = self.cache.pop(key)\n            self.cache[key] = value\n            return value\n        return -1\n\n    def put(self, key, value):\n        if key in self.cache:\n            self.cache.pop(key)\n        elif len(self.cache) == self.capacity:\n            self.cache.popitem(last=False)\n        self.cache[key] = value\n```"
+}

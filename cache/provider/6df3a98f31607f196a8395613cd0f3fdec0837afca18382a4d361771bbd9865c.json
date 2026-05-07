@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.43e-05,
+  "input_tokens": 126,
+  "latency_ms": 940,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 55,
+  "provider": "together",
+  "request_hash": "6df3a98f31607f196a8395613cd0f3fdec0837afca18382a4d361771bbd9865c",
+  "text": "There is no information provided about the husband of the chemist who discovered polonium in the given evidence. The evidence only mentions Marie Curie's discoveries and Nobel Prizes but does not provide details about her marital status or her husband. [doc_curie_marie]"
+}

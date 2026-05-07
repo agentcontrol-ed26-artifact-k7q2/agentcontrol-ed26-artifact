@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015312,
+  "input_tokens": 124,
+  "latency_ms": 2722,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "be9500c7a25c301e5ec36051046dc1a8be96f0d5b58e53ff6a7bc91adf8c840b",
+  "text": "Verification Check 1: Review the document to confirm the individual's name associated with the Analytical Engine.\nVerification Check 2: Verify the document's description of the individual's role in relation to the Analytical Engine [doc_lovelace]"
+}

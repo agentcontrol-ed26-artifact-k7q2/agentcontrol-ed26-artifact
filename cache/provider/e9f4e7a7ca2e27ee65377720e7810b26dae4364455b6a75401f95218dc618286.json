@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019634,
+  "input_tokens": 134,
+  "latency_ms": 1935,
+  "model": "deepseek-reasoner",
+  "output_tokens": 56,
+  "provider": "deepseek",
+  "request_hash": "e9f4e7a7ca2e27ee65377720e7810b26dae4364455b6a75401f95218dc618286",
+  "text": "Hint: Refer to doc_amazon for the answer."
+}

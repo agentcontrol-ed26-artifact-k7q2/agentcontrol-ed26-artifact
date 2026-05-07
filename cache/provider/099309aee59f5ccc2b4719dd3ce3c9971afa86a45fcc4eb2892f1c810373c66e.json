@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010559999999999999,
+  "input_tokens": 280,
+  "latency_ms": 971,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 72,
+  "provider": "together",
+  "request_hash": "099309aee59f5ccc2b4719dd3ce3c9971afa86a45fcc4eb2892f1c810373c66e",
+  "text": "The evidence provided does not specify the exact location from which Edmund Hillary climbed Mount Everest. However, it does mention that he summited Everest in 1953 with Tenzing Norgay [doc_everest]. Given the information available, we cannot determine the starting point of their climb from the given documents. [doc_everest]"
+}

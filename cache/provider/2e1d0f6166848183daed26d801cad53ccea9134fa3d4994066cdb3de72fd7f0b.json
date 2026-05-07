@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 92,
+  "latency_ms": 819,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "2e1d0f6166848183daed26d801cad53ccea9134fa3d4994066cdb3de72fd7f0b",
+  "text": "10 \nVerification checks: Substitute 10 into the original equation, Use a different method to solve the equation"
+}

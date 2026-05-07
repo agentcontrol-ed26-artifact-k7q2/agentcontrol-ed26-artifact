@@ -1,0 +1,6122 @@
+{
+  "ag_001": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 776,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8690000000000002e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1011,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 7.548e-05,
+      "real_input_tokens": 194,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1011,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.718e-05,
+      "real_input_tokens": 274,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_marie",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1136,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.440000000000001e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1386,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00012242,
+      "real_input_tokens": 266,
+      "real_output_tokens": 46,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1612,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029743,
+      "real_input_tokens": 274,
+      "real_output_tokens": 67,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_marie",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 13195,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0023888599999999996,
+      "real_input_tokens": 266,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    }
+  },
+  "ag_002": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 857,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8690000000000002e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 900,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.398000000000001e-05,
+      "real_input_tokens": 114,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_curie_marie"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1034,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.528999999999999e-05,
+      "real_input_tokens": 267,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1014,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.799e-05,
+      "real_input_tokens": 277,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_curie_irene",
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1282,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.531e-05,
+      "real_input_tokens": 193,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 4865,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00085753,
+      "real_input_tokens": 277,
+      "real_output_tokens": 322,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_curie_irene",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 6216,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00111483,
+      "real_input_tokens": 267,
+      "real_output_tokens": 442,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage"
+      ]
+    }
+  },
+  "ag_003": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 870,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.2240000000000004e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 5,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1047,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 6.785e-05,
+      "real_input_tokens": 125,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1094,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00010783,
+      "real_input_tokens": 269,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1381,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00010161,
+      "real_input_tokens": 193,
+      "real_output_tokens": 45,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1284,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00010621,
+      "real_input_tokens": 263,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 13957,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0023905099999999998,
+      "real_input_tokens": 269,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_irene"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 14137,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00238721,
+      "real_input_tokens": 263,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    }
+  },
+  "ag_004": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 739,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.3090000000000004e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 7,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1018,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 6.1000000000000005e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1226,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.476000000000001e-05,
+      "real_input_tokens": 188,
+      "real_output_tokens": 40,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 956,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.888e-05,
+      "real_input_tokens": 264,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1207,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.826e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2171,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039486,
+      "real_input_tokens": 264,
+      "real_output_tokens": 114,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_curie_irene"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 12388,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00225963,
+      "real_input_tokens": 258,
+      "real_output_tokens": 967,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    }
+  },
+  "ag_005": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 694,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.703e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 1,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 833,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.987e-05,
+      "real_input_tokens": 111,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 822,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.282e-05,
+      "real_input_tokens": 196,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 776,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.198999999999999e-05,
+      "real_input_tokens": 267,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth",
+        "doc_everest"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1128,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.226e-05,
+      "real_input_tokens": 268,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1754,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033957,
+      "real_input_tokens": 267,
+      "real_output_tokens": 88,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth",
+        "doc_everest"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1708,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031822,
+      "real_input_tokens": 268,
+      "real_output_tokens": 78,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_apollo_mission"
+      ]
+    }
+  },
+  "ag_006": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 865,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.813e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 865,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.097e-05,
+      "real_input_tokens": 111,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1087,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.482e-05,
+      "real_input_tokens": 196,
+      "real_output_tokens": 29,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 914,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.968999999999999e-05,
+      "real_input_tokens": 267,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth",
+        "doc_everest"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1529,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.336e-05,
+      "real_input_tokens": 268,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1649,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030672,
+      "real_input_tokens": 267,
+      "real_output_tokens": 73,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth",
+        "doc_everest"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2064,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032917,
+      "real_input_tokens": 268,
+      "real_output_tokens": 83,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_apollo_mission"
+      ]
+    }
+  },
+  "ag_007": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 784,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.842e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 855,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.259e-05,
+      "real_input_tokens": 187,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 862,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.771e-05,
+      "real_input_tokens": 243,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1189,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.5230000000000005e-05,
+      "real_input_tokens": 119,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1282,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.276e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2013,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034608,
+      "real_input_tokens": 243,
+      "real_output_tokens": 97,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2052,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033462,
+      "real_input_tokens": 258,
+      "real_output_tokens": 88,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_amazon_river"
+      ]
+    }
+  },
+  "ag_008": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 785,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.2550000000000003e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 7,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1020,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.2570000000000007e-05,
+      "real_input_tokens": 101,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 977,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.577000000000001e-05,
+      "real_input_tokens": 261,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1278,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.104000000000001e-05,
+      "real_input_tokens": 182,
+      "real_output_tokens": 29,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 902,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.934000000000001e-05,
+      "real_input_tokens": 282,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2024,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034503,
+      "real_input_tokens": 261,
+      "real_output_tokens": 92,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 4046,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0007026000000000001,
+      "real_input_tokens": 282,
+      "real_output_tokens": 250,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie"
+      ]
+    }
+  },
+  "ag_009": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 807,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.7590000000000003e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 899,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.1160000000000005e-05,
+      "real_input_tokens": 108,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 958,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.682e-05,
+      "real_input_tokens": 166,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_ww2_pearl"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1035,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.410000000000001e-05,
+      "real_input_tokens": 230,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_relativity"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1075,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.815000000000001e-05,
+      "real_input_tokens": 245,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_relativity"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1684,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029951,
+      "real_input_tokens": 230,
+      "real_output_tokens": 79,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_relativity"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 4876,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00087059,
+      "real_input_tokens": 245,
+      "real_output_tokens": 336,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_relativity"
+      ]
+    }
+  },
+  "ag_010": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 770,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.7590000000000003e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 958,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.55e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1100,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 7.386e-05,
+      "real_input_tokens": 188,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1042,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.988000000000001e-05,
+      "real_input_tokens": 264,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_dna_double_helix"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1537,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.826e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 11148,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00192456,
+      "real_input_tokens": 258,
+      "real_output_tokens": 814,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_wright_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 13655,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.002379,
+      "real_input_tokens": 264,
+      "real_output_tokens": 1020,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_dna_double_helix"
+      ]
+    }
+  },
+  "ag_011": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 973,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.118e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 6,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 887,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.618e-05,
+      "real_input_tokens": 184,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_python_distractor1",
+        "doc_python_origin",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1115,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.67e-05,
+      "real_input_tokens": 100,
+      "real_output_tokens": 27,
+      "retrieved_ids": [
+        "doc_python_distractor1"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1119,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.697e-05,
+      "real_input_tokens": 241,
+      "real_output_tokens": 29,
+      "retrieved_ids": [
+        "doc_python_distractor1",
+        "doc_python_origin",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1339,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.427e-05,
+      "real_input_tokens": 251,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_python_distractor1",
+        "doc_python_origin",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_python_creator"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1755,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0003187,
+      "real_input_tokens": 241,
+      "real_output_tokens": 85,
+      "retrieved_ids": [
+        "doc_python_distractor1",
+        "doc_python_origin",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1953,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031325,
+      "real_input_tokens": 251,
+      "real_output_tokens": 80,
+      "retrieved_ids": [
+        "doc_python_distractor1",
+        "doc_python_origin",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_python_creator"
+      ]
+    }
+  },
+  "ag_012": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 661,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.029e-05,
+      "real_input_tokens": 67,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 989,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.448e-05,
+      "real_input_tokens": 104,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_python_creator"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1052,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.477e-05,
+      "real_input_tokens": 171,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_origin",
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1291,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.514000000000001e-05,
+      "real_input_tokens": 242,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_origin",
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_python_versions"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1244,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00011113,
+      "real_input_tokens": 269,
+      "real_output_tokens": 35,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_origin",
+        "doc_einstein_nobel",
+        "doc_curie_pierre",
+        "doc_franklin_death"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2256,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.000374,
+      "real_input_tokens": 242,
+      "real_output_tokens": 110,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_origin",
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_python_versions"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 9735,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0017860699999999998,
+      "real_input_tokens": 269,
+      "real_output_tokens": 748,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_origin",
+        "doc_einstein_nobel",
+        "doc_curie_pierre",
+        "doc_franklin_death"
+      ]
+    }
+  },
+  "ag_013": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 839,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.0870000000000002e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1242,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.295000000000001e-05,
+      "real_input_tokens": 115,
+      "real_output_tokens": 29,
+      "retrieved_ids": [
+        "doc_dna_double_helix"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 979,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.936e-05,
+      "real_input_tokens": 188,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 816,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.745000000000001e-05,
+      "real_input_tokens": 275,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_einstein_nobel",
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1042,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.448e-05,
+      "real_input_tokens": 244,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_einstein_nobel"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2619,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005126,
+      "real_input_tokens": 275,
+      "real_output_tokens": 165,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_einstein_nobel",
+        "doc_curie_irene"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2847,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00050869,
+      "real_input_tokens": 244,
+      "real_output_tokens": 171,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_einstein_nobel"
+      ]
+    }
+  },
+  "ag_014": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 906,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.1430000000000003e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 5,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1014,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.068000000000001e-05,
+      "real_input_tokens": 114,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_franklin_death"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 998,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.580000000000001e-05,
+      "real_input_tokens": 170,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 934,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.983e-05,
+      "real_input_tokens": 259,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 821,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.145e-05,
+      "real_input_tokens": 265,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_curie_irene"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1676,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034612,
+      "real_input_tokens": 259,
+      "real_output_tokens": 93,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1579,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031219000000000006,
+      "real_input_tokens": 265,
+      "real_output_tokens": 76,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_curie_irene"
+      ]
+    }
+  },
+  "ag_015": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 807,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.894e-05,
+      "real_input_tokens": 62,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1016,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.029e-05,
+      "real_input_tokens": 117,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_franklin_death"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1008,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.963000000000001e-05,
+      "real_input_tokens": 189,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_dna_double_helix",
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1010,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.416999999999999e-05,
+      "real_input_tokens": 271,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_dna_double_helix",
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 929,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.741e-05,
+      "real_input_tokens": 283,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_dna_double_helix",
+        "doc_einstein_nobel",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1866,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0003571,
+      "real_input_tokens": 271,
+      "real_output_tokens": 95,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_dna_double_helix",
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2025,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039655,
+      "real_input_tokens": 283,
+      "real_output_tokens": 110,
+      "retrieved_ids": [
+        "doc_franklin_death",
+        "doc_dna_double_helix",
+        "doc_einstein_nobel",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_016": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 723,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.1949999999999998e-05,
+      "real_input_tokens": 65,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1054,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.952000000000001e-05,
+      "real_input_tokens": 106,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_darwin_origin"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1175,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010683,
+      "real_input_tokens": 249,
+      "real_output_tokens": 36,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1346,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.550000000000002e-05,
+      "real_input_tokens": 170,
+      "real_output_tokens": 36,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_dna_distractor",
+        "doc_dna_double_helix"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1523,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010926,
+      "real_input_tokens": 258,
+      "real_output_tokens": 36,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 7470,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00123852,
+      "real_input_tokens": 249,
+      "real_output_tokens": 503,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 7646,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0013464,
+      "real_input_tokens": 258,
+      "real_output_tokens": 550,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_dna_distractor",
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray"
+      ]
+    }
+  },
+  "ag_017": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1070,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6490000000000003e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 1,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1240,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.9900000000000006e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 25,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1225,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.748000000000001e-05,
+      "real_input_tokens": 194,
+      "real_output_tokens": 41,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1161,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010046,
+      "real_input_tokens": 258,
+      "real_output_tokens": 28,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_darwin_origin",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1676,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00013012,
+      "real_input_tokens": 266,
+      "real_output_tokens": 53,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 7686,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00122159,
+      "real_input_tokens": 266,
+      "real_output_tokens": 491,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 12056,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0019596,
+      "real_input_tokens": 258,
+      "real_output_tokens": 830,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_darwin_origin",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_018": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1004,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.6390000000000003e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 10,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1080,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.8800000000000006e-05,
+      "real_input_tokens": 120,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1511,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.775000000000002e-05,
+      "real_input_tokens": 195,
+      "real_output_tokens": 41,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1196,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.66e-05,
+      "real_input_tokens": 260,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_python_origin",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1203,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00010179,
+      "real_input_tokens": 267,
+      "real_output_tokens": 27,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_apollo_mission",
+        "doc_einstein_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 4814,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00084765,
+      "real_input_tokens": 267,
+      "real_output_tokens": 320,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_apollo_mission",
+        "doc_einstein_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 14155,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0023855599999999997,
+      "real_input_tokens": 260,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_python_origin",
+        "doc_amazon_distractor"
+      ]
+    }
+  },
+  "ag_019": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 659,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.813e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1075,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.4930000000000005e-05,
+      "real_input_tokens": 89,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_telephone"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 980,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.176e-05,
+      "real_input_tokens": 168,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1194,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.634e-05,
+      "real_input_tokens": 222,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 877,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.497e-05,
+      "real_input_tokens": 241,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_bell_origin"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2948,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00047419,
+      "real_input_tokens": 241,
+      "real_output_tokens": 156,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_bell_origin"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 7289,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00119958,
+      "real_input_tokens": 222,
+      "real_output_tokens": 492,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    }
+  },
+  "ag_020": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 798,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.788e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1040,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 4.545000000000001e-05,
+      "real_input_tokens": 95,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 853,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.192e-05,
+      "real_input_tokens": 156,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_war_dates"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 974,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.325e-05,
+      "real_input_tokens": 235,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 988,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.406000000000002e-05,
+      "real_input_tokens": 238,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_war_dates",
+        "doc_amazon_distractor",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1905,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030882999999999996,
+      "real_input_tokens": 235,
+      "real_output_tokens": 82,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1723,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028858,
+      "real_input_tokens": 238,
+      "real_output_tokens": 72,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_war_dates",
+        "doc_amazon_distractor",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_021": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 718,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.923e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 932,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.9000000000000005e-05,
+      "real_input_tokens": 100,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_nile_river"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 933,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.3660000000000005e-05,
+      "real_input_tokens": 158,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_nile_river",
+        "doc_amazon_river",
+        "doc_curie_distractor1"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 913,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.702e-05,
+      "real_input_tokens": 216,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_nile_river",
+        "doc_amazon_river",
+        "doc_curie_distractor1",
+        "doc_dna_distractor",
+        "doc_war_dates"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1282,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.085000000000001e-05,
+      "real_input_tokens": 255,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_nile_river",
+        "doc_amazon_river",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1933,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028743,
+      "real_input_tokens": 216,
+      "real_output_tokens": 77,
+      "retrieved_ids": [
+        "doc_nile_river",
+        "doc_amazon_river",
+        "doc_curie_distractor1",
+        "doc_dna_distractor",
+        "doc_war_dates"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2119,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030888,
+      "real_input_tokens": 255,
+      "real_output_tokens": 77,
+      "retrieved_ids": [
+        "doc_nile_river",
+        "doc_amazon_river",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    }
+  },
+  "ag_022": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 896,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.732e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1019,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.8190000000000004e-05,
+      "real_input_tokens": 97,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1238,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.871000000000001e-05,
+      "real_input_tokens": 173,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 963,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.089e-05,
+      "real_input_tokens": 247,
+      "real_output_tokens": 22,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1208,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.174000000000001e-05,
+      "real_input_tokens": 242,
+      "real_output_tokens": 24,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_curie_distractor1",
+        "doc_curie_distractor2"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1762,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0003439,
+      "real_input_tokens": 247,
+      "real_output_tokens": 95,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2099,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031706,
+      "real_input_tokens": 242,
+      "real_output_tokens": 84,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_curie_distractor1",
+        "doc_curie_distractor2"
+      ]
+    }
+  },
+  "ag_023": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 744,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.705e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 988,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.419000000000001e-05,
+      "real_input_tokens": 107,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1139,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.650000000000002e-05,
+      "real_input_tokens": 190,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_everest"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 983,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.583e-05,
+      "real_input_tokens": 269,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1228,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00010621,
+      "real_input_tokens": 263,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_everest",
+        "doc_babbage",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1773,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033848,
+      "real_input_tokens": 269,
+      "real_output_tokens": 87,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 8431,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00139514,
+      "real_input_tokens": 263,
+      "real_output_tokens": 571,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_everest",
+        "doc_babbage",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_024": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 959,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.9790000000000005e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1051,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 5.3630000000000007e-05,
+      "real_input_tokens": 109,
+      "real_output_tokens": 22,
+      "retrieved_ids": [
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1147,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.934000000000001e-05,
+      "real_input_tokens": 192,
+      "real_output_tokens": 25,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1130,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.685000000000001e-05,
+      "real_input_tokens": 265,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1372,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.306999999999999e-05,
+      "real_input_tokens": 271,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_hillary_bio",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 3536,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00057829,
+      "real_input_tokens": 271,
+      "real_output_tokens": 196,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_hillary_bio",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 6814,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00124294,
+      "real_input_tokens": 265,
+      "real_output_tokens": 501,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_025": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 777,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.923e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 868,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.7170000000000005e-05,
+      "real_input_tokens": 101,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_lovelace"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 981,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.066e-05,
+      "real_input_tokens": 168,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_babbage",
+        "doc_curie_distractor1"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 933,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.469000000000002e-05,
+      "real_input_tokens": 257,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_babbage",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 855,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.035e-05,
+      "real_input_tokens": 265,
+      "real_output_tokens": 8,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_babbage",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2261,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039979,
+      "real_input_tokens": 265,
+      "real_output_tokens": 116,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_babbage",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 3114,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00057278,
+      "real_input_tokens": 257,
+      "real_output_tokens": 197,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_babbage",
+        "doc_curie_distractor1",
+        "doc_curie_irene",
+        "doc_aldrin_bio"
+      ]
+    }
+  },
+  "ag_026": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 852,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.595e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 1,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 833,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.495e-05,
+      "real_input_tokens": 105,
+      "real_output_tokens": 6,
+      "retrieved_ids": [
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 796,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.844e-05,
+      "real_input_tokens": 192,
+      "real_output_tokens": 6,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 949,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.599000000000001e-05,
+      "real_input_tokens": 257,
+      "real_output_tokens": 6,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_lovelace"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1037,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.888e-05,
+      "real_input_tokens": 264,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1678,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026837,
+      "real_input_tokens": 257,
+      "real_output_tokens": 58,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_einstein_birth",
+        "doc_lovelace"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1435,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025251,
+      "real_input_tokens": 264,
+      "real_output_tokens": 49,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_lovelace"
+      ]
+    }
+  },
+  "ag_027": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 787,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.624e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 829,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.593e-05,
+      "real_input_tokens": 179,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1038,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.5140000000000005e-05,
+      "real_input_tokens": 102,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 852,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.429e-05,
+      "real_input_tokens": 247,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 918,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.917000000000002e-05,
+      "real_input_tokens": 261,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1930,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032094000000000003,
+      "real_input_tokens": 261,
+      "real_output_tokens": 81,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2313,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00038551000000000004,
+      "real_input_tokens": 247,
+      "real_output_tokens": 114,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_armstrong_bio"
+      ]
+    }
+  },
+  "ag_028": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 751,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.1700000000000002e-05,
+      "real_input_tokens": 60,
+      "real_output_tokens": 5,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1001,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.228e-05,
+      "real_input_tokens": 104,
+      "real_output_tokens": 22,
+      "retrieved_ids": [
+        "doc_ww2_pearl"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1193,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.973e-05,
+      "real_input_tokens": 169,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_ww2_pearl",
+        "doc_einstein_birth",
+        "doc_einstein_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1089,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.620000000000001e-05,
+      "real_input_tokens": 230,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_ww2_pearl",
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_war_dates",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1099,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001016,
+      "real_input_tokens": 250,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_ww2_pearl",
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_war_dates",
+        "doc_einstein_nobel"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2184,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00035426,
+      "real_input_tokens": 230,
+      "real_output_tokens": 104,
+      "retrieved_ids": [
+        "doc_ww2_pearl",
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_war_dates",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2182,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0003346,
+      "real_input_tokens": 250,
+      "real_output_tokens": 90,
+      "retrieved_ids": [
+        "doc_ww2_pearl",
+        "doc_einstein_birth",
+        "doc_einstein_distractor",
+        "doc_war_dates",
+        "doc_einstein_nobel"
+      ]
+    }
+  },
+  "ag_029": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 873,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.0890000000000005e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 5,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 952,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.694000000000001e-05,
+      "real_input_tokens": 162,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 963,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.746000000000001e-05,
+      "real_input_tokens": 238,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1301,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.155000000000001e-05,
+      "real_input_tokens": 105,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_war_dates"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1172,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.827e-05,
+      "real_input_tokens": 241,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_einstein_birth",
+        "doc_nile_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1988,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034936,
+      "real_input_tokens": 241,
+      "real_output_tokens": 99,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_einstein_birth",
+        "doc_nile_river"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2361,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034333,
+      "real_input_tokens": 238,
+      "real_output_tokens": 97,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio"
+      ]
+    }
+  },
+  "ag_030": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1076,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.788e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1188,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.981000000000001e-05,
+      "real_input_tokens": 173,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_armstrong_bio",
+        "doc_everest"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1422,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.1570000000000003e-05,
+      "real_input_tokens": 101,
+      "real_output_tokens": 13,
+      "retrieved_ids": [
+        "doc_wright_flight"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1107,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.114e-05,
+      "real_input_tokens": 252,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1233,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.276e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_wright_origin"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1816,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031599000000000004,
+      "real_input_tokens": 252,
+      "real_output_tokens": 81,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1735,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032586,
+      "real_input_tokens": 258,
+      "real_output_tokens": 84,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_armstrong_bio",
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_wright_origin"
+      ]
+    }
+  },
+  "ag_031": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 928,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.5700000000000002e-05,
+      "real_input_tokens": 50,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1100,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.4640000000000006e-05,
+      "real_input_tokens": 92,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_quantum"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1099,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.190000000000001e-05,
+      "real_input_tokens": 230,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1410,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.651000000000001e-05,
+      "real_input_tokens": 173,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1064,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.838e-05,
+      "real_input_tokens": 254,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1646,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025790000000000003,
+      "real_input_tokens": 230,
+      "real_output_tokens": 60,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1623,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027986,
+      "real_input_tokens": 254,
+      "real_output_tokens": 64,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_einstein_birth"
+      ]
+    }
+  },
+  "ag_032": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 999,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.815e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1066,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.223e-05,
+      "real_input_tokens": 149,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_planck_nobel",
+        "doc_einstein_relativity"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1265,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.8190000000000004e-05,
+      "real_input_tokens": 97,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_planck_quantum"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1099,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.356000000000002e-05,
+      "real_input_tokens": 228,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_planck_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1299,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.626000000000002e-05,
+      "real_input_tokens": 238,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_planck_nobel",
+        "doc_einstein_relativity",
+        "doc_einstein_nobel",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1809,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030060000000000004,
+      "real_input_tokens": 228,
+      "real_output_tokens": 80,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_planck_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1774,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031486000000000003,
+      "real_input_tokens": 238,
+      "real_output_tokens": 84,
+      "retrieved_ids": [
+        "doc_planck_quantum",
+        "doc_planck_nobel",
+        "doc_einstein_relativity",
+        "doc_einstein_nobel",
+        "doc_curie_pierre"
+      ]
+    }
+  },
+  "ag_033": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 918,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.732e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1031,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.410000000000001e-05,
+      "real_input_tokens": 90,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1156,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.624e-05,
+      "real_input_tokens": 172,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1042,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.595000000000002e-05,
+      "real_input_tokens": 245,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_franklin_death"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1102,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.054000000000002e-05,
+      "real_input_tokens": 262,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_planck_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie",
+        "doc_einstein_nobel"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1732,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028586,
+      "real_input_tokens": 245,
+      "real_output_tokens": 69,
+      "retrieved_ids": [
+        "doc_planck_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_franklin_death"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1722,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031492,
+      "real_input_tokens": 262,
+      "real_output_tokens": 78,
+      "retrieved_ids": [
+        "doc_planck_nobel",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie",
+        "doc_einstein_nobel"
+      ]
+    }
+  },
+  "ag_034": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 823,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.597e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 999,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.7340000000000004e-05,
+      "real_input_tokens": 102,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 978,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.083000000000001e-05,
+      "real_input_tokens": 189,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1090,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.838e-05,
+      "real_input_tokens": 254,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_bell_origin"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1054,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.027000000000001e-05,
+      "real_input_tokens": 261,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_einstein_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1749,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027986,
+      "real_input_tokens": 254,
+      "real_output_tokens": 64,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_bell_origin"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1580,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032094000000000003,
+      "real_input_tokens": 261,
+      "real_output_tokens": 81,
+      "retrieved_ids": [
+        "doc_einstein_birth",
+        "doc_aldrin_bio",
+        "doc_armstrong_bio",
+        "doc_apollo_mission",
+        "doc_einstein_distractor"
+      ]
+    }
+  },
+  "ag_035": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 993,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.2280000000000004e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 7,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1089,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 4.767e-05,
+      "real_input_tokens": 91,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_python_creator"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1193,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.194e-05,
+      "real_input_tokens": 152,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_versions",
+        "doc_python_distractor2"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1081,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.327000000000001e-05,
+      "real_input_tokens": 231,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_versions",
+        "doc_python_distractor2",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1091,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.867e-05,
+      "real_input_tokens": 251,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_versions",
+        "doc_python_distractor2",
+        "doc_python_origin",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1406,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026064,
+      "real_input_tokens": 231,
+      "real_output_tokens": 61,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_versions",
+        "doc_python_distractor2",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1656,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027821,
+      "real_input_tokens": 251,
+      "real_output_tokens": 64,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_versions",
+        "doc_python_distractor2",
+        "doc_python_origin",
+        "doc_aldrin_bio"
+      ]
+    }
+  },
+  "ag_036": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1048,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6800000000000002e-05,
+      "real_input_tokens": 50,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 951,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.672000000000001e-05,
+      "real_input_tokens": 186,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1071,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.6490000000000004e-05,
+      "real_input_tokens": 107,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_marie"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1191,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.13e-05,
+      "real_input_tokens": 240,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1302,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.94e-05,
+      "real_input_tokens": 270,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_curie_irene"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1829,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030501,
+      "real_input_tokens": 240,
+      "real_output_tokens": 79,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1824,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033465000000000003,
+      "real_input_tokens": 270,
+      "real_output_tokens": 85,
+      "retrieved_ids": [
+        "doc_curie_marie",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_curie_irene"
+      ]
+    }
+  },
+  "ag_037": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 750,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6510000000000003e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 945,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.773e-05,
+      "real_input_tokens": 99,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_einstein_relativity"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 937,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.269000000000001e-05,
+      "real_input_tokens": 167,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_einstein_relativity",
+        "doc_babbage",
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 850,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.904e-05,
+      "real_input_tokens": 252,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_einstein_relativity",
+        "doc_babbage",
+        "doc_einstein_nobel",
+        "doc_lovelace",
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 987,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.402e-05,
+      "real_input_tokens": 246,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_einstein_relativity",
+        "doc_babbage",
+        "doc_einstein_nobel",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1355,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024699,
+      "real_input_tokens": 246,
+      "real_output_tokens": 51,
+      "retrieved_ids": [
+        "doc_einstein_relativity",
+        "doc_babbage",
+        "doc_einstein_nobel",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1417,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00028094999999999997,
+      "real_input_tokens": 252,
+      "real_output_tokens": 65,
+      "retrieved_ids": [
+        "doc_einstein_relativity",
+        "doc_babbage",
+        "doc_einstein_nobel",
+        "doc_lovelace",
+        "doc_curie_pierre"
+      ]
+    }
+  },
+  "ag_038": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1019,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8730000000000002e-05,
+      "real_input_tokens": 49,
+      "real_output_tokens": 5,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1038,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.642e-05,
+      "real_input_tokens": 86,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_python_creator"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 915,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.343e-05,
+      "real_input_tokens": 149,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_distractor1",
+        "doc_python_distractor2"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1037,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.476000000000001e-05,
+      "real_input_tokens": 228,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_distractor1",
+        "doc_python_distractor2",
+        "doc_python_versions",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1027,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.503e-05,
+      "real_input_tokens": 229,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_distractor1",
+        "doc_python_distractor2",
+        "doc_python_origin",
+        "doc_python_versions"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1601,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00027213,
+      "real_input_tokens": 228,
+      "real_output_tokens": 67,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_distractor1",
+        "doc_python_distractor2",
+        "doc_python_versions",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1584,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024859000000000003,
+      "real_input_tokens": 229,
+      "real_output_tokens": 56,
+      "retrieved_ids": [
+        "doc_python_creator",
+        "doc_python_distractor1",
+        "doc_python_distractor2",
+        "doc_python_origin",
+        "doc_python_versions"
+      ]
+    }
+  },
+  "ag_039": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 936,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.898e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 913,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.049e-05,
+      "real_input_tokens": 97,
+      "real_output_tokens": 13,
+      "retrieved_ids": [
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1033,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.168e-05,
+      "real_input_tokens": 184,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_apollo_mission",
+        "doc_armstrong_bio",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1072,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.923000000000001e-05,
+      "real_input_tokens": 249,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_apollo_mission",
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_curie_distractor1",
+        "doc_everest"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1121,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.369000000000001e-05,
+      "real_input_tokens": 257,
+      "real_output_tokens": 13,
+      "retrieved_ids": [
+        "doc_apollo_mission",
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_distractor",
+        "doc_curie_distractor1"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1804,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030776999999999996,
+      "real_input_tokens": 249,
+      "real_output_tokens": 78,
+      "retrieved_ids": [
+        "doc_apollo_mission",
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_curie_distractor1",
+        "doc_everest"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1909,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033407,
+      "real_input_tokens": 257,
+      "real_output_tokens": 88,
+      "retrieved_ids": [
+        "doc_apollo_mission",
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_distractor",
+        "doc_curie_distractor1"
+      ]
+    }
+  },
+  "ag_040": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 901,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.624e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 982,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.908e-05,
+      "real_input_tokens": 104,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1196,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.014000000000001e-05,
+      "real_input_tokens": 182,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1130,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.348000000000001e-05,
+      "real_input_tokens": 244,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_everest",
+        "doc_lovelace"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1162,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.065999999999999e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_apollo_distractor",
+        "doc_everest"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1997,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030396,
+      "real_input_tokens": 258,
+      "real_output_tokens": 74,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_apollo_distractor",
+        "doc_everest"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2199,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00036634000000000005,
+      "real_input_tokens": 244,
+      "real_output_tokens": 106,
+      "retrieved_ids": [
+        "doc_armstrong_bio",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_everest",
+        "doc_lovelace"
+      ]
+    }
+  },
+  "ag_041": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 941,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6800000000000002e-05,
+      "real_input_tokens": 50,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 772,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.150000000000001e-05,
+      "real_input_tokens": 80,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_telephone"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 853,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.283e-05,
+      "real_input_tokens": 159,
+      "real_output_tokens": 9,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1023,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.621e-05,
+      "real_input_tokens": 213,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1036,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.080000000000001e-05,
+      "real_input_tokens": 230,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1528,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00022665,
+      "real_input_tokens": 213,
+      "real_output_tokens": 50,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_apollo_distractor"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1892,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032798,
+      "real_input_tokens": 230,
+      "real_output_tokens": 92,
+      "retrieved_ids": [
+        "doc_telephone",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_mission",
+        "doc_amazon_river"
+      ]
+    }
+  },
+  "ag_042": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 856,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6510000000000003e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 860,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.638e-05,
+      "real_input_tokens": 94,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_darwin_origin"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1027,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.717000000000001e-05,
+      "real_input_tokens": 171,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_lovelace",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 962,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.256000000000001e-05,
+      "real_input_tokens": 228,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 866,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.876999999999999e-05,
+      "real_input_tokens": 251,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1590,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00024366,
+      "real_input_tokens": 228,
+      "real_output_tokens": 54,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1732,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025193,
+      "real_input_tokens": 251,
+      "real_output_tokens": 52,
+      "retrieved_ids": [
+        "doc_darwin_origin",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_babbage",
+        "doc_apollo_mission"
+      ]
+    }
+  },
+  "ag_043": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 926,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.394e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 9,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1009,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.35e-05,
+      "real_input_tokens": 100,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_everest"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 970,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.0240000000000006e-05,
+      "real_input_tokens": 162,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_everest_distractor",
+        "doc_hillary_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1084,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.806000000000002e-05,
+      "real_input_tokens": 228,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_everest_distractor",
+        "doc_hillary_bio",
+        "doc_armstrong_bio",
+        "doc_lovelace"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1041,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.211000000000001e-05,
+      "real_input_tokens": 243,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_everest_distractor",
+        "doc_hillary_bio",
+        "doc_armstrong_bio",
+        "doc_lovelace"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1769,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030717,
+      "real_input_tokens": 228,
+      "real_output_tokens": 83,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_everest_distractor",
+        "doc_hillary_bio",
+        "doc_armstrong_bio",
+        "doc_lovelace"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2390,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00043149,
+      "real_input_tokens": 243,
+      "real_output_tokens": 136,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_everest_distractor",
+        "doc_hillary_bio",
+        "doc_armstrong_bio",
+        "doc_lovelace"
+      ]
+    }
+  },
+  "ag_044": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 821,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.898e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 879,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.6920000000000006e-05,
+      "real_input_tokens": 96,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_lovelace"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 978,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.46e-05,
+      "real_input_tokens": 170,
+      "real_output_tokens": 17,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_armstrong_bio",
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 993,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.379000000000001e-05,
+      "real_input_tokens": 237,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_everest",
+        "doc_wright_flight"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1054,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.201e-05,
+      "real_input_tokens": 263,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1652,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026175,
+      "real_input_tokens": 237,
+      "real_output_tokens": 60,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_everest",
+        "doc_wright_flight"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1702,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031109000000000003,
+      "real_input_tokens": 263,
+      "real_output_tokens": 76,
+      "retrieved_ids": [
+        "doc_lovelace",
+        "doc_armstrong_bio",
+        "doc_babbage",
+        "doc_apollo_mission",
+        "doc_aldrin_bio"
+      ]
+    }
+  },
+  "ag_045": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 979,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.624e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1014,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.35e-05,
+      "real_input_tokens": 100,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_war_dates"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 874,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.428e-05,
+      "real_input_tokens": 214,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_python_versions"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1024,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.769e-05,
+      "real_input_tokens": 157,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 964,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.132000000000001e-05,
+      "real_input_tokens": 236,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_einstein_birth",
+        "doc_nile_river"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1552,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026005,
+      "real_input_tokens": 214,
+      "real_output_tokens": 65,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_python_versions"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1654,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029624,
+      "real_input_tokens": 236,
+      "real_output_tokens": 76,
+      "retrieved_ids": [
+        "doc_war_dates",
+        "doc_ww2_pearl",
+        "doc_amazon_river",
+        "doc_einstein_birth",
+        "doc_nile_river"
+      ]
+    }
+  },
+  "ag_046": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 801,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.417e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 7,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 958,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.809e-05,
+      "real_input_tokens": 117,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1165,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.403000000000001e-05,
+      "real_input_tokens": 189,
+      "real_output_tokens": 30,
+      "retrieved_ids": [
+        "doc_curie_pierre",
+        "doc_curie_irene",
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 930,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.075000000000001e-05,
+      "real_input_tokens": 275,
+      "real_output_tokens": 15,
+      "retrieved_ids": [
+        "doc_curie_pierre",
+        "doc_curie_irene",
+        "doc_einstein_nobel",
+        "doc_curie_marie",
+        "doc_einstein_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1160,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0001005,
+      "real_input_tokens": 250,
+      "real_output_tokens": 30,
+      "retrieved_ids": [
+        "doc_curie_pierre",
+        "doc_curie_irene",
+        "doc_einstein_nobel",
+        "doc_planck_nobel",
+        "doc_franklin_death"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2593,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00041562999999999995,
+      "real_input_tokens": 250,
+      "real_output_tokens": 127,
+      "retrieved_ids": [
+        "doc_curie_pierre",
+        "doc_curie_irene",
+        "doc_einstein_nobel",
+        "doc_planck_nobel",
+        "doc_franklin_death"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2713,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00049727,
+      "real_input_tokens": 275,
+      "real_output_tokens": 158,
+      "retrieved_ids": [
+        "doc_curie_pierre",
+        "doc_curie_irene",
+        "doc_einstein_nobel",
+        "doc_curie_marie",
+        "doc_einstein_distractor"
+      ]
+    }
+  },
+  "ag_047": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 819,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8710000000000002e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 939,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.993e-05,
+      "real_input_tokens": 99,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_franklin_xray"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 958,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.721000000000001e-05,
+      "real_input_tokens": 163,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_franklin_xray",
+        "doc_dna_double_helix",
+        "doc_dna_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1177,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.031000000000002e-05,
+      "real_input_tokens": 253,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_franklin_xray",
+        "doc_dna_double_helix",
+        "doc_dna_distractor",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1146,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.556e-05,
+      "real_input_tokens": 268,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_franklin_xray",
+        "doc_dna_double_helix",
+        "doc_dna_distractor",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1928,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00032968000000000006,
+      "real_input_tokens": 253,
+      "real_output_tokens": 87,
+      "retrieved_ids": [
+        "doc_franklin_xray",
+        "doc_dna_double_helix",
+        "doc_dna_distractor",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1781,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00034888,
+      "real_input_tokens": 268,
+      "real_output_tokens": 92,
+      "retrieved_ids": [
+        "doc_franklin_xray",
+        "doc_dna_double_helix",
+        "doc_dna_distractor",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    }
+  },
+  "ag_048": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1101,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.707e-05,
+      "real_input_tokens": 51,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1037,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.607e-05,
+      "real_input_tokens": 101,
+      "real_output_tokens": 8,
+      "retrieved_ids": [
+        "doc_babbage"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1120,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.125999999999999e-05,
+      "real_input_tokens": 178,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1046,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.664999999999999e-05,
+      "real_input_tokens": 235,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1109,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.043e-05,
+      "real_input_tokens": 249,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_apollo_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1653,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00026722,
+      "real_input_tokens": 235,
+      "real_output_tokens": 63,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1878,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00025739999999999997,
+      "real_input_tokens": 249,
+      "real_output_tokens": 55,
+      "retrieved_ids": [
+        "doc_babbage",
+        "doc_lovelace",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_apollo_distractor"
+      ]
+    }
+  },
+  "ag_049": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 827,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.6510000000000003e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1076,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.4330000000000004e-05,
+      "real_input_tokens": 99,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1045,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.620000000000001e-05,
+      "real_input_tokens": 180,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 982,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.499e-05,
+      "real_input_tokens": 237,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 899,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.039000000000001e-05,
+      "real_input_tokens": 257,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1591,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030774000000000003,
+      "real_input_tokens": 237,
+      "real_output_tokens": 81,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1579,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029246000000000003,
+      "real_input_tokens": 257,
+      "real_output_tokens": 69,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_einstein_relativity",
+        "doc_aldrin_bio",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    }
+  },
+  "ag_050": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 816,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.9520000000000003e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 4,
+      "retrieved_ids": []
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1032,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.199e-05,
+      "real_input_tokens": 247,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1333,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.775000000000002e-05,
+      "real_input_tokens": 195,
+      "real_output_tokens": 41,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1080,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.834000000000001e-05,
+      "real_input_tokens": 262,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1474,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.26e-05,
+      "real_input_tokens": 110,
+      "real_output_tokens": 39,
+      "retrieved_ids": [
+        "doc_curie_irene"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 4972,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.0009220599999999999,
+      "real_input_tokens": 247,
+      "real_output_tokens": 359,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 7732,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00134422,
+      "real_input_tokens": 262,
+      "real_output_tokens": 548,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    }
+  },
+  "ag_051": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 936,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.8690000000000002e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 869,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.101e-05,
+      "real_input_tokens": 103,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1005,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.288000000000001e-05,
+      "real_input_tokens": 184,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 994,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.421e-05,
+      "real_input_tokens": 263,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1839,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033299,
+      "real_input_tokens": 263,
+      "real_output_tokens": 86,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_einstein_birth"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 2781,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.988e-05,
+      "real_input_tokens": 284,
+      "real_output_tokens": 12,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 3715,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.0005942,
+      "real_input_tokens": 284,
+      "real_output_tokens": 200,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_curie_irene",
+        "doc_curie_pierre",
+        "doc_curie_marie"
+      ]
+    }
+  },
+  "ag_052": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1090,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.054e-05,
+      "real_input_tokens": 52,
+      "real_output_tokens": 15,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1008,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 4.4640000000000006e-05,
+      "real_input_tokens": 92,
+      "real_output_tokens": 18,
+      "retrieved_ids": [
+        "doc_wright_distractor"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1319,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.568000000000001e-05,
+      "real_input_tokens": 154,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_wright_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1173,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.998e-05,
+      "real_input_tokens": 244,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_wright_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1171,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.728e-05,
+      "real_input_tokens": 234,
+      "real_output_tokens": 31,
+      "retrieved_ids": [
+        "doc_wright_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_birth",
+        "doc_einstein_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2392,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00039043,
+      "real_input_tokens": 244,
+      "real_output_tokens": 117,
+      "retrieved_ids": [
+        "doc_wright_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_franklin_death",
+        "doc_aldrin_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2509,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00042435,
+      "real_input_tokens": 234,
+      "real_output_tokens": 135,
+      "retrieved_ids": [
+        "doc_wright_distractor",
+        "doc_ww2_pearl",
+        "doc_einstein_nobel",
+        "doc_einstein_birth",
+        "doc_einstein_distractor"
+      ]
+    }
+  },
+  "ag_053": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 797,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.732e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1266,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.7509999999999997e-05,
+      "real_input_tokens": 103,
+      "real_output_tokens": 27,
+      "retrieved_ids": [
+        "doc_wright_flight"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1331,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.776e-05,
+      "real_input_tokens": 178,
+      "real_output_tokens": 27,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_wright_distractor",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1143,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.329999999999999e-05,
+      "real_input_tokens": 260,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_wright_distractor",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1347,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.315e-05,
+      "real_input_tokens": 235,
+      "real_output_tokens": 27,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_wright_distractor",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1743,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00033571999999999996,
+      "real_input_tokens": 260,
+      "real_output_tokens": 88,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_wright_distractor",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 2323,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00041394999999999995,
+      "real_input_tokens": 235,
+      "real_output_tokens": 130,
+      "retrieved_ids": [
+        "doc_wright_flight",
+        "doc_wright_distractor",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_amazon_river"
+      ]
+    }
+  },
+  "ag_054": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 830,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.842e-05,
+      "real_input_tokens": 56,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 842,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 5.962e-05,
+      "real_input_tokens": 176,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_distractor"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1095,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.073000000000001e-05,
+      "real_input_tokens": 119,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1149,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 9.276e-05,
+      "real_input_tokens": 258,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_distractor",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1263,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.871000000000001e-05,
+      "real_input_tokens": 243,
+      "real_output_tokens": 21,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_distractor",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1918,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030666,
+      "real_input_tokens": 243,
+      "real_output_tokens": 79,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_distractor",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2212,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00036090000000000004,
+      "real_input_tokens": 258,
+      "real_output_tokens": 100,
+      "retrieved_ids": [
+        "doc_aldrin_bio",
+        "doc_amazon_distractor",
+        "doc_apollo_distractor",
+        "doc_apollo_mission",
+        "doc_armstrong_bio"
+      ]
+    }
+  },
+  "ag_055": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 717,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 2.3090000000000004e-05,
+      "real_input_tokens": 57,
+      "real_output_tokens": 7,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 953,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.757000000000001e-05,
+      "real_input_tokens": 111,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_irene"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1001,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.052e-05,
+      "real_input_tokens": 196,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1114,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.456000000000002e-05,
+      "real_input_tokens": 248,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1183,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.861000000000001e-05,
+      "real_input_tokens": 263,
+      "real_output_tokens": 16,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1844,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00035101999999999996,
+      "real_input_tokens": 248,
+      "real_output_tokens": 98,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 2213,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00037022,
+      "real_input_tokens": 263,
+      "real_output_tokens": 103,
+      "retrieved_ids": [
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_einstein_nobel",
+        "doc_planck_nobel"
+      ]
+    }
+  },
+  "ag_056": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 978,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.923e-05,
+      "real_input_tokens": 59,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1063,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.606e-05,
+      "real_input_tokens": 188,
+      "real_output_tokens": 23,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_marie"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 1097,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.0001027,
+      "real_input_tokens": 250,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1082,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00010675,
+      "real_input_tokens": 265,
+      "real_output_tokens": 32,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1501,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 9.105000000000002e-05,
+      "real_input_tokens": 105,
+      "real_output_tokens": 57,
+      "retrieved_ids": [
+        "doc_einstein_nobel"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 3904,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00070252,
+      "real_input_tokens": 250,
+      "real_output_tokens": 258,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 7042,
+      "success": false,
+      "unsupported_risk": 1.0,
+      "real_cost_usd": 0.00134149,
+      "real_input_tokens": 265,
+      "real_output_tokens": 546,
+      "retrieved_ids": [
+        "doc_einstein_nobel",
+        "doc_curie_irene",
+        "doc_curie_marie",
+        "doc_curie_pierre",
+        "doc_planck_nobel"
+      ]
+    }
+  },
+  "ag_057": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 800,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.7610000000000002e-05,
+      "real_input_tokens": 53,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1037,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.817000000000001e-05,
+      "real_input_tokens": 101,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_everest"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1017,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.788000000000001e-05,
+      "real_input_tokens": 174,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_darwin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 969,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.516000000000002e-05,
+      "real_input_tokens": 238,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_darwin_bio",
+        "doc_dna_distractor",
+        "doc_dna_double_helix"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1110,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.894000000000001e-05,
+      "real_input_tokens": 252,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_darwin_bio",
+        "doc_darwin_origin",
+        "doc_babbage"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 7159,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00130255,
+      "real_input_tokens": 238,
+      "real_output_tokens": 535,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_darwin_bio",
+        "doc_dna_distractor",
+        "doc_dna_double_helix"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 12085,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00207456,
+      "real_input_tokens": 252,
+      "real_output_tokens": 884,
+      "retrieved_ids": [
+        "doc_everest",
+        "doc_hillary_bio",
+        "doc_darwin_bio",
+        "doc_darwin_origin",
+        "doc_babbage"
+      ]
+    }
+  },
+  "ag_058": {
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 1047,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.185000000000001e-05,
+      "real_input_tokens": 115,
+      "real_output_tokens": 28,
+      "retrieved_ids": [
+        "doc_dna_double_helix"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 766,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.308999999999999e-05,
+      "real_input_tokens": 267,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 1148,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.936e-05,
+      "real_input_tokens": 188,
+      "real_output_tokens": 26,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray"
+      ]
+    },
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 1412,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.867e-05,
+      "real_input_tokens": 61,
+      "real_output_tokens": 2,
+      "retrieved_ids": []
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1098,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.795e-05,
+      "real_input_tokens": 285,
+      "real_output_tokens": 10,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 13229,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00239931,
+      "real_input_tokens": 285,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_curie_irene",
+        "doc_curie_pierre"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 13921,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00238941,
+      "real_input_tokens": 267,
+      "real_output_tokens": 1024,
+      "retrieved_ids": [
+        "doc_dna_double_helix",
+        "doc_franklin_death",
+        "doc_franklin_xray",
+        "doc_aldrin_bio",
+        "doc_amazon_distractor"
+      ]
+    }
+  },
+  "ag_059": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 751,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.788e-05,
+      "real_input_tokens": 54,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 750,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 3.8560000000000004e-05,
+      "real_input_tokens": 98,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_amazon_distractor"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 777,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.42e-05,
+      "real_input_tokens": 230,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_aldrin_bio",
+        "doc_apollo_distractor",
+        "doc_apollo_mission"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 997,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.788000000000001e-05,
+      "real_input_tokens": 174,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 843,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.825e-05,
+      "real_input_tokens": 245,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_nile_river"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1585,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029075,
+      "real_input_tokens": 230,
+      "real_output_tokens": 75,
+      "retrieved_ids": [
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_aldrin_bio",
+        "doc_apollo_distractor",
+        "doc_apollo_mission"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1603,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00030557,
+      "real_input_tokens": 245,
+      "real_output_tokens": 78,
+      "retrieved_ids": [
+        "doc_amazon_distractor",
+        "doc_amazon_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_nile_river"
+      ]
+    }
+  },
+  "ag_060": {
+    "cheap_cold": {
+      "cost": 1.0,
+      "latency_ms": 727,
+      "success": false,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 1.815e-05,
+      "real_input_tokens": 55,
+      "real_output_tokens": 3,
+      "retrieved_ids": []
+    },
+    "cheap_topk1": {
+      "cost": 1.3,
+      "latency_ms": 912,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 4.682e-05,
+      "real_input_tokens": 96,
+      "real_output_tokens": 19,
+      "retrieved_ids": [
+        "doc_amazon_river"
+      ]
+    },
+    "cheap_topk3": {
+      "cost": 1.3,
+      "latency_ms": 935,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 6.844e-05,
+      "real_input_tokens": 172,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio"
+      ]
+    },
+    "cheap_topk5": {
+      "cost": 1.3,
+      "latency_ms": 936,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 8.788e-05,
+      "real_input_tokens": 244,
+      "real_output_tokens": 20,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_curie_distractor2",
+        "doc_war_dates"
+      ]
+    },
+    "cheap_agentic": {
+      "cost": 1.5,
+      "latency_ms": 1147,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 7.852e-05,
+      "real_input_tokens": 246,
+      "real_output_tokens": 11,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_amazon_distractor"
+      ]
+    },
+    "strong_topk5": {
+      "cost": 10.3,
+      "latency_ms": 1614,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00029407,
+      "real_input_tokens": 244,
+      "real_output_tokens": 73,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_curie_distractor2",
+        "doc_war_dates"
+      ]
+    },
+    "strong_agentic": {
+      "cost": 10.5,
+      "latency_ms": 1740,
+      "success": true,
+      "unsupported_risk": 0.0,
+      "real_cost_usd": 0.00031926000000000003,
+      "real_input_tokens": 246,
+      "real_output_tokens": 84,
+      "retrieved_ids": [
+        "doc_amazon_river",
+        "doc_nile_river",
+        "doc_aldrin_bio",
+        "doc_apollo_mission",
+        "doc_amazon_distractor"
+      ]
+    }
+  }
+}

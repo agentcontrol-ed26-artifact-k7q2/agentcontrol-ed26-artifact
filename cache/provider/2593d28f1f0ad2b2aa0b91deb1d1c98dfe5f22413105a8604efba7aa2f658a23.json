@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012848,
+  "input_tokens": 99,
+  "latency_ms": 5057,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 47,
+  "provider": "together",
+  "request_hash": "2593d28f1f0ad2b2aa0b91deb1d1c98dfe5f22413105a8604efba7aa2f658a23",
+  "text": "1. The expansion can be calculated using the binomial theorem.\n2. The result can be verified by manually multiplying the expression (2x + 3) five times and collecting the coefficients of the x^3 term.\n\n80"
+}

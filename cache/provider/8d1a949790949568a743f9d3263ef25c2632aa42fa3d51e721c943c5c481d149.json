@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.331000000000001e-05,
+  "input_tokens": 63,
+  "latency_ms": 1187,
+  "model": "deepseek-chat",
+  "output_tokens": 33,
+  "provider": "deepseek",
+  "request_hash": "8d1a949790949568a743f9d3263ef25c2632aa42fa3d51e721c943c5c481d149",
+  "text": "First, divide both sides by 2:  \nx - 3 = 7  \nThen add 3 to both sides:  \nx = 10  \n\n10"
+}

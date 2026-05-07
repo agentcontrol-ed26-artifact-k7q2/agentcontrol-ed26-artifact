@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021472,
+  "input_tokens": 224,
+  "latency_ms": 1606,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "4918cede8a9c2f99c679de582a39ef631f5779ea1197e1a4f98a0dd03142b21c",
+  "text": "The country of birth of the person who created Python was the Netherlands. [doc_python2]"
+}

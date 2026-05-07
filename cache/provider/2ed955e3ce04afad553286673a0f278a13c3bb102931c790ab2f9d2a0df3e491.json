@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002156,
+  "input_tokens": 96,
+  "latency_ms": 1335,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 149,
+  "provider": "together",
+  "request_hash": "2ed955e3ce04afad553286673a0f278a13c3bb102931c790ab2f9d2a0df3e491",
+  "text": "Use a stack to keep track of characters and counts, popping and appending to the result string when encountering a closing bracket. \n```python\ndef decode_string(s):\n    stack = []\n    cur_num = 0\n    cur_str = ''\n    for c in s:\n        if c == '[':\n            stack.append(cur_str)\n            stack.append(cur_num)\n            cur_str = ''\n            cur_num = 0\n        elif c == ']':\n            num = stack.pop()\n            prev_str = stack.pop()\n            cur_str = prev_str + num*cur_str\n        elif c.isdigit():\n            cur_num = cur_num*10 + int(c)\n        else:\n            cur_str += c\n    return cur_str\n```"
+}

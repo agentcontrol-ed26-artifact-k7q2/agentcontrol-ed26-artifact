@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010912,
+  "input_tokens": 82,
+  "latency_ms": 6607,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "fe6f1d6fe4da5aa651f9d6f8339168d6612dc46a2a1d159a4480146c8df5f808",
+  "text": "The minimum number of moves can be determined using a recursive formula, where the number of moves to move n disks is 2 times the number of moves to move n-1 disks, plus 1."
+}

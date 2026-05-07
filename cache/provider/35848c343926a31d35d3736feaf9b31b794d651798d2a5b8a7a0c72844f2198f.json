@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001748,
+  "input_tokens": 59,
+  "latency_ms": 1880,
+  "model": "deepseek-reasoner",
+  "output_tokens": 65,
+  "provider": "deepseek",
+  "request_hash": "35848c343926a31d35d3736feaf9b31b794d651798d2a5b8a7a0c72844f2198f",
+  "text": "Think of dividing 100 into 4 equal groups."
+}

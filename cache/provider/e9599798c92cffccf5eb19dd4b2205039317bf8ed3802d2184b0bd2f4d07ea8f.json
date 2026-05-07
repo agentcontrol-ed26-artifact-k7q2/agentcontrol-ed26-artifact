@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019974,
+  "input_tokens": 92,
+  "latency_ms": 2960,
+  "model": "deepseek-chat",
+  "output_tokens": 159,
+  "provider": "deepseek",
+  "request_hash": "e9599798c92cffccf5eb19dd4b2205039317bf8ed3802d2184b0bd2f4d07ea8f",
+  "text": "```python\nfrom collections import deque\n\ndef word_ladder_len(begin, end, words):\n    if end not in words:\n        return 0\n    word_set = set(words)\n    queue = deque([(begin, 1)])\n    visited = {begin}\n    while queue:\n        current, length = queue.popleft()\n        if current == end:\n            return length\n        for i in range(len(current)):\n            for c in 'abcdefghijklmnopqrstuvwxyz':\n                next_word = current[:i] + c + current[i+1:]\n                if next_word in word_set and next_word not in visited:\n                    visited.add(next_word)\n                    queue.append((next_word, length + 1))\n    return 0\n```"
+}

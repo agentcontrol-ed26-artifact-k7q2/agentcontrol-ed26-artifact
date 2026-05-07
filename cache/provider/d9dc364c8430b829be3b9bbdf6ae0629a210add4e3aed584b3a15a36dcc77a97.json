@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017512,
+  "input_tokens": 147,
+  "latency_ms": 2913,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 52,
+  "provider": "together",
+  "request_hash": "d9dc364c8430b829be3b9bbdf6ae0629a210add4e3aed584b3a15a36dcc77a97",
+  "text": "The most common citation mistake is failing to properly reference the source document, such as incorrectly formatting the citation or omitting the bracketed citation altogether, which can lead to confusion and make it difficult to identify the supporting evidence.\nanswer phrase [doc_evolution]"
+}

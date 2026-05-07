@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.211e-05,
+  "input_tokens": 103,
+  "latency_ms": 935,
+  "model": "deepseek-chat",
+  "output_tokens": 13,
+  "provider": "deepseek",
+  "request_hash": "a8ca6c39a4f28cd400dd766dd47ead49d70de38f5d494455bcf569f75b121889",
+  "text": "Thomas Edison invented the lightbulb [doc_edison]."
+}

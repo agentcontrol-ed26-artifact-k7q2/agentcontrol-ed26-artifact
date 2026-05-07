@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.5230000000000005e-05,
+  "input_tokens": 119,
+  "latency_ms": 1189,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "710093fa516e533eb0becea06ce330c9ab534cd95014e6606cc694f0c58dc105",
+  "text": "The second person to walk on the Moon was Buzz Aldrin. [doc_aldrin_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.74e-05,
+  "input_tokens": 69,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 6,
+  "provider": "dummy",
+  "request_hash": "4ffeec5649ed6109a41e3bd6e2e93fca32790f994b48103ba609e519e9430e69",
+  "text": "Dennis Ritchie [doc_python]"
+}

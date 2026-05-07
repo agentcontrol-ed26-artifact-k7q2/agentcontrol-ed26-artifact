@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012848,
+  "input_tokens": 94,
+  "latency_ms": 1886,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 52,
+  "provider": "together",
+  "request_hash": "419c71a55945784b800b089cea6e14e0c90eaa6e89561ac857d452cc6f69437f",
+  "text": "360 = 2^3 * 3^2 * 5^1\n(3 + 1) * (2 + 1) * (1 + 1) = 4 * 3 * 2 = 24\n24"
+}

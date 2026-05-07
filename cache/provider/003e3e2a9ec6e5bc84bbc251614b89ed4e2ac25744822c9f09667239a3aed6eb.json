@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045201000000000003,
+  "input_tokens": 129,
+  "latency_ms": 3103,
+  "model": "deepseek-reasoner",
+  "output_tokens": 174,
+  "provider": "deepseek",
+  "request_hash": "003e3e2a9ec6e5bc84bbc251614b89ed4e2ac25744822c9f09667239a3aed6eb",
+  "text": "1. Verify that the evidence in doc_amazon explicitly states the Amazon River is the \"second longest river in the world after the Nile.\"\n2. Confirm that no other provided document (e.g., doc_einstein) contains any contradictory information about river lengths."
+}

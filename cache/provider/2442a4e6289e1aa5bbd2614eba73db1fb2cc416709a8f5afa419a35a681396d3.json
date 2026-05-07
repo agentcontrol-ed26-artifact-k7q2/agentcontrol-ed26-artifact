@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.740000000000001e-05,
+  "input_tokens": 180,
+  "latency_ms": 976,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "2442a4e6289e1aa5bbd2614eba73db1fb2cc416709a8f5afa419a35a681396d3",
+  "text": "```python\ndef balanced_parens(s):\n    stack = []\n    pairs = {')': '(', '}': '{', ']': '['}\n    for char in s:\n        if char in pairs.values():\n            stack.append(char)\n        elif char in pairs.keys():\n            if not stack or stack.pop() != pairs[char]:\n                return False\n    return not stack\n```"
+}

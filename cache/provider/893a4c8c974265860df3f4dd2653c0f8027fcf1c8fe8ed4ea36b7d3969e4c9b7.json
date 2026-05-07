@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002861,
+  "input_tokens": 122,
+  "latency_ms": 1904,
+  "model": "deepseek-reasoner",
+  "output_tokens": 100,
+  "provider": "deepseek",
+  "request_hash": "893a4c8c974265860df3f4dd2653c0f8027fcf1c8fe8ed4ea36b7d3969e4c9b7",
+  "text": "Hint: Check doc_planck."
+}

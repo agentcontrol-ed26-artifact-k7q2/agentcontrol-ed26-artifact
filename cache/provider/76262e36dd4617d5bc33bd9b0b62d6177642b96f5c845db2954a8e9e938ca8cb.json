@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.56e-05,
+  "input_tokens": 67,
+  "latency_ms": 841,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 85,
+  "provider": "together",
+  "request_hash": "76262e36dd4617d5bc33bd9b0b62d6177642b96f5c845db2954a8e9e938ca8cb",
+  "text": "```python\ndef longest_increasing_subseq(xs):\n    if not xs:\n        return 0\n    n = len(xs)\n    dp = [1] * n\n    for i in range(1, n):\n        for j in range(i):\n            if xs[i] > xs[j]:\n                dp[i] = max(dp[i], dp[j] + 1)\n    return max(dp)\n```"
+}

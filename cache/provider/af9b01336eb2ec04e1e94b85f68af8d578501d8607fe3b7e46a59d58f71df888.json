@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015664,
+  "input_tokens": 97,
+  "latency_ms": 1053,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 81,
+  "provider": "together",
+  "request_hash": "af9b01336eb2ec04e1e94b85f68af8d578501d8607fe3b7e46a59d58f71df888",
+  "text": "To find the distance the train travels in 7 hours, first, calculate the speed of the train. \nSpeed = Distance / Time = 90 miles / 3 hours = 30 miles per hour. \nNow, use the speed to find the distance traveled in 7 hours. \nDistance = Speed * Time = 30 miles per hour * 7 hours = 210 miles.\n210"
+}

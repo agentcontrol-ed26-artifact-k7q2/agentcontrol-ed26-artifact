@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015393,
+  "input_tokens": 69,
+  "latency_ms": 2322,
+  "model": "deepseek-chat",
+  "output_tokens": 123,
+  "provider": "deepseek",
+  "request_hash": "68b144b7dff265c2c604b17f7b9c9335db9fad5357d453c28e20b3f1562c3a0b",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for layer in range(n // 2):\n        first = layer\n        last = n - 1 - layer\n        for i in range(first, last):\n            offset = i - first\n            top = m[first][i]\n            m[first][i] = m[last - offset][first]\n            m[last - offset][first] = m[last][last - offset]\n            m[last][last - offset] = m[i][last]\n            m[i][last] = top\n```"
+}

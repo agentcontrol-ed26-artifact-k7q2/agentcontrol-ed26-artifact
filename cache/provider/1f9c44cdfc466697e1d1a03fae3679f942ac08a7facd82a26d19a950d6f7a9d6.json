@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025344,
+  "input_tokens": 270,
+  "latency_ms": 632,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "1f9c44cdfc466697e1d1a03fae3679f942ac08a7facd82a26d19a950d6f7a9d6",
+  "text": "Ada Lovelace is described as the first computer programmer [doc_lovelace]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018358,
+  "input_tokens": 67,
+  "latency_ms": 1719,
+  "model": "deepseek-reasoner",
+  "output_tokens": 67,
+  "provider": "deepseek",
+  "request_hash": "159df30f8a6bbd4acdbdf627b02b152eb12a540dac77eb06b03d3187b9d6739c",
+  "text": "Calculate the difference divided by the original price, then multiply by 100."
+}

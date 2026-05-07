@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026312,
+  "input_tokens": 279,
+  "latency_ms": 817,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "beafca14fc428062979f5f7b254294779eab37b1e7cf09e5a97ba0b791b95555",
+  "text": "The year Einstein emigrated to the United States was 1933 [doc_einstein_birth]"
+}

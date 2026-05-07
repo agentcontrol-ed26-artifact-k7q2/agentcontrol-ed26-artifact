@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.018000000000001e-05,
+  "input_tokens": 44,
+  "latency_ms": 1375,
+  "model": "deepseek-chat",
+  "output_tokens": 53,
+  "provider": "deepseek",
+  "request_hash": "ceeddec58a30fc1661a4ad6474ec415fde0705e2f1ae11a9bc40d58f9145fc81",
+  "text": "First, calculate 20% of $50:  \n20% \u00d7 50 = 0.20 \u00d7 50 = 10.  \n\nThen subtract that discount from the original price:  \n50 \u2212 10 = 40.  \n\nFinal answer: 40"
+}

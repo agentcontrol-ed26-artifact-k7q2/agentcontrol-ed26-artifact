@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025912,
+  "input_tokens": 61,
+  "latency_ms": 2080,
+  "model": "deepseek-reasoner",
+  "output_tokens": 103,
+  "provider": "deepseek",
+  "request_hash": "2881b80653ae3abdc2be449b8f8527fe2c296398cfedf67d3cee20f78cc25d79",
+  "text": "The most common bug is failing to append the final run after the loop ends."
+}

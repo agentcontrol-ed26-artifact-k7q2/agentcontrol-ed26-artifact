@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001146,
+  "input_tokens": 284,
+  "latency_ms": 1115,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 98,
+  "provider": "together",
+  "request_hash": "416c2f6deca0124571795598ff5491ad3380ae742d51f9f445d9b5876df681dd",
+  "text": "The question is about a publisher's travel during a specific period, but the evidence provided does not contain information about Charles Darwin's travel during his voyage on the Beagle from 1831 to 1836. The evidence is primarily about the publication of \"On the Origin of Species,\" the double helix structure of DNA, and Rosalind Franklin's work. Therefore, there is no appropriate citation to answer the given question. [doc_darwin_origin]"
+}

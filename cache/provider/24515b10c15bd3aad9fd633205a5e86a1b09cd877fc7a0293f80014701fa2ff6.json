@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.47e-05,
+  "input_tokens": 134,
+  "latency_ms": 296,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "24515b10c15bd3aad9fd633205a5e86a1b09cd877fc7a0293f80014701fa2ff6",
+  "text": "Python was first released in 1991 [doc_python]."
+}

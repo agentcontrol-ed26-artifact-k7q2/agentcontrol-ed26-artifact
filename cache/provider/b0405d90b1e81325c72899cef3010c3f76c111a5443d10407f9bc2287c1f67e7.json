@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.035e-05,
+  "input_tokens": 45,
+  "latency_ms": 1456,
+  "model": "deepseek-chat",
+  "output_tokens": 62,
+  "provider": "deepseek",
+  "request_hash": "b0405d90b1e81325c72899cef3010c3f76c111a5443d10407f9bc2287c1f67e7",
+  "text": "The minimum number of moves for the Tower of Hanoi with \\( n \\) disks is given by \\( 2^n - 1 \\).  \nFor \\( n = 4 \\):  \n\\( 2^4 - 1 = 16 - 1 = 15 \\).  \n\nFinal integer: 15"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.299e-05,
+  "input_tokens": 67,
+  "latency_ms": 1533,
+  "model": "deepseek-chat",
+  "output_tokens": 59,
+  "provider": "deepseek",
+  "request_hash": "770f67256ebd5106fefa86df5204522474cdfb59bfdbb4f045054d260c2150a4",
+  "text": "We need the sum of integers from 1 to 10.  \nWe can use the formula: sum = n(n+1)/2, where n = 10.  \nSo sum = 10 \u00d7 11 / 2 = 110 / 2 = 55.  \n\n55"
+}

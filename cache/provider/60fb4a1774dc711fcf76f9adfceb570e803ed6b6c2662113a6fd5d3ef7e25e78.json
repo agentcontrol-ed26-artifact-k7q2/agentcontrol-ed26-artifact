@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.469000000000002e-05,
+  "input_tokens": 257,
+  "latency_ms": 933,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "60fb4a1774dc711fcf76f9adfceb570e803ed6b6c2662113a6fd5d3ef7e25e78",
+  "text": "Charles Babbage designed the Analytical Engine, on which Ada Lovelace wrote her notes. [doc_babbage]"
+}

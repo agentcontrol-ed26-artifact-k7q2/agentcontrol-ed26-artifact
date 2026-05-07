@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004896299999999999,
+  "input_tokens": 66,
+  "latency_ms": 3250,
+  "model": "deepseek-reasoner",
+  "output_tokens": 207,
+  "provider": "deepseek",
+  "request_hash": "6d72895ddf2079aa16366d80e0f3baefbcc4810b093bfd05e878a1a3164cf981",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    # Reverse the matrix vertically (top to bottom)\n    for i in range(n // 2):\n        m[i], m[n - 1 - i] = m[n - 1 - i], m[i]\n    # Transpose (swap elements across the diagonal)\n    for i in range(n):\n        for j in range(i + 1, n):\n            m[i][j], m[j][i] = m[j][i], m[i][j]\n```"
+}

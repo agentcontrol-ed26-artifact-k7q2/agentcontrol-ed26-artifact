@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025872,
+  "input_tokens": 267,
+  "latency_ms": 790,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "033592fd4c8445906dc0454b51737a6002cb5a75d27bdd754ae3679ccb8c31f6",
+  "text": "The language created by Guido van Rossum reached end-of-life for version 2 in 2020 [doc_python_versions]"
+}

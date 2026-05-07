@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003277,
+  "input_tokens": 118,
+  "latency_ms": 2329,
+  "model": "deepseek-reasoner",
+  "output_tokens": 120,
+  "provider": "deepseek",
+  "request_hash": "d6b993fc25d3cc1d71da8ef62ec02b921d0304c7ce57e175574de74239aaf0e0",
+  "text": "doc_lovelace"
+}

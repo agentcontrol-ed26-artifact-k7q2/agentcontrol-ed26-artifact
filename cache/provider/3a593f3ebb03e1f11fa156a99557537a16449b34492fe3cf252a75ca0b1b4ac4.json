@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004688,
+  "input_tokens": 56,
+  "latency_ms": 3310,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "3a593f3ebb03e1f11fa156a99557537a16449b34492fe3cf252a75ca0b1b4ac4",
+  "text": "Recall that LCM(a,b) * GCD(a,b"
+}

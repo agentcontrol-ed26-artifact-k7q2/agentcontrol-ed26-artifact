@@ -1,0 +1,63 @@
+# Rescue task-pool config.
+# Local synthetic-extended pool: deterministic per-task outcomes, generated
+# from seeded difficulty profiles. NOT real-model evidence — see
+# reports/RESCUE_TASK_POOL.md for honest framing.
+seed: 20260427
+families:
+  math:
+    n: 60
+    provenance: synthetic-local
+    difficulty_mix:
+      easy: 0.40        # cheap_answer succeeds
+      medium: 0.30      # cheap fails, cheap_repair succeeds
+      partial_strong: 0.20  # cheap+repair fail; strong_hint + cheap_repair_after_hint succeeds
+      hard: 0.10        # only strong_answer succeeds
+  code:
+    n: 50
+    provenance: synthetic-local
+    difficulty_mix:
+      easy: 0.20
+      medium: 0.25
+      partial_strong: 0.40
+      hard: 0.15
+  evidence:
+    n: 40
+    provenance: synthetic-local
+    difficulty_mix:
+      easy: 0.30
+      medium: 0.30
+      partial_strong: 0.25
+      hard: 0.15
+    unsupported_risk_profile:
+      cheap_answer_unsupported_prob: 0.10
+      strong_hint_unsupported_prob: 0.0
+  tool_use:
+    n: 20
+    provenance: synthetic-local
+    difficulty_mix:
+      easy: 0.20
+      medium: 0.30
+      partial_strong: 0.40
+      hard: 0.10
+price_model:
+  cheap_answer: 1.0
+  cheap_repair: 1.0
+  strong_hint: 2.0
+  cheap_repair_after_hint: 1.0
+  strong_critique: 2.0
+  strong_checklist: 2.0
+  strong_answer: 10.0
+latency_model_ms:
+  cheap_answer: 1
+  cheap_repair: 1
+  strong_hint: 1
+  cheap_repair_after_hint: 1
+  strong_critique: 1
+  strong_checklist: 1
+  strong_answer: 1
+note: |
+  Difficulty profiles map deterministically to per-action (success, cost,
+  latency, unsupported_risk). The pool is engineered so the cheap arm does
+  NOT saturate on any family, exposing oracle-graph headroom in a way a
+  real model pool plausibly would. This is a PROTOCOL test, not a
+  real-model evaluation.

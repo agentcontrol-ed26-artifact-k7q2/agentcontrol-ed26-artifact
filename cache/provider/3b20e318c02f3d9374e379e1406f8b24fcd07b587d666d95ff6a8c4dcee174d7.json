@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.7e-05,
+  "input_tokens": 206,
+  "latency_ms": 873,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 84,
+  "provider": "together",
+  "request_hash": "3b20e318c02f3d9374e379e1406f8b24fcd07b587d666d95ff6a8c4dcee174d7",
+  "text": "```python\nxs = [1,2,3,4,5,6,7,8,9,10]\nxs.sort()\nn = len(xs)\nif n % 2 == 1:\n    median = xs[n//2]\nelse:\n    median = (xs[n//2 - 1] + xs[n//2]) / 2\nmedian\n```\n5.5"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032604,
+  "input_tokens": 111,
+  "latency_ms": 2336,
+  "model": "deepseek-reasoner",
+  "output_tokens": 121,
+  "provider": "deepseek",
+  "request_hash": "e2db79b651112c6dead00d9eab6577baaf83bed314c34b9bbe93c85dff382c10",
+  "text": "1. Verify that the document explicitly naming the author of \"On the Origin of Species\" matches the name Charles Darwin.\n2. Confirm the publication year and title are consistent with the specific work attributed to that author."
+}

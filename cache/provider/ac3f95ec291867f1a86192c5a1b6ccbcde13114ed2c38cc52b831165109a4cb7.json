@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.34e-05,
+  "input_tokens": 155,
+  "latency_ms": 363,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "ac3f95ec291867f1a86192c5a1b6ccbcde13114ed2c38cc52b831165109a4cb7",
+  "text": "The Apollo 11 mission landed humans on the Moon in 1969 [doc_apollo]."
+}

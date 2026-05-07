@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019800000000000002,
+  "input_tokens": 182,
+  "latency_ms": 3259,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "63147112e32a0d7031bf12a5d4ce1f347905e2f1f749a69f6b639f337e405855",
+  "text": "The most common citation mistake is including multiple or incorrect citations that do not directly support the provided evidence, which can lead to confusion and undermine the credibility of the response.\nAnswer phrase: [doc_everest]"
+}

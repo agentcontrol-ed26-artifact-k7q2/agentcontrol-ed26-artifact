@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.71e-05,
+  "input_tokens": 70,
+  "latency_ms": 1514,
+  "model": "deepseek-chat",
+  "output_tokens": 62,
+  "provider": "deepseek",
+  "request_hash": "5965f3a7dcd8bc7184a2486a5ff8a860441d0c5c09ce5499cb639d86dc4ab5cc",
+  "text": "Let the number be \\( x \\).  \nTripled: \\( 3x \\)  \nIncreased by 4: \\( 3x + 4 = 31 \\)  \nSubtract 4: \\( 3x = 27 \\)  \nDivide by 3: \\( x = 9 \\)  \n\n9"
+}

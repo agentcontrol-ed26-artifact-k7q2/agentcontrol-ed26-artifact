@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00038551000000000004,
+  "input_tokens": 247,
+  "latency_ms": 2313,
+  "model": "deepseek-reasoner",
+  "output_tokens": 114,
+  "provider": "deepseek",
+  "request_hash": "11bc014ed7a56d0c3d98119bf4fb1becdbca3c716a0727db9f1c5f6285d9df53",
+  "text": "the 1830s [doc_babbage]"
+}

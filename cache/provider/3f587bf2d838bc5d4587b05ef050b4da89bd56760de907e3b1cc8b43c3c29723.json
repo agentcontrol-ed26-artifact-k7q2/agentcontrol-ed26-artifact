@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026136,
+  "input_tokens": 271,
+  "latency_ms": 650,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "3f587bf2d838bc5d4587b05ef050b4da89bd56760de907e3b1cc8b43c3c29723",
+  "text": "The second person to walk on the Moon was Edwin Eugene 'Buzz' Aldrin Jr. [doc_aldrin_bio]"
+}

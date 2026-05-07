@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.703e-05,
+  "input_tokens": 59,
+  "latency_ms": 694,
+  "model": "deepseek-chat",
+  "output_tokens": 1,
+  "provider": "deepseek",
+  "request_hash": "9f39431d9b04ab2558d9730a903d590c2b0a297462fa973431098a4738fd9a53",
+  "text": "Ohio"
+}

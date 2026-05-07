@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025106000000000005,
+  "input_tokens": 58,
+  "latency_ms": 3851,
+  "model": "deepseek-chat",
+  "output_tokens": 214,
+  "provider": "deepseek",
+  "request_hash": "297554825f4262d1adff5d18283124a288c20ef08310c312ff4b8b5b2067298d",
+  "text": "We have a grid from (0,0) to (2,2).  \nObstacles at (0,1) and (1,0) mean those cells cannot be used.  \n\nPossible paths avoiding obstacles:\n\n- (0,0) \u2192 (0,1) is blocked, so cannot go right first.  \n- (0,0) \u2192 (1,0) is blocked, so cannot go down first.  \n\nThe only way is to go diagonally? But diagonal moves are not standard in grid movement unless allowed. Typically, only up/down/left/right moves are allowed.  \n\nIf only orthogonal moves:  \nFrom (0,0), both adjacent moves are blocked, so no path exists.  \n\nIf diagonal moves are allowed:  \n(0,0) \u2192 (1,1) \u2192 (2,2) is possible.  \nCost: 2 moves, each cost 1 \u2192 total 2.  \n\nGiven the problem likely expects a path exists, the minimal cost is 2.\n\nFinal integer: 2"
+}

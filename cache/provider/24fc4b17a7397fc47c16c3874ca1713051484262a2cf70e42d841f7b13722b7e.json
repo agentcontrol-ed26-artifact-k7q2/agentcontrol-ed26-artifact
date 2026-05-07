@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0008696000000000001,
+  "input_tokens": 68,
+  "latency_ms": 5557,
+  "model": "deepseek-reasoner",
+  "output_tokens": 380,
+  "provider": "deepseek",
+  "request_hash": "24fc4b17a7397fc47c16c3874ca1713051484262a2cf70e42d841f7b13722b7e",
+  "text": "```python\nfrom collections import deque\n\ndef topological_sort(n: int, edges: list[tuple[int, int]]) -> list[int]:\n    \"\"\"\n    Returns a topological ordering of nodes 0..n-1 given directed edges (u,v).\n    If the graph contains a cycle, returns an empty list.\n    \"\"\"\n    indegree = [0] * n\n    adj = [[] for _ in range(n)]\n    \n    for u, v in edges:\n        adj[u].append(v)\n        indegree[v] += 1\n    \n    q = deque([i for i in range(n) if indegree[i] == 0])\n    order = []\n    \n    while q:\n        u = q.popleft()\n        order.append(u)\n        for v in adj[u]:\n            indegree[v] -= 1\n            if indegree[v] == 0:\n                q.append(v)\n    \n    if len(order) != n:\n        return []\n    return order\n```"
+}

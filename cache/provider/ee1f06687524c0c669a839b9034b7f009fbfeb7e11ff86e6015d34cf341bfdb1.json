@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.56e-05,
+  "input_tokens": 99,
+  "latency_ms": 700,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 53,
+  "provider": "together",
+  "request_hash": "ee1f06687524c0c669a839b9034b7f009fbfeb7e11ff86e6015d34cf341bfdb1",
+  "text": "The intermediate step is \\(3 + 4 = 7\\).\n\nThe final step is \\(7 \\times (5 - 2) = 7 \\times 3 = 21\\).\n\nSo, the final answer is \\(21\\)."
+}

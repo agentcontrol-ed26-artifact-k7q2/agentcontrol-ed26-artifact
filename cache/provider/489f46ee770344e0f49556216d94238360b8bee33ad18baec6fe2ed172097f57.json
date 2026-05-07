@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001584,
+  "input_tokens": 89,
+  "latency_ms": 4719,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 91,
+  "provider": "together",
+  "request_hash": "489f46ee770344e0f49556216d94238360b8bee33ad18baec6fe2ed172097f57",
+  "text": "To solve this problem, consider using dynamic programming to build up a table of achievable sums.\n\n```python\ndef subset_sum(xs, target):\n    dp = [False] * (target + 1)\n    dp[0] = True\n    for x in xs:\n        for i in range(target, x - 1, -1):\n            dp[i] = dp[i] or dp[i - x]\n    return dp[target]\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014131000000000001,
+  "input_tokens": 63,
+  "latency_ms": 2123,
+  "model": "deepseek-chat",
+  "output_tokens": 113,
+  "provider": "deepseek",
+  "request_hash": "677cdfcb34df20c82bf9302f1e72c58895e582d3b2c3147e982a320405577ce5",
+  "text": "def longest_increasing_subseq(xs):\n    if not xs:\n        return 0\n    tails = []\n    for x in xs:\n        lo, hi = 0, len(tails)\n        while lo < hi:\n            mid = (lo + hi) // 2\n            if tails[mid] < x:\n                lo = mid + 1\n            else:\n                hi = mid\n        if lo == len(tails):\n            tails.append(x)\n        else:\n            tails[lo] = x\n    return len(tails)"
+}

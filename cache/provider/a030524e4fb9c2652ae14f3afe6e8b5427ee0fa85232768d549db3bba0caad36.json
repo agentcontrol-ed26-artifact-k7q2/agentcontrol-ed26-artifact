@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.679999999999999e-05,
+  "input_tokens": 147,
+  "latency_ms": 246,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 9,
+  "provider": "together",
+  "request_hash": "a030524e4fb9c2652ae14f3afe6e8b5427ee0fa85232768d549db3bba0caad36",
+  "text": "Mount Everest [doc_everest]"
+}

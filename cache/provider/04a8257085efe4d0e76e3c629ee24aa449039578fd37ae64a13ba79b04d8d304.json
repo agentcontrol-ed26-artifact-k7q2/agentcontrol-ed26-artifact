@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.5e-05,
+  "input_tokens": 239,
+  "latency_ms": 409,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "04a8257085efe4d0e76e3c629ee24aa449039578fd37ae64a13ba79b04d8d304",
+  "text": "HMS Beagle [doc_darwin]"
+}

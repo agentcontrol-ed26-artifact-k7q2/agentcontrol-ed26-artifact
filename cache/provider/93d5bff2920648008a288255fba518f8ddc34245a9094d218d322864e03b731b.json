@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.799e-05,
+  "input_tokens": 277,
+  "latency_ms": 1014,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "93d5bff2920648008a288255fba518f8ddc34245a9094d218d322864e03b731b",
+  "text": "Pierre Curie [doc_curie_marie]"
+}

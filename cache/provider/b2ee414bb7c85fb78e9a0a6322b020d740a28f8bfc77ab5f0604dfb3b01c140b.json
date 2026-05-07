@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020055,
+  "input_tokens": 66,
+  "latency_ms": 1622,
+  "model": "deepseek-reasoner",
+  "output_tokens": 75,
+  "provider": "deepseek",
+  "request_hash": "b2ee414bb7c85fb78e9a0a6322b020d740a28f8bfc77ab5f0604dfb3b01c140b",
+  "text": "Split the string by spaces and count the occurrences of 'banana'."
+}

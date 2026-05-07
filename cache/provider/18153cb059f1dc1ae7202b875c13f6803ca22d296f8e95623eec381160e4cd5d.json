@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024992,
+  "input_tokens": 231,
+  "latency_ms": 948,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 53,
+  "provider": "together",
+  "request_hash": "18153cb059f1dc1ae7202b875c13f6803ca22d296f8e95623eec381160e4cd5d",
+  "text": "Answer: Rosalind Franklin [doc_dna]\nVerification checks:\n1. Check if the X-ray data was used by James Watson and Francis Crick.\n2. Check if Rosalind Franklin's work was related to the helical structure of DNA."
+}

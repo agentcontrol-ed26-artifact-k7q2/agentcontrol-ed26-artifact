@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005425,
+  "input_tokens": 190,
+  "latency_ms": 3094,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "d2386d11eac611b4b01e81c740afa16c6faaa24dbb6d26e408d3a0f071ced24a",
+  "text": "1. Verify that the evidence explicitly states Neil Armstrong was the \"first person to walk on the Moon\" [doc_armstrong].\n2. Confirm that the Apollo 11 mission, which landed humans on the Moon in July 1969, was"
+}

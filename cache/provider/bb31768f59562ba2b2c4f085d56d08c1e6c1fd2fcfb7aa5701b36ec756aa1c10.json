@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046935,
+  "input_tokens": 57,
+  "latency_ms": 3565,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "bb31768f59562ba2b2c4f085d56d08c1e6c1fd2fcfb7aa5701b36ec756aa1c10",
+  "text": "```python\ndef balanced_parens(s: str) -> bool:\n    matching = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010736,
+  "input_tokens": 91,
+  "latency_ms": 4289,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "733aae82f6de2a9469626b7166fe1e07c91bfdf2583a1d5ca848b800a7495dfa",
+  "text": "1. Plug the solution back into the original equation\n2. Use a different method, such as graphical or numerical, to confirm the result\n28"
+}

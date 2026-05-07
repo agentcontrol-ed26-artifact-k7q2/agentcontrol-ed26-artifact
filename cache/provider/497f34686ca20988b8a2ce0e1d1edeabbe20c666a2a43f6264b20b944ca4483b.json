@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.348000000000001e-05,
+  "input_tokens": 174,
+  "latency_ms": 913,
+  "model": "deepseek-chat",
+  "output_tokens": 15,
+  "provider": "deepseek",
+  "request_hash": "497f34686ca20988b8a2ce0e1d1edeabbe20c666a2a43f6264b20b944ca4483b",
+  "text": "Albert Einstein discovered the photoelectric effect.  \n[doc_einstein]"
+}

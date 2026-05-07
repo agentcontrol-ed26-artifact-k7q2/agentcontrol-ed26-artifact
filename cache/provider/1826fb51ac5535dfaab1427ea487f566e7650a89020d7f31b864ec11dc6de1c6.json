@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00068016,
+  "input_tokens": 66,
+  "latency_ms": 4404,
+  "model": "deepseek-reasoner",
+  "output_tokens": 294,
+  "provider": "deepseek",
+  "request_hash": "1826fb51ac5535dfaab1427ea487f566e7650a89020d7f31b864ec11dc6de1c6",
+  "text": "```python\nxs = [10, 20, 30, 40, 50]\nmean = sum(xs) / len(xs)\nvariance = sum((x - mean) ** 2 for x in xs) / len(xs)\nprint(variance)\n```"
+}

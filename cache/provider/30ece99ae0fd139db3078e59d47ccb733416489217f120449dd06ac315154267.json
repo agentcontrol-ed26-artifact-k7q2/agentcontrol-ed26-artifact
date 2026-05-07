@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010648,
+  "input_tokens": 79,
+  "latency_ms": 795,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "30ece99ae0fd139db3078e59d47ccb733416489217f120449dd06ac315154267",
+  "text": "25\n1. Multiply 25 by 4 to verify the result equals 100.\n2. Divide 100 by 2 and then the result by 2 to verify the answer is the same."
+}

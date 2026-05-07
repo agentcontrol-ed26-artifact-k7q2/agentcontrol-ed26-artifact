@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00017566000000000004,
+  "input_tokens": 68,
+  "latency_ms": 2666,
+  "model": "deepseek-chat",
+  "output_tokens": 143,
+  "provider": "deepseek",
+  "request_hash": "9017bbe84038b7c1467435d2cde731f419f7f99013dc4eb815540bbe92d5d3c7",
+  "text": "We are given the quadratic:  \n\\( x^2 - 5x + 6 \\).  \n\nHere, \\( a = 1 \\), \\( b = -5 \\), \\( c = 6 \\).  \n\nThe discriminant formula is:  \n\\[\n\\Delta = b^2 - 4ac\n\\]\n\nFirst, compute \\( b^2 \\):  \n\\[\nb^2 = (-5)^2 = 25\n\\]\n\nNext, compute \\( 4ac \\):  \n\\[\n4ac = 4 \\cdot 1 \\cdot 6 = 24\n\\]\n\nNow, subtract:  \n\\[\n\\Delta = 25 - 24 = 1\n\\]\n\nFinal answer:  \n1"
+}

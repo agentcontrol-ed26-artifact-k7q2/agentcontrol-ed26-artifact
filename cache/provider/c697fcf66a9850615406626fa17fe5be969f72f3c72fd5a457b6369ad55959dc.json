@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00052545,
+  "input_tokens": 159,
+  "latency_ms": 3401,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "c697fcf66a9850615406626fa17fe5be969f72f3c72fd5a457b6369ad55959dc",
+  "text": "1. Verify that the \"Nazi regime's leader\" refers to Adolf Hitler, as stated in doc_war.\n2. Confirm that the \"war\" mentioned is World War II, and check that its end year (194"
+}

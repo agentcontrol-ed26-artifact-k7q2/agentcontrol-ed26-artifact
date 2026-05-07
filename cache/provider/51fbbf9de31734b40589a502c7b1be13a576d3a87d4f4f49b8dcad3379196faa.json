@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030238,
+  "input_tokens": 64,
+  "latency_ms": 2222,
+  "model": "deepseek-reasoner",
+  "output_tokens": 122,
+  "provider": "deepseek",
+  "request_hash": "51fbbf9de31734b40589a502c7b1be13a576d3a87d4f4f49b8dcad3379196faa",
+  "text": "drop = 20\npercent = 25\n25"
+}

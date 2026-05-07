@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023760000000000003,
+  "input_tokens": 220,
+  "latency_ms": 841,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "9c4968dbdf4c5827a82da54777c99ad64480a449a386b386a548e35e050a8151",
+  "text": "To verify the answer, we need to check:\n1. If the Analytical Engine is associated with a Nobel laureate, \n2. If Ada Lovelace, the programmer, worked with the Analytical Engine [doc_lovelace]"
+}

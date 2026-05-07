@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.7120000000000004e-05,
+  "input_tokens": 56,
+  "latency_ms": 936,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "1b5136967315ab1aad2bd2d1dcf7c3e6ae8a9ab156d279afb9c5460ed391cb30",
+  "text": "```python\ndef count_set_bits(n):\n    return bin(n).count('1')\n```"
+}

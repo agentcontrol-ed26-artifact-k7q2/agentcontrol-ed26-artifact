@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016192000000000002,
+  "input_tokens": 88,
+  "latency_ms": 998,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 96,
+  "provider": "together",
+  "request_hash": "0a9402f1e2f1845a9c582533c86eab8e7f55538e64d743dda77a3ac23e2f7767",
+  "text": "To solve this problem, you can utilize a dictionary to count the occurrences of each element in the list and then return a sorted list of elements that appear more than once.\n\n```python\ndef find_duplicates(xs):\n    counts = {}\n    for x in xs:\n        if x in counts:\n            counts[x] += 1\n        else:\n            counts[x] = 1\n    return sorted([x for x in counts if counts[x] > 1])\n```"
+}

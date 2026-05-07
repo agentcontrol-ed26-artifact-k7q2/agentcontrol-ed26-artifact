@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010559999999999999,
+  "input_tokens": 89,
+  "latency_ms": 782,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "a26c84c180166ceb0c16127688d499e043b6316d0b1b7b41a308aa0080a7c73b",
+  "text": "The most common mistake to avoid in solving this is forgetting to convert the percentage to a decimal by dividing by 100 before multiplying it by the number."
+}

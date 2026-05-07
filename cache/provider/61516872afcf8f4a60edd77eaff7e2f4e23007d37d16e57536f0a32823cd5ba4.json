@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047430000000000004,
+  "input_tokens": 66,
+  "latency_ms": 3383,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "61516872afcf8f4a60edd77eaff7e2f4e23007d37d16e57536f0a32823cd5ba4",
+  "text": "```python\ndef topological_sort(n, edges):\n    \"\"\"\n    Returns a topological ordering of nodes 0..n-1 given directed edges (u,v) meaning u->v.\n    If a cycle exists, returns an empty list.\n    \"\"\"\n    from collections import deque\n\n    # Build adjacency list and in-degree count\n    adj = [[] for _ in range(n)]\n    in_degree = [0] * n\n    for u, v in edges:\n        adj[u].append(v)\n        in_degree[v] += 1\n\n    # Initialize queue with nodes having"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031926000000000003,
+  "input_tokens": 246,
+  "latency_ms": 1740,
+  "model": "deepseek-reasoner",
+  "output_tokens": 84,
+  "provider": "deepseek",
+  "request_hash": "06bae08886254df6658f5c2b4c794f4a77165e9e682757294a8f11363de401d9",
+  "text": "The Amazon River [doc_amazon_river]"
+}

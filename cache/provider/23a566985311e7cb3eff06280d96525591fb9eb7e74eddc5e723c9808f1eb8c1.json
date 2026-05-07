@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.51e-05,
+  "input_tokens": 82,
+  "latency_ms": 1163,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 135,
+  "provider": "together",
+  "request_hash": "23a566985311e7cb3eff06280d96525591fb9eb7e74eddc5e723c9808f1eb8c1",
+  "text": "```python\nfrom collections import defaultdict\n\ndef topological_sort(n, edges):\n    def dfs(node):\n        if node in visited:\n            return visited[node]\n        visited[node] = None\n        for neighbor in graph[node]:\n            if dfs(neighbor) is None:\n                return None\n        visited[node] = node\n        return node\n    \n    graph = defaultdict(list)\n    for u, v in edges:\n        graph[u].append(v)\n    \n    visited = {}\n    order = []\n    \n    for node in range(n):\n        if dfs(node) is None:\n            return []\n        order.append(dfs(node))\n    \n    return order[::-1]\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.24e-05,
+  "input_tokens": 73,
+  "latency_ms": 406,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "0a3117b26db193c9e1239fcef2c3b2107df46f50f9f2d2b6bd74a96bf64f3134",
+  "text": "xs = list(range(1, 21))\neven_sum = sum(x for x in xs if x % 2 == 0)\nprint(even_sum)"
+}

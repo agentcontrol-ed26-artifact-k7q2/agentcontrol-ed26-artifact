@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032094000000000003,
+  "input_tokens": 261,
+  "latency_ms": 1580,
+  "model": "deepseek-reasoner",
+  "output_tokens": 81,
+  "provider": "deepseek",
+  "request_hash": "2c56c363cc872c95f7602d12f226d1ee2621105ba484d8dee6feb7894944581e",
+  "text": "Ulm, Germany [doc_einstein_birth]"
+}

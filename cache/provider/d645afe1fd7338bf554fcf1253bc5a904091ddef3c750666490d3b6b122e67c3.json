@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026928,
+  "input_tokens": 290,
+  "latency_ms": 675,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "d645afe1fd7338bf554fcf1253bc5a904091ddef3c750666490d3b6b122e67c3",
+  "text": "Albert Einstein was born in Ulm, Germany [doc_einstein_birth]"
+}

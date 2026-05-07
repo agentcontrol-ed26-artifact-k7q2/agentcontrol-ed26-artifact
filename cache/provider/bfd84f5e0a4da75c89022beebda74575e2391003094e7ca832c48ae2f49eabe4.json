@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.76e-05,
+  "input_tokens": 78,
+  "latency_ms": 935,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 114,
+  "provider": "together",
+  "request_hash": "bfd84f5e0a4da75c89022beebda74575e2391003094e7ca832c48ae2f49eabe4",
+  "text": "```python\ndef next_permutation(xs):\n    n = len(xs)\n    i = n - 2\n    while i >= 0 and xs[i] >= xs[i + 1]:\n        i -= 1\n    if i == -1:\n        xs.reverse()\n    else:\n        j = n - 1\n        while xs[j] <= xs[i]:\n            j -= 1\n        xs[i], xs[j] = xs[j], xs[i]\n        xs[i + 1:] = reversed(xs[i + 1:])\n```"
+}

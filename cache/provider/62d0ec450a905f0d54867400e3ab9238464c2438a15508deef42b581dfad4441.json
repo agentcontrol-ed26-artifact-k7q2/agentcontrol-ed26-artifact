@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011263999999999999,
+  "input_tokens": 118,
+  "latency_ms": 387,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "62d0ec450a905f0d54867400e3ab9238464c2438a15508deef42b581dfad4441",
+  "text": "Check doc_amazon [doc_amazon]"
+}

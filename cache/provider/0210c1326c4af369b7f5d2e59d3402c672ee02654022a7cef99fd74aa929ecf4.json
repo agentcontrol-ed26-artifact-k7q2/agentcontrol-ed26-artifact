@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.83e-05,
+  "input_tokens": 133,
+  "latency_ms": 520,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "0210c1326c4af369b7f5d2e59d3402c672ee02654022a7cef99fd74aa929ecf4",
+  "text": "The Nobel Prize was awarded for the discovery of DNA's double helix in 1962 [doc_franklin_death]."
+}

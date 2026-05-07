@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 91,
+  "latency_ms": 632,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "aa3e91ec5bf720314081b89cac29e1fd8bf371691c47bd093660446bbd76cbb2",
+  "text": "3x + 5 = 20\n3x = 20 - 5\n3x = 15\nx = 15 / 3\nx = 5"
+}

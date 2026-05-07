@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.82e-05,
+  "input_tokens": 64,
+  "latency_ms": 464,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "55b2224fb5922d1540bb67ea19bc196fde1a45b23b6bb786d697f4d4d4353c58",
+  "text": "```python\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

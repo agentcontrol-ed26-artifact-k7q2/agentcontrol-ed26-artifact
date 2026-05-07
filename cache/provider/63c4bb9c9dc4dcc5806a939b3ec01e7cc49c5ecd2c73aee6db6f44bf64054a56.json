@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.329999999999999e-05,
+  "input_tokens": 276,
+  "latency_ms": 726,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "63c4bb9c9dc4dcc5806a939b3ec01e7cc49c5ecd2c73aee6db6f44bf64054a56",
+  "text": "The question provided does not have a relevant answer in the given documents, as none of them mention the discoverer of polonium or their daughter. [doc_xxx]"
+}

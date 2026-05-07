@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528000000000001,
+  "input_tokens": 98,
+  "latency_ms": 579,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "e3b2a47069362a2cae765a80e56be17cbeeba84592b37f8a6ea5113b9e940ae7",
+  "text": "```python\ndef count_vowels(s):\n    vowels = 'aeiou'\n    return sum(1 for char in s if char in vowels)\n```"
+}

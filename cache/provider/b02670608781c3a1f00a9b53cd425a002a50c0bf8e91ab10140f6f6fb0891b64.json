@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0019596,
+  "input_tokens": 258,
+  "latency_ms": 12056,
+  "model": "deepseek-reasoner",
+  "output_tokens": 830,
+  "provider": "deepseek",
+  "request_hash": "b02670608781c3a1f00a9b53cd425a002a50c0bf8e91ab10140f6f6fb0891b64",
+  "text": "The provided evidence does not contain information about the birthplace of the publisher of On the Origin of Species. [doc_darwin_origin]"
+}

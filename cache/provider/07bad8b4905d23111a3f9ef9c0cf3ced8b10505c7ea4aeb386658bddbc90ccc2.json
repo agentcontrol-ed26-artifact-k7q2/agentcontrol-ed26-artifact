@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014256,
+  "input_tokens": 129,
+  "latency_ms": 621,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "07bad8b4905d23111a3f9ef9c0cf3ced8b10505c7ea4aeb386658bddbc90ccc2",
+  "text": "The answer is: World War II ended in 1945 [doc_war]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

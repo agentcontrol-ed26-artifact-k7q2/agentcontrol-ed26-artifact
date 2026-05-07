@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.059999999999999e-05,
+  "input_tokens": 286,
+  "latency_ms": 297,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "ededd8e359f8e122b6a799a636662d2ca79176218aacedb73f030a28029cf901",
+  "text": "Guido van Rossum was born in the Netherlands [doc_python2]."
+}

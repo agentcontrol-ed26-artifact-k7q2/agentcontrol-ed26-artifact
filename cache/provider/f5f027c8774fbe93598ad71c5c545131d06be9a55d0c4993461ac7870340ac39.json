@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.58e-05,
+  "input_tokens": 62,
+  "latency_ms": 528,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "f5f027c8774fbe93598ad71c5c545131d06be9a55d0c4993461ac7870340ac39",
+  "text": "```python\ndef max_of_three(a, b, c):\n    return max(a, b, c)\n```"
+}

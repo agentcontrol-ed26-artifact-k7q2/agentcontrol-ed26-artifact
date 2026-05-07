@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025432000000000005,
+  "input_tokens": 89,
+  "latency_ms": 9689,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "3a4d5c08105abbedcb54bc361ee5d52eafa6478af34aa9bbb544d3aeb4dabb28",
+  "text": "The most common bug to avoid in the 0/1 knapsack problem is not properly handling the base case or the recursive/iterative approach, leading to incorrect or inefficient solutions, such as exceeding the capacity or not considering all possible combinations of items.\n\n```python\ndef knapsack_01(weights, values, capacity):\n    n = len(values)\n    dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]\n    for i in range(n + 1):\n        for w in range(capacity + 1):\n            if i == 0 or w == 0:\n                dp[i][w] = 0\n            elif weights[i-1] <= w:\n                dp[i][w] = max(values[i-1] + dp[i-1][w-weights[i-1]], dp[i-1][w])\n            else:\n                dp[i][w] = dp[i-1][w]\n"
+}

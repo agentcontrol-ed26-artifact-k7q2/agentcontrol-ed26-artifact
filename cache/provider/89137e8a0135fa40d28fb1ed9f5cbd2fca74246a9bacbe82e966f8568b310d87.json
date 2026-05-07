@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.029e-05,
+  "input_tokens": 67,
+  "latency_ms": 661,
+  "model": "deepseek-chat",
+  "output_tokens": 2,
+  "provider": "deepseek",
+  "request_hash": "89137e8a0135fa40d28fb1ed9f5cbd2fca74246a9bacbe82e966f8568b310d87",
+  "text": "2020"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.856e-05,
+  "input_tokens": 88,
+  "latency_ms": 633,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "cd1c06856204222fe27127ca2425aee6fe5a2f52d819fe74014c8e3107e6c816",
+  "text": "11 squared is 121, 7 squared is 49, 121 - 49 is 72\n72"
+}

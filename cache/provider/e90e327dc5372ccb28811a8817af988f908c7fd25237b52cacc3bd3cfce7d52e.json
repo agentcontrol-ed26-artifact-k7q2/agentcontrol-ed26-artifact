@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005029,
+  "input_tokens": 118,
+  "latency_ms": 3344,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "e90e327dc5372ccb28811a8817af988f908c7fd25237b52cacc3bd3cfce7d52e",
+  "text": "1. Verify that the evidence explicitly states \"Mount Everest is the highest mountain above sea level\" in doc_everest.  \n2. Confirm that no contradictory information about the highest mountain above sea level appears in any other provided evidence"
+}

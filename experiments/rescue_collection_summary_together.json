@@ -1,0 +1,43 @@
+{
+  "decisive": true,
+  "provider_mode": "together",
+  "n_tasks": 60,
+  "incremental_spend_usd": 0.0,
+  "n_jobs": 420,
+  "n_errors": 0,
+  "per_action_success_rate": {
+    "cheap_answer": {
+      "n": 60,
+      "successes": 57
+    },
+    "cheap_repair": {
+      "n": 60,
+      "successes": 55
+    },
+    "strong_hint": {
+      "n": 60,
+      "successes": 0
+    },
+    "cheap_repair_after_hint": {
+      "n": 60,
+      "successes": 55
+    },
+    "strong_critique": {
+      "n": 60,
+      "successes": 0
+    },
+    "strong_checklist": {
+      "n": 60,
+      "successes": 0
+    },
+    "strong_answer": {
+      "n": 60,
+      "successes": 57
+    }
+  },
+  "per_family_n": {
+    "math": 30,
+    "evidence": 15,
+    "code": 15
+  }
+}

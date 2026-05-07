@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8e-05,
+  "input_tokens": 132,
+  "latency_ms": 503,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "141e9e5012d7c26629047feb8c438ed2260c7641d0e7d9abbd3a0b3e1573e742",
+  "text": "The information provided does not contain details about who patented the telephone or the birthplace of that person. [doc_aldrin_bio]"
+}

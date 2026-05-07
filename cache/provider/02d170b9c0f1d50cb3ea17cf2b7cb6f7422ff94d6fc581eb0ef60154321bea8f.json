@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00032105,
+  "input_tokens": 86,
+  "latency_ms": 2419,
+  "model": "deepseek-reasoner",
+  "output_tokens": 125,
+  "provider": "deepseek",
+  "request_hash": "02d170b9c0f1d50cb3ea17cf2b7cb6f7422ff94d6fc581eb0ef60154321bea8f",
+  "text": "1. Verify that the evidence explicitly names the individuals who elucidated the double helix structure: James Watson and Francis Crick.\n2. Verify that the evidence includes the year 1953, confirming the timing of the elucidation."
+}

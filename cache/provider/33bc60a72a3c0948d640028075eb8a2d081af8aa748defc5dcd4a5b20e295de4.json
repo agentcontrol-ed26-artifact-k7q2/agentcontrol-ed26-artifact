@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022731,
+  "input_tokens": 39,
+  "latency_ms": 1985,
+  "model": "deepseek-reasoner",
+  "output_tokens": 94,
+  "provider": "deepseek",
+  "request_hash": "33bc60a72a3c0948d640028075eb8a2d081af8aa748defc5dcd4a5b20e295de4",
+  "text": "There are 4 primes between 1 and 10: 2, 3, 5, and 7.\n\nFinal answer: 4"
+}

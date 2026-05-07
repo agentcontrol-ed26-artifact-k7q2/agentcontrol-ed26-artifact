@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000154,
+  "input_tokens": 99,
+  "latency_ms": 2152,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 76,
+  "provider": "together",
+  "request_hash": "d34c29c5695bf838cb09510abd9b73a497579a9ccd597560abc26133f85b04d1",
+  "text": "Let's denote the number as x. \nThe number is tripled: 3x. \nThen it's increased by 4: 3x + 4 = 31. \nNow solve for x: 3x = 31 - 4, 3x = 27, x = 27 / 3, x = 9.\n9"
+}

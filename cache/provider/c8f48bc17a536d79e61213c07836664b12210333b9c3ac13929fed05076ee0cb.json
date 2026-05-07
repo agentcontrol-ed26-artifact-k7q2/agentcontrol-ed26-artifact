@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031888,
+  "input_tokens": 94,
+  "latency_ms": 2476,
+  "model": "deepseek-reasoner",
+  "output_tokens": 122,
+  "provider": "deepseek",
+  "request_hash": "c8f48bc17a536d79e61213c07836664b12210333b9c3ac13929fed05076ee0cb",
+  "text": "Sort jobs by profit descending; for each job, schedule it at the latest free slot before its deadline."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029021000000000006,
+  "input_tokens": 93,
+  "latency_ms": 3668,
+  "model": "deepseek-chat",
+  "output_tokens": 241,
+  "provider": "deepseek",
+  "request_hash": "bfce26b91c66b96530cd40942ec1711ff031df5da3bdab83e53811e55833dec5",
+  "text": "```python\nxs = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]\n# Sort the list (already sorted)\nxs_sorted = sorted(xs)\nn = len(xs_sorted)\n# 75th percentile position using linear interpolation method\n# For integer rounding to 75, we find the value at 75th percentile\n# Using the formula: index = 0.75 * (n-1)\nindex = 0.75 * (n - 1)\n# Get lower and upper indices\nlower = int(index)\nupper = lower + 1 if lower + 1 < n else lower\n# Interpolate\nif lower == upper:\n    percentile_75 = xs_sorted[lower]\nelse:\n    fraction = index - lower\n    percentile_75 = xs_sorted[lower] * (1 - fraction) + xs_sorted[upper] * fraction\n\n# Round to nearest integer\nthreshold = round(percentile_75)\n\n# Count elements >= threshold\ncount = sum(1 for x in xs_sorted if x >= threshold)\nprint(count)"
+}

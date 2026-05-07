@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.592e-05,
+  "input_tokens": 88,
+  "latency_ms": 603,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "dea523508678314948896eb785ca2e02549ae1092d551640c6140eb372e2d86b",
+  "text": "To find the percent decrease, you'll need to compare the drop in price to the original price."
+}

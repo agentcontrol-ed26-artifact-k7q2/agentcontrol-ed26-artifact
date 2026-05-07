@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010469999999999998,
+  "input_tokens": 271,
+  "latency_ms": 1050,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "eaef00d340572cb905e28002bad215944904e7c4b9188b0dd6373ae43e943cf5",
+  "text": "The publisher of On the Origin of Species, Charles Darwin, traveled from 1831 to 1836 on the HMS Beagle. However, the specific document provided does not contain information about Darwin's travel. The correct information can be inferred from historical knowledge, but based on the given documents, the answer cannot be directly cited. [doc_darwin_origin]"
+}

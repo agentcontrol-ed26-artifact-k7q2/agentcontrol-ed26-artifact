@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014872000000000003,
+  "input_tokens": 151,
+  "latency_ms": 1168,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "d4dc992a6956f30baf045f769a925277b0765245dbf646ca30a292c95a8eeed2",
+  "text": "Hint: doc_curie \nAnswer phrase: Marie Curie [doc_curie]"
+}

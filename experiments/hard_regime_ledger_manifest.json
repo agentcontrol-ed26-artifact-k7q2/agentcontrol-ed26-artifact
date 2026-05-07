@@ -1,0 +1,20 @@
+{
+  "expected_calls_per_provider": {
+    "deepseek": 630,
+    "together": 630
+  },
+  "real_actual_api_call_rows_per_provider": {
+    "deepseek": 434,
+    "together": 455
+  },
+  "real_spend_usd_per_provider": {
+    "deepseek": 0.12017468999999995,
+    "together": 0.04193437999999999
+  },
+  "real_spend_usd_total": 0.16210906999999994,
+  "n_distinct_request_hashes_matched_per_provider": {
+    "deepseek": 434,
+    "together": 455
+  },
+  "protocol": "Reconciliation recomputes the deterministic request_hash for every (task, action, provider, model) tuple from get_pool() using the exact same prompt builder as scripts/run_hard_regime_collection.py, then matches against rows in cache/cost_ledger.jsonl with actual_api_call=true and matching provider. This isolates the hard-regime sprint's real API spend from prior rescue calls."
+}

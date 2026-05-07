@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.1e-05,
+  "input_tokens": 255,
+  "latency_ms": 429,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 15,
+  "provider": "together",
+  "request_hash": "26a83cd913f6aee1251044d8d0c15dd5f63e6075be5f3b3363dd4b3cd3b35925",
+  "text": "Germany's invasion of Poland began World War II [doc_war_dates]."
+}

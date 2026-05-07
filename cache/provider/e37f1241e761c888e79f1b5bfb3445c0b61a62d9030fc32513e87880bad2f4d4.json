@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031550999999999997,
+  "input_tokens": 60,
+  "latency_ms": 2394,
+  "model": "deepseek-reasoner",
+  "output_tokens": 129,
+  "provider": "deepseek",
+  "request_hash": "e37f1241e761c888e79f1b5bfb3445c0b61a62d9030fc32513e87880bad2f4d4",
+  "text": "Convert 18% to a decimal (0.18) and multiply by 250."
+}

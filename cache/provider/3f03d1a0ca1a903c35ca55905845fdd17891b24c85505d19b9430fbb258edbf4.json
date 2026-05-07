@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016192,
+  "input_tokens": 115,
+  "latency_ms": 947,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 69,
+  "provider": "together",
+  "request_hash": "3f03d1a0ca1a903c35ca55905845fdd17891b24c85505d19b9430fbb258edbf4",
+  "text": "To verify the answer, the following checks can be performed:\n1. Confirm the year of the mission: The answer should match the year 1969 as stated in the evidence.\n2. Verify the mission name: The answer should be a specific mission name that is mentioned in the evidence as landing humans on the Moon [doc_moon]"
+}

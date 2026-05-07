@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047543999999999993,
+  "input_tokens": 84,
+  "latency_ms": 3008,
+  "model": "deepseek-reasoner",
+  "output_tokens": 196,
+  "provider": "deepseek",
+  "request_hash": "7bd667912821fdb22e1bce3cc28bb08ab787b23b66c82ef7f7224a2701ae8e60",
+  "text": "Multiply each price by its quantity, then sum the results."
+}

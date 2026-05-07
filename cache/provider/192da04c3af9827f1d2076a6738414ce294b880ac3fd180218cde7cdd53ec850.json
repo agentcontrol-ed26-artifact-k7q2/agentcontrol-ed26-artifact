@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011968000000000002,
+  "input_tokens": 100,
+  "latency_ms": 2155,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 36,
+  "provider": "together",
+  "request_hash": "192da04c3af9827f1d2076a6738414ce294b880ac3fd180218cde7cdd53ec850",
+  "text": "The most common bug to avoid when implementing a topological sort function is incorrectly handling the case where the graph contains a cycle, which can cause an infinite loop or incorrect results."
+}

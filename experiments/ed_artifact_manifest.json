@@ -1,0 +1,112 @@
+{
+  "package_decision": "E&D-PACKAGE",
+  "timestamp": "2026-04-27T05:26:12Z",
+  "smoke_numbers": {
+    "pytest": "must be re-run; expected 18/18 passing",
+    "n_total": 28,
+    "n_math": 20,
+    "n_code": 4,
+    "n_evidence": 4,
+    "oracle_query_router_avg_cost": 2.4643,
+    "oracle_deliberation_graph_avg_cost": 1.8214,
+    "oracle_query_router_success_rate": 1.0,
+    "oracle_deliberation_graph_success_rate": 1.0,
+    "cost_saving_pct_at_observed": 26.087,
+    "success_delta_pp": 0.0,
+    "decision": "BACKUP",
+    "heuristic_bdelg_avg_cost": 1.9286,
+    "heuristic_bdelg_success_rate": 1.0,
+    "heuristic_bdelg_avg_unsupported_risk": 0.0
+  },
+  "required_files_present": [
+    "experiments/aggregate_summary.json",
+    "experiments/baselines_summary.json",
+    "experiments/heuristic_bdelg_summary.json",
+    "experiments/oracle_gap_summary.json",
+    "experiments/smoke_outcomes.json",
+    "traces/smoke_math_code.jsonl",
+    "traces/smoke_evidence.jsonl",
+    "cache/cost_ledger.jsonl",
+    "reports/SMOKE_DECISION.md",
+    "reports/ORACLE_GAP_DECISION.md",
+    "reports/TRACK_DECISION.md",
+    "reports/COMPUTE_ESCALATION_DECISION.md"
+  ],
+  "missing_files": [],
+  "decision_doc_findings": [
+    {
+      "file": "reports/SMOKE_DECISION.md",
+      "mode": "must_contain_any",
+      "needles": [
+        "BACKUP",
+        "E&D-only",
+        "E&D-PACKAGE",
+        "E&D fallback"
+      ],
+      "status": "OK"
+    },
+    {
+      "file": "reports/ORACLE_GAP_DECISION.md",
+      "mode": "must_not_contain",
+      "needles": [
+        "DECISION: GO"
+      ],
+      "hits": [],
+      "status": "OK"
+    },
+    {
+      "file": "reports/TRACK_DECISION.md",
+      "mode": "must_contain_any",
+      "needles": [
+        "BACKUP",
+        "E&D"
+      ],
+      "status": "OK"
+    },
+    {
+      "file": "reports/COMPUTE_ESCALATION_DECISION.md",
+      "mode": "must_contain_any",
+      "needles": [
+        "DO-NOT-SCALE"
+      ],
+      "status": "OK"
+    },
+    {
+      "file": "reports/ED_PACKAGE_DECISION.md",
+      "mode": "must_contain_any",
+      "needles": [
+        "DECISION: E&D-PACKAGE"
+      ],
+      "status": "OK"
+    },
+    {
+      "file": "reports/MAIN_RESCUE_OPTION.md",
+      "mode": "must_contain_any",
+      "needles": [
+        "DECISION: NOT ACTIVE"
+      ],
+      "status": "OK"
+    }
+  ],
+  "forbidden_escalation_findings": [],
+  "codex_review_status": "succeeded",
+  "reproduction_commands": [
+    "python -m pytest tests -q",
+    "python scripts/run_smoke_math_code.py",
+    "python scripts/run_smoke_evidence.py",
+    "python scripts/enumerate_oracle_graph.py",
+    "python scripts/run_baselines.py",
+    "python scripts/run_heuristic_bdelg.py",
+    "python scripts/aggregate_results.py",
+    "python scripts/make_figures.py",
+    "python scripts/prepare_ed_package.py"
+  ],
+  "generated_review_bundle": "review_bundles/gate_ed_artifact_review.md",
+  "generated_codex_prompt": "review_bundles/gate_ed_artifact_review_prompt.md",
+  "codex_review_outputs": {
+    "codex_output": "review_bundles/gate_ed_artifact_review_codex.md",
+    "codex_prompt": "review_bundles/gate_ed_artifact_review_prompt.md",
+    "remaining_work_doc": "reports/ED_REMAINING_WORK.md",
+    "verdict": "needs-fixes (all 4 items addressed)"
+  }
+}

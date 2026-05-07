@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025473,
+  "input_tokens": 57,
+  "latency_ms": 1987,
+  "model": "deepseek-reasoner",
+  "output_tokens": 102,
+  "provider": "deepseek",
+  "request_hash": "c1c6ffba1a4bfd952b565c91d084665e8607a46c6f87e4df48ddbff08d1ff9e3",
+  "text": "The most common mistake is forgetting that division is the inverse of multiplication and incorrectly computing 144/12 as 11 or 13 instead of 12."
+}

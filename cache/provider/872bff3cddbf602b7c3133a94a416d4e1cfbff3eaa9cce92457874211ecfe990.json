@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.8e-05,
+  "input_tokens": 132,
+  "latency_ms": 550,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "872bff3cddbf602b7c3133a94a416d4e1cfbff3eaa9cce92457874211ecfe990",
+  "text": "Pierre Curie shared the 1903 Nobel Prize in Physics with Henri Becquerel [doc_curie_pierre]."
+}

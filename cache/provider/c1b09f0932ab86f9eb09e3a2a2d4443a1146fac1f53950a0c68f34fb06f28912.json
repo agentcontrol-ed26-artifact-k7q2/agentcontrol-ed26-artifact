@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020986,
+  "input_tokens": 67,
+  "latency_ms": 1890,
+  "model": "deepseek-reasoner",
+  "output_tokens": 79,
+  "provider": "deepseek",
+  "request_hash": "c1b09f0932ab86f9eb09e3a2a2d4443a1146fac1f53950a0c68f34fb06f28912",
+  "text": "The area equals length times width, so divide the area by the given width."
+}

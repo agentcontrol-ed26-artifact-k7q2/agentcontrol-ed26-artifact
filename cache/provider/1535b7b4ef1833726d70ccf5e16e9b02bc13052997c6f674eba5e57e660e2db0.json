@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023144000000000002,
+  "input_tokens": 213,
+  "latency_ms": 827,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "1535b7b4ef1833726d70ccf5e16e9b02bc13052997c6f674eba5e57e660e2db0",
+  "text": "Answer: HMS Beagle [doc_darwin]\nVerification checks:\n1. Check the years of travel to ensure they match the given time frame.\n2. Verify the name of the ship to confirm it is the correct vessel Darwin traveled on."
+}

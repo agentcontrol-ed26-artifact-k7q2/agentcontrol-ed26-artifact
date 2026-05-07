@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002508,
+  "input_tokens": 85,
+  "latency_ms": 1433,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "2f664b813e0f6000742b648ff0c0442dc9885d9893700188bc97711f558bfdab",
+  "text": "To find the minimum number of coins, we can use dynamic programming. \n\nLet's break it down:\n- For 0 cents, we need 0 coins.\n- For 1 cent, we need 1 coin (1 cent).\n- For 2 cents, we need 2 coins (1 cent + 1 cent).\n- For 3 cents, we need 3 coins (1 cent + 1 cent + 1 cent).\n- For 4 cents, we need 4 coins (1 cent + 1 cent + 1 cent + 1 cent).\n- For 5 cents, we need 1 coin (5 cents).\n- For 6 cents, we need 2 coins (5 cents + 1 cent).\n- For 7 cents, we need 2 coins (5 cents + 1 cent + 1 cent) or 3 coins (1 cent + 1 cent + 1 cent + 1 cent + 1 cent + 1"
+}

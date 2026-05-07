@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014431999999999997,
+  "input_tokens": 150,
+  "latency_ms": 458,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "99fed46299a9f26284d22a0aac6d8409f214b98f5c2344185b2dc05967b66d06",
+  "text": "Charles Babbage designed the Analytical Engine [doc_babbage]"
+}

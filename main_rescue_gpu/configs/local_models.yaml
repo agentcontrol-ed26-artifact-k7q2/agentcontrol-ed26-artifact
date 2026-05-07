@@ -1,0 +1,17 @@
+# Local model ladder configuration.
+# TIER0_NO_GPU detected — local model serving NOT authorized in this run.
+# API fallback is the only path.
+tier: TIER0_NO_GPU
+local_serving_authorized: false
+api_fallback:
+  cheap: deepseek-chat                        # DeepSeek V4 non-thinking
+  strong: deepseek-reasoner                   # DeepSeek V4 thinking / R1
+  cheap_alt: Qwen/Qwen2.5-7B-Instruct-Turbo   # Together
+  strong_alt: meta-llama/Llama-3.3-70B-Instruct-Turbo  # Together
+note: |
+  Detected GPU (Quadro P1000, 4 GB) is too small to host any usable LLM
+  (3B fp16 ≈ 6 GB, 7B fp16 ≈ 14 GB). Torch is CPU-only. We will not download
+  models and will not install vllm. The interactive task pool is evaluated
+  via API; observation actions (run_tests / run_code / retrieve /
+  citation_check / tool_observation / checkpoint_check) execute locally for
+  free.

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027016000000000003,
+  "input_tokens": 288,
+  "latency_ms": 486,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "93b3d33128b97d7f2d94a29e79683031767b78a8c708b078550fbf12b4fff81e",
+  "text": "The Apollo 11 mission first landed humans on the Moon [doc_apollo_mission]"
+}

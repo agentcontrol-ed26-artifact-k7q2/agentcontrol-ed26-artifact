@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.120000000000001e-05,
+  "input_tokens": 293,
+  "latency_ms": 645,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "3d89627f75d600956c4e44abbe6974d8b26a09bbcb17f441a29ba5553e3e1cec",
+  "text": "1919 [doc_hillary_bio]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027279999999999996,
+  "input_tokens": 271,
+  "latency_ms": 821,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "e8814c2cf6958973407911b760b180ff8a9caf8e19edbcb8563fb7e865cff76d",
+  "text": "The provided information does not specify where Edmund Hillary climbed Everest from, only that he summited Everest with Tenzing Norgay in 1953, answer [doc_hillary_bio]"
+}

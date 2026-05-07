@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002464,
+  "input_tokens": 227,
+  "latency_ms": 6174,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 53,
+  "provider": "together",
+  "request_hash": "dcea8ad645ba1384939953ac90bd86f5c566f5b41188611c92975edd48f1e913",
+  "text": "To verify the answer, we need to check the following:\n1. The documents should mention a person who shared the 1903 Nobel Prize.\n2. The same person should be credited with the discovery of radium.\n\nAnswer phrase: [doc_curie]"
+}

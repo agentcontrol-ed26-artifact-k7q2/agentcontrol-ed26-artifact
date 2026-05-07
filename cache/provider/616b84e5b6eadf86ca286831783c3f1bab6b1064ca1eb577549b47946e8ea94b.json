@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014696,
+  "input_tokens": 135,
+  "latency_ms": 514,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "616b84e5b6eadf86ca286831783c3f1bab6b1064ca1eb577549b47946e8ea94b",
+  "text": "The answer is Shrewsbury, England [doc_darwin]. \nThe most common citation mistake is including multiple citations when only one is relevant."
+}

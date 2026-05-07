@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002376,
+  "input_tokens": 254,
+  "latency_ms": 672,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "f0f7c4635d7d760da593aa23074ac09b4a2683b09dc9d85483d0b3c3c160998b",
+  "text": "The creator of Python is Guido van Rossum [doc_python_creator]"
+}

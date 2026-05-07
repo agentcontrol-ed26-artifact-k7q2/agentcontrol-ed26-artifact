@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020768000000000002,
+  "input_tokens": 100,
+  "latency_ms": 1016,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 136,
+  "provider": "together",
+  "request_hash": "a3b2bc8132294a1186be54981b7dd74c714480131d941fd3bbdd70449ebde96d",
+  "text": "```python\nfrom collections import Counter\n\ndef find_anagrams(s, p):\n    p_count = Counter(p)\n    s_count = Counter()\n    anagrams = []\n    for i in range(len(s)):\n        s_count[s[i]] += 1\n        if i >= len(p):\n            s_count[s[i - len(p)]] -= 1\n            if s_count[s[i - len(p)]] == 0:\n                del s_count[s[i - len(p)]]\n        if i >= len(p) - 1 and s_count == p_count:\n            anagrams.append(i - len(p) + 1)\n    return anagrams\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.550000000000001e-05,
+  "input_tokens": 76,
+  "latency_ms": 1028,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 109,
+  "provider": "together",
+  "request_hash": "a968f1d0d6badb28dd2de68b1531e51f6aafe83c4a4aa163758ad6c710382832",
+  "text": "```python\ndef word_break(s, words):\n    from collections import defaultdict\n    \n    def dfs(start):\n        if start == len(s):\n            return True\n        if start in memo:\n            return memo[start]\n        \n        for end in range(start + 1, len(s) + 1):\n            if s[start:end] in words and dfs(end):\n                memo[start] = True\n                return True\n        \n        memo[start] = False\n        return False\n    \n    memo = defaultdict(bool)\n    return dfs(0)\n```"
+}

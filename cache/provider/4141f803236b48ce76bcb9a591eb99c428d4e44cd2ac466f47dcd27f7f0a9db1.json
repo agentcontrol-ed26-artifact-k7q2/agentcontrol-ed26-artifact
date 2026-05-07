@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.201e-05,
+  "input_tokens": 193,
+  "latency_ms": 817,
+  "model": "deepseek-chat",
+  "output_tokens": 9,
+  "provider": "deepseek",
+  "request_hash": "4141f803236b48ce76bcb9a591eb99c428d4e44cd2ac466f47dcd27f7f0a9db1",
+  "text": "Marie Curie [doc_curie]"
+}

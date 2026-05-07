@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011792000000000001,
+  "input_tokens": 100,
+  "latency_ms": 719,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "936b1b7275235cd5ef7b7140a5baf3ad51ad26b1c0d3607ff82cb677c4412384",
+  "text": "The most common bug to avoid in this function is not handling the case where the input is a negative integer, which is outside the specified domain of nonnegative integers."
+}

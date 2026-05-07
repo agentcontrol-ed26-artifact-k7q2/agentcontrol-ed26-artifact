@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.584e-05,
+  "input_tokens": 72,
+  "latency_ms": 1038,
+  "model": "deepseek-chat",
+  "output_tokens": 24,
+  "provider": "deepseek",
+  "request_hash": "7c5fddfc7206457f4eeb09b9010243d9d080a4a3c134df6d4a102a7c463d5976",
+  "text": "```python\ndef reverse_words(s):\n    words = s.split()\n    return ' '.join(reversed(words))\n```"
+}

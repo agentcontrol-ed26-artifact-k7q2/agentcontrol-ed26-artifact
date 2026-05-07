@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001364,
+  "input_tokens": 113,
+  "latency_ms": 1899,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "5fe1ed418dc895101dafa5431a2a9133b48488956ada5f46130d2ddfc156d37a",
+  "text": "The most common citation mistake is failing to properly reference the source of the information, such as not including the author's name or the title of the publication, which can lead to plagiarism [doc_evolution]."
+}

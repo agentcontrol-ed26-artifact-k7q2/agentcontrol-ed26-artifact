@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015779000000000002,
+  "input_tokens": 67,
+  "latency_ms": 2229,
+  "model": "deepseek-chat",
+  "output_tokens": 127,
+  "provider": "deepseek",
+  "request_hash": "101a3b7ef2e9afcdba6019837a54ca36f992e68944b11075887524d9c14eb5e0",
+  "text": "```python\ndef decode_string(s: str) -> str:\n    stack = []\n    current_num = 0\n    current_str = ''\n    \n    for char in s:\n        if char.isdigit():\n            current_num = current_num * 10 + int(char)\n        elif char == '[':\n            stack.append((current_str, current_num))\n            current_str = ''\n            current_num = 0\n        elif char == ']':\n            prev_str, num = stack.pop()\n            current_str = prev_str + current_str * num\n        else:\n            current_str += char\n    \n    return current_str\n```"
+}

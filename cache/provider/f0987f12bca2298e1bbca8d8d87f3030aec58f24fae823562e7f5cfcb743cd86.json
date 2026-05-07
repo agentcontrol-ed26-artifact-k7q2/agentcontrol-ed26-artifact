@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0009220599999999999,
+  "input_tokens": 247,
+  "latency_ms": 4972,
+  "model": "deepseek-reasoner",
+  "output_tokens": 359,
+  "provider": "deepseek",
+  "request_hash": "f0987f12bca2298e1bbca8d8d87f3030aec58f24fae823562e7f5cfcb743cd86",
+  "text": "The provided evidence does not mention any sister of Marie Curie winning a Nobel Prize; it only discusses her daughter Irene Joliot-Curie's Nobel Prize in Chemistry. \n[doc_curie_marie]"
+}

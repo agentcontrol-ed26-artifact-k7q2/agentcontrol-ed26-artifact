@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019888,
+  "input_tokens": 96,
+  "latency_ms": 4294,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 130,
+  "provider": "together",
+  "request_hash": "f96a2a685ff673a850e369d994a621b8c09e11677cd9013fc3f4ca0eb9d03449",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for layer in range(n // 2):\n        first, last = layer, n - layer - 1\n        for i in range(first, last):\n            top = m[layer][i]\n            m[layer][i] = m[-i - 1][layer]\n            m[-i - 1][layer] = m[-layer - 1][-i - 1]\n            m[-layer - 1][-i - 1] = m[i][-layer - 1]\n            m[i][-layer - 1] = top\n```"
+}

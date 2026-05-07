@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.2000000000000004e-05,
+  "input_tokens": 100,
+  "latency_ms": 672,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "807e4f9167338e97d718f872d212e6b87014572600f3cbb5385bfba7efb5fe66",
+  "text": "There is no information in the provided evidence about the year Alexander Graham Bell emigrated to Canada. The evidence only states that he patented the telephone in 1876 [doc_telephone]."
+}

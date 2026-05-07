@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.35e-05,
+  "input_tokens": 67,
+  "latency_ms": 767,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 78,
+  "provider": "together",
+  "request_hash": "ef9aaa3ed550b9668f4bf45e392d7ca0065e83e7dcbbd7e7d313f7e10b1806f2",
+  "text": "```python\ndef subset_sum(xs, target):\n    if target == 0:\n        return True\n    if not xs:\n        return False\n    include_first = subset_sum(xs[1:], target - xs[0]) if xs[0] <= target else False\n    exclude_first = subset_sum(xs[1:], target)\n    return include_first or exclude_first\n```"
+}

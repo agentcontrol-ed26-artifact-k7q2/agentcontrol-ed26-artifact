@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024709,
+  "input_tokens": 67,
+  "latency_ms": 2223,
+  "model": "deepseek-reasoner",
+  "output_tokens": 96,
+  "provider": "deepseek",
+  "request_hash": "365461fc2e573099d5f04a992fb5fb0f67aed351279f8e75f21da162ed5f8c32",
+  "text": "Find the highest exponent e such that 2^e divides 96."
+}

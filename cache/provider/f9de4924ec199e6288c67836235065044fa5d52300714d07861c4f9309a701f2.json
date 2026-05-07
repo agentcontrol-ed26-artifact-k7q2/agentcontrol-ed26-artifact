@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.1400000000000003e-05,
+  "input_tokens": 86,
+  "latency_ms": 517,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 52,
+  "provider": "together",
+  "request_hash": "f9de4924ec199e6288c67836235065044fa5d52300714d07861c4f9309a701f2",
+  "text": "The intermediate value using the formula \\( n(n+1)/2 \\) with \\( n=20 \\) is \\( 20 \\times 21 = 420 \\).\n\nThe final answer is \\( 210 \\)."
+}

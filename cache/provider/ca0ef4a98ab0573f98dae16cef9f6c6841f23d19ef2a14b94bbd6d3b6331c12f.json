@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021559999999999998,
+  "input_tokens": 98,
+  "latency_ms": 3252,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 147,
+  "provider": "together",
+  "request_hash": "ca0ef4a98ab0573f98dae16cef9f6c6841f23d19ef2a14b94bbd6d3b6331c12f",
+  "text": "```python\nfrom collections import defaultdict, deque\n\ndef topological_sort(n, edges):\n    graph = defaultdict(list)\n    indegree = [0] * n\n    for u, v in edges:\n        graph[u].append(v)\n        indegree[v] += 1\n\n    queue = deque([i for i in range(n) if indegree[i] == 0])\n    ordering = []\n\n    while queue:\n        node = queue.popleft()\n        ordering.append(node)\n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n\n    return ordering if len(ordering) == n else []\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.702e-05,
+  "input_tokens": 216,
+  "latency_ms": 913,
+  "model": "deepseek-chat",
+  "output_tokens": 17,
+  "provider": "deepseek",
+  "request_hash": "1e4ef463f6b27eb5a467920bca1cd1a13376a89133d7c0b97da86cd45a9bbd1b",
+  "text": "The Nile River primarily flows through Egypt and Sudan. [doc_nile_river]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012039,
+  "input_tokens": 67,
+  "latency_ms": 2089,
+  "model": "deepseek-chat",
+  "output_tokens": 93,
+  "provider": "deepseek",
+  "request_hash": "9e8024b1250ca7c53a896b9cad515c0d21c2c472112654d7c96bd86324fbba7c",
+  "text": "We factor 360:  \n360 = 36 \u00d7 10 = 6\u00b2 \u00d7 10 = (2\u00d73)\u00b2 \u00d7 (2\u00d75) = 2\u00b2 \u00d7 3\u00b2 \u00d7 2 \u00d7 5 = 2\u00b3 \u00d7 3\u00b2 \u00d7 5\u00b9.  \n\nNumber of divisors = (3+1)(2+1)(1+1) = 4 \u00d7 3 \u00d7 2 = 24.  \n\n24"
+}

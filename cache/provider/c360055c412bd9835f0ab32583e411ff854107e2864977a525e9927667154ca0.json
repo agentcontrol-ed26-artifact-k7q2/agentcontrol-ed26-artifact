@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00042435,
+  "input_tokens": 234,
+  "latency_ms": 2509,
+  "model": "deepseek-reasoner",
+  "output_tokens": 135,
+  "provider": "deepseek",
+  "request_hash": "c360055c412bd9835f0ab32583e411ff854107e2864977a525e9927667154ca0",
+  "text": "Pearl Harbor is known for the surprise attack on December 7, 1941 that brought the United States into World War II. [doc_ww2_pearl]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012581000000000002,
+  "input_tokens": 83,
+  "latency_ms": 1826,
+  "model": "deepseek-chat",
+  "output_tokens": 94,
+  "provider": "deepseek",
+  "request_hash": "7789f2f6cdf12b47b7b08c67c62b47e512a5849dc9c46c316cb22b1dc3a3a647",
+  "text": "```python\ndef word_break(s, words):\n    word_set = set(words)\n    dp = [False] * (len(s) + 1)\n    dp[0] = True\n    for i in range(1, len(s) + 1):\n        for j in range(i):\n            if dp[j] and s[j:i] in word_set:\n                dp[i] = True\n                break\n    return dp[len(s)]\n```"
+}

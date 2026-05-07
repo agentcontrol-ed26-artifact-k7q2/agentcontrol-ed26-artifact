@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.599999999999999e-05,
+  "input_tokens": 94,
+  "latency_ms": 1272,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 126,
+  "provider": "together",
+  "request_hash": "f5608c550b69b9e8fbeb8f9ce6721686ff52995d0b869137e67541f75967e4b0",
+  "text": "The drop in price is 20.\n\nTo find the percent decrease, we use the formula:\n\n\\[\n\\text{Percent Decrease} = \\left( \\frac{\\text{Drop}}{\\text{Original Price}} \\right) \\times 100\n\\]\n\nSubstituting the values:\n\n\\[\n\\text{Percent Decrease} = \\left( \\frac{20}{80} \\right) \\times 100 = 0.25 \\times 100 = 25\\%\n\\]\n\nSo, the percent decrease is 25%."
+}

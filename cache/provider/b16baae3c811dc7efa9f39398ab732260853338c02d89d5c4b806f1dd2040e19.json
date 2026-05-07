@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.73e-05,
+  "input_tokens": 74,
+  "latency_ms": 953,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 117,
+  "provider": "together",
+  "request_hash": "b16baae3c811dc7efa9f39398ab732260853338c02d89d5c4b806f1dd2040e19",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for layer in range(n // 2):\n        first, last = layer, n - layer - 1\n        for i in range(first, last):\n            offset = i - first\n            top = m[first][i]\n            m[first][i] = m[last - offset][first]\n            m[last - offset][first] = m[last][last - offset]\n            m[last][last - offset] = m[i][last]\n            m[i][last] = top\n```"
+}

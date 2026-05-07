@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.2080000000000004e-05,
+  "input_tokens": 54,
+  "latency_ms": 991,
+  "model": "deepseek-chat",
+  "output_tokens": 25,
+  "provider": "deepseek",
+  "request_hash": "9433393afa36aa05b1817992cc82c828a9584a3c1a30ba56bc0d42ab2ce25127",
+  "text": "```python\ndef sum_positive(xs):\n    return sum(x for x in xs if x > 0)\n```"
+}

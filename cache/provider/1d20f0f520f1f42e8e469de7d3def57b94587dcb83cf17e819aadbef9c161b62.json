@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013367,
+  "input_tokens": 51,
+  "latency_ms": 2302,
+  "model": "deepseek-chat",
+  "output_tokens": 109,
+  "provider": "deepseek",
+  "request_hash": "1d20f0f520f1f42e8e469de7d3def57b94587dcb83cf17e819aadbef9c161b62",
+  "text": "We need the minimum number of coins to make 11 cents using 1, 5, and 10 cent coins.\n\n- Using a 10-cent coin leaves 1 cent \u2192 1 more coin (1-cent). Total = 2 coins.  \n- Using two 5-cent coins gives 10 cents, then 1 more cent \u2192 3 coins.  \n- Using eleven 1-cent coins gives 11 coins, which is worse.\n\nThe best is 10 + 1 = 2 coins.\n\nFinal integer: 2"
+}

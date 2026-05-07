@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.768e-05,
+  "input_tokens": 99,
+  "latency_ms": 1547,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 12,
+  "provider": "together",
+  "request_hash": "d9fbd8f524df8d3f07181438d6c8b2d68f62abd84e6733afd19ce257b581c10b",
+  "text": "Consider the concept of permutations for distinct items. \n120"
+}

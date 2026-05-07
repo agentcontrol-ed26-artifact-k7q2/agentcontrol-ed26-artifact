@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.69e-05,
+  "input_tokens": 90,
+  "latency_ms": 534,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "5f3085dbb549a94791d854ded5d1c32b8f8716de7e763a9736564f52fb1de9e4",
+  "text": "The intermediate value for \\(2^5\\) is 32.\n\nThe final value for \\(2^{10}\\) is 1024."
+}

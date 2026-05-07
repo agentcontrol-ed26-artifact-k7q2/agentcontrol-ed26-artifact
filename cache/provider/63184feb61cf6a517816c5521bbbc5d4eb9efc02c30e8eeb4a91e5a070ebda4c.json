@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012144000000000002,
+  "input_tokens": 105,
+  "latency_ms": 756,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "63184feb61cf6a517816c5521bbbc5d4eb9efc02c30e8eeb4a91e5a070ebda4c",
+  "text": "The most common bug to avoid in a binary search implementation is an off-by-one error in the calculation of the mid index or the update of the search boundaries."
+}

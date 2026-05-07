@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.55e-05,
+  "input_tokens": 120,
+  "latency_ms": 958,
+  "model": "deepseek-chat",
+  "output_tokens": 21,
+  "provider": "deepseek",
+  "request_hash": "a8a2b56be00508ad15022728b0b55f659b235c3cfd698217d75e66e72e77315f",
+  "text": "The provided evidence does not contain information about the creator of Python. [doc_aldrin_bio]"
+}

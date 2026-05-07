@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.944000000000001e-05,
+  "input_tokens": 96,
+  "latency_ms": 961,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "3a05daba1b38efc2389a62c8b21e39791b35b80e4dbe21573f391550f6031c73",
+  "text": "```python\ndef add(a, b):\n    return a + b\n```"
+}

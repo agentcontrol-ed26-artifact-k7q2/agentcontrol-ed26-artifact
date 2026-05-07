@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.123e-05,
+  "input_tokens": 59,
+  "latency_ms": 1047,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "0cb0f26ee627e683b006a9e5dfe1e1a4cafeb523a5c845c4275e2662ac41bf75",
+  "text": "11 squared is 121. 7 squared is 49. 121 minus 49 is 72.\n\n72"
+}

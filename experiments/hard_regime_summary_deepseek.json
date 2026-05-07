@@ -1,0 +1,1535 @@
+{
+  "provider": "deepseek",
+  "cheap_model": "deepseek-chat (V4 non-thinking)",
+  "strong_model": "deepseek-reasoner (V4 thinking / R1)",
+  "n_tasks": 90,
+  "oracles": {
+    "query_router": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      },
+      "per_family_regime": {
+        "code/easy_saturation": {
+          "n": 5,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1003.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "code/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1538.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "code/hard_strong_gap": {
+          "n": 11,
+          "success_rate": 0.8181818181818182,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 2402.6363636363635,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8081818181818182
+        },
+        "code/weak_verifier_risk": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1408.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "evidence/easy_saturation": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 870.6666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1159.2,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "evidence/hard_strong_gap": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1076.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence/evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "math/easy_saturation": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 887.8333333333334,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "math/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 799.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math/hard_strong_gap": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1500.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math/weak_verifier_risk": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 833.75,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        }
+      }
+    },
+    "deliberation_graph": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      },
+      "per_family_regime": {
+        "code/easy_saturation": {
+          "n": 5,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1003.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "code/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1538.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "code/hard_strong_gap": {
+          "n": 11,
+          "success_rate": 0.8181818181818182,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 2402.6363636363635,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8081818181818182
+        },
+        "code/weak_verifier_risk": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1408.0,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "evidence/easy_saturation": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 870.6666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1159.2,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "evidence/hard_strong_gap": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1076.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence/evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "math/easy_saturation": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 887.8333333333334,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "math/medium_headroom": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 799.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math/hard_strong_gap": {
+          "n": 10,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1500.8,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        },
+        "math/weak_verifier_risk": {
+          "n": 4,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 833.75,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.99
+        }
+      }
+    }
+  },
+  "baselines": {
+    "always_cheapest": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "always_strongest": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 10.0,
+        "avg_latency_ms": 2668.2,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.877777777777778
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 3989.4666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8333333333333328
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 2076.6666666666665,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8999999999999996
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 1938.4666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8999999999999996
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 1795.1764705882354,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9000000000000002
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 2320.366666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8999999999999996
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 3372.0344827586205,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.8310344827586204
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 3717.375,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9000000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 10.0,
+          "avg_latency_ms": 2080.1666666666665,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9
+        }
+      }
+    },
+    "frugalgpt_cascade": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.2222222222222223,
+        "avg_latency_ms": 1401.6444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9655555555555547
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.6666666666666667,
+          "avg_latency_ms": 2102.0666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9166666666666662
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.6896551724137931,
+          "avg_latency_ms": 2091.5172413793102,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9141379310344822
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "automix_self_verification_cascade": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.2444444444444445,
+        "avg_latency_ms": 1464.4777777777779,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9653333333333325
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.7333333333333334,
+          "avg_latency_ms": 2290.5666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9159999999999994
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.7586206896551724,
+          "avg_latency_ms": 2286.5172413793102,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9134482758620684
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "shepherding_hint": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0666666666666667,
+        "avg_latency_ms": 1416.9666666666667,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9671111111111103
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.2,
+          "avg_latency_ms": 2148.0333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9213333333333329
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.206896551724138,
+          "avg_latency_ms": 2139.0689655172414,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9189655172413788
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "fixed_react": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 3.0,
+        "avg_latency_ms": 4683.2,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9477777777777769
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 5353.466666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666664
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 2.933333333333333,
+          "avg_latency_ms": 4325.5,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9706666666666662
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4370.633333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999995
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4604.529411764706,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9700000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 2.933333333333333,
+          "avg_latency_ms": 4335.033333333334,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9706666666666662
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 3.0689655172413794,
+          "avg_latency_ms": 5229.482758620689,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9003448275862066
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4434.125,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999999
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4338.666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999999
+        }
+      }
+    },
+    "fixed_retrieve_answer_verify": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 2.977777777777778,
+        "avg_latency_ms": 4512.977777777778,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9479999999999993
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 3.066666666666667,
+          "avg_latency_ms": 5320.7,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9026666666666664
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 2.8666666666666667,
+          "avg_latency_ms": 3935.9,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9713333333333328
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4282.333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999995
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 2.8823529411764706,
+          "avg_latency_ms": 3967.764705882353,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9711764705882356
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4512.4,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999995
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4914.793103448276,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9010344827586204
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4479.375,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999999
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 3.0,
+          "avg_latency_ms": 4163.333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9699999999999999
+        }
+      }
+    }
+  },
+  "heuristic": {
+    "aggregate": {
+      "n": 90,
+      "success_rate": 0.9777777777777777,
+      "avg_cost": 1.3111111111111111,
+      "avg_latency_ms": 1597.6,
+      "avg_unsupported_risk": 0.0,
+      "avg_objective": 0.9646666666666658
+    },
+    "per_family": {
+      "code": {
+        "n": 30,
+        "success_rate": 0.9333333333333333,
+        "avg_cost": 1.9333333333333333,
+        "avg_latency_ms": 2689.9333333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9139999999999996
+      },
+      "evidence": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1047.3333333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9899999999999994
+      },
+      "math": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1055.5333333333333,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9899999999999994
+      }
+    },
+    "per_regime": {
+      "easy_saturation": {
+        "n": 17,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 915.8823529411765,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "medium_headroom": {
+        "n": 30,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1165.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9899999999999994
+      },
+      "hard_strong_gap": {
+        "n": 29,
+        "success_rate": 0.9310344827586207,
+        "avg_cost": 1.9655172413793103,
+        "avg_latency_ms": 2699.655172413793,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9113793103448271
+      },
+      "weak_verifier_risk": {
+        "n": 8,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1120.875,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "evidence_support_risk": {
+        "n": 6,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 998.1666666666666,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      }
+    },
+    "per_family_regime": {
+      "code/easy_saturation": {
+        "n": 5,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1003.8,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "code/medium_headroom": {
+        "n": 10,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1538.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "code/hard_strong_gap": {
+        "n": 11,
+        "success_rate": 0.8181818181818182,
+        "avg_cost": 3.5454545454545454,
+        "avg_latency_ms": 4969.727272727273,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.7827272727272727
+      },
+      "code/weak_verifier_risk": {
+        "n": 4,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1408.0,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "evidence/easy_saturation": {
+        "n": 6,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 870.6666666666666,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "evidence/medium_headroom": {
+        "n": 10,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1159.2,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "evidence/hard_strong_gap": {
+        "n": 8,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1076.875,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "evidence/evidence_support_risk": {
+        "n": 6,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 998.1666666666666,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "math/easy_saturation": {
+        "n": 6,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 887.8333333333334,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.9900000000000001
+      },
+      "math/medium_headroom": {
+        "n": 10,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 799.6,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "math/hard_strong_gap": {
+        "n": 10,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1500.8,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      },
+      "math/weak_verifier_risk": {
+        "n": 4,
+        "success_rate": 1.0,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 833.75,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.99
+      }
+    }
+  },
+  "verifier_ablation": [
+    {
+      "budget": 3.0,
+      "va_succ": 0.9777777777777777,
+      "va_cost": 0.9777777777777777,
+      "nv_succ": 0.9777777777777777,
+      "nv_cost": 0.9777777777777777,
+      "no_verifier_cost_premium_pct": 0.0
+    },
+    {
+      "budget": 5.0,
+      "va_succ": 0.9777777777777777,
+      "va_cost": 0.9777777777777777,
+      "nv_succ": 0.9777777777777777,
+      "nv_cost": 0.9777777777777777,
+      "no_verifier_cost_premium_pct": 0.0
+    },
+    {
+      "budget": 8.0,
+      "va_succ": 0.9777777777777777,
+      "va_cost": 0.9777777777777777,
+      "nv_succ": 0.9777777777777777,
+      "nv_cost": 0.9777777777777777,
+      "no_verifier_cost_premium_pct": 0.0
+    },
+    {
+      "budget": 12.0,
+      "va_succ": 0.9777777777777777,
+      "va_cost": 1.0,
+      "nv_succ": 0.9777777777777777,
+      "nv_cost": 1.0,
+      "no_verifier_cost_premium_pct": 0.0
+    },
+    {
+      "budget": 20.0,
+      "va_succ": 0.9777777777777777,
+      "va_cost": 1.0,
+      "nv_succ": 0.9777777777777777,
+      "nv_cost": 1.0,
+      "no_verifier_cost_premium_pct": 0.0
+    }
+  ],
+  "partial_strong": {
+    "graph_with_strong_hint": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "graph_without_strong_hint": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    },
+    "graph_full_strong_only": {
+      "aggregate": {
+        "n": 90,
+        "success_rate": 0.9777777777777777,
+        "avg_cost": 1.0,
+        "avg_latency_ms": 1283.8444444444444,
+        "avg_unsupported_risk": 0.0,
+        "avg_objective": 0.967777777777777
+      },
+      "per_family": {
+        "code": {
+          "n": 30,
+          "success_rate": 0.9333333333333333,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1748.6666666666667,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9233333333333327
+        },
+        "evidence": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1047.3333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "math": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1055.5333333333333,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        }
+      },
+      "per_regime": {
+        "easy_saturation": {
+          "n": 17,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 915.8823529411765,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "medium_headroom": {
+          "n": 30,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1165.6,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9899999999999994
+        },
+        "hard_strong_gap": {
+          "n": 29,
+          "success_rate": 0.9310344827586207,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1725.9310344827586,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9210344827586202
+        },
+        "weak_verifier_risk": {
+          "n": 8,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 1120.875,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        },
+        "evidence_support_risk": {
+          "n": 6,
+          "success_rate": 1.0,
+          "avg_cost": 1.0,
+          "avg_latency_ms": 998.1666666666666,
+          "avg_unsupported_risk": 0.0,
+          "avg_objective": 0.9900000000000001
+        }
+      }
+    }
+  },
+  "graph_query_cost_saving_pct": 0.0,
+  "graph_query_success_delta_pp": 0.0,
+  "unsupported_evidence_risk": 0.0,
+  "regime_map": [
+    {
+      "family": "math",
+      "regime": "easy_saturation",
+      "n": 6,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "math",
+      "regime": "medium_headroom",
+      "n": 10,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "math",
+      "regime": "hard_strong_gap",
+      "n": 10,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "math",
+      "regime": "weak_verifier_risk",
+      "n": 4,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "code",
+      "regime": "easy_saturation",
+      "n": 5,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "code",
+      "regime": "medium_headroom",
+      "n": 10,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "code",
+      "regime": "hard_strong_gap",
+      "n": 11,
+      "cheap_success": 0.8181818181818182,
+      "strong_success": 0.8181818181818182,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 0.8181818181818182,
+      "graph_success": 0.8181818181818182,
+      "unsupported_risk": 0.0,
+      "interpretation": "router-sufficient"
+    },
+    {
+      "family": "code",
+      "regime": "weak_verifier_risk",
+      "n": 4,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "evidence",
+      "regime": "easy_saturation",
+      "n": 6,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "evidence",
+      "regime": "medium_headroom",
+      "n": 10,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "evidence",
+      "regime": "hard_strong_gap",
+      "n": 8,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    },
+    {
+      "family": "evidence",
+      "regime": "evidence_support_risk",
+      "n": 6,
+      "cheap_success": 1.0,
+      "strong_success": 1.0,
+      "router_cost": 1.0,
+      "graph_cost": 1.0,
+      "graph_saving_pct": 0.0,
+      "router_success": 1.0,
+      "graph_success": 1.0,
+      "unsupported_risk": 0.0,
+      "interpretation": "saturation"
+    }
+  ]
+}

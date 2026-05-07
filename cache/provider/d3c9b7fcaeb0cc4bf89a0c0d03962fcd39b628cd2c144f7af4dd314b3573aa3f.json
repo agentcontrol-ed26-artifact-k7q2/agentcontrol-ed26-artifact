@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.1160000000000005e-05,
+  "input_tokens": 108,
+  "latency_ms": 899,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "d3c9b7fcaeb0cc4bf89a0c0d03962fcd39b628cd2c144f7af4dd314b3573aa3f",
+  "text": "Einstein emigrated to the United States in 1933 [doc_einstein_birth]."
+}

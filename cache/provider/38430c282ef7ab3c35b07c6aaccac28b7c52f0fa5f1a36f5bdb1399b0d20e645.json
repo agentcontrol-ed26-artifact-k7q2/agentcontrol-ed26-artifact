@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00201718,
+  "input_tokens": 76,
+  "latency_ms": 13500,
+  "model": "deepseek-reasoner",
+  "output_tokens": 902,
+  "provider": "deepseek",
+  "request_hash": "38430c282ef7ab3c35b07c6aaccac28b7c52f0fa5f1a36f5bdb1399b0d20e645",
+  "text": "```python\ndef n_queens_count(n):\n    # n is guaranteed to be in [1..8]\n    count = 0\n    cols = [0] * n  # column of queen in each row\n\n    def is_safe(row, col):\n        for prev_row in range(row):\n            if (cols[prev_row] == col or\n                abs(cols[prev_row] - col) == abs(prev_row - row)):\n                return False\n        return True\n\n    def backtrack(row):\n        nonlocal count\n        if row == n:\n            count += 1\n            return\n        for col in range(n):\n            if is_safe(row, col):\n                cols[row] = col\n                backtrack(row + 1)\n\n    backtrack(0)\n    return count\n```"
+}

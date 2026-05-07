@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.3089999999999996e-05,
+  "input_tokens": 127,
+  "latency_ms": 849,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "39fd67e52ed5becce51c16bbad654d82baf691168d10ac55b1b50f6ea97e3216",
+  "text": "The Nile River [doc_nile]"
+}

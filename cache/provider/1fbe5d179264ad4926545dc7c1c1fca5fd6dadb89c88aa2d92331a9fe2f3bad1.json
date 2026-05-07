@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001674,
+  "input_tokens": 70,
+  "latency_ms": 2497,
+  "model": "deepseek-chat",
+  "output_tokens": 135,
+  "provider": "deepseek",
+  "request_hash": "1fbe5d179264ad4926545dc7c1c1fca5fd6dadb89c88aa2d92331a9fe2f3bad1",
+  "text": "def subset_sum(xs, target):\n    # Handle negative target immediately\n    if target < 0:\n        return False\n    # Use DP: dp[i] = True if sum i is achievable\n    dp = [False] * (target + 1)\n    dp[0] = True\n    for x in xs:\n        if x < 0:\n            continue  # skip negative numbers as per problem statement\n        # iterate backwards to avoid reusing the same element\n        for s in range(target, x - 1, -1):\n            if dp[s - x]:\n                dp[s] = True\n    return dp[target]"
+}

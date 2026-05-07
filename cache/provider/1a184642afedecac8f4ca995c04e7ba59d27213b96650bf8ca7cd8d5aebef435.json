@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.0060000000000007e-05,
+  "input_tokens": 38,
+  "latency_ms": 1110,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "1a184642afedecac8f4ca995c04e7ba59d27213b96650bf8ca7cd8d5aebef435",
+  "text": "The LCM of 6 and 8 is 24.  \nFinal answer: 24"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.11e-05,
+  "input_tokens": 82,
+  "latency_ms": 1517,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 155,
+  "provider": "together",
+  "request_hash": "644580b974e1f3846f230ef031b0d861a8e4a5e6c43693ed29b0417c953027a4",
+  "text": "```python\nfrom collections import deque\n\ndef shortest_path_bfs(n, edges, src, dst):\n    if src == dst:\n        return 0\n    \n    graph = [[] for _ in range(n)]\n    for u, v in edges:\n        graph[u].append(v)\n        graph[v].append(u)\n    \n    visited = [False] * n\n    queue = deque([(src, 0)])\n    visited[src] = True\n    \n    while queue:\n        node, dist = queue.popleft()\n        if node == dst:\n            return dist\n        for neighbor in graph[node]:\n            if not visited[neighbor]:\n                visited[neighbor] = True\n                queue.append((neighbor, dist + 1))\n    \n    return -1\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.429999999999999e-05,
+  "input_tokens": 261,
+  "latency_ms": 738,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "1bc526225a87e9d8b858868ec8a854c45d2b4119ded96d5629c523babd3cc598",
+  "text": "Alexander Graham Bell emigrated to Canada in 1870 [doc_bell_origin]."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014344000000000002,
+  "input_tokens": 145,
+  "latency_ms": 2936,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "de210a1f9f584dc5c8fdb1f1ae3e288dc406cbd9f6e8373247efdf2d11a9297d",
+  "text": "Look at doc_python for the release year of Python.\nAnswer phrase [doc_python]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012242,
+  "input_tokens": 266,
+  "latency_ms": 1386,
+  "model": "deepseek-chat",
+  "output_tokens": 46,
+  "provider": "deepseek",
+  "request_hash": "69ae297c0374c2f64aa34b1568aa246aa788d244eada9e072e822eef6555a6f9",
+  "text": "The provided evidence does not contain information about the discoverer of radium. [doc_aldrin_bio][doc_armstrong_bio][doc_babbage][doc_apollo_mission][doc_lovelace]"
+}

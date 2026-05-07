@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00124294,
+  "input_tokens": 265,
+  "latency_ms": 6814,
+  "model": "deepseek-reasoner",
+  "output_tokens": 501,
+  "provider": "deepseek",
+  "request_hash": "34a09e5bddfd701f922be613eb5d033d5149f80fc32f04b370826d9fa7f6591c",
+  "text": "The provided evidence does not include the birth year of the first summiter of Everest. [doc_everest]"
+}

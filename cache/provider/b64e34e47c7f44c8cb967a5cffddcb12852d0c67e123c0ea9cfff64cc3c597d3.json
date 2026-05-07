@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014607999999999998,
+  "input_tokens": 104,
+  "latency_ms": 1353,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 62,
+  "provider": "together",
+  "request_hash": "b64e34e47c7f44c8cb967a5cffddcb12852d0c67e123c0ea9cfff64cc3c597d3",
+  "text": "6 workers build 6 chairs in 6 hours, so 1 worker builds 1 chair in 6 hours. \n12 workers build 12 chairs in 6 hours. \n12 workers build 12 * 2 chairs in 12 hours. \n12 * 2 = 24\n24"
+}

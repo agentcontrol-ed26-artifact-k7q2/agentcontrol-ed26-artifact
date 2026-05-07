@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.328e-05,
+  "input_tokens": 84,
+  "latency_ms": 2796,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "3b2e4bfba4a907c583913a43f45baabd6a69b3540a8c92d3e8c3925b9443f873",
+  "text": "1. Multiply 7 by itself\n2. Use a calculator to compute 7^2\n49"
+}

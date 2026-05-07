@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015224,
+  "input_tokens": 157,
+  "latency_ms": 397,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "1ccd4ba48d0eb27c69998b66514d3b5a5992b6afdbbf6bfa81e079c3ac483198",
+  "text": "Marie Curie discovered polonium besides radium [doc_curie]"
+}

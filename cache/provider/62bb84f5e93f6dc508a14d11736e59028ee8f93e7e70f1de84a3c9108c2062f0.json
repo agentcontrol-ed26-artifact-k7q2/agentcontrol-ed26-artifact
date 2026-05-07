@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9100000000000003e-05,
+  "input_tokens": 81,
+  "latency_ms": 334,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "62bb84f5e93f6dc508a14d11736e59028ee8f93e7e70f1de84a3c9108c2062f0",
+  "text": "def reverse_words(s):\n    return ' '.join(reversed(s.split()))"
+}

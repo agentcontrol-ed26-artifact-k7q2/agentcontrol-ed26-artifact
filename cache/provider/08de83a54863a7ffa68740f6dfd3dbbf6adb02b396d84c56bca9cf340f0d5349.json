@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00034320000000000005,
+  "input_tokens": 297,
+  "latency_ms": 2087,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 93,
+  "provider": "together",
+  "request_hash": "08de83a54863a7ffa68740f6dfd3dbbf6adb02b396d84c56bca9cf340f0d5349",
+  "text": "There is no information about the publisher of On the Origin of Species in the provided documents, however, based on the available information, none of the documents mention the publisher of On the Origin of Species, but since Charles Darwin is known to be the author, and none of the documents provided mention Charles Darwin or the publisher of On the Origin of Species, it is not possible to answer the question with the given evidence. \nAnswer [doc_aldrin_bio]"
+}

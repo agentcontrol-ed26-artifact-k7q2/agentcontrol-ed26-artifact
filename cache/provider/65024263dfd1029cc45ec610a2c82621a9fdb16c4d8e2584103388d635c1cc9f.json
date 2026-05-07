@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029637999999999995,
+  "input_tokens": 73,
+  "latency_ms": 2300,
+  "model": "deepseek-reasoner",
+  "output_tokens": 117,
+  "provider": "deepseek",
+  "request_hash": "65024263dfd1029cc45ec610a2c82621a9fdb16c4d8e2584103388d635c1cc9f",
+  "text": "Subtract 2x from both sides."
+}

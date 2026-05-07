@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.825e-05,
+  "input_tokens": 245,
+  "latency_ms": 843,
+  "model": "deepseek-chat",
+  "output_tokens": 11,
+  "provider": "deepseek",
+  "request_hash": "d2d4afa045eb234c470dd3c74e873475ef44e07415e2fe519f1418cb4c08beae",
+  "text": "Jeff Bezos [doc_amazon_distractor]"
+}

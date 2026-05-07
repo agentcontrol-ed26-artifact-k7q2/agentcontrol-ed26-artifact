@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.457000000000001e-05,
+  "input_tokens": 61,
+  "latency_ms": 1673,
+  "model": "deepseek-chat",
+  "output_tokens": 71,
+  "provider": "deepseek",
+  "request_hash": "6f32a8c05ed30d8eba14a8274fae7455ebb1f0bc512fb2a0f04107ec095de43d",
+  "text": "```python\ndef longest_increasing_subseq(xs):\n    import bisect\n    tails = []\n    for x in xs:\n        i = bisect.bisect_left(tails, x)\n        if i == len(tails):\n            tails.append(x)\n        else:\n            tails[i] = x\n    return len(tails)\n```"
+}

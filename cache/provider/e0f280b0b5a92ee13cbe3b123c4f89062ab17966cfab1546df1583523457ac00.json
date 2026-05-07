@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.1910000000000004e-05,
+  "input_tokens": 53,
+  "latency_ms": 1107,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "e0f280b0b5a92ee13cbe3b123c4f89062ab17966cfab1546df1583523457ac00",
+  "text": "```python\ndef sum_list(xs):\n    return sum(xs)\n```"
+}

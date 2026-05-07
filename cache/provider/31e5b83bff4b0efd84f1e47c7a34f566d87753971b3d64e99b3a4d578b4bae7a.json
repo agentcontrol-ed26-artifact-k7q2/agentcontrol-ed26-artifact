@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.31e-05,
+  "input_tokens": 86,
+  "latency_ms": 1079,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 91,
+  "provider": "together",
+  "request_hash": "31e5b83bff4b0efd84f1e47c7a34f566d87753971b3d64e99b3a4d578b4bae7a",
+  "text": "```python\ndef fib(n):\n    if n < 0:\n        raise ValueError(\"n must be a non-negative integer\")\n    if n == 0:\n        return 0\n    if n == 1:\n        return 1\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```"
+}

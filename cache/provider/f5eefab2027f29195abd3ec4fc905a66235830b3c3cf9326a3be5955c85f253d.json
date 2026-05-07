@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022255999999999998,
+  "input_tokens": 110,
+  "latency_ms": 1699,
+  "model": "deepseek-reasoner",
+  "output_tokens": 74,
+  "provider": "deepseek",
+  "request_hash": "f5eefab2027f29195abd3ec4fc905a66235830b3c3cf9326a3be5955c85f253d",
+  "text": "Hint: Look at doc_python."
+}

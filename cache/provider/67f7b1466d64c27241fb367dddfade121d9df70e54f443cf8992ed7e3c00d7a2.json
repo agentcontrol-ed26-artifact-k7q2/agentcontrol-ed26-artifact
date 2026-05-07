@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0013486700000000002,
+  "input_tokens": 71,
+  "latency_ms": 8654,
+  "model": "deepseek-reasoner",
+  "output_tokens": 598,
+  "provider": "deepseek",
+  "request_hash": "67f7b1466d64c27241fb367dddfade121d9df70e54f443cf8992ed7e3c00d7a2",
+  "text": "```python\ndef find_anagrams(s, p):\n    if len(p) > len(s):\n        return []\n    from collections import Counter\n    p_count = Counter(p)\n    window_count = Counter()\n    result = []\n    left = 0\n    for right in range(len(s)):\n        window_count[s[right]] += 1\n        if right - left + 1 > len(p):\n            if window_count[s[left]] == 1:\n                del window_count[s[left]]\n            else:\n                window_count[s[left]] -= 1\n            left += 1\n        if right - left + 1 == len(p) and window_count == p_count:\n            result.append(left)\n    return result\n```"
+}

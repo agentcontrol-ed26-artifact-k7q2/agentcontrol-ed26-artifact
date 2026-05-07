@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00035766999999999993,
+  "input_tokens": 61,
+  "latency_ms": 2819,
+  "model": "deepseek-reasoner",
+  "output_tokens": 148,
+  "provider": "deepseek",
+  "request_hash": "f5d3de26f952d7e9aa897c527a8f4b9f9b491550d59834cce7cc04536016cd13",
+  "text": "Use the difference of squares formula: a\u00b2 - b\u00b2 = (a - b)(a + b)."
+}

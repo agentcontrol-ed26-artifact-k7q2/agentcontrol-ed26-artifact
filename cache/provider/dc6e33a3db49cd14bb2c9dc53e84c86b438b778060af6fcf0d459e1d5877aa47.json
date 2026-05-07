@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028062,
+  "input_tokens": 120,
+  "latency_ms": 1915,
+  "model": "deepseek-reasoner",
+  "output_tokens": 98,
+  "provider": "deepseek",
+  "request_hash": "dc6e33a3db49cd14bb2c9dc53e84c86b438b778060af6fcf0d459e1d5877aa47",
+  "text": "doc_dna"
+}

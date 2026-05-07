@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00045841999999999996,
+  "input_tokens": 65,
+  "latency_ms": 2969,
+  "model": "deepseek-reasoner",
+  "output_tokens": 193,
+  "provider": "deepseek",
+  "request_hash": "6e7dfeab5cad3011cf1541ee70a3d1eff09182b4c8d6829bebfa4a78754c19e7",
+  "text": "The most common mistake is dividing by the new value (100) instead of the original value (80)."
+}

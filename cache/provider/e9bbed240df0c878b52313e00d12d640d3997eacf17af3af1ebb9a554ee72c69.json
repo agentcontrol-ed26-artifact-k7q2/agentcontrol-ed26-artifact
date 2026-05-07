@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024552,
+  "input_tokens": 266,
+  "latency_ms": 530,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "e9bbed240df0c878b52313e00d12d640d3997eacf17af3af1ebb9a554ee72c69",
+  "text": "Germany's invasion began World War II [doc_war_dates]"
+}

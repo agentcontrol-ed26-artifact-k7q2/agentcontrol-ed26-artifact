@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0013924599999999999,
+  "input_tokens": 67,
+  "latency_ms": 8650,
+  "model": "deepseek-reasoner",
+  "output_tokens": 619,
+  "provider": "deepseek",
+  "request_hash": "6e438e1878bc6026bcdc30de358f885962ca5b23791a3fd4539c94fba3481047",
+  "text": "```python\ndef longest_common_substring_len(a, b):\n    m, n = len(a), len(b)\n    max_len = 0\n    prev = [0] * (n + 1)\n    for i in range(1, m + 1):\n        curr = [0] * (n + 1)\n        for j in range(1, n + 1):\n            if a[i-1] == b[j-1]:\n                curr[j] = prev[j-1] + 1\n                if curr[j] > max_len:\n                    max_len = curr[j]\n        prev = curr\n    return max_len\n```"
+}

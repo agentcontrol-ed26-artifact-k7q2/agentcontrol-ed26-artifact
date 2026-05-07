@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 105,
+  "latency_ms": 1681,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 38,
+  "provider": "together",
+  "request_hash": "02024f9365f71befdce874cba41524f85d0107f059addfed7e5f3d65af753fbe",
+  "text": "Verification Check 1: Confirm the event in question is World War II.\nVerification Check 2: Verify the date format is in a 4-digit year format. [doc_war]"
+}

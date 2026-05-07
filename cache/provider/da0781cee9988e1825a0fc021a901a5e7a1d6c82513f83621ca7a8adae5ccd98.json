@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028248,
+  "input_tokens": 288,
+  "latency_ms": 756,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "da0781cee9988e1825a0fc021a901a5e7a1d6c82513f83621ca7a8adae5ccd98",
+  "text": "There is no information about the creator of Python in the provided documents, so it's impossible to determine the country of birth. [doc_aldrin_bio]"
+}

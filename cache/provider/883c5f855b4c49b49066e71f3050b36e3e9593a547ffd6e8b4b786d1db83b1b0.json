@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.05e-05,
+  "input_tokens": 106,
+  "latency_ms": 724,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "883c5f855b4c49b49066e71f3050b36e3e9593a547ffd6e8b4b786d1db83b1b0",
+  "text": "The Amazon River, on which continent South America, is the second longest river in the world after the Nile [doc_amazon_river]."
+}

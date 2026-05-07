@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.6490000000000004e-05,
+  "input_tokens": 107,
+  "latency_ms": 1071,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "72fc1ea0f34b95f92135b992b0223fa0fc9c3af02c331c79e37d3c4e387cfd4a",
+  "text": "Marie Curie discovered polonium. [doc_curie_marie]"
+}

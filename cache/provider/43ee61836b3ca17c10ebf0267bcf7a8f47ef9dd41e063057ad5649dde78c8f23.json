@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012848,
+  "input_tokens": 95,
+  "latency_ms": 4208,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 51,
+  "provider": "together",
+  "request_hash": "43ee61836b3ca17c10ebf0267bcf7a8f47ef9dd41e063057ad5649dde78c8f23",
+  "text": "Difference of squares formula: a^2 - b^2 = (a + b)(a - b) \n13^2 - 11^2 = (13 + 11)(13 - 11) \n24 * 2\n48"
+}

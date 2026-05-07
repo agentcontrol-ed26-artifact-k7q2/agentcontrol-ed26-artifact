@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.416999999999999e-05,
+  "input_tokens": 271,
+  "latency_ms": 1010,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "7375c7e157daf71cecf33fe43f1e66edcc1e5a81de48a0195a7f68667aa30537",
+  "text": "1962 [doc_franklin_death]"
+}

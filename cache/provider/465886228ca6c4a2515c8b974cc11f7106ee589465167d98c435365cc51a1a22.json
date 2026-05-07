@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00037864,
+  "input_tokens": 62,
+  "latency_ms": 5525,
+  "model": "deepseek-chat",
+  "output_tokens": 329,
+  "provider": "deepseek",
+  "request_hash": "465886228ca6c4a2515c8b974cc11f7106ee589465167d98c435365cc51a1a22",
+  "text": "We need to find the minimum number of crossings to get 3 missionaries and 3 cannibals across a river, with a boat that holds 1 or 2 people, and with the constraint that cannibals never outnumber missionaries on either bank (unless there are zero missionaries on that bank).\n\nLet\u2019s denote state as (M_left, C_left, boat_position), where boat_position = 0 for left, 1 for right.\n\nStart: (3,3,0)  \nGoal: (0,0,1)\n\nWe can try to find the shortest solution.\n\nA known minimal solution for this puzzle is 11 crossings.\n\nLet\u2019s verify quickly:\n\n1. Two cannibals cross right \u2192 (3,1,1)  \n2. One cannibal returns left \u2192 (3,2,0)  \n3. Two cannibals cross right \u2192 (3,0,1)  \n4. One cannibal returns left \u2192 (3,1,0)  \n5. Two missionaries cross right \u2192 (1,1,1)  \n6. One missionary and one cannibal return left \u2192 (2,2,0)  \n7. Two missionaries cross right \u2192 (0,2,1)  \n8. One cannibal returns left \u2192 (0,3,0)  \n9. Two cannibals cross right \u2192 (0,1,1)  \n10. One cannibal returns left \u2192 (0,2,0)  \n11. Two cannibals cross right \u2192 (0,0,1)\n\nThat\u2019s 11 crossings.\n\nFinal integer: 11"
+}

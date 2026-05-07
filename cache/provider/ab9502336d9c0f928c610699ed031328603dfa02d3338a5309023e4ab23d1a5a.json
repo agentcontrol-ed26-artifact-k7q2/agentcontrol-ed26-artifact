@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.551e-05,
+  "input_tokens": 173,
+  "latency_ms": 795,
+  "model": "deepseek-chat",
+  "output_tokens": 8,
+  "provider": "deepseek",
+  "request_hash": "ab9502336d9c0f928c610699ed031328603dfa02d3338a5309023e4ab23d1a5a",
+  "text": "The Netherlands [doc_python2]"
+}

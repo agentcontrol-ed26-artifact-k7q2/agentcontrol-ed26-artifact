@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.1e-05,
+  "input_tokens": 259,
+  "latency_ms": 251,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "413c21a18fc294b652e9362403c6e5e3391cab3c393ecc6d5043e0f426f19f69",
+  "text": "Wapakoneta [doc_armstrong]"
+}

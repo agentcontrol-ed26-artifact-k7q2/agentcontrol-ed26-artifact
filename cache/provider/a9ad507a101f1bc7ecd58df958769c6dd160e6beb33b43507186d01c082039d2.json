@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.42e-05,
+  "input_tokens": 101,
+  "latency_ms": 511,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "a9ad507a101f1bc7ecd58df958769c6dd160e6beb33b43507186d01c082039d2",
+  "text": "Marie Curie discovered radium [doc_curie]"
+}

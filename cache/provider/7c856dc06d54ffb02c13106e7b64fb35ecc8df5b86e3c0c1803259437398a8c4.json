@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.340000000000001e-05,
+  "input_tokens": 257,
+  "latency_ms": 595,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "7c856dc06d54ffb02c13106e7b64fb35ecc8df5b86e3c0c1803259437398a8c4",
+  "text": "The second longest river is the Amazon River, located in South America [doc_amazon_river]."
+}

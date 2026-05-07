@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021649,
+  "input_tokens": 97,
+  "latency_ms": 2846,
+  "model": "deepseek-chat",
+  "output_tokens": 173,
+  "provider": "deepseek",
+  "request_hash": "cb11403711613fc0438a58f08d23c1db15f583d7853776007ada36072e553585",
+  "text": "```python\nxs = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]\n\n# Sort the list (already sorted, but for safety)\nxs_sorted = sorted(xs)\nn = len(xs_sorted)\n\n# Compute the index for the 75th percentile (rounded to integer 75)\n# Using the nearest-rank method: index = ceil(75/100 * n)\nimport math\nindex = math.ceil(75 / 100 * n) - 1  # zero-based index\n\n# The threshold value at the 75th percentile\nthreshold = xs_sorted[index]\n\n# Count elements >= threshold\ncount = sum(1 for x in xs_sorted if x >= threshold)\n\nprint(count)  # last line of stdout\n```"
+}

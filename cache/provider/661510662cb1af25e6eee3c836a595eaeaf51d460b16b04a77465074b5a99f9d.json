@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000264,
+  "input_tokens": 104,
+  "latency_ms": 1087,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 196,
+  "provider": "together",
+  "request_hash": "661510662cb1af25e6eee3c836a595eaeaf51d460b16b04a77465074b5a99f9d",
+  "text": "```python\nimport sys\nimport heapq\n\ndef dijkstra_distance(n, edges, src, dst):\n    graph = [[] for _ in range(n)]\n    for u, v, w in edges:\n        graph[u].append((v, w))\n        graph[v].append((u, w))  # comment this line for directed graph\n\n    distances = [sys.maxsize] * n\n    distances[src] = 0\n    pq = [(0, src)]\n\n    while pq:\n        curr_dist, curr_node = heapq.heappop(pq)\n\n        if curr_dist > distances[curr_node]:\n            continue\n\n        for neighbor, weight in graph[curr_node]:\n            distance = curr_dist + weight\n\n            if distance < distances[neighbor]:\n                distances[neighbor] = distance\n                heapq.heappush(pq, (distance, neighbor))\n\n    return distances[dst] if distances[dst] != sys.maxsize else -1\n```"
+}

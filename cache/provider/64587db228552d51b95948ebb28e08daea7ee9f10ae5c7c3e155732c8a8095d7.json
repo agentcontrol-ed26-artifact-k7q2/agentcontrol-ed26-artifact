@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019623999999999998,
+  "input_tokens": 99,
+  "latency_ms": 1149,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 124,
+  "provider": "together",
+  "request_hash": "64587db228552d51b95948ebb28e08daea7ee9f10ae5c7c3e155732c8a8095d7",
+  "text": "```python\ndef decode_string(s):\n    stack = []\n    cur_num = 0\n    cur_str = ''\n    for c in s:\n        if c == '[':\n            stack.append(cur_str)\n            stack.append(cur_num)\n            cur_str = ''\n            cur_num = 0\n        elif c == ']':\n            num = stack.pop()\n            prev_str = stack.pop()\n            cur_str = prev_str + num*cur_str\n        elif c.isdigit():\n            cur_num = cur_num*10 + int(c)\n        else:\n            cur_str += c\n    return cur_str\n```"
+}

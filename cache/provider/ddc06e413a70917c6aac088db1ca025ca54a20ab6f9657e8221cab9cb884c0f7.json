@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002904,
+  "input_tokens": 295,
+  "latency_ms": 738,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "ddc06e413a70917c6aac088db1ca025ca54a20ab6f9657e8221cab9cb884c0f7",
+  "text": "There is no information about the creator of Python in the provided evidence, so it is not possible to determine the country of birth. answer [doc_aldrin_bio]"
+}

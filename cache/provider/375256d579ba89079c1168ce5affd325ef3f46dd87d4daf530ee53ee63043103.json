@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.264e-05,
+  "input_tokens": 52,
+  "latency_ms": 1080,
+  "model": "deepseek-chat",
+  "output_tokens": 26,
+  "provider": "deepseek",
+  "request_hash": "375256d579ba89079c1168ce5affd325ef3f46dd87d4daf530ee53ee63043103",
+  "text": "```python\ndef count_vowels(s):\n    return sum(1 for ch in s if ch in \"aeiou\")\n```"
+}

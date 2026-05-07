@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.795e-05,
+  "input_tokens": 285,
+  "latency_ms": 1098,
+  "model": "deepseek-chat",
+  "output_tokens": 10,
+  "provider": "deepseek",
+  "request_hash": "14de1db607a64cfac6c439aa5c007a1a4a7daf5427104597e0f99f840aa77d8c",
+  "text": "United Kingdom [doc_franklin_xray]"
+}

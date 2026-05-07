@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015674,
+  "input_tokens": 62,
+  "latency_ms": 1597,
+  "model": "deepseek-reasoner",
+  "output_tokens": 56,
+  "provider": "deepseek",
+  "request_hash": "01b21f8630a5e20a2120b0ad43b79b3a12b90df775a6d9e463a2bf5f2c132e04",
+  "text": "The most common mistake is confusing greatest common divisor with least common multiple, or incorrectly applying the Euclidean algorithm by using subtraction instead of division."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.06e-05,
+  "input_tokens": 291,
+  "latency_ms": 550,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "7a06f324c0d12b177f8278279afde705d72974a15602bf7226d651e911307901",
+  "text": "1930 [doc_armstrong_bio]"
+}

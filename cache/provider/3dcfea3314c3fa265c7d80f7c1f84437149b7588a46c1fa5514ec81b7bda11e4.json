@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011703999999999999,
+  "input_tokens": 99,
+  "latency_ms": 2400,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "3dcfea3314c3fa265c7d80f7c1f84437149b7588a46c1fa5514ec81b7bda11e4",
+  "text": "Count the frequency of each letter to apply the formula for permutations with repetitions.\n11! / (1! * 4! * 4! * 2!)"
+}

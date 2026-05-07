@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00047430000000000004,
+  "input_tokens": 66,
+  "latency_ms": 3817,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "18d62561d07bfe3e2c47149aedd13a9a4c10691ae4c1a34c75e3477f121d1c2f",
+  "text": "```python\ndef decode_string(s: str) -> str:\n    \"\"\"\n    Decodes an encoded string like"
+}

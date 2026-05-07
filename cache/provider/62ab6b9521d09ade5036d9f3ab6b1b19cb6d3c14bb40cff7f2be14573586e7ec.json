@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.52e-05,
+  "input_tokens": 102,
+  "latency_ms": 947,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 82,
+  "provider": "together",
+  "request_hash": "62ab6b9521d09ade5036d9f3ab6b1b19cb6d3c14bb40cff7f2be14573586e7ec",
+  "text": "First, let's identify the number of digits in 999. The number 999 has 3 digits.\n\nNext, since each digit is 9, we can multiply 9 by the number of digits, which is 3.\n\n\\[ 9 \\times 3 = 27 \\]\n\nSo, the sum of the digits of 999 is 27."
+}

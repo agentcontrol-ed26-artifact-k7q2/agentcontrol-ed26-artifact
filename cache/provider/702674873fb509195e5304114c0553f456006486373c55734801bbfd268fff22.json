@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012732,
+  "input_tokens": 56,
+  "latency_ms": 1928,
+  "model": "deepseek-chat",
+  "output_tokens": 102,
+  "provider": "deepseek",
+  "request_hash": "702674873fb509195e5304114c0553f456006486373c55734801bbfd268fff22",
+  "text": "```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    if n <= 3:\n        return True\n    if n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i <= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True\n```"
+}

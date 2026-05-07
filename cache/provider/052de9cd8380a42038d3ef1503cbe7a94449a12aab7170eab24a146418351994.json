@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010912,
+  "input_tokens": 97,
+  "latency_ms": 925,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "052de9cd8380a42038d3ef1503cbe7a94449a12aab7170eab24a146418351994",
+  "text": "Prime factorization of 360 is essential. \n360 = 2^3 * 3^2 * 5^1"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010120000000000001,
+  "input_tokens": 85,
+  "latency_ms": 705,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "a1a17be8235dc156a014155d1d5cd7d6c680a3fc4b24f9396522698d2c4c1f54",
+  "text": "To find the minimum number of coins, consider using dynamic programming to build up a solution from smaller sub-problems, starting with the smallest denomination."
+}

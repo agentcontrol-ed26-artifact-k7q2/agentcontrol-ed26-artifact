@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.577000000000001e-05,
+  "input_tokens": 261,
+  "latency_ms": 977,
+  "model": "deepseek-chat",
+  "output_tokens": 23,
+  "provider": "deepseek",
+  "request_hash": "3a39942c64c39745452b9ee89132ec2dffd46306434293afe94f9b6d4a5f02d5",
+  "text": "Albert Einstein won the Nobel Prize for his discovery of the photoelectric effect. [doc_einstein_nobel]"
+}

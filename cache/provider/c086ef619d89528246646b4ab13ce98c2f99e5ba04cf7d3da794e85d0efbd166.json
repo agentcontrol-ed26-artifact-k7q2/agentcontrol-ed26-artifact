@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016104,
+  "input_tokens": 139,
+  "latency_ms": 709,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "c086ef619d89528246646b4ab13ce98c2f99e5ba04cf7d3da794e85d0efbd166",
+  "text": "Answer: Guido van Rossum created Python [doc_python]. \nThe most common citation mistake is failing to include a citation or including an incorrect citation, such as citing doc_dna for a question about Python."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.665e-05,
+  "input_tokens": 75,
+  "latency_ms": 1047,
+  "model": "deepseek-chat",
+  "output_tokens": 24,
+  "provider": "deepseek",
+  "request_hash": "be2eaefa6421f46e82ba2ad2235e8440c4f8a63b062a4275b6ed64335fe4cb47",
+  "text": "```python\ndef max_of_three(a, b, c):\n    return max(a, b, c)\n```"
+}

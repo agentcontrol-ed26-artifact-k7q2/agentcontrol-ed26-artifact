@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.319999999999999e-05,
+  "input_tokens": 224,
+  "latency_ms": 427,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "6c1358c9affacc3d58d42ed39fd7f83a406ecebcdeeb24f804a6b7bc04acabe0",
+  "text": "Albert Einstein won the Nobel Prize for his discovery of the photoelectric effect [doc_einstein]."
+}

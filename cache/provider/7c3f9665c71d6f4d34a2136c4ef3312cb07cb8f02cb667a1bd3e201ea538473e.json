@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9999999999999997e-05,
+  "input_tokens": 61,
+  "latency_ms": 570,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 39,
+  "provider": "together",
+  "request_hash": "7c3f9665c71d6f4d34a2136c4ef3312cb07cb8f02cb667a1bd3e201ea538473e",
+  "text": "```python\ndef first_missing_positive(xs):\n    xs = set(xs)\n    i = 1\n    while i in xs:\n        i += 1\n    return i\n```"
+}

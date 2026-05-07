@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.62e-05,
+  "input_tokens": 69,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 4,
+  "provider": "dummy",
+  "request_hash": "f7faf2a83c762e06763a9c411ba04c0f3203ccdf248c76b6ed6c34aa029b54ce",
+  "text": "K2 [doc_everest]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.41e-05,
+  "input_tokens": 117,
+  "latency_ms": 630,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 30,
+  "provider": "together",
+  "request_hash": "bf5b8f278270606b549a218ae2088a3eea375a83b878810355842dcd25018cae",
+  "text": "Einstein won the Nobel Prize in Physics in 1921 for his discovery of the photoelectric effect [doc_einstein_nobel]."
+}

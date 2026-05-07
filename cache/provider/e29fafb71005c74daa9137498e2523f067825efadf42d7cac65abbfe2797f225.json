@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013376,
+  "input_tokens": 117,
+  "latency_ms": 1428,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "e29fafb71005c74daa9137498e2523f067825efadf42d7cac65abbfe2797f225",
+  "text": "Verification checks:\n1. Review of historical records on Marie Curie's discoveries\n2. Cross-checking of Nobel Prize winners in physics and chemistry [doc_curie]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003692,
+  "input_tokens": 74,
+  "latency_ms": 2610,
+  "model": "deepseek-reasoner",
+  "output_tokens": 150,
+  "provider": "deepseek",
+  "request_hash": "1282388e8c5cbf9d4446eed08cb5119abb244da923f6d5b357f06b7bc5459632",
+  "text": "Find the modular inverse of 7 modulo 11."
+}

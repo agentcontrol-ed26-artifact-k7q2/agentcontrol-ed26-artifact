@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00043813999999999995,
+  "input_tokens": 56,
+  "latency_ms": 3105,
+  "model": "deepseek-reasoner",
+  "output_tokens": 186,
+  "provider": "deepseek",
+  "request_hash": "115e52367346e87d13e325f8f29c292e7a2c85243b7cc1a1d3358c04da4d9dbc",
+  "text": "Multiply the intermediate (area of a face) by the side length to find the volume."
+}

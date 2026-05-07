@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001276,
+  "input_tokens": 95,
+  "latency_ms": 5122,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 50,
+  "provider": "together",
+  "request_hash": "2c1f16410fa51972d9f229b2648d5121a28e13af9b957c6fd00b1880cc4e3c89",
+  "text": "The most common mistake to avoid when calculating the sum of 1 through 10 is misapplying the formula for the sum of an arithmetic series, which is n(n+1)/2, where n is the last number in the series."
+}

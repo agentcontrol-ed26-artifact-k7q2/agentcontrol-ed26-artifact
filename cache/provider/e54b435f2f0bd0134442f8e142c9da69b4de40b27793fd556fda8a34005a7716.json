@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00020564000000000002,
+  "input_tokens": 131,
+  "latency_ms": 1476,
+  "model": "deepseek-reasoner",
+  "output_tokens": 61,
+  "provider": "deepseek",
+  "request_hash": "e54b435f2f0bd0134442f8e142c9da69b4de40b27793fd556fda8a34005a7716",
+  "text": "Hint: Check doc_einstein."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 108,
+  "latency_ms": 647,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 35,
+  "provider": "together",
+  "request_hash": "7707d5f3e4f32094a090116924977a88570ad9a0e3e94fd42f3c2527181528ea",
+  "text": "To find the minimum number of moves, consider using the Manhattan distance heuristic in the A* search algorithm, which can help guide the search towards the goal state more efficiently."
+}

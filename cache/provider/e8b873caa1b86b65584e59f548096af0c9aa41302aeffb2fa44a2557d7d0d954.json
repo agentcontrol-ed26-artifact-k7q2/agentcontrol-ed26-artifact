@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015752,
+  "input_tokens": 147,
+  "latency_ms": 617,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "e8b873caa1b86b65584e59f548096af0c9aa41302aeffb2fa44a2557d7d0d954",
+  "text": "Answer: Ada Lovelace [doc_lovelace]. \nThe most common citation mistake is citing a source that does not support the claim being made."
+}

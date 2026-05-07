@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025696,
+  "input_tokens": 269,
+  "latency_ms": 760,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "b98c81577c2f87da083205a89cb8bec01d10732f7b7bdc789569980f6240a95c",
+  "text": "The inventor of the telephone emigrated to Canada in 1870, \nanswer [doc_bell_origin]"
+}

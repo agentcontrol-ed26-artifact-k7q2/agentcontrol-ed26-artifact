@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026136000000000003,
+  "input_tokens": 283,
+  "latency_ms": 464,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 14,
+  "provider": "together",
+  "request_hash": "71fb029fe66dfdb4dbe10e0f727545ab9e953b3f8f92f694781b265ea4d213a1",
+  "text": "Max Planck originated quantum theory [doc_planck_quantum]"
+}

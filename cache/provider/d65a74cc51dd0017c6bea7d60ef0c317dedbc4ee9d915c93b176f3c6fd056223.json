@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00026752,
+  "input_tokens": 232,
+  "latency_ms": 2585,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 72,
+  "provider": "together",
+  "request_hash": "d65a74cc51dd0017c6bea7d60ef0c317dedbc4ee9d915c93b176f3c6fd056223",
+  "text": "To verify the answer, two checks can be performed: \n1. Check if the person in question was part of a mission that landed on the Moon.\n2. Check if there is any evidence that this person was the first to walk on the Moon, such as a historical record or a credible source stating this fact.\nAnswer phrase [doc_armstrong]"
+}

@@ -1,0 +1,235 @@
+{
+  "n_total": 28,
+  "per_family_n": {
+    "math": 20,
+    "evidence": 4,
+    "code": 4
+  },
+  "per_family_router_avg_cost": {
+    "code": 7.75,
+    "evidence": 1.0,
+    "math": 1.7
+  },
+  "per_family_graph_avg_cost": {
+    "code": 3.25,
+    "evidence": 1.0,
+    "math": 1.7
+  },
+  "weight_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "go_threshold_pct": 30.0,
+  "first_code_weight_crossing_threshold": 0.2,
+  "sweeps": [
+    {
+      "code_weight": 0.0,
+      "math_weight": 0.5,
+      "evidence_weight": 0.5,
+      "router_avg_cost": 1.35,
+      "graph_avg_cost": 1.35,
+      "graph_query_cost_saving_pct": 0.0,
+      "crosses_30pct": false
+    },
+    {
+      "code_weight": 0.05,
+      "math_weight": 0.475,
+      "evidence_weight": 0.475,
+      "router_avg_cost": 1.67,
+      "graph_avg_cost": 1.4449999999999998,
+      "graph_query_cost_saving_pct": 13.473053892215574,
+      "crosses_30pct": false
+    },
+    {
+      "code_weight": 0.1,
+      "math_weight": 0.45,
+      "evidence_weight": 0.45,
+      "router_avg_cost": 1.99,
+      "graph_avg_cost": 1.54,
+      "graph_query_cost_saving_pct": 22.613065326633162,
+      "crosses_30pct": false
+    },
+    {
+      "code_weight": 0.15,
+      "math_weight": 0.425,
+      "evidence_weight": 0.425,
+      "router_avg_cost": 2.3099999999999996,
+      "graph_avg_cost": 1.635,
+      "graph_query_cost_saving_pct": 29.220779220779207,
+      "crosses_30pct": false
+    },
+    {
+      "code_weight": 0.2,
+      "math_weight": 0.4,
+      "evidence_weight": 0.4,
+      "router_avg_cost": 2.63,
+      "graph_avg_cost": 1.73,
+      "graph_query_cost_saving_pct": 34.22053231939163,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.25,
+      "math_weight": 0.375,
+      "evidence_weight": 0.375,
+      "router_avg_cost": 2.95,
+      "graph_avg_cost": 1.825,
+      "graph_query_cost_saving_pct": 38.13559322033899,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.3,
+      "math_weight": 0.35000000000000003,
+      "evidence_weight": 0.35000000000000003,
+      "router_avg_cost": 3.2700000000000005,
+      "graph_avg_cost": 1.9200000000000004,
+      "graph_query_cost_saving_pct": 41.28440366972477,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.35,
+      "math_weight": 0.325,
+      "evidence_weight": 0.325,
+      "router_avg_cost": 3.59,
+      "graph_avg_cost": 2.015,
+      "graph_query_cost_saving_pct": 43.87186629526462,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.4,
+      "math_weight": 0.3,
+      "evidence_weight": 0.3,
+      "router_avg_cost": 3.91,
+      "graph_avg_cost": 2.11,
+      "graph_query_cost_saving_pct": 46.035805626598474,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.45,
+      "math_weight": 0.275,
+      "evidence_weight": 0.275,
+      "router_avg_cost": 4.23,
+      "graph_avg_cost": 2.205,
+      "graph_query_cost_saving_pct": 47.87234042553192,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.5,
+      "math_weight": 0.25,
+      "evidence_weight": 0.25,
+      "router_avg_cost": 4.55,
+      "graph_avg_cost": 2.3,
+      "graph_query_cost_saving_pct": 49.45054945054945,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.55,
+      "math_weight": 0.22499999999999998,
+      "evidence_weight": 0.22499999999999998,
+      "router_avg_cost": 4.87,
+      "graph_avg_cost": 2.395,
+      "graph_query_cost_saving_pct": 50.82135523613963,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.6,
+      "math_weight": 0.2,
+      "evidence_weight": 0.2,
+      "router_avg_cost": 5.1899999999999995,
+      "graph_avg_cost": 2.49,
+      "graph_query_cost_saving_pct": 52.02312138728323,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.65,
+      "math_weight": 0.175,
+      "evidence_weight": 0.175,
+      "router_avg_cost": 5.510000000000001,
+      "graph_avg_cost": 2.585,
+      "graph_query_cost_saving_pct": 53.08529945553539,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.7,
+      "math_weight": 0.15000000000000002,
+      "evidence_weight": 0.15000000000000002,
+      "router_avg_cost": 5.83,
+      "graph_avg_cost": 2.6799999999999997,
+      "graph_query_cost_saving_pct": 54.03087478559178,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.75,
+      "math_weight": 0.125,
+      "evidence_weight": 0.125,
+      "router_avg_cost": 6.15,
+      "graph_avg_cost": 2.775,
+      "graph_query_cost_saving_pct": 54.87804878048781,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.8,
+      "math_weight": 0.09999999999999998,
+      "evidence_weight": 0.09999999999999998,
+      "router_avg_cost": 6.47,
+      "graph_avg_cost": 2.87,
+      "graph_query_cost_saving_pct": 55.641421947449764,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.85,
+      "math_weight": 0.07500000000000001,
+      "evidence_weight": 0.07500000000000001,
+      "router_avg_cost": 6.79,
+      "graph_avg_cost": 2.965,
+      "graph_query_cost_saving_pct": 56.33284241531664,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.9,
+      "math_weight": 0.04999999999999999,
+      "evidence_weight": 0.04999999999999999,
+      "router_avg_cost": 7.11,
+      "graph_avg_cost": 3.06,
+      "graph_query_cost_saving_pct": 56.9620253164557,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 0.95,
+      "math_weight": 0.025000000000000022,
+      "evidence_weight": 0.025000000000000022,
+      "router_avg_cost": 7.430000000000001,
+      "graph_avg_cost": 3.155,
+      "graph_query_cost_saving_pct": 57.537012113055184,
+      "crosses_30pct": true
+    },
+    {
+      "code_weight": 1.0,
+      "math_weight": 0.0,
+      "evidence_weight": 0.0,
+      "router_avg_cost": 7.75,
+      "graph_avg_cost": 3.25,
+      "graph_query_cost_saving_pct": 58.064516129032256,
+      "crosses_30pct": true
+    }
+  ],
+  "interpretation_note": "This is a reweighting DIAGNOSTIC over the existing per-family averages, not new evidence. Treating per-family averages as stable across mixtures is an assumption that breaks down for small per-family n (especially code n=4). Cannot reopen Main Track. See reports/MAIN_RESCUE_OPTION.md for the actual rescue path (which requires user approval and dataset expansion)."
+}

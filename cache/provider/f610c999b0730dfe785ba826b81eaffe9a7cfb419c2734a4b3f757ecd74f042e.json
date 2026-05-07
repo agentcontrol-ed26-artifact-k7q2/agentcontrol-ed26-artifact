@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004584,
+  "input_tokens": 57,
+  "latency_ms": 3708,
+  "model": "deepseek-reasoner",
+  "output_tokens": 195,
+  "provider": "deepseek",
+  "request_hash": "f610c999b0730dfe785ba826b81eaffe9a7cfb419c2734a4b3f757ecd74f042e",
+  "text": "Use the drop relative to the original price."
+}

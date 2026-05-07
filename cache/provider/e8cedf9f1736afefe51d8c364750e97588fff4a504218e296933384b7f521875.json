@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014256000000000002,
+  "input_tokens": 144,
+  "latency_ms": 1487,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "e8cedf9f1736afefe51d8c364750e97588fff4a504218e296933384b7f521875",
+  "text": "Hint: doc_nile \nAnswer phrase: The Nile River [doc_nile]"
+}

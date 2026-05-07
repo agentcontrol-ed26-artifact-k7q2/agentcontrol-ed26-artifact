@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.735000000000001e-05,
+  "input_tokens": 75,
+  "latency_ms": 2287,
+  "model": "deepseek-chat",
+  "output_tokens": 61,
+  "provider": "deepseek",
+  "request_hash": "dff52454cec00c8b1fbe9ea0c91002047e57f3efec3a7e6580b18130d428a30b",
+  "text": "```python\ndef sum_digits(n):\n    if n < 0:\n        raise ValueError(\"Input must be a nonnegative integer\")\n    total = 0\n    while n > 0:\n        total += n % 10\n        n //= 10\n    return total\n```"
+}

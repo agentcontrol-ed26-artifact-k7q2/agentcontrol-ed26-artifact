@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00082201,
+  "input_tokens": 85,
+  "latency_ms": 5336,
+  "model": "deepseek-reasoner",
+  "output_tokens": 354,
+  "provider": "deepseek",
+  "request_hash": "438e0e34beff0107481e41666c75f6365577ff895d0b7594771e060a6cbbe330",
+  "text": "```python\ndef two_sum_sorted(xs, target):\n    left, right = 0, len(xs) - 1\n    while left < right:\n        s = xs[left] + xs[right]\n        if s == target:\n            return (left, right)\n        elif s < target:\n            left += 1\n        else:\n            right -= 1\n    return None\n```"
+}

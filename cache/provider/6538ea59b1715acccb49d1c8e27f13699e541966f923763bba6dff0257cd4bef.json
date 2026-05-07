@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.16e-05,
+  "input_tokens": 76,
+  "latency_ms": 986,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 96,
+  "provider": "together",
+  "request_hash": "6538ea59b1715acccb49d1c8e27f13699e541966f923763bba6dff0257cd4bef",
+  "text": "```python\n# Given 2D list\ndata = [[1, 2], [3, 4], [5, 6]]\n\n# Initialize column sums\ncol_sums = [0, 0]\n\n# Compute column-wise sums\nfor row in data:\n    for i in range(len(row)):\n        col_sums[i] += row[i]\n\n# Print the final answer\nprint(col_sums)\n```\n[9, 12]\n```"
+}

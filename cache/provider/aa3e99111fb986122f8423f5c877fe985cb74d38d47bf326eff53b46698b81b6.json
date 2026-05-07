@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014696000000000002,
+  "input_tokens": 100,
+  "latency_ms": 1166,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 67,
+  "provider": "together",
+  "request_hash": "aa3e99111fb986122f8423f5c877fe985cb74d38d47bf326eff53b46698b81b6",
+  "text": "To find the maximum value, we can use dynamic programming. \n\n1. Check if the solution handles cases where the weight of an item exceeds the capacity of the knapsack.\n2. Check if the solution correctly calculates the maximum value when there are multiple items with the same weight but different values. \n\nMaximum value: 10"
+}

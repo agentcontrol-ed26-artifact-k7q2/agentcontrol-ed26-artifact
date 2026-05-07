@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031327,
+  "input_tokens": 40,
+  "latency_ms": 2433,
+  "model": "deepseek-reasoner",
+  "output_tokens": 133,
+  "provider": "deepseek",
+  "request_hash": "e8855343ec8b117e1c3e2ec3a305150cba3ea79d3734c7de4d3d1bdb1bf780c4",
+  "text": "The percent increase is calculated as ((new price - old price) / old price) \u00d7 100%. Here, (100 - 80) / 80 = 20 / 80 = 0.25, and 0.25 \u00d7 100% = 25%. Thus, the final answer is 25.\n\n25"
+}

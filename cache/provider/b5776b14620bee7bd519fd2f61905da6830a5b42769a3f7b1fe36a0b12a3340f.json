@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.75e-05,
+  "input_tokens": 82,
+  "latency_ms": 621,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 43,
+  "provider": "together",
+  "request_hash": "b5776b14620bee7bd519fd2f61905da6830a5b42769a3f7b1fe36a0b12a3340f",
+  "text": "def sum_digits(n: int) -> int:\n    if n < 0:\n        raise ValueError(\"Input must be a nonnegative integer\")\n    return sum(int(digit) for digit in str(n))"
+}

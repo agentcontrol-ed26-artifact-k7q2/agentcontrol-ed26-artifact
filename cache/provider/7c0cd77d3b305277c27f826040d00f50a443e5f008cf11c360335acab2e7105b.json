@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384000000000001,
+  "input_tokens": 86,
+  "latency_ms": 4193,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "7c0cd77d3b305277c27f826040d00f50a443e5f008cf11c360335acab2e7105b",
+  "text": "1. Reversing the numbers and adding them: 7 + 12\n2. Estimating the sum using rounding: 10 + 10"
+}

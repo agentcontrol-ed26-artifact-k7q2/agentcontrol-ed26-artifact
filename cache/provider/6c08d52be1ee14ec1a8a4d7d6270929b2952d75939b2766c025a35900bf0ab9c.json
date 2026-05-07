@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.93e-05,
+  "input_tokens": 302,
+  "latency_ms": 625,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "6c08d52be1ee14ec1a8a4d7d6270929b2952d75939b2766c025a35900bf0ab9c",
+  "text": "Rosalind Franklin's X-ray diffraction images contributed to the discovery of DNA's double helix [doc_franklin_xray]."
+}

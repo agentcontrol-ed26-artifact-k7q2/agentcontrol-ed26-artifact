@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.52e-05,
+  "input_tokens": 250,
+  "latency_ms": 499,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "c2241c54d7b2f8a90ae11a77a552c07e440756a26bdab56c030f24e969fe1f95",
+  "text": "The attack on Pearl Harbor on December 7, 1941 brought the United States into World War II. [doc_ww2_pearl]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.2199999999999998e-05,
+  "input_tokens": 68,
+  "latency_ms": 394,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 6,
+  "provider": "together",
+  "request_hash": "96e653e60aa830e07a585a571c7fc49218d71f02e9dcd003b2bb4d4945b8d62b",
+  "text": "Germany's invasion of Poland"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010547000000000002,
+  "input_tokens": 81,
+  "latency_ms": 1699,
+  "model": "deepseek-chat",
+  "output_tokens": 76,
+  "provider": "deepseek",
+  "request_hash": "40181eb95e968ebd4639537541d7ce505b5f9295f4172777367f11f24d61b195",
+  "text": "We know:  \nLCM(8, 12) = (8 \u00d7 12) / GCD(8, 12)  \nGCD(8, 12) = 4  \n\nSo:  \n8 \u00d7 12 = 96  \n96 \u00f7 4 = 24  \n\nIntermediate: GCD(8,12) = 4  \nFinal answer: 24  \n\n24"
+}

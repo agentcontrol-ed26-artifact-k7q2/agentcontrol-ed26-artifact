@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00031607,
+  "input_tokens": 65,
+  "latency_ms": 2607,
+  "model": "deepseek-reasoner",
+  "output_tokens": 128,
+  "provider": "deepseek",
+  "request_hash": "293da5f3e5b253c9ab337591bc284377b4924755c7c2b2c9da8a9188f392bb17",
+  "text": "Divide both sides by 2 to simplify."
+}

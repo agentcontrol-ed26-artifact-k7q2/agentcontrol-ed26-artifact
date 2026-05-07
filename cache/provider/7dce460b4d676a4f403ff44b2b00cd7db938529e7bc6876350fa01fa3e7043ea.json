@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.81e-05,
+  "input_tokens": 111,
+  "latency_ms": 647,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "7dce460b4d676a4f403ff44b2b00cd7db938529e7bc6876350fa01fa3e7043ea",
+  "text": "Albert Einstein developed the photoelectric effect explanation [doc_einstein_nobel]."
+}

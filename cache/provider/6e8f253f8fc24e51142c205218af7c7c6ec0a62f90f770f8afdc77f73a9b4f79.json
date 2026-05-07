@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0004584,
+  "input_tokens": 57,
+  "latency_ms": 3428,
+  "model": "deepseek-reasoner",
+  "output_tokens": 195,
+  "provider": "deepseek",
+  "request_hash": "6e8f253f8fc24e51142c205218af7c7c6ec0a62f90f770f8afdc77f73a9b4f79",
+  "text": "The most common mistake is confusing 81 \u00f7 9 with 9 \u00d7 9 or incorrectly thinking the answer is 8."
+}

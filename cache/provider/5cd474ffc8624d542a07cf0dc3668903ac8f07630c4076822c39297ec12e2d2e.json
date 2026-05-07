@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00046935,
+  "input_tokens": 57,
+  "latency_ms": 3169,
+  "model": "deepseek-reasoner",
+  "output_tokens": 200,
+  "provider": "deepseek",
+  "request_hash": "5cd474ffc8624d542a07cf0dc3668903ac8f07630c4076822c39297ec12e2d2e",
+  "text": "The most common mistake is forgetting to carry the 1 from the units column when adding"
+}

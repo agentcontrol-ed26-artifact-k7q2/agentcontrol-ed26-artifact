@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.000527,
+  "input_tokens": 90,
+  "latency_ms": 7176,
+  "model": "deepseek-chat",
+  "output_tokens": 457,
+  "provider": "deepseek",
+  "request_hash": "1c48b532dc1eea0591fc34f07dda4d4da96f3ad811fa4dcc73c74737f9bd2fc3",
+  "text": "We need to move all 3 missionaries and 3 cannibals from the left bank to the right bank.  \nThe boat holds 1 or 2 people, and at no point can cannibals outnumber missionaries on either bank (unless there are zero missionaries on that bank).\n\nA known minimal solution uses 11 crossings.  \nHere\u2019s one sequence:\n\n1. Two cannibals cross right.  \n2. One cannibal returns left.  \n3. Two missionaries cross right.  \n4. One missionary and one cannibal return left.  \n5. Two missionaries cross right.  \n6. One cannibal returns left.  \n7. Two cannibals cross right.  \n8. One cannibal returns left.  \n9. Two cannibals cross right.  \n\nCount the crossings: 9 trips.  \nBut wait \u2014 after step 9, all are on the right bank. Let\u2019s recount carefully:\n\n1. C C \u2192 (right: 2C, left: 3M,1C)  \n2. C \u2190 (right: 1C, left: 3M,2C)  \n3. M M \u2192 (right: 2M,1C, left: 1M,2C)  \n4. M C \u2190 (right: 1M, left: 2M,3C)  \n5. M M \u2192 (right: 3M, left: 3C)  \n6. C \u2190 (right: 3M,1C, left: 2C)  \n7. C C \u2192 (right: 3M,3C, left: 0)  \n\nThat\u2019s 7 crossings. But step 4 has a missionary and a cannibal returning \u2014 that\u2019s allowed.  \nCheck constraints: After step 3, right bank has 2M,1C \u2192 safe. After step 4, right bank has 1M,0C \u2192 safe. After step 5, right bank has 3M,0C \u2192 safe. After step 6, right bank has 3M,1C \u2192 safe. After step 7, all safe.\n\nSo minimal is 7.\n\n**Final integer:** 7"
+}

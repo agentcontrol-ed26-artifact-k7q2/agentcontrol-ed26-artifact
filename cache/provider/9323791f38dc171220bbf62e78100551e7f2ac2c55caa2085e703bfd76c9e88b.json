@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.63e-05,
+  "input_tokens": 105,
+  "latency_ms": 435,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "9323791f38dc171220bbf62e78100551e7f2ac2c55caa2085e703bfd76c9e88b",
+  "text": "The Wright brothers achieved their first flight at Kitty Hawk [doc_wright]."
+}

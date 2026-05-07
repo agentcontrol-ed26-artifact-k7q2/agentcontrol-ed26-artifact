@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014872,
+  "input_tokens": 161,
+  "latency_ms": 361,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 8,
+  "provider": "together",
+  "request_hash": "835da7d2058ec5630b912a98da194dc41089766d0bb200d4e28b899bcffa4ec6",
+  "text": "Adolf Hitler [doc_war]"
+}

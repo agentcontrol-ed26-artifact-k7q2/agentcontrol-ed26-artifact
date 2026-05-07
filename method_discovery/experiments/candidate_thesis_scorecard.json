@@ -1,0 +1,13 @@
+{
+  "scoring_axes": ["novelty", "feasibility", "signal_probability", "baseline_defensibility", "compute_affordability", "paper_clarity", "hiring_signal"],
+  "candidates": [
+    {"id": "A", "title": "Interactive feedback value (extended)", "scores": [3, 5, 4, 4, 5, 5, 4], "total": 30, "selected": true},
+    {"id": "B", "title": "KV-amortized control readout", "scores": [5, 2, 3, 4, 2, 4, 5], "total": 25, "selected": false, "deferred": "needs GPU plan + user approval"},
+    {"id": "C", "title": "Regime detector + selective graph expansion", "scores": [3, 5, 3, 4, 5, 4, 3], "total": 27, "selected": false},
+    {"id": "D", "title": "Verifier-risk control", "scores": [3, 4, 3, 4, 5, 4, 4], "total": 27, "selected": false},
+    {"id": "E", "title": "Partial strong-model assistance", "scores": [1, 5, 1, 5, 5, 2, 1], "total": 20, "selected": false, "status": "DEAD-EMPIRICALLY-FALSIFIED"},
+    {"id": "F", "title": "Agentic search vs fixed RAG", "scores": [4, 4, 4, 4, 5, 5, 5], "total": 31, "selected": true}
+  ],
+  "selected_for_immediate_implementation": ["F", "A_extended"],
+  "deferred_pending_user_approval": ["B"]
+}

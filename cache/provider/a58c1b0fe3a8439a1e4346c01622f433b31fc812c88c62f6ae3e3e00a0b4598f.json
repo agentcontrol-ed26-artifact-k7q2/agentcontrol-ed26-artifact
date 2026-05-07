@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.54e-05,
+  "input_tokens": 102,
+  "latency_ms": 424,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 16,
+  "provider": "together",
+  "request_hash": "a58c1b0fe3a8439a1e4346c01622f433b31fc812c88c62f6ae3e3e00a0b4598f",
+  "text": "Marie Curie discovered polonium besides radium [doc_curie]."
+}

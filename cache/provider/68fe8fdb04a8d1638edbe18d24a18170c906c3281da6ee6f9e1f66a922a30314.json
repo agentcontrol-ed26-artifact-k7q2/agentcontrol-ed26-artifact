@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010559999999999999,
+  "input_tokens": 94,
+  "latency_ms": 2364,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "68fe8fdb04a8d1638edbe18d24a18170c906c3281da6ee6f9e1f66a922a30314",
+  "text": "The most common mistake to avoid is forgetting to follow the order of operations, specifically remembering to calculate the squares before subtracting."
+}

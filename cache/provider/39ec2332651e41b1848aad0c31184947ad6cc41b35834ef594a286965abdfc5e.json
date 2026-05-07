@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.86e-05,
+  "input_tokens": 84,
+  "latency_ms": 1558,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 178,
+  "provider": "together",
+  "request_hash": "39ec2332651e41b1848aad0c31184947ad6cc41b35834ef594a286965abdfc5e",
+  "text": "```python\nfrom collections import defaultdict\n\ndef topological_sort(n, edges):\n    if n <= 0:\n        return []\n    \n    graph = defaultdict(list)\n    indegree = [0] * n\n    \n    for u, v in edges:\n        if u >= n or v >= n:\n            return []\n        graph[u].append(v)\n        indegree[v] += 1\n    \n    queue = [i for i in range(n) if indegree[i] == 0]\n    if not queue:\n        return []\n    \n    order = []\n    while queue:\n        node = queue.pop(0)\n        order.append(node)\n        for neighbor in graph[node]:\n            indegree[neighbor] -= 1\n            if indegree[neighbor] == 0:\n                queue.append(neighbor)\n    \n    return order if len(order) == n else []\n```"
+}

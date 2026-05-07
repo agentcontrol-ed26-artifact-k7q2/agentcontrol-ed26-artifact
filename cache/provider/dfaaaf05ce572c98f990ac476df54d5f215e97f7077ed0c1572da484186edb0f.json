@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.26e-05,
+  "input_tokens": 110,
+  "latency_ms": 1474,
+  "model": "deepseek-chat",
+  "output_tokens": 39,
+  "provider": "deepseek",
+  "request_hash": "dfaaaf05ce572c98f990ac476df54d5f215e97f7077ed0c1572da484186edb0f",
+  "text": "Marie Curie's sister did not win a Nobel Prize; her daughter Irene Joliot-Curie won the 1935 Nobel Prize in Chemistry. [doc_curie_irene]"
+}

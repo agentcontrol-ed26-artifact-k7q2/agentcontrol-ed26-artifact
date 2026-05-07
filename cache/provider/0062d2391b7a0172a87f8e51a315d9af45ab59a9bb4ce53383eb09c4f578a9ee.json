@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.888e-05,
+  "input_tokens": 264,
+  "latency_ms": 1037,
+  "model": "deepseek-chat",
+  "output_tokens": 16,
+  "provider": "deepseek",
+  "request_hash": "0062d2391b7a0172a87f8e51a315d9af45ab59a9bb4ce53383eb09c4f578a9ee",
+  "text": "The designer of the Analytical Engine was born in London. [doc_babbage]"
+}

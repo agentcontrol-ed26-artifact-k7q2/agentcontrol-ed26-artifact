@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00019040000000000002,
+  "input_tokens": 90,
+  "latency_ms": 2793,
+  "model": "deepseek-chat",
+  "output_tokens": 151,
+  "provider": "deepseek",
+  "request_hash": "33e28f7b490c2c0361d221fcd780e8abb3b6b24c83d1610826789e355befe300",
+  "text": "```python\ndef next_permutation(xs):\n    n = len(xs)\n    if n <= 1:\n        return\n    i = n - 2\n    while i >= 0 and xs[i] >= xs[i + 1]:\n        i -= 1\n    if i >= 0:\n        j = n - 1\n        while xs[j] <= xs[i]:\n            j -= 1\n        xs[i], xs[j] = xs[j], xs[i]\n    left, right = i + 1, n - 1\n    while left < right:\n        xs[left], xs[right] = xs[right], xs[left]\n        left += 1\n        right -= 1\n```"
+}

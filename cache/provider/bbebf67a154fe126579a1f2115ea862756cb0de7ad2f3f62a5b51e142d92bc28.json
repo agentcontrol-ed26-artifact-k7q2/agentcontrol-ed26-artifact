@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011968,
+  "input_tokens": 96,
+  "latency_ms": 1351,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "bbebf67a154fe126579a1f2115ea862756cb0de7ad2f3f62a5b51e142d92bc28",
+  "text": "```python\ndata = [[1,2],[3,4],[5,6]]\ncolumn_sums = [sum(col) for col in zip(*data)]\nprint(column_sums)\n```"
+}

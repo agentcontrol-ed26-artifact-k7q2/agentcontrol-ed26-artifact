@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011264,
+  "input_tokens": 103,
+  "latency_ms": 609,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 25,
+  "provider": "together",
+  "request_hash": "ff27ae1ea8ce925491f260ac289270e3a7d833e73c00776ece0ff8fc08872267",
+  "text": "Find prime factorization of 28\n1 + 2 + 4 + 7 + 14 + 28"
+}

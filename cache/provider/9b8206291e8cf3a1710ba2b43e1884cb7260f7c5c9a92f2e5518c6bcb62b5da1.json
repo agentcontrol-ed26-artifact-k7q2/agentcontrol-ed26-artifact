@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.592000000000001e-05,
+  "input_tokens": 56,
+  "latency_ms": 1249,
+  "model": "deepseek-chat",
+  "output_tokens": 28,
+  "provider": "deepseek",
+  "request_hash": "9b8206291e8cf3a1710ba2b43e1884cb7260f7c5c9a92f2e5518c6bcb62b5da1",
+  "text": "```python\nxs = [10, 20, 30]\nmax_index = xs.index(max(xs))\nprint(max_index)\n```"
+}

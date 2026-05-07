@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.0499999999999995e-05,
+  "input_tokens": 112,
+  "latency_ms": 597,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "9c3e22dd73218252c65798d19cd46edbb464d42039da533eff3c0df020bd4bbb",
+  "text": "Ada Lovelace is described as an early computer programmer for the Analytical Engine [doc_lovelace]."
+}

@@ -1,0 +1,22 @@
+api:
+  default_max_total_spend_usd: 20.0
+  per_provider_caps_usd:
+    deepseek: 10.0
+    together: 5.0
+  approval_env_var: AGENTCONTROL_APOLLO_API_APPROVED
+  hard_kill_on_overspend: true
+  cache_dir: cache/provider
+  ledger: cache/cost_ledger.jsonl
+selected_experiments:
+  - id: A_kv_readout
+    cheap_phase_estimated_usd: 0.0
+    gpu_phase_required: true
+    rationale: "Cheap phase = label building + external-router (CPU only); GPU phase = hidden-state probe."
+  - id: B_verifier_risk
+    cheap_phase_estimated_usd: 0.50
+    gpu_phase_required: false
+    rationale: "n=60 × ~6 actions × 2 providers ~ 720 calls; many cache-hits; estimate < $0.50 incremental."
+hard_caps:
+  per_run_spend_usd: 5.0
+  total_apollo_spend_usd: 10.0
+  model_download_gb: 20

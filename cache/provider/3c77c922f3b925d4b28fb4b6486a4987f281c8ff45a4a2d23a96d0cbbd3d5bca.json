@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.84e-05,
+  "input_tokens": 84,
+  "latency_ms": 592,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 44,
+  "provider": "together",
+  "request_hash": "3c77c922f3b925d4b28fb4b6486a4987f281c8ff45a4a2d23a96d0cbbd3d5bca",
+  "text": "import numpy as np\n\nxs = [10, 20, 30, 40, 50]\nvariance = np.var(xs, ddof=0)\n\nprint(variance)"
+}

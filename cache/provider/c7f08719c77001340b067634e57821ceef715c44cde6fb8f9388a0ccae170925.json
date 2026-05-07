@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00037573,
+  "input_tokens": 58,
+  "latency_ms": 2695,
+  "model": "deepseek-reasoner",
+  "output_tokens": 157,
+  "provider": "deepseek",
+  "request_hash": "c7f08719c77001340b067634e57821ceef715c44cde6fb8f9388a0ccae170925",
+  "text": "The most common mistake is forgetting to convert the percentage to a decimal (0.18) before multiplying, leading to an incorrect product."
+}

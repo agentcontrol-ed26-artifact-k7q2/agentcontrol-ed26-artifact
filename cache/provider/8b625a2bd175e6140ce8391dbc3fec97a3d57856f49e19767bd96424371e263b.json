@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.272000000000001e-05,
+  "input_tokens": 66,
+  "latency_ms": 1501,
+  "model": "deepseek-chat",
+  "output_tokens": 59,
+  "provider": "deepseek",
+  "request_hash": "8b625a2bd175e6140ce8391dbc3fec97a3d57856f49e19767bd96424371e263b",
+  "text": "7^2 = 49, 49 mod 13 = 49 - 39 = 10.  \n7^4 = (7^2)^2 = 10^2 = 100, 100 mod 13 = 100 - 91 = 9.  \n\n9"
+}

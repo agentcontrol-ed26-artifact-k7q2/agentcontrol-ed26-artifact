@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010621,
+  "input_tokens": 263,
+  "latency_ms": 1228,
+  "model": "deepseek-chat",
+  "output_tokens": 32,
+  "provider": "deepseek",
+  "request_hash": "c5e6ddbbdb65e16a57b79ad83a7ea6336312b965db1bd67c972587778f48bf0f",
+  "text": "Edmund Hillary was born in Auckland, New Zealand, and Tenzing Norgay was born in Khumbu, Nepal. [doc_everest]"
+}

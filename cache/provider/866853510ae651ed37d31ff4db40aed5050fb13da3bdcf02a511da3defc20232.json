@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 3.0299999999999998e-05,
+  "input_tokens": 78,
+  "latency_ms": 416,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "866853510ae651ed37d31ff4db40aed5050fb13da3bdcf02a511da3defc20232",
+  "text": "The intermediate value is 9 + 16 = 25.\n\nThe final answer is 5."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028072,
+  "input_tokens": 299,
+  "latency_ms": 497,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "ef03eca3bc21303b858ac38fe01179d4103b63f85f02493aae4d0fd1d46e02f2",
+  "text": "The first person to summit Everest was born in Auckland, New Zealand [doc_hillary_bio]"
+}

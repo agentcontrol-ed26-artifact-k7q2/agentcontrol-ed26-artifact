@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.5610000000000005e-05,
+  "input_tokens": 153,
+  "latency_ms": 1034,
+  "model": "deepseek-chat",
+  "output_tokens": 13,
+  "provider": "deepseek",
+  "request_hash": "707b448aa63925c0d7a9298546e7c323da23c8c2bb79dc28cbf4f92a236308fd",
+  "text": "World War II began in 1939 [doc_war]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.664999999999999e-05,
+  "input_tokens": 235,
+  "latency_ms": 1046,
+  "model": "deepseek-chat",
+  "output_tokens": 12,
+  "provider": "deepseek",
+  "request_hash": "a1137b7e4d3c53d7b77808eca602e1f4c0e580ceb196fbc754cf6ba7bb8b3dc1",
+  "text": "Charles Babbage designed the Analytical Engine [doc_babbage]"
+}

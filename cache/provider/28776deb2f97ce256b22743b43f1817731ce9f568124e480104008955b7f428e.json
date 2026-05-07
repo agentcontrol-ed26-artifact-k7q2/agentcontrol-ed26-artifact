@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010384,
+  "input_tokens": 95,
+  "latency_ms": 1325,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "28776deb2f97ce256b22743b43f1817731ce9f568124e480104008955b7f428e",
+  "text": "To solve for x, subtract 5 from both sides of the equation to isolate the term with the variable."
+}

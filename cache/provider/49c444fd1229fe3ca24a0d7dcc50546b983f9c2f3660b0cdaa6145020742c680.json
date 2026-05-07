@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030095999999999996,
+  "input_tokens": 300,
+  "latency_ms": 1102,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "49c444fd1229fe3ca24a0d7dcc50546b983f9c2f3660b0cdaa6145020742c680",
+  "text": "The answer is the United Kingdom, as Rosalind Franklin, who produced Photo 51, was a British biophysicist and X-ray crystallographer [doc_franklin_xray]"
+}

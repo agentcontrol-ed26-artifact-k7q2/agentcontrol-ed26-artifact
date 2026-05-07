@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021559999999999998,
+  "input_tokens": 225,
+  "latency_ms": 998,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "60ccd17bb727633f6cbb09648ab7e730dd2c4ae917f5f539fef63e84f7debb87",
+  "text": "Rosalind Franklin produced the X-ray diffraction images of DNA [doc_franklin]"
+}

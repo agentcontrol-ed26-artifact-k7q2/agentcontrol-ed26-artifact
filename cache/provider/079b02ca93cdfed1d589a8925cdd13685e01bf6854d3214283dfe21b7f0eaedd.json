@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018480000000000002,
+  "input_tokens": 192,
+  "latency_ms": 471,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 18,
+  "provider": "together",
+  "request_hash": "079b02ca93cdfed1d589a8925cdd13685e01bf6854d3214283dfe21b7f0eaedd",
+  "text": "Look at doc_war for information about World War II.\nAnswer phrase [doc_war]"
+}

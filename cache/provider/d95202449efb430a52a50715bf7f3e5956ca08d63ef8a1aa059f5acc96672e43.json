@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.8e-06,
+  "input_tokens": 28,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 7,
+  "provider": "dummy",
+  "request_hash": "d95202449efb430a52a50715bf7f3e5956ca08d63ef8a1aa059f5acc96672e43",
+  "text": "def factorial(n):\n    return 0\n"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001188,
+  "input_tokens": 124,
+  "latency_ms": 397,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "08a305e504e637cbc98a6a7f2a6520ad01a97aecf1a13cc2ba9857d003ec5273",
+  "text": "Look at doc_wright [doc_wright]"
+}

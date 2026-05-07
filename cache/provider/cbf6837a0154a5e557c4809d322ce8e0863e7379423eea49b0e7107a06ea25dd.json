@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.6099999999999997e-05,
+  "input_tokens": 68,
+  "latency_ms": 549,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 19,
+  "provider": "together",
+  "request_hash": "cbf6837a0154a5e557c4809d322ce8e0863e7379423eea49b0e7107a06ea25dd",
+  "text": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n```"
+}

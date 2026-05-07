@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.6760000000000005e-05,
+  "input_tokens": 88,
+  "latency_ms": 1156,
+  "model": "deepseek-chat",
+  "output_tokens": 30,
+  "provider": "deepseek",
+  "request_hash": "5b5e4710115eebf585a1518879dc330f3277c3bd9b1ba8b01a56aaa6e2a21e63",
+  "text": "drop = 80 - 60 = 20  \npercent decrease = (20 / 80) * 100 = 25  \n\n20  \n25"
+}

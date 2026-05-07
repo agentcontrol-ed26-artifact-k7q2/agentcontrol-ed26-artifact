@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014432,
+  "input_tokens": 92,
+  "latency_ms": 1016,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 72,
+  "provider": "together",
+  "request_hash": "bb54a39a7fdf60ca5fde911556e8c7d06bd0d8ae9e757e2aaaa387e509b67f9e",
+  "text": "To find the hypotenuse, you can use the Pythagorean theorem, which involves squaring the lengths of the legs and summing them. \n\nIntermediate calculation: 3^2 = 9, 4^2 = 16, 9 + 16 = 25.\nNext, you would take the square root of this sum."
+}

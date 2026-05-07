@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.844000000000001e-05,
+  "input_tokens": 82,
+  "latency_ms": 1418,
+  "model": "deepseek-chat",
+  "output_tokens": 33,
+  "provider": "deepseek",
+  "request_hash": "ffaf4068fc503a7fed553817dc983192d1ee58eb90c3615ae661d841db89581c",
+  "text": "The 8-puzzle from the given start to goal only requires moving the blank (0) one step to the right. That is exactly 1 move.\n\n1"
+}

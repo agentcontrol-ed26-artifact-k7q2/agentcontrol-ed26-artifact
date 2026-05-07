@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001584,
+  "input_tokens": 163,
+  "latency_ms": 745,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 17,
+  "provider": "together",
+  "request_hash": "6ee3816392c7795fb298597078d7d62c93090ce92504bc7bba13d99a779b3bcc",
+  "text": "Edmund Hillary and Tenzing Norgay [doc_everest]"
+}

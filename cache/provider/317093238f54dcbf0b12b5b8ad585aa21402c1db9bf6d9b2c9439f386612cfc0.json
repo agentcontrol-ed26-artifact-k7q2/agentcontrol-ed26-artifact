@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027632000000000004,
+  "input_tokens": 282,
+  "latency_ms": 600,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 32,
+  "provider": "together",
+  "request_hash": "317093238f54dcbf0b12b5b8ad585aa21402c1db9bf6d9b2c9439f386612cfc0",
+  "text": "Pierre Curie and his wife Marie Curie shared the 1903 Nobel Prize in Physics with Henri Becquerel [doc_curie_pierre]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010208,
+  "input_tokens": 79,
+  "latency_ms": 735,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 37,
+  "provider": "together",
+  "request_hash": "20f6286521f560fbdda5cee619fcbb288e8f05d6ea1a7a620fb906af0f265288",
+  "text": "To solve this problem, consider using a backtracking algorithm to place the queens on the board one by one, ensuring that each placement is safe from attack by any previously placed queens."
+}

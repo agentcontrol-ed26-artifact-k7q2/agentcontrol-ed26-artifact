@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00043602999999999996,
+  "input_tokens": 88,
+  "latency_ms": 2999,
+  "model": "deepseek-reasoner",
+  "output_tokens": 177,
+  "provider": "deepseek",
+  "request_hash": "d3c356b817e9e393b13bbfb3dac967097f6c75b70427671caee5dfe3ca3b6503",
+  "text": "1. Verify that the evidence explicitly states \"polonium\" as a discovery by Marie Curie. [doc_curie]\n2. Confirm that the evidence does not list any other discoveries besides polonium and radium. [doc_curie]"
+}

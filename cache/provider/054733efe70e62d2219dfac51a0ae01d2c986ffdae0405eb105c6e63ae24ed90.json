@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010926,
+  "input_tokens": 258,
+  "latency_ms": 1523,
+  "model": "deepseek-chat",
+  "output_tokens": 36,
+  "provider": "deepseek",
+  "request_hash": "054733efe70e62d2219dfac51a0ae01d2c986ffdae0405eb105c6e63ae24ed90",
+  "text": "The provided evidence does not contain information about the publisher of On the Origin of Species or any travels from 1831 to 1836. [doc_darwin_origin]"
+}

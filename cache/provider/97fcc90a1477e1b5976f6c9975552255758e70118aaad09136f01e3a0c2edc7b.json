@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0005829100000000001,
+  "input_tokens": 73,
+  "latency_ms": 7393,
+  "model": "deepseek-chat",
+  "output_tokens": 512,
+  "provider": "deepseek",
+  "request_hash": "97fcc90a1477e1b5976f6c9975552255758e70118aaad09136f01e3a0c2edc7b",
+  "text": "We have a 5x5 grid from (0,0) to (4,4).  \nWalls are at: (1,1), (1,2), (1,3), (2,3), (3,3).  \n\nLet\u2019s find the shortest path step by step.\n\nStart at (0,0).  \nPossible moves: right to (0,1) or down to (1,0).  \n\nWe can try BFS manually:\n\n- Step 0: (0,0)  \n- Step 1: (0,1), (1,0)  \n- Step 2 from (0,1): (0,2), (1,1) is wall so skip, (0,0) visited.  \n  From (1,0): (2,0), (1,1) wall, (0,0) visited.  \n  So step 2: (0,2), (2,0)  \n- Step 3 from (0,2): (0,3), (1,2) wall, (0,1) visited.  \n  From (2,0): (3,0), (2,1), (1,0) visited.  \n  Step 3: (0,3), (3,0), (2,1)  \n- Step 4 from (0,3): (0,4), (1,3) wall, (0,2) visited.  \n  From (3,0): (4,0), (3,1), (2,0) visited.  \n  From (2,1): (2,2), (3,1), (1,1) wall, (2,0) visited.  \n  Step 4: (0,4), (4,0), (3,1), (2,2)  \n- Step 5 from (0,4): (1,4), (0,3) visited.  \n  From (4,0): (4,1), (3,0) visited.  \n  From (3,1): (3,2), (4,1), (2,1) visited.  \n  From (2,2): (2,1) visited, (3,2), (1,2) wall, (2,3) wall.  \n  Step 5: (1,4), (4,1), (3,2)"
+}

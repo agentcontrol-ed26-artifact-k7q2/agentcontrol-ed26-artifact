@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.580000000000001e-05,
+  "input_tokens": 60,
+  "latency_ms": 1087,
+  "model": "deepseek-chat",
+  "output_tokens": 36,
+  "provider": "deepseek",
+  "request_hash": "c5a25ac52ea6db4eb860f97e42dd0193c214fc6bcecaf4c067966d51c28e6239",
+  "text": "def fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a"
+}

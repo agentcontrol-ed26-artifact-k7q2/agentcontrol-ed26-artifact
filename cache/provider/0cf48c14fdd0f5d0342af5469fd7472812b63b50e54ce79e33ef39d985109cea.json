@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.9100000000000003e-05,
+  "input_tokens": 76,
+  "latency_ms": 452,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 21,
+  "provider": "together",
+  "request_hash": "0cf48c14fdd0f5d0342af5469fd7472812b63b50e54ce79e33ef39d985109cea",
+  "text": "The intermediate value is base*height = 40.\n\nThe final answer is 20."
+}

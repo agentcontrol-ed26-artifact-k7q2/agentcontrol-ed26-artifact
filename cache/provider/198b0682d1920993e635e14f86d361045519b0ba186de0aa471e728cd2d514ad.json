@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023936,
+  "input_tokens": 262,
+  "latency_ms": 350,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 10,
+  "provider": "together",
+  "request_hash": "198b0682d1920993e635e14f86d361045519b0ba186de0aa471e728cd2d514ad",
+  "text": "Marie Curie [doc_curie]"
+}

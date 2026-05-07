@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.14e-05,
+  "input_tokens": 116,
+  "latency_ms": 589,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 22,
+  "provider": "together",
+  "request_hash": "868b83d287ee7ef471b43f80b28144c06fd6ff2000d680e406a25d36aaefd5e3",
+  "text": "The Wright brothers achieved the first sustained powered flight in 1903 [doc_wright_flight]."
+}

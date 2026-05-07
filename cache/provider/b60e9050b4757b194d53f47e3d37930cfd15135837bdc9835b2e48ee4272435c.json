@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016368,
+  "input_tokens": 159,
+  "latency_ms": 641,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "b60e9050b4757b194d53f47e3d37930cfd15135837bdc9835b2e48ee4272435c",
+  "text": "Answer: 1903 [doc_wright]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

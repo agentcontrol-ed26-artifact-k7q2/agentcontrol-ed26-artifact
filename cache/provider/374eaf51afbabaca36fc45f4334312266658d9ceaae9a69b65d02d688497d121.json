@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010912,
+  "input_tokens": 113,
+  "latency_ms": 550,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "374eaf51afbabaca36fc45f4334312266658d9ceaae9a69b65d02d688497d121",
+  "text": "Look at doc_telephone [doc_telephone]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.03e-05,
+  "input_tokens": 83,
+  "latency_ms": 999,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 118,
+  "provider": "together",
+  "request_hash": "4e132cb8cb1693c041800d83ae526745d0ed8056605baf7c171d4ab0f77d8eed",
+  "text": "```python\ndef string_compress(s):\n    if not s:\n        return s\n    \n    compressed = []\n    count = 1\n    \n    for i in range(1, len(s)):\n        if s[i] == s[i - 1]:\n            count += 1\n        else:\n            compressed.append(s[i - 1] + str(count))\n            count = 1\n    compressed.append(s[-1] + str(count))\n    \n    compressed_str = ''.join(compressed)\n    return compressed_str if len(compressed_str) < len(s) else s\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.2000000000000004e-05,
+  "input_tokens": 80,
+  "latency_ms": 687,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "da74705a52cf9f1d4ddfda4c3cfe30bd586fd004ccf3407bfd59335bad0863bc",
+  "text": "```python\ndef gcd(a: int, b: int) -> int:\n    if a < 0 or b < 0:\n        raise ValueError(\"Both numbers must be positive integers\")\n    while b:\n        a, b = b, a % b\n    return a\n```"
+}

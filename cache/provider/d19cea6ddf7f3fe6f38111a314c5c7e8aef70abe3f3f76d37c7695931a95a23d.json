@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00013464,
+  "input_tokens": 126,
+  "latency_ms": 659,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "d19cea6ddf7f3fe6f38111a314c5c7e8aef70abe3f3f76d37c7695931a95a23d",
+  "text": "Answer: Alexander Graham Bell [doc_telephone]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

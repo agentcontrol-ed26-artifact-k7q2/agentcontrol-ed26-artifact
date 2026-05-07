@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.852e-05,
+  "input_tokens": 66,
+  "latency_ms": 1155,
+  "model": "deepseek-chat",
+  "output_tokens": 37,
+  "provider": "deepseek",
+  "request_hash": "da1617bbc0d6edaad2a44dca14e3eae8fda3907ca668bf9064649860ae034e99",
+  "text": "def first_missing_positive(xs):\n    nums = set(xs)\n    i = 1\n    while i in nums:\n        i += 1\n    return i"
+}

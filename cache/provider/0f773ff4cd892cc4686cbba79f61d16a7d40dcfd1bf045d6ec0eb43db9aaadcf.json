@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00029411,
+  "input_tokens": 83,
+  "latency_ms": 3828,
+  "model": "deepseek-chat",
+  "output_tokens": 247,
+  "provider": "deepseek",
+  "request_hash": "0f773ff4cd892cc4686cbba79f61d16a7d40dcfd1bf045d6ec0eb43db9aaadcf",
+  "text": "Here\u2019s the Python code to compute the Pearson correlation and output `1` if perfectly linear, otherwise `0`:  \n\n```python\nimport math\n\npairs = [(1,2),(2,4),(3,6),(4,8),(5,10)]\n\nn = len(pairs)\nsum_x = sum(x for x, y in pairs)\nsum_y = sum(y for x, y in pairs)\nsum_xy = sum(x * y for x, y in pairs)\nsum_x2 = sum(x * x for x, y in pairs)\nsum_y2 = sum(y * y for x, y in pairs)\n\nnumerator = n * sum_xy - sum_x * sum_y\ndenominator = math.sqrt((n * sum_x2 - sum_x ** 2) * (n * sum_y2 - sum_y ** 2))\n\nif denominator == 0:\n    correlation = 0\nelse:\n    correlation = numerator / denominator\n\n# Check if perfectly linear (correlation is 1 or -1 within floating tolerance)\nif abs(abs(correlation) - 1) < 1e-9:\n    print(1)\nelse:\n    print(0)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0008323299999999999,
+  "input_tokens": 52,
+  "latency_ms": 4934,
+  "model": "deepseek-reasoner",
+  "output_tokens": 367,
+  "provider": "deepseek",
+  "request_hash": "8376d7c69109f143411bdd324314c3ffe3fb3a8897d7226ba667394efa6c6cfb",
+  "text": "```python\ndef max_of_list(xs):\n    if not xs:\n        return None\n    max_val = xs[0]\n    for item in xs[1:]:\n        if item > max_val:\n            max_val = item\n    return max_val\n```"
+}

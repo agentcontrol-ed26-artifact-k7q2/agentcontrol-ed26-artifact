@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010032,
+  "input_tokens": 91,
+  "latency_ms": 582,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 23,
+  "provider": "together",
+  "request_hash": "ba85663cbe74158a42cf20bc4773476e58a39050b73cb5f42faa5deaad25f1e1",
+  "text": "To find 35% of 200, first convert the percentage to a decimal by dividing by 100."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.157000000000001e-05,
+  "input_tokens": 61,
+  "latency_ms": 1483,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "f12252206503803caf4cc4becf719a8ef0ce8e10569f2194d068ce4de441a859",
+  "text": "First, compute the drop:  \n80 - 60 = 20  \n\nNext, find the percent decrease:  \n(20 / 80) \u00d7 100 = 25  \n\nFinal answer:  \n25"
+}

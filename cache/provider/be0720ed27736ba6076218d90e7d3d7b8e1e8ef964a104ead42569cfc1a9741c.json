@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011528000000000001,
+  "input_tokens": 98,
+  "latency_ms": 3273,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 33,
+  "provider": "together",
+  "request_hash": "be0720ed27736ba6076218d90e7d3d7b8e1e8ef964a104ead42569cfc1a9741c",
+  "text": "Add 7 to both sides of the equation to isolate the term with x. \n4x = 28\nx = 28 / 4\n7"
+}

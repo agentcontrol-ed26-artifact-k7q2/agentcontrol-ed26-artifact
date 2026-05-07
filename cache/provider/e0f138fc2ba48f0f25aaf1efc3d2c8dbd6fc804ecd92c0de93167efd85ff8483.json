@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.923e-05,
+  "input_tokens": 59,
+  "latency_ms": 718,
+  "model": "deepseek-chat",
+  "output_tokens": 3,
+  "provider": "deepseek",
+  "request_hash": "e0f138fc2ba48f0f25aaf1efc3d2c8dbd6fc804ecd92c0de93167efd85ff8483",
+  "text": "Egypt and Sudan"
+}

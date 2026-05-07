@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025344,
+  "input_tokens": 88,
+  "latency_ms": 1048,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 200,
+  "provider": "together",
+  "request_hash": "10dfabb91f3cedd4fe658f464a944322f1c67be3d89dac1381106080ddf92f77",
+  "text": "To calculate the Levenshtein distance, you can use dynamic programming to build a 2D matrix where each cell represents the minimum number of operations required to transform the first i characters of string a into the first j characters of string b.\n```python\ndef edit_distance(a, b):\n    m, n = len(a), len(b)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(m + 1):\n        dp[i][0] = i\n    for j in range(n + 1):\n        dp[0][j] = j\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            cost = 0 if a[i - 1] == b[j - 1] else 1\n            dp[i][j] = min(dp[i - 1][j] + 1,"
+}

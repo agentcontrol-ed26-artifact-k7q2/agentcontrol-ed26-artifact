@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.429999999999999e-05,
+  "input_tokens": 206,
+  "latency_ms": 912,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 75,
+  "provider": "together",
+  "request_hash": "57fad6638999af1e5e80667fbfca9e4881a07efa7908100eab2d6889d89f68e9",
+  "text": "The information provided does not contain the birthplace of the first person to summit Mount Everest. Based on the given documents, we can only confirm that Edmund Hillary and Tenzing Norgay were the first climbers to reach the summit of Mount Everest in 1953, but their birthplaces are not mentioned in the provided evidence. [doc_everest]"
+}

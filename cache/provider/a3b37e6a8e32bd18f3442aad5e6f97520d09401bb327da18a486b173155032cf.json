@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00053181,
+  "input_tokens": 75,
+  "latency_ms": 3528,
+  "model": "deepseek-reasoner",
+  "output_tokens": 224,
+  "provider": "deepseek",
+  "request_hash": "a3b37e6a8e32bd18f3442aad5e6f97520d09401bb327da18a486b173155032cf",
+  "text": "```python\ndef json_path_lookup(d, path):\n    \"\"\"Return the value at the given dotted path in nested dict d, or None if not found.\"\"\"\n    if not isinstance(d, dict) or not path:\n        return None\n    keys = path.split('.')\n    current = d\n    for key in keys:\n        if isinstance(current, dict) and key in current:\n            current = current[key]\n        else:\n            return None\n    return current\n```"
+}

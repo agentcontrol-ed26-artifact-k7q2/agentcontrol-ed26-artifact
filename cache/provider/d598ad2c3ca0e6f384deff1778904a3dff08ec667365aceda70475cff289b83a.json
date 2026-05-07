@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011358000000000001,
+  "input_tokens": 54,
+  "latency_ms": 1795,
+  "model": "deepseek-chat",
+  "output_tokens": 90,
+  "provider": "deepseek",
+  "request_hash": "d598ad2c3ca0e6f384deff1778904a3dff08ec667365aceda70475cff289b83a",
+  "text": "```python\ndef rle_encode(s):\n    if not s:\n        return []\n    result = []\n    count = 1\n    for i in range(1, len(s)):\n        if s[i] == s[i-1]:\n            count += 1\n        else:\n            result.append((s[i-1], count))\n            count = 1\n    result.append((s[-1], count))\n    return result\n```"
+}

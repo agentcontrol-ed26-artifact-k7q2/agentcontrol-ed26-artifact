@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.838e-05,
+  "input_tokens": 254,
+  "latency_ms": 1090,
+  "model": "deepseek-chat",
+  "output_tokens": 18,
+  "provider": "deepseek",
+  "request_hash": "bd5c83642b5a2f5fbc9f2d16018bbc0a6908315116032be3dff72b08c8724ccf",
+  "text": "Albert Einstein was born in Ulm, Germany. [doc_einstein_birth]"
+}

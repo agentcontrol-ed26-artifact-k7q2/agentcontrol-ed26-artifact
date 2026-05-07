@@ -1,0 +1,1261 @@
+{
+  "seed": 20260427,
+  "n_total": 170,
+  "family_counts": {
+    "math": 60,
+    "code": 50,
+    "evidence": 40,
+    "tool_use": 20
+  },
+  "family_difficulty_distribution": {
+    "math": {
+      "easy": 24,
+      "medium": 18,
+      "partial_strong": 12,
+      "hard": 6
+    },
+    "code": {
+      "easy": 10,
+      "medium": 12,
+      "partial_strong": 20,
+      "hard": 8
+    },
+    "evidence": {
+      "easy": 12,
+      "medium": 12,
+      "partial_strong": 10,
+      "hard": 6
+    },
+    "tool_use": {
+      "easy": 4,
+      "medium": 6,
+      "partial_strong": 8,
+      "hard": 2
+    }
+  },
+  "provenance_summary": {
+    "synthetic-local": 170
+  },
+  "price_model": {
+    "cheap_answer": 1.0,
+    "cheap_repair": 1.0,
+    "strong_hint": 2.0,
+    "cheap_repair_after_hint": 1.0,
+    "strong_critique": 2.0,
+    "strong_checklist": 2.0,
+    "strong_answer": 10.0
+  },
+  "latency_model_ms": {
+    "cheap_answer": 1,
+    "cheap_repair": 1,
+    "strong_hint": 1,
+    "cheap_repair_after_hint": 1,
+    "strong_critique": 1,
+    "strong_checklist": 1,
+    "strong_answer": 1
+  },
+  "task_ids_by_family": {
+    "math": [
+      "rm_001",
+      "rm_002",
+      "rm_003",
+      "rm_004",
+      "rm_005",
+      "rm_006",
+      "rm_007",
+      "rm_008",
+      "rm_009",
+      "rm_010",
+      "rm_011",
+      "rm_012",
+      "rm_013",
+      "rm_014",
+      "rm_015",
+      "rm_016",
+      "rm_017",
+      "rm_018",
+      "rm_019",
+      "rm_020",
+      "rm_021",
+      "rm_022",
+      "rm_023",
+      "rm_024",
+      "rm_025",
+      "rm_026",
+      "rm_027",
+      "rm_028",
+      "rm_029",
+      "rm_030",
+      "rm_031",
+      "rm_032",
+      "rm_033",
+      "rm_034",
+      "rm_035",
+      "rm_036",
+      "rm_037",
+      "rm_038",
+      "rm_039",
+      "rm_040",
+      "rm_041",
+      "rm_042",
+      "rm_043",
+      "rm_044",
+      "rm_045",
+      "rm_046",
+      "rm_047",
+      "rm_048",
+      "rm_049",
+      "rm_050",
+      "rm_051",
+      "rm_052",
+      "rm_053",
+      "rm_054",
+      "rm_055",
+      "rm_056",
+      "rm_057",
+      "rm_058",
+      "rm_059",
+      "rm_060"
+    ],
+    "code": [
+      "rc_001",
+      "rc_002",
+      "rc_003",
+      "rc_004",
+      "rc_005",
+      "rc_006",
+      "rc_007",
+      "rc_008",
+      "rc_009",
+      "rc_010",
+      "rc_011",
+      "rc_012",
+      "rc_013",
+      "rc_014",
+      "rc_015",
+      "rc_016",
+      "rc_017",
+      "rc_018",
+      "rc_019",
+      "rc_020",
+      "rc_021",
+      "rc_022",
+      "rc_023",
+      "rc_024",
+      "rc_025",
+      "rc_026",
+      "rc_027",
+      "rc_028",
+      "rc_029",
+      "rc_030",
+      "rc_031",
+      "rc_032",
+      "rc_033",
+      "rc_034",
+      "rc_035",
+      "rc_036",
+      "rc_037",
+      "rc_038",
+      "rc_039",
+      "rc_040",
+      "rc_041",
+      "rc_042",
+      "rc_043",
+      "rc_044",
+      "rc_045",
+      "rc_046",
+      "rc_047",
+      "rc_048",
+      "rc_049",
+      "rc_050"
+    ],
+    "evidence": [
+      "re_001",
+      "re_002",
+      "re_003",
+      "re_004",
+      "re_005",
+      "re_006",
+      "re_007",
+      "re_008",
+      "re_009",
+      "re_010",
+      "re_011",
+      "re_012",
+      "re_013",
+      "re_014",
+      "re_015",
+      "re_016",
+      "re_017",
+      "re_018",
+      "re_019",
+      "re_020",
+      "re_021",
+      "re_022",
+      "re_023",
+      "re_024",
+      "re_025",
+      "re_026",
+      "re_027",
+      "re_028",
+      "re_029",
+      "re_030",
+      "re_031",
+      "re_032",
+      "re_033",
+      "re_034",
+      "re_035",
+      "re_036",
+      "re_037",
+      "re_038",
+      "re_039",
+      "re_040"
+    ],
+    "tool_use": [
+      "rt_001",
+      "rt_002",
+      "rt_003",
+      "rt_004",
+      "rt_005",
+      "rt_006",
+      "rt_007",
+      "rt_008",
+      "rt_009",
+      "rt_010",
+      "rt_011",
+      "rt_012",
+      "rt_013",
+      "rt_014",
+      "rt_015",
+      "rt_016",
+      "rt_017",
+      "rt_018",
+      "rt_019",
+      "rt_020"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "rc_001",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_002",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_003",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_004",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_005",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_006",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_007",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_008",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_009",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_010",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_011",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_012",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_013",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_014",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_015",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_016",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_017",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_018",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_019",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_020",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_021",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_022",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_023",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_024",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_025",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_026",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_027",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_028",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_029",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_030",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_031",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_032",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_033",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_034",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_035",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_036",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_037",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_038",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_039",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_040",
+      "family": "code",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_041",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_042",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_043",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_044",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_045",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_046",
+      "family": "code",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_047",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_048",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_049",
+      "family": "code",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rc_050",
+      "family": "code",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_001",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_002",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_003",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_004",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_005",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_006",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_007",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_008",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_009",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_010",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_011",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_012",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_013",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_014",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_015",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_016",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_017",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_018",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_019",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_020",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_021",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_022",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_023",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_024",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_025",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_026",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_027",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_028",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_029",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_030",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_031",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_032",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_033",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_034",
+      "family": "evidence",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_035",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_036",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_037",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_038",
+      "family": "evidence",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_039",
+      "family": "evidence",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "re_040",
+      "family": "evidence",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_001",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_002",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_003",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_004",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_005",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_006",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_007",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_008",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_009",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_010",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_011",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_012",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_013",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_014",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_015",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_016",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_017",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_018",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_019",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_020",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_021",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_022",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_023",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_024",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_025",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_026",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_027",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_028",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_029",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_030",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_031",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_032",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_033",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_034",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_035",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_036",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_037",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_038",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_039",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_040",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_041",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_042",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_043",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_044",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_045",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_046",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_047",
+      "family": "math",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_048",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_049",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_050",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_051",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_052",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_053",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_054",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_055",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_056",
+      "family": "math",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_057",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_058",
+      "family": "math",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_059",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rm_060",
+      "family": "math",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_001",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_002",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_003",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_004",
+      "family": "tool_use",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_005",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_006",
+      "family": "tool_use",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_007",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_008",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_009",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_010",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_011",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_012",
+      "family": "tool_use",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_013",
+      "family": "tool_use",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_014",
+      "family": "tool_use",
+      "difficulty": "medium",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_015",
+      "family": "tool_use",
+      "difficulty": "easy",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_016",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_017",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_018",
+      "family": "tool_use",
+      "difficulty": "hard",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_019",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    },
+    {
+      "task_id": "rt_020",
+      "family": "tool_use",
+      "difficulty": "partial_strong",
+      "provenance": "synthetic-local"
+    }
+  ],
+  "config_path": "configs/rescue/task_pool.yaml",
+  "honesty_note": "Synthetic-local pool. Outcomes are deterministic functions of engineered difficulty profiles, not real model behavior. Use to test the harness/protocol on a richer distribution; do NOT cite as real-model evidence."
+}

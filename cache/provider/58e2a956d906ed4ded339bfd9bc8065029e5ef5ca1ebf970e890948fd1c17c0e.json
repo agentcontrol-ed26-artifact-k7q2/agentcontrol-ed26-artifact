@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00025168,
+  "input_tokens": 259,
+  "latency_ms": 632,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 27,
+  "provider": "together",
+  "request_hash": "58e2a956d906ed4ded339bfd9bc8065029e5ef5ca1ebf970e890948fd1c17c0e",
+  "text": "The attack on Pearl Harbor was the event that brought the United States into World War II [doc_ww2_pearl]"
+}

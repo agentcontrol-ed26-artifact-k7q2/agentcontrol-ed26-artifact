@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.855999999999999e-05,
+  "input_tokens": 99,
+  "latency_ms": 300,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 13,
+  "provider": "together",
+  "request_hash": "6fe9ec6aee781ecb99d0b640fcf36cac1ff79aa56a09d06ec0875d85d156343b",
+  "text": "Identify numbers divisible only by 1 and themselves.\n2"
+}

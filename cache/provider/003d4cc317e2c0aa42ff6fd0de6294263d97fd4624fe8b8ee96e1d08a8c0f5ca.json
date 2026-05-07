@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 8.819999999999999e-05,
+  "input_tokens": 274,
+  "latency_ms": 612,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "003d4cc317e2c0aa42ff6fd0de6294263d97fd4624fe8b8ee96e1d08a8c0f5ca",
+  "text": "Buzz Aldrin was the second person to walk on the Moon [doc_aldrin_bio]."
+}

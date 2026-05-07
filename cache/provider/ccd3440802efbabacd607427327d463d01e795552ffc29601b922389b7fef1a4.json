@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018800000000000002,
+  "input_tokens": 58,
+  "latency_ms": 1,
+  "model": "dummy-pro",
+  "output_tokens": 9,
+  "provider": "dummy",
+  "request_hash": "ccd3440802efbabacd607427327d463d01e795552ffc29601b922389b7fef1a4",
+  "text": "Check arithmetic carefully for m017."
+}

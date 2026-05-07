@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002642,
+  "input_tokens": 122,
+  "latency_ms": 1778,
+  "model": "deepseek-reasoner",
+  "output_tokens": 90,
+  "provider": "deepseek",
+  "request_hash": "136a2364ec7de3b183bc966ae1454d31c906711798b6467c1592d324b9d77af2",
+  "text": "Neil Armstrong first walked on the Moon. [doc_apollo]"
+}

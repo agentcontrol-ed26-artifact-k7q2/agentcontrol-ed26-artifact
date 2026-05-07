@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016194000000000004,
+  "input_tokens": 62,
+  "latency_ms": 2331,
+  "model": "deepseek-chat",
+  "output_tokens": 132,
+  "provider": "deepseek",
+  "request_hash": "fd00646fe6eca24805822ba403f5ddca215aeaeefcda2e3739634d72df213c23",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    for i in range(n // 2):\n        for j in range(i, n - i - 1):\n            temp = m[i][j]\n            m[i][j] = m[n - 1 - j][i]\n            m[n - 1 - j][i] = m[n - 1 - i][n - 1 - j]\n            m[n - 1 - i][n - 1 - j] = m[j][n - 1 - i]\n            m[j][n - 1 - i] = temp\n```"
+}

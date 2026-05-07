@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0002508,
+  "input_tokens": 265,
+  "latency_ms": 465,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "5a9f0ac4a42d2b3aba9e4440124cde1c89ba5d23d27f89769c5904c5213e8353",
+  "text": "The Wright brothers achieved the first sustained powered flight in 1903 [doc_wright_flight]"
+}

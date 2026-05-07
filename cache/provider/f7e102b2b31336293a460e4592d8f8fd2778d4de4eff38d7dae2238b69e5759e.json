@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011967999999999999,
+  "input_tokens": 79,
+  "latency_ms": 2161,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 57,
+  "provider": "together",
+  "request_hash": "f7e102b2b31336293a460e4592d8f8fd2778d4de4eff38d7dae2238b69e5759e",
+  "text": "42\n1. Reversing the operation: 42 / 6 = 7\n2. Using a different method: 6 * (5 + 2) = 6 * 5 + 6 * 2 = 30 + 12 = 42"
+}

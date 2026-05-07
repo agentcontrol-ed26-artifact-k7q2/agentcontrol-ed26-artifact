@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001628,
+  "input_tokens": 102,
+  "latency_ms": 777,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 83,
+  "provider": "together",
+  "request_hash": "fd7cb311e98523f4e4b449612352b30a273ccfe6b534a025575fbf3018add75f",
+  "text": "```python\ndef rotate_matrix(m):\n    n = len(m)\n    # Transpose the matrix\n    for i in range(n):\n        for j in range(i+1, n):\n            m[i][j], m[j][i] = m[j][i], m[i][j]\n    # Reverse each row\n    for row in m:\n        row.reverse()\n    return None\n```"
+}

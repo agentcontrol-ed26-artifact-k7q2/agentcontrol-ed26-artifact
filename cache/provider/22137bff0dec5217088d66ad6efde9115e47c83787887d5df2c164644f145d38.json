@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00049526,
+  "input_tokens": 128,
+  "latency_ms": 3470,
+  "model": "deepseek-reasoner",
+  "output_tokens": 194,
+  "provider": "deepseek",
+  "request_hash": "22137bff0dec5217088d66ad6efde9115e47c83787887d5df2c164644f145d38",
+  "text": "doc_everest"
+}

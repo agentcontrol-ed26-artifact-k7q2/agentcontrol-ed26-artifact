@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003211,
+  "input_tokens": 106,
+  "latency_ms": 2282,
+  "model": "deepseek-reasoner",
+  "output_tokens": 120,
+  "provider": "deepseek",
+  "request_hash": "f3896cad44d35b775954bcbd1a836e77a33853751b7705fe47c4a8a1eba35535",
+  "text": "Guido van Rossum [doc_python]  \nThe most common citation mistake is citing a source that does not contain the evidence used."
+}

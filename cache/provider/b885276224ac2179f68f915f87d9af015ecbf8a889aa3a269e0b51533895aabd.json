@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001056,
+  "input_tokens": 80,
+  "latency_ms": 1148,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "b885276224ac2179f68f915f87d9af015ecbf8a889aa3a269e0b51533895aabd",
+  "text": "To determine if a number is even, check if it leaves a remainder when divided by 2.\n\n```python\ndef is_even(n):\n    return n % 2 == 0\n```"
+}

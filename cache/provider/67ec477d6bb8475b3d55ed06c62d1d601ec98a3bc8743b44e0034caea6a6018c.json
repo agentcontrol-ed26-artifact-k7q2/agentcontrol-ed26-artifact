@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012496,
+  "input_tokens": 82,
+  "latency_ms": 1276,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "67ec477d6bb8475b3d55ed06c62d1d601ec98a3bc8743b44e0034caea6a6018c",
+  "text": "7 * 6 = 42 \n\n1. Check if 7! equals 7 * 6 * 5 * 4 * 3 * 2 * 1\n2. Check if 5! equals 5 * 4 * 3 * 2 * 1"
+}

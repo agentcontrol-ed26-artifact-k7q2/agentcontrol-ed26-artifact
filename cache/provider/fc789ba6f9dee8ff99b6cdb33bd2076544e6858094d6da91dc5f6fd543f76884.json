@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011616,
+  "input_tokens": 98,
+  "latency_ms": 4250,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 34,
+  "provider": "together",
+  "request_hash": "fc789ba6f9dee8ff99b6cdb33bd2076544e6858094d6da91dc5f6fd543f76884",
+  "text": "The most common mistake to avoid is forgetting that the order of arrangement matters, since the books are distinct, and thus using a combination formula instead of a permutation formula."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.9000000000000005e-05,
+  "input_tokens": 100,
+  "latency_ms": 932,
+  "model": "deepseek-chat",
+  "output_tokens": 20,
+  "provider": "deepseek",
+  "request_hash": "dbbd501720b1e92a9356684103b6464b5b4e3ea14edb23c6f2a666f9d6e46b33",
+  "text": "The longest river in the world primarily flows through Egypt and Sudan. [doc_nile_river]"
+}

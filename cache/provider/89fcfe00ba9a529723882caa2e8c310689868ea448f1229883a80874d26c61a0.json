@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00018193000000000001,
+  "input_tokens": 79,
+  "latency_ms": 2640,
+  "model": "deepseek-chat",
+  "output_tokens": 146,
+  "provider": "deepseek",
+  "request_hash": "89fcfe00ba9a529723882caa2e8c310689868ea448f1229883a80874d26c61a0",
+  "text": "We need to get all four people across in minimal time.  \nThe times are 1, 2, 5, and 10 minutes.  \n\nThe standard optimal strategy:  \n\n1. Send 1 and 2 across (time = 2 minutes).  \n2. 1 returns with torch (time = 1 minute).  \n3. Send 5 and 10 across (time = 10 minutes).  \n4. 2 returns with torch (time = 2 minutes).  \n5. Send 1 and 2 across again (time = 2 minutes).  \n\nTotal = 2 + 1 + 10 + 2 + 2 = 17 minutes.  \n\nFinal integer: 17"
+}

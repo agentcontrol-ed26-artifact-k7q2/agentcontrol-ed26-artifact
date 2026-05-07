@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00028926,
+  "input_tokens": 72,
+  "latency_ms": 2431,
+  "model": "deepseek-reasoner",
+  "output_tokens": 114,
+  "provider": "deepseek",
+  "request_hash": "324ce79dd027829a1f6b5304ba55a87e3e67aea357f415da15428bd9e987e68d",
+  "text": "Find the cost of one notebook by dividing the total cost by the number of notebooks."
+}

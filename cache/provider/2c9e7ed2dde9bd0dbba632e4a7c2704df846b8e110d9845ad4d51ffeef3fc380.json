@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.842e-05,
+  "input_tokens": 56,
+  "latency_ms": 784,
+  "model": "deepseek-chat",
+  "output_tokens": 3,
+  "provider": "deepseek",
+  "request_hash": "2c9e7ed2dde9bd0dbba632e4a7c2704df846b8e110d9845ad4d51ffeef3fc380",
+  "text": "Buzz Aldrin"
+}

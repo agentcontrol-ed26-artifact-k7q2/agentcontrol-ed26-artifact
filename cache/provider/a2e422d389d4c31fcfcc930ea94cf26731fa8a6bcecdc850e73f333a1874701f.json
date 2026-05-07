@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.823e-05,
+  "input_tokens": 69,
+  "latency_ms": 1498,
+  "model": "deepseek-chat",
+  "output_tokens": 36,
+  "provider": "deepseek",
+  "request_hash": "a2e422d389d4c31fcfcc930ea94cf26731fa8a6bcecdc850e73f333a1874701f",
+  "text": "First, note that 999 has three digits, each being 9.  \nIntermediate step:  \n9 + 9 + 9 = 27  \n\nFinal answer:  \n27"
+}

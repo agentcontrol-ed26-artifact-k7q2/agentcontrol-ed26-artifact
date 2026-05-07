@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001276,
+  "input_tokens": 125,
+  "latency_ms": 354,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 20,
+  "provider": "together",
+  "request_hash": "9e8d0fa2d55c654bed3cd66160fd2a6b4598fa4aa97ed2258252b6c3047633f2",
+  "text": "The Apollo 11 mission landed humans on the Moon in 1969 [doc_moon]"
+}

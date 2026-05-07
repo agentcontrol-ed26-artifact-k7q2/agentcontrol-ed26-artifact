@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012584,
+  "input_tokens": 88,
+  "latency_ms": 1207,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 55,
+  "provider": "together",
+  "request_hash": "c9411ddbab1849021dad0f0856e8273e044f1a5ec50b9fc4ee510fecf6997979",
+  "text": "The most common mistake to avoid in solving this is adding the numbers incorrectly, such as misplacing the tens or ones place, for example, adding 13 and 28 as 13 + 20 + 8 instead of correctly adding the tens and ones places separately."
+}

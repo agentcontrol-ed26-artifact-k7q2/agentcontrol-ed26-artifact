@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 1.1799999999999999e-05,
+  "input_tokens": 32,
+  "latency_ms": 1,
+  "model": "dummy-cheap",
+  "output_tokens": 9,
+  "provider": "dummy",
+  "request_hash": "e0129f206c0993a54941f8d671ec740533483cf6342374641a80c25ed0583280",
+  "text": "def is_even(n):\n    return n % 2 == 0\n"
+}

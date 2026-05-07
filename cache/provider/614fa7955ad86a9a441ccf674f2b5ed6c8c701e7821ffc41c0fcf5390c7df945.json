@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00049461,
+  "input_tokens": 87,
+  "latency_ms": 3045,
+  "model": "deepseek-reasoner",
+  "output_tokens": 204,
+  "provider": "deepseek",
+  "request_hash": "614fa7955ad86a9a441ccf674f2b5ed6c8c701e7821ffc41c0fcf5390c7df945",
+  "text": "```python\ndata = [('eng',100),('eng',120),('hr',60),('hr',70),('eng',110),('hr',65)]\neng_salaries = [sal for dept, sal in data if dept == 'eng']\navg = sum(eng_salaries) / len(eng_salaries) if eng_salaries else 0\nprint(avg)\n```"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00066591,
+  "input_tokens": 60,
+  "latency_ms": 4472,
+  "model": "deepseek-reasoner",
+  "output_tokens": 289,
+  "provider": "deepseek",
+  "request_hash": "25a62c0832a2a04e0f8a0f54c28a23dda8786834c7b9461848e175d8ce5f6d88",
+  "text": "```python\ndef knapsack_01(weights, values, capacity):\n    \"\"\"\n    Returns the maximum total value that can be obtained by selecting a subset\n    of items (each used at most once) without exceeding the given capacity.\n    \"\"\"\n    n = len(weights)\n    # dp[cap] = max value achievable with exactly 'cap' capacity used (up to cap)\n    dp = [0] * (capacity + 1)\n    \n    for i in range(n):\n        w = weights[i]\n        v = values[i]\n        # iterate backwards to avoid reusing the same item\n        for cap in range(capacity, w - 1, -1):\n            dp[cap] = max(dp[cap], dp[cap - w] + v)\n    \n    return dp[capacity]\n```"
+}

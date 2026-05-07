@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00022176,
+  "input_tokens": 178,
+  "latency_ms": 3630,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 74,
+  "provider": "together",
+  "request_hash": "b81941b771769a4f8c4f923064b455af371258528fe45c1f17e34d726fe51586",
+  "text": "To verify the answer, two checks can be performed: \n1. Check the year of the first summit of Mount Everest to ensure it matches the given year, 1953.\n2. Verify the names of the individuals who first summited Mount Everest to confirm they are indeed Edmund Hillary and Tenzing Norgay.\nAnswer phrase [doc_everest]"
+}

@@ -1,0 +1,40 @@
+cluster_preference: cluster_a       # cluster_b reported unreliable (2026-04-27)
+cluster_options:
+  cluster_a:
+    login_host: [ANONYMIZED_HOST]
+    workspace: ~/scratch/agentcontrol_method_discovery
+    conda_env: ~/scratch/compute_workspace/env
+    preferred_partitions: [normal_gpu, preemptable]
+    preferred_qos: normal
+    account: [ANONYMIZED_ACCOUNT]
+    notes: |
+      normal_gpu: H200/H100/L40S, 6h cap, non-preemptible.
+      preemptable: 2-day cap, may be requeued.
+      Use --account=[ANONYMIZED_ACCOUNT] --qos=normal explicitly.
+  cluster_b:
+    login_host: [ANONYMIZED_HOST]
+    workspace: /path/to/anonymous/workspace/agentcontrol_method_discovery
+    venv: /path/to/anonymous/workspace/compute_workspace/myenv
+    preferred_partitions: [shared-h200]
+    preferred_qos: shared-if-available
+    account: [ANONYMIZED_ACCOUNT]
+    notes: |
+      H200 141GB, 1-day cap. Reported unreliable lately.
+deferred_experiment_b_kv_readout:
+  approval_env_var: AGENTCONTROL_METHOD_DISCOVERY_GPU_APPROVED
+  estimated_resources:
+    model: Qwen/Qwen2.5-7B-Instruct  # ~14 GB fp16, fits H200 1× easily
+    gpus: 1
+    memory_gb: 64
+    cpus: 8
+    walltime: "06:00:00"  # [PARTITION_NORMAL_GPU] cap
+  expected_artifact: hidden_state_probe + small classifier head + per-task control predictions
+  stop_criteria:
+    - probe accuracy < TF-IDF + LR baseline → KILL B
+    - end-to-end policy quality below external small-classifier router → KILL B
+    - latency overhead > external router → KILL B
+  no_finetune: true
+  no_lora_unless_explicitly_approved: true
+default_policy:
+  audit_only_until_approved: true
+  no_jobs_without_approval_env: true

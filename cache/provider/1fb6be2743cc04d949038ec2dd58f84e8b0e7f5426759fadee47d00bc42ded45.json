@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 5.4900000000000006e-05,
+  "input_tokens": 141,
+  "latency_ms": 566,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 42,
+  "provider": "together",
+  "request_hash": "1fb6be2743cc04d949038ec2dd58f84e8b0e7f5426759fadee47d00bc42ded45",
+  "text": "```python\nxs = [4, 8, 15, 16, 23, 42]\nsum_xs = sum(xs)\nsum_xs\n```\n108"
+}

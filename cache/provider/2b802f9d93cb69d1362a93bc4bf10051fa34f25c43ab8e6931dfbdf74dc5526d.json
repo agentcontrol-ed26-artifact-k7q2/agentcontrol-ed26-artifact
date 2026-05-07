@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 4.779e-05,
+  "input_tokens": 67,
+  "latency_ms": 1019,
+  "model": "deepseek-chat",
+  "output_tokens": 27,
+  "provider": "deepseek",
+  "request_hash": "2b802f9d93cb69d1362a93bc4bf10051fa34f25c43ab8e6931dfbdf74dc5526d",
+  "text": "def single_number(xs):\n    result = 0\n    for x in xs:\n        result ^= x\n    return result"
+}

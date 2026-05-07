@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 2.5499999999999996e-05,
+  "input_tokens": 61,
+  "latency_ms": 595,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 24,
+  "provider": "together",
+  "request_hash": "8e91f329f31141ef21a45903ef73e938194fe42198ae3ef408756be81647a815",
+  "text": "Pearl Harbor is known for the surprise military strike by Japan on December 7, 1941."
+}

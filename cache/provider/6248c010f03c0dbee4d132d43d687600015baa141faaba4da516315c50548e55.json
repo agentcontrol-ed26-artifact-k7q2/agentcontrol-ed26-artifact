@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00021999999999999998,
+  "input_tokens": 221,
+  "latency_ms": 3727,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 29,
+  "provider": "together",
+  "request_hash": "6248c010f03c0dbee4d132d43d687600015baa141faaba4da516315c50548e55",
+  "text": "To find the birth state of the first person to walk on the Moon, look at doc_armstrong.\nAnswer phrase [doc_armstrong]"
+}

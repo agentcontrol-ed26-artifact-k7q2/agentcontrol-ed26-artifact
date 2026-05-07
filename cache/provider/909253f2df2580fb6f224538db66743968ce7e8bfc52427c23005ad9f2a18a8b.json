@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012408,
+  "input_tokens": 96,
+  "latency_ms": 882,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "909253f2df2580fb6f224538db66743968ce7e8bfc52427c23005ad9f2a18a8b",
+  "text": "To find the percent increase, calculate the difference between the new and old prices, divide by the old price, and multiply by 100, avoiding the common mistake of dividing by the new price instead of the old price."
+}

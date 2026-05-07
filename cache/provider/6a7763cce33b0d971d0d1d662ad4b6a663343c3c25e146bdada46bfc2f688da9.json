@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00030776999999999996,
+  "input_tokens": 249,
+  "latency_ms": 1804,
+  "model": "deepseek-reasoner",
+  "output_tokens": 78,
+  "provider": "deepseek",
+  "request_hash": "6a7763cce33b0d971d0d1d662ad4b6a663343c3c25e146bdada46bfc2f688da9",
+  "text": "Apollo 11 [doc_apollo_mission]"
+}

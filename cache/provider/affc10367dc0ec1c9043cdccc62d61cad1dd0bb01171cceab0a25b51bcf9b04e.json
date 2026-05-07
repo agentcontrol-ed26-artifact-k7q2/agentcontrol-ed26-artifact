@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012776,
+  "input_tokens": 78,
+  "latency_ms": 2154,
+  "model": "deepseek-chat",
+  "output_tokens": 97,
+  "provider": "deepseek",
+  "request_hash": "affc10367dc0ec1c9043cdccc62d61cad1dd0bb01171cceab0a25b51bcf9b04e",
+  "text": "```python\ndef fib(n):\n    if not isinstance(n, int) or n < 0:\n        raise ValueError(\"Input must be a non-negative integer\")\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```"
+}

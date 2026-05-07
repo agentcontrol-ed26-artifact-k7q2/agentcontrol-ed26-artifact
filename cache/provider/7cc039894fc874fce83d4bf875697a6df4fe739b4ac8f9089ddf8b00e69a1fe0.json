@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.42e-05,
+  "input_tokens": 154,
+  "latency_ms": 624,
+  "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+  "output_tokens": 60,
+  "provider": "together",
+  "request_hash": "7cc039894fc874fce83d4bf875697a6df4fe739b4ac8f9089ddf8b00e69a1fe0",
+  "text": "```python\ndef fib(n, memo = {}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n-1, memo) + fib(n-2, memo)\n    return memo[n]\n```"
+}

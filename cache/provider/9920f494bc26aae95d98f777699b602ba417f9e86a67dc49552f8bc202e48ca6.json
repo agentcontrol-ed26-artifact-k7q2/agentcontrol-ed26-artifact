@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011176,
+  "input_tokens": 96,
+  "latency_ms": 2233,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 31,
+  "provider": "together",
+  "request_hash": "9920f494bc26aae95d98f777699b602ba417f9e86a67dc49552f8bc202e48ca6",
+  "text": "To find the number of trailing zeros in 25 factorial, consider the prime factors of 10, which are 2 and 5. \n\n25"
+}

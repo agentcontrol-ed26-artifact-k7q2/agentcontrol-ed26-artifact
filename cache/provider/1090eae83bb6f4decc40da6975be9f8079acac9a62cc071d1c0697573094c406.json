@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00040153000000000004,
+  "input_tokens": 85,
+  "latency_ms": 2710,
+  "model": "deepseek-reasoner",
+  "output_tokens": 162,
+  "provider": "deepseek",
+  "request_hash": "1090eae83bb6f4decc40da6975be9f8079acac9a62cc071d1c0697573094c406",
+  "text": "The average salary in eng is 110. The most common arithmetic mistake is dividing the sum of eng salaries by the total number of employees across all departments instead of only eng."
+}

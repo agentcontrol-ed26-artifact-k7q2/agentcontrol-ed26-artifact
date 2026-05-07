@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0017860699999999998,
+  "input_tokens": 269,
+  "latency_ms": 9735,
+  "model": "deepseek-reasoner",
+  "output_tokens": 748,
+  "provider": "deepseek",
+  "request_hash": "6a4e083c30f01404944a59d36f297baad72d233e51e5254ce301b9e438f540b3",
+  "text": "The provided evidence does not include the end-of-life year for Python version 2. [doc_python_creator]"
+}

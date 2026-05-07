@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00014696,
+  "input_tokens": 139,
+  "latency_ms": 740,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 28,
+  "provider": "together",
+  "request_hash": "23e3321845ad48db438f3d42e23c35273b22f5a5a4458e3a0ed1a78fecc94b3b",
+  "text": "The answer is the Amazon River [doc_amazon]. \nThe most common citation mistake is including multiple citations when only one is required."
+}

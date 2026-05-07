@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010736,
+  "input_tokens": 82,
+  "latency_ms": 669,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 40,
+  "provider": "together",
+  "request_hash": "17081a876ad70528f0be7e0d3e57e6c92ce91fd7dc2910f47808d4b2ae3fee49",
+  "text": "```python\ndef is_even(n):\n    return n % 2 == 0\n```\nTest cases: \n1. is_even(10) \n2. is_even(11)"
+}

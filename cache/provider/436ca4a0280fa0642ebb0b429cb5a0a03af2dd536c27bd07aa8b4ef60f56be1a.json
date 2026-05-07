@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.002379,
+  "input_tokens": 264,
+  "latency_ms": 13655,
+  "model": "deepseek-reasoner",
+  "output_tokens": 1020,
+  "provider": "deepseek",
+  "request_hash": "436ca4a0280fa0642ebb0b429cb5a0a03af2dd536c27bd07aa8b4ef60f56be1a",
+  "text": "The country of birth of the creator of Python cannot be determined from the provided evidence. [doc_aldrin_bio]"
+}

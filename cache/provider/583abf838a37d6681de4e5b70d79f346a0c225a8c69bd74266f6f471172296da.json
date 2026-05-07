@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 7.215e-05,
+  "input_tokens": 35,
+  "latency_ms": 1291,
+  "model": "deepseek-chat",
+  "output_tokens": 57,
+  "provider": "deepseek",
+  "request_hash": "583abf838a37d6681de4e5b70d79f346a0c225a8c69bd74266f6f471172296da",
+  "text": "We need to count distinct anagrams of the word \"AB\".  \n\nThe word \"AB\" has 2 letters, both distinct.  \nNumber of distinct anagrams = 2! = 2.  \n\nThe anagrams are: AB, BA.  \n\nFinal answer: 2"
+}

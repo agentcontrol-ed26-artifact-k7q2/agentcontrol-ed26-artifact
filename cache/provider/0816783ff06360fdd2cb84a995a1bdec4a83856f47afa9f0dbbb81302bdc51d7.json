@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016808,
+  "input_tokens": 165,
+  "latency_ms": 603,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "0816783ff06360fdd2cb84a995a1bdec4a83856f47afa9f0dbbb81302bdc51d7",
+  "text": "To find the year Apollo 11 landed humans on the Moon, look at doc_apollo.\nAnswer [doc_apollo]"
+}

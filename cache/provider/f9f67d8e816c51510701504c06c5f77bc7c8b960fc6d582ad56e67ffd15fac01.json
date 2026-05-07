@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00027425999999999997,
+  "input_tokens": 204,
+  "latency_ms": 2217,
+  "model": "deepseek-reasoner",
+  "output_tokens": 74,
+  "provider": "deepseek",
+  "request_hash": "f9f67d8e816c51510701504c06c5f77bc7c8b960fc6d582ad56e67ffd15fac01",
+  "text": "Neil Armstrong [doc_armstrong]"
+}

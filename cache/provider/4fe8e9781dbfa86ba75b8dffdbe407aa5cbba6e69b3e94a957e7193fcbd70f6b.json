@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00023584000000000002,
+  "input_tokens": 107,
+  "latency_ms": 1934,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 161,
+  "provider": "together",
+  "request_hash": "4fe8e9781dbfa86ba75b8dffdbe407aa5cbba6e69b3e94a957e7193fcbd70f6b",
+  "text": "```python\ndef next_permutation(xs):\n    def swap(i, j):\n        xs[i], xs[j] = xs[j], xs[i]\n\n    def reverse(start):\n        left, right = start, len(xs) - 1\n        while left < right:\n            swap(left, right)\n            left += 1\n            right -= 1\n\n    i = len(xs) - 2\n    while i >= 0 and xs[i] >= xs[i + 1]:\n        i -= 1\n    if i < 0:\n        reverse(0)\n    else:\n        j = len(xs) - 1\n        while xs[j] <= xs[i]:\n            j -= 1\n        swap(i, j)\n        reverse(i + 1)\n```"
+}

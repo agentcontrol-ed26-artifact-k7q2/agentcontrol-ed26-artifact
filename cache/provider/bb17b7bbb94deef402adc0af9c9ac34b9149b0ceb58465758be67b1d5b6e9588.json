@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00012226,
+  "input_tokens": 78,
+  "latency_ms": 2086,
+  "model": "deepseek-chat",
+  "output_tokens": 92,
+  "provider": "deepseek",
+  "request_hash": "bb17b7bbb94deef402adc0af9c9ac34b9149b0ceb58465758be67b1d5b6e9588",
+  "text": "We need to compute the sum of the digits of 999.  \n\nThe digits are 9, 9, and 9.  \nSum = 9 + 9 + 9 = 27.  \n\nThe verifier expected 9, but that would be the sum of digits of a single-digit number, not 999.  \n\nIntermediate: each digit is 9, there are 3 digits.  \nFinal answer: 27.  \n\n27"
+}

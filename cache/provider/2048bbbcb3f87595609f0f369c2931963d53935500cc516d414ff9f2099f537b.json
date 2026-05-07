@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00039486,
+  "input_tokens": 264,
+  "latency_ms": 2171,
+  "model": "deepseek-reasoner",
+  "output_tokens": 114,
+  "provider": "deepseek",
+  "request_hash": "2048bbbcb3f87595609f0f369c2931963d53935500cc516d414ff9f2099f537b",
+  "text": "Irene Joliot-Curie [doc_curie_irene]"
+}

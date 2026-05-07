@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00010530000000000001,
+  "input_tokens": 60,
+  "latency_ms": 2826,
+  "model": "deepseek-chat",
+  "output_tokens": 81,
+  "provider": "deepseek",
+  "request_hash": "61f04fa449c203c8de4baaab1817b88b7aa0540a3386c184abf1874b71205f47",
+  "text": "We count numbers divisible by 2: floor(100/2)=50.  \nDivisible by 5: floor(100/5)=20.  \nDivisible by both (10): floor(100/10)=10.  \nBy inclusion-exclusion, divisible by 2 or 5: 50+20-10=60.  \nNeither: 100-60=40.\n\n40"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0003571,
+  "input_tokens": 271,
+  "latency_ms": 1866,
+  "model": "deepseek-reasoner",
+  "output_tokens": 95,
+  "provider": "deepseek",
+  "request_hash": "9944b59cccb1afb4ffa2c13abc73261137e16fe35bb00a055f3df99e147f7c51",
+  "text": "The Nobel Prize for the discovery of DNA's double helix was awarded in 1962 [doc_franklin_death]."
+}

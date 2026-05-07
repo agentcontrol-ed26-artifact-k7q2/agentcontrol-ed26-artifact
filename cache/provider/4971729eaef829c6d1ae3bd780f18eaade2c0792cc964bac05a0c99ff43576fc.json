@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00015893,
+  "input_tokens": 62,
+  "latency_ms": 1384,
+  "model": "deepseek-reasoner",
+  "output_tokens": 57,
+  "provider": "deepseek",
+  "request_hash": "4971729eaef829c6d1ae3bd780f18eaade2c0792cc964bac05a0c99ff43576fc",
+  "text": "Recall that 12 squared equals 144."
+}

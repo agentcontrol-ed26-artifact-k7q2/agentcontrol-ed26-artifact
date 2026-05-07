@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.0001276,
+  "input_tokens": 134,
+  "latency_ms": 679,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 11,
+  "provider": "together",
+  "request_hash": "7fff963eaf0e8d32e928c0c02d36b59d92ccdfc1bb8ab4114feea1a92dabc70e",
+  "text": "Ada Lovelace [doc_lovelace]"
+}

@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 9.748000000000001e-05,
+  "input_tokens": 194,
+  "latency_ms": 1225,
+  "model": "deepseek-chat",
+  "output_tokens": 41,
+  "provider": "deepseek",
+  "request_hash": "b58c0d8211d8d5214d8273271d009fcde49e89cc2bee49e1d08088f33bc98226",
+  "text": "The provided evidence does not contain information about the publisher of *On the Origin of Species* or their birthplace. [doc_aldrin_bio][doc_armstrong_bio][doc_babbage]"
+}

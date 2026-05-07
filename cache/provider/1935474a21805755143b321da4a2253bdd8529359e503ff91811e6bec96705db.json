@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00016632000000000002,
+  "input_tokens": 144,
+  "latency_ms": 6748,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 45,
+  "provider": "together",
+  "request_hash": "1935474a21805755143b321da4a2253bdd8529359e503ff91811e6bec96705db",
+  "text": "The most common citation mistake is including unnecessary or incorrect information in the citation, such as including the full title of the document or adding extra punctuation, instead of following the exact format specified, answer phrase [doc_xxx]."
+}

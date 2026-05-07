@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00024764,
+  "input_tokens": 68,
+  "latency_ms": 2124,
+  "model": "deepseek-reasoner",
+  "output_tokens": 96,
+  "provider": "deepseek",
+  "request_hash": "48cafa355e8631db5ff2f8c57735d294107c3ae2d0925d4f2c5b1bb4b415c447",
+  "text": "Send the two fastest people as shuttlers to bring the torch back."
+}

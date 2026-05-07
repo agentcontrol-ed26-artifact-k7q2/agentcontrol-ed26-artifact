@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 6.043e-05,
+  "input_tokens": 69,
+  "latency_ms": 1197,
+  "model": "deepseek-chat",
+  "output_tokens": 38,
+  "provider": "deepseek",
+  "request_hash": "b2868b51f4b21dba3747df6e4220c66795cf34fc29dba07ec49de0519d4a4373",
+  "text": "```python\ndata = [{'k':1},{'k':2},{'k':3}]\ntotal = sum(d['k'] for d in data)\nprint(total)\n```"
+}

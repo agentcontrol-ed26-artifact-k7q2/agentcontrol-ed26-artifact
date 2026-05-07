@@ -1,0 +1,11 @@
+{
+  "cache_hit": false,
+  "cost_usd": 0.00011439999999999999,
+  "input_tokens": 104,
+  "latency_ms": 1440,
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "output_tokens": 26,
+  "provider": "together",
+  "request_hash": "b729c2e964be92741e482d67d16ad902c299e40f5e9f22a66324adba85ce628c",
+  "text": "The most common mistake to avoid is calculating the exponents incorrectly or out of order, which can lead to an erroneous result."
+}
